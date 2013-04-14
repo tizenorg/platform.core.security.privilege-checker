@@ -20,7 +20,6 @@ pkg_check_modules(pkgs REQUIRED
 	dlog 
 	sqlite3 
 	libwbxml2
-	glib-2.0
 	)
 
 FOREACH(flag ${pkgs_CFLAGS})
