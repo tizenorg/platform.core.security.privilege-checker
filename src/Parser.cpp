@@ -142,7 +142,12 @@ Parser::ParsePrivilege (xmlDocPtr privilegeDoc, xmlNodePtr currentDoc)
 	res = SetPrivilegeDb(pPrivilegeInfo);
 	TryCatch(res == PRIV_CHECKER_SUCCESS, , "[%s] Propagated.", Util::GetErrorMessage(res));
 
-	LOGI("leave");
+	if (pPrivilegeInfo != NULL)
+	{
+		free(pPrivilegeInfo);
+	}
+
+	LOGI("leave.");
 	return res;
 
 CATCH:
@@ -222,10 +227,20 @@ Parser::ParsePrivacyList (xmlDocPtr privacyListDoc, xmlNodePtr currentDoc)
 	res = SetPrivacyDb(pPrivacyInfo);
 	TryCatch(res == PRIV_CHECKER_SUCCESS, , "[%s] Propagated.", Util::GetErrorMessage(res));
 
-	LOGI("leave");
+	if (pPrivacyInfo != NULL)
+	{
+		free(pPrivacyInfo);
+	}
+
+	LOGI("leave.");
 	return res;
 
 CATCH:
+
+	if (pPrivacyInfo != NULL)
+	{
+		free(pPrivacyInfo);
+	}
 
 	LOGI("error!");
 	return res;
