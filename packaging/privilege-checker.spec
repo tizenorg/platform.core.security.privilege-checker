@@ -5,13 +5,11 @@ Release: 3
 Group:   System/Libraries
 License: SAMSUNG
 Source0: %{name}-%{version}.tar.gz
-Source1: privilege-checker.manifest
 BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(capi-base-common)
 BuildRequires: pkgconfig(libwbxml2)
-
 
 %description
 Privilege Management
@@ -49,16 +47,13 @@ mkdir -p %{buildroot}/opt/dbspace
 cp res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
 
 %make_install
-install -D %{SOURCE1} %{buildroot}%{_datadir}/privilege-checker.manifest
-
 
 %files -n privilege-checker
 /usr/share/license/privilege-checker
 /usr/bin/*
 /opt/dbspace/.privilegelist.db
-%manifest %{_datadir}/privilege-checker.manifest
+%manifest packaging/privilege-checker.manifest
 
 %clean
 rm -rf %{buildroot}
-
 
