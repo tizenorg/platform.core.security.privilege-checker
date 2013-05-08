@@ -34,10 +34,11 @@ public:
 private:
 	static int SetPrivilegeDb(PrivilegeInfo* pPrivilegeInfo);
 	static int SetPrivacyDb(PrivacyInfo* pPrivilegeInfo);
-	static int ParseStringInfo (xmlDocPtr stringInfoDoc, xmlNodePtr currentDoc, StringInfo** ppStringInfo);
-	static int ParsePrivilege (xmlDocPtr privilegeDoc, xmlNodePtr currentDoc);
-	static int ParsePrivilegeList (xmlDocPtr privilegeListDoc, xmlNodePtr currentDoc);
-	static int ParsePrivacyList (xmlDocPtr privacyListDoc, xmlNodePtr currentDoc);
+	static int ParseStringInfo(xmlDocPtr stringInfoDoc, xmlNodePtr currentDoc, StringInfo** ppStringInfo);
+	static int ParsePrivilege(xmlDocPtr privilegeDoc, xmlNodePtr currentDoc);
+	static int ParsePrivilegeList(xmlDocPtr privilegeListDoc, xmlNodePtr currentDoc);
+	static int ParsePrivacy(xmlDocPtr privacyDoc, xmlNodePtr currentDoc);
+	static int ParsePrivacyList(xmlDocPtr privacyListDoc, xmlNodePtr currentDoc);
 
 };
 

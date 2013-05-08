@@ -192,7 +192,7 @@ Parser::ParsePrivilegeList (xmlDocPtr privilegeListDoc, xmlNodePtr currentDoc)
 }
 
 int
-Parser::ParsePrivacyList (xmlDocPtr privacyListDoc, xmlNodePtr currentDoc)
+Parser::ParsePrivacy(xmlDocPtr privacyDoc, xmlNodePtr currentDoc)
 {
 	LOGI("enter");
 	int res = PRIV_CHECKER_SUCCESS;
@@ -207,11 +207,11 @@ Parser::ParsePrivacyList (xmlDocPtr privacyListDoc, xmlNodePtr currentDoc)
 		{
 			if ((!xmlStrcmp(currentDoc->name, (const xmlChar *)"id")))
 			{
-				pPrivacyInfo->pId = xmlNodeListGetString(privacyListDoc, currentDoc->xmlChildrenNode, 1);
+				pPrivacyInfo->pId = xmlNodeListGetString(privacyDoc, currentDoc->xmlChildrenNode, 1);
 			}
 			else if ((!xmlStrcmp(currentDoc->name, (const xmlChar *)"string_info")))
 			{
-				res = ParseStringInfo(privacyListDoc, currentDoc, &(pPrivacyInfo->pStringInfo));
+				res = ParseStringInfo(privacyDoc, currentDoc, &(pPrivacyInfo->pStringInfo));
 				TryCatch(res == PRIV_CHECKER_SUCCESS, , "[%s] Propagated.", Util::GetErrorMessage(res));
 			}
 			else
@@ -245,6 +245,36 @@ CATCH:
 	LOGI("error!");
 	return res;
 
+}
+
+int
+Parser::ParsePrivacyList (xmlDocPtr privacyListDoc, xmlNodePtr currentDoc)
+{
+	LOGI("enter");
+	int res = PRIV_CHECKER_SUCCESS;
+
+	currentDoc = currentDoc->xmlChildrenNode;
+	while (currentDoc != NULL)
+	{
+		if (currentDoc->type == XML_ELEMENT_NODE)
+		{
+			if ((!xmlStrcmp(currentDoc->name, (const xmlChar *)"privacy")))
+			{
+				res = ParsePrivacy(privacyListDoc, currentDoc);
+				TryReturn(res == PRIV_CHECKER_SUCCESS, , res, "[%s] Propagated.", Util::GetErrorMessage(res));
+			}
+			else
+			{
+				LOGE("[PRIV_CHECKER_ERROR_INVALID_ARG] Invalid policy type: %s", currentDoc->name);
+				res = PRIV_CHECKER_ERROR_INVALID_ARG;
+				return res;
+			}
+		}
+		currentDoc = currentDoc->next;
+	}
+
+	LOGI("leave");
+	return res;
 }
 
 
