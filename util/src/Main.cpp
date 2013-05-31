@@ -16,9 +16,6 @@
 
 #include <stdio.h>
 #include <Parser.h>
-#include <dlog.h>
-#include <libintl.h>
-#include <locale.h>
 
 int
 main(int argc, char **argv) {
@@ -33,5 +30,5 @@ main(int argc, char **argv) {
 	fileName = argv[1];
 	Parser::ParseExtendedPolicy(fileName);
 
-	return 1;
+	return 0;
 }

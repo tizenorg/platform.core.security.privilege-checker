@@ -1,0 +1,51 @@
+msgid "IDS_COM_SK_CANCEL"
+msgstr "Cancel"
+
+msgid "IDS_COM_SK_OK"
+msgstr "OK"
+
+msgid "IDS_COM_POP_APPLICATION_TYPE"
+msgstr "Application type"
+
+msgid "IDS_COM_POP_DEFAULT_APPLICATION"
+msgstr "Default application"
+
+msgid "IDS_COM_POP_SELECT_DEFAULT_APPLICATION"
+msgstr "Select default application"
+
+msgid "IDS_PRIVILEGE_NAME_ALARM"
+msgstr "Alarm"
+
+msgid "IDS_PRIVILEGE_DESC_ALARM"
+msgstr "Allows the application to set an alarm and wake up the device at the scheduled time."
+
+msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
+msgstr "Application launch"
+
+msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
+msgstr "Allows the application to be opened conditionally or to open another application."
+
+msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
+msgstr "Application termination"
+
+msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
+msgstr "Allows the application to close another application."
+
+msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
+msgstr "Application management"
+
+msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
+msgstr "Allows the application to open another application conditionally."
+
+msgid "IDS_PRIVILEGE_NAME_APPSETTING"
+msgstr "Application settings"
+
+msgid "IDS_PRIVILEGE_DESC_APPSETTING"
+msgstr "Allows the application to manage application settings."
+
+msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
+msgstr "Application usage notifications"
+
+msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
+msgstr "Allows the application to receive notifications about foreground application changes."
+

@@ -22,6 +22,27 @@ Requires: privilege-checker = %{version}-%{release}
 %description -n privilege-checker-devel
 privilege-checker devel
 
+%package -n capi-security-privilege-manager
+Summary:    Privilege Manager API
+Group:      TO_BE/FILLED_IN
+License:    TO BE FILLED IN
+BuildRequires:  cmake
+BuildRequires:  pkgconfig(dlog)
+BuildRequires:  pkgconfig(capi-base-common)
+BuildRequires:  pkgconfig(vconf)
+BuildRequires:  gettext-tools
+BuildRequires:  pkgconfig(pkgmgr-info)
+
+%description -n capi-security-privilege-manager
+The Privilege Manager API provides functions to get information about privilege information of installed packages.
+
+%package  -n capi-security-privilege-manager-devel
+Summary:  Privilege Manager API (Development)
+Group:    TO_BE/FILLED_IN
+
+%description -n capi-security-privilege-manager-devel
+The Privilege Manager API provides functions to get information about privilege information of installed packages.(DEV)
+
 %prep
 %setup -q
 
@@ -31,12 +52,16 @@ echo cmake . -DPREFIX=%{_prefix} \
         -DEXEC_PREFIX=%{_exec_prefix} \
         -DLIBDIR=%{_libdir} \
         -DINCLUDEDIR=%{_includedir} \
-        -DCMAKE_BUILD_TYPE=%{build_type}
+        -DCMAKE_BUILD_TYPE=%{build_type} \
+        -DVERSION=%{version} \
+        -DDPL_LOG="ON" 
 cmake . -DPREFIX=%{_prefix} \
         -DEXEC_PREFIX=%{_exec_prefix} \
         -DLIBDIR=%{_libdir} \
         -DINCLUDEDIR=%{_includedir} \
-        -DCMAKE_BUILD_TYPE=%{build_type}
+        -DCMAKE_BUILD_TYPE=%{build_type} \
+        -DVERSION=%{version} \
+        -DDPL_LOG="ON" 
 make %{?jobs:-j%jobs}
 
 %install
@@ -44,7 +69,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/license
 cp LICENSE.APLv2 %{buildroot}/usr/share/license/privilege-checker
 mkdir -p %{buildroot}/opt/dbspace
-cp res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
+cp util/res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
 
 %make_install
 
@@ -53,6 +78,15 @@ cp res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
 /usr/bin/*
 /opt/dbspace/.privilegelist.db
 %manifest packaging/privilege-checker.manifest
+
+%files -n capi-security-privilege-manager
+%{_libdir}/libcapi-security-privilege-manager.so.*
+/usr/share/locale/*
+%manifest packaging/capi-security-privilege-manager.manifest
+
+%files -n capi-security-privilege-manager-devel
+%{_includedir}/privilegemgr/*.h
+%{_libdir}/libcapi-security-privilege-manager.so
 
 %clean
 rm -rf %{buildroot}
