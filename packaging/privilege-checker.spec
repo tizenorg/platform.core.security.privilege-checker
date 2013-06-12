@@ -80,13 +80,15 @@ cp util/res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
 %manifest packaging/privilege-checker.manifest
 
 %files -n capi-security-privilege-manager
-%{_libdir}/libcapi-security-privilege-manager.so.*
+%{_libdir}/libcapi-security-privilege-manager.so*
 /usr/share/locale/*
 %manifest packaging/capi-security-privilege-manager.manifest
 
 %files -n capi-security-privilege-manager-devel
 %{_includedir}/privilegemgr/*.h
-%{_libdir}/libcapi-security-privilege-manager.so
+%{_libdir}/libcapi-security-privilege-manager.so*
+/usr/share/locale/*
+%manifest packaging/capi-security-privilege-manager.manifest
 
 %clean
 rm -rf %{buildroot}

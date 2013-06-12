@@ -1,51 +1,497 @@
-msgid "IDS_COM_SK_CANCEL"
-msgstr "Cancel"
-
-msgid "IDS_COM_SK_OK"
-msgstr "OK"
-
-msgid "IDS_COM_POP_APPLICATION_TYPE"
-msgstr "Application type"
-
-msgid "IDS_COM_POP_DEFAULT_APPLICATION"
-msgstr "Default application"
-
-msgid "IDS_COM_POP_SELECT_DEFAULT_APPLICATION"
-msgstr "Select default application"
-
 msgid "IDS_PRIVILEGE_NAME_ALARM"
 msgstr "Alarm"
-
-msgid "IDS_PRIVILEGE_DESC_ALARM"
-msgstr "Allows the application to set an alarm and wake up the device at the scheduled time."
 
 msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
 msgstr "Application launch"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
-msgstr "Allows the application to be opened conditionally or to open another application."
-
 msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
 msgstr "Application termination"
-
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
-msgstr "Allows the application to close another application."
 
 msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
 msgstr "Application management"
 
-msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
-msgstr "Allows the application to open another application conditionally."
-
 msgid "IDS_PRIVILEGE_NAME_APPSETTING"
 msgstr "Application settings"
-
-msgid "IDS_PRIVILEGE_DESC_APPSETTING"
-msgstr "Allows the application to manage application settings."
 
 msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
 msgstr "Application usage notifications"
 
-msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
-msgstr "Allows the application to receive notifications about foreground application changes."
+msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_ROUTE"
+msgstr "Audio routes"
 
+msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_SESSION"
+msgstr "Audio sessions"
+
+msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_VOIPSESSION"
+msgstr "VoIP audio sessions"
+
+msgid "IDS_PRIVILEGE_NAME_AUDIORECORDER"
+msgstr "Audio recorder"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_ADMIN"
+msgstr "Bluetooth status"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_GAP"
+msgstr "Bluetooth GAP"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_HEALTH"
+msgstr "Bluetooth HDP"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_OPP"
+msgstr "Bluetooth OPP"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_SPP"
+msgstr "Bluetooth SPP"
+
+msgid "IDS_PRIVILEGE_NAME_BLUETOOTHMANAGER"
+msgstr "Bluetooth state settings"
+
+msgid "IDS_PRIVILEGE_NAME_CALENDAR_READ"
+msgstr "Calendar reading"
+
+msgid "IDS_PRIVILEGE_NAME_CALENDAR_WRITE"
+msgstr "Calendar writing"
+
+msgid "IDS_PRIVILEGE_NAME_CALLFORWARD"
+msgstr "Call forwarding"
+
+msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_READ"
+msgstr "Call history reading"
+
+msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_WRITE"
+msgstr "Call history management"
+
+msgid "IDS_PRIVILEGE_NAME_CAMERA"
+msgstr "Camera"
+
+msgid "IDS_PRIVILEGE_NAME_CELLBROADCAST"
+msgstr "Cell Broadcast Service"
+
+msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_READ"
+msgstr "Certificate reading"
+
+msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_WRITE"
+msgstr "Certificate management"
+
+msgid "IDS_PRIVILEGE_NAME_CONTACT_READ"
+msgstr "Contact reading"
+
+msgid "IDS_PRIVILEGE_NAME_CONTACT_WRITE"
+msgstr "Contact management"
+
+msgid "IDS_PRIVILEGE_NAME_CONTENT_READ"
+msgstr "Content reading"
+
+msgid "IDS_PRIVILEGE_NAME_CONTENT_WRITE"
+msgstr "Content management"
+
+msgid "IDS_PRIVILEGE_NAME_CUSTOMNETACCOUNT"
+msgstr "Advanced Internet"
+
+msgid "IDS_PRIVILEGE_NAME_DNS"
+msgstr "DNS"
+
+msgid "IDS_PRIVILEGE_NAME_DOWNLOAD"
+msgstr "Download"
+
+msgid "IDS_PRIVILEGE_NAME_HTTP"
+msgstr "HTTP"
+
+msgid "IDS_PRIVILEGE_NAME_IME"
+msgstr "IME"
+
+msgid "IDS_PRIVILEGE_NAME_INPUTMANAGER"
+msgstr "Input manager"
+
+msgid "IDS_PRIVILEGE_NAME_LOCATION"
+msgstr "User location"
+
+msgid "IDS_PRIVILEGE_NAME_MESSAGING_EMAIL"
+msgstr "Email management"
+
+msgid "IDS_PRIVILEGE_NAME_MESSAGING_MMS"
+msgstr "MMS management"
+
+msgid "IDS_PRIVILEGE_NAME_MESSAGING_SMS"
+msgstr "SMS management"
+
+msgid "IDS_PRIVILEGE_NAME_NETWORK_ACCOUNT"
+msgstr "Network accounts"
+
+msgid "IDS_PRIVILEGE_NAME_NETWORK_CONNECTION"
+msgstr "Network connections"
+
+msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_READ"
+msgstr "Network statistic reading"
+
+msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_WRITE"
+msgstr "Network statistic reset"
+
+msgid "IDS_PRIVILEGE_NAME_NETWORKMANAGER"
+msgstr "Network settings"
+
+msgid "IDS_PRIVILEGE_NAME_NFC_ADMIN"
+msgstr "NFC status"
+
+msgid "IDS_PRIVILEGE_NAME_NFC_CARDEMULATION"
+msgstr "NFC card emulation"
+
+msgid "IDS_PRIVILEGE_NAME_NFC_COMMON"
+msgstr "NFC common"
+
+msgid "IDS_PRIVILEGE_NAME_NFC_P2P"
+msgstr "NFC P2P"
+
+msgid "IDS_PRIVILEGE_NAME_NFC_TAG"
+msgstr "NFC tag discovery"
+
+msgid "IDS_PRIVILEGE_NAME_NOTIFICATION"
+msgstr "Notifications"
+
+msgid "IDS_PRIVILEGE_NAME_NOTIFICATIONMANAGER"
+msgstr "Notification management"
+
+msgid "IDS_PRIVILEGE_NAME_PACKAGEINFO"
+msgstr "Package information"
+
+msgid "IDS_PRIVILEGE_NAME_PACKAGEMANAGER_INSTALL"
+msgstr "Package management"
+
+msgid "IDS_PRIVILEGE_NAME_PACKAGESETTING"
+msgstr "Package settings"
+
+msgid "IDS_PRIVILEGE_NAME_POWER"
+msgstr "Power control"
+
+msgid "IDS_PRIVILEGE_NAME_PUSH"
+msgstr "Push notifications"
+
+msgid "IDS_PRIVILEGE_NAME_SETTING"
+msgstr "Setting access"
+
+msgid "IDS_PRIVILEGE_NAME_SMSTRIGGER"
+msgstr "SMS trigger"
+
+msgid "IDS_PRIVILEGE_NAME_SOCKET"
+msgstr "Sockets"
+
+msgid "IDS_PRIVILEGE_NAME_SYSTEMINFO"
+msgstr "System information"
+
+msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_READ"
+msgstr "System settings reading"
+
+msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_WRITE"
+msgstr "System settings management"
+
+msgid "IDS_PRIVILEGE_NAME_UIMANAGER"
+msgstr "UI manager"
+
+msgid "IDS_PRIVILEGE_NAME_USERIDENTITY"
+msgstr "User ID"
+
+msgid "IDS_PRIVILEGE_NAME_VIBRATOR"
+msgstr "Vibrator"
+
+msgid "IDS_PRIVILEGE_NAME_VIDEORECORDER"
+msgstr "Video recorder"
+
+msgid "IDS_PRIVILEGE_NAME_WAPPUSH"
+msgstr "WAP push"
+
+msgid "IDS_PRIVILEGE_NAME_WEB_PRIVACY"
+msgstr "Web privacy"
+
+msgid "IDS_PRIVILEGE_NAME_WEB_SERVICE"
+msgstr "Web service"
+
+msgid "IDS_PRIVILEGE_NAME_WIFI_ADMIN"
+msgstr "Wi-Fi status"
+
+msgid "IDS_PRIVILEGE_NAME_WIFI_READ"
+msgstr "Wi-Fi information reading"
+
+msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_ADMIN"
+msgstr "Wi-Fi Direct™ status"
+
+msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_READ"
+msgstr "Wi-Fi Direct™ information reading"
+
+msgid "IDS_PRIVILEGE_NAME_DRMSERVICE"
+msgstr "DRM"
+
+msgid "IDS_PRIVILEGE_NAME_IMEMANAGER"
+msgstr "IME manager"
+
+msgid "IDS_PRIVILEGE_NAME_TELEPHONYMANAGER"
+msgstr "Cellular network"
+
+msgid "IDS_PRIVILEGE_NAME_PLATFORMINFO"
+msgstr "Platform information"
+
+msgid "IDS_PRIVILEGE_NAME_PACKAGELICENSEMANAGER"
+msgstr "Package license management"
+
+msgid "IDS_PRIVILEGE_NAME_WIFIMANAGER"
+msgstr "Wi-Fi settings"
+
+msgid "IDS_PRIVILEGE_NAME_ACCOUNT_READ"
+msgstr "Account reading"
+
+msgid "IDS_PRIVILEGE_NAME_ACCOUNT_WRITE"
+msgstr "Account management"
+
+msgid "IDS_PRIVILEGE_NAME_USERPROFILE_READ"
+msgstr "User profile reading"
+
+msgid "IDS_PRIVILEGE_NAME_USERPROFILE_WRITE"
+msgstr "User profile setting"
+
+msgid "IDS_PRIVILEGE_DESC_ALARM"
+msgstr "Allows the application to reserve an alarm and wake up the device at the reserved time."
+
+msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
+msgstr "Allows the application to launch another application or allows the current applicationto be launched conditionally."
+
+msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
+msgstr "Allows the application to terminate another application."
+
+msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
+msgstr "Allows the application to launchanother applicationconditionally."
+
+msgid "IDS_PRIVILEGE_DESC_APPSETTING"
+msgstr "Allows the application to manage application settings."
+
+msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
+msgstr "Allows the application to receive notifications about application changes."
+
+msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_ROUTE"
+msgstr "Allows the application to get and set the audio input and output routes and receive notifications about route-related events."
+
+msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_SESSION"
+msgstr "Allows the application to handle the audio session policy between applications."
+
+msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_VOIPSESSION"
+msgstr "Allows the application to perform audio session management with the VoIP call."
+
+msgid "IDS_PRIVILEGE_DESC_AUDIORECORDER"
+msgstr "Allows the application to manage audio recording."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_ADMIN"
+msgstr "Allows the application to change the Bluetooth state, such as activating, deactivating, and setting the device name."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_GAP"
+msgstr "Allows the application to use the GAP (Generic Access Profile), for example, to discover and pair devices."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_HEALTH"
+msgstr "Allows the application to use the HDP (Health Device Profile), for example, to send health data."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_OPP"
+msgstr "Allows the application to use the OPP (Object Push Profile), for example, to send files."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_SPP"
+msgstr "Allows the application to use the SPP (Serial Port Profile), for example, to send serial data."
+
+msgid "IDS_PRIVILEGE_DESC_BLUETOOTHMANAGER"
+msgstr "Allows the application to change the Bluetooth state related to privacy and security issues, such as changing the discoverable mode."
+
+msgid "IDS_PRIVILEGE_DESC_CALENDAR_READ"
+msgstr "Allows the application to readschedule and task information."
+
+msgid "IDS_PRIVILEGE_DESC_CALENDAR_WRITE"
+msgstr "Allows the application to create, update, and delete schedule and task information."
+
+msgid "IDS_PRIVILEGE_DESC_CALLFORWARD"
+msgstr "Allows the application to controls the call forwarding service."
+
+msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_READ"
+msgstr "Allows the application to read call history."
+
+msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_WRITE"
+msgstr "Allows the application to create, update, and delete call history."
+
+msgid "IDS_PRIVILEGE_DESC_CAMERA"
+msgstr "Allows the application to manage the device cameras for previewing and capturing."
+
+msgid "IDS_PRIVILEGE_DESC_CELLBROADCAST"
+msgstr "Allows the application to manage Cell Broadcast Service."
+
+msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_READ"
+msgstr "Allows the application to read certificates."
+
+msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_WRITE"
+msgstr "Allows the application to add, update, and delete certificates."
+
+msgid "IDS_PRIVILEGE_DESC_CONTACT_READ"
+msgstr "Allows the application to read contacts."
+
+msgid "IDS_PRIVILEGE_DESC_CONTACT_WRITE"
+msgstr "Allows the application to create, update, and delete contacts."
+
+msgid "IDS_PRIVILEGE_DESC_CONTENT_READ"
+msgstr "Allows the application to read content."
+
+msgid "IDS_PRIVILEGE_DESC_CONTENT_WRITE"
+msgstr "Allows the application to create, update, and delete content."
+
+msgid "IDS_PRIVILEGE_DESC_CUSTOMNETACCOUNT"
+msgstr "Allows the application to use the Internet with a specified bearer."
+
+msgid "IDS_PRIVILEGE_DESC_DNS"
+msgstr "Allows the application to provide DNS (Domain Name Service)."
+
+msgid "IDS_PRIVILEGE_DESC_DOWNLOAD"
+msgstr "Allows the application to manage HTTP downloads."
+
+msgid "IDS_PRIVILEGE_DESC_HTTP"
+msgstr "Allows the application to communicate with the HTTP server."
+
+msgid "IDS_PRIVILEGE_DESC_IME"
+msgstr "Allows the application to provide a way to input characters and symbols into an associated text input UI control."
+
+msgid "IDS_PRIVILEGE_DESC_INPUTMANAGER"
+msgstr "Allows the application to generate touch and key events, and capture screens."
+
+msgid "IDS_PRIVILEGE_DESC_LOCATION"
+msgstr "Allows the application to use the user location data."
+
+msgid "IDS_PRIVILEGE_DESC_MESSAGING_EMAIL"
+msgstr "Allows the application to send email messages."
+
+msgid "IDS_PRIVILEGE_DESC_MESSAGING_MMS"
+msgstr "Allows the application to send MMS messages."
+
+msgid "IDS_PRIVILEGE_DESC_MESSAGING_SMS"
+msgstr "Allows the application to send and receiveSMS messages, and retrieve SMS messages from the SMS message boxes."
+
+msgid "IDS_PRIVILEGE_DESC_NETWORK_ACCOUNT"
+msgstr "Allows the application to manage network accounts."
+
+msgid "IDS_PRIVILEGE_DESC_NETWORK_CONNECTION"
+msgstr "Allows the application to manage network connections."
+
+msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_READ"
+msgstr "Allows the application to read network statistics."
+
+msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_WRITE"
+msgstr "Allows the application to reset network statistics."
+
+msgid "IDS_PRIVILEGE_DESC_NETWORKMANAGER"
+msgstr "Allows the application to update existing system network accounts."
+
+msgid "IDS_PRIVILEGE_DESC_NFC_ADMIN"
+msgstr "Allows the application to change the NFC state, such as activating or deactivating the NFC feature."
+
+msgid "IDS_PRIVILEGE_DESC_NFC_CARDEMULATION"
+msgstr "Allows the application to control the card emulation."
+
+msgid "IDS_PRIVILEGE_DESC_NFC_COMMON"
+msgstr "Allows the application to manage the common NFC features."
+
+msgid "IDS_PRIVILEGE_DESC_NFC_P2P"
+msgstr "Allows the application to push NFC messages to other devices."
+
+msgid "IDS_PRIVILEGE_DESC_NFC_TAG"
+msgstr "Allows the application to read and write tag information."
+
+msgid "IDS_PRIVILEGE_DESC_NOTIFICATION"
+msgstr "Allows the application to notifythe user through various notification mechanisms, such as message and badge."
+
+msgid "IDS_PRIVILEGE_DESC_NOTIFICATIONMANAGER"
+msgstr "Allows the application to manage notifications."
+
+msgid "IDS_PRIVILEGE_DESC_PACKAGEINFO"
+msgstr "Allows the application to get package information."
+
+msgid "IDS_PRIVILEGE_DESC_PACKAGEMANAGER_INSTALL"
+msgstr "Allows the application to install or uninstall an application package."
+
+msgid "IDS_PRIVILEGE_DESC_PACKAGESETTING"
+msgstr "Allows the application to set the package configurations."
+
+msgid "IDS_PRIVILEGE_DESC_POWER"
+msgstr "Allows the application to keep and control power states."
+
+msgid "IDS_PRIVILEGE_DESC_PUSH"
+msgstr "Allows the application to receive push notifications."
+
+msgid "IDS_PRIVILEGE_DESC_SETTING"
+msgstr "Allows the application to update or read the user's setting configuration."
+
+msgid "IDS_PRIVILEGE_DESC_SMSTRIGGER"
+msgstr "Allows the application to receive SMS messages from a specified port."
+
+msgid "IDS_PRIVILEGE_DESC_SOCKET"
+msgstr "Allows the application to communicate with other devices and servers."
+
+msgid "IDS_PRIVILEGE_DESC_SYSTEMINFO"
+msgstr "Allows the application to retrieve system information, such as network, SIM, and call details."
+
+msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_READ"
+msgstr "Allows the application to read the user's secure or privacy setting configuration."
+
+msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_WRITE"
+msgstr "Allows the application to change or write the user's secure or privacy setting configuration."
+
+msgid "IDS_PRIVILEGE_DESC_UIMANAGER"
+msgstr "Allows the application to manage the systematic properties of the UI."
+
+msgid "IDS_PRIVILEGE_DESC_USERIDENTITY"
+msgstr "Allows the application to access privacy information for user identification purposes."
+
+msgid "IDS_PRIVILEGE_DESC_VIBRATOR"
+msgstr "Allows the application to activate and use the device vibrator feature."
+
+msgid "IDS_PRIVILEGE_DESC_VIDEORECORDER"
+msgstr "Allows the application to manage video recording with the camera."
+
+msgid "IDS_PRIVILEGE_DESC_WAPPUSH"
+msgstr "Allows the application to manage WAP push messages."
+
+msgid "IDS_PRIVILEGE_DESC_WEB_PRIVACY"
+msgstr "Allows the application to manage the user data stored by the Web control or browser."
+
+msgid "IDS_PRIVILEGE_DESC_WEB_SERVICE"
+msgstr "Allows the application to display Web content or use the Web content-related API."
+
+msgid "IDS_PRIVILEGE_DESC_WIFI_ADMIN"
+msgstr "Allows the application to manage a Wi-Fi device."
+
+msgid "IDS_PRIVILEGE_DESC_WIFI_READ"
+msgstr "Allows the application to request Wi-Fi information."
+
+msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_ADMIN"
+msgstr "Allows the application to manage a Wi-Fi Direct™ device."
+
+msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_READ"
+msgstr "Allows the application to request Wi-Fi Direct™ information."
+
+msgid "IDS_PRIVILEGE_DESC_DRMSERVICE"
+msgstr "Allows the application to manage theDRM (Digital Rights Management) licenses and retrieve DRM content information."
+
+msgid "IDS_PRIVILEGE_DESC_IMEMANAGER"
+msgstr "Allows the application to manage input methods installed in the system."
+
+msgid "IDS_PRIVILEGE_DESC_TELEPHONYMANAGER"
+msgstr "Allows the application to configure the cellular network."
+
+msgid "IDS_PRIVILEGE_DESC_PLATFORMINFO"
+msgstr "Allows the application to read platform information, such as platform or API version."
+
+msgid "IDS_PRIVILEGE_DESC_PACKAGELICENSEMANAGER"
+msgstr "Allows the application to manage DRM licenses for application support."
+
+msgid "IDS_PRIVILEGE_DESC_WIFIMANAGER"
+msgstr "Allows the application to manage the Wi-Fi system settings."
+
+msgid "IDS_PRIVILEGE_DESC_ACCOUNT_READ"
+msgstr "Allows the application to read accounts."
+
+msgid "IDS_PRIVILEGE_DESC_ACCOUNT_WRITE"
+msgstr "Allows the application to create, update, and delete accounts."
+
+msgid "IDS_PRIVILEGE_DESC_USERPROFILE_READ"
+msgstr "Allows the application to readthe user profile."
+
+msgid "IDS_PRIVILEGE_DESC_USERPROFILE_WRITE"
+msgstr "Allows the application to setthe user profile."
