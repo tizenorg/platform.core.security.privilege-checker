@@ -44,13 +44,15 @@ DbManager::InsertPrivacy(const PrivacyInfo* pPrivacyInfo)
 	dbRes = sqlite3_open_v2(PRIVACY_INFO_DB_PATH, &pDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3, decltype(DbDeleter)> pDbHandler (pDbHandlerTemp, DbDeleter);
+	DbDeleter dbdel;
+	std::unique_ptr <sqlite3, DbDeleter> pDbHandler (pDbHandlerTemp, dbdel);
 
 	sqlite3_stmt* pStmtTemp = NULL;
 	dbRes = sqlite3_prepare_v2(pDbHandler.get(), query, -1, & pStmtTemp, 0);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pStmt(pStmtTemp, StmtDeleter);
+	StmtDeleter deltr;
+	std::unique_ptr <sqlite3_stmt, StmtDeleter> pStmt(pStmtTemp, deltr);
 
 	dbRes = sqlite3_bind_text(pStmt.get(), 1, (char*)(pPrivacyInfo->pId), -1, SQLITE_TRANSIENT);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] bind_text failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
@@ -111,13 +113,15 @@ DbManager::InsertPrivilege(const PrivilegeInfo* pPrivilegeInfo)
 	dbRes = sqlite3_open_v2(PRIVILEGE_INFO_DB_PATH, &pPrivilegeDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3, decltype(DbDeleter)> pPrivilegeDbHandler (pPrivilegeDbHandlerTemp, DbDeleter);
+	DbDeleter dbdel;
+	std::unique_ptr <sqlite3, DbDeleter> pPrivilegeDbHandler (pPrivilegeDbHandlerTemp, dbdel);
 
 	sqlite3_stmt* pPrivilegeStmtTemp = NULL;
 	dbRes = sqlite3_prepare_v2(pPrivilegeDbHandler.get(), query, -1, & pPrivilegeStmtTemp, 0);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pPrivilegeStmt(pPrivilegeStmtTemp, StmtDeleter);
+	StmtDeleter deltr;
+	std::unique_ptr <sqlite3_stmt, StmtDeleter> pPrivilegeStmt(pPrivilegeStmtTemp, deltr);
 
 	dbRes = sqlite3_bind_text(pPrivilegeStmt.get(), 1, (char*)(pPrivilegeInfo->pId), -1, SQLITE_TRANSIENT);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] bind_text failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
@@ -163,13 +167,15 @@ DbManager::InsertPrivilege(const PrivilegeInfo* pPrivilegeInfo)
 		dbRes = sqlite3_open_v2(PRIVACY_INFO_DB_PATH, &pDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 		TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-		std::unique_ptr <sqlite3, decltype(DbDeleter)> pDbHandler (pDbHandlerTemp, DbDeleter);
+		DbDeleter dbdel;
+		std::unique_ptr <sqlite3, DbDeleter> pDbHandler (pDbHandlerTemp, dbdel);
 
 		sqlite3_stmt* pStmtTemp = NULL;
 		dbRes = sqlite3_prepare_v2(pDbHandler.get(), queryPrivacy, -1, & pStmtTemp, 0);
 		TryReturn(res == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-		std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pStmt(pStmtTemp, StmtDeleter);
+		StmtDeleter deltr;
+		std::unique_ptr <sqlite3_stmt, StmtDeleter> pStmt(pStmtTemp, deltr);
 
 		dbRes = sqlite3_bind_text(pStmt.get(), 1, (char*)(pPrivilegeInfo->pId), -1, SQLITE_TRANSIENT);
 		TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] bind_text failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
@@ -207,13 +213,15 @@ DbManager::DeletePrivacy(const PrivacyInfo* pPrivacyInfo)
 	dbRes = sqlite3_open_v2(PRIVACY_INFO_DB_PATH, &pDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3, decltype(DbDeleter)> pDbHandler (pDbHandlerTemp, DbDeleter);
+	DbDeleter dbdel;
+	std::unique_ptr <sqlite3, DbDeleter> pDbHandler (pDbHandlerTemp, dbdel);
 
 	sqlite3_stmt* pStmtTemp = NULL;
 	dbRes = sqlite3_prepare_v2(pDbHandler.get(), query, -1, & pStmtTemp, 0);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pStmt(pStmtTemp, StmtDeleter);
+	StmtDeleter deltr;
+	std::unique_ptr <sqlite3_stmt, StmtDeleter> pStmt(pStmtTemp, deltr);
 
 	dbRes = sqlite3_step(pStmt.get());
 	TryReturn(dbRes == SQLITE_DONE, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB step failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
@@ -242,13 +250,15 @@ DbManager::DeletePrivilege(const PrivilegeInfo* pPrivilegeInfo)
 	dbRes = sqlite3_open_v2(PRIVILEGE_INFO_DB_PATH, &pPrivilegeDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3, decltype(DbDeleter)> pPrivilegeDbHandler (pPrivilegeDbHandlerTemp, DbDeleter);
+	DbDeleter dbdel;
+	std::unique_ptr <sqlite3, DbDeleter> pPrivilegeDbHandler (pPrivilegeDbHandlerTemp, dbdel);
 
 	sqlite3_stmt* pPrivilegeStmtTemp = NULL;
 	dbRes = sqlite3_prepare_v2(pPrivilegeDbHandler.get(), query, -1, & pPrivilegeStmtTemp, 0);
 	TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-	std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pPrivilegeStmt(pPrivilegeStmtTemp, StmtDeleter);
+	StmtDeleter deltr;
+	std::unique_ptr <sqlite3_stmt, StmtDeleter> pPrivilegeStmt(pPrivilegeStmtTemp, deltr);
 
 	dbRes = sqlite3_step(pPrivilegeStmt.get());
 	TryReturn(dbRes == SQLITE_DONE, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB step failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
@@ -265,13 +275,15 @@ DbManager::DeletePrivilege(const PrivilegeInfo* pPrivilegeInfo)
 		dbRes = sqlite3_open_v2(PRIVACY_INFO_DB_PATH, &pDbHandlerTemp, SQLITE_OPEN_READWRITE , NULL);
 		TryReturn(dbRes == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB open error. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-		std::unique_ptr <sqlite3, decltype(DbDeleter)> pDbHandler (pDbHandlerTemp, DbDeleter);
+		DbDeleter dbdel;
+		std::unique_ptr <sqlite3, DbDeleter> pDbHandler (pDbHandlerTemp, dbdel);
 
 		sqlite3_stmt* pStmtTemp = NULL;
 		dbRes = sqlite3_prepare_v2(pDbHandler.get(), queryPrivacy, -1, & pStmtTemp, 0);
 		TryReturn(res == SQLITE_OK, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB prepare failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
-		std::unique_ptr <sqlite3_stmt, decltype(StmtDeleter)> pStmt(pStmtTemp, StmtDeleter);
+		StmtDeleter deltr;
+		std::unique_ptr <sqlite3_stmt, StmtDeleter> pStmt(pStmtTemp, deltr);
 
 		dbRes = sqlite3_step(pStmt.get());
 		TryReturn(dbRes == SQLITE_DONE, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB step failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);

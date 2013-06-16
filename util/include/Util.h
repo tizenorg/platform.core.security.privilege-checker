@@ -41,8 +41,24 @@
 		return r; \
 	} else {;}
 
-auto StmtDeleter = [&](sqlite3_stmt* pPtr) { LOGI("sqlite3_finalize"); sqlite3_reset (pPtr); sqlite3_finalize(pPtr); };
-auto DbDeleter = [&](sqlite3* pPtr) { LOGI("sqlite3_close"); sqlite3_close(pPtr); };
+struct StmtDeleter
+{
+	void operator()(sqlite3_stmt* pPtr) 
+	{
+		LOGI("sqlite3_finalize");
+		sqlite3_reset (pPtr);
+		sqlite3_finalize(pPtr);
+	}
+};
+
+struct DbDeleter
+{
+	void operator()(sqlite3* pPtr) 
+	{
+		LOGI("sqlite3_close");
+		sqlite3_close(pPtr);
+	}
+};
 
 class Util
 {
