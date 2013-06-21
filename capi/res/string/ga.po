@@ -1,497 +1,744 @@
-msgid "IDS_PRIVILEGE_NAME_ALARM"
-msgstr "Alarm"
+msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
+msgstr "Scanadh do víris"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
-msgstr "Application launch"
+msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
+msgstr "Faisnéis phribhléide a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
-msgstr "Application termination"
+msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
+msgstr "ID an úsáideora a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
-msgstr "Application management"
+msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Faisnéis chórais shlán a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_APPSETTING"
-msgstr "Application settings"
+msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgstr "Sonraí easpórtáilte a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
-msgstr "Application usage notifications"
+msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Faisnéis chórais a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_ROUTE"
-msgstr "Audio routes"
+msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgstr "An tIdirlíon a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_SESSION"
-msgstr "Audio sessions"
+msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
+msgstr "Eilimintí slána a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_VOIPSESSION"
-msgstr "VoIP audio sessions"
+msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
+msgstr "Aicearraí a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIORECORDER"
-msgstr "Audio recorder"
+msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
+msgstr "Dynamic Box a shuiteáil"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_ADMIN"
-msgstr "Bluetooth status"
+msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
+msgstr "Deimhnithe a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_GAP"
-msgstr "Bluetooth GAP"
+msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
+msgstr "Teagmhálaithe a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_HEALTH"
-msgstr "Bluetooth HDP"
+msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
+msgstr "Feidhmchláir a oscailt"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
+msgstr "Socruithe ginearálta Bluetooth a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_SPP"
-msgstr "Bluetooth SPP"
+msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
+msgstr "Socruithe aithrise cárta NFC a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTHMANAGER"
-msgstr "Bluetooth state settings"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Socruithe córais Bluetooth a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_READ"
-msgstr "Calendar reading"
+msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
+msgstr "Socruithe ginearálta NFC a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_WRITE"
-msgstr "Calendar writing"
+msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Socruithe córais NFC a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CALLFORWARD"
-msgstr "Call forwarding"
+msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Socruithe príobháideachta a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_READ"
-msgstr "Call history reading"
+msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Socruithe córais a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_WRITE"
-msgstr "Call history management"
+msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
+msgstr "Feidhmchláir a dhúnadh"
 
-msgid "IDS_PRIVILEGE_NAME_CAMERA"
-msgstr "Camera"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
+msgstr "Cumarsáid le gléasanna agus le freastalaithe eile"
 
-msgid "IDS_PRIVILEGE_NAME_CELLBROADCAST"
-msgstr "Cell Broadcast Service"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
+msgstr "Cumarsáid a dhéanamh leis an bhfreastalaí HTTP"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_READ"
-msgstr "Certificate reading"
+msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
+msgstr "Líonraí móibíleacha a chumrú"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_WRITE"
-msgstr "Certificate management"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
+msgstr "Léarscáileanna Samsung a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_READ"
-msgstr "Contact reading"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
+msgstr "Samsung MobileCare a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_WRITE"
-msgstr "Contact management"
+msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
+msgstr "Glaonna a chur ar aghaidh"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_READ"
-msgstr "Content reading"
+msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
+msgstr "Leabharmharcanna a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_WRITE"
-msgstr "Content management"
+msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
+msgstr "Cuntais a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_CUSTOMNETACCOUNT"
-msgstr "Advanced Internet"
+msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
+msgstr "Logaí glaonna a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_DNS"
-msgstr "DNS"
+msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
+msgstr "Inneachar a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_DOWNLOAD"
-msgstr "Download"
+msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
+msgstr "Féilire a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_HTTP"
-msgstr "HTTP"
+msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Ceadanna geoshuímh a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_IME"
-msgstr "IME"
+msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
+msgstr "Inneachar Gréasáin a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_INPUTMANAGER"
-msgstr "Input manager"
+msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
+msgstr "Imeachtaí ionchuir a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_LOCATION"
-msgstr "User location"
+msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
+msgstr "Fógraí a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_EMAIL"
-msgstr "Email management"
+msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
+msgstr "Deimhnithe feidhmchláir a fháil"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_MMS"
-msgstr "MMS management"
+msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
+msgstr "Am agus dáta a rochtain"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_SMS"
-msgstr "SMS management"
+msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
+msgstr "Cumhacht a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_ACCOUNT"
-msgstr "Network accounts"
+msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
+msgstr "Pacáistí a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_CONNECTION"
-msgstr "Network connections"
+msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
+msgstr "Próifíl úsáideora a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_READ"
-msgstr "Network statistic reading"
+msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
+msgstr "Feidhmchláir a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_WRITE"
-msgstr "Network statistic reset"
+msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Socruithe feidhmchláir a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORKMANAGER"
-msgstr "Network settings"
+msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
+msgstr "Fuaim a thaifeadadh"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_ADMIN"
-msgstr "NFC status"
+msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
+msgstr "Seisiúin fuaime VoIP a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_CARDEMULATION"
-msgstr "NFC card emulation"
+msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
+msgstr "Ceamara a úsáid"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_COMMON"
-msgstr "NFC common"
+msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
+msgstr "DRM a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_P2P"
-msgstr "NFC P2P"
+msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
+msgstr "Íoslódáil trí HTTP"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_TAG"
-msgstr "NFC tag discovery"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
+msgstr "Cuntais líonra a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATION"
-msgstr "Notifications"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
+msgstr "Nasc líonra a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATIONMANAGER"
-msgstr "Notification management"
+msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
+msgstr "Fógraí a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEINFO"
-msgstr "Package information"
+msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
+msgstr "Seisiúin fuaime a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEMANAGER_INSTALL"
-msgstr "Package management"
+msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
+msgstr "Méideanna a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGESETTING"
-msgstr "Package settings"
+msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
+msgstr "Seirbhís craolta cille a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_POWER"
-msgstr "Power control"
+msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
+msgstr "Seirbhís MDM a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_PUSH"
-msgstr "Push notifications"
+msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
+msgstr "Modhanna ionchuir a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_SETTING"
-msgstr "Setting access"
+msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
+msgstr "Sonraí Gréasáin a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_SMSTRIGGER"
-msgstr "SMS trigger"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Socruithe córais Wi-Fi a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_SOCKET"
-msgstr "Sockets"
+msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
+msgstr "Comhéadan úsáideora a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMINFO"
-msgstr "System information"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
+msgstr "Físeán agus fuaim a thaifeadadh"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_READ"
-msgstr "System settings reading"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
+msgstr "Físeán a thaifeadadh"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_WRITE"
-msgstr "System settings management"
+msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
+msgstr "Brútheachtaireachtaí WAP a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_UIMANAGER"
-msgstr "UI manager"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
+msgstr "Wi-Fi Direct a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_USERIDENTITY"
-msgstr "User ID"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
+msgstr "Wi-Fi a bhainistiú"
 
-msgid "IDS_PRIVILEGE_NAME_VIBRATOR"
-msgstr "Vibrator"
+msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
+msgstr "Modhanna ionchuir a sholáthar"
 
-msgid "IDS_PRIVILEGE_NAME_VIDEORECORDER"
-msgstr "Video recorder"
+msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
+msgstr "DNS a sholáthar"
 
-msgid "IDS_PRIVILEGE_NAME_WAPPUSH"
-msgstr "WAP push"
+msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
+msgstr "Fógraí a sholáthar"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_PRIVACY"
-msgstr "Web privacy"
+msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
+msgstr "Teachtaireachtaí NFC a bhrú"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_SERVICE"
-msgstr "Web service"
+msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
+msgstr "Féilire a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_ADMIN"
-msgstr "Wi-Fi status"
+msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
+msgstr "Próifíl úsáideora a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_READ"
-msgstr "Wi-Fi information reading"
+msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
+msgstr "Cuntais a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Wi-Fi Direct™ status"
+msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
+msgstr "Clibeanna NFC a léamh/a scríobh"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_READ"
-msgstr "Wi-Fi Direct™ information reading"
+msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Faisnéis feidhmchláir a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_DRMSERVICE"
-msgstr "DRM"
+msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
+msgstr "Leabharmharcanna a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_IMEMANAGER"
-msgstr "IME manager"
+msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
+msgstr "Logaí glaonna a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_TELEPHONYMANAGER"
-msgstr "Cellular network"
+msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
+msgstr "Deimhnithe a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_PLATFORMINFO"
-msgstr "Platform information"
+msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
+msgstr "Teagmhálaithe a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGELICENSEMANAGER"
-msgstr "Package license management"
+msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
+msgstr "Inneachar a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_WIFIMANAGER"
-msgstr "Wi-Fi settings"
+msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
+msgstr "Córais chomhad a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_READ"
-msgstr "Account reading"
+msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Ceadanna geoshuímh a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_WRITE"
-msgstr "Account management"
+msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
+msgstr "Faisnéis ardáin a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_READ"
-msgstr "User profile reading"
+msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Staitisticí líonra a léamh"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_WRITE"
-msgstr "User profile setting"
+msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Socruithe príobháideachta a léamh"
 
-msgid "IDS_PRIVILEGE_DESC_ALARM"
-msgstr "Allows the application to reserve an alarm and wake up the device at the reserved time."
+msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
+msgstr "Socruithe slándála córais a léamh"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
-msgstr "Allows the application to launch another application or allows the current applicationto be launched conditionally."
+msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgstr "Teachtaireachtaí a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
-msgstr "Allows the application to terminate another application."
+msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Faisnéis mhionsonraithe faoin bpacáiste a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
-msgstr "Allows the application to launchanother applicationconditionally."
+msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
+msgstr "Fógraí maidir le húsáid feidhmchlár a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_APPSETTING"
-msgstr "Allows the application to manage application settings."
+msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Faisnéis faoin bpacáiste a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
-msgstr "Allows the application to receive notifications about application changes."
+msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
+msgstr "Brúfhógraí a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_ROUTE"
-msgstr "Allows the application to get and set the audio input and output routes and receive notifications about route-related events."
+msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
+msgstr "SMS sainiúil do phort a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_SESSION"
-msgstr "Allows the application to handle the audio session policy between applications."
+msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
+msgstr "Nasc líonra a roghnú"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_VOIPSESSION"
-msgstr "Allows the application to perform audio session management with the VoIP call."
+msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
+msgstr "Faisnéis Wi-Fi Direct a léamh"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIORECORDER"
-msgstr "Allows the application to manage audio recording."
+msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
+msgstr "Faisnéis Wi-Fi a léamh"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_ADMIN"
-msgstr "Allows the application to change the Bluetooth state, such as activating, deactivating, and setting the device name."
+msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Staitisticí líonra a athshocrú"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_GAP"
-msgstr "Allows the application to use the GAP (Generic Access Profile), for example, to discover and pair devices."
+msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Faisnéis faoin gcóras a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_HEALTH"
-msgstr "Allows the application to use the HDP (Health Device Profile), for example, to send health data."
+msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgstr "Faisnéis teileafónaíochta a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_OPP"
-msgstr "Allows the application to use the OPP (Object Push Profile), for example, to send files."
+msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
+msgstr "SMS a bhainistiú"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_SPP"
-msgstr "Allows the application to use the SPP (Serial Port Profile), for example, to send serial data."
+msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
+msgstr "R-phoist a sheoladh"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTHMANAGER"
-msgstr "Allows the application to change the Bluetooth state related to privacy and security issues, such as changing the discoverable mode."
+msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
+msgstr "MMS a sheoladh"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_READ"
-msgstr "Allows the application to readschedule and task information."
+msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
+msgstr "Teachtaireachtaí a sheoladh"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_WRITE"
-msgstr "Allows the application to create, update, and delete schedule and task information."
+msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
+msgstr "Aláraim a shocrú"
 
-msgid "IDS_PRIVILEGE_DESC_CALLFORWARD"
-msgstr "Allows the application to controls the call forwarding service."
+msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
+msgstr "Bealaí fuaime a bhainistiú"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_READ"
-msgstr "Allows the application to read call history."
+msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
+msgstr "Socruithe pacáiste a bhainistiú"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_WRITE"
-msgstr "Allows the application to create, update, and delete call history."
+msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
+msgstr "Sonraí gléis a shioncronú"
 
-msgid "IDS_PRIVILEGE_DESC_CAMERA"
-msgstr "Allows the application to manage the device cameras for previewing and capturing."
+msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
+msgstr "Socruithe creatha a bhainistiú"
 
-msgid "IDS_PRIVILEGE_DESC_CELLBROADCAST"
-msgstr "Allows the application to manage Cell Broadcast Service."
+msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
+msgstr "An gléas a dhíghlasáil"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_READ"
-msgstr "Allows the application to read certificates."
+msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
+msgstr "Fógraí a nuashonrú"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_WRITE"
-msgstr "Allows the application to add, update, and delete certificates."
+msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
+msgstr "Socruithe úsáideora a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_READ"
-msgstr "Allows the application to read contacts."
+msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
+msgstr "Socruithe líonra a nuashonrú"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_WRITE"
-msgstr "Allows the application to create, update, and delete contacts."
+msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
+msgstr "Logaí a uaslódáil"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_READ"
-msgstr "Allows the application to read content."
+msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgstr "Stóras neamhtheoranta a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_WRITE"
-msgstr "Allows the application to create, update, and delete content."
+msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
+msgstr "Athrú go lánscáileán"
 
-msgid "IDS_PRIVILEGE_DESC_CUSTOMNETACCOUNT"
-msgstr "Allows the application to use the Internet with a specified bearer."
+msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
+msgstr "Gnéithe coiteanna NFC a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_DNS"
-msgstr "Allows the application to provide DNS (Domain Name Service)."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
+msgstr "GAP Bluetooth a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_DOWNLOAD"
-msgstr "Allows the application to manage HTTP downloads."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
+msgstr "HDP Bluetooth a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_HTTP"
-msgstr "Allows the application to communicate with the HTTP server."
+msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
+msgstr "Roghanna ard-Idirlín a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_IME"
-msgstr "Allows the application to provide a way to input characters and symbols into an associated text input UI control."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
+msgstr "OPP Bluetooth a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_INPUTMANAGER"
-msgstr "Allows the application to generate touch and key events, and capture screens."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
+msgstr "SPP Bluetooth a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_LOCATION"
-msgstr "Allows the application to use the user location data."
+msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
+msgstr "Loga a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_EMAIL"
-msgstr "Allows the application to send email messages."
+msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
+msgstr "Uathoibriú tástála a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_MMS"
-msgstr "Allows the application to send MMS messages."
+msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
+msgstr "Suíomh úsáideora a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_SMS"
-msgstr "Allows the application to send and receiveSMS messages, and retrieve SMS messages from the SMS message boxes."
+msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
+msgstr "Modúl coiteann a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_ACCOUNT"
-msgstr "Allows the application to manage network accounts."
+msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
+msgstr "Teachtaireachtaí a scríobh"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_CONNECTION"
-msgstr "Allows the application to manage network connections."
+msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
+msgstr "Córais chomhad a scríobh"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_READ"
-msgstr "Allows the application to read network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "Ligtear don fheidhmchlár frithvíreas scanadh a dhéanamh d'inneachar díobhálach"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_WRITE"
-msgstr "Allows the application to reset network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Ligtear don fheidhmchlár faisnéis phribhléide a léamh"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORKMANAGER"
-msgstr "Allows the application to update existing system network accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "Ceadaítear don fheidhmchlár faisnéis príobháideachta a rochtain chun críocha aitheantais úsáideoirí"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_ADMIN"
-msgstr "Allows the application to change the NFC state, such as activating or deactivating the NFC feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis chórais shlán a rochtain."
 
-msgid "IDS_PRIVILEGE_DESC_NFC_CARDEMULATION"
-msgstr "Allows the application to control the card emulation."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "Ligtear don fheidhmchláir rochtain a fháil ar shonraí sainiúla atá easpórtáilte ag feidhmchláir eile"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_COMMON"
-msgstr "Allows the application to manage the common NFC features."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "Ligtear don fheidhmchlár rochtain a fháil ar fhaisnéis chórais"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_P2P"
-msgstr "Allows the application to push NFC messages to other devices."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "Ceadaítear don fheidhmchlár an tIdirlíon a rochtain."
 
-msgid "IDS_PRIVILEGE_DESC_NFC_TAG"
-msgstr "Allows the application to read and write tag information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATION"
-msgstr "Allows the application to notifythe user through various notification mechanisms, such as message and badge."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "Ceadaítear don fheidhmchlár aicearraí a chur leis an scáileán baile agus a bhaint uaidh"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATIONMANAGER"
-msgstr "Allows the application to manage notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "Ligtear don fheidhmchlár Dynamic Box a chur leis an scáileán baile"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEINFO"
-msgstr "Allows the application to get package information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "Ceadaítear don fheidhmchlár deimhnithe a chur leis, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEMANAGER_INSTALL"
-msgstr "Allows the application to install or uninstall an application package."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "Ceadaítear don fheidhmchlár teagmhálaithe a chur leis, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGESETTING"
-msgstr "Allows the application to set the package configurations."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "Ceadaítear don fheidhmchlár oscailt go coinníollach nó feidhmchlár eile a oscailt"
 
-msgid "IDS_PRIVILEGE_DESC_POWER"
-msgstr "Allows the application to keep and control power states."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgstr "Ligtear don fheidhmchlár socruithe Bluetooth a athrú, amhail Bluetooth a chasadh air nó as, agus ainm an ghléis áitiúil a shocrú"
 
-msgid "IDS_PRIVILEGE_DESC_PUSH"
-msgstr "Allows the application to receive push notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgstr "Ligtear don fheidhmchlár socruithe córais Bluetooth a athrú a bhaineann le príobháideacht agus le slándáil, amhail an mód sofheicthe"
 
-msgid "IDS_PRIVILEGE_DESC_SETTING"
-msgstr "Allows the application to update or read the user's setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
+msgstr "Ligtear don fheidhmchlár socruithe mhód aithrise cárta NFC a athrú, amhail an ghné shlán ghníomhach a athrú agus gnéithe slána leabaithe (eSE) a rochtain"
 
-msgid "IDS_PRIVILEGE_DESC_SMSTRIGGER"
-msgstr "Allows the application to receive SMS messages from a specified port."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Ligtear don fheidhmchlár socruithe NFC a athrú, amhail NFC a chasadh air nó as"
 
-msgid "IDS_PRIVILEGE_DESC_SOCKET"
-msgstr "Allows the application to communicate with other devices and servers."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgstr "Ceadaítear don fheidhmchlár socruithe an chórais NFC a athrú, amhail brú coimeádta a chasadh air nó as, trína seoltar teachtaireachtaí NDEF réamhshocruithe"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMINFO"
-msgstr "Allows the application to retrieve system information, such as network, SIM, and call details."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe príobháideachta a athrú"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_READ"
-msgstr "Allows the application to read the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Ligtear don fheidhmchlár socruithe slándála nó príobháideachta a athrú"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_WRITE"
-msgstr "Allows the application to change or write the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "Ceadaítear don fheidhmchlár feidhmchlár eile a dhúnadh"
 
-msgid "IDS_PRIVILEGE_DESC_UIMANAGER"
-msgstr "Allows the application to manage the systematic properties of the UI."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Ceadaítear don fheidhmchlár cumarsáid a dhéanamh le gléasanna agus le freastalaithe eile"
 
-msgid "IDS_PRIVILEGE_DESC_USERIDENTITY"
-msgstr "Allows the application to access privacy information for user identification purposes."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "Ceadaítear don fheidhmchlár cumarsáid a dhéanamh leis an bhfreastalaí HTTP"
 
-msgid "IDS_PRIVILEGE_DESC_VIBRATOR"
-msgstr "Allows the application to activate and use the device vibrator feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "Ceadaítear don fheidhmchlár na líonraí móibíleacha a chumrú"
 
-msgid "IDS_PRIVILEGE_DESC_VIDEORECORDER"
-msgstr "Allows the application to manage video recording with the camera."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
+msgstr "Ligtear don fheidhmchlár Léarscáileanna Samsung a rialú"
 
-msgid "IDS_PRIVILEGE_DESC_WAPPUSH"
-msgstr "Allows the application to manage WAP push messages."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
+msgstr "Ceadaítear don fheidhmchlár Samsung MobileCare a rialú"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_PRIVACY"
-msgstr "Allows the application to manage the user data stored by the Web control or browser."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "Ceadaítear don fheidhmchlár an tseirbhís cur ar aghaidh glaonna a rialú"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_SERVICE"
-msgstr "Allows the application to display Web content or use the Web content-related API."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Ceadaítear don fheidhmchlár leabharmharcanna a chruthú, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi device."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais a chruthú, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_READ"
-msgstr "Allows the application to request Wi-Fi information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "Ligtear don fheidhmchlár logaí glaonna a chruthú, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi Direct™ device."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "Ceadaítear don fheidhmchlár inneachar a chruthú, a nuashonrú, agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_READ"
-msgstr "Allows the application to request Wi-Fi Direct™ information."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi sceideal agus tascanna a chruthú, a nuashonrú agus a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_DRMSERVICE"
-msgstr "Allows the application to manage theDRM (Digital Rights Management) licenses and retrieve DRM content information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "Ligtear don fheidhmchlár ceadanna geoshuímh a scriosadh"
 
-msgid "IDS_PRIVILEGE_DESC_IMEMANAGER"
-msgstr "Allows the application to manage input methods installed in the system."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "Ceadaítar don fheidhmchlár inneachar Gréasáin a thaispeáint nó an API a bhaineann le hinneachar ar an nGréasán a úsáid"
 
-msgid "IDS_PRIVILEGE_DESC_TELEPHONYMANAGER"
-msgstr "Allows the application to configure the cellular network."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "Ceadaítear don fheidhmchlár imeachtaí tadhaill agus eochair-imeachtaí a ghiniúint, agus scáileáin a ghabháil"
 
-msgid "IDS_PRIVILEGE_DESC_PLATFORMINFO"
-msgstr "Allows the application to read platform information, such as platform or API version."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "Ligtear don fheidhmchlár fógraí a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGELICENSEMANAGER"
-msgstr "Allows the application to manage DRM licenses for application support."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Ligtear don fheidhmchlár deimhnithe feidhmchláir sainithe a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_WIFIMANAGER"
-msgstr "Allows the application to manage the Wi-Fi system settings."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "Ligtear don fheidhmchlár faisnéis faoi am agus dáta a fháil"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_READ"
-msgstr "Allows the application to read accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "Ceadaítear don fheidhmchlár staideanna cumhachta a choinneáil agus a rialú"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_WRITE"
-msgstr "Allows the application to create, update, and delete accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Ceadaítear don fheidhmchlár paicéid fheidhmchláir a shuiteáil nó a dhíshuiteáil"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_READ"
-msgstr "Allows the application to readthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Ligtear don fheidhmchlár próifíl an úsáideora a bhainistiú"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_WRITE"
-msgstr "Allows the application to setthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "Ligtear don fheidhmchlár feidhmchlár eile a osclaítear go coinníollach a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe feidhmchláir a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "Ceadaítear don fheidhmchlár taifeadadh fuaime a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
+msgstr "Ceadaítear don fheidhmchlár seisiúin fuaime a bhainistiú le glaonna VoIP"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "Ligtear don fheidhmchlár ceamaraí an ghléis a bhainistiú le réamhamharc ar phictiúir agus iad a ghabháil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár ceadúnais ar Bhainistíocht ar Chearta Digiteacha (DRM) a bhainistiú agus faisnéis inneachair DRM a aisghabháil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "Ceadaítear don fheidhmchlár íoslódálacha HTTP a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais líonra a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "Ceadaítear don fheidhmchlár naisc líonra a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár fógraí a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
+msgstr "Ceadaítear don fheidhmchlár an beartas maidir le seisiún fuaime a bhainistiú idir feidhmchláir"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
+msgstr "Ligtear don fheidhmchlár airde fuaime na gcineálacha srutha fuaime éagsúla a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "Ceadaítear don fheidhmchlár an tSeirbhís Craoladh Cille (CBS) a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
+msgstr "Ligtear don fheidhmchlár an gléas a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "Ceadaítear don fheidhmchlár na modhanna ionchuir suiteáilte a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "Ceadaítear don fheidhmchlár na sonraí úsáideora atá stóráilte ag rialtán nó brabhsálaí Gréasáin a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "Ligtear don fheidhmchlár socruithe an chórais Wi-Fi a bhainistiú, amhail faisnéis AP a nuashonrú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "Ceadaítear don fheidhmchlár airíonna UI a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "Ligtear don fheidhmchlár fístaifeadadh agus taifeadadh fuaime a bhainistiú leis an gceamara nó leis an taifeadóir fuaime"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "Ceadaítear don fheidhmchlár fístaifeadadh a bhainistiú leis an gceamara"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár brútheachtaireachtaí WAP a bhainistiú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "Ceadaítear don fheidhmchlár Wi-Fi Direct a bhainistiú ar an ngléas."
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "Ligtear don fheidhmchlár Wi-Fi a bhainistiú ar an ngléas, amhail Wi-Fi a chur air nó as, agus nascadh le AP"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "Ceadaítear don fheidhmchlár bealach a sholáthar le carachtair agus siombailí a chur isteach i réimse ionchuir gaolmhar"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "Ceadaítear don fheidhmchlár an tSeirbhís Ainmneacha Fearainn (DNS) a chur ar fáil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "Ceadaítear don fheidhmchlár fógraí úsáideora a sholáthar, amhail teachtaireachtaí agus suaitheantais"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí NFC a bhrú chuig gléasanna eile"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi sceideal agus tascanna a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Ceadaítear don fheidhmchlár próifíl an úsáideora a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Ligtear don fheidhmchlár faisnéis chlib NFC a léamh agus a scríobh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "Ligtear don fheidhmchlár faisnéis feidhmchláir a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "Ceadaítear don fheidhmchlár leabharmharcanna a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "Ligtear don fheidhmchlár logaí glaonna a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "Ceadaítear don fheidhmchlár deimhnithe a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "Ceadaítear don fheidhmchlár teagmhálaithe a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "Ceadaítear don fheidhmchlár inneachar a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "Ligtear don fheidhmchlár córais chomhad a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "Ligtear don fheidhmchlár ceadanna geoshuímh a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis a léamh, amhail an leagan ardáin nó API"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "Ceadaítear don fheidhmchlár staitisticí líonra a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "Ligtear don fheidhmchlár socruithe príobháideachta a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe slándála nó príobháideachta a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Ligtear don fheidhmchlár teachtaireachtaí a fháil, agus teachtaireachtaí a aimsiú ó na boscaí teachtaireachtaí"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis mhionsonraithe pacáiste a fháil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "Ceadaítear don fheidhmchlár fógraí a fháil maidir le hathruithe ar fheidhmchláir sa tulra"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis a fháil faoi phaicéid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár brúfhógraí a fháil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí SMS a fháil ó phort sonraithe"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "Ligtear don fheidhmchlár nasc líonra sainiúil a iarraidh/scaoileadh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi Wi-Fi Direct a iarraidh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis Wi-Fi a iarraidh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "Ceadaítear don fheidhmchlár staitisticí líonra a athshocrú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Ligtear don fheidhmchlár faisnéis chórais a aisghabháil, amhail líonra, SIM, agus sonraí glaonna"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Ligtear don fheidhmchlár faisnéis teileafónaíochta a aisghabháil, amhail líonra, SIM, agus sonraí glaonna"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "Ligtear don fheidhmchlár teachtaireachtaí SMS a sheoladh agus a fháil, agus teachtaireachtaí SMS a aimsiú ó na boscaí teachtaireachtaí SMS"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí r-phoist a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí MMS a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Ligtear don fheidhmchlár teachtaireachtaí SMS, MMS agus r-phoist a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "Ligtear don fheidhmchlár aláram a shocrú agus an gléas a mhúscailt ag an am sceidealaithe"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "Ceadaítear don fheidhmchlár bealaí ionchuir agus aschuir fuaime a shocrú agus fógraí a fháil faoi imeachtaí bealaigh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "Ceadaítear don fheidhmchlár cumraíochtaí paicéid a shocrú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Ligtear don fheidhmchlár sonraí gléis a shioncronú leis an bhfreastalaí tríd an bprótacal OMA DS 1.2 a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "Ceadaítear don fheidhmchlár crith a chasadh air agus a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "Ligtear don fheidhmchlár an gléas a dhíghlasáil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "Ligtear don fheidhmchlár fógraí a nuashonrú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe úsáideora a nuashonrú nó a léamh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais líonra an chórais a nuashonrú"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
+msgstr "Ceadaítear don fheidhmchlár an loga gníomhaíochta a uaslódáil chuig an bhfreastalaí"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "Ligtear don fheidhmchlár an stóras ceangailte a úsáid gan teorainneacha méid do DB nó do chomhaid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "Ligtear don fheidhmchlár lánscáileán a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "Ligtear don fheidhmchlár gnéithe coiteanna NFC a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Rochtana Cineálaí (GAP) a úsáid, mar shampla, scanadh do ghléasanna agus iad a phéireáil"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Gléas Sláinte (HDP) a úsáid, mar shampla, le sonraí sláinte a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "Ceadaítear don fheidhmchlár an tIdirlíon a úsáid le hiompróir sonraithe"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Brú Oibiachtaí (OPP) a úsáid, mar shampla, le comhaid a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "Ceadaítear don fheidhmchlár Próifíl an Phoirt Shrathaigh (SPP) a úsáid, mar shampla, le sonraí srathacha a sheoladh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "Ligtear don fheidhmchlár loga an chórais (dlog) a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "Ligtear don fheidhmchlár an ghné uathoibrithe tástála a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "Ceadaítear don fheidhmchlár sonraí suímh an úsáideora a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "Ligtear don fheidhmchlár modúl coiteann API ghléas Gréasáin Tizen a úsáid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Ligtear don fheidhmchlár teachtaireachtaí SMS, MMS agus r-phoist a scríobh"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "Ligtear don fheidhmchlár córais comhad a scríobh"
+

@@ -1,497 +1,744 @@
-msgid "IDS_PRIVILEGE_NAME_ALARM"
-msgstr "Alarm"
+msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
+msgstr "Viiruste otsimine"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
-msgstr "Application launch"
+msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
+msgstr "Privileegi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
-msgstr "Application termination"
+msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
+msgstr "Juurdepääs kasutajatunnusele"
 
-msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
-msgstr "Application management"
+msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Turvasüsteemi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_APPSETTING"
-msgstr "Application settings"
+msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgstr "Juurdepääs eksporditud andmetele"
 
-msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
-msgstr "Application usage notifications"
+msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Süsteemi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_ROUTE"
-msgstr "Audio routes"
+msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgstr "Juurdepääs internetile"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_SESSION"
-msgstr "Audio sessions"
+msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
+msgstr "Juurdepääs turvalistele elementidele"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_VOIPSESSION"
-msgstr "VoIP audio sessions"
+msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
+msgstr "Otseteede haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIORECORDER"
-msgstr "Audio recorder"
+msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
+msgstr "Dynamic Box'i installimine"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_ADMIN"
-msgstr "Bluetooth status"
+msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
+msgstr "Sertifikaatide haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_GAP"
-msgstr "Bluetooth GAP"
+msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
+msgstr "Kontaktide haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_HEALTH"
-msgstr "Bluetooth HDP"
+msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
+msgstr "Rakenduste avamine"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
+msgstr "Bluetooth-ühenduse üldseaded"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_SPP"
-msgstr "Bluetooth SPP"
+msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
+msgstr "NFC-kaardi emuleerimisseadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTHMANAGER"
-msgstr "Bluetooth state settings"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Bluetooth-ühenduse süsteemiseaded"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_READ"
-msgstr "Calendar reading"
+msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
+msgstr "NFC-üldseadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_WRITE"
-msgstr "Calendar writing"
+msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
+msgstr "NFC-süsteemiseadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CALLFORWARD"
-msgstr "Call forwarding"
+msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Privaatsuse seadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_READ"
-msgstr "Call history reading"
+msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Süsteemiseadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_WRITE"
-msgstr "Call history management"
+msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
+msgstr "Rakenduste sulgemine"
 
-msgid "IDS_PRIVILEGE_NAME_CAMERA"
-msgstr "Camera"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
+msgstr "Suhtlemine teiste seadmete ja serveritega"
 
-msgid "IDS_PRIVILEGE_NAME_CELLBROADCAST"
-msgstr "Cell Broadcast Service"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
+msgstr "Suhtlemine HTTP-serveriga"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_READ"
-msgstr "Certificate reading"
+msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
+msgstr "Mobiilsidevõrkude konfigureerimine"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_WRITE"
-msgstr "Certificate management"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
+msgstr "Rakenduse Samsung Maps haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_READ"
-msgstr "Contact reading"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
+msgstr "Rakenduse Samsung MobileCare haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_WRITE"
-msgstr "Contact management"
+msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
+msgstr "Kõnede suunamine"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_READ"
-msgstr "Content reading"
+msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
+msgstr "Järjehoidjate haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_WRITE"
-msgstr "Content management"
+msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
+msgstr "Kontode haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_CUSTOMNETACCOUNT"
-msgstr "Advanced Internet"
+msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
+msgstr "Kõnelogide haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_DNS"
-msgstr "DNS"
+msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
+msgstr "Sisu haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_DOWNLOAD"
-msgstr "Download"
+msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
+msgstr "Kalendri haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_HTTP"
-msgstr "HTTP"
+msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Asukohatuvastuse lubade haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_IME"
-msgstr "IME"
+msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
+msgstr "Juurdepääs veebisisule"
 
-msgid "IDS_PRIVILEGE_NAME_INPUTMANAGER"
-msgstr "Input manager"
+msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
+msgstr "Sisestussündmuste haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_LOCATION"
-msgstr "User location"
+msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
+msgstr "Teavituste lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_EMAIL"
-msgstr "Email management"
+msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
+msgstr "Rakenduste sertifikaatide hankimine"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_MMS"
-msgstr "MMS management"
+msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
+msgstr "Juurdepääs kellaajale ja kuupäevale"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_SMS"
-msgstr "SMS management"
+msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
+msgstr "Toite haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_ACCOUNT"
-msgstr "Network accounts"
+msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
+msgstr "Pakettide haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_CONNECTION"
-msgstr "Network connections"
+msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
+msgstr "Kasutajaprofiili haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_READ"
-msgstr "Network statistic reading"
+msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
+msgstr "Rakenduste haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_WRITE"
-msgstr "Network statistic reset"
+msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Rakenduste seadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORKMANAGER"
-msgstr "Network settings"
+msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
+msgstr "Heli salvestamine"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_ADMIN"
-msgstr "NFC status"
+msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
+msgstr "VoIP-heliseansside haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_CARDEMULATION"
-msgstr "NFC card emulation"
+msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
+msgstr "Kaamera kasutamine"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_COMMON"
-msgstr "NFC common"
+msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
+msgstr "DRM-i haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_P2P"
-msgstr "NFC P2P"
+msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
+msgstr "Allalaadimine HTTP kaudu"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_TAG"
-msgstr "NFC tag discovery"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
+msgstr "Võrgukontode haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATION"
-msgstr "Notifications"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
+msgstr "Võrguühenduste haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATIONMANAGER"
-msgstr "Notification management"
+msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
+msgstr "Teavituste haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEINFO"
-msgstr "Package information"
+msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
+msgstr "Heliseansside haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEMANAGER_INSTALL"
-msgstr "Package management"
+msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
+msgstr "Helitugevuste haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGESETTING"
-msgstr "Package settings"
+msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
+msgstr "Võrguteabeteenuse haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_POWER"
-msgstr "Power control"
+msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
+msgstr "MDM-teenuse haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_PUSH"
-msgstr "Push notifications"
+msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
+msgstr "Sisestusmeetodite haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_SETTING"
-msgstr "Setting access"
+msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
+msgstr "Veebiandmete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_SMSTRIGGER"
-msgstr "SMS trigger"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Wi-Fi süsteemiseadete haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_SOCKET"
-msgstr "Sockets"
+msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
+msgstr "Kasutajaliidese haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMINFO"
-msgstr "System information"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
+msgstr "Video ja heli salvestamine"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_READ"
-msgstr "System settings reading"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
+msgstr "Video salvestamine"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_WRITE"
-msgstr "System settings management"
+msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
+msgstr "WAP-push sõnumite haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_UIMANAGER"
-msgstr "UI manager"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
+msgstr "Wi-Fi Directi haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_USERIDENTITY"
-msgstr "User ID"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
+msgstr "Wi-Fi haldamine"
 
-msgid "IDS_PRIVILEGE_NAME_VIBRATOR"
-msgstr "Vibrator"
+msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
+msgstr "Sisestusmeetodite pakkumine"
 
-msgid "IDS_PRIVILEGE_NAME_VIDEORECORDER"
-msgstr "Video recorder"
+msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
+msgstr "DNS-i pakkumine"
 
-msgid "IDS_PRIVILEGE_NAME_WAPPUSH"
-msgstr "WAP push"
+msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
+msgstr "Teavituste pakkumine"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_PRIVACY"
-msgstr "Web privacy"
+msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
+msgstr "NFC-sõnumite tõukamine"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_SERVICE"
-msgstr "Web service"
+msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
+msgstr "Kalendri lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_ADMIN"
-msgstr "Wi-Fi status"
+msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
+msgstr "Kasutajaprofiili lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_READ"
-msgstr "Wi-Fi information reading"
+msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
+msgstr "Kontode lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Wi-Fi Direct™ status"
+msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
+msgstr "NFC-siltide lugemine/kirjutamine"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_READ"
-msgstr "Wi-Fi Direct™ information reading"
+msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Rakenduse teabe lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_DRMSERVICE"
-msgstr "DRM"
+msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
+msgstr "Järjehoidjate lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_IMEMANAGER"
-msgstr "IME manager"
+msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
+msgstr "Kõnelogide lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_TELEPHONYMANAGER"
-msgstr "Cellular network"
+msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
+msgstr "Sertifikaatide lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_PLATFORMINFO"
-msgstr "Platform information"
+msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
+msgstr "Kontaktide lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGELICENSEMANAGER"
-msgstr "Package license management"
+msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
+msgstr "Sisu lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_WIFIMANAGER"
-msgstr "Wi-Fi settings"
+msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
+msgstr "Failisüsteemide lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_READ"
-msgstr "Account reading"
+msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Asukohatuvastuse lubade lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_WRITE"
-msgstr "Account management"
+msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
+msgstr "Platvormi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_READ"
-msgstr "User profile reading"
+msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Võrgustatistika lugemine"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_WRITE"
-msgstr "User profile setting"
+msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Privaatsuse seadete lugemine"
 
-msgid "IDS_PRIVILEGE_DESC_ALARM"
-msgstr "Allows the application to reserve an alarm and wake up the device at the reserved time."
+msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
+msgstr "Süsteemi turvaseadete lugemine"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
-msgstr "Allows the application to launch another application or allows the current applicationto be launched conditionally."
+msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgstr "Juurdepääs sõnumitele"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
-msgstr "Allows the application to terminate another application."
+msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Üksikasjaliku paketiteabe vastuvõtmine"
 
-msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
-msgstr "Allows the application to launchanother applicationconditionally."
+msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
+msgstr "Rakenduse kasutamise teavituste vastuvõtmine"
 
-msgid "IDS_PRIVILEGE_DESC_APPSETTING"
-msgstr "Allows the application to manage application settings."
+msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Paketiteabe vastuvõtmine"
 
-msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
-msgstr "Allows the application to receive notifications about application changes."
+msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
+msgstr "Push-teavituste vastuvõtmine"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_ROUTE"
-msgstr "Allows the application to get and set the audio input and output routes and receive notifications about route-related events."
+msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
+msgstr "Pordispetsiifilise SMS-i vastuvõtmine"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_SESSION"
-msgstr "Allows the application to handle the audio session policy between applications."
+msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
+msgstr "Võrguühenduse valimine"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_VOIPSESSION"
-msgstr "Allows the application to perform audio session management with the VoIP call."
+msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
+msgstr "Wi-Fi Directi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIORECORDER"
-msgstr "Allows the application to manage audio recording."
+msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
+msgstr "Wi-Fi teabe lugemine"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_ADMIN"
-msgstr "Allows the application to change the Bluetooth state, such as activating, deactivating, and setting the device name."
+msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Võrgustatistika lähtestamine"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_GAP"
-msgstr "Allows the application to use the GAP (Generic Access Profile), for example, to discover and pair devices."
+msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Juurdepääs süsteemiteabele"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_HEALTH"
-msgstr "Allows the application to use the HDP (Health Device Profile), for example, to send health data."
+msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgstr "Juurdepääs telefoni teabele"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_OPP"
-msgstr "Allows the application to use the OPP (Object Push Profile), for example, to send files."
+msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
+msgstr "SMS-ide haldamine"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_SPP"
-msgstr "Allows the application to use the SPP (Serial Port Profile), for example, to send serial data."
+msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
+msgstr "E-kirjade saatmine"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTHMANAGER"
-msgstr "Allows the application to change the Bluetooth state related to privacy and security issues, such as changing the discoverable mode."
+msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
+msgstr "MMS-ide saatmine"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_READ"
-msgstr "Allows the application to readschedule and task information."
+msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
+msgstr "Sõnumite saatmine"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_WRITE"
-msgstr "Allows the application to create, update, and delete schedule and task information."
+msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
+msgstr "Märguannete määramine"
 
-msgid "IDS_PRIVILEGE_DESC_CALLFORWARD"
-msgstr "Allows the application to controls the call forwarding service."
+msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
+msgstr "Helimarsruutide haldamine"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_READ"
-msgstr "Allows the application to read call history."
+msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
+msgstr "Paketiseadete haldamine"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_WRITE"
-msgstr "Allows the application to create, update, and delete call history."
+msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
+msgstr "Seadme andmete sünkroonimine"
 
-msgid "IDS_PRIVILEGE_DESC_CAMERA"
-msgstr "Allows the application to manage the device cameras for previewing and capturing."
+msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
+msgstr "Värina seadete haldamine"
 
-msgid "IDS_PRIVILEGE_DESC_CELLBROADCAST"
-msgstr "Allows the application to manage Cell Broadcast Service."
+msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
+msgstr "Seadme avamine"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_READ"
-msgstr "Allows the application to read certificates."
+msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
+msgstr "Teavituste värskendamine"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_WRITE"
-msgstr "Allows the application to add, update, and delete certificates."
+msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
+msgstr "Juurdepääs kasutajaseadetele"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_READ"
-msgstr "Allows the application to read contacts."
+msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
+msgstr "Võrguseadete värskendamine"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_WRITE"
-msgstr "Allows the application to create, update, and delete contacts."
+msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
+msgstr "Logide üleslaadimine"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_READ"
-msgstr "Allows the application to read content."
+msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgstr "Juurdepääs piiramatu mälule"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_WRITE"
-msgstr "Allows the application to create, update, and delete content."
+msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
+msgstr "Lülitumine täisekraanile"
 
-msgid "IDS_PRIVILEGE_DESC_CUSTOMNETACCOUNT"
-msgstr "Allows the application to use the Internet with a specified bearer."
+msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
+msgstr "NFC-üldfunktsioonide kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_DNS"
-msgstr "Allows the application to provide DNS (Domain Name Service)."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
+msgstr "Bluetooth GAP-i kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_DOWNLOAD"
-msgstr "Allows the application to manage HTTP downloads."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
+msgstr "Bluetooth HDP kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_HTTP"
-msgstr "Allows the application to communicate with the HTTP server."
+msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
+msgstr "Täpsemate internetivalikute kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_IME"
-msgstr "Allows the application to provide a way to input characters and symbols into an associated text input UI control."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
+msgstr "Bluetooth OPP kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_INPUTMANAGER"
-msgstr "Allows the application to generate touch and key events, and capture screens."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
+msgstr "Bluetooth SPP kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_LOCATION"
-msgstr "Allows the application to use the user location data."
+msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
+msgstr "Logi kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_EMAIL"
-msgstr "Allows the application to send email messages."
+msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
+msgstr "Testi automatiseerimise kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_MMS"
-msgstr "Allows the application to send MMS messages."
+msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
+msgstr "Kasutaja asukoha kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_SMS"
-msgstr "Allows the application to send and receiveSMS messages, and retrieve SMS messages from the SMS message boxes."
+msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
+msgstr "Üldmooduli kasutamine"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_ACCOUNT"
-msgstr "Allows the application to manage network accounts."
+msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
+msgstr "Sõnumite kirjutamine"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_CONNECTION"
-msgstr "Allows the application to manage network connections."
+msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
+msgstr "Failisüsteemidesse kirjutamine"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_READ"
-msgstr "Allows the application to read network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "Lubab viirusevastasel rakendusel otsida kahjulikku sisu"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_WRITE"
-msgstr "Allows the application to reset network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Lubab rakendusel lugeda privileegi teavet"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORKMANAGER"
-msgstr "Allows the application to update existing system network accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "Lubab rakendusel pääseda ligi kasutaja tuvastamise eesmärgil privaatsuse teabele"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_ADMIN"
-msgstr "Allows the application to change the NFC state, such as activating or deactivating the NFC feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "Lubab rakendusel pääseda ligi turvalisele süsteemiteabele"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_CARDEMULATION"
-msgstr "Allows the application to control the card emulation."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "Lubab rakendusele juurdepääsu teiste rakenduste poolt eksporditud teatud andmetele"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_COMMON"
-msgstr "Allows the application to manage the common NFC features."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "Lubab rakendusele juurdepääsu süsteemiteabele"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_P2P"
-msgstr "Allows the application to push NFC messages to other devices."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "Lubab rakendusel pääseda ligi internetile"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_TAG"
-msgstr "Allows the application to read and write tag information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATION"
-msgstr "Allows the application to notifythe user through various notification mechanisms, such as message and badge."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "Lubab rakendusel lisada ja eemaldada avaekraanilt otseteid"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATIONMANAGER"
-msgstr "Allows the application to manage notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "Lubab rakendusel lisada Dynamic Box'i avaekraanile"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEINFO"
-msgstr "Allows the application to get package information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "Lubab rakendusel lisada, värskendada ja kustutada sertifikaate"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEMANAGER_INSTALL"
-msgstr "Allows the application to install or uninstall an application package."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "Lubab rakendusel lisada, värskendada ja kustutada kontakte"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGESETTING"
-msgstr "Allows the application to set the package configurations."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "Lubab rakendust avada tingimuslikult või avada teise rakenduse"
 
-msgid "IDS_PRIVILEGE_DESC_POWER"
-msgstr "Allows the application to keep and control power states."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgstr "Lubab rakendusel muuta Bluetooth-ühenduse seadeid, nagu Bluetooth-ühenduse sisse- või väljalülitamine ning kohaliku seadme nime seadistamine"
 
-msgid "IDS_PRIVILEGE_DESC_PUSH"
-msgstr "Allows the application to receive push notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgstr "Lubab rakendusel muuta privaatsuse ja turvalisusega seotud Bluetooth-ühenduse süsteemiseadeid, nagu nähtav režiim"
 
-msgid "IDS_PRIVILEGE_DESC_SETTING"
-msgstr "Allows the application to update or read the user's setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
+msgstr "Lubab rakendusel muuta NFC-kaardi emuleerimisrežiimi seadeid, nagu aktiivse turvaelemendi muutmine ja juurdepääs manustatud turvaelementidele (eSE)"
 
-msgid "IDS_PRIVILEGE_DESC_SMSTRIGGER"
-msgstr "Allows the application to receive SMS messages from a specified port."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Lubab rakendusel muuta NFC-seadeid, nagu NFC sisse- või väljalülitamine"
 
-msgid "IDS_PRIVILEGE_DESC_SOCKET"
-msgstr "Allows the application to communicate with other devices and servers."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgstr "Lubab rakendusel muuta NFC-süsteemi seadeid, nagu nupu Reserved Push sisse- või väljalülitamine, mis saadab eelmääratletud NDEF-sõnumeid"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMINFO"
-msgstr "Allows the application to retrieve system information, such as network, SIM, and call details."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "Lubab rakendusel muuta privaatsuse seadeid"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_READ"
-msgstr "Allows the application to read the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Lubab rakendusel muuta turvalisuse või privaatsuse seadeid"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_WRITE"
-msgstr "Allows the application to change or write the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "Lubab rakendusel sulgeda teise rakenduse"
 
-msgid "IDS_PRIVILEGE_DESC_UIMANAGER"
-msgstr "Allows the application to manage the systematic properties of the UI."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Lubab rakendusel suhelda teiste seadmete ja serveritega"
 
-msgid "IDS_PRIVILEGE_DESC_USERIDENTITY"
-msgstr "Allows the application to access privacy information for user identification purposes."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "Lubab rakendusel suhelda HTTP-serveriga"
 
-msgid "IDS_PRIVILEGE_DESC_VIBRATOR"
-msgstr "Allows the application to activate and use the device vibrator feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "Lubab rakendusel konfigureerida mobiilsidevõrke"
 
-msgid "IDS_PRIVILEGE_DESC_VIDEORECORDER"
-msgstr "Allows the application to manage video recording with the camera."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
+msgstr "Lubab rakendusel juhtida rakendust Samsung Maps"
 
-msgid "IDS_PRIVILEGE_DESC_WAPPUSH"
-msgstr "Allows the application to manage WAP push messages."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
+msgstr "Lubab rakendusel juhtida rakendust Samsung MobileCare"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_PRIVACY"
-msgstr "Allows the application to manage the user data stored by the Web control or browser."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "Lubab rakendusel juhtida kõnesuunamise teenust"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_SERVICE"
-msgstr "Allows the application to display Web content or use the Web content-related API."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Lubab rakendusel luua, värskendada ja kustutada järjehoidjaid"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi device."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "Lubab rakendusel luua, värskendada ja kustutada kontosid"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_READ"
-msgstr "Allows the application to request Wi-Fi information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "Lubab rakendusel luua, värskendada ja kustutada kõnelogisid"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi Direct™ device."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "Lubab rakendusel luua, värskendada ja kustutada sisu"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_READ"
-msgstr "Allows the application to request Wi-Fi Direct™ information."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Lubab rakendusel luua, värskendada ja kustutada ajakava ja ülesannete teavet"
 
-msgid "IDS_PRIVILEGE_DESC_DRMSERVICE"
-msgstr "Allows the application to manage theDRM (Digital Rights Management) licenses and retrieve DRM content information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "Lubab rakendusel kustutada asukohatuvastuse lubasid"
 
-msgid "IDS_PRIVILEGE_DESC_IMEMANAGER"
-msgstr "Allows the application to manage input methods installed in the system."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "Lubab rakendusel kuvada veebisisu või kasutada veebisisuga seotud API-sid"
 
-msgid "IDS_PRIVILEGE_DESC_TELEPHONYMANAGER"
-msgstr "Allows the application to configure the cellular network."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "Lubab rakendusel luua puute- ja klahvisündmusi ning jäädvustada ekraanipilte"
 
-msgid "IDS_PRIVILEGE_DESC_PLATFORMINFO"
-msgstr "Allows the application to read platform information, such as platform or API version."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "Lubab rakendusel hankida teavitusi"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGELICENSEMANAGER"
-msgstr "Allows the application to manage DRM licenses for application support."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Lubab rakendusel hankida määratletud rakenduste sertifikaate"
 
-msgid "IDS_PRIVILEGE_DESC_WIFIMANAGER"
-msgstr "Allows the application to manage the Wi-Fi system settings."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "Lubab rakendusel hankida kellaaja ja kuupäeva teavet"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_READ"
-msgstr "Allows the application to read accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "Lubab rakendusel panna ootele ja juhtida toiteolekut"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_WRITE"
-msgstr "Allows the application to create, update, and delete accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Lubab rakendusel installida ja desinstallida rakenduse pakette"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_READ"
-msgstr "Allows the application to readthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Lubab rakendusel hallata kasutajaprofiili"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_WRITE"
-msgstr "Allows the application to setthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "Lubab rakendusel hallata teise rakenduse avamist tingimuslikult"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "Lubab rakendusel hallata rakenduse seadeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "Lubab rakendusel hallata heli salvestamist"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
+msgstr "Lubab rakendusel hallata heliseansse VoIP-kõnedega"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "Lubab rakendusel hallata seadme kaameraid pildistamiseks ja piltide eelvaateks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "Lubab rakendusel hallata DRM-litsentsi (Digital Rights Management) ja laadida DRM-sisu teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "Lubab rakendusel hallata allalaaditud HTTP-üksusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "Lubab rakendusel hallata võrgukontosid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "Lubab rakendusel hallata võrguühendusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "Lubab rakendusel hallata teavitusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
+msgstr "Lubab rakendusel hallata heliseanssi poliisi rakenduste vahel"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
+msgstr "Lubab rakendusel hallata erinevate helivootüüpide helitugevusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "Lubab rakendusel hallata CBS-i"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
+msgstr "Lubab rakendusel hallata seadet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "Lubab rakendusel hallata installitud sisestusviise"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "Lubab rakendusel hallata kasutajaandmeid, mis on salvestatud veebi juhtimise või brauseri kaudu"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "Lubab rakendusel hallata Wi-Fi süsteemiseadeid, nagu AP-teabe värskendamine"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "Lubab rakendusel hallata UI-atribuute"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "Lubab rakendusel hallata videote ja heli salvestamist kaamera või helisalvestiga"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "Lubab rakendusel hallata videote salvestamist kaameraga"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "Lubab rakendusel hallata WAP-push sõnumeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "Lubab rakendusel hallata seadmes olevat Wi-Fi Directi ühendust"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "Lubab rakendusel hallata seadmes Wi-Fi ühendust, nagu Wi-Fi sisse- või väljalülitamine ja AP-ga ühenduse loomine"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "Lubab rakendusel pakkuda tähemärkide ja sümbolite sisestusviisi seotud sisestusväljale"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "Lubab rakendusel pakkuda DNS-i"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "Lubab rakendusel pakkuda kasutaja teavitusi, nagu sõnumid ja märgid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Lubab rakendusel suruda NFC-sõnumeid teise seadmesse"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Lubab rakendusel lugeda ajakava ja ülesannete teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Lubab rakendusel lugeda kasutajaprofiili"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "Lubab rakendusel lugeda kontosid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Lubab rakendusel lugeda ja kirjutada NFC-siltide teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "Lubab rakendusel lugeda rakenduse teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "Lubab rakendusel lugeda järjehoidjaid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "Lubab rakendusel lugeda kõnelogisid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "Lubab rakendusel lugeda sertifikaate"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "Lubab rakendusel lugeda kontakte"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "Lubab rakendusel lugeda sisu"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "Lubab rakendusel lugeda failisüsteeme"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "Lubab rakendusel lugeda asukohatuvastuse lubasid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "Lubab rakendusel lugeda andmeid, nagu platvorm või API-versioon"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "Lubab rakendusel lugeda võrgustatistikat"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "Lubab rakendusel lugeda privaatsuse seadeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Lubab rakendusel lugeda turvalisuse või privaatsuse seadeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Lubab rakendusel võtta vastu sõnumeid ja laadida sõnumeid sõnumikaustadest"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "Lubab rakendusel võtta vastu üksikasjalikku paketi teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "Lubab rakendusel võtta vastu teavitusi esiplaanil olevate rakenduste muudatuste kohta"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Lubab rakendusel võtta vastu paketi teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "Lubab rakendusel võtta vastu push-teavitusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "Lubab rakendusel võtta vastu SMS-sõnumeid määratletud pordilt"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "Lubab rakendusel taotleda/aktiveerida teatud võrguühendusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "Lubab rakendusel taotleda Wi-Fi Directi teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "Lubab rakendusel taotleda Wi-Fi teavet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "Lubab rakendusel lähtestada võrgustatistikat"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Lubab rakendusel laadida süsteemiteavet, nagu võrk, SIM ja kõnede üksikasjad"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Lubab rakendusel laadida telefoni teavet, nagu võrk, SIM ja kõnede üksikasjad"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "Lubab rakendusel saata ja võtta vastu SMS-sõnumeid ja laadida SMS-sõnumeid SMS-sõnumikaustadest"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "Lubab rakendusel saata e-kirju"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "Lubab rakendusel saata MMS-sõnumeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Lubab rakendusel saata SMS-e, MMS-e ja e-kirju"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "Lubab rakendusel määrata märguande ja aktiveerida seadme planeeritud ajal"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "Lubab rakendusel määrata helisisendi ja -väljundi marsruudid ning võtab vastu teavitusi uute marsruudisündmuste kohta"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "Lubab rakendusel määrata paketi konfiguratsioone"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Lubab rakendusel sünkroonida seadme andmeid serveriga, kasutades protokolli OMA DS 1.2"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "Lubab rakendusel lülitada värinat sisse ja seda kasutada"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "Lubab rakendusel avada seadet"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "Lubab rakendusel värskendada teavitusi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "Lubab rakendusel värskendada või lugeda kasutajaseadeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "Lubab rakendusel värskendada süsteemi võrgukontosid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
+msgstr "Lubab rakendusel laadida tegevuse logi üles serverisse"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "Lubab rakendusel kasutada ühendatud mälu ilma suuruspiiranguteta andmebaasi või failide jaoks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "Lubab rakendusel kasutada täisekraani"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "Lubab rakendusel kasutada NFC-üldfunktsioone"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "Lubab rakendusel kasutada profiili Generic Access Profile (GAP), näiteks seadmete otsimise ja nendega sidumise jaoks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "Lubab rakendusel kasutada meditsiinilise seadme profiili (HDP) näiteks tervishoiuandmete saatmiseks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "Lubab rakendusel kasutada internetti määratletud kandjaga"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "Lubab rakendusel kasutada objekti push-profiili (OPP) näiteks failide saatmiseks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "Lubab rakendusel kasutada jadapordi profiili (SPP) näiteks tervishoiu andmete saatmiseks"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "Lubab rakendusel kasutada süsteemilogi (dlog)"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "Lubab rakendusel kasutada testi automatiseerimise funktsiooni"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "Lubab rakendusel kasutada kasutaja asukoha andmeid"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "Lubab rakendusel kasutada Tizeni veebiseadme API-üldmoodulit"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Lubab rakendusel kirjutada SMS-e, MMS-e ja e-kirju"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "Lubab rakendusel kirjutada failisüsteemidesse"
+

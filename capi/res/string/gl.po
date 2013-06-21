@@ -1,497 +1,744 @@
-msgid "IDS_PRIVILEGE_NAME_ALARM"
-msgstr "Alarm"
+msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
+msgstr "Busca de virus"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
-msgstr "Application launch"
+msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
+msgstr "Lectura de información de privilexios"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
-msgstr "Application termination"
+msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
+msgstr "Acceso ao ID do usuario"
 
-msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
-msgstr "Application management"
+msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Lectura de información do sistema de seguridade"
 
-msgid "IDS_PRIVILEGE_NAME_APPSETTING"
-msgstr "Application settings"
+msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgstr "Acceso aos datos exportados"
 
-msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
-msgstr "Application usage notifications"
+msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Lectura de información do sistema"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_ROUTE"
-msgstr "Audio routes"
+msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgstr "Acceso á Internet"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_SESSION"
-msgstr "Audio sessions"
+msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
+msgstr "Acceso a elementos seguros"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_VOIPSESSION"
-msgstr "VoIP audio sessions"
+msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
+msgstr "Xestión de atallos"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIORECORDER"
-msgstr "Audio recorder"
+msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
+msgstr "Instalación de Dynamic Box"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_ADMIN"
-msgstr "Bluetooth status"
+msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
+msgstr "Xestión de certificados"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_GAP"
-msgstr "Bluetooth GAP"
+msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
+msgstr "Xestión de contactos"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_HEALTH"
-msgstr "Bluetooth HDP"
+msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
+msgstr "Apertura de aplicacións"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes xerais de Bluetooth"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_SPP"
-msgstr "Bluetooth SPP"
+msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes de emulación da tarxeta NFC"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTHMANAGER"
-msgstr "Bluetooth state settings"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes do sistema de Bluetooth"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_READ"
-msgstr "Calendar reading"
+msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes xerais de NFC"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_WRITE"
-msgstr "Calendar writing"
+msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes do sistema NFC"
 
-msgid "IDS_PRIVILEGE_NAME_CALLFORWARD"
-msgstr "Call forwarding"
+msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes de privacidade"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_READ"
-msgstr "Call history reading"
+msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes do sistema"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_WRITE"
-msgstr "Call history management"
+msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
+msgstr "Peche de aplicacións"
 
-msgid "IDS_PRIVILEGE_NAME_CAMERA"
-msgstr "Camera"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
+msgstr "Comunicación con outros dispositivos e servidores"
 
-msgid "IDS_PRIVILEGE_NAME_CELLBROADCAST"
-msgstr "Cell Broadcast Service"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
+msgstr "Comunicación co servidor HTTP"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_READ"
-msgstr "Certificate reading"
+msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
+msgstr "Configuración de redes móbiles"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_WRITE"
-msgstr "Certificate management"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
+msgstr "Xestión de Mapas de Samsung"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_READ"
-msgstr "Contact reading"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
+msgstr "Xestión de Samsung MobileCare"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_WRITE"
-msgstr "Contact management"
+msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
+msgstr "Desvío de chamadas"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_READ"
-msgstr "Content reading"
+msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
+msgstr "Xestión de favoritos"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_WRITE"
-msgstr "Content management"
+msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
+msgstr "Xestión de contas"
 
-msgid "IDS_PRIVILEGE_NAME_CUSTOMNETACCOUNT"
-msgstr "Advanced Internet"
+msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
+msgstr "Xestión de rexistros de chamadas"
 
-msgid "IDS_PRIVILEGE_NAME_DNS"
-msgstr "DNS"
+msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
+msgstr "Xestión de contido"
 
-msgid "IDS_PRIVILEGE_NAME_DOWNLOAD"
-msgstr "Download"
+msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
+msgstr "Xestión do calendario"
 
-msgid "IDS_PRIVILEGE_NAME_HTTP"
-msgstr "HTTP"
+msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Xestión de permisos de xeolocalización"
 
-msgid "IDS_PRIVILEGE_NAME_IME"
-msgstr "IME"
+msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
+msgstr "Acceso a contido web"
 
-msgid "IDS_PRIVILEGE_NAME_INPUTMANAGER"
-msgstr "Input manager"
+msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
+msgstr "Xestión de eventos de entrada"
 
-msgid "IDS_PRIVILEGE_NAME_LOCATION"
-msgstr "User location"
+msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
+msgstr "Lectura de notificacións"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_EMAIL"
-msgstr "Email management"
+msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
+msgstr "Obtención de certificados de aplicación"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_MMS"
-msgstr "MMS management"
+msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
+msgstr "Acceso á hora e á data"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_SMS"
-msgstr "SMS management"
+msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
+msgstr "Xestión da enerxía"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_ACCOUNT"
-msgstr "Network accounts"
+msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
+msgstr "Xestión de paquetes"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_CONNECTION"
-msgstr "Network connections"
+msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
+msgstr "Xestión do perfil de usuario"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_READ"
-msgstr "Network statistic reading"
+msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
+msgstr "Xestión de aplicacións"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_WRITE"
-msgstr "Network statistic reset"
+msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes de aplicacións"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORKMANAGER"
-msgstr "Network settings"
+msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
+msgstr "Gravación de son"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_ADMIN"
-msgstr "NFC status"
+msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
+msgstr "Xestión de sesións de son VoIP"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_CARDEMULATION"
-msgstr "NFC card emulation"
+msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
+msgstr "Uso da cámara"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_COMMON"
-msgstr "NFC common"
+msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
+msgstr "Xestión de DRM"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_P2P"
-msgstr "NFC P2P"
+msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
+msgstr "Descarga a través de HTTP"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_TAG"
-msgstr "NFC tag discovery"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
+msgstr "Xestión de contas de rede"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATION"
-msgstr "Notifications"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
+msgstr "Xestión de conexións de rede"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATIONMANAGER"
-msgstr "Notification management"
+msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
+msgstr "Xestión de notificacións"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEINFO"
-msgstr "Package information"
+msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
+msgstr "Xestión de sesións de son"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEMANAGER_INSTALL"
-msgstr "Package management"
+msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
+msgstr "Xestión de volumes"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGESETTING"
-msgstr "Package settings"
+msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
+msgstr "Xestión do servizo de transmisión celular"
 
-msgid "IDS_PRIVILEGE_NAME_POWER"
-msgstr "Power control"
+msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
+msgstr "Xestión de servizo MDM"
 
-msgid "IDS_PRIVILEGE_NAME_PUSH"
-msgstr "Push notifications"
+msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
+msgstr "Xestión de métodos de entrada"
 
-msgid "IDS_PRIVILEGE_NAME_SETTING"
-msgstr "Setting access"
+msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
+msgstr "Xestión de datos web"
 
-msgid "IDS_PRIVILEGE_NAME_SMSTRIGGER"
-msgstr "SMS trigger"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes do sistema Wi-Fi"
 
-msgid "IDS_PRIVILEGE_NAME_SOCKET"
-msgstr "Sockets"
+msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
+msgstr "Xestión da interface de usuario"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMINFO"
-msgstr "System information"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
+msgstr "Gravación de vídeo e son"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_READ"
-msgstr "System settings reading"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
+msgstr "Gravación de vídeo"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_WRITE"
-msgstr "System settings management"
+msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
+msgstr "Xestión de mensaxes push WAP"
 
-msgid "IDS_PRIVILEGE_NAME_UIMANAGER"
-msgstr "UI manager"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
+msgstr "Xestión de Wi-Fi Direct"
 
-msgid "IDS_PRIVILEGE_NAME_USERIDENTITY"
-msgstr "User ID"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
+msgstr "Xestión da Wi-Fi"
 
-msgid "IDS_PRIVILEGE_NAME_VIBRATOR"
-msgstr "Vibrator"
+msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
+msgstr "Fornecemento de métodos de entrada"
 
-msgid "IDS_PRIVILEGE_NAME_VIDEORECORDER"
-msgstr "Video recorder"
+msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
+msgstr "Fornecemento de DNS"
 
-msgid "IDS_PRIVILEGE_NAME_WAPPUSH"
-msgstr "WAP push"
+msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
+msgstr "Fornecemento de notificacións"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_PRIVACY"
-msgstr "Web privacy"
+msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
+msgstr "Envío de mensaxes NFC"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_SERVICE"
-msgstr "Web service"
+msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
+msgstr "Lectura do calendario"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_ADMIN"
-msgstr "Wi-Fi status"
+msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
+msgstr "Lectura do perfil do usuario"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_READ"
-msgstr "Wi-Fi information reading"
+msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
+msgstr "Lectura de contas"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Wi-Fi Direct™ status"
+msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
+msgstr "Lectura/escritura en etiquetas NFC"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_READ"
-msgstr "Wi-Fi Direct™ information reading"
+msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Lectura de información da aplicación"
 
-msgid "IDS_PRIVILEGE_NAME_DRMSERVICE"
-msgstr "DRM"
+msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
+msgstr "Lectura de favoritos"
 
-msgid "IDS_PRIVILEGE_NAME_IMEMANAGER"
-msgstr "IME manager"
+msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
+msgstr "Lectura de rexistros de chamadas"
 
-msgid "IDS_PRIVILEGE_NAME_TELEPHONYMANAGER"
-msgstr "Cellular network"
+msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
+msgstr "Lectura de certificados"
 
-msgid "IDS_PRIVILEGE_NAME_PLATFORMINFO"
-msgstr "Platform information"
+msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
+msgstr "Lectura de contactos"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGELICENSEMANAGER"
-msgstr "Package license management"
+msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
+msgstr "Lectura de contidos"
 
-msgid "IDS_PRIVILEGE_NAME_WIFIMANAGER"
-msgstr "Wi-Fi settings"
+msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
+msgstr "Lectura de sistemas de arquivos"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_READ"
-msgstr "Account reading"
+msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "Lectura de permisos de xeolocalización"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_WRITE"
-msgstr "Account management"
+msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
+msgstr "Lectura de información da plataforma"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_READ"
-msgstr "User profile reading"
+msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Lectura de estatísticas de rede"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_WRITE"
-msgstr "User profile setting"
+msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "Lectura dos axustes de privacidade"
 
-msgid "IDS_PRIVILEGE_DESC_ALARM"
-msgstr "Allows the application to reserve an alarm and wake up the device at the reserved time."
+msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
+msgstr "Lectura de axustes de seguridade do sistema"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
-msgstr "Allows the application to launch another application or allows the current applicationto be launched conditionally."
+msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgstr "Acceso ás mensaxes"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
-msgstr "Allows the application to terminate another application."
+msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Recepción de información de paquetes detallada"
 
-msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
-msgstr "Allows the application to launchanother applicationconditionally."
+msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
+msgstr "Recepción de notificacións de uso de aplicacións"
 
-msgid "IDS_PRIVILEGE_DESC_APPSETTING"
-msgstr "Allows the application to manage application settings."
+msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
+msgstr "Recepción de información de paquetes"
 
-msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
-msgstr "Allows the application to receive notifications about application changes."
+msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
+msgstr "Recepción de notificacións Push"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_ROUTE"
-msgstr "Allows the application to get and set the audio input and output routes and receive notifications about route-related events."
+msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
+msgstr "Recepción de SMS específico de porto"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_SESSION"
-msgstr "Allows the application to handle the audio session policy between applications."
+msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
+msgstr "Selección da conexión de rede"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_VOIPSESSION"
-msgstr "Allows the application to perform audio session management with the VoIP call."
+msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
+msgstr "Lectura de información de Wi-Fi Direct"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIORECORDER"
-msgstr "Allows the application to manage audio recording."
+msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
+msgstr "Lectura de información da Wi-Fi"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_ADMIN"
-msgstr "Allows the application to change the Bluetooth state, such as activating, deactivating, and setting the device name."
+msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
+msgstr "Restablecemento de estatísticas de rede"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_GAP"
-msgstr "Allows the application to use the GAP (Generic Access Profile), for example, to discover and pair devices."
+msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "Acceso a información do sistema"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_HEALTH"
-msgstr "Allows the application to use the HDP (Health Device Profile), for example, to send health data."
+msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgstr "Acceso a información do teléfono"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_OPP"
-msgstr "Allows the application to use the OPP (Object Push Profile), for example, to send files."
+msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
+msgstr "Xestión de SMS"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_SPP"
-msgstr "Allows the application to use the SPP (Serial Port Profile), for example, to send serial data."
+msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
+msgstr "Envío de correos electrónicos"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTHMANAGER"
-msgstr "Allows the application to change the Bluetooth state related to privacy and security issues, such as changing the discoverable mode."
+msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
+msgstr "Envío de MMS"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_READ"
-msgstr "Allows the application to readschedule and task information."
+msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
+msgstr "Envío de mensaxes"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_WRITE"
-msgstr "Allows the application to create, update, and delete schedule and task information."
+msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
+msgstr "Axuste de alarmas"
 
-msgid "IDS_PRIVILEGE_DESC_CALLFORWARD"
-msgstr "Allows the application to controls the call forwarding service."
+msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
+msgstr "Xestión de rutas de son"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_READ"
-msgstr "Allows the application to read call history."
+msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes de paquetes"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_WRITE"
-msgstr "Allows the application to create, update, and delete call history."
+msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
+msgstr "Sincronización de datos do dispositivo"
 
-msgid "IDS_PRIVILEGE_DESC_CAMERA"
-msgstr "Allows the application to manage the device cameras for previewing and capturing."
+msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
+msgstr "Xestión de axustes de vibración"
 
-msgid "IDS_PRIVILEGE_DESC_CELLBROADCAST"
-msgstr "Allows the application to manage Cell Broadcast Service."
+msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
+msgstr "Desbloqueo do dispositivo"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_READ"
-msgstr "Allows the application to read certificates."
+msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
+msgstr "Actualización de notificacións"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_WRITE"
-msgstr "Allows the application to add, update, and delete certificates."
+msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
+msgstr "Acceso aos axustes do usuario"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_READ"
-msgstr "Allows the application to read contacts."
+msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
+msgstr "Actualización dos axustes de rede"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_WRITE"
-msgstr "Allows the application to create, update, and delete contacts."
+msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
+msgstr "Actualización de rexistros"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_READ"
-msgstr "Allows the application to read content."
+msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgstr "Acceso ao almacenamento ilimitado"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_WRITE"
-msgstr "Allows the application to create, update, and delete content."
+msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
+msgstr "Cambio a pantalla completa"
 
-msgid "IDS_PRIVILEGE_DESC_CUSTOMNETACCOUNT"
-msgstr "Allows the application to use the Internet with a specified bearer."
+msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
+msgstr "Uso das funcións comúns de NFC"
 
-msgid "IDS_PRIVILEGE_DESC_DNS"
-msgstr "Allows the application to provide DNS (Domain Name Service)."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
+msgstr "Uso de GAP Bluetooth"
 
-msgid "IDS_PRIVILEGE_DESC_DOWNLOAD"
-msgstr "Allows the application to manage HTTP downloads."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
+msgstr "Uso de HDP Bluetooth"
 
-msgid "IDS_PRIVILEGE_DESC_HTTP"
-msgstr "Allows the application to communicate with the HTTP server."
+msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
+msgstr "Uso das opcións da Internet avanzadas"
 
-msgid "IDS_PRIVILEGE_DESC_IME"
-msgstr "Allows the application to provide a way to input characters and symbols into an associated text input UI control."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
+msgstr "Uso de OPP Bluetooth"
 
-msgid "IDS_PRIVILEGE_DESC_INPUTMANAGER"
-msgstr "Allows the application to generate touch and key events, and capture screens."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
+msgstr "Uso de SPP Bluetooth"
 
-msgid "IDS_PRIVILEGE_DESC_LOCATION"
-msgstr "Allows the application to use the user location data."
+msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
+msgstr "Uso do rexistro"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_EMAIL"
-msgstr "Allows the application to send email messages."
+msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
+msgstr "Uso da automatización de proba"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_MMS"
-msgstr "Allows the application to send MMS messages."
+msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
+msgstr "Uso da localización do usuario"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_SMS"
-msgstr "Allows the application to send and receiveSMS messages, and retrieve SMS messages from the SMS message boxes."
+msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
+msgstr "Uso do módulo común"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_ACCOUNT"
-msgstr "Allows the application to manage network accounts."
+msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
+msgstr "Escritura de mensaxes"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_CONNECTION"
-msgstr "Allows the application to manage network connections."
+msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
+msgstr "Escritura en sistemas de arquivos"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_READ"
-msgstr "Allows the application to read network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "Permite á aplicación antivirus buscar contidos daniños"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_WRITE"
-msgstr "Allows the application to reset network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Permite á aplicación ler información de privilexios"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORKMANAGER"
-msgstr "Allows the application to update existing system network accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "Permite á aplicación acceder a información de privacidade para identificar usuarios"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_ADMIN"
-msgstr "Allows the application to change the NFC state, such as activating or deactivating the NFC feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "Permite á aplicación acceder a información do sistema segura"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_CARDEMULATION"
-msgstr "Allows the application to control the card emulation."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "Permite á aplicación acceder a datos específicos exportados por outras aplicacións"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_COMMON"
-msgstr "Allows the application to manage the common NFC features."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "Permite á aplicación acceder a información do sistema"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_P2P"
-msgstr "Allows the application to push NFC messages to other devices."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "Permite á aplicación ter acceso á Internet"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_TAG"
-msgstr "Allows the application to read and write tag information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATION"
-msgstr "Allows the application to notifythe user through various notification mechanisms, such as message and badge."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "Permite á aplicación engadir e eliminar atallos da pantalla de inicio"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATIONMANAGER"
-msgstr "Allows the application to manage notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "Permite á aplicación engadir Dynamic Box á pantalla de inicio"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEINFO"
-msgstr "Allows the application to get package information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "Permite á aplicación engadir, actualizar e eliminar certificados"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEMANAGER_INSTALL"
-msgstr "Allows the application to install or uninstall an application package."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "Permite á aplicación engadir, actualizar e eliminar contactos"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGESETTING"
-msgstr "Allows the application to set the package configurations."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "Permite á aplicación abrirse dependendo dunha condición ou abrir outra aplicación"
 
-msgid "IDS_PRIVILEGE_DESC_POWER"
-msgstr "Allows the application to keep and control power states."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgstr "Permite á aplicación cambiar os axustes do Bluetooth, como a activación ou desactivación do Bluetooth e o axuste do nome do dispositivo local"
 
-msgid "IDS_PRIVILEGE_DESC_PUSH"
-msgstr "Allows the application to receive push notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgstr "Permite á aplicación cambiar os axustes do sistema Bluetooth relacionados coa privacidade e a seguridade, como o modo visible"
 
-msgid "IDS_PRIVILEGE_DESC_SETTING"
-msgstr "Allows the application to update or read the user's setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
+msgstr "Permite á aplicación cambiar os axustes do modo de emulación da tarxeta NFC, como o cambio do elemento seguro activo e o acceso a elementos seguros integrados (eSE)"
 
-msgid "IDS_PRIVILEGE_DESC_SMSTRIGGER"
-msgstr "Allows the application to receive SMS messages from a specified port."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Permite á aplicación cambiar os axustes de NFC, como a activación ou desactivación de NFC"
 
-msgid "IDS_PRIVILEGE_DESC_SOCKET"
-msgstr "Allows the application to communicate with other devices and servers."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgstr "Permite á aplicación cambiar os axustes do sistema NFC, como a activación ou desactivación de push reservado, que envía mensaxes NDEF predefinidas"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMINFO"
-msgstr "Allows the application to retrieve system information, such as network, SIM, and call details."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "Permite á aplicación cambiar os axustes de privacidade"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_READ"
-msgstr "Allows the application to read the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Permite á aplicación cambiar os axustes de seguridade ou privacidade"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_WRITE"
-msgstr "Allows the application to change or write the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "Permite á aplicación pechar outra aplicación"
 
-msgid "IDS_PRIVILEGE_DESC_UIMANAGER"
-msgstr "Allows the application to manage the systematic properties of the UI."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Permite á aplicación comunicarse con outros dispositivos e servidores"
 
-msgid "IDS_PRIVILEGE_DESC_USERIDENTITY"
-msgstr "Allows the application to access privacy information for user identification purposes."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "Permite á aplicación comunicarse co servidor HTTP"
 
-msgid "IDS_PRIVILEGE_DESC_VIBRATOR"
-msgstr "Allows the application to activate and use the device vibrator feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "Permite á aplicación configurar as redes móbiles"
 
-msgid "IDS_PRIVILEGE_DESC_VIDEORECORDER"
-msgstr "Allows the application to manage video recording with the camera."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
+msgstr "Permite á aplicación controlar Mapas de Samsung"
 
-msgid "IDS_PRIVILEGE_DESC_WAPPUSH"
-msgstr "Allows the application to manage WAP push messages."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
+msgstr "Permite á aplicación controlar Samsung MobileCare"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_PRIVACY"
-msgstr "Allows the application to manage the user data stored by the Web control or browser."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "Permite á aplicación controlar o servizo de desvío de chamadas"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_SERVICE"
-msgstr "Allows the application to display Web content or use the Web content-related API."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Permite á aplicación crear, actualizar e eliminar favoritos"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi device."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "Permite á aplicación crear, actualizar e eliminar contas"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_READ"
-msgstr "Allows the application to request Wi-Fi information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "Permite á aplicación crear, actualizar e eliminar rexistros de chamadas"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi Direct™ device."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "Permite á aplicación crear, actualizar e eliminar contidos"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_READ"
-msgstr "Allows the application to request Wi-Fi Direct™ information."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Permite á aplicación crear, actualizar e eliminar información sobre programacións e tarefas"
 
-msgid "IDS_PRIVILEGE_DESC_DRMSERVICE"
-msgstr "Allows the application to manage theDRM (Digital Rights Management) licenses and retrieve DRM content information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "Permite á aplicación eliminar permisos de xeolocalización"
 
-msgid "IDS_PRIVILEGE_DESC_IMEMANAGER"
-msgstr "Allows the application to manage input methods installed in the system."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "Permite á aplicación amosar o contido web ou usar API relacionado con contido web"
 
-msgid "IDS_PRIVILEGE_DESC_TELEPHONYMANAGER"
-msgstr "Allows the application to configure the cellular network."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "Permite á aplicación xerar eventos táctiles e de teclas e capturar pantallas"
 
-msgid "IDS_PRIVILEGE_DESC_PLATFORMINFO"
-msgstr "Allows the application to read platform information, such as platform or API version."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "Permite á aplicación obter notificacións"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGELICENSEMANAGER"
-msgstr "Allows the application to manage DRM licenses for application support."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Permite á aplicación obter certificados de aplicacións específicos"
 
-msgid "IDS_PRIVILEGE_DESC_WIFIMANAGER"
-msgstr "Allows the application to manage the Wi-Fi system settings."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "Permite á aplicación obter información sobre a hora e a data"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_READ"
-msgstr "Allows the application to read accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "Permite á aplicación manter e controlar os estados de enerxía"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_WRITE"
-msgstr "Allows the application to create, update, and delete accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Permite á aplicación instalar ou desinstalar paquetes de aplicacións"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_READ"
-msgstr "Allows the application to readthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Permite á aplicación xestionar o perfil do usuario"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_WRITE"
-msgstr "Allows the application to setthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "Permite á aplicación xestionar outra apertura de aplicación dependendo dunha condición"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "Permite á aplicación xestionar os axustes da aplicación"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "Permite á aplicación xestionar a gravación de son"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
+msgstr "Permite á aplicación xestionar as sesións de son con chamadas VoIP"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "Permite á aplicación xestionar as cámaras do dispositivo para previsualizar e capturar imaxes"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "Permite á aplicación xestionar licenzas de DRM (Digital Rights Management, Xestión de dereitos dixitais) e recuperar información de contidos DRM"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "Permite á aplicación xestionar descargas de HTTP"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "Permite á aplicación xestionar contas de rede"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "Permite á aplicación xestionar conexións de rede"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "Permite á aplicación xestionar notificacións"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
+msgstr "Permite á aplicación xestionar a política da sesión de son entre aplicacións"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
+msgstr "Permite á aplicación xestionar os volumes de son de varios tipos de fluxo de son"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "Permite á aplicación xestionar o Servizo de transmisión celular (CBS)"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
+msgstr "Permite á aplicación xestionar o dispositivo"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "Permite á aplicación xestionar os métodos de entrada instalados"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "Permite á aplicación xestionar os datos do usuario almacenados polo control web ou o navegador"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "Permite á aplicación xestionar os axustes do sistema Wi-Fi, como a actualización da información de puntos de conexión"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "Permite á aplicación xestionar as propiedades da IU"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "Permite á aplicación xestionar gravacións de vídeo e de son coa cámara ou a gravadora de son"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "Permite á aplicación xestionar gravacións de vídeo coa cámara"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "Permite á aplicación xestionar mensaxes push WAP"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "Permite á aplicación xestionar Wi-Fi Direct no dispositivo"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "Permite á aplicación xestionar a Wi-Fi no dispositivo, como a súa activación ou desactivación e a conexión a un punto de acceso"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "Permite á aplicación ofrecer un modo de inserir carácteres e símbolos nun campo de entrada asociado"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "Permite á aplicación fornecer o Servizo de nomes de dominio (DNS)"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "Permite á aplicación fornecer notificacións de usuario, como mensaxes e distintivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Permite á aplicación enviar mensaxes NFC a outros dispositivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Permite á aplicación ler información sobre programacións e tarefas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Permite á aplicación ler o perfil do usuario"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "Permite á aplicación ler contas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Permite á aplicación ler e escribir información de etiquetas NFC"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "Permite á aplicación ler información de aplicacións"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "Permite á aplicación ler os favoritos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "Permite á aplicación ler rexistros de chamadas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "Permite á aplicación ler certificados"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "Permite á aplicación ler contactos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "Permite á aplicación ler contidos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "Permite á aplicación ler sistemas de arquivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "Permite á aplicación ler permisos de xeolocalización"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "Permite á aplicación ler información como a versión da plataforma ou da API"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "Permite á aplicación ler estatísticas de rede"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "Permite á aplicación ler os axustes de privacidade"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Permite á aplicación ler os axustes de seguridade ou privacidade"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Permite á aplicación recibir mensaxes e recuperar mensaxes das bandexas de mensaxes"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "Permite á aplicación recibir información de paquetes detallada"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "Permite á aplicación recibir notificacións acerca dos cambios na aplicación en primeiro plano"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Permite á aplicación recibir información de paquetes"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "Permite á aplicación recibir notificacións push"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "Permite á aplicación recibir mensaxes SMS dun porto específico"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "Permite á aplicación solicitar/emitir unha conexión de rede específica"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "Permite á aplicación solicitar información de Wi-Fi Direct"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "Permite á aplicación solicitar información da Wi-Fi"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "Permite á aplicación restablecer estatísticas de rede"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Permite á aplicación recuperar información do sistema, como detalles sobre a rede, a tarxeta SIM e as chamadas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Permite á aplicación recuperar información do teléfono, como detalles sobre a rede, a tarxeta SIM e as chamadas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "Permite á aplicación enviar, recibir e recuperar mensaxes SMS das bandexas de mensaxes SMS"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "Permite á aplicación enviar mensaxes de correo electrónico"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "Permite á aplicación enviar mensaxes MMS"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Permite á aplicación enviar SMS, MMS e mensaxes de correo electrónico"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "Permite á aplicación definir unha alarma e activar o dispositivo á hora programada"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "Permite á aplicación definir rutas de entrada e saída de son e recibir notificacións acerca de eventos de rutas"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "Permite á aplicación definir configuracións de paquetes"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Permite á aplicación sincronizar datos do dispositivo co servidor mediante o protocolo OMA DS 1.2"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "Permite á aplicación activar e utilizar a vibración"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "Permite á aplicación desbloquear o dispositivo"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "Permite á aplicación actualizar notificacións"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "Permite á aplicación actualizar ou ler os axustes do usuario"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "Permite á aplicación actualizar contas de rede do sistema"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
+msgstr "Permite á aplicación cargar o rexistro de actividades no servidor"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "Permite á aplicación utilizar o almacenamento adxunto sen limitacións de estado para bases de datos ou arquivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "Permite á aplicación utilizar a pantalla completa"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "Permite á aplicación usar funcións NFC comúns"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "Permite á aplicación utilizar o Generic Access Profile (GAP), por exemplo, para buscar e vincular dispositivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "Permite á aplicación utilizar o Health Device Profile (HDP), por exemplo, para enviar datos sobre a saúde"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "Permite á aplicación utilizar a Internet cun portador específico"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "Permite á aplicación utilizar o Object Push Profile (OPP), por exemplo, para enviar arquivos"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "Permite á aplicación utilizar o Serial Port Profile (SPP), por exemplo, para enviar datos en serie"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "Permite á aplicación utilizar o rexistro do sistema (dlog)"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "Permite á aplicación utilizar a función de automatización de proba"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "Permite á aplicación utilizar os datos de localización do usuario"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "Permite á aplicación utilizar o módulo común da API do dispositivo web Tizen"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Permite á aplicación escribir SMS, MMS e mensaxes de correo electrónico"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "Permite á aplicación escribir en sistemas de arquivos"
+

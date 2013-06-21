@@ -1,497 +1,744 @@
-msgid "IDS_PRIVILEGE_NAME_ALARM"
-msgstr "Alarm"
+msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
+msgstr "바이러스 검색"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_LAUNCH"
-msgstr "Application launch"
+msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
+msgstr "권한 정보 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_APPLICATION_KILL"
-msgstr "Application termination"
+msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
+msgstr "사용자 ID 접근"
 
-msgid "IDS_PRIVILEGE_NAME_APPMANAGER_LAUNCH"
-msgstr "Application management"
+msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
+msgstr "보안 시스템 정보 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_APPSETTING"
-msgstr "Application settings"
+msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgstr "내보낸 데이터 접근"
 
-msgid "IDS_PRIVILEGE_NAME_APPUSAGE"
-msgstr "Application usage notifications"
+msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "시스템 정보 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_ROUTE"
-msgstr "Audio routes"
+msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgstr "인터넷 접속"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_SESSION"
-msgstr "Audio sessions"
+msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
+msgstr "보안 요소 접근"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIOMANAGER_VOIPSESSION"
-msgstr "VoIP audio sessions"
+msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
+msgstr "바로가기 관리"
 
-msgid "IDS_PRIVILEGE_NAME_AUDIORECORDER"
-msgstr "Audio recorder"
+msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
+msgstr "Dynamic Box 설치"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_ADMIN"
-msgstr "Bluetooth status"
+msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
+msgstr "인증서 관리"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_GAP"
-msgstr "Bluetooth GAP"
+msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
+msgstr "연락처 관리"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_HEALTH"
-msgstr "Bluetooth HDP"
+msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
+msgstr "애플리케이션 실행"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
+msgstr "블루투스 일반 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTH_SPP"
-msgstr "Bluetooth SPP"
+msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
+msgstr "NFC 카드 에뮬레이션 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_BLUETOOTHMANAGER"
-msgstr "Bluetooth state settings"
+msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
+msgstr "블루투스 시스템 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_READ"
-msgstr "Calendar reading"
+msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
+msgstr "NFC 일반 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CALENDAR_WRITE"
-msgstr "Calendar writing"
+msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
+msgstr "NFC 시스템 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CALLFORWARD"
-msgstr "Call forwarding"
+msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "개인정보 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_READ"
-msgstr "Call history reading"
+msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
+msgstr "시스템 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CALLHISTORY_WRITE"
-msgstr "Call history management"
+msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
+msgstr "애플리케이션 종료"
 
-msgid "IDS_PRIVILEGE_NAME_CAMERA"
-msgstr "Camera"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
+msgstr "다른 기기 및 서버와 통신"
 
-msgid "IDS_PRIVILEGE_NAME_CELLBROADCAST"
-msgstr "Cell Broadcast Service"
+msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
+msgstr "HTTP 서버와 통신"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_READ"
-msgstr "Certificate reading"
+msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
+msgstr "모바일 네트워크 설정"
 
-msgid "IDS_PRIVILEGE_NAME_CERTIFICATE_WRITE"
-msgstr "Certificate management"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
+msgstr "삼성 지도 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_READ"
-msgstr "Contact reading"
+msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
+msgstr "Samsung MobileCare 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CONTACT_WRITE"
-msgstr "Contact management"
+msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
+msgstr "착신전환"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_READ"
-msgstr "Content reading"
+msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
+msgstr "북마크 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CONTENT_WRITE"
-msgstr "Content management"
+msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
+msgstr "계정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_CUSTOMNETACCOUNT"
-msgstr "Advanced Internet"
+msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
+msgstr "통화 기록 관리"
 
-msgid "IDS_PRIVILEGE_NAME_DNS"
-msgstr "DNS"
+msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
+msgstr "컨텐츠 관리"
 
-msgid "IDS_PRIVILEGE_NAME_DOWNLOAD"
-msgstr "Download"
+msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
+msgstr "달력 관리"
 
-msgid "IDS_PRIVILEGE_NAME_HTTP"
-msgstr "HTTP"
+msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "위치 정보 권한 관리"
 
-msgid "IDS_PRIVILEGE_NAME_IME"
-msgstr "IME"
+msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
+msgstr "웹 컨텐츠 접근"
 
-msgid "IDS_PRIVILEGE_NAME_INPUTMANAGER"
-msgstr "Input manager"
+msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
+msgstr "입력 동작 관리"
 
-msgid "IDS_PRIVILEGE_NAME_LOCATION"
-msgstr "User location"
+msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
+msgstr "알림 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_EMAIL"
-msgstr "Email management"
+msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
+msgstr "애플리케이션 인증서 가져오기"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_MMS"
-msgstr "MMS management"
+msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
+msgstr "날짜 및 시간 접근"
 
-msgid "IDS_PRIVILEGE_NAME_MESSAGING_SMS"
-msgstr "SMS management"
+msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
+msgstr "전원 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_ACCOUNT"
-msgstr "Network accounts"
+msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
+msgstr "패키지 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_CONNECTION"
-msgstr "Network connections"
+msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
+msgstr "사용자 프로필 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_READ"
-msgstr "Network statistic reading"
+msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
+msgstr "애플리케이션 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORK_STATISTICS_WRITE"
-msgstr "Network statistic reset"
+msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
+msgstr "애플리케이션 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NETWORKMANAGER"
-msgstr "Network settings"
+msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
+msgstr "오디오 녹음"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_ADMIN"
-msgstr "NFC status"
+msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
+msgstr "VoIP 오디오 세션 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_CARDEMULATION"
-msgstr "NFC card emulation"
+msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
+msgstr "카메라 사용"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_COMMON"
-msgstr "NFC common"
+msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
+msgstr "DRM 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_P2P"
-msgstr "NFC P2P"
+msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
+msgstr "HTTP를 통해 다운로드"
 
-msgid "IDS_PRIVILEGE_NAME_NFC_TAG"
-msgstr "NFC tag discovery"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
+msgstr "네트워크 계정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATION"
-msgstr "Notifications"
+msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
+msgstr "네트워크 연결 관리"
 
-msgid "IDS_PRIVILEGE_NAME_NOTIFICATIONMANAGER"
-msgstr "Notification management"
+msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
+msgstr "알림 관리"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEINFO"
-msgstr "Package information"
+msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
+msgstr "오디오 세션 관리"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGEMANAGER_INSTALL"
-msgstr "Package management"
+msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
+msgstr "음량 관리"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGESETTING"
-msgstr "Package settings"
+msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
+msgstr "방송 메시지 서비스 관리"
 
-msgid "IDS_PRIVILEGE_NAME_POWER"
-msgstr "Power control"
+msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
+msgstr "MDM 서비스 관리"
 
-msgid "IDS_PRIVILEGE_NAME_PUSH"
-msgstr "Push notifications"
+msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
+msgstr "입력 방식 관리"
 
-msgid "IDS_PRIVILEGE_NAME_SETTING"
-msgstr "Setting access"
+msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
+msgstr "웹 데이터 관리"
 
-msgid "IDS_PRIVILEGE_NAME_SMSTRIGGER"
-msgstr "SMS trigger"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
+msgstr "Wi-Fi 시스템 설정 관리"
 
-msgid "IDS_PRIVILEGE_NAME_SOCKET"
-msgstr "Sockets"
+msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
+msgstr "사용자 인터페이스 관리"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMINFO"
-msgstr "System information"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
+msgstr "동영상 촬영 및 오디오 녹음"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_READ"
-msgstr "System settings reading"
+msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
+msgstr "동영상 촬영"
 
-msgid "IDS_PRIVILEGE_NAME_SYSTEMSETTING_WRITE"
-msgstr "System settings management"
+msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
+msgstr "WAP 푸시 메시지 관리"
 
-msgid "IDS_PRIVILEGE_NAME_UIMANAGER"
-msgstr "UI manager"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
+msgstr "Wi-Fi Direct 관리"
 
-msgid "IDS_PRIVILEGE_NAME_USERIDENTITY"
-msgstr "User ID"
+msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
+msgstr "Wi-Fi 관리"
 
-msgid "IDS_PRIVILEGE_NAME_VIBRATOR"
-msgstr "Vibrator"
+msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
+msgstr "입력 방식 제공"
 
-msgid "IDS_PRIVILEGE_NAME_VIDEORECORDER"
-msgstr "Video recorder"
+msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
+msgstr "DNS 제공"
 
-msgid "IDS_PRIVILEGE_NAME_WAPPUSH"
-msgstr "WAP push"
+msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
+msgstr "알림 제공"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_PRIVACY"
-msgstr "Web privacy"
+msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
+msgstr "NFC 메시지 푸시"
 
-msgid "IDS_PRIVILEGE_NAME_WEB_SERVICE"
-msgstr "Web service"
+msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
+msgstr "달력 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_ADMIN"
-msgstr "Wi-Fi status"
+msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
+msgstr "사용자 프로필 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_READ"
-msgstr "Wi-Fi information reading"
+msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
+msgstr "계정 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Wi-Fi Direct™ status"
+msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
+msgstr "NFC 태그 읽기 및 쓰기"
 
-msgid "IDS_PRIVILEGE_NAME_WIFI_WIFIDIRECT_READ"
-msgstr "Wi-Fi Direct™ information reading"
+msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "애플리케이션 정보 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_DRMSERVICE"
-msgstr "DRM"
+msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
+msgstr "북마크 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_IMEMANAGER"
-msgstr "IME manager"
+msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
+msgstr "통화 기록 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_TELEPHONYMANAGER"
-msgstr "Cellular network"
+msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
+msgstr "인증서 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_PLATFORMINFO"
-msgstr "Platform information"
+msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
+msgstr "연락처 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_PACKAGELICENSEMANAGER"
-msgstr "Package license management"
+msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
+msgstr "컨텐츠 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_WIFIMANAGER"
-msgstr "Wi-Fi settings"
+msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
+msgstr "파일 시스템 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_READ"
-msgstr "Account reading"
+msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
+msgstr "위치 정보 권한 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_ACCOUNT_WRITE"
-msgstr "Account management"
+msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
+msgstr "플랫폼 정보 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_READ"
-msgstr "User profile reading"
+msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
+msgstr "네트워크 통계 읽기"
 
-msgid "IDS_PRIVILEGE_NAME_USERPROFILE_WRITE"
-msgstr "User profile setting"
+msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
+msgstr "개인정보 설정 읽기"
 
-msgid "IDS_PRIVILEGE_DESC_ALARM"
-msgstr "Allows the application to reserve an alarm and wake up the device at the reserved time."
+msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
+msgstr "시스템 보안 설정 읽기"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_LAUNCH"
-msgstr "Allows the application to launch another application or allows the current applicationto be launched conditionally."
+msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgstr "메시지 읽기"
 
-msgid "IDS_PRIVILEGE_DESC_APPLICATION_KILL"
-msgstr "Allows the application to terminate another application."
+msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
+msgstr "패키지 상세 정보 수신"
 
-msgid "IDS_PRIVILEGE_DESC_APPMANAGER_LAUNCH"
-msgstr "Allows the application to launchanother applicationconditionally."
+msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
+msgstr "애플리케이션 사용 알림 수신"
 
-msgid "IDS_PRIVILEGE_DESC_APPSETTING"
-msgstr "Allows the application to manage application settings."
+msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
+msgstr "패키지 정보 수신"
 
-msgid "IDS_PRIVILEGE_DESC_APPUSAGE"
-msgstr "Allows the application to receive notifications about application changes."
+msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
+msgstr "푸시 알림 수신"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_ROUTE"
-msgstr "Allows the application to get and set the audio input and output routes and receive notifications about route-related events."
+msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
+msgstr "특정 포트 문자 메시지 수신"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_SESSION"
-msgstr "Allows the application to handle the audio session policy between applications."
+msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
+msgstr "네트워크 연결 선택"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIOMANAGER_VOIPSESSION"
-msgstr "Allows the application to perform audio session management with the VoIP call."
+msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
+msgstr "Wi-Fi Direct 정보 읽기"
 
-msgid "IDS_PRIVILEGE_DESC_AUDIORECORDER"
-msgstr "Allows the application to manage audio recording."
+msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
+msgstr "Wi-Fi 정보 읽기"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_ADMIN"
-msgstr "Allows the application to change the Bluetooth state, such as activating, deactivating, and setting the device name."
+msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
+msgstr "네트워크 통계 초기화"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_GAP"
-msgstr "Allows the application to use the GAP (Generic Access Profile), for example, to discover and pair devices."
+msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgstr "시스템 정보 접근"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_HEALTH"
-msgstr "Allows the application to use the HDP (Health Device Profile), for example, to send health data."
+msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgstr "전화 통신 정보 접근"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_OPP"
-msgstr "Allows the application to use the OPP (Object Push Profile), for example, to send files."
+msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
+msgstr "문자 메시지 관리"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTH_SPP"
-msgstr "Allows the application to use the SPP (Serial Port Profile), for example, to send serial data."
+msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
+msgstr "이메일 전송"
 
-msgid "IDS_PRIVILEGE_DESC_BLUETOOTHMANAGER"
-msgstr "Allows the application to change the Bluetooth state related to privacy and security issues, such as changing the discoverable mode."
+msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
+msgstr "MMS 전송"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_READ"
-msgstr "Allows the application to readschedule and task information."
+msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
+msgstr "메시지 전송"
 
-msgid "IDS_PRIVILEGE_DESC_CALENDAR_WRITE"
-msgstr "Allows the application to create, update, and delete schedule and task information."
+msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
+msgstr "알람 설정"
 
-msgid "IDS_PRIVILEGE_DESC_CALLFORWARD"
-msgstr "Allows the application to controls the call forwarding service."
+msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
+msgstr "오디오 경로 관리"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_READ"
-msgstr "Allows the application to read call history."
+msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
+msgstr "패키지 설정 관리"
 
-msgid "IDS_PRIVILEGE_DESC_CALLHISTORY_WRITE"
-msgstr "Allows the application to create, update, and delete call history."
+msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
+msgstr "디바이스 데이터 동기화"
 
-msgid "IDS_PRIVILEGE_DESC_CAMERA"
-msgstr "Allows the application to manage the device cameras for previewing and capturing."
+msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
+msgstr "진동 설정 관리"
 
-msgid "IDS_PRIVILEGE_DESC_CELLBROADCAST"
-msgstr "Allows the application to manage Cell Broadcast Service."
+msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
+msgstr "디바이스 잠금 해제"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_READ"
-msgstr "Allows the application to read certificates."
+msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
+msgstr "알림 업데이트"
 
-msgid "IDS_PRIVILEGE_DESC_CERTIFICATE_WRITE"
-msgstr "Allows the application to add, update, and delete certificates."
+msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
+msgstr "사용자 설정 접근"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_READ"
-msgstr "Allows the application to read contacts."
+msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
+msgstr "네트워크 설정 업데이트"
 
-msgid "IDS_PRIVILEGE_DESC_CONTACT_WRITE"
-msgstr "Allows the application to create, update, and delete contacts."
+msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
+msgstr "기록 업로드"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_READ"
-msgstr "Allows the application to read content."
+msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgstr "무제한 저장소 접속"
 
-msgid "IDS_PRIVILEGE_DESC_CONTENT_WRITE"
-msgstr "Allows the application to create, update, and delete content."
+msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
+msgstr "전체 화면으로 변경"
 
-msgid "IDS_PRIVILEGE_DESC_CUSTOMNETACCOUNT"
-msgstr "Allows the application to use the Internet with a specified bearer."
+msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
+msgstr "NFC 일반 기능 사용"
 
-msgid "IDS_PRIVILEGE_DESC_DNS"
-msgstr "Allows the application to provide DNS (Domain Name Service)."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
+msgstr "블루투스 GAP 사용"
 
-msgid "IDS_PRIVILEGE_DESC_DOWNLOAD"
-msgstr "Allows the application to manage HTTP downloads."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
+msgstr "블루투스 HDP 사용"
 
-msgid "IDS_PRIVILEGE_DESC_HTTP"
-msgstr "Allows the application to communicate with the HTTP server."
+msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
+msgstr "고급 인터넷 옵션 사용"
 
-msgid "IDS_PRIVILEGE_DESC_IME"
-msgstr "Allows the application to provide a way to input characters and symbols into an associated text input UI control."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
+msgstr "블루투스 OPP 사용"
 
-msgid "IDS_PRIVILEGE_DESC_INPUTMANAGER"
-msgstr "Allows the application to generate touch and key events, and capture screens."
+msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
+msgstr "블루투스 SPP 사용"
 
-msgid "IDS_PRIVILEGE_DESC_LOCATION"
-msgstr "Allows the application to use the user location data."
+msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
+msgstr "기록 사용"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_EMAIL"
-msgstr "Allows the application to send email messages."
+msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
+msgstr "테스트 자동화 사용"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_MMS"
-msgstr "Allows the application to send MMS messages."
+msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
+msgstr "사용자 위치 정보 사용"
 
-msgid "IDS_PRIVILEGE_DESC_MESSAGING_SMS"
-msgstr "Allows the application to send and receiveSMS messages, and retrieve SMS messages from the SMS message boxes."
+msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
+msgstr "일반 모듈 사용"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_ACCOUNT"
-msgstr "Allows the application to manage network accounts."
+msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
+msgstr "메시지 작성"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_CONNECTION"
-msgstr "Allows the application to manage network connections."
+msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
+msgstr "파일 시스템 쓰기"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_READ"
-msgstr "Allows the application to read network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "바이러스 백신 앱이 유해 컨텐츠를 검색할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORK_STATISTICS_WRITE"
-msgstr "Allows the application to reset network statistics."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "애플리케이션이 권한 정보를 읽을 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NETWORKMANAGER"
-msgstr "Allows the application to update existing system network accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "애플리케이션이 사용자 인증을 위해 개인 정보에 접근할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_ADMIN"
-msgstr "Allows the application to change the NFC state, such as activating or deactivating the NFC feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "애플리케이션이 보안 시스템 정보에 접근할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_CARDEMULATION"
-msgstr "Allows the application to control the card emulation."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "애플리케이션이 다른 애플리케이션이 내보낸 특정 데이터에 접근할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_COMMON"
-msgstr "Allows the application to manage the common NFC features."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "애플리케이션이 시스템 정보에 접근할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_P2P"
-msgstr "Allows the application to push NFC messages to other devices."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "애플리케이션이 인터넷에 접속할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NFC_TAG"
-msgstr "Allows the application to read and write tag information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATION"
-msgstr "Allows the application to notifythe user through various notification mechanisms, such as message and badge."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "애플리케이션이 홈 화면에 바로가기를 추가하거나 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_NOTIFICATIONMANAGER"
-msgstr "Allows the application to manage notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "애플리케이션이 홈 화면에 Dynamic Box를 추가할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEINFO"
-msgstr "Allows the application to get package information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "애플리케이션이 인증서를 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGEMANAGER_INSTALL"
-msgstr "Allows the application to install or uninstall an application package."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "애플리케이션이 연락처를 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGESETTING"
-msgstr "Allows the application to set the package configurations."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "애플리케이션을 조건적으로 실행하거나 다른 애플리케이션을 실행할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_POWER"
-msgstr "Allows the application to keep and control power states."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgstr "애플리케이션이 블루투스를 켜거나 끄고 기기 이름을 설정하는 등의 블루투스 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PUSH"
-msgstr "Allows the application to receive push notifications."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgstr "애플리케이션이 검색 허용 모드 등의 개인정보 보호 및 보안과 관련된 블루투스 시스템 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SETTING"
-msgstr "Allows the application to update or read the user's setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
+msgstr "애플리케이션이 실행 중인 보안 요소나 기본 보안 요소(eSE)를 변경하는 등 NFC 카드 에뮬레이션 모드 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SMSTRIGGER"
-msgstr "Allows the application to receive SMS messages from a specified port."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "애플리케이션이 NFC를 켜거나 끄는 등의 NFC 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SOCKET"
-msgstr "Allows the application to communicate with other devices and servers."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgstr "애플리케이션이 미리 설정된 NDEF 메시지를 전송하는 Reserved Push 기능을 끄거나 켜는 등 NFC 시스템 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMINFO"
-msgstr "Allows the application to retrieve system information, such as network, SIM, and call details."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "애플리케이션이 개인정보 보호 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_READ"
-msgstr "Allows the application to read the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "애플리케이션이 개인정보 보호 및 보안 설정을 변경할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_SYSTEMSETTING_WRITE"
-msgstr "Allows the application to change or write the user's secure or privacy setting configuration."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "애플리케이션이 다른 애플리케이션을 종료할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_UIMANAGER"
-msgstr "Allows the application to manage the systematic properties of the UI."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "애플리케이션이 다른 기기 및 서버와 통신할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_USERIDENTITY"
-msgstr "Allows the application to access privacy information for user identification purposes."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "애플리케이션이 HTTP 서버와 통신할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_VIBRATOR"
-msgstr "Allows the application to activate and use the device vibrator feature."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "애플리케이션이 모바일 네트워크를 설정할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_VIDEORECORDER"
-msgstr "Allows the application to manage video recording with the camera."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
+msgstr "애플리케이션이 삼성 지도를 제어할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WAPPUSH"
-msgstr "Allows the application to manage WAP push messages."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
+msgstr "애플리케이션이 Samsung MobileCare를 제어할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_PRIVACY"
-msgstr "Allows the application to manage the user data stored by the Web control or browser."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "애플리케이션이 착신전환 서비스를 제어할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WEB_SERVICE"
-msgstr "Allows the application to display Web content or use the Web content-related API."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "애플리케이션이 북마크를 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi device."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "애플리케이션이 계정을 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_READ"
-msgstr "Allows the application to request Wi-Fi information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "애플리케이션이 통화 기록을 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_ADMIN"
-msgstr "Allows the application to manage a Wi-Fi Direct™ device."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "애플리케이션이 컨텐츠를 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WIFI_WIFIDIRECT_READ"
-msgstr "Allows the application to request Wi-Fi Direct™ information."
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "애플리케이션이 일정 및 할 일 정보를 추가, 업데이트, 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_DRMSERVICE"
-msgstr "Allows the application to manage theDRM (Digital Rights Management) licenses and retrieve DRM content information."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "애플리케이션이 위치 정보 권한을 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_IMEMANAGER"
-msgstr "Allows the application to manage input methods installed in the system."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "애플리케이션이 웹 컨텐츠를 표시하거나 웹 컨텐츠 관련 API를 사용할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_TELEPHONYMANAGER"
-msgstr "Allows the application to configure the cellular network."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "애플리케이션이 터치 및 버튼 입력을 실행하고 화면을 캡처할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PLATFORMINFO"
-msgstr "Allows the application to read platform information, such as platform or API version."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "애플리케이션이 알림을 가져올 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_PACKAGELICENSEMANAGER"
-msgstr "Allows the application to manage DRM licenses for application support."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "애플리케이션이 특정 애플리케이션 인증서를 가져올 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_WIFIMANAGER"
-msgstr "Allows the application to manage the Wi-Fi system settings."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "애플리케이션이 날짜 및 시간 정보를 가져올 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_READ"
-msgstr "Allows the application to read accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "애플리케이션이 전원 상태를 유지 및 제어할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_ACCOUNT_WRITE"
-msgstr "Allows the application to create, update, and delete accounts."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "애플리케이션이 애플리케이션 패키지를 설치하거나 삭제할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_READ"
-msgstr "Allows the application to readthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "애플리케이션이 사용자 프로필을 관리할 수 있도록 허용합니다"
 
-msgid "IDS_PRIVILEGE_DESC_USERPROFILE_WRITE"
-msgstr "Allows the application to setthe user profile."
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "애플리케이션이 다른 애플리케이션 실행을 조건적으로 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "애플리케이션이 애플리케이션 설정을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "애플리케이션이 녹음을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
+msgstr "애플리케이션이 인터넷통화의 오디오 세션을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "애플리케이션이 사진을 미리 보거나 촬영하는 등 디바이스의 카메라를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "애플리케이션이 DRM(디지털 저작권 관리) 라이선스를 관리하고 DRM 컨텐츠 정보를 가져올 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "애플리케이션이 HTTP 다운로드를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "애플리케이션이 네트워크 계정을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "애플리케이션이 네트워크 연결을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "애플리케이션이 알림을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
+msgstr "애플리케이션이 애플리케이션 간의 오디오 세션 방침을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
+msgstr "애플리케이션이 다양한 오디오 스트리밍 형식의 오디오 음량을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "애플리케이션이 CBS(방송 메시지 서비스)를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
+msgstr "애플리케이션이 디바이스를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "애플리케이션이 설치된 입력 방식을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "애플리케이션이 웹 컨트롤이나 브라우저가 저장한 사용자 데이터를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "애플리케이션이 AP 정보를 업데이트하는 등의 Wi-Fi 시스템 설정을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "애플리케이션이 UI 속성을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "애플리케이션이 카메라나 음성 녹음으로 동영상 촬영과 오디오 녹음을 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "애플리케이션이 카메라의 동영상 녹화를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "애플리케이션이 WAP 푸시 메시지를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "애플리케이션이 디바이스의 Wi-Fi Direct를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "애플리케이션이 Wi-Fi를 켜거나 끄고 AP에 연결하는 등 디바이스의 Wi-Fi를 관리할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "애플리케이션이 문자나 기호를 관련 입력란에 입력하는 방법을 제공할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "애플리케이션이 DNS(도메인 이름 서비스)를 제공할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "애플리케이션이 메시지와 배지 등의 사용자 알림을 제공할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "애플리케이션이 NFC 메시지를 다른 디바이스로 푸시할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "애플리케이션이 일정 및 할 일 정보를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "애플리케이션이 사용자 프로필을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "애플리케이션이 계정을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "애플리케이션이 NFC 태그 정보를 읽고 쓸 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "애플리케이션이 애플리케이션 정보를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "애플리케이션이 북마크를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "애플리케이션이 통화 기록을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "애플리케이션이 인증서를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "애플리케이션이 연락처를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "애플리케이션이 컨텐츠를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "애플리케이션이 파일 시스템을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "애플리케이션이 위치 정보 권한을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "애플리케이션이 플랫폼이나 API 버전 등의 정보를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "애플리케이션이 네트워크 통계를 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "애플리케이션이 개인정보 보호 설정을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "애플리케이션이 보안 설정이나 개인정보 보호 설정을 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "애플리케이션이 메시지를 수신하고 메시지함에서 메시지를 가져올 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "애플리케이션이 패키지 상세 정보에 접근할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "애플리케이션이 포그라운드에서 실행 중인 애플리케이션의 변경 사항에 대한 알림을 수신할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "애플리케이션이 패키지 정보를 수신할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "애플리케이션이 푸시 알림을 수신할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "애플리케이션이 특정 포트에서 문자 메시지를 수신할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "애플리케이션이 특정 네트워크 연결을 요청하거나 해제할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "애플리케이션이 Wi-Fi Direct 정보를 요청할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "애플리케이션이 Wi-Fi 정보를 요청할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "애플리케이션이 네트워크 통계를 초기화할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "애플리케이션이 네트워크, SIM, 통화 상세 정보 등의 시스템 정보를 가져올 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "애플리케이션이 네트워크, SIM, 통화 상세 정보 등의 전화 통신 정보를 가져올 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "애플리케이션이 문자 메시지를 전송 및 수신하고 문자 메시지함에서 문자 메시지를 가져올 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "애플리케이션이 이메일 메시지를 전송할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "애플리케이션이 MMS 메시지를 전송할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "애플리케이션이 문자 메시지, MMS, 이메일 메시지를 전송할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "애플리케이션이 알람을 설정하고 예약한 시간에 디바이스를 울리게 할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "애플리케이션이 오디오 입력 및 출력 경로를 설정하고 경로와 관련한 알림을 수신할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "애플리케이션이 패키지 구성을 설정할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "애플리케이션이 OMA DS 1.2 프로토콜을 사용하여 디바이스의 데이터를 서버와 동기화할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "애플리케이션이 진동을 켜고 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "애플리케이션이 디바이스 잠금을 해제할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "애플리케이션이 알림을 업데이트할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "애플리케이션이 사용자 설정을 업데이트하거나 읽을 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "애플리케이션이 시스템 네트워크 계정을 업데이트할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
+msgstr "애플리케이션이 활동 기록을 서버에 업로드할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "애플리케이션이 데이터베이스나 파일의 크기 제한 없이 연결된 저장소를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "애플리케이션이 전체 화면을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "애플리케이션이 NFC 일반 기능을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "애플리케이션이 디바이스를 검색하거나 연결하는 등의 작업을 수행하기 위하여 GAP(일반 접근 프로필)를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "애플리케이션이 건강 데이터 전송과 같은 목적을 위해 HDP(헬스 기기 프로필)를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "애플리케이션이 특정 네트워크로 인터넷을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "애플리케이션이 파일 전송과 같은 목적을 위해 OPP(오브젝트 푸시 프로필)를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "애플리케이션이 시리얼 데이터 전송과 같은 목적을 위해 SPP(시리얼 포트 프로필)를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "애플리케이션이 시스템 기록(dlog)을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "애플리케이션이 테스트 자동화 기능을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "애플리케이션이 사용자의 위치 정보를 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "애플리케이션이 타이젠 웹 디바이스 API 일반 모듈을 사용할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "애플리케이션이 문자 메시지, MMS, 이메일 메시지를 작성할 수 있도록 허용합니다"
+
+msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "애플리케이션이 파일 시스템에 쓸 수 있도록 허용합니다"
+
