@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Ceadaítear don fheidhmchlár an tIdirlíon a rochtain."
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "Ligtear don fheidhmchlár slis slán cárta cliste amhail UICC/SIM, gné shlán leabaithe, nó cárta SD slán a rochtain"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Ceadaítear don fheidhmchlár aicearraí a chur leis an scáileán baile agus a bhaint uaidh"

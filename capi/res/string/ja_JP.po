@@ -38,7 +38,7 @@ msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
 msgstr "アプリケーションの起動"
 
 msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
-msgstr "Bluetooth一般設定の管理"
+msgstr "Bluetoothの一般的な設定の管理"
 
 msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
 msgstr "NFCカードエミュレーション設定の管理"
@@ -77,7 +77,7 @@ msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
 msgstr "Samsung MobileCareの管理"
 
 msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
-msgstr "電話転送"
+msgstr "通話の転送"
 
 msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
 msgstr "ブックマークの管理"
@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "インターネットにアクセスすることをアプリケーションに許可します。"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "UICC/SIM、組み込みセキュアエレメント、セキュアSDカードなど、セキュアスマートカードチップにアクセスすることをアプリケーションに許可します。"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "ホーム画面にショートカットの追加または削除することをアプリケーションに許可します。"

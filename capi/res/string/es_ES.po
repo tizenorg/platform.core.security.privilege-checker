@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Permite a la aplicación acceder a Internet"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "Permite a la aplicación acceder al chip de la tarjeta inteligente segura como UICC/SIM, al elemento seguro incrustado o a la tarjeta SD segura"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Permite a la aplicación añadir y eliminar accesos directos de la pantalla de inicio"

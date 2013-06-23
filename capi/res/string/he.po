@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "מאפשר ליישום לגשת לאינטרנט"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "מאפשר ליישום לגשת לשביב של כרטיס חכם מאובטח, כגון UICC או SIM, לרכיב אבטחה מוטבע, או לכרטיס SD מאובטח"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "מאפשר ליישום להוסיף ולהסיר קיצורי דרך ממסך הבית"

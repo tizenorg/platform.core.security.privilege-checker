@@ -101,7 +101,7 @@ msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
 msgstr "웹 컨텐츠 접근"
 
 msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
-msgstr "입력 동작 관리"
+msgstr "입력 내용 관리"
 
 msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
 msgstr "알림 읽기"
@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "애플리케이션이 인터넷에 접속할 수 있도록 허용합니다"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "애플리케이션이 UICC/SIM, 기본 내장 보안 요소, 보안 SD 카드 등의 보안 스마트 카드 칩에 접근할 수 있도록 허용합니다"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "애플리케이션이 홈 화면에 바로가기를 추가하거나 삭제할 수 있도록 허용합니다"

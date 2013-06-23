@@ -26,7 +26,7 @@ msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
 msgstr "Gestion des raccourcis"
 
 msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
-msgstr "Installation d'une Dynamic Box"
+msgstr "Installation de la boite dynamique"
 
 msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
 msgstr "Gestion des certificats"
@@ -101,7 +101,7 @@ msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
 msgstr "Accès au contenu Web"
 
 msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
-msgstr "Gestion des événements d'entrée"
+msgstr "Gestion des évènements d'entrée"
 
 msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
 msgstr "Accès en lecture aux notifications"
@@ -116,7 +116,7 @@ msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
 msgstr "Gestion de l'alimentation"
 
 msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
-msgstr "Gestion des packages"
+msgstr "Gestion des ensembles"
 
 msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
 msgstr "Gestion du profil utilisateur"
@@ -131,13 +131,13 @@ msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
 msgstr "Enregistrement audio"
 
 msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
-msgstr "Gestion des sessions audio VoIP"
+msgstr "Gestion des sessions audios VoIP"
 
 msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
 msgstr "Utilisation de l'appareil photo"
 
 msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
-msgstr "Gestion des DRM"
+msgstr "Gestion des GDN"
 
 msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
 msgstr "Téléchargement via HTTP"
@@ -170,7 +170,7 @@ msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
 msgstr "Gestion des données Web"
 
 msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres système Wi-Fi"
+msgstr "Gestion des paramètres système Wifi"
 
 msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
 msgstr "Gestion de l'interface utilisateur"
@@ -185,10 +185,10 @@ msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
 msgstr "Gestion des messages Push WAP"
 
 msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
-msgstr "Gestion de Wi-Fi Direct"
+msgstr "Gestion de Wifi Direct"
 
 msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
-msgstr "Gestion du Wi-Fi"
+msgstr "Gestion du Wifi"
 
 msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
 msgstr "Fourniture des modes de saisie"
@@ -239,7 +239,7 @@ msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
 msgstr "Accès en lecture aux autorisations de géolocalisation"
 
 msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations de la plate-forme"
+msgstr "Accès en lecture aux informations de la plateforme"
 
 msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
 msgstr "Accès en lecture aux statistiques réseau"
@@ -254,13 +254,13 @@ msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
 msgstr "Accès aux messages"
 
 msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Réception des informations de package détaillées"
+msgstr "Réception des informations détaillées de l'ensemble"
 
 msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
 msgstr "Réception des notifications d'utilisation des applications"
 
 msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Réception des informations de package"
+msgstr "Réception des informations de l'ensemble"
 
 msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
 msgstr "Réception des notifications push"
@@ -272,10 +272,10 @@ msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
 msgstr "Sélection de connexion réseau"
 
 msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations Wi-Fi Direct"
+msgstr "Accès en lecture aux informations Wifi Direct"
 
 msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations Wi-Fi"
+msgstr "Accès en lecture aux informations Wifi"
 
 msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
 msgstr "Réinitialisation des statistiques réseau"
@@ -290,7 +290,7 @@ msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
 msgstr "Gestion des SMS"
 
 msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
-msgstr "Envoi d'e-mails"
+msgstr "Envoi de courriels"
 
 msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
 msgstr "Envoi de MMS"
@@ -305,7 +305,7 @@ msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
 msgstr "Gestion des routages audio"
 
 msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres des packages"
+msgstr "Gestion des paramètres des ensembles"
 
 msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
 msgstr "Synchronisation des données de l'appareil"
@@ -365,7 +365,7 @@ msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
 msgstr "Utilisation d'un module commun"
 
 msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
-msgstr "Ecriture de messages"
+msgstr "Rédaction de messages"
 
 msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
 msgstr "Accès en écriture aux systèmes de fichiers"
@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Autorise l'application à accéder à Internet"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "Autorise l'application à accéder à la carte à puce sécurisée, telle que la carte UICC/SIM, aux éléments sécurisés intégrés ou à la carte SD sécurisée"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Autorise l'application à ajouter ou supprimer des raccourcis de l'écran d'accueil"
@@ -527,7 +527,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BET
 msgstr "Autorise l'application à gérer la politique de session audio entre les applications"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
-msgstr "Autorise l'application à gérer les volumes audio de différents types de flux audio"
+msgstr "Autorise l'application à gérer les niveaux sonores de différents types de flux audio"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
 msgstr "Autorise l'application à gérer le service de diffusion cellulaire (CBS)"
@@ -542,7 +542,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_
 msgstr "Autorise l'application à gérer les données utilisateur stockées par le navigateur ou le contrôle Web"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Autorise l'application à gérer les paramètres système Wi-Fi (mise à jour des informations du point d'accès, par exemple)"
+msgstr "Autorise l'application à gérer les paramètres système Wifi (mise à jour des informations du point d'accès, par exemple)"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
 msgstr "Autorise l'application à gérer les propriétés IU"
@@ -560,7 +560,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
 msgstr "Autorise l'application à gérer Wifi Direct sur l'appareil"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Autorise l'application à gérer le Wi-Fi sur l'appareil (activation ou désactivation du Wi-Fi, connexion au point d'accès, par exemple)"
+msgstr "Autorise l'application à gérer le Wifi sur l'appareil (activation ou désactivation du Wifi, connexion au point d'accès, par exemple)"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
 msgstr "Permet à l'application de proposer un moyen d'insérer des caractères et des symboles dans un champ de saisie associé"
@@ -653,7 +653,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
 msgstr "Autorise l'application à réinitialiser les statistiques réseau"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Autorise l'application à récupérer les informations système, telles que les données d'appel, SIM et de réseau"
+msgstr "Autorise l'application à récupérer les informations système, comme les données d'appel, SIM et de réseau"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Autorise l'application à récupérer les informations de téléphonie, telles que les données d'appel, SIM et de réseau"
@@ -668,7 +668,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
 msgstr "Autorise l'application à envoyer des MMS"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Autorise l'application à envoyer des SMS, des MMS et des e-mails"
+msgstr "Autorise l'application à envoyer des SMS, des MMS et des courriels"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
 msgstr "Autorise l'application à définir une alarme et à activer l'appareil à l'heure prévue"
@@ -701,7 +701,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERV
 msgstr "Autorise l'application à charger le journal des activités sur le serveur"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Autorise l'application à utiliser l'espace de stockage connecté sans limite de taille pour les bases de données et les fichiers"
+msgstr "Autorise l'application à utiliser l'espace de stockage connecté sans limites de taille pour les bases de données et les fichiers"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
 msgstr "Autorise l'application à utiliser le mode plein écran"
@@ -737,7 +737,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MOD
 msgstr "Autorise l'application à utiliser le module commun de l'API d'appareil Web Tizen"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Autorise l'application à écrire des SMS, des MMS et des e-mails"
+msgstr "Autorise l'application à écrire des SMS, des MMS et des courriels"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
 msgstr "Autorise l'application à accéder en écriture aux systèmes de fichiers"

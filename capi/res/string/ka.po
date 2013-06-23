@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა ინტერნეტზე"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა დაცული სმარტბარათის ჩიპზე, როგორიცაა UICC/SIM, რომელშიც ინტეგრირებულია დაცული ელემენტი, ან დაცულ SD ბარათზე"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "საშუალებას აძლევს პროგრამას დაამატოს და წაშალოს ღილაკები საწყის ეკრანზე"

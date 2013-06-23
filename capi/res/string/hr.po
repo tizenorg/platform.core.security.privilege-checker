@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Aplikaciji dopušta pristup internetu"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "Dopušta aplikaciji pristup sigurnosnom čipu pametne kartice kao što je UICC/SIM, umetnutom sigurnosnom elementu ili sigurnosnoj SD-kartici"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Aplikaciji dopušta dodavanje i uklanjanje prečaca s početnog zaslona"
@@ -608,7 +608,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
 msgstr "Dopušta aplikaciji čitanje sustava datoteka"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Dopušta aplikaciji čitanje dozvola za geolokaciju"
+msgstr "Dopušta aplikaciji čitanje geolokacijskih dozvola"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
 msgstr "Dopušta aplikaciji čitanje informacija kao što su inačica platforme ili API-ja"

@@ -392,7 +392,7 @@ msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "एप्लीकेशन को इंटरनेट एक्सेस करने की अनुमति देता है"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Allows the application to access to secure smart card chip such as UICC/SIM, embedded secure element, or secure SD card"
+msgstr "एप्लीकेशन को सुरक्षित स्मार्ड कार्ड चीप जैसे कि UICC/SIM, एम्बेडेड सुरक्षित तत्व या सु‍रक्षित SD कार्ड को उपयोग करने की अनुमति देता है"
 
 msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "एप्लीकेशन को होम स्क्रीन पर शॉर्टकट्स जोड़ने और निकालने की अनुमति देता है"
