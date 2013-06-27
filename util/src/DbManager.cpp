@@ -227,7 +227,7 @@ DbManager::DeletePrivacy(const PrivacyInfo* pPrivacyInfo)
 	TryReturn(dbRes == SQLITE_DONE, res = PRIV_CHECKER_ERROR_DB_ERROR, PRIV_CHECKER_ERROR_DB_ERROR, "[%s] DB step failed. (%d)", Util::GetErrorMessage(PRIV_CHECKER_ERROR_DB_ERROR), dbRes);
 
 	LOGI("leave");
-	return 0;
+	return res;
 }
 
 int

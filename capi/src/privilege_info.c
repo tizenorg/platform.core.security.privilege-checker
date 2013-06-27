@@ -175,8 +175,6 @@ int privilege_info_get_privilege_group_display_name_by_string_id(const char *str
 int privilege_info_get_name_string_id(const char *privilege, char **name_string_id)
 {
 	int index = 0;
-	bool validStringFlag = false;
-
 	TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
@@ -187,7 +185,6 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
 			TryReturn(*name_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
 			memcpy(*name_string_id, privilege_info_table[index].name_string_id, strlen(privilege_info_table[index].name_string_id));
-			validStringFlag = true;
 			break;
 		}
 	}
@@ -248,8 +245,6 @@ int privilege_info_get_privilege_display_name(const char *privilege, char **name
 int privilege_info_get_description_string_id(const char *privilege, char **description_string_id)
 {
 	int index = 0;
-	bool validStringFlag = false;
-
 	TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
@@ -260,7 +255,6 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
 			TryReturn(*description_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
 			memcpy(*description_string_id, privilege_info_table[index].description_string_id, strlen(privilege_info_table[index].description_string_id));
-			validStringFlag = true;
 			break;
 		}
 	}
