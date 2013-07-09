@@ -118,6 +118,18 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
  */
 EXPORT_API int privilege_info_get_privilege_description(const char *privilege, char **description);
 
+/**
+ * @brief Gets the privilege level of external privilege.
+ * @remarks @a privilege_level must be released with free() by you.
+ * @param [in] privilege The privilege
+ * @param [out] privilege_level The privilege_level of the external privilege
+ * @return 0 on success, otherwise a negative error value.
+ * @retval #PRVMGR_ERR_NONE Successful
+ * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
+ * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
+ */
+EXPORT_API int privilege_info_get_external_privilege_level(const char *privilege, char **privilege_level);
+
 #ifdef __cplusplus
 }
 #endif

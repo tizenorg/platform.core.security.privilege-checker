@@ -1,6 +1,6 @@
 Name:    privilege-checker
 Summary: Privilege Management
-Version: 0.0.2
+Version: 0.0.3
 Release: 3
 Group:   System/Libraries
 License: SAMSUNG
@@ -39,6 +39,7 @@ The Privilege Manager API provides functions to get information about privilege 
 %package  -n capi-security-privilege-manager-devel
 Summary:  Privilege Manager API (Development)
 Group:    TO_BE/FILLED_IN
+Requires:	capi-security-privilege-manager
 
 %description -n capi-security-privilege-manager-devel
 The Privilege Manager API provides functions to get information about privilege information of installed packages.(DEV)
@@ -86,9 +87,6 @@ cp util/res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
 
 %files -n capi-security-privilege-manager-devel
 %{_includedir}/privilegemgr/*.h
-%{_libdir}/libcapi-security-privilege-manager.so*
-/usr/share/locale/*
-%manifest packaging/capi-security-privilege-manager.manifest
 
 %clean
 rm -rf %{buildroot}

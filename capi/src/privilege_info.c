@@ -41,11 +41,24 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
 
 	for (i = 0; i < PRIVILEGE_NUM; i++)
 	{
-		if (strcmp(privilege_info_table[i].privilege, privilege_name) == 0)
+		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_info_table[i].privilege)) == 0)
 		{
 			groupTable[(privilege_info_table[i].privilege_group_enum)] = 1;
 			matchedFlag = true;
 			break;
+		}
+	}
+
+	if (matchedFlag == false)
+	{
+		for (i = 0; i < EXTERNAL_PRIVILEGE_NUM; i++)
+		{
+			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(external_privilege_info_table[i].privilege)) == 0)
+			{
+				groupTable[(external_privilege_info_table[i].privilege_group_enum)] = 1;
+				matchedFlag = true;
+				break;
+			}
 		}
 	}
 
@@ -98,7 +111,7 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
 
 	for (i = 0; i < PRIVILEGE_NUM; i++)
 	{
-		if (strcmp(privilege_info_table[i].privilege, privilege_name) == 0)
+		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_info_table[i].privilege)) == 0)
 		{
 			matchedFlag = true;
 			if (privilege_info_table[i].privilege_group_enum == data.privilege_group)
@@ -107,6 +120,24 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
 				TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
 
 				break;
+			}
+		}
+	}
+
+	if (matchedFlag == false)
+	{
+		for (i = 0; i < EXTERNAL_PRIVILEGE_NUM; i++)
+		{
+			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(external_privilege_info_table[i].privilege)) == 0)
+			{
+				matchedFlag = true;
+				if (external_privilege_info_table[i].privilege_group_enum == data.privilege_group)
+				{
+					res = data.callback(privilege_name, data.user_data);
+					TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
+
+					break;
+				}
 			}
 		}
 	}
@@ -136,7 +167,7 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
 
 	for (i = 0; i < MAX_PRV_GROUP; i++)
 	{
-		if (strcmp(privilege_group_info_table[i].privilege_group, privilege_group) == 0)
+		if (strncmp(privilege_group_info_table[i].privilege_group, privilege_group, strlen(privilege_group_info_table[i].privilege_group)) == 0)
 		{
 			data.privilege_group = privilege_group_info_table[i].privilege_group_enum;
 			break;
@@ -175,17 +206,34 @@ int privilege_info_get_privilege_group_display_name_by_string_id(const char *str
 int privilege_info_get_name_string_id(const char *privilege, char **name_string_id)
 {
 	int index = 0;
+	bool matchedFlag = false;
 	TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
 	{
-		if (strcmp(privilege_info_table[index].privilege, privilege) == 0)
+		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege_info_table[index].privilege)) == 0)
 		{
+			matchedFlag = true;
 			*name_string_id = (char*)calloc(strlen(privilege_info_table[index].name_string_id) + 1, sizeof(char));
 			TryReturn(*name_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
 			memcpy(*name_string_id, privilege_info_table[index].name_string_id, strlen(privilege_info_table[index].name_string_id));
 			break;
+		}
+	}
+
+	if (matchedFlag == false)
+	{
+		for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
+		{
+			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+			{
+				*name_string_id = (char*)calloc(strlen(external_privilege_info_table[index].name_string_id) + 1, sizeof(char));
+				TryReturn(*name_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+				memcpy(*name_string_id, external_privilege_info_table[index].name_string_id, strlen(external_privilege_info_table[index].name_string_id));
+				break;
+			}
 		}
 	}
 
@@ -245,17 +293,34 @@ int privilege_info_get_privilege_display_name(const char *privilege, char **name
 int privilege_info_get_description_string_id(const char *privilege, char **description_string_id)
 {
 	int index = 0;
+	bool matchedFlag = false;
 	TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
 	{
-		if (strcmp(privilege_info_table[index].privilege, privilege) == 0)
+		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege_info_table[index].privilege)) == 0)
 		{
+			matchedFlag = true;
 			*description_string_id = (char*)calloc(strlen(privilege_info_table[index].description_string_id) + 1, sizeof(char));
 			TryReturn(*description_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
 			memcpy(*description_string_id, privilege_info_table[index].description_string_id, strlen(privilege_info_table[index].description_string_id));
 			break;
+		}
+	}
+
+	if (matchedFlag == false)
+	{
+		for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
+		{
+			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+			{
+				*description_string_id = (char*)calloc(strlen(external_privilege_info_table[index].description_string_id) + 1, sizeof(char));
+				TryReturn(*description_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+				memcpy(*description_string_id, external_privilege_info_table[index].description_string_id, strlen(external_privilege_info_table[index].description_string_id));
+				break;
+			}
 		}
 	}
 
@@ -300,5 +365,36 @@ int privilege_info_get_privilege_description(const char *privilege, char **descr
 		free(description_string_id);
 		TryReturn(ret == PRVMGR_ERR_NONE, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 	}
+	return  PRVMGR_ERR_NONE;
+}
+
+int privilege_info_get_external_privilege_level(const char *privilege, char **privilege_level)
+{
+	int index = 0;
+	bool matchedFlag = false;
+	char* public_level = "public";
+	TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+
+	for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
+	{
+		if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+		{
+			matchedFlag = true;
+			*privilege_level = (char*)calloc(strlen(external_privilege_info_table[index].privilege_level) + 1, sizeof(char));
+			TryReturn(*privilege_level != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+			memcpy(*privilege_level, external_privilege_info_table[index].privilege_level, strlen(external_privilege_info_table[index].privilege_level));
+			break;
+		}
+	}
+
+	if (matchedFlag == false)
+	{
+		*privilege_level = (char*)calloc(strlen(public_level) + 1, sizeof(char));
+		TryReturn(*privilege_level != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+		memcpy(*privilege_level, public_level, strlen(public_level));
+	}
+
 	return  PRVMGR_ERR_NONE;
 }

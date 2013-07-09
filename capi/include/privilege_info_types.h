@@ -31,8 +31,17 @@ typedef enum _privilegeGroup
 	MAX_PRV_GROUP,
 } privilegeGroup;
 
-#define PRIVILEGE_NUM 131
 #define EXTRA_GROUP MAX_PRV_GROUP - 1
+
+typedef struct
+{
+	const char* privilege;
+	const char* name_string_id;
+	const char* description_string_id;
+	const char* privilege_level;
+	privilegeGroup privilege_group_enum;
+
+} privilege_info_s;
 
 typedef struct
 {
@@ -41,7 +50,7 @@ typedef struct
 	const char* description_string_id;
 	privilegeGroup privilege_group_enum;
 
-} privilege_info_s;
+} external_privilege_info_s;
 
 typedef struct
 {
@@ -64,6 +73,8 @@ const static privilege_group_info_s privilege_group_info_table[MAX_PRV_GROUP] =
 	{"http://tizen.org/privilege/group2", _PRV_GROUP_2, "IDS_PRIVILEGE_GROUP_NAME2"},
 	{"http://tizen.org/privilege/group3", _PRV_GROUP_3, "IDS_PRIVILEGE_GROUP_NAME3"},
 };
+
+#define PRIVILEGE_NUM 123
 
 const static privilege_info_s privilege_info_table[PRIVILEGE_NUM] =
 {
@@ -190,14 +201,13 @@ const static privilege_info_s privilege_info_table[PRIVILEGE_NUM] =
 	{"http://tizen.org/privilege/wifi.wifidirect.admin", "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE", _PRV_GROUP_1},
 	{"http://tizen.org/privilege/wifi.wifidirect.read", "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION", _PRV_GROUP_1},
 	{"http://tizen.org/privilege/wifimanager", "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/audiomanager.session", "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/audiomanager.voipsession", "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/audiomanager.volume", "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/contextmanager.upload", "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/mdm", "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/mobilecare", "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/nfccardmanager", "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG", _PRV_GROUP_1},
-	{"http://developer.samsung.com/tizen/privilege/samsungmaps", "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN", "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS", _PRV_GROUP_1},
+};
+
+#define EXTERNAL_PRIVILEGE_NUM 0
+
+const static privilege_info_s external_privilege_info_table[EXTERNAL_PRIVILEGE_NUM] =
+{
+	//	{"http://privilege", "IDS_PRIVILEGE_NAME_ID", "IDS_PRIVILEGE_DESC_ID", "platform", _PRV_GROUP_ENUM},
 };
 
 #ifdef __cplusplus
