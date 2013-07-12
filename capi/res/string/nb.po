@@ -1,463 +1,109 @@
-msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
-msgstr "Skanne etter virus"
-
-msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
-msgstr "Lese rettighetsinformasjon"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
-msgstr "Få tilgang til bruker-ID"
-
-msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Lese sikker systeminformasjon"
-
-msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
 msgstr "Få tilgang til eksporterte data"
 
-msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Lese systeminformasjon"
-
-msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
 msgstr "Få tilgang til Internett"
 
-msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
-msgstr "Få tilgang til sikre elementer"
-
-msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
-msgstr "Administrere snarveier"
-
-msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
-msgstr "Installere Dynamic Box"
-
-msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
-msgstr "Administrere sertifikater"
-
-msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
-msgstr "Administrere kontakter"
-
-msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
-msgstr "Åpne programmer"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
-msgstr "Administrere generelle Bluetooth-innstillinger"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
-msgstr "Administrere emuleringsinnstillinger for NFC-kortet"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Administrere systeminnstillinger for Bluetooth"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
-msgstr "Administrere generelle innstillinger for NFC"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Administrere systeminnstillinger for NFC"
-
-msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Administrere personverninnstillinger"
-
-msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Administrere systeminnstillinger"
-
-msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
-msgstr "Lukke programmer"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
-msgstr "Kommunisere med andre enheter og servere"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
-msgstr "Kommunisere med HTTP-serveren"
-
-msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
-msgstr "Konfigurere mobilnettverk"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
-msgstr "Administrere Samsung Kart"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
-msgstr "Administrere Samsung MobileCare"
-
-msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
-msgstr "Viderekoble anrop"
-
-msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
-msgstr "Administrere bokmerker"
-
-msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
-msgstr "Administrere kontoer"
-
-msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
-msgstr "Administrere anropslogger"
-
-msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
-msgstr "Administrere innhold"
-
-msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
-msgstr "Administrere kalender"
-
-msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Administrere tillatelser for geoplassering"
-
-msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
-msgstr "Få tilgang til Internett-innhold"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
-msgstr "Administrere inndatahendelser"
-
-msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
-msgstr "Lese varsler"
-
-msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
-msgstr "Hente programsertifikater"
-
-msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
-msgstr "Få tilgang til dato og klokkeslett"
-
-msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
-msgstr "Styre strøm"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
-msgstr "Administrere pakker"
-
-msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
-msgstr "Administrere brukerprofil"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
-msgstr "Administrere programmer"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Administrere programinnstillinger"
-
-msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
-msgstr "Spille inn lyd"
-
-msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
-msgstr "Administrere VoIP-lydøkter"
-
-msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
-msgstr "Bruke kamera"
-
-msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
-msgstr "Administrere DRM"
-
-msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
-msgstr "Laste ned via HTTP..."
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
-msgstr "Administrere nettverkskontoer"
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
-msgstr "Administrere nettverkstilkoblinger"
-
-msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
-msgstr "Administrere varsler"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
-msgstr "Administrere lydøkter"
-
-msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
-msgstr "Administrere volumer"
-
-msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
-msgstr "Administrere CBS-tjenesten"
-
-msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
-msgstr "Administrere MDM-tjenesten"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
-msgstr "Administrere inndatametoder"
-
-msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
-msgstr "Administrere Internett-data"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Administrere systeminnstillinger for Wi-Fi"
-
-msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
-msgstr "Administrere brukergrensesnittet"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
-msgstr "Ta opp video og lyd"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
-msgstr "Ta opp video"
-
-msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
-msgstr "Administrere WAP-push-meldinger"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
-msgstr "Administrere Wi-Fi Direct"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
-msgstr "Administrere Wi-Fi"
-
-msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
-msgstr "Gi inndatametoder"
-
-msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
-msgstr "Gi DNS"
-
-msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
-msgstr "Gi varsler"
-
-msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
-msgstr "Levere NFC-meldinger"
-
-msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
-msgstr "Lese kalender"
-
-msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
-msgstr "Lese brukerprofil"
-
-msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
-msgstr "Lese kontoer"
-
-msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
-msgstr "Lese/skrive til NFC-tagger"
-
-msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Lese programinformasjon"
-
-msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
-msgstr "Lese bokmerker"
-
-msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
-msgstr "Lese anropslogger"
-
-msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
-msgstr "Lese sertifikater"
-
-msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
-msgstr "Lese kontakter"
-
-msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
-msgstr "Lese innhold"
-
-msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
-msgstr "Lese filsystemer"
-
-msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Lese tillatelser for geoplassering"
-
-msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
-msgstr "Lese plattforminformasjon"
-
-msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Lese nettverksstatistikk"
-
-msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Lese personverninnstillinger"
-
-msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
-msgstr "Lese systemets sikkerhetsinnstillinger"
-
-msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
 msgstr "Få tilgang til meldinger"
 
-msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Motta detaljert pakkeinformasjon"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "Få tilgang til sikre elementer"
 
-msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
-msgstr "Motta varsler om programbruk"
-
-msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Motta pakkeinformasjon"
-
-msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
-msgstr "Motta push-varsler"
-
-msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
-msgstr "Motta portspesifikk SMS"
-
-msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
-msgstr "Velge nettverkstilkobling"
-
-msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
-msgstr "Lese Wi-Fi Direct-informasjon"
-
-msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
-msgstr "Lese Wi-Fi-informasjon"
-
-msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Tilbakestille nettverksstatistikk"
-
-msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
 msgstr "Få tilgang til systeminformasjon"
 
-msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Få tilgang til telefoniinformasjon"
 
-msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
-msgstr "Administrere SMS"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "Få tilgang til dato og klokkeslett"
 
-msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
-msgstr "Sende e-poster"
-
-msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
-msgstr "Sende MMS"
-
-msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
-msgstr "Sende meldinger"
-
-msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
-msgstr "Angi alarmer"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
-msgstr "Administrere lydruter"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
-msgstr "Administrere pakkeinnstillinger"
-
-msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
-msgstr "Synkronisere enhetsdata"
-
-msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
-msgstr "Administrere vibreringsinnstillinger"
-
-msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
-msgstr "Låse opp enheten"
-
-msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
-msgstr "Oppdatere varsler"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
-msgstr "Få tilgang til brukerinnstillinger"
-
-msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
-msgstr "Oppdatere nettverksinnstillinger"
-
-msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
-msgstr "Laste opp logger"
-
-msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Få tilgang til ubegrenset lagring"
 
-msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
-msgstr "Endre til fullskjerm"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "Få tilgang til bruker-ID"
 
-msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
-msgstr "Bruke fellesfunksjoner i NFC"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "Få tilgang til brukerinnstillinger"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
-msgstr "Bruke Bluetooth GAP"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "Få tilgang til Internett-innhold"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
-msgstr "Bruke Bluetooth HDP"
-
-msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
-msgstr "Bruke avanserte Internett-alternativer"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
-msgstr "Bruke Bluetooth OPP"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
-msgstr "Bruke Bluetooth SPP"
-
-msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
-msgstr "Bruke logg"
-
-msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
-msgstr "Bruke testautomatisering"
-
-msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
-msgstr "Bruke brukerplassering"
-
-msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
-msgstr "Bruke fellesmodul"
-
-msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
-msgstr "Skrive meldinger"
-
-msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
-msgstr "Skrive til filsystemer"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
 msgstr "Gir antivirusprogrammet tillatelse til å søke etter skadelig innhold"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Gir programmet tillatelse til å lese rettighetsinformasjon"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
 msgstr "Tillater programmet å få tilgang til personverninformasjon til brukeridentifiseringsformål"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
 msgstr "Tillater at programmet får tilgang til sikker systeminformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
 msgstr "Gir programmet tillatelse til å få tilgang til spesifikke data som er eksportert av andre programmer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
 msgstr "Gir programmet tillatelse til å få tilgang til systeminformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Tillater at programmet får tilgang til Internett"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
 msgstr "Gir programmet tillatelse til å få tilgang til sikre smartkortbrikker, som for eksempel UICC/SIM, innebgyde sikre elementer eller sikre SD-kort"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Tillater at programmet kan legge til og fjerne snarveier fra startskjermbildet"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
 msgstr "Gir programmet tillatelse til å legge til Dynamic Box på startskjermbildet"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
 msgstr "Tillater programmet å legge til, oppdatere og slette sertifikater"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
 msgstr "Tillater programmet å legge til, oppdatere og slette kontakter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
 msgstr "Tillater at programmet åpnes betinget eller åpner et annet program"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
 msgstr "Gir programmet tillatelse til å endre Bluetooth-innstillingene, som for eksempel å slå på eller av Bluetooth og å angi lokalt enhetsnavn"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
 msgstr "Gir programmet tillatelse til å endre systeminnstillingene for Bluetooth hva gjelder personvern og sikkerhet, som for eksempel synlig modus"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
-msgstr "Gir programmet tillatelse til å endre innstillinger for emuleringsmodus for NFC-kortet, som for eksempel ved å endre aktivt sikkert element og å få tilgang til innfelte sikre elementer (eSE)"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
 msgstr "Gir programmet tillatelse til å endre NFC-innstillinger, som for eksempel å slå NFC på eller av"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
 msgstr "Tillater at programmet kan endre NFC-systeminnstillingene, som for eksempel å slå av reservert push, som sender forhåndsdefinerte NDEF-meldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
 msgstr "Tillater at programmet kan endre personverninnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Gir programmet tillatelse til å endre sikkerhets- eller personverninnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
 msgstr "Tillater at programmet lukker et annet program"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
 msgstr "Tillater programmet å kommunisere med andre enheter og servere"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
 msgstr "Tillater programmet å kommunisere med HTTP-serveren"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
 msgstr "Tillate programmet å konfigurere mobilnettverkene"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
-msgstr "Gir programmet tillatelse til å styre Samsung Kart"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
-msgstr "Tillater programmet å styre Samsung MobileCare"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
 msgstr "Tillater programmet å kontrollere viderekoblingstjenesten for anrop"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Tillater at programmet kan opprette, oppdatere og slette bokmerker"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
 msgstr "Tillater programmet å opprette, oppdatere og slette kontoer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
 msgstr "Gir programmet tillatelse til å opprette, oppdatere og slette anropslogger"
 
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
@@ -466,279 +112,648 @@ msgstr "Tillater programmet å opprette, oppdatere og slette innhold"
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
 msgstr "Tillater programmet å opprette, oppdatere og slette tidsplan- og oppgaveinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Tillater at programmet kan opprette, oppdatere og slette bokmerker"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
 msgstr "Gir programmet tillatelse til å slette tillatelser for geoplassering"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
 msgstr "Tillater at programmet kan vise nettinnhold eller bruke API-en som er tilknyttet nettinnhold"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
 msgstr "Tillater programmet å generere trykk- og tastehendelser og ta bilde av skjermen"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
 msgstr "Gir programmet tillatelse til å hente varsler"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
 msgstr "Gir programmet tillatelse til å hente spesifikke programsertifikater"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
 msgstr "Gir programmet tillatelse til å hente informasjon om dato og klokkeslett"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
 msgstr "Tillater at programmet kan holde og kontrollere strømtilstander"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
 msgstr "Tillater programmet å installere eller avinstallere programpakker"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Gir programmet tillatelse til å administrere brukerprofilen"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
 msgstr "Gir programmet tillatelse til å administrere betinget åpning av et annet program"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
 msgstr "Tillater at programmet behandler programinnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
 msgstr "Tillater programmet å styre lydopptak"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
-msgstr "Tillater programmet å styre lydøkter med VoIP-samtaler"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
 msgstr "Gir programmet tillatelse til å administrere enhetskameraer for å forhåndsvise og ta bilder"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
 msgstr "Tillater programmet å administrere DRM-lisenser (Digital Rights Management) og hente DRM-innholdsinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
 msgstr "Tillater programmet å administrere HTTP-nedlastinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
 msgstr "Tillater programmet å administrere nettverkskontoer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
 msgstr "Tillater programmet å administrere nettverkstilkoblinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
 msgstr "Tillater programmet å administrere varsler"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
-msgstr "Tillater at programmet behandler policyen for lydøkter mellom programmer"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
-msgstr "Gir programmet tillatelse til å administrere lydvolum for ulike typer lydstreamer"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
 msgstr "Tillater programmet å behandle CBS (Cell Broadcast Service)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
-msgstr "Gir programmet tillatelse til å administrere enheten"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
 msgstr "Tillater programmet å styre de installerte inndatametodene"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
 msgstr "Tillater programmet å behandle brukerdataene som lagres av webkontrollen eller nettleseren"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
 msgstr "Gir programmet tillatelse til å administrere systeminnstillinger for Wi-Fi, som for eksempel ved å oppdatere informasjon om tilgangspunkt"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
 msgstr "Tillater programmet å administrere UI-egenskaper"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
 msgstr "Gir programmet tillatelse til å administrere videoopptak og lydinnspilling med kamera eller lydopptaker"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
 msgstr "Tillater programmet å styre videoopptak med kameraer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
 msgstr "Tillater programmet å behandle WAP-push-meldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
 msgstr "Tillater programmet å behandle Wi-Fi Direct på enheten"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
 msgstr "Gir programmet tillatelse til å administrere Wi-Fi på enheten, som for eksempel å slå Wi-Fi av eller på og å koble til tilgangspunkter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Gir programmet tillatelse til å administrere brukerprofilen"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
 msgstr "Tillater at programmet tilbyr en mulighet for å taste inn tegn og symboler i et tilhørende inntastingsfelt"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
 msgstr "Tillater programmet å levere DNS (Domain Name Service)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
 msgstr "Tillater programmet å tilby brukervarsler, som for eksempel meldinger og merker"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
 msgstr "Tillater programmet å pushe NFC-meldinger til andre enheter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Tillater programmet å lese tidsplan- og oppgaveinformasjon"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Tillater programmet å lese brukerprofilen"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
 msgstr "Tillater programmet å lese kontoer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
 msgstr "Gir programmet tillatelse til å lese og skrive NFC-tagginformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
 msgstr "Gir programmet tillatelse til å lese og skrive programinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
 msgstr "Tillater at programmet kan lese bokmerker"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
 msgstr "Gir programmet tillatelse til å lese anropslogger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
 msgstr "Tillater programmet å lese sertifikater"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
 msgstr "Tillater programmet å lese kontakter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
 msgstr "Tillater programmet å lese innhold"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
 msgstr "Gir programmet tillatelse til å lese filsystemer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
 msgstr "Gir programmet tillatelse til å lese tillatelser for geoplassering"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
 msgstr "Tillater programmet å lese informasjon om for eksempel plattform eller API-versjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
 msgstr "Tillater programmet å lese nettverksstatistikk"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
 msgstr "Gir programmet tillatelse til å lese personverninnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Tillater programmet å lese sikkerhets- eller personverninnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Gir programmet tillatelse til å motta meldinger og hente meldinger fra meldingsboksene"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Tillater programmet å lese tidsplan- og oppgaveinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Tillater programmet å lese brukerprofilen"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
 msgstr "Tillater at programmet kan motta detaljert pakkeinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
 msgstr "Tillater programmet å motta varsler om endringer i forgrunnsprogrammer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
 msgstr "Tillater programmet å hente pakkeinformasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
 msgstr "Tillater programmet å motta push-varsler"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
 msgstr "Tillater programmet å motta SMS-meldinger fra en angitt port"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Gir programmet tillatelse til å motta meldinger og hente meldinger fra meldingsboksene"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
 msgstr "Gir programmet tillatelse til å forespørre/frigi en spesifikk nettverkstilkobling"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
 msgstr "Tillater programmet å be om Wi-Fi Direct-informasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
 msgstr "Tillater programmet å be om Wi-Fi-informasjon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
 msgstr "Tillater programmet å nullstille nettverksstatistikk"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Gir programmet tillatelse til å hente systeminformasjon, som for eksempel opplysninger om nettverk, SIM og anrop"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Gir programmet tillatelse til å hente telefoniinformasjon, som for eksempel opplysninger om SIM og anrop"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
 msgstr "Gir programmet tillatelse til å sende og motta SMS-meldinger og hente SMS-meldinger fra SMS-meldingsboksene"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
 msgstr "Tillater programmet å sende e-postmeldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
 msgstr "Tillater programmet å sende MMS-meldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Gir programmet tillatelse til å sende SMS-, MMS- og e-postmeldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
 msgstr "Gir programmet tillatelse til å angi en alarm og vekke enheten på angitt tidspunkt"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
 msgstr "Tillater at programmet angir inn- og utdataruter for lyd og mottar varsler om rutehendelser"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
 msgstr "Tillater programmet å angi pakkekonfigurasjoner"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
 msgstr "Gir programmet tillatelse til å synkronisere enhetsdata til serveren ved å bruke OMA DS 1.2-protokollen"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
 msgstr "Tillater programmet å slå på og bruke vibrering"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
 msgstr "Gir programmet tillatelse til å låse opp enheten"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
 msgstr "Gir programmet tillatelse til å oppdatere varsler"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
 msgstr "Tillater programmet å oppdatere eller lese brukerinnstillinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
 msgstr "Tillater at programmet kan oppdatere systemnettverkskontoer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
-msgstr "Tillater at programmet kan laste opp aktivitetsloggen til serveren"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
 msgstr "Gir programmet tillatelse til å bruke den tilkoblede lagringsplassen uten størrelsesbegrensning for DB eller filer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
 msgstr "Gir programmet tillatelse til å bruke hele skjermen"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
 msgstr "Gir programmet tillatelse til å bruke fellesfunksjoner for NFC"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
 msgstr "Tillater at programmet bruker GTP (Generisk tilgangsprofil) til for eksempel å søke etter og pare sammen med enheter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
 msgstr "Tillater at programmet bruker HDP (Health Device Profile) til for eksempel å sende helsedata"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
 msgstr "Tillater programmet å bruke Internett med en spesifikk bærer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
 msgstr "Tillater at programmet bruker OPP (Object Push Profile) til for eksempel å sende filer"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
 msgstr "Tillater at programmet bruker SPP (Serial Port Profile) til for eksempel å sende serielle data"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
 msgstr "Gir programmet tillatelse til å bruke systemloggen (dlog)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
 msgstr "Gir programmet tillatelse til å bruke testautomatiseringsfunksjonen"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
 msgstr "Tillater programmet å bruke brukerplasseringsdataene"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
 msgstr "Gir programmet tillatelse til å bruke API-fellesmodulen for Tizen-nettenheter"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Gir programmet tillatelse til å skrive SMS-, MMS- og e-postmeldinger"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
 msgstr "Gir programmet tillatelse til å skrive til filsystemer"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Gir programmet tillatelse til å lese rettighetsinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "Endre til fullskjerm"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "Lukke programmer"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Kommunisere med andre enheter og servere"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "Kommunisere med HTTP-serveren"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "Konfigurere mobilnettverk"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "Laste ned via HTTP..."
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "Viderekoble anrop"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "Hente programsertifikater"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Installere Dynamic Box"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "Administrere kontoer"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "Administrere programmer"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "Administrere programinnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "Administrere lydruter"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "Administrere generelle Bluetooth-innstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "Administrere systeminnstillinger for Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "Administrere bokmerker"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "Administrere kalender"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "Administrere anropslogger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "Administrere CBS-tjenesten"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "Administrere sertifikater"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "Administrere kontakter"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "Administrere innhold"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "Administrere DRM"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "Administrere tillatelser for geoplassering"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "Administrere inndatahendelser"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Administrere inndatametoder"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "Administrere nettverkskontoer"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Administrere nettverkstilkoblinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "Administrere generelle innstillinger for NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "Administrere systeminnstillinger for NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "Administrere varsler"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "Administrere pakker"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "Administrere pakkeinnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "Styre strøm"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "Administrere personverninnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "Administrere snarveier"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "Administrere SMS"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "Administrere systeminnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "Administrere brukergrensesnittet"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "Administrere brukerprofil"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "Administrere vibreringsinnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "Administrere WAP-push-meldinger"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "Administrere Internett-data"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Administrere Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Administrere Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Administrere systeminnstillinger for Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "Åpne programmer"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "Gi DNS"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "Gi inndatametoder"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "Gi varsler"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "Levere NFC-meldinger"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "Lese kontoer"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "Lese programinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "Lese bokmerker"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "Lese kalender"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "Lese anropslogger"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "Lese sertifikater"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "Lese kontakter"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "Lese innhold"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "Lese filsystemer"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "Lese tillatelser for geoplassering"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "Lese nettverksstatistikk"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "Lese varsler"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "Lese plattforminformasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "Lese personverninnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "Lese rettighetsinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "Lese sikker systeminformasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "Lese systeminformasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "Lese systemets sikkerhetsinnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "Lese brukerprofil"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Lese Wi-Fi Direct-informasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Lese Wi-Fi-informasjon"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "Lese/skrive til NFC-tagger"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "Motta varsler om programbruk"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Motta detaljert pakkeinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "Motta pakkeinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "Motta portspesifikk SMS"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "Motta push-varsler"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "Spille inn lyd"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "Ta opp video"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Ta opp video og lyd"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "Tilbakestille nettverksstatistikk"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "Skanne etter virus"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "Velge nettverkstilkobling"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "Sende e-poster"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "Sende meldinger"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "Sende MMS"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "Angi alarmer"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "Synkronisere enhetsdata"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "Låse opp enheten"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "Oppdatere nettverksinnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "Oppdatere varsler"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "Bruke avanserte Internett-alternativer"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "Bruke Bluetooth GAP"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "Bruke Bluetooth HDP"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "Bruke Bluetooth OPP"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "Bruke Bluetooth SPP"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "Bruke kamera"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "Bruke fellesmodul"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "Bruke logg"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "Bruke fellesfunksjoner i NFC"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "Bruke testautomatisering"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "Bruke brukerplassering"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "Skrive meldinger"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "Skrive til filsystemer"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "Kontoer"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "Kalender"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "Kontakter"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internett"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "Meldinger"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Hente inn programinformasjon"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "Administrere standardpreferanser for programmer"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Gir programmet tillatelse til å hente inn informasjon som er relatert til andre programmer"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "Gir programmet tillatelse til å lese og oppdatere standardpreferanser for programmer"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Plassering"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "Personlig informasjon"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "Maskinvarekontroller"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "Nettverkstilkoblinger"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "Betalte tjenester"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "Systeminnstillinger"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "Andre rettigheter"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Administrere innstillinger for nettprogrammer"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "Gir programmet tillatelse til å administrere innstillingene for nettprogrammer, deriblant fjerning av alle informasjonskapslene som er lagret for dette nettprogrammet"
 

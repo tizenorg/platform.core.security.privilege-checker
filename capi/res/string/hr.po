@@ -1,463 +1,109 @@
-msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
-msgstr "Traženje virusa"
-
-msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o privilegijama"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
-msgstr "Pristupanje korisničkom ID-u"
-
-msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Čitanje sigurnosnih podataka o sustavu"
-
-msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
 msgstr "Pristupanje izvezenim podacima"
 
-msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o sustavu"
-
-msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
 msgstr "Pristupanje Internetu"
 
-msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
-msgstr "Pristupanje zaštićenim elementima"
-
-msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
-msgstr "Upravljanje prečacima"
-
-msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
-msgstr "Instaliranje Dynamic Box"
-
-msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
-msgstr "Upravljanje potvrdama"
-
-msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
-msgstr "Upravljanje kontaktima"
-
-msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
-msgstr "Otvaranje aplikacija"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
-msgstr "Upravljanje općim postavkama Bluetootha"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama NFC-emulacije kartice"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama sustava Bluetootha"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
-msgstr "Upravljanje općim postavkama NFC-a"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama sustava NFC"
-
-msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama privatnosti"
-
-msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama sustava"
-
-msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
-msgstr "Zatvaranje aplikacija"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
-msgstr "Komuniciranje s drugim uređajima i poslužiteljima"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
-msgstr "Komuniciranje s HTTP-poslužiteljem"
-
-msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
-msgstr "Konfiguriranje mobilnih mreža"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
-msgstr "Upravljanje kartama Samsung"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
-msgstr "Upravljanje Samsung MobileCare"
-
-msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
-msgstr "Prosljeđivanje poziva"
-
-msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
-msgstr "Upravljanje favoritima"
-
-msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
-msgstr "Upravljanje računima"
-
-msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
-msgstr "Upravljanje popisom poziva"
-
-msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
-msgstr "Upravljanje sadržajem"
-
-msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
-msgstr "Upravljanje kalendarom"
-
-msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Upravljanje dozvolama za geolokaciju"
-
-msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
-msgstr "Pristupanje web-sadržaju"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
-msgstr "Upravljanje unešenim informacijama"
-
-msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
-msgstr "Čitanje obavijesti"
-
-msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
-msgstr "Primanje potvrda o aplikaciji"
-
-msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
-msgstr "Pristupanje vremenu i datumu"
-
-msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
-msgstr "Upravljanje napajanjem"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
-msgstr "Upravljanje paketima"
-
-msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
-msgstr "Upravljanje korisničkim profilom"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
-msgstr "Upravljanje aplikacijama"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama aplikacija"
-
-msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
-msgstr "Snimanje zvuka"
-
-msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
-msgstr "Upravljanje audio sesijama VoIP"
-
-msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
-msgstr "Korištenje kamere"
-
-msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
-msgstr "Upravljanje DRM-om"
-
-msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
-msgstr "Preuzimanje preko HTTP-a"
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
-msgstr "Upravljanje računima mreža"
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
-msgstr "Upravljanje mrežnim vezama"
-
-msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
-msgstr "Upravljanje obavijestima"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
-msgstr "Upravljanje audio sesijama"
-
-msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
-msgstr "Upravljanje glasnoćom"
-
-msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
-msgstr "Upravljanje uslugom ćelijskog emitiranja"
-
-msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
-msgstr "Upravljanje MDM uslugama"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
-msgstr "Upravljanje načinom unosa"
-
-msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
-msgstr "Upravljanje web-podacima"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama sustava Wi-Fi"
-
-msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
-msgstr "Upravljanje korisničkim sučeljem"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
-msgstr "Snimanje videa i zvuka"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
-msgstr "Snimanje videa"
-
-msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
-msgstr "Upravljanje WAP push porukama"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
-msgstr "Upravljanje Wi-Fi Direct"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
-msgstr "Upravljanje Wi-Fi-jem"
-
-msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
-msgstr "Davanje načina unosa"
-
-msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
-msgstr "Davatelji DNS-a"
-
-msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
-msgstr "Davanje obavijesti"
-
-msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
-msgstr "Slanje NFC poruka"
-
-msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
-msgstr "Čitanje kalendara"
-
-msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
-msgstr "Čitanje korisničkog profila"
-
-msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
-msgstr "Čitanje računa"
-
-msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
-msgstr "Čitanje/pisanje na NFC oznake"
-
-msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o aplikaciji"
-
-msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
-msgstr "Čitanje favorita"
-
-msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
-msgstr "Čitanje popisa poziva"
-
-msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
-msgstr "Čitanje potvrda"
-
-msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
-msgstr "Čitanje kontakata"
-
-msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
-msgstr "Čitanje sadržaja"
-
-msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
-msgstr "Čitanje sustava datoteka"
-
-msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Čitanje dozvola za geolokaciju"
-
-msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o platformi"
-
-msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Čitanje mrežnih statistika"
-
-msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Čitanje postavki privatnosti"
-
-msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
-msgstr "Čitanje sigurnosnih postavki sustava"
-
-msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
 msgstr "Pristupanje porukama"
 
-msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Primanje detaljnih podataka o paketu"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "Pristupanje zaštićenim elementima"
 
-msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
-msgstr "Primanje obavijesti o korištenju aplikacije"
-
-msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Primanje podataka o paketu"
-
-msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
-msgstr "Primanje push obavijesti"
-
-msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
-msgstr "Primanje SMS poruka na određeni ulaz"
-
-msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
-msgstr "Biranje mrežne veze"
-
-msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o Wi-Fi Direct"
-
-msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
-msgstr "Čitanje podataka o Wi-Fi"
-
-msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Poništavanje mrežnih statistika"
-
-msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
 msgstr "Pristupanje podacima o sustavu"
 
-msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Pristupanje podacima o telefoniji"
 
-msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
-msgstr "Upravljanje SMS-om"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "Pristupanje vremenu i datumu"
 
-msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
-msgstr "Slanje emailova"
-
-msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
-msgstr "Slanje MMS-a"
-
-msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
-msgstr "Slanje poruka"
-
-msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
-msgstr "Postavljanje alarma"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
-msgstr "Upravljanje audiorutama"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama paketa"
-
-msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
-msgstr "Sinkronizacija podataka s uređaja"
-
-msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
-msgstr "Upravljanje postavkama vibracije"
-
-msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
-msgstr "Otključavanje uređaja"
-
-msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
-msgstr "Aktualiziranje obavijesti"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
-msgstr "Pristupanje korisničkim postavkama"
-
-msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
-msgstr "Aktualiziranje mrežnih postavki"
-
-msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
-msgstr "Učitavanje oznaka"
-
-msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Pristupanje neograničenoj memoriji"
 
-msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
-msgstr "Prebacivanje na cijeli zaslon"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "Pristupanje korisničkom ID-u"
 
-msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
-msgstr "Korištenje zajedničkim NFC značajkama"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "Pristupanje korisničkim postavkama"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
-msgstr "Korištenje Bluetooth GAP-a"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "Pristupanje web-sadržaju"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
-msgstr "Korištenje Bluetooth HDP-a"
-
-msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
-msgstr "Korištenje naprednih opcija na internetu"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
-msgstr "Korištenje Bluetooth OPP-a"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
-msgstr "Korištenje Bluetooth SPP-a"
-
-msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
-msgstr "Korištenje oznake"
-
-msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
-msgstr "Korištenje automatizacije testiranja"
-
-msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
-msgstr "Korištenje lokacije korisnika"
-
-msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
-msgstr "Korištenje zajedničkog modula"
-
-msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
-msgstr "Pisanje poruka"
-
-msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
-msgstr "Pisanje na sustave datoteka"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
 msgstr "Dopušta antivirusnoj aplikaciji traženje štetnog sadržaja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Dopušta aplikaciji čitanje podataka o privilegijama"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
 msgstr "Dopušta aplikaciji pristup informacijama o privatnosti u svrhu identifikacije korisnika"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
 msgstr "Aplikaciji dopušta pristup sigurnosnim podacima o sustavu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
 msgstr "Dopušta aplikaciju pristup određenim podacima koje su izvezle ostale aplikacije"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
 msgstr "Dopušta aplikaciji pristup podacima o sustavu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Aplikaciji dopušta pristup internetu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
 msgstr "Dopušta aplikaciji pristup sigurnosnom čipu pametne kartice kao što je UICC/SIM, umetnutom sigurnosnom elementu ili sigurnosnoj SD-kartici"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Aplikaciji dopušta dodavanje i uklanjanje prečaca s početnog zaslona"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
 msgstr "Dopušta aplikaciji dodavanje Dynamic Box-a na početni zaslon"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
 msgstr "Dopušta aplikaciji dodavanje, aktualizaciju i brisanje potvrdi"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
 msgstr "Dopušta aplikaciji dodavanje, aktualizaciju i brisanje kontakata"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
 msgstr "Dopušta uvjetovano otvaranje aplikacije ili da aplikacija otvori drugu aplikaciju"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
 msgstr "Dopušta aplikaciji mijenjanje postavki Bluetootha kao što su uključivanje/isključivanje Bluetootha i postavljanje naziva lokalnog uređaja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
 msgstr "Dopušta aplikaciji mijenjanje sustavnih postavki Bluetootha povezanih s privatnošću i sigurnošću kao što je način vidljivosti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
-msgstr "Dopušta aplikaciji promjenu postavki načina emulacije NFC kartica, poput mijenjanja aktivnog sigurnosnog elementa i pristup umetnim sigurnosnim elementima (eSE)"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
 msgstr "Dopušta aplikaciji mijenjanje postavki NFC-a, kao što je uključivanje/isključivanje NFC-a"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
 msgstr "Aplikaciji dopušta mijenjanje postavki sustava NFC kao što je uključivanje/isključivanje rezervirane push usluge, koja šalje unaprijed određene NDEF poruke"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
 msgstr "Aplikaciji dopušta promjenu postavki privatnosti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Dopušta aplikaciji mijenjanje postavki sigurnosti ili privatnosti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
 msgstr "Dopušta aplikaciji zatvaranje druge aplikacije"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
 msgstr "Dopušta aplikaciji komunikaciju s drugim uređajima i poslužiteljima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
 msgstr "Dopušta aplikaciji komunikaciju s HTTP-poslužiteljem"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
 msgstr "Dopušta aplikaciji konfiguriranje mobilnih mreža"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
-msgstr "Dopušta aplikaciji kontrolu nad kartama Samsung"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
-msgstr "Dopušta aplikaciji kontrolu nad Samsung MobileCare-om"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
 msgstr "Dopušta aplikaciji kontrolu usluge prosljeđivanja poziva"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Aplikaciji dopušta stvaranje, aktualizaciju i brisanje favorita"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
 msgstr "Dopušta aplikaciji stvaranje, aktualizaciju i brisanje računa"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
 msgstr "Dopušta aplikaciji stvaranje, aktualizaciju i brisanje popisa poziva"
 
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
@@ -466,279 +112,648 @@ msgstr "Dopušta aplikaciji stvaranje, aktualizaciju i brisanje sadržaja"
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
 msgstr "Dopušta aplikaciji stvaranje, aktualiziranje i brisanje informacija o rasporedu i zadacima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Aplikaciji dopušta stvaranje, aktualizaciju i brisanje favorita"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
 msgstr "Dopušta aplikaciji brisanje dozvola za geolokaciju"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
 msgstr "Dopušta aplikaciji prikaz web-sadržaja ili korištenje API-ja povezanih s web-sadržajem"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
 msgstr "Dopušta aplikaciji stvaranje događaja s dodirom i tipkom te snimanje zaslona"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
 msgstr "Dopušta aplikaciji preuzimanje obavijesti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
 msgstr "Dopušta aplikaciji preuzimanje određenih certifikata aplikacija"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
 msgstr "Dopušta aplikaciji pristup podacima o vremenu i datumu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
 msgstr "Dopušta aplikaciji zadržavanje i kontrolu napajanja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
 msgstr "Dopušta aplikaciji instaliranje ili deinstaliranje paketa aplikacija"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Dopušta aplikaciji upravljanje korisničkim profilom"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
 msgstr "Dopušta aplikaciji upravljanje uvjetovanog otvaranja druge aplikacije"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
 msgstr "Dopušta aplikaciji upravljanje postavkama aplikacija"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
 msgstr "Dopušta aplikaciji upravljanje snimanjem zvuka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
-msgstr "Dopušta aplikaciji upravljanje pravilima o audio sesijama s VoIP pozivima"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
 msgstr "Dopušta aplikaciji upravljanje kamerama uređaja da pregledava i snima fotografije"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
 msgstr "Dopušta aplikaciji upravljanje licencama za Upravljanje digitalnim pravima (DRM) i ponovno preuzimanje podataka o sadržaju DRM"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
 msgstr "Dopušta aplikaciji upravljanje HTTP-skidanjem"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
 msgstr "Dopušta aplikaciji upravljanje računima mreža"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
 msgstr "Dopušta aplikaciji upravljanje mrežnim vezama"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
 msgstr "Dopušta aplikaciji upravljanje obavijestima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
-msgstr "Dopušta aplikaciji upravljanje pravilima o audio sesijama između aplikacija"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
-msgstr "Dopušta aplikaciji upravljanje glasnoćom zvuka različitih vrsta prijenosa zvuka"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
 msgstr "Dopušta aplikaciji upravljanje Uslugom ćelijskog emitiranja (CBS)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
-msgstr "Dopušta aplikaciji upravljanje uređajem"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
 msgstr "Dopušta aplikaciji upravljanje instaliranim načinima unosa"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
 msgstr "Dopušta aplikaciji upravljanje korisničkim podacima koje je spremila web-kontrola ili preglednik"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
 msgstr "Dopušta aplikaciji upravljanje postavkama Wi-Fi sustava, poput aktualizacije podataka pristupne točke"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
 msgstr "Dopušta aplikaciji upravljanje UI-značajkama"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
 msgstr "Dopušta aplikaciji upravljanje snimanjem videozapisa i zvuka s pomoću kamere ili snimača zvuka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
 msgstr "Dopušta aplikaciji upravljanje snimanjem videozapisa pomoću kamere"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
 msgstr "Dopušta aplikaciji upravljanje WAP push poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
 msgstr "Dopušta aplikaciji upravljanje Wi-Fi Direct na uređaju"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
 msgstr "Dopušta aplikaciji upravljanje Wi-Fi mrežom na uređaju, npr. uključivanje/isključivanje Wi-Fi mreže i spajanje na pristupnu točku"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Dopušta aplikaciji upravljanje korisničkim profilom"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
 msgstr "Dopušta aplikaciji pružanje načina za unos znakova i simbola u povezano polje za unos"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
 msgstr "Dopušta aplikaciji pružanje usluge naziva domene (DNS)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
 msgstr "Dopušta aplikaciji pružanje obavijesti korisniku kao što su poruke i oznake"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
 msgstr "Dopušta aplikaciji sinkronizaciju NFC poruka na druge uređaje"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Dopušta aplikaciji čitanje informacija o rasporedu i zadacima"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Dopušta aplikaciji čitanje korisničkog profila"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
 msgstr "Dopušta aplikaciji čitanje računa"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
 msgstr "Dopušta aplikaciji čitanje i pisanje informacija o NFC oznakama"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
 msgstr "Dopušta aplikaciji čitanje informacija o aplikacijama"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
 msgstr "Aplikaciji dopušta čitanje favorita"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
 msgstr "Dopušta aplikaciji čitanje popisa poziva"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
 msgstr "Dopušta aplikaciji čitanje potvrdi"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
 msgstr "Dopušta aplikaciji čitanje kontakata"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
 msgstr "Dopušta aplikaciji čitanje sadržaja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
 msgstr "Dopušta aplikaciji čitanje sustava datoteka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
 msgstr "Dopušta aplikaciji čitanje geolokacijskih dozvola"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
 msgstr "Dopušta aplikaciji čitanje informacija kao što su inačica platforme ili API-ja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
 msgstr "Dopušta aplikaciji pristup mrežnim statistikama"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
 msgstr "Dopušta aplikaciji čitanje postavki privatnosti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Dopušta aplikaciji čitanje postavki sigurnosti ili privatnosti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Dopušta aplikaciji primanje poruka te ponovno preuzimanje poruka iz sandučića poruka"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Dopušta aplikaciji čitanje informacija o rasporedu i zadacima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Dopušta aplikaciji čitanje korisničkog profila"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
 msgstr "Aplikaciji dopušta primanje detaljnih podataka o paketu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
 msgstr "Dopušta aplikaciji primanje obavijesti o promjenama aplikacija u prvom planu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
 msgstr "Dopušta aplikaciji primanje podataka o paketu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
 msgstr "Dopušta aplikaciji primanje push obavijesti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
 msgstr "Dopušta aplikaciji primanje SMS poruka s određenog ulaza"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Dopušta aplikaciji primanje poruka te ponovno preuzimanje poruka iz sandučića poruka"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
 msgstr "Dopušta aplikaciji da zahtjeva/otpusti određenu mrežnu vezu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
 msgstr "Dopušta aplikaciji traženje Wi-Fi Direct podataka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
 msgstr "Dopušta aplikaciji traženje Wi-Fi podataka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
 msgstr "Dopušta aplikaciji poništavanje mrežnih statistika"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Dopušta aplikaciji preuzimanje podataka o sustavu kao što su detalji o mreži, SIM-kartici i pozivima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Dopušta aplikaciji preuzimanje podataka o telefoniji kao što su detalji o mrežu, SIM-kartici i pozivima"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
 msgstr "Dopušta aplikaciji slanje i primanje SMS poruka te ponovno preuzimanje SMS poruka iz sandučića SMS poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
 msgstr "Dopušta aplikaciji slanje email poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
 msgstr "Dopušta aplikaciji slanje MMS poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Dopušta aplikaciji slanje SMS, MMS i email poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
 msgstr "Dopušta aplikaciji postavljanje alarma i buđenje uređaja u zakazano vrijeme"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
 msgstr "Dopušta aplikaciji postavljanje ruta za ulaz i izlaz audia te primanje obavijesti o događajima na ruti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
 msgstr "Dopušta aplikaciji postavljanje konfiguracija paketa"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
 msgstr "Dopušta aplikaciji sinkronizaciju podataka uređaja na poslužitelju koristeći OMA DS 1.2 protokol"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
 msgstr "Dopušta aplikaciji uključivanje i korištenje vibracije"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
 msgstr "Dopušta aplikaciji otključavanje uređaja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
 msgstr "Dopušta aplikaciji aktualizaciju obavijesti"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
 msgstr "Dopušta aplikaciji aktualiziranje ili čitanje korisničkih postavki"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
 msgstr "Dopušta aplikaciji aktualizaciju sistemskih mrežnih računa"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
-msgstr "Aplikaciji dopušta slanje zapisa aktivnosti na poslužitelj"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
 msgstr "Dopušta aplikaciji korištenje dodatne pohrane bez ograničenja na veličinu za baze podataka ili datoteke"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
 msgstr "Dopušta aplikaciji korištenje punog zaslona"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
 msgstr "Dopušta aplikaciji korištenje zajedničkih značajki NFC-a"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
 msgstr "Dopušta aplikaciji korištenje Profil općeg pristupa (GAP), primjerice radi skeniranja i uparivanja uređaja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
 msgstr "Dopušta aplikaciji korištenje Profil uređaja za zdravlje (HDP), primjerice radi slanja podataka o zdravlju"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
 msgstr "Dopušta aplikaciji korištenje interneta s određenim nositeljem"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
 msgstr "Dopušta aplikaciji korištenje Profila za slanje objekata (OPP), primjerice radi slanja datoteka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
 msgstr "Dopušta aplikaciji korištenje Profil serijskog ulaza (SPP), primjerice radi slanja serijske datoteke"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
 msgstr "Dopušta aplikaciji korištenje zapisnika sustava (dlog)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
 msgstr "Dopušta aplikaciji korištenje značajke automatizacije testiranja"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
 msgstr "Dopušta aplikaciji korištenje podatke o lokaciji korisnika"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
 msgstr "Dopušta aplikaciji korištenje Tizen web-uređaja API zajedničkog modula"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Dopušta aplikaciji pisanje SMS, MMS i email poruka"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
 msgstr "Dopušta aplikaciji pisanje na sustave datoteka"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Dopušta aplikaciji čitanje podataka o privilegijama"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "Prebacivanje na cijeli zaslon"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "Zatvaranje aplikacija"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Komuniciranje s drugim uređajima i poslužiteljima"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "Komuniciranje s HTTP-poslužiteljem"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "Konfiguriranje mobilnih mreža"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "Preuzimanje preko HTTP-a"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "Prosljeđivanje poziva"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "Primanje potvrda o aplikaciji"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Instaliranje Dynamic Box"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "Upravljanje računima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "Upravljanje aplikacijama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "Upravljanje postavkama aplikacija"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "Upravljanje audiorutama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "Upravljanje općim postavkama Bluetootha"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "Upravljanje postavkama sustava Bluetootha"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "Upravljanje favoritima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "Upravljanje kalendarom"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "Upravljanje popisom poziva"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "Upravljanje uslugom ćelijskog emitiranja"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "Upravljanje potvrdama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "Upravljanje kontaktima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "Upravljanje sadržajem"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "Upravljanje DRM-om"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "Upravljanje dozvolama za geolokaciju"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "Upravljanje unešenim informacijama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Upravljanje načinom unosa"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "Upravljanje računima mreža"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Upravljanje mrežnim vezama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "Upravljanje općim postavkama NFC-a"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "Upravljanje postavkama sustava NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "Upravljanje obavijestima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "Upravljanje paketima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "Upravljanje postavkama paketa"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "Upravljanje napajanjem"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "Upravljanje postavkama privatnosti"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "Upravljanje prečacima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "Upravljanje SMS-om"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "Upravljanje postavkama sustava"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "Upravljanje korisničkim sučeljem"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "Upravljanje korisničkim profilom"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "Upravljanje postavkama vibracije"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "Upravljanje WAP push porukama"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "Upravljanje web-podacima"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Upravljanje Wi-Fi-jem"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Upravljanje Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Upravljanje postavkama sustava Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "Otvaranje aplikacija"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "Davatelji DNS-a"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "Davanje načina unosa"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "Davanje obavijesti"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "Slanje NFC poruka"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "Čitanje računa"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "Čitanje podataka o aplikaciji"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "Čitanje favorita"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "Čitanje kalendara"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "Čitanje popisa poziva"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "Čitanje potvrda"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "Čitanje kontakata"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "Čitanje sadržaja"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "Čitanje sustava datoteka"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "Čitanje dozvola za geolokaciju"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "Čitanje mrežnih statistika"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "Čitanje obavijesti"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "Čitanje podataka o platformi"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "Čitanje postavki privatnosti"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "Čitanje podataka o privilegijama"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "Čitanje sigurnosnih podataka o sustavu"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "Čitanje podataka o sustavu"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "Čitanje sigurnosnih postavki sustava"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "Čitanje korisničkog profila"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Čitanje podataka o Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Čitanje podataka o Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "Čitanje/pisanje na NFC oznake"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "Primanje obavijesti o korištenju aplikacije"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Primanje detaljnih podataka o paketu"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "Primanje podataka o paketu"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "Primanje SMS poruka na određeni ulaz"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "Primanje push obavijesti"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "Snimanje zvuka"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "Snimanje videa"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Snimanje videa i zvuka"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "Poništavanje mrežnih statistika"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "Traženje virusa"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "Biranje mrežne veze"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "Slanje emailova"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "Slanje poruka"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "Slanje MMS-a"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "Postavljanje alarma"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "Sinkronizacija podataka s uređaja"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "Otključavanje uređaja"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "Aktualiziranje mrežnih postavki"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "Aktualiziranje obavijesti"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "Korištenje naprednih opcija na internetu"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "Korištenje Bluetooth GAP-a"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "Korištenje Bluetooth HDP-a"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "Korištenje Bluetooth OPP-a"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "Korištenje Bluetooth SPP-a"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "Korištenje kamere"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "Korištenje zajedničkog modula"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "Korištenje oznake"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "Korištenje zajedničkim NFC značajkama"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "Korištenje automatizacije testiranja"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "Korištenje lokacije korisnika"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "Pisanje poruka"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "Pisanje na sustave datoteka"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "Računi"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "Kalendar"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "Imenik"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "Poruke"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Preuzimanje podataka o aplikaciji"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "Upravljanje zadanim postavkama aplikacije"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Dopušta aplikaciji preuzimanje informacija povezanih uz druge aplikacije"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "Dopušta aplikaciji čitanje i aktualizaciju zadanih postavki aplikacije"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Položaj"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "Osobni podaci"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "Hardverske kontrole"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "Mrežne veze"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "Plaćene usluge"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "Postavke sustava"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "Druga prava"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Upravljanje postavkama internetskih aplikacija"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "Dopušta aplikaciji upravljanje postavkama internetske aplikacije, uključujući uklanjanje svih kolačića spremljenih za ovu internetsku aplikaciju"
 

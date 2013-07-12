@@ -1,463 +1,109 @@
-msgid "IDS_ST_BODY_SCANNING_FOR_VIRUSES_M_NOUN"
-msgstr "Recherche de virus"
-
-msgid "IDS_ST_BODY_READING_PRIVILEGE_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations de privilège"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_ID_M_NOUN"
-msgstr "Accès à l'ID utilisateur"
-
-msgid "IDS_ST_BODY_READING_SECURE_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations système sécurisées"
-
-msgid "IDS_ST_BODY_ACCESSING_EXPORTED_DATA_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
 msgstr "Accès aux données exportées"
 
-msgid "IDS_ST_BODY_READING_SYSTEM_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations système"
-
-msgid "IDS_ST_BODY_ACCESSING_INTERNET_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
 msgstr "Accès à Internet"
 
-msgid "IDS_ST_BODY_ACCESSING_SECURE_ELEMENTS_M_NOUN"
-msgstr "Accès aux éléments sécurisés"
-
-msgid "IDS_ST_BODY_MANAGING_SHORTCUTS_M_NOUN"
-msgstr "Gestion des raccourcis"
-
-msgid "IDS_ST_BODY_INSTALLING_DYNAMIC_BOX_M_NOUN"
-msgstr "Installation d'une Dynamic Box"
-
-msgid "IDS_ST_BODY_MANAGING_CERTIFICATES_M_NOUN"
-msgstr "Gestion des certificats"
-
-msgid "IDS_ST_BODY_MANAGING_CONTACTS_M_NOUN"
-msgstr "Gestion des contacts"
-
-msgid "IDS_ST_BODY_OPENING_APPLICATIONS_M_NOUN"
-msgstr "Ouverture des applications"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres généraux Bluetooth"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_CARD_EMULATION_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres d'émulation de carte NFC"
-
-msgid "IDS_ST_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres système Bluetooth"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_GENERAL_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres généraux NFC"
-
-msgid "IDS_ST_BODY_MANAGING_NFC_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres système NFC"
-
-msgid "IDS_ST_BODY_MANAGING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres de confidentialité"
-
-msgid "IDS_ST_BODY_MANAGING_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres système"
-
-msgid "IDS_ST_BODY_CLOSING_APPLICATIONS_M_NOUN"
-msgstr "Fermeture des applications"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS_M_NOUN"
-msgstr "Communication avec d'autres appareils et serveurs"
-
-msgid "IDS_ST_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER_M_NOUN"
-msgstr "Communication avec le serveur HTTP"
-
-msgid "IDS_ST_BODY_CONFIGURING_MOBILE_NETWORKS_M_NOUN"
-msgstr "Configuration des réseaux mobiles"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MAPS_M_NOUN"
-msgstr "Gestion de Samsung Maps"
-
-msgid "IDS_ST_BODY_MANAGING_SAMSUNG_MOBILECARE_M_NOUN"
-msgstr "Gestion de Samsung MobileCare"
-
-msgid "IDS_ST_BODY_FORWARDING_CALLS_M_NOUN"
-msgstr "Transfert des appels"
-
-msgid "IDS_ST_BODY_MANAGING_BOOKMARKS_M_NOUN"
-msgstr "Gestion des favoris"
-
-msgid "IDS_ST_BODY_MANAGING_ACCOUNTS_M_NOUN"
-msgstr "Gestion des comptes"
-
-msgid "IDS_ST_BODY_MANAGING_CALL_LOGS_M_NOUN"
-msgstr "Gestion des journaux d'appels"
-
-msgid "IDS_ST_BODY_MANAGING_CONTENT_M_NOUN"
-msgstr "Gestion du contenu"
-
-msgid "IDS_ST_BODY_MANAGING_CALENDAR_M_NOUN"
-msgstr "Gestion du calendrier"
-
-msgid "IDS_ST_BODY_MANAGING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Gestion des autorisations de géolocalisation"
-
-msgid "IDS_ST_BODY_ACCESSING_WEB_CONTENT_M_NOUN"
-msgstr "Accès au contenu Web"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_EVENTS_M_NOUN"
-msgstr "Gestion des événements d'entrée"
-
-msgid "IDS_ST_BODY_READING_NOTIFICATIONS_M_NOUN"
-msgstr "Accès en lecture aux notifications"
-
-msgid "IDS_ST_BODY_GETTING_APPLICATION_CERTIFICATES_M_NOUN"
-msgstr "Obtention des certificats d'application"
-
-msgid "IDS_ST_BODY_ACCESSING_TIME_AND_DATE_M_NOUN"
-msgstr "Accès à l'heure et à la date"
-
-msgid "IDS_ST_BODY_MANAGING_POWER_M_NOUN"
-msgstr "Gestion de l'alimentation"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGES_M_NOUN"
-msgstr "Gestion des packages"
-
-msgid "IDS_ST_BODY_MANAGING_USER_PROFILE_M_NOUN"
-msgstr "Gestion du profil utilisateur"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATIONS_M_NOUN"
-msgstr "Gestion des applications"
-
-msgid "IDS_ST_BODY_MANAGING_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres d'application"
-
-msgid "IDS_ST_BODY_RECORDING_AUDIO_M_NOUN"
-msgstr "Enregistrement audio"
-
-msgid "IDS_ST_BODY_MANAGING_VOIP_AUDIO_SESSIONS_M_NOUN"
-msgstr "Gestion des sessions audio VoIP"
-
-msgid "IDS_ST_BODY_USING_CAMERA_M_NOUN"
-msgstr "Utilisation de l'appareil photo"
-
-msgid "IDS_ST_BODY_MANAGING_DRM_M_NOUN"
-msgstr "Gestion des DRM"
-
-msgid "IDS_ST_BODY_DOWNLOADING_VIA_HTTP_M_NOUN"
-msgstr "Téléchargement via HTTP"
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_ACCOUNTS_M_NOUN"
-msgstr "Gestion des comptes réseau"
-
-msgid "IDS_ST_BODY_MANAGING_NETWORK_CONNECTIONS_M_NOUN"
-msgstr "Gestion des connexions réseau"
-
-msgid "IDS_ST_BODY_MANAGING_NOTIFICATIONS_M_NOUN"
-msgstr "Gestion des notifications"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_SESSIONS_M_NOUN"
-msgstr "Gestion des sessions audio"
-
-msgid "IDS_ST_BODY_MANAGING_VOLUMES_M_NOUN"
-msgstr "Gestion des volumes"
-
-msgid "IDS_ST_BODY_MANAGING_CELL_BROADCAST_SERVICE_M_NOUN"
-msgstr "Gestion du service de diffusion cellulaire"
-
-msgid "IDS_ST_BODY_MANAGING_MDM_SERVICE_M_NOUN"
-msgstr "Gestion du service MDM"
-
-msgid "IDS_ST_BODY_MANAGING_INPUT_METHODS_M_NOUN"
-msgstr "Gestion des modes de saisie"
-
-msgid "IDS_ST_BODY_MANAGING_WEB_DATA_M_NOUN"
-msgstr "Gestion des données Web"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres système Wi-Fi"
-
-msgid "IDS_ST_BODY_MANAGING_USER_INTERFACE_M_NOUN"
-msgstr "Gestion de l'interface utilisateur"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_AND_AUDIO_M_NOUN"
-msgstr "Enregistrement vidéo et audio"
-
-msgid "IDS_ST_BODY_RECORDING_VIDEO_M_NOUN"
-msgstr "Enregistrement vidéo"
-
-msgid "IDS_ST_BODY_MANAGING_WAP_PUSH_MESSAGES_M_NOUN"
-msgstr "Gestion des messages Push WAP"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_DIRECT_M_NOUN"
-msgstr "Gestion de Wi-Fi Direct"
-
-msgid "IDS_ST_BODY_MANAGING_WI_FI_M_NOUN"
-msgstr "Gestion du Wi-Fi"
-
-msgid "IDS_ST_BODY_PROVIDING_INPUT_METHODS_M_NOUN"
-msgstr "Fourniture des modes de saisie"
-
-msgid "IDS_ST_BODY_PROVIDING_DNS_M_NOUN"
-msgstr "Fourniture DNS"
-
-msgid "IDS_ST_BODY_PROVIDING_NOTIFICATIONS_M_NOUN"
-msgstr "Envoi de notifications"
-
-msgid "IDS_ST_BODY_PUSHING_NFC_MESSAGES_M_NOUN"
-msgstr "Envoi de messages NFC"
-
-msgid "IDS_ST_BODY_READING_CALENDAR_M_NOUN"
-msgstr "Accès en lecture au calendrier"
-
-msgid "IDS_ST_BODY_READING_USER_PROFILE_M_NOUN"
-msgstr "Accès en lecture au profil de l'utilisateur"
-
-msgid "IDS_ST_BODY_READING_ACCOUNTS_M_NOUN"
-msgstr "Accès en lecture aux comptes"
-
-msgid "IDS_ST_BODY_READING_WRITING_TO_NFC_TAGS_M_NOUN"
-msgstr "Accès en lecture/écriture aux tags NFC"
-
-msgid "IDS_ST_BODY_READING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations sur l'application"
-
-msgid "IDS_ST_BODY_READING_BOOKMARKS_M_NOUN"
-msgstr "Accès en lecture aux favoris"
-
-msgid "IDS_ST_BODY_READING_CALL_LOGS_M_NOUN"
-msgstr "Accès en lecture aux journaux d'appels"
-
-msgid "IDS_ST_BODY_READING_CERTIFICATES_M_NOUN"
-msgstr "Accès en lecture aux certificats"
-
-msgid "IDS_ST_BODY_READING_CONTACTS_M_NOUN"
-msgstr "Accès en lecture aux contacts"
-
-msgid "IDS_ST_BODY_READING_CONTENT_M_NOUN"
-msgstr "Accès en lecture au contenu"
-
-msgid "IDS_ST_BODY_READING_FILE_SYSTEMS_M_NOUN"
-msgstr "Accès en lecture aux systèmes de fichiers"
-
-msgid "IDS_ST_BODY_READING_GEOLOCATION_PERMISSIONS_M_NOUN"
-msgstr "Accès en lecture aux autorisations de géolocalisation"
-
-msgid "IDS_ST_BODY_READING_PLATFORM_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations de la plate-forme"
-
-msgid "IDS_ST_BODY_READING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Accès en lecture aux statistiques réseau"
-
-msgid "IDS_ST_BODY_READING_PRIVACY_SETTINGS_M_NOUN"
-msgstr "Accès en lecture aux paramètres de confidentialité"
-
-msgid "IDS_ST_BODY_READING_SYSTEM_SECURITY_SETTINGS_M_NOUN"
-msgstr "Accès en lecture aux paramètres de sécurité du système"
-
-msgid "IDS_ST_BODY_ACCESSING_MESSAGES_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
 msgstr "Accès aux messages"
 
-msgid "IDS_ST_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Réception des informations de package détaillées"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "Accès aux éléments sécurisés"
 
-msgid "IDS_ST_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS_M_NOUN"
-msgstr "Réception des notifications d'utilisation des applications"
-
-msgid "IDS_ST_BODY_RECEIVING_PACKAGE_INFORMATION_M_NOUN"
-msgstr "Réception des informations de package"
-
-msgid "IDS_ST_BODY_RECEIVING_PUSH_NOTIFICATIONS_M_NOUN"
-msgstr "Réception des notifications push"
-
-msgid "IDS_ST_BODY_RECEIVING_PORT_SPECIFIC_SMS_M_NOUN"
-msgstr "Réception de SMS sur un port spécifique"
-
-msgid "IDS_ST_BODY_SELECTING_NETWORK_CONNECTION_M_NOUN"
-msgstr "Sélection de connexion réseau"
-
-msgid "IDS_ST_BODY_READING_WI_FI_DIRECT_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations Wi-Fi Direct"
-
-msgid "IDS_ST_BODY_READING_WI_FI_INFORMATION_M_NOUN"
-msgstr "Accès en lecture aux informations Wi-Fi"
-
-msgid "IDS_ST_BODY_RESETTING_NETWORK_STATISTICS_M_NOUN"
-msgstr "Réinitialisation des statistiques réseau"
-
-msgid "IDS_ST_BODY_ACCESSING_SYSTEM_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
 msgstr "Accès aux informations système"
 
-msgid "IDS_ST_BODY_ACCESSING_TELEPHONY_INFORMATION_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Accès aux informations de téléphonie"
 
-msgid "IDS_ST_BODY_MANAGING_SMS_M_NOUN"
-msgstr "Gestion des SMS"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "Accès à l'heure et à la date"
 
-msgid "IDS_ST_BODY_SENDING_EMAILS_M_NOUN"
-msgstr "Envoi d'e-mails"
-
-msgid "IDS_ST_BODY_SENDING_MMS_M_NOUN"
-msgstr "Envoi de MMS"
-
-msgid "IDS_ST_BODY_SENDING_MESSAGES_M_NOUN"
-msgstr "Envoi de messages"
-
-msgid "IDS_ST_BODY_SETTING_ALARMS_M_NOUN"
-msgstr "Définition d'alarmes"
-
-msgid "IDS_ST_BODY_MANAGING_AUDIO_ROUTES_M_NOUN"
-msgstr "Gestion des routages audio"
-
-msgid "IDS_ST_BODY_MANAGING_PACKAGE_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres des packages"
-
-msgid "IDS_ST_BODY_SYNCING_DEVICE_DATA_M_NOUN"
-msgstr "Synchronisation des données de l'appareil"
-
-msgid "IDS_ST_BODY_MANAGING_VIBRATION_SETTINGS_M_NOUN"
-msgstr "Gestion des paramètres du vibreur"
-
-msgid "IDS_ST_BODY_UNLOCKING_DEVICE_M_NOUN"
-msgstr "Déverrouillage de l'appareil"
-
-msgid "IDS_ST_BODY_UPDATING_NOTIFICATIONS_M_NOUN"
-msgstr "Mise à jour des notifications"
-
-msgid "IDS_ST_BODY_ACCESSING_USER_SETTINGS_M_NOUN"
-msgstr "Accès aux paramètres utilisateur"
-
-msgid "IDS_ST_BODY_UPDATING_NETWORK_SETTINGS_M_NOUN"
-msgstr "Mise à jour des paramètres réseau"
-
-msgid "IDS_ST_BODY_UPLOADING_LOGS_M_NOUN"
-msgstr "Mise à jour des journaux"
-
-msgid "IDS_ST_BODY_ACCESSING_UNLIMITED_STORAGE_M_NOUN"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Accès au stockage illimité"
 
-msgid "IDS_ST_BODY_CHANGING_TO_FULL_SCREEN_M_NOUN"
-msgstr "Passage en mode plein écran"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "Accès à l'ID utilisateur"
 
-msgid "IDS_ST_BODY_USING_NFC_COMMON_FEATURES_M_NOUN"
-msgstr "Utilisation des fonctions NFC communes"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "Accès aux paramètres utilisateur"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_GAP_M_NOUN"
-msgstr "Utilisation de GAP Bluetooth"
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "Accès au contenu Web"
 
-msgid "IDS_ST_BODY_USING_BLUETOOTH_HDP_M_NOUN"
-msgstr "Utilisation de HDP Bluetooth"
-
-msgid "IDS_ST_BODY_USING_ADVANCED_INTERNET_OPTIONS_M_NOUN"
-msgstr "Utilisation des options Internet avancées"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_OPP_M_NOUN"
-msgstr "Utilisation de OPP Bluetooth"
-
-msgid "IDS_ST_BODY_USING_BLUETOOTH_SPP_M_NOUN"
-msgstr "Utilisation de SPP Bluetooth"
-
-msgid "IDS_ST_BODY_USING_LOG_M_NOUN"
-msgstr "Utilisation d'un journal"
-
-msgid "IDS_ST_BODY_USING_TEST_AUTOMATION_M_NOUN"
-msgstr "Utilisation de l'automatisation des tests"
-
-msgid "IDS_ST_BODY_USING_USER_LOCATION_M_NOUN"
-msgstr "Utilisation de la position de l'utilisateur"
-
-msgid "IDS_ST_BODY_USING_COMMON_MODULE_M_NOUN"
-msgstr "Utilisation d'un module commun"
-
-msgid "IDS_ST_BODY_WRITING_MESSAGES_M_NOUN"
-msgstr "Ecriture de messages"
-
-msgid "IDS_ST_BODY_WRITING_TO_FILE_SYSTEMS_M_NOUN"
-msgstr "Accès en écriture aux systèmes de fichiers"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
 msgstr "Autorise l'application antivirus à rechercher du contenu malveillant"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Autorise l'application à accéder en lecture aux informations de privilège"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
 msgstr "Autorise l'application à accéder aux informations sur la confidentialité à des fins d'identification de l'utilisateur"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
 msgstr "Autorise l'application à accéder aux informations système sécurisées"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
 msgstr "Autorise l'application à accéder à certaines données exportées par d'autres applications"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
 msgstr "Autorise l'application à accéder aux informations système"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
 msgstr "Autorise l'application à accéder à Internet"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TOSECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
 msgstr "Autorise l'application à accéder à la carte à puce sécurisée, telle que la carte UICC/SIM, aux éléments sécurisés intégrés ou à la carte SD sécurisée"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
 msgstr "Autorise l'application à ajouter ou supprimer des raccourcis de l'écran d'accueil"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
 msgstr "Autorise l'application à ajouter une Dynamic Box à l'écran d'accueil"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
 msgstr "Autorise l'application à ajouter, mettre à jour et supprimer des certificats"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
 msgstr "Autorise l'application à ajouter, mettre à jour et supprimer des contacts"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
 msgstr "Permet d'ouvrir l'application sous certaines conditions ou autorise l'application à en ouvrir une autre"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
 msgstr "Autorise l'application à modifier les paramètres Bluetooth (activation ou désactivation du Bluetooth, définition du nom de l'appareil local, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
 msgstr "Autorise l'application à modifier les paramètres système Bluetooth associés à la confidentialité et à la sécurité (le mode visible, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_CARD_EMULATION_MODE_SETTINGS_MSG"
-msgstr "Autorise l'application à modifier les paramètres du mode d'émulation de carte NFC (modification de l'élément sécurisé actif et accès aux éléments sécurisés intégrés, par exemple)"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
 msgstr "Autorise l'application à modifier les paramètres NFC (activation ou désactivation de NFC, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_MSG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
 msgstr "Autorise l'application à modifier les paramètres système relatifs à NFC, tels que l'activation ou la désactivation des notifications Push réservées qui envoient des messages NDEF prédéfinis"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
 msgstr "Autorise l'application à modifier les paramètres de confidentialité"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Autorise l'application à modifier les paramètres de confidentialité ou de sécurité"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
 msgstr "Autorise l'application à fermer une autre application"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
 msgstr "Autorise l'application à communiquer avec d'autres appareils et serveurs"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
 msgstr "Autorise l'application à communiquer avec le serveur HTTP"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
 msgstr "Autorise l'application à configurer les réseaux mobiles"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MAPS"
-msgstr "Autorise l'application à contrôler Samsung Maps"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_SAMSUNG_MOBILECARE"
-msgstr "Autorise l'application à contrôler Samsung MobileCare"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
 msgstr "Autorise l'application à contrôler le service de transfert d'appel"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Autorise l'application à créer, mettre à jour et supprimer des favoris"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
 msgstr "Autorise l'application à créer, mettre à jour et supprimer les comptes"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
 msgstr "Autorise l'application à créer, mettre à jour et supprimer les journaux d'appels"
 
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
@@ -466,279 +112,648 @@ msgstr "Autoriser l'application à créer, mettre à jour et supprimer du conten
 msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
 msgstr "Autorise l'application à créer, mettre à jour et supprimer les informations relatives aux programmes et aux tâches"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Autorise l'application à créer, mettre à jour et supprimer des favoris"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
 msgstr "Autorise l'application à supprimer des autorisations de géolocalisation"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
 msgstr "Autorise l'application à afficher le contenu Web ou à utiliser l'API associée au contenu Web"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
 msgstr "Autorise l'application à générer des événements tactiles et de touches, et à effectuer des captures d'écran"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
 msgstr "Autorise l'application à obtenir des notifications"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
 msgstr "Autorise l'application à obtenir des certificats d'application spécifiés"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
 msgstr "Autorise l'application à obtenir les informations de date et d'heure"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
 msgstr "Autorise l'application à conserver et contrôler les états d'alimentation"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
 msgstr "Autorise l'application à installer ou désinstaller les packages d'application"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Autorise l'application à gérer le profil utilisateur"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
 msgstr "Autorise l'application à gérer l'ouverture d'une autre application sous certaines conditions"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
 msgstr "Autorise l'application à gérer les paramètres de l'application"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
 msgstr "Autorise l'application à gérer l'enregistrement audio"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_SESSIONS_WITH_VOIP_CALLS"
-msgstr "Autorise l'application à gérer les sessions audio avec les appels VoIP"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
 msgstr "Autorise l'application à gérer les appareils photo de l'appareil pour prévisualiser et capturer des images"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
 msgstr "Autorise l'application à gérer les licences DRM (Digital Rights Management) et à récupérer les informations de contenu DRM"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
 msgstr "Autorise l'application à gérer les téléchargements HTTP"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
 msgstr "Autorise l'application à gérer les comptes réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
 msgstr "Autorise l'application à gérer les connexions réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
 msgstr "Autorise l'application à gérer les notifications"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_SESSION_POLICY_BETWEEN_APPLICATIONS"
-msgstr "Autorise l'application à gérer la politique de session audio entre les applications"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_AUDIO_VOLUMES_OF_VARIOUS_AUDIO_STREAM_TYPES"
-msgstr "Autorise l'application à gérer les volumes audio de différents types de flux audio"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
 msgstr "Autorise l'application à gérer le service de diffusion cellulaire (CBS)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_DEVICE"
-msgstr "Autorise l'application à gérer l'appareil"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
 msgstr "Autorise l'application à gérer les modes de saisie installés"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
 msgstr "Autorise l'application à gérer les données utilisateur stockées par le navigateur ou le contrôle Web"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
 msgstr "Autorise l'application à gérer les paramètres système Wi-Fi (mise à jour des informations du point d'accès, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
 msgstr "Autorise l'application à gérer les propriétés IU"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
 msgstr "Autorise l'application à gérer les enregistrements audio et vidéo avec l'appareil photo ou l'enregistreur audio"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
 msgstr "Autorise l'application à gérer l'enregistrement vidéo avec l'appareil photo"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
 msgstr "Autorise l'application à gérer les messages push WAP"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
 msgstr "Autoriser l'application à gérer Wi-Fi Direct sur l'appareil"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
 msgstr "Autorise l'application à gérer le Wi-Fi sur l'appareil (activation ou désactivation du Wi-Fi, connexion au point d'accès, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Autorise l'application à gérer le profil utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
 msgstr "Permet à l'application de proposer un moyen d'insérer des caractères et des symboles dans un champ de saisie associé"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
 msgstr "Autorise l'application à fournir le service de noms de domaine (DNS)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
 msgstr "Autorise l'application à transmettre des notifications utilisateur, tels que des messages et des symboles"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
 msgstr "Autorise l'application à envoyer des messages NFC aux autres appareils"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Autorise l'application à accéder en lecture aux informations relatives aux programmes et aux tâches"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Autorise l'application à accéder en lecture au profil utilisateur"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
 msgstr "Autorise l'application à accéder en lecture aux comptes"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
 msgstr "Autorise l'application à accéder en lecture et en écriture aux informations de tag NFC"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
 msgstr "Autorise l'application à accéder en lecture aux informations sur l'application"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
 msgstr "Autorise l'application à accéder en lecture aux favoris"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
 msgstr "Autorise l'application à accéder en lecture aux journaux d'appels"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
 msgstr "Autorise l'application à accéder en lecture aux certificats"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
 msgstr "Autorise l'application à accéder en lecture aux contacts"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
 msgstr "Autorise l'application à accéder en lecture au contenu"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
 msgstr "Autorise l'application à accéder en lecture aux systèmes de fichiers"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
 msgstr "Autorise l'application à accéder en lecture aux autorisations de géolocalisation"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
 msgstr "Autorise l'application à accéder en lecture aux informations (version de l'API ou de la plate-forme, par exemple)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
 msgstr "Autorise l'application à accéder en lecture aux statistiques réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
 msgstr "Autorise l'application à accéder en lecture aux paramètres de confidentialité"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
 msgstr "Autorise l'application à accéder en lecture aux paramètres de confidentialité ou de sécurité"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Autorise l'application à recevoir des messages et à en récupérer depuis les messageries"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Autorise l'application à accéder en lecture aux informations relatives aux programmes et aux tâches"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Autorise l'application à accéder en lecture au profil utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
 msgstr "Autorise l'application à recevoir des informations de package détaillées"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
 msgstr "Autorise l'application à recevoir des notifications à propos des modifications d'applications en avant-plan"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
 msgstr "Autorise l'application à recevoir des informations de package"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
 msgstr "Autorise l'application à recevoir des notifications push"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
 msgstr "Autorise l'application à recevoir les messages SMS d'un port spécifié"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Autorise l'application à recevoir des messages et à en récupérer depuis les messageries"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
 msgstr "Autorise l'application à demander/libérer une connexion réseau spécifique"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
 msgstr "Autorise l'application à demander les informations Wi-Fi Direct"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
 msgstr "Autorise l'application à demander les informations Wi-Fi"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
 msgstr "Autorise l'application à réinitialiser les statistiques réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Autorise l'application à récupérer les informations système, telles que les données d'appel, SIM et de réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
 msgstr "Autorise l'application à récupérer les informations de téléphonie, telles que les données d'appel, SIM et de réseau"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
 msgstr "Autorise l'application à envoyer et recevoir des messages SMS, et à en récupérer depuis les messageries SMS"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
 msgstr "Autorise l'application à envoyer des e-mails"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
 msgstr "Autorise l'application à envoyer des MMS"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Autorise l'application à envoyer des SMS, des MMS et des e-mails"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
 msgstr "Autorise l'application à définir une alarme et à activer l'appareil à l'heure prévue"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
 msgstr "Autorise l'application à définir les routages d'entrée et sortie audio et à recevoir des notifications relatives aux événements de routage"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
 msgstr "Autorise l'application à définir les configurations de package"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
 msgstr "Autorise l'application à synchroniser les données de l'appareil avec le serveur via le protocole OMA DS 1.2"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
 msgstr "Autorise l'application à activer et à utiliser le vibreur"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
 msgstr "Autorise l'application à déverrouiller l'appareil"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
 msgstr "Autorise l'application à mettre à jour les notifications"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
 msgstr "Autorise l'application à mettre à jour ou à accéder en lecture aux paramètres utilisateur"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
 msgstr "Autorise l'application à mettre à jour les comptes réseaux du système"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_UPLOAD_THE_ACTIVITY_LOG_TO_THE_SERVER"
-msgstr "Autorise l'application à charger le journal des activités sur le serveur"
-
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
 msgstr "Autorise l'application à utiliser l'espace de stockage connecté sans limite de taille pour les bases de données et les fichiers"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
 msgstr "Autorise l'application à utiliser le mode plein écran"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
 msgstr "Autorise l'application à utiliser les fonctions NFC communes"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
 msgstr "Autorise l'application à utiliser le profil GAP (Generic Access Profile) pour, par exemple, rechercher et associer des appareils"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
 msgstr "Autorise l'application à utiliser le profil HDP (Health Device Profile) pour, par exemple, envoyer des données de santé"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
 msgstr "Autorise l'application à utiliser Internet avec un support spécifié"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
 msgstr "Autorise l'application à utiliser le profil OPP (Object Push Profile) pour, par exemple, envoyer des fichiers"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
 msgstr "Autorise l'application à utiliser le profil SPP (Serial Port Profile) pour, par exemple, envoyer des données en série"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
 msgstr "Autorise l'application à utiliser le journal système (dlog)"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
 msgstr "Autorise l'application à utiliser la fonction d'automatisation des tests"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
 msgstr "Autorise l'application à utiliser les données de position de l'utilisateur"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
 msgstr "Autorise l'application à utiliser le module commun de l'API d'appareil Web Tizen"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
 msgstr "Autorise l'application à écrire des SMS, des MMS et des e-mails"
 
-msgid "IDS_ST_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
 msgstr "Autorise l'application à accéder en écriture aux systèmes de fichiers"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Autorise l'application à accéder en lecture aux informations de privilège"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "Passage en mode plein écran"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "Fermeture des applications"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Communication avec d'autres appareils et serveurs"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "Communication avec le serveur HTTP"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "Configuration des réseaux mobiles"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "Téléchargement via HTTP"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "Transfert des appels"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "Obtention des certificats d'application"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Installation d'une Dynamic Box"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "Gestion des comptes"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "Gestion des applications"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "Gestion des paramètres d'application"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "Gestion des routages audio"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "Gestion des paramètres généraux Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "Gestion des paramètres système Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "Gestion des favoris"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "Gestion du calendrier"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "Gestion des journaux d'appels"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "Gestion du service de diffusion cellulaire"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "Gestion des certificats"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "Gestion des contacts"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "Gestion du contenu"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "Gestion des DRM"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "Gestion des autorisations de géolocalisation"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "Gestion des événements d'entrée"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Gestion des modes de saisie"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "Gestion des comptes réseau"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Gestion des connexions réseau"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "Gestion des paramètres généraux NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "Gestion des paramètres système NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "Gestion des notifications"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "Gestion des packages"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "Gestion des paramètres des packages"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "Gestion de l'alimentation"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "Gestion des paramètres de confidentialité"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "Gestion des raccourcis"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "Gestion des SMS"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "Gestion des paramètres système"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "Gestion de l'interface utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "Gestion du profil utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "Gestion des paramètres du vibreur"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "Gestion des messages Push WAP"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "Gestion des données Web"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Gestion du Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Gestion de Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Gestion des paramètres système Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "Ouverture des applications"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "Fourniture DNS"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "Fourniture des modes de saisie"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "Envoi de notifications"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "Envoi de messages NFC"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "Accès en lecture aux comptes"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "Accès en lecture aux informations sur l'application"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "Accès en lecture aux favoris"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "Accès en lecture au calendrier"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "Accès en lecture aux journaux d'appels"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "Accès en lecture aux certificats"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "Accès en lecture aux contacts"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "Accès en lecture au contenu"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "Accès en lecture aux systèmes de fichiers"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "Accès en lecture aux autorisations de géolocalisation"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "Accès en lecture aux statistiques réseau"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "Accès en lecture aux notifications"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "Accès en lecture aux informations de la plate-forme"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "Accès en lecture aux paramètres de confidentialité"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "Accès en lecture aux informations de privilège"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "Accès en lecture aux informations système sécurisées"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "Accès en lecture aux informations système"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "Accès en lecture aux paramètres de sécurité du système"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "Accès en lecture au profil de l'utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Accès en lecture aux informations Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Accès en lecture aux informations Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "Accès en lecture/écriture aux tags NFC"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "Réception des notifications d'utilisation des applications"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Réception des informations de package détaillées"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "Réception des informations de package"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "Réception de SMS sur un port spécifique"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "Réception des notifications push"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "Enregistrement audio"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "Enregistrement vidéo"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Enregistrement vidéo et audio"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "Réinitialisation des statistiques réseau"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "Recherche de virus"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "Sélection de connexion réseau"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "Envoi d'e-mails"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "Envoi de messages"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "Envoi de MMS"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "Définition d'alarmes"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "Synchronisation des données de l'appareil"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "Déverrouillage de l'appareil"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "Mise à jour des paramètres réseau"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "Mise à jour des notifications"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "Utilisation des options Internet avancées"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "Utilisation de GAP Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "Utilisation de HDP Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "Utilisation de OPP Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "Utilisation de SPP Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "Utilisation de l'appareil photo"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "Utilisation d'un module commun"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "Utilisation d'un journal"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "Utilisation des fonctions NFC communes"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "Utilisation de l'automatisation des tests"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "Utilisation de la position de l'utilisateur"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "Ecriture de messages"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "Accès en écriture aux systèmes de fichiers"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "Comptes"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "Calendrier"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "Contacts"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "Messagerie"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Récupération des informations d'application"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "Gestion des préférences de l'application par défaut"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Autorise l'application à récupérer les informations associées à d'autres applications"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "Autorise l'application à accéder en lecture aux préférences de l'application par défaut et à les mettre à jour"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Localisation"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "Informations personnelles"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "Commandes matérielles"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "Connexions réseau"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "Services payants"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "Paramètres système"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "Autres privilèges"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Gestion des paramètres d'application Web"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "Autorise l'application à gérer les paramètres de l'application Web, y compris la suppression de tous les cookies enregistrés pour cette application Web"
 

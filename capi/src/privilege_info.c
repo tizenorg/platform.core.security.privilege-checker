@@ -41,7 +41,7 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
 
 	for (i = 0; i < PRIVILEGE_NUM; i++)
 	{
-		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_info_table[i].privilege)) == 0)
+		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_name)) == 0)
 		{
 			groupTable[(privilege_info_table[i].privilege_group_enum)] = 1;
 			matchedFlag = true;
@@ -53,7 +53,7 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
 	{
 		for (i = 0; i < EXTERNAL_PRIVILEGE_NUM; i++)
 		{
-			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(external_privilege_info_table[i].privilege)) == 0)
+			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(privilege_name)) == 0)
 			{
 				groupTable[(external_privilege_info_table[i].privilege_group_enum)] = 1;
 				matchedFlag = true;
@@ -111,7 +111,7 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
 
 	for (i = 0; i < PRIVILEGE_NUM; i++)
 	{
-		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_info_table[i].privilege)) == 0)
+		if (strncmp(privilege_info_table[i].privilege, privilege_name, strlen(privilege_name)) == 0)
 		{
 			matchedFlag = true;
 			if (privilege_info_table[i].privilege_group_enum == data.privilege_group)
@@ -128,7 +128,7 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
 	{
 		for (i = 0; i < EXTERNAL_PRIVILEGE_NUM; i++)
 		{
-			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(external_privilege_info_table[i].privilege)) == 0)
+			if (strncmp(external_privilege_info_table[i].privilege, privilege_name, strlen(privilege_name)) == 0)
 			{
 				matchedFlag = true;
 				if (external_privilege_info_table[i].privilege_group_enum == data.privilege_group)
@@ -167,7 +167,7 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
 
 	for (i = 0; i < MAX_PRV_GROUP; i++)
 	{
-		if (strncmp(privilege_group_info_table[i].privilege_group, privilege_group, strlen(privilege_group_info_table[i].privilege_group)) == 0)
+		if (strncmp(privilege_group_info_table[i].privilege_group, privilege_group, strlen(privilege_group)) == 0)
 		{
 			data.privilege_group = privilege_group_info_table[i].privilege_group_enum;
 			break;
@@ -188,19 +188,74 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
 	return PRVMGR_ERR_NONE;
 }
 
-int privilege_info_get_group_string_id(const char *privilege_group, char **group_string_id)
+int privilege_info_get_group_name_string_id(const char *privilege_group, char **group_string_id)
 {
-	return PRVMGR_ERR_NONE;
-}
+	int index = 0;
+	TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
-int privilege_info_get_privilege_group_display_name(const char *privilege_group, char **name)
-{
+	for (index = 0; index < PRIVILEGE_NUM; index++)
+	{
+		if (strncmp(privilege_group_info_table[index].privilege_group, privilege_group, strlen(privilege_group)) == 0)
+		{
+			*group_string_id = (char*)calloc(strlen(privilege_group_info_table[index].name_string_id) + 1, sizeof(char));
+			TryReturn(*group_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+			memcpy(*group_string_id, privilege_group_info_table[index].name_string_id, strlen(privilege_group_info_table[index].name_string_id));
+			break;
+		}
+	}
+
 	return PRVMGR_ERR_NONE;
 }
 
 int privilege_info_get_privilege_group_display_name_by_string_id(const char *string_id, char **name)
 {
+	char *temp = NULL;
+
+	TryReturn(string_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
+
+	temp = dgettext("privilege", string_id);
+
+	*name = (char*)calloc(strlen(temp) + 1, sizeof(char));
+	TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+	memcpy(*name, temp, strlen(temp));
+
 	return PRVMGR_ERR_NONE;
+}
+
+int privilege_info_get_privilege_group_display_name(const char *privilege_group, char **name)
+{
+	int ret = 0;
+	char* name_string_id = NULL;
+
+	TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+
+	ret = privilege_info_get_group_name_string_id(privilege_group, &name_string_id);
+	if (name_string_id == NULL)
+	{
+		char tempPrivilegeGroup[256] = {0,};
+		char* temp = NULL;
+		char* buffer = NULL;
+		memcpy(tempPrivilegeGroup, privilege_group, strlen(privilege_group));
+		temp = strtok(tempPrivilegeGroup, "/");
+		while(temp)
+		{
+			buffer = temp;
+			temp = strtok(NULL, "/");
+		}
+		*name = (char*)calloc(strlen(buffer) + 1, sizeof(char));
+		TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+
+		memcpy(*name, buffer, strlen(buffer));
+	}
+	else
+	{
+		ret = privilege_info_get_privilege_group_display_name_by_string_id(name_string_id, name);
+		free(name_string_id);
+		TryReturn(ret == PRVMGR_ERR_NONE, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+	}
+	return  PRVMGR_ERR_NONE;
 }
 
 int privilege_info_get_name_string_id(const char *privilege, char **name_string_id)
@@ -211,7 +266,7 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
 	{
-		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege_info_table[index].privilege)) == 0)
+		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege)) == 0)
 		{
 			matchedFlag = true;
 			*name_string_id = (char*)calloc(strlen(privilege_info_table[index].name_string_id) + 1, sizeof(char));
@@ -226,7 +281,7 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
 	{
 		for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
 		{
-			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(privilege)) == 0)
 			{
 				*name_string_id = (char*)calloc(strlen(external_privilege_info_table[index].name_string_id) + 1, sizeof(char));
 				TryReturn(*name_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
@@ -298,7 +353,7 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
 
 	for (index = 0; index < PRIVILEGE_NUM; index++)
 	{
-		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege_info_table[index].privilege)) == 0)
+		if (strncmp(privilege_info_table[index].privilege, privilege, strlen(privilege)) == 0)
 		{
 			matchedFlag = true;
 			*description_string_id = (char*)calloc(strlen(privilege_info_table[index].description_string_id) + 1, sizeof(char));
@@ -313,7 +368,7 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
 	{
 		for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
 		{
-			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+			if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(privilege)) == 0)
 			{
 				*description_string_id = (char*)calloc(strlen(external_privilege_info_table[index].description_string_id) + 1, sizeof(char));
 				TryReturn(*description_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
@@ -377,7 +432,7 @@ int privilege_info_get_external_privilege_level(const char *privilege, char **pr
 
 	for (index = 0; index < EXTERNAL_PRIVILEGE_NUM; index++)
 	{
-		if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(external_privilege_info_table[index].privilege)) == 0)
+		if (strncmp(external_privilege_info_table[index].privilege, privilege, strlen(privilege)) == 0)
 		{
 			matchedFlag = true;
 			*privilege_level = (char*)calloc(strlen(external_privilege_info_table[index].privilege_level) + 1, sizeof(char));
