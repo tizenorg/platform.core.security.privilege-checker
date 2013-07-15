@@ -193,7 +193,7 @@ int privilege_info_get_group_name_string_id(const char *privilege_group, char **
 	int index = 0;
 	TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
-	for (index = 0; index < PRIVILEGE_NUM; index++)
+	for (index = 0; index < MAX_PRV_GROUP; index++)
 	{
 		if (strncmp(privilege_group_info_table[index].privilege_group, privilege_group, strlen(privilege_group)) == 0)
 		{
