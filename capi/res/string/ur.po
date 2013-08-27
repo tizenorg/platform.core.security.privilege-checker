@@ -1,0 +1,759 @@
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
+msgstr "برآمد ڈیٹا پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
+msgstr "انٹرنیٹ پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
+msgstr "پیغامات پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "قابل بھروسا عناصر پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
+msgstr "سسٹم معلومات پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
+msgstr "ٹیلیفونی معلومات پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "وقت اور تاریخ پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
+msgstr "لامحدود ذخیرہ پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "صارف ID پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "صارف سیٹنگز پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "ویب مشمول پر رسائی کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "اینٹی وائرس ایپلیکیشن کو مضر مشمول کے لئے اسکین کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "ایپلیکیشن کو صارف کی شناخت کے مقاصد کے لئے محرمانہ معلومات پر رسائی کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "ایپلیکیشن کو قابل بھروسا سسٹم معلومات پر رسائی کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "ایپلیکیشن کو دیگر ایپلیکیشنز سے برآمد کردہ مخصوص ڈیٹا پر رسائی کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "ایپلیکیشن کو سسٹم معلومات پر رسائی کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "ایپلی کیشن کو انٹرنیٹ پر رسائی کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "ایپلیکیشن کو قابل بھروسا اسمارٹ کارڈ چپ پر رسائی کرنے کی اجازت دیتا ہے جیسے کہ UICC/SIM، جمے ہوئے قابل بھروسا عناصر، یا قابل بھروسا SD کارڈ"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "ایپلیکیشن کو ہوم اسکرین سے تیزراہیں اضافہ کرنے اور ہٹانے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "ایپلیکیشن کو Dynamic Box کا ہوم اسکرین پر اضافہ کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "ایپلیکیشن کو اضافہ کرنے، تازہ کاری کرنے، اور تصدیق نامے حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "ایپلیکیشن کو اضافہ کرنے، تازہ کاری کرنے، اور رابطہ افراد حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "ایپلیکیشن کو مشروط طور پر کھولے جانے یا دوسری ایپلیکیشن کھولنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
+msgstr "ایپلیکیشن کو بلیو ٹوتھ سیٹنگز تبدیل کرنے کی اجازت دیتا ہے، جیسے کہ بلیو ٹوتھ آن یا آف کرنا، اور مقامی آلہ نام سیٹ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
+msgstr "ایپلیکیشن کو رازداری اور سلامتی سے متعلق بلیو ٹوتھ سسٹم سیٹنگز تبدیل کرنے کی اجازت دیتا ہے، جیسے کہ دکھائی دینے کا موڈ"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "ایپلیکیشن کو NFC سیٹنگز تبدیل کرنے، جیسے کہ NFC کو آن یا آف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
+msgstr "ایپلیکیشن کو NFC سسٹم سیٹنگز، جیسے کہ مخصوص کردہ پش آن یا آف کرنا، جو کہ پیش وضاحت کردہ NDEF پیغامات بھیجتا ہے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "ایپلیکیشن کو رازداری سیٹنگز تبدیل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "ایپلیکیشن کو سلامتی اور رازداری سیٹنگز تبدیل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "ایپلیکیشن کو دوسری ایپلیکیشن بند کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "ایپلیکیشن کو دیگر آلہ جات اور سرورز کے ساتھ مواصلت کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "ایپلیکیشن کو ‎HTTP سرور کے ساتھ مواصلت کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "ایپلیکیشن کو موبائل نیٹ ورکس تشکیل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "ایپلیکیشن کو کال آگے بڑھانے کی خدمت کنٹرول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "ایپلیکیشن کو تخلیق کرنے، تازہ کاری کرنے، اور اکاؤنٹس حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "ایپلیکیشن کو تخلیق کرنے، تازہ کاری کرنے، اور کال لاگز حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "ایپلیکیشن کو تخلیق کرنے، تازہ کاری کرنے، اور مشمول حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "ایپلیکیشن کو تخلیق کرنے، تازہ کاری کرنے اور شیڈول اور ٹاسک معلومات حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "ایپلیکیشن کو تخلیق کرنے، تازہ کاری کرنے، اور نشانات کتاب حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "ایپلیکیشن کو جیو محل وقوع اجازتیں حذف کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "ایپلیکیشن کو ویب مشمول دکھانے یا ویب مشمول سے متعلق API استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "ایپلیکیشن کو ٹچ اور کی وقوعہ جات پیدا کرنے، اور اسکرینز کا عکس کھینچنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "ایپلیکیشن کو اعلانات حاصل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "ایپلیکیشن کو مشخص کردہ ایپلیکیشن تصدیق نامے حاصل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "ایپلیکیشن کو وقت اور تاریخ معلومات حاصل کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "ایپلیکیشن کو بجلی حالتوں کو تھام کر رکھنے اور کنٹرول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "ایپلیکیشن کو ایپلیکیشن پیکیجز کی تنصیب یا نا تنصیب کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "ایپلیکیشن کو دوسری ایپلیکیشن مشروط طور پر کھولنے کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "ایپلیکیشن کو ایپلیکیشن سیٹنگز کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "ایپلیکیشن کو آڈیو ریکارڈنگز کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "ایپلیکیشن کو آلہ کے کیمرے کے پیش منظر کو دیکھنے اور تصویریں کھینچنے کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "ایپلیکیشن کو ڈیجیٹل حقوق بندوبست (DRM) لائسنس کا بندوبست کرنے اور DRM مشمول معلومات بازگیر کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "ایپلیکیشن کو HTTP ڈاؤن لوڈز کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "ایپلیکیشن کو نیٹ ورکس اکاؤنٹ کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "ایپلیکیشن کو نیٹ ورک کنکشنز کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "ایپلیکیشن کو اعلانات کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "ایپلیکیشن کو سیل براڈکاسپ خدمت (CBS) کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "ایپلیکیشن کو نصب کردہ ان پٹ طریقوں کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "ایپلیکیشن کو ویب کنٹرول یا براؤزر کے ذریعہ صارف کے ذخیرہ کردہ کوائف کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "ایپلیکیشن کو Wi-Fi سسٹم سیٹنگز کا بندوبست کرنے کی اجازت دیتا ہے، جیسے کہ AP معلومات تازہ کاری کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "ایپلیکیشن کو UI خصوصیات کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "ایپلیکیشن کو کیمرے یا آڈیو ریکارڈر کے ساتھ ویڈیو ریکارڈنگ اور آڈیو ریکارڈنگ کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "ایپلیکیشن کو کیمرے کے ساتھ ویڈیو ریکارڈنگ کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "ایپلیکیشن کو WAP پش پیغامات کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "ایپلیکیشن کو آلہ پر Wi-Fi Direct بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "ایپلیکیشن کو آلہ پر Wi-Fi کا بندوبست کرنے کی اجازت دیتا ہے، جیسے کہ Wi-Fi آن یا آف کرنا، اور AP سے جڑنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "ایپلیکیشن کو صارف کی پروفائل کا بندوبست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "ایپلیکیشن کو کسی ملحقہ ان پٹ خانے میں حروف اور علامات درج کرنے کا ایک طریقہ فراہم کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "ایپلیکیشن کو ڈومین نام خدمت (DNS) فراہم کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "ایپلیکیشن کو صارف اعلانات فراہم کرنے کی اجازت دیتا ہے، جیسے کہ پیغامات اور بلّے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "ایپلیکیشن کو دوسرے آلہ جات کو NFC پش پیغامات بھیجنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "ایپلیکیشن کو اکاؤنٹس پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "ایپلیکیشن کو NFC ٹیگ معلومات پڑھنے اور لکھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "ایپلیکیشن کو ایپلیکیشن معلومات پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "ایپلیکیشن کو نشانات کتاب پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "ایپلیکیشن کو کال لاگز پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "ایپلیکیشن کو تصدیق نامے پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "ایپلیکیشن کو رابطہ افراد پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "ایپلیکیشن کو مشمول پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "ایپلیکیشن کو فائل سسٹمز پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "ایپلیکیشن کو جیو محل وقوع اجازتیں پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "ایپلیکیشن کو معلومات پڑھنے کی اجازت دیتا ہے جیسے کہ پلیٹ فارم یا API ورژن"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "ایپلیکیشن کو نیٹ ورک شماریات پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "ایپلیکیشن کو رازداری سیٹنگز پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "ایپلیکیشن کو سلامتی اور رازداری سیٹنگز پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "ایپلیکیشن کو شیڈول اور ٹاسک معلومات پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "ایپلیکیشن کو صارف کی پروفائل پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "ایپلیکیشن کو تفصیلی پیکیج معلومات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "ایپلیکیشن کو پیش منظر ایپلیکیشن تبدیلیوں کے متعلق اعلانات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "ایپلیکیشن کو پیکیج معلومات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "ایپلیکیشن کو پش اعلانات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "ایپلیکیشن کو ایک مشخص کردہ پورٹ سے SMS پیغامات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "ایپلیکیشن کو پیغامات وصول کرنے، اور پیغام بکسوں سے پیغامات بازگیر کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "ایپلیکیشن کو ایک مخصوص نیٹ ورک کنکشن کی درخواست کرنے/چھوڑنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "ایپلیکیشن کو Wi-Fi Direct معلومات درخواست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "ایپلیکیشن کو Wi-Fi معلومات درخواست کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "ایپلیکیشن کو نیٹ ورک شماریات پھر سیٹ کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "ایپلیکیشن کو سسٹم معلومات بازگیر کرنے کی اجازت دیتا ہے، جیسے کہ نیٹ ورک، سم، اور کال تفصیلات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "ایپلیکیشن کو ٹیلیفونی معلومات بازگیر کرنے کی اجازت دیتا ہے، جیسے کہ نیٹ ورک، سم، اور کال تفصیلات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "ایپلیکیشن کو SMS پیغامات بھیجنے اور وصول کرنے، اور SMS پیغام بکسوں سے SMS پیغامات بازگیر کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "ایپلیکیشن کو ای میل پیغامات بھیجنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "ایپلیکیشن کو MMS پیغامات بھیجنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "ایپلیکیشن کو SMS, MMS، اور ای میل پیغامات بھیجنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "کسی ایپلیکیشن کو ایک الارم سیٹ کرنے اور آلہ کو شیڈول کردہ وقت ہونے پر بیدار کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "ایپلیکیشن کو آڈیو ان پٹ اور آؤٹ پٹ راستے سیٹ کرنے اور راستہ کے وقوعہ جات کے متعلق اعلانات وصول کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "ایپلیکیشن کو پیکیج تشکیلات سیٹ کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "ایپلیکیشن کو ‎OMA DS 1.2 پروٹوکول استعمال کر کے آلہ کے ڈیٹا کو سرور سے ہم وقت کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "ایپلیکیشن کو لرزش آن کرنے اور استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "ایپلیکیشن کو آلہ کو ان لاک کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "ایپلیکیشن کو اعلانات تازہ کاری کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "ایپلیکیشن کو صارف سیٹنگز کی تازہ کاری کرنے یا پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "ایپلیکیشن کو سسٹم نیٹ ورک اکاؤنٹ کی تازہ کاری کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "ایپلیکیشن کو DB یا فائلوں کے لئے سائز کی پابندیوں کے بغیر منسلکہ ذخیرہ استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "ایپلیکیشن کو پوری اسکرین استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "ایپلیکیشن کو NFC مشترکہ فیچرز استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "ایپلیکیشن کو جنرک رسائی پروفائل (GAP) استعمال کرنے کی اجازت دیتا ہے، آلہ جات کے اسکین کرنے اور جوڑی بنانے کے لئے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "ایپلیکیشن کو صحت آلہ پروفائل (HDP) استعمال کرنے کی اجازت دیتا ہے، مثال کے طور پر، صحت کے کوائف بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "ایپلیکیشن کو ایک مشخص کردہ حامل کے ساتھ انٹرنیٹ استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "ایپلیکیشن کو آبجیکٹ پش پروفائل (OPP) استعمال کرنے کی اجازت دیتا ہے، مثال کے طور پر، فائلیں بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "ایپلیکیشن کو سیریل پورٹ پروفائل (SPP) استعمال کرنے کی اجازت دیتا ہے، مثال کے طور پر، سیریل ڈیٹا بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "ایپلیکیشن کو سسٹم لاگ (dlog) استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "ایپلیکیشن کو خودکاری کی آزمائش کے فیچر کو استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "ایپلیکیشن کو صارف کا محل وقوع ڈیٹا استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "ایپلیکیشن کو Tizen ویب آلہ API مشترکہ ماڈیول استعمال کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "ایپلیکیشن کو SMS, MMS، اور ای میل پیغامات لکھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "ایپلیکیشن کو فائل سسٹمز پر لکھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "ایپلیکیشن کو استحقاق معلومات پڑھنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "پوری اسکرین پر تبدیل کرنا"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "ایپلی کیشنز بند کرنا"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "دیگر آلہ جات اور سرورز کے ساتھ مواصلت کرنا"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "HTTP سرور کے ساتھ مواصلت کرنا"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "موبائل نیٹ ورکس تشکیل کرنا"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "براستہ HTTP ڈاؤن لوڈ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "کالز آگے کرنا"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "اپلیکیشن اسناد حاصل کرنا"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Dynamic Box نصب کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "اکاؤنٹس کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "ایپلی کیشنز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "ایپلیکیشن سیٹنگز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "آڈیو روٹس کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "بلیو ٹوتھ عمومی سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "بلیو ٹوتھ سسٹم سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "نشانات کتاب بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "کیلنڈر بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "کال لاگز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "سیل براڈکاسٹ خدمت کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "اسناد کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "رابطہ افراد کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "مشمول کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "DRM کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "جیو محل وقوع اجازتوں کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "وقوعہ جات ان پٹ بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "ان پٹ کے طریقے کار کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "نیٹ ورک اکاؤنٹس بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "نیٹ ورک کنکشنز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "NFC عمومی سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "NFC سسٹم سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "اعلانات کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "پیکجز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "پیکیج سیٹنگز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "پاور کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "رازداری سیٹنگز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "تیز راہیں کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "SMS کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "سسٹم سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "صارف مواجہ کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "صارف پروفائل بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "تھرتھراہٹ سیٹنگز کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "WAP پش پیغامات بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "ویب ڈیٹا کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Wi-Fi کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Wi-Fi Direct کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Wi-Fi سسٹم سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "ایپلیکیشنز کھولنا"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "DNS فراہم کرنا"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "ان پٹ کے طریقے کار فراہم کرنا"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "اعلانات فراہم کرنا"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "NFC پیغامات پش کرنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "اکاؤنٹس پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "ایپلیکیشن معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "نشانات کتاب پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "کیلنڈر پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "کال لاگز پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "اسناد پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "رابطہ افراد پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "مشمول پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "فائل سسٹمز پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "جیو محل وقوع اجازتیں پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "نیٹ ورک اعداد و شمار پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "اعلانات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "پلیٹ فارم معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "رازداری سیٹنگز پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "استحقاق معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "قابل بھروسا سسٹم معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "سسٹم معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "سسٹم سلامتی سیٹنگز پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "صارف پروفائل پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Wi-Fi Direct معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Wi-Fi معلومات پڑھنا"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "پڑھنا/لکھنا NFC ٹیگز پر"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "ایپلیکیشن استعمال اعلانات وصول کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "تفصیلی پیکیج معلومات وصول کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "پیکیج معلومات وصول کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "پورٹ-مشخص SMS وصول کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "پش اعلانات وصول کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "آڈیو ریکارڈ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "ویڈیو ریکارڈ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "ویڈیو اور آڈیو ریکارڈ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "نیٹ ورک اعداد و شمار پھر سیٹ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "وائرسز کے لئے اسکین کرنا"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "نیٹ ورک کنکشن منتخب کرنا"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "ای میلز بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "پیغامات بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "MMS بھیجنا"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "الارمز سیٹ کرنا"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "آلہ کا ڈیٹا ہم وقت کرنا"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "آلہ ان لاک کرنا"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "نیٹ ورک سیٹنگز تازہ کاری کرنا"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "اعلانات تازہ کاری کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "اعلی انٹرنیٹ اختیارات استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "بلیو ٹوتھ GAP استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "بلیو ٹوتھ HDP استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "بلیو ٹوتھ OPP استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "بلیو ٹوتھ SPP استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "کیمرہ استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "مشترکہ ماڈیول استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "لاگ استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "NFC مشترکہ فیچرز استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "خودکاری آزمائش استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "صارف محل وقوع استعمال کرنا"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "پیغامات لکھنا"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "فائل سسٹمز پر لکھنا"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "اکاؤنٹس"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "بلیو ٹوتھ"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "کلینڈر"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "رابطے"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "انٹرنیٹ"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "پیغام رسانی"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "ایپلیکیشن معلومات بازگیر کرنا"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "طے شدہ ایپلیکیشن ترجیحات کا بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "ایپلیکیشن کو دوسری ایپلیکیشنز سے متعلقہ معلومات بازگیر کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "ایپلیکیشن کو طے شدہ ایپلیکیشن ترجیحات پڑھنے اور تازہ کاری کرنے کی اجازت دیتا ہے"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "لوکیشن"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "ذاتی معلومات"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "ہارڈویئر کنٹرولز"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "نیٹ ورک کنکشنز"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "ادائیگی کردہ خدمات"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "سسٹم سیٹنگز"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "دیگر مستثنیات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "ویب ایپلیکیشن سیٹنگز بندوبست کرنا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "ایپلیکیشن کو ویب ایپلیکیشن سیٹنگز کا بندوبست کرنے کی اجازت دیتا ہے، جس میں اس ویب ایپلیکیشن کے لئے محفوظ کردہ تمام کوکیز ہٹانا شامل ہے"
+

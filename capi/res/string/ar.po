@@ -1,0 +1,759 @@
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
+msgstr "الوصول إلى البيانات التي تم تصديرها"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
+msgstr "الوصول إلى الإنترنت"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
+msgstr "الوصول إلى الرسائل"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "الوصول إلى العناصر الآمنة"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
+msgstr "الوصول إلى معلومات النظام"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
+msgstr "الوصول إلى معلومات المحادثات الهاتفية"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "الوصول إلى التاريخ والوقت"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
+msgstr "الوصول إلى التخزين غير المحدود"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "الوصول إلى معرف المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "الوصول إلى إعدادات المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "الوصول إلى محتوى الويب"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "السماح لتطبيق مكافحة الفيروسات بالبحث عن المحتويات الضارة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "السماح للتطبيق بالوصول إلى معلومات الخصوصية لأغراض تحديد هوية المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "السماح للتطبيق بالوصول إلى معلومات النظام الآمنة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "السماح للتطبيق بالوصول إلى بيانات معينة تم تصديرها بواسطة تطبيقات أخرى"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "السماح للتطبيق بالوصول إلى معلومات النظام"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "السماح للتطبيق بالوصول إلى الإنترنت"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "السماح للتطبيق بالوصول إلى شريحة البطاقة الآمنة، مثل UICC/SIM، أو عنصر الأمان المضمن أو بطاقة SD الآمنة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "السماح للتطبيق بإضافة اختصارات أو إزالتها من الشاشة الرئيسية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "السماح للتطبيق بإضافة Dynamic Box إلى الشاشة الرئيسية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "السماح للتطبيق بإضافة شهادات وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "السماح للتطبيق بإضافة جهات اتصال وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "السماح بفتح التطبيق بشروط أو فتح تطبيق آخر"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
+msgstr "السماح للتطبيق بتغيير إعدادات البلوتوث، مثل تشغيل البلوتوث أو إيقاف تشغيله وضبط اسم الجهاز المحلي"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
+msgstr "السماح للتطبيق بتغيير إعدادات نظام البلوتوث المرتبطة بالخصوصية والأمان، مثل الوضع المرئي‬"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "السماح للتطبيق بتغيير إعدادات NFC، مثل تشغيل علامة NFC أو إيقاف تشغيلها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
+msgstr "السماح للتطبيق بتغيير إعدادات نظام NFC، مثل تشغيل ميزة دفع الرسائل المحفوظة أو إيقاف تشغيلها، التي ترسل رسائل NDEF"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "السماح للتطبيق بتغيير إعدادات الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "السماح للتطبيق بتغيير إعدادات الأمان أو الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "السماح للتطبيق بإغلاق تطبيق آخر"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "السماح للتطبيق بالاتصال بأجهزة وخوادم أخرى"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "السماح للتطبيق بالاتصال بخادم HTTP"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "السماح للتطبيق بتكوين شبكات الهاتف المحمول"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "السماح للتطبيق بالتحكم في خدمة تحويل المكالمة‬"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "السماح للتطبيق بإنشاء حسابات وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "السماح للتطبيق بإنشاء سجلات المكالمات وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "السماح للتطبيق بإنشاء محتويات وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "السماح للتطبيق بإنشاء الجدول ومعلومات المهام وتحديثه وحذفه"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "السماح للتطبيق بإنشاء علامات وتحديثها وحذفها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "السماح للتطبيق بحذف أذونات تحديد الموقع الجغرافي"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "السماح للتطبيق بعرض محتويات الويب أو استخدام API المرتبط بمحتوى الويب"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "السماح للتطبيق بإنشاء لمسة وأحداث رئيسية والتقاط الشاشات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "السماح للتطبيق بالحصول على الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "السماح للتطبيق بالحصول على شهادات تطبيق معينة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "السماح للتطبيق بالحصول على معلومات التاريخ والوقت"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "السماح للتطبيق بالاحتفاظ بحالات الطاقة والتحكم بها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "السماح للتطبيق بتثبيت حزم التطبيق أو إلغاء تثبيتها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "السماح للتطبيق بإدارة فتح تطبيق آخر بشروط"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "السماح للتطبيق بإدارة ضبط التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "السماح للتطبيق بإدارة تسجيل الصوت"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "السماح للتطبيق بإدارة كاميرات الجهاز‬ من أجل معاينة الصور والتقاطها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "السماح للتطبيق بإدارة تراخيص ‏‫إدارة الحقوق الرقمية‬ (DRM) واسترداد معلومات محتوى DRM"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "السماح للتطبيق بإدارة تنزيلات HTTP"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "السماح للتطبيق بإدارة حسابات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "السماح للتطبيق بإدارة اتصالات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "السماح للتطبيق بإدارة الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "السماح للتطبيق بإدارة خدمة البث الخلوي (CBS)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "السماح للتطبيق بإدارة طرق الإدخال المثبتة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "السماح للتطبيق بإدارة بيانات المستخدم المخزنة بواسطة التحكم في الويب أو المستعرض"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "السماح للتطبيق بإدارة نظام Wi-Fi، مثل تحديث معلومات نقطة الوصول"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "السماح للتطبيق بإدارة خصائص الواجهة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "السماح للتطبيق بإدارة تسجيل الفيديو وتسجيل الصوت باستخدام الكاميرا أو مسجل الصوت"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "السماح للتطبيق بإدارة تسجيل الفيديو باستخدام الكاميرا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "السماح للتطبيق بإدارة رسائل دفع WAP"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "السماح للتطبيق بإدارة Wi-Fi Direct على الجهاز"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "السماح للتطبيق بإدارة Wi-Fi على الجهاز، مثل تشغيل شبكة Wi-Fi أو إيقاف تشغيلها والاتصال بنقطة الوصول"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "السماح للتطبيق بإدارة ملف تعريف المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "السماح للتطبيق بتقديم طريقة لإدخال الحروف والرموز في حقل الإدخال ذي الصلة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "السماح للتطبيق بتوفير خدمة اسم المجال (DNS)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "السماح للتطبيق بتقديم إشعارات للمستخدم، مثل الرسائل والإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "السماح للتطبيق بدفع رسائل NFC إلى أجهزة أخرى"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "السماح للتطبيق بقراءة الحسابات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "السماح للتطبيق بقراءة  و كتابة معلومات على علامة NFC"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "السماح للتطبيق بقراءة معلومات التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "السماح للتطبيق بقراءة العلامات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "السماح للتطبيق بقراءة سجلات المكالمات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "السماح للتطبيق بقراءة الشهادات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "السماح للتطبيق بقراءة جهات الاتصال"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "السماح للتطبيق بقراءة المحتوى"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "السماح للتطبيق بقراءة أنظمة الملفات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "السماح للتطبيق بقراءة أذونات تحديد الموقع الجغرافي"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "السماح للتطبيق بقراءة المعلومات، على سبيل المثال، النظام الأساسي أو إصدار API"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "السماح للتطبيق بقراءة إحصائيات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "السماح للتطبيق بقراءة إعدادات الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "السماح للتطبيق بقراءة إعدادات الأمان أو الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "السماح للتطبيق بقراءة الجدول ومعلومات المهام"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "السماح للتطبيق بقراءة ملف تعريف المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "السماح للتطبيق باستلام معلومات تفصيلية حول الحزمة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "السماح للتطبيق باستلام إخطارات حول تغييرات التطبيقات التي يتم إجراؤها في المقدمة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "السماح للتطبيق باستلام معلومات الحزمة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "السماح للتطبيق باستلام إشعارات الدفع"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "السماح للتطبيق باستلام الرسائل النصية القصيرة من منفذ معين"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "السماح للتطبيق بإرسال الرسائل واستردادها من صندوق الرسائل"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "السماح للتطبيق بقطع/طلب الاتصال بشبكة معينة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "السماح للتطبيق بطلب معلومات Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "السماح للتطبيق بطلب معلومات Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "السماح للتطبيق بإعادة ضبط إحصائيات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "السماح للتطبيق باسترداد معلومات النظام، مثل الشبكة وبطاقة SIM وتفاصيل المكالمة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "السماح للتطبيق باسترداد معلومات المحادثات الهاتفية، مثل الشبكة وبطاقة SIM وتفاصيل المكالمة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "السماح للتطبيق بإرسال رسائل SMS واسترداد رسائل SMS من صناديق رسائل SMS"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "السماح للتطبيق بإرسال رسائل البريد الإلكتروني"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "السماح للتطبيق بإرسال رسائل الوسائط المتعددة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "السماح للتطبيق بإرسال رسائل SMS وMMS والبريد الإلكتروني"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "السماح للتطبيق بضبط التنبيه وتنشيط الجهاز في الوقت المجدول"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "السماح للتطبيق بتعيين مسارات إدخال وإخراج الصوت واستلام إشعارات وأحداث المسارات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "السماح للتطبيق بتعيين تكوينات الحزم"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "السماح للتطبيق بمزامنة بيانات الجهاز مع الخادم باستخدام بروتوكول OMA DS 1.2"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "السماح بتشغيل التطبيق واستخدام وظيفة الاهتزاز"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "السماح للتطبيق بإلغاء قفل الجهاز"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "السماح للتطبيق بتحديث الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "السماح للتطبيق بتحديث إعدادات المستخدم أو قراءتها"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "السماح للتطبيق بتحديث حسابات شبكة النظام"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "السماح للتطبيق باستخدام وحدة التخزين الموصولة بدون وضع قيود على حجم قاعدة البيانات أو الملفات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "السماح للتطبيق باستخدام وضع ملء الشاشة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "السماح للتطبيق باستخدام ميزات NFC العامة"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "السماح للتطبيق باستخدام ‏‫وضع الوصول العام (GAP) للبحث عن أجهزة أو إقرانها مثلا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "السماح للتطبيق باستخدام ‏‫ملف تعريف الأجهزة الطبية (HDP) لإرسال بيانات الحالة الصحية مثلا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "السماح للتطبيق باستخدام الإنترنت من خلال ناقل محدد"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "السماح للتطبيق باستخدام ‏‫‏‫ملف تعريف إرسال الكائنات (OPP) لإرسال ملفات مثلا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "السماح للتطبيق باستخدام ‏‫ملف تعريف المنفذ التسلسلي (SPP) لإرسال بيانات التسلسلية مثلا"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "السماح للتطبيق باستخدام سجل النظام (dlog)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "‏‫السماح للتطبيق باستخدام ميزة آلية الاختبار‬"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "السماح للتطبيق باستخدام بيانات الموقع الخاصة بالمستخدم"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "‏‫السماح للتطبيق باستخدام الوحدة العامة لخدمة API لجهاز Tizen عبر الويب"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "السماح للتطبيق بكتابة رسائل SMS وMMS والبريد الإلكتروني"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "السماح للتطبيق بالكتابة على أنظمة الملفات"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "السماح للتطبيق بقراءة معلومات الامتيازات"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "التبديل إلى وضع ملء الشاشة"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "إغلاق التطبيقات"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "الاتصال بأجهزة وخوادم أخرى"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "الاتصال بخادم HTTP"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "تكوين شبكات الهاتف المحمول"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "التنزيل عبر HTTP"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "تحويل المكالمات"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "الحصول على شهادات التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "تثبيت Dynamic Box"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "إدارة الحسابات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "إدارة التطبيقات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "إدارة إعدادات التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "إدارة المسارات الصوتية"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "إدارة إعدادات البلوتوث العامة"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "إدارة إعدادات نظام البلوتوث"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "إدارة العلامات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "إدارة التقويم"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "إدارة سجلات المكالمات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "إدارة خدمة البث الخلوي"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "إدارة الشهادات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "إدارة جهات الاتصال"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "إدارة المحتوى"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "إدارة DRM"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "إدارة أذونات الموقع الجغرافي"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "إدارة أحداث الإدخال"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "إدارة طرق الإدخال"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "إدارة حسابات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "إدارة اتصالات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "إدارة الإعدادات العامة لعلامة NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "إدارة إعدادات نظام NFC"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "إدارة الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "إدارة الباقات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "إدارة إعدادات الباقة"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "إدارة الطاقة"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "إدارة إعدادات الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "إدارة الاختصارات"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "إدارة SMS"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "إدارة إعدادات النظام"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "إدارة واجهة المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "إدارة ملف تعريف المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "إدارة إعدادات الاهتزاز"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "إدارة رسائل دفع WAP"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "إدارة بيانات الويب"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "إدارة Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "إدارة Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "إدارة إعدادات نظام Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "فتح التطبيقات"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "تقديم DNS"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "تقديم طرق الإدخال"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "تقديم الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "دفع رسائل NFC"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "قراءة الحسابات"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "قراءة معلومات التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "قراءة العلامات"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "قراءة التقويم"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "قراءة سجلات المكالمات"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "قراءة الشهادات"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "قراءة جهات الاتصال"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "قراءة المحتوى"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "قراءة أنظمة الملفات"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "قراءة أذونات الموقع الجغرافي"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "قراءة إحصائيات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "قراءة الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "قراءة معلومات النظام الأساسي"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "قراءة إعدادات الخصوصية"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "قراءة معلومات الامتيازات‬"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "قراءة معلومات النظام الآمن"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "قراءة معلومات النظام"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "قراءة إعدادات أمان النظام"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "قراءة ملف تعريف المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "قراءة معلومات Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "قراءة معلومات Wi-Fi"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "الكتابة على/قراءة علامات NFC"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "استلام إشعارات استخدام التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "استلام معلومات الحزمة التفصيلية"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "استلام معلومات الحزمة"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "استلام رسائل SMS للمنفذ المحدد"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "استلام إشعارات الدفع"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "تسجيل الصوت"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "تسجيل الفيديو"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "تسجيل الفيديو والصوت"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "إعادة تعيين إحصائيات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "البحث عن فيروسات"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "تحديد اتصال الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "إرسال رسائل البريد الإلكتروني"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "إرسال رسائل"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "إرسال رسائل MMS"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "ضبط التنبيهات"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "مزامنة بيانات الجهاز"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "إلغاء قفل الجهاز"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "تحديث إعدادات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "تحديث الإشعارات"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "استخدام خيارات الإنترنت المتقدمة"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "استخدام ‏‫ملف تعريف الوصول العام (GAP) للبلوتوث‬"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "استخدام ‏‫ملف تعريف الأجهزة الطبية (HDP) للبلوتوث‬"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "استخدام ‏‫‏‫ملف تعريف إرسال الكائنات (OPP) للبلوتوث‬"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "استخدام ‏‫ملف تعريف المنفذ التسلسلي (SPP) للبلوتوث‬"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "استخدام الكاميرا"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "استخدام الوحدة العامة"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "استخدام السجل"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "استخدام ميزات علامات NFC العامة"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "استخدام آلية الاختبار"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "استخدام موقع المستخدم"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "كتابة الرسائل"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "الكتابة على أنظمة الملفات"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "حسابات"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "البلوتوث"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "التقويم"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "الأسماء"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "الإنترنت"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "الرسائل"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi مباشر"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "استرداد معلومات التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "إدارة تفضيلات التطبيق الافتراضية"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "السماح للتطبيق باسترداد المعلومات المرتبطة بالتطبيقات الأخرى"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "السماح للتطبيق بقراءة وتحديث تفضيلات التطبيق الافتراضية"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "الموقع"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "معلومات شخصية"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "أدوات التحكم في الأجهزة‬"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "وصلات الشبكة"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "خدمات الدفع"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "إعدادات النظام"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "امتيازات أخرى"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "إدارة إعدادات تطبيق الويب"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "السماح للتطبيق بإدارة إعدادات تطبيق الويب، بما في ذلك إزالة جميع ملفات تعريف الارتباط المحفوظة لتطبيق الويب هذا"
+

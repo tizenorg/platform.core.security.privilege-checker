@@ -1,0 +1,11 @@
+<manifest>
+        <define>
+                <domain name="privilege-checker" />
+                <provide>
+                        <label name="privilege-checker::db" />
+                </provide>
+        </define>
+        <request>
+                <domain name="_" />
+        </request>
+</manifest>

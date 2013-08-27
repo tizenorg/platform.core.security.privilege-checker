@@ -1,0 +1,759 @@
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
+msgstr "Sonraí easpórtáilte a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
+msgstr "An tIdirlíon a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
+msgstr "Teachtaireachtaí a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "Eilimintí slána a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
+msgstr "Faisnéis faoin gcóras a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
+msgstr "Faisnéis teileafónaíochta a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "Am agus dáta a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
+msgstr "Stóras neamhtheoranta a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "ID an úsáideora a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "Socruithe úsáideora a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "Inneachar gréasáin a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "Ceadaítear don fheidhmchlár frithvíreas scanadh le haghaidh inneachar díobhálacha"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "Ceadaítear don fheidhmchlár faisnéis príobháideachta a rochtain chun críocha aitheantais úsáideoirí"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis chórais shlán a rochtain."
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "Ceadaítear don fheidhmchláir sonraí sainiúla easpórtáilte ag feidhmchláir eile a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis chórais a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "Ceadaítear don fheidhmchlár an tIdirlíon a rochtain."
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "Ceadaítear don fheidhmchlár slis slán cárta cliste amhail UICC/SIM, gné shlán leabaithe, nó cárta SD slán a rochtain"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "Ceadaítear don fheidhmchlár aicearraí a chur leis an scáileán baile agus a bhaint uaidh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "Ceadaítear don fheidhmchlár Dynamic Box a chur leis an scáileán baile"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "Ceadaítear don fheidhmchlár deimhnithe a chur leis, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "Ceadaítear don fheidhmchlár teagmhálaithe a chur leis, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "Ceadaítear don fheidhmchlár oscailt go coinníollach nó feidhmchlár eile a oscailt"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
+msgstr "Ceadaítear don fheidhmchlár socruithe Bluetooth a athrú, amhail Bluetooth a chasadh air nó as, agus ainm an ghléis áitiúil a shocrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
+msgstr "Ceadaítear don fheidhmchlár socruithe córais Bluetooth a athrú a bhaineann le príobháideacht agus le slándáil, amhail an mód infheicthe"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Ceadaítear don fheidhmchlár socruithe NFC a athrú, amhail NFC a chasadh air nó as"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár socruithe an chórais NFC a athrú, amhail brú coimeádta a chasadh air nó as, trína seoltar teachtaireachtaí NDEF réamhshocruithe"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe príobháideachta a athrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe slándála nó príobháideachta a athrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "Ceadaítear don fheidhmchlár feidhmchlár eile a dhúnadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Ceadaítear don fheidhmchlár cumarsáid a dhéanamh le gléasanna agus le freastalaithe eile"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "Ceadaítear don fheidhmchlár cumarsáid a dhéanamh leis an bhfreastalaí HTTP"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "Ceadaítear don fheidhmchlár na líonraí móibíleacha a chumrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "Ceadaítear don fheidhmchlár an tseirbhís cur ar aghaidh glaonna a rialú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais a chruthú, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "Ceadaítear don fheidhmchlár logaí glaonna a chruthú, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "Ceadaítear don fheidhmchlár inneachar a chruthú, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi sceideal agus tascanna a chruthú, a nuashonrú agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "Ceadaítear don fheidhmchlár leabharmharcanna a chruthú, a nuashonrú, agus a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "Ceadaítear don fheidhmchlár ceadanna geoshuímh a scriosadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "Ceadaítar don fheidhmchlár inneachar Gréasáin a thaispeáint nó an API a bhaineann le hinneachar ar an nGréasán a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "Ceadaítear don fheidhmchlár imeachtaí tadhaill agus eochair-imeachtaí a ghiniúint, agus scáileáin a ghabháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár fógraí a fháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Ceadaítear don fheidhmchlár deimhnithe feidhmchláir sainithe a fháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi am agus dáta a fháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "Ceadaítear don fheidhmchlár staideanna cumhachta a choinneáil agus a rialú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Ceadaítear don fheidhmchlár paicéid fheidhmchláir a shuiteáil nó a dhíshuiteáil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "Ceadaítear don fheidhmchlár feidhmchlár eile a osclaítear go coinníollach a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe feidhmchláir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "Ceadaítear don fheidhmchlár taifeadadh fuaime a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "Ceadaítear don fheidhmchlár ceamaraí an ghléis a bhainistiú le réamhamharc ar phictiúir agus iad a ghabháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár ceadúnais ar Bhainistíocht ar Chearta Digiteacha (DRM) a bhainistiú agus faisnéis inneachair DRM a aisghabháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "Ceadaítear don fheidhmchlár íoslódálacha HTTP a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais líonra a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "Ceadaítear don fheidhmchlár naisc líonra a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár fógraí a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "Ceadaítear don fheidhmchlár an tSeirbhís Craoladh Cille (CBS) a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "Ceadaítear don fheidhmchlár na modhanna ionchuir suiteáilte a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "Ceadaítear don fheidhmchlár na sonraí úsáideora atá stóráilte ag rialtán nó brabhsálaí Gréasáin a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár socruithe an chórais Wi-Fi a bhainistiú, amhail faisnéis AP a nuashonrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "Ceadaítear don fheidhmchlár airíonna UI a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "Ceadaítear don fheidhmchlár fístaifeadadh agus taifeadadh fuaime a bhainistiú leis an gceamara nó leis an taifeadóir fuaime"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "Ceadaítear don fheidhmchlár fístaifeadadh a bhainistiú leis an gceamara"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár brútheachtaireachtaí WAP a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "Ceadaítear don fheidhmchlár Wi-Fi Direct a bhainistiú ar an ngléas."
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "Ceadaítear don fheidhmchlár Wi-Fi a bhainistiú ar an ngléas, amhail Wi-Fi a chur air nó as, agus nascadh le AP"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "Ceadaítear don fheidhmchlár próifíl an úsáideora a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "Ceadaítear don fheidhmchlár bealach a sholáthar le carachtair agus siombailí a chur isteach i réimse ionchuir gaolmhar"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "Ceadaítear don fheidhmchlár an tSeirbhís Ainmneacha Fearainn (DNS) a chur ar fáil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "Ceadaítear don fheidhmchlár fógraí úsáideora a sholáthar, amhail teachtaireachtaí agus suaitheantais"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí NFC a bhrú chuig gléasanna eile"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis chlib NFC a léamh agus a scríobh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis feidhmchláir a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "Ceadaítear don fheidhmchlár leabharmharcanna a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "Ceadaítear don fheidhmchlár logaí glaonna a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "Ceadaítear don fheidhmchlár deimhnithe a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "Ceadaítear don fheidhmchlár teagmhálaithe a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "Ceadaítear don fheidhmchlár inneachar a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "Ceadaítear don fheidhmchlár córais chomhad a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "Ceadaítear don fheidhmchlár ceadanna geoshuímh a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis a léamh, amhail an leagan ardáin nó API"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "Ceadaítear don fheidhmchlár staitisticí líonra a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe príobháideachta a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe slándála nó príobháideachta a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi sceideal agus tascanna a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "Ceadaítear don fheidhmchlár próifíl an úsáideora a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis mhionsonraithe pacáiste a fháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "Ceadaítear don fheidhmchlár fógraí a fháil maidir le hathruithe ar fheidhmchláir sa tulra"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis a fháil faoi phaicéid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár brúfhógraí a fháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí SMS a fháil ó phort sonraithe"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí a fháil, agus teachtaireachtaí a aimsiú ó na boscaí teachtaireachtaí"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "Ceadaítear don fheidhmchlár nasc líonra sainiúil a iarraidh/scaoileadh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis faoi Wi-Fi Direct a iarraidh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis Wi-Fi a iarraidh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "Ceadaítear don fheidhmchlár staitisticí líonra a athshocrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Ceadaítear don fheidhmchlár faisnéis chórais a aisghabháil, amhail líonra, SIM, agus sonraí glaonna"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "Ceadaítear don fheidhmchlár faisnéis teileafónaíochta a aisghabháil, amhail líonra, SIM, agus sonraí glaonna"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí SMS a sheoladh agus a fháil, agus teachtaireachtaí SMS a aimsiú ó na boscaí teachtaireachtaí SMS"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí r-phoist a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí MMS a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí SMS, MMS agus r-phoist a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "Ceadaítear don fheidhmchlár aláram a shocrú agus an gléas a mhúscailt ag an am sceidealaithe"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "Ceadaítear don fheidhmchlár bealaí ionchuir agus aschuir fuaime a shocrú agus fógraí a fháil faoi imeachtaí bealaigh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "Ceadaítear don fheidhmchlár cumraíochtaí paicéid a shocrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Ceadaítear don fheidhmchlár sonraí gléis a shioncronú leis an bhfreastalaí tríd an bprótacal OMA DS 1.2 a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "Ceadaítear don fheidhmchlár crith a chasadh air agus a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "Ceadaítear don fheidhmchlár an gléas a dhíghlasáil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "Ceadaítear don fheidhmchlár fógraí a nuashonrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "Ceadaítear don fheidhmchlár socruithe úsáideora a nuashonrú nó a léamh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "Ceadaítear don fheidhmchlár cuntais líonra an chórais a nuashonrú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "Ceadaítear don fheidhmchlár stóras ceangailte a úsáid gan teorannú ar mhéide do DB nó chomhaid eile"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "Ceadaítear don fheidhmchlár lánscáileán a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "Ceadaítear don fheidhmchlár gnéithe coiteanna NFC a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Rochtana Cineálaí (GAP) a úsáid, mar shampla, scanadh do ghléasanna agus iad a phéireáil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Gléas Sláinte (HDP) a úsáid, mar shampla, le sonraí sláinte a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "Ceadaítear don fheidhmchlár an tIdirlíon a úsáid le hiompróir sonraithe"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "Ceadaítear don fheidhmchlár an Phróifíl Brú Oibiachtaí (OPP) a úsáid, mar shampla, le comhaid a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "Ceadaítear don fheidhmchlár Próifíl an Phoirt Shrathaigh (SPP) a úsáid, mar shampla, le sonraí srathacha a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "Ceadaítear don fheidhmchlár loga an chórais (dlog) a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "Ceadaítear don fheidhmchlár an ghné uathoibrithe tástála a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "Ceadaítear don fheidhmchlár sonraí suímh an úsáideora a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "Ceadaítear don fheidhmchlár modúl coiteann API ghléas Gréasáin Tizen a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "Ceadaítear don fheidhmchlár teachtaireachtaí SMS, MMS agus r-phoist a scríobh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "Ceadaítear don fheidhmchlár córais chomhad a scríobh"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "Ceadaítear don fheidhmchlár faisnéis phribhléide a léamh"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "Athrú go lánscáileán"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "Feidhmchláir a dhúnadh"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "Cumarsáid le gléasanna agus le freastalaithe eile"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "Cumarsáid a dhéanamh leis an bhfreastalaí HTTP"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "Líonraí móibíleacha a chumrú"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "Íoslódáil trí HTTP"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "Glaonna a chur ar aghaidh"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "Deimhnithe feidhmchláir a fháil"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Dynamic Box a shuiteáil"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "Cuntais a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "Feidhmchláir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "Socruithe feidhmchláir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "Bealaí fuaime a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "Socruithe ginearálta Bluetooth a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "Socruithe córais Bluetooth a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "Leabharmharcanna a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "Féilire a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "Logaí glaonna a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "Seirbhís craolta cille a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "Deimhnithe a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "Teagmhálaithe a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "Inneachar a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "DRM a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "Ceadanna geoshuímh a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "Imeachtaí ionchuir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Modhanna ionchuir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "Cuntais líonra a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Nasc líonra a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "Socruithe ginearálta NFC a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "Socruithe córais NFC a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "Fógraí a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "Pacáistí a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "Socruithe pacáiste a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "Cumhacht a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "Socruithe príobháideachta a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "Aicearraí a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "SMS a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "Socruithe córais a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "Comhéadan úsáideora a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "Próifíl úsáideora a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "Socruithe creatha a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "Brútheachtaireachtaí WAP a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "Sonraí Gréasáin a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Wi-Fi a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Wi-Fi Direct a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Socruithe córais Wi-Fi a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "Feidhmchláir a oscailt"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "DNS a sholáthar"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "Modhanna ionchuir a sholáthar"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "Fógraí a sholáthar"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "Teachtaireachtaí NFC a bhrú"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "Cuntais a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "Faisnéis feidhmchláir a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "Leabharmharcanna a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "Féilire a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "Logaí glaonna a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "Deimhnithe a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "Teagmhálaithe a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "Inneachar a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "Córais chomhad a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "Ceadanna geoshuímh a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "Staitisticí líonra a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "Fógraí a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "Faisnéis ardáin a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "Socruithe príobháideachta a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "Faisnéis phribhléide a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "Faisnéis chórais shlán a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "Faisnéis chórais a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "Socruithe slándála córais a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "Próifíl úsáideora a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Faisnéis Wi-Fi Direct a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Faisnéis Wi-Fi a léamh"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "Clibeanna NFC a léamh/a scríobh"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "Fógraí maidir le húsáid feidhmchlár a fháil"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Faisnéis mhionsonraithe faoin bpacáiste a fháil"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "Faisnéis faoin bpacáiste a fháil"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "SMS sainiúil do phort a fháil"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "Brúfhógraí a fháil"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "Fuaim a thaifeadadh"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "Físeán a thaifeadadh"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Físeán agus fuaim a thaifeadadh"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "Staitisticí líonra a athshocrú"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "Scanadh do víris"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "Nasc líonra a roghnú"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "R-phoist a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "Teachtaireachtaí a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "MMS a sheoladh"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "Aláraim a shocrú"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "Sonraí gléis a shioncronú"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "An gléas a dhíghlasáil"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "Socruithe líonra a nuashonrú"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "Fógraí a nuashonrú"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "Roghanna ard-Idirlín a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "GAP Bluetooth a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "HDP Bluetooth a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "OPP Bluetooth a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "SPP Bluetooth a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "Ceamara a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "Modúl coiteann a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "Loga a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "Gnéithe coiteanna NFC a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "Uathoibriú tástála a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "Suíomh úsáideora a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "Teachtaireachtaí a scríobh"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "Córais chomhad a scríobh"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "Cuntais"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "Féilire"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "Teagmhálaithe"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Idirlíon"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "Cur teachtaireachtaí"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "Faisnéis feidhmchláir a aisghabháil"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "Tosaíochtaí réamhshocraithe feidhmchláir a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Ligtear don fheidhmchlár faisnéis a bhaineann le feidhmchláir eile a aisghabháil"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "Ligtear don fheidhmchlár tosaíochtaí réamhshocraithe feidhmchláir a léamh agus a nuashonrú"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Suíomh"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "Faisnéis phearsanta"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "Rialúcháin crua-earraí"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "Naisc líonra"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "Seirbhísí íoctha"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "Socruithe córais"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "Pribhléidí eile"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "Socruithe feidhmchláir ghréasáin a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "Ligtear don fheidhmchlár socruithe an fheidhmchláir ghréasáin a bhainistiú, lena n-áirítear gach fianán a shábháiltear don fheidhmchlár gréasáin seo a bhaint"
+

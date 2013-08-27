@@ -1,0 +1,759 @@
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
+msgstr "ექსპორტირებულ მონაცემებზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
+msgstr "ინტერნეტზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
+msgstr "შეტყობინებებზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
+msgstr "უსაფრთხოების ელემენტებზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
+msgstr "სისტემის ინფორმაციაზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
+msgstr "ტელეფონის ინფორმაციაზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
+msgstr "დროსა და თარიღზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
+msgstr "შეუზღუდავ მეხსიერებაზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
+msgstr "მომხმარებლის ID-ზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
+msgstr "მომხმარებლის პარამეტრებზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
+msgstr "ვებ-მასალებზე წვდომა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
+msgstr "საშუალებას აძლევს ანტივირუსულ პროგრამას მოძებნოს მავნე მასალა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
+msgstr "საშუალებას აძლევს პროგრამას გახსნას კონფიდენციალური ინფორმაცია, მომხმარებლის იდენტიფიცირების მიზნით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა სისტემის ინფორმაციაზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
+msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა სხვა პროგრამების მიერ ექსპორტირებულ სპეციფიკურ მონაცემებზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას გახსნას სისტემის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
+msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა ინტერნეტზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
+msgstr "საშუალებას აძლევს პროგრამას განახორციელოს წვდომა დაცული სმარტბარათის ჩიპზე, როგორიცაა UICC/SIM, რომელშიც ინტეგრირებულია დაცული ელემენტი, ან დაცულ SD ბარათზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
+msgstr "საშუალებას აძლევს პროგრამას დაამატოს და წაშალოს ღილაკები საწყის ეკრანზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
+msgstr "საშუალებას აძლევს პროგრამას დაამატოს Dynamic Box საწყის ეკრანზე"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
+msgstr "საშუალებას აძლევს პროგრამას დაამატოს, განაახლოს და წაშალოს სერტიფიკატები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
+msgstr "საშუალებას აძლევს პროგრამას დაამატოს, განაახლოს და წაშალოს კონტაქტები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
+msgstr "საშუალებას აძლევს პროგრამას გაიხსნას პირობით, ან გახსნას სხვა პროგრამა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს Bluetooth-ის პარამეტრები, როგორიცაა Bluetooth-ის ჩართვა ან გამორთვა და დააყენოს ადგილობრივი მოწყობილობის სახელი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს Bluetooth სისტემის პარამეტრები, რომლებიც უკავშირდება კონფიდენციალურობასა და უსაფრთხოებას, მაგალითად, ხილული რეჟიმი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს NFC პარამეტრები, მაგალითად, ჩართოს ან გამორთოს NFC"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს NFC სისტემის პარამეტრები, მაგალითად, ჩართოს ან გამორთოს Reserved Push რეჟიმი, რომელიც აგზავნის წინასწარ განსაზღვრულ NDEF შეტყობინებებს"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს კონფიდენციალურობის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას შეცვალოს უსაფრთხოების ან კონფიდენციალურობის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
+msgstr "საშუალებას აძლევს პროგრამას დახუროს სხვა პროგრამა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "საშუალებას აძლევს პროგრამას დაამყაროს კომუნიკაცია სხვა მოწყობილობებთან და სერვისებთან"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
+msgstr "საშუალებას აძლევს პროგრამას დაამყაროს კომუნიკაცია HTTP სერვერთან"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
+msgstr "საშუალებას აძლევს პროგრამას შეარჩიოს მობილური ქსელების კონფიგურაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ზარის გადამისამართების სერვისი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
+msgstr "საშუალებას აძლევს პროგრამას შექმნას, განაახლოს და წაშალოს ანგარიშები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
+msgstr "საშუალებას აძლევს პროგრამას შექმნას, განაახლოს და წაშალოს ზარების ჟურნალები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
+msgstr "საშუალებას აძლევს პროგრამას შექმნას, განაახლოს და წაშალოს მასალა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას შექმნას, განაახლოს და წაშალოს გრაფიკისა და დავალების ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
+msgstr "საშუალებას აძლევს პროგრამას შექმნას, განაახლოს და წაშალოს სანიშნეები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
+msgstr "საშუალებას აძლევს პროგრამას წაშალოს გეოლოკაციის ნებართვები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
+msgstr "საშუალებას აძლევს პროგრამას აჩვენოს ქსელში განთავსებული მასალა ან გამოიყენოს ქსელში განთავსებულ მასალასთან დაკავშირებული API"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
+msgstr "საშუალებას აძლევს პროგრამას დააგენერიროს სენსორული და ფიზიკური კლავიშების გამოყენება და გადაიღოს ეკრანები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს კონკრეტული პროგრამის სერტიფიკატები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს დროისა და თარიღის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
+msgstr "საშუალებას აძლევს პროგრამას შეინარჩუნოს და აკონტროლოს კვების მიწოდების მდგომარეობა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "საშუალებას აძლევს პროგრამას დააინსტალიროს ან ამოაინსტალიროს პროგრამის პაკეტები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
+msgstr "საშუალებას აძლევს პროგრამას მართოს სხვა გახსნილი პროგრამა პირობით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს პროგრამის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
+msgstr "საშუალებას აძლევს პროგრამას მართის აუდიო ჩაწერა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
+msgstr "საშუალებას აძლევს პროგრამას მართოს აპარატის კამერები, დაათვალიეროს და გადაიღოს სურათები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ციფრული უფლებების მენეჯმენტის (DRM) ლიცენზიები და მიიღოს DRM მასალის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს HTTP ჩამოტვირთვები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ქსელის ანგარიშები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ქსელთან დაკავშირებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს Cell Broadcast Service (CBS)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ტექსტის შეყვანის დაინსტალირებული მეთოდები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ვებ-კონტროლოს ან ბრაუზერის მიერ შენახული მომხმარებლის მონაცემები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მართოს Wi-Fi სისტემის პარამეტრები, მაგალითად, განაახლოს წვდომის წერტილის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
+msgstr "საშუალებას აძლევს პროგრამას მართოს UI თვისებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ვიდეოსა და აუდიოს ჩაწერა კამერით ან აუდიო ჩამწერით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
+msgstr "საშუალებას აძლევს პროგრამას მართოს ვიდეოს ჩაწერა კამერით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას მართოს WAP push-შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
+msgstr "საშუალებას აძლევს პროგრამას მართოს Wi-Fi Direct აპარატში"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
+msgstr "საშუალებას აძლევს პროგრამას მართოს Wi-Fi მოწყობილობაში, მაგალითად, ჩართოს ან გამორთოს Wi-Fi და დაუკავშირდეს წვდომის წერტილს"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
+msgstr "საშუალებას აძლევს პროგრამას მართოს მომხმარებლის პროფილი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
+msgstr "საშუალებას აძლევს პროგრამას უზრუნველყოს ასოებისა და სიმბოლოების აკრეფის გზა შესაბამის ველში"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
+msgstr "საშუალებას აძლევს პროგრამას უზრუნველყოს Domain Name Service (DNS)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
+msgstr "საშუალებას აძლევს პროგრამას უზრუნველყოს მომხმარებლის შეტყობინებები, როგორიცაა შეტყობინებები და ნიშნები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "საშუალებას აძლევს პროგრამას ჩართოს NFC შეტყობინებები სხვა მოწყობილობებში"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს ანგარიშები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს და დაწეროს NFC იარლიყის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს პროგრამის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს სანიშნეები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს ზარების ჟურნალები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს სერტიფიკატები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს კონტაქტები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს შიგთავსი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს ფაილთა სისტემები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს გეოლოკაციის ნებართვები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს ისეთი ინფორმაცია, როგორიცაა პლატფორმა ან API ვერსია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს ქსელის სტატისტიკა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს კონფიდენციალურობის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს უსაფრთხოების ან კონფიდენციალურობის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს განრიგისა და დავალების ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს მომხმარებლის პროფილი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს პაკეტის დეტალური ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს შეტყობინებები წინა პლანზე ჩართული პროგრამის ცვლილებების შესახებ"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს პაკეტის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს push-შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს SMS წერილები კონკრეტული პორტიდან"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს შეტყობინებები და ამოიღონ შეტყობინებები წერილების ყუთებიდან"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
+msgstr "საშუალებას აძლევს პროგრამას მოითხოვოს ან გააუქმოს კონკრეტულ ქსელთან დაკავშირება"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მოითხოვოს Wi-Fi Direct ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას მოითხოვოს Wi-Fi ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
+msgstr "საშუალებას აძლევს პროგრამას გადატვირთოს ქსელის სტატისტიკა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს სისტემის ინფორმაცია, როგორიცაა ქსელის, SIM-ისა და ზარის დეტალები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
+msgstr "საშუალებას აძლევს პროგრამას მიიღოს ტელეფონის ინფორმაცია, როგორიცაა ქსელის, SIM-ისა და ზარის დეტალები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
+msgstr "საშუალებას აძლევს პროგრამას გაგზავნის და მიიღოს SMS შეტყობინებები და მიიღოს SMS შეტყობინებები SMS შეტყობინებაღა ყუთებიდან"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას გაგზავნოს ელფოსტის შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას გაგზავნოს MMS შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას გაგზავნოს SMS, MMS და ელფოსტის შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
+msgstr "საშუალებას აძლევს პროგრამას დააყენოს სიგნალი და გააღვიძოს აპარატი დაგეგმილ დროს"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
+msgstr "საშუალებას აძლევს პროგრამას დააყენოს აუსიო შესავალი და გამოსავალი მარშრუტები და მიიღოს შეტყობინებები მარშრუტების შესახებ"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
+msgstr "საშუალებას აძლევს პროგრამას დააყენოს პაკეტის კონფიგურაციები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "საშუალებას აძლევს პროგრამას დაასინქრონოს მოწყობილობის დეტალები სერვერთან, OMA DS 1.2 პროტოკოლის გამოყენებით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
+msgstr "საშუალებას აძლევს პროგრამას ჩართოს და გამოიყენოს ვიბრაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
+msgstr "საშუალებას აძლევს პროგრამას განბლოკოს მოწყობილობა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
+msgstr "საშუალებას აძლევს პროგრამას განაახლოს შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
+msgstr "საშუალებას აძლევს პროგრამას განაახლოს ან წაიკითხოს მომხმარებლის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
+msgstr "საშუალებას აძლევს პროგრამას განაახლოს სისტემის ქსელის ანგარიშები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს მიმაგრებული მეხსიერება ზომის შეუზღუდავად, მონაცემთა ბაზის ან ფაილებისთვის"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს სრული ეკრანი"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს ძირითადი NFC ფუნქციები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს საერთო წვდომის პროფილი (GAP), მაგალითად, მოწყობილობების მოსაძებნად და დასაწყვილებლად"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს Health Device Profile (HDP), მაგალითად, სამედიცინო მონაცემების გასაგზავნად"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს ინტერნეტი კონკრეტული არხით"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს Object Push Profile (OPP), მაგალითად, ფაილების გასაგზავნად"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს Serial Port Profile (SPP), მაგალითად, სერიული მონაცემების გასაგზავნად"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს სისტემის ჟურნალი (dlog)"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს ავტომატური ტესტირების ფუნქცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს მომხმარებლის ლოკაციის მონაცემები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
+msgstr "საშუალებას აძლევს პროგრამას გამოიყენოს Tizen ვებ-მოწყობილობის API ჩვეულებრივი მოდული"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
+msgstr "საშუალებას აძლევს პროგრამას ჩაწეროს SMS, MMS და ელფოსტის შეტყობინებები"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
+msgstr "საშუალებას აძლევს პროგრამას ჩაწეროს ფაილთა სისტემებში"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
+msgstr "საშუალებას აძლევს პროგრამას წაიკითხოს პრივილეგიის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
+msgstr "მთელ ეკრანზე გახსნა"
+
+msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
+msgstr "პროგრამები იხურება"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
+msgstr "სრულდება კომუნიკაციები სხვა მოწყობილობებიდან და სერვისებიდან"
+
+msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
+msgstr "სრულდება კომუნიკაციები HTTP სერვერთან"
+
+msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
+msgstr "მობილური ქსელების კონფიგურაციის შერჩევა"
+
+msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
+msgstr "იტვირთება HTTP-თი"
+
+msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
+msgstr "ზარების გადამისამართება"
+
+msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
+msgstr "პროგრამის სერტიფიკატების მიღება"
+
+msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
+msgstr "Dynamic Box-ის დაინსტალირება"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
+msgstr "ანგარიშების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
+msgstr "პროგრამების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
+msgstr "პროგრამის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
+msgstr "აუდიო როუტერების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
+msgstr "Bluetooth-ის საერთო პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
+msgstr "Bluetooth სისტემის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
+msgstr "სანიშნეების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
+msgstr "კალენდრის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
+msgstr "ზარის ჟურნალების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
+msgstr "ფიჭური გადაცემის სერვისის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
+msgstr "სერტიფიკატების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
+msgstr "კონტაქტების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
+msgstr "მასალის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
+msgstr "DRM-ის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
+msgstr "გეოლოკაციის ნებართვების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
+msgstr "მონაცემთა შეყვანის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "შეყვანის მეთოდების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
+msgstr "ქსელის ანგარიშების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
+msgstr "ქსელთან დაკავშირებების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
+msgstr "NFC საერთო პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
+msgstr "NFC სისტემის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
+msgstr "შეტყობინებების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
+msgstr "პაკეტების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
+msgstr "პაკეტის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
+msgstr "ელკვების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
+msgstr "კონფიდენციალურობის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
+msgstr "ღილაკების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
+msgstr "SMS-ების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
+msgstr "სისტემის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
+msgstr "მომხმარებლის ინტერფეისის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
+msgstr "მომხმარებლის პროფილის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
+msgstr "ვიბრაციის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
+msgstr "WAP push-შეტყობინებების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
+msgstr "ვებ-მონაცემთა მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
+msgstr "Wi-Fi-ის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
+msgstr "Wi-Fi Direct-ის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
+msgstr "Wi-Fi სისტემის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
+msgstr "პროგრამების გახსნა"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
+msgstr "DNS-ის უზრუნველყოფა"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
+msgstr "ინფორმაციის შეყვანის მეთოდების უზრუნველყოფა"
+
+msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
+msgstr "შეტყობინებების უზრუნველყოფა"
+
+msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
+msgstr "NFC შეტყობინებების ჩართვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
+msgstr "ანგარიშების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
+msgstr "პროგრამის ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
+msgstr "სანიშნეების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
+msgstr "კალენდრის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
+msgstr "ზარების ჟურნალების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
+msgstr "სერტიფიკატების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
+msgstr "კონტაქტების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
+msgstr "მასალის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
+msgstr "ფაილის სისტემების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
+msgstr "გეოლოკციის ნებართვების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
+msgstr "ქსელის სტატისტიკის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
+msgstr "შეტყობინებების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
+msgstr "პლატფორმის ინფორმაციის"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
+msgstr "კონფიდენციალურობის პარამეტრების წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
+msgstr "პრივილეგირების ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
+msgstr "დასული სისტემის ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
+msgstr "სისტემის ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
+msgstr "სისტემის უსაფრთხოების ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
+msgstr "მომხმარებლის პროფილის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
+msgstr "Wi-Fi Direct ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
+msgstr "Wi-Fi ინფორმაციის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
+msgstr "NFC იარლიყებზე წაკითხვა/დაწერა"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
+msgstr "პროგრამის გამოყენების შეტყობინებების მიღება"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "პაკეტის დეტალური ინფორმაციის მიღება"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
+msgstr "პაკეტის ინფორმაციის მიღება"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
+msgstr "პორტზე დამოკიდებული SMS-ის მიღება"
+
+msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
+msgstr "Push-შეტყობინებების მიღება"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
+msgstr "აუდიოს ჩაწერა"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
+msgstr "ვიდეოს ჩაწერა"
+
+msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
+msgstr "ვიდეოსა და აუდიოს ჩაწერა"
+
+msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
+msgstr "ქსელის სტატისტიკის გადატვირთვა"
+
+msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
+msgstr "ვირუსებზე შემოწმება"
+
+msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
+msgstr "ქსელთან დაკავშირების შერჩევა"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
+msgstr "ელწერილების გაგზავნა"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
+msgstr "შეტყობინებების გაგზავნა"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
+msgstr "MMS-ის გაგზავნა"
+
+msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
+msgstr "სიგნალების დაყენება"
+
+msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
+msgstr "მოწყობილობის მონაცემთა დასინქრონება"
+
+msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
+msgstr "მოწყობილობის განბლოკვა"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
+msgstr "ქსელის პარამეტრების განახლება"
+
+msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
+msgstr "შეტყობინებების განახლება"
+
+msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
+msgstr "ინტერნეტის დამატებითი პარამეტრების გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
+msgstr "Bluetooth GAP-ის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
+msgstr "Bluetooth HDP-ის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
+msgstr "Bluetooth OPP-ის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
+msgstr "Bluetooth SPP-ის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
+msgstr "კამერის"
+
+msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
+msgstr "საერთო მოდულის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_LOG"
+msgstr "ჟურნალის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
+msgstr "NFC საერთო პარამეტრების გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
+msgstr "ავტომატური ტესტის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
+msgstr "მომხმარებლის ლოკაციის გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
+msgstr "შეტყობინებების წერა"
+
+msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
+msgstr "ფაილის სისტემებში ჩაწერა"
+
+msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
+msgstr "ანგარიშები"
+
+msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
+msgstr "Bluetooth"
+
+msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
+msgstr "კალენდარი"
+
+msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
+msgstr "კონტაქტები"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "ინტერნეტი"
+
+msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
+msgstr "მიმოწერა"
+
+msgid "IDS_TPLATFORM_OPT_NFC"
+msgstr "NFC"
+
+msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
+msgstr "პროგრამის ინფორმაციის მიღება"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
+msgstr "პროგრამის ნაგულისხმევი პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "ნებართვას აძლევს პროგრამას მიიღოს სხვა პროგრამებთან დაკავშირებული ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
+msgstr "ნებართვას აძლევს პროგრამას წაიკითხოს და განაახლოს პროგრამის ნაგულისხმევი პარამეტრები"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "ადგილმდებარეობა"
+
+msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
+msgstr "პერსონალური ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
+msgstr "მართვის ტექნიკური საშუალებები"
+
+msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
+msgstr "ქსელთან დაკავშირებები"
+
+msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
+msgstr "ფასიანი სერვისები"
+
+msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
+msgstr "სისტემის პარამეტრები"
+
+msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
+msgstr "სხვა პრივილეგიები"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
+msgstr "ვებ-პროგრამის პარამეტრების მართვა"
+
+msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
+msgstr "ნებართვას აძლევს პროგრამას მართოს ვებ-პროგრამების პარამეტრები, მათ შორის წაშალოს ამ ვებ-პროგრამისთვის შენახული ყველა ქუქი-ფაილი"
+
