@@ -10,6 +10,7 @@ BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(capi-base-common)
 BuildRequires: pkgconfig(libwbxml2)
+BuildRequires: pkgconfig(libtzplatform-config)
 
 %description
 Privilege Management
@@ -69,15 +70,15 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/license
 cp LICENSE.APLv2 %{buildroot}/usr/share/license/privilege-checker
-mkdir -p %{buildroot}/opt/dbspace
-cp util/res/opt/dbspace/.privilegelist.db /%{buildroot}/opt/dbspace/
+mkdir -p %{buildroot}%{TZ_SYS_DB}
+cp util/res%{TZ_SYS_DB}/.privilegelist.db /%{buildroot}/%{TZ_SYS_DB}/
 
 %make_install
 
 %files -n privilege-checker
 /usr/share/license/privilege-checker
-/usr/bin/*
-/opt/dbspace/.privilegelist.db
+%{TZ_SYS_BIN}/*
+%{TZ_SYS_DB}/.privilegelist.db
 %manifest packaging/privilege-checker.manifest
 
 %files -n capi-security-privilege-manager
