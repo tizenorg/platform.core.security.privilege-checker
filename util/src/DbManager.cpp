@@ -17,9 +17,10 @@
 #include <DbManager.h>
 #include <Util.h>
 #include <dlog.h>
+#include <tzplatform_config.h>
 
-static const char PRIVACY_INFO_DB_PATH[] = "/opt/dbspace/.privacylist.db";
-static const char PRIVILEGE_INFO_DB_PATH[] = "/opt/dbspace/.privilegelist.db";
+#define PRIVACY_INFO_DB_PATH tzplatform_mkpath(TZ_SYS_DB, ".privacylist.db")
+#define PRIVILEGE_INFO_DB_PATH tzplatform_mkpath(TZ_SYS_DB, ".privilegelist.db")
 
 int
 DbManager::InsertPrivacy(const PrivacyInfo* pPrivacyInfo)
