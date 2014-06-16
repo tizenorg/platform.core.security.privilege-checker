@@ -59,4 +59,4 @@ TARGET_LINK_LIBRARIES(privilege-checker ${pkgs_LDFLAGS} ${pkgs_LIBRARIES})
 SET_TARGET_PROPERTIES(privilege-checker PROPERTIES COMPILE_FLAGS "${PRIVILEGE_CHECKER_CFLAGS}")
 ###################################################################################################
 
-INSTALL(TARGETS privilege-checker DESTINATION ../bin)
+INSTALL(TARGETS privilege-checker DESTINATION ${BINDIR})
