@@ -44,9 +44,9 @@ SET_TARGET_PROPERTIES(${fw_name}
     CLEAN_DIRECT_OUTPUT 1
 )
 
-INSTALL(TARGETS ${fw_name} DESTINATION ../lib)
+INSTALL(TARGETS ${fw_name} DESTINATION ${LIB_INSTALL_DIR})
 INSTALL(
-        DIRECTORY ${INC_DIR}/ DESTINATION ../include/privilegemgr
+        DIRECTORY ${INC_DIR}/ DESTINATION ${INCLUDE_INSTALL_DIR}/privilegemgr
         FILES_MATCHING
         PATTERN "*_private.h" EXCLUDE
         PATTERN "${INC_DIR}/*.h"
@@ -116,6 +116,6 @@ ENDFOREACH(_file ${_pofiles})
 
 ADD_CUSTOM_TARGET(privilege-string ALL DEPENDS ${mo_files})
 
-INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ../share)
+INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ${SHARE_INSTALL_PREFIX})
 
 
