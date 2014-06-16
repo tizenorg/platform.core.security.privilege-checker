@@ -4,7 +4,9 @@ Version: 0.0.3
 Release: 3
 Group:   System/Libraries
 License: Apache-2.0
-Source0: %{name}-%{version}.tar.gz
+Source0:       %{name}-%{version}.tar.gz
+Source1001:    %{name}.manifest
+Source1002:    capi-security-privilege-manager.manifest
 BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
@@ -47,17 +49,12 @@ The Privilege Manager API provides functions to get information about privilege 
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
+cp %{SOURCE1002} .
 
 %build
 #%{!?build_type:%define build_type "Release"}
-echo cmake . -DPREFIX=%{_prefix} \
-        -DEXEC_PREFIX=%{_exec_prefix} \
-        -DLIBDIR=%{_libdir} \
-        -DINCLUDEDIR=%{_includedir} \
-        -DCMAKE_BUILD_TYPE=%{build_type} \
-        -DVERSION=%{version} \
-        -DDPL_LOG="ON" 
-cmake . -DPREFIX=%{_prefix} \
+%cmake . -DPREFIX=%{_prefix} \
         -DEXEC_PREFIX=%{_exec_prefix} \
         -DLIBDIR=%{_libdir} \
         -DINCLUDEDIR=%{_includedir} \
@@ -71,20 +68,23 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/license
 cp LICENSE.APLv2 %{buildroot}/usr/share/license/privilege-checker
 mkdir -p %{buildroot}%{TZ_SYS_DB}
-cp util/res%{TZ_SYS_DB}/.privilegelist.db /%{buildroot}/%{TZ_SYS_DB}/
+cp util/res/opt/dbspace/.privilegelist.db /%{buildroot}/%{TZ_SYS_DB}/
 
 %make_install
 
+%post
+chsmack -a User %{TZ_SYS_DB}/.privilegelist.db
+
 %files -n privilege-checker
-/usr/share/license/privilege-checker
-%{TZ_SYS_BIN}/*
+%manifest %{name}.manifest
+%{_datadir}/license/privilege-checker
+%{_bindir}/*
 %{TZ_SYS_DB}/.privilegelist.db
-%manifest packaging/privilege-checker.manifest
 
 %files -n capi-security-privilege-manager
+%manifest capi-security-privilege-manager.manifest
 %{_libdir}/libcapi-security-privilege-manager.so*
-/usr/share/locale/*
-%manifest packaging/capi-security-privilege-manager.manifest
+%{_datadir}/locale/*
 
 %files -n capi-security-privilege-manager-devel
 %{_includedir}/privilegemgr/*.h
