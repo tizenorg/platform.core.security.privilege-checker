@@ -10,416 +10,26 @@ msgstr "Juurdepääs sõnumitele"
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Juurdepääs turvalistele elementidele"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
-msgstr "Juurdepääs süsteemiteabele"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Juurdepääs telefoni teabele"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
-msgstr "Juurdepääs kellaajale ja kuupäevale"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Juurdepääs piiramatu mälule"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
-msgstr "Juurdepääs kasutajatunnusele"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Juurdepääs kasutajaseadetele"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
-msgstr "Juurdepääs veebisisule"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
-msgstr "Lubab viirusevastasel rakendusel otsida kahjulikku sisu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
-msgstr "Lubab rakendusel pääseda ligi kasutaja tuvastamise eesmärgil privaatsuse teabele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
-msgstr "Lubab rakendusel pääseda ligi turvalisele süsteemiteabele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
-msgstr "Lubab rakendusele juurdepääsu teiste rakenduste poolt eksporditud teatud andmetele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
-msgstr "Lubab rakendusele juurdepääsu süsteemiteabele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
-msgstr "Lubab rakendusel pääseda ligi internetile"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Lubab rakendusele juurdepääsu turvalisele nutikaardi kiibile (nagu UICC/SIM), manustatud turvaelementidele või turvalisele SD-kaardile"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
-msgstr "Lubab rakendusel lisada ja eemaldada avaekraanilt otseteid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
-msgstr "Lubab rakendusel lisada Dynamic Box'i avaekraanile"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
-msgstr "Lubab rakendusel lisada, värskendada ja kustutada sertifikaate"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
-msgstr "Lubab rakendusel lisada, värskendada ja kustutada kontakte"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
-msgstr "Lubab rakendust avada tingimuslikult või avada teise rakenduse"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
-msgstr "Lubab rakendusel muuta Bluetooth-ühenduse seadeid, nagu Bluetooth-ühenduse sisse- või väljalülitamine ning kohaliku seadme nime seadistamine"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
-msgstr "Lubab rakendusel muuta privaatsuse ja turvalisusega seotud Bluetooth-ühenduse süsteemiseadeid, nagu nähtav režiim"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Lubab rakendusel muuta NFC-seadeid, nagu NFC sisse- või väljalülitamine"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
-msgstr "Lubab rakendusel muuta NFC-süsteemi seadeid, nagu nupu Reserved Push sisse- või väljalülitamine, mis saadab eelmääratletud NDEF-sõnumeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
-msgstr "Lubab rakendusel muuta privaatsuse seadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Lubab rakendusel muuta turvalisuse või privaatsuse seadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
-msgstr "Lubab rakendusel sulgeda teise rakenduse"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Lubab rakendusel suhelda teiste seadmete ja serveritega"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
-msgstr "Lubab rakendusel suhelda HTTP-serveriga"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
-msgstr "Lubab rakendusel konfigureerida mobiilsidevõrke"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
-msgstr "Lubab rakendusel juhtida kõnesuunamise teenust"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
-msgstr "Lubab rakendusel luua, värskendada ja kustutada kontosid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
-msgstr "Lubab rakendusel luua, värskendada ja kustutada kõnelogisid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
-msgstr "Lubab rakendusel luua, värskendada ja kustutada sisu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Lubab rakendusel luua, värskendada ja kustutada ajakava ja ülesannete teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Lubab rakendusel luua, värskendada ja kustutada järjehoidjaid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
-msgstr "Lubab rakendusel kustutada asukohatuvastuse lubasid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
-msgstr "Lubab rakendusel kuvada veebisisu või kasutada veebisisuga seotud API-sid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
-msgstr "Lubab rakendusel luua puute- ja klahvisündmusi ning jäädvustada ekraanipilte"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
-msgstr "Lubab rakendusel hankida teavitusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Lubab rakendusel hankida määratletud rakenduste sertifikaate"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
-msgstr "Lubab rakendusel hankida kellaaja ja kuupäeva teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
-msgstr "Lubab rakendusel panna ootele ja juhtida toiteolekut"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Lubab rakendusel installida ja desinstallida rakenduse pakette"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
-msgstr "Lubab rakendusel hallata teise rakenduse avamist tingimuslikult"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
-msgstr "Lubab rakendusel hallata rakenduse seadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
-msgstr "Lubab rakendusel hallata heli salvestamist"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
-msgstr "Lubab rakendusel hallata seadme kaameraid pildistamiseks ja piltide eelvaateks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
-msgstr "Lubab rakendusel hallata DRM-litsentsi (Digital Rights Management) ja laadida DRM-sisu teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
-msgstr "Lubab rakendusel hallata allalaaditud HTTP-üksusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
-msgstr "Lubab rakendusel hallata võrgukontosid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
-msgstr "Lubab rakendusel hallata võrguühendusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
-msgstr "Lubab rakendusel hallata teavitusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
-msgstr "Lubab rakendusel hallata CBS-i"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
-msgstr "Lubab rakendusel hallata installitud sisestusviise"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
-msgstr "Lubab rakendusel hallata kasutajaandmeid, mis on salvestatud veebi juhtimise või brauseri kaudu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Lubab rakendusel hallata Wi-Fi süsteemiseadeid, nagu AP-teabe värskendamine"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
-msgstr "Lubab rakendusel hallata UI-atribuute"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
-msgstr "Lubab rakendusel hallata videote ja heli salvestamist kaamera või helisalvestiga"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
-msgstr "Lubab rakendusel hallata videote salvestamist kaameraga"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
-msgstr "Lubab rakendusel hallata WAP-push sõnumeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
-msgstr "Lubab rakendusel hallata seadmes olevat Wi-Fi Directi ühendust"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Lubab rakendusel hallata seadmes Wi-Fi ühendust, nagu Wi-Fi sisse- või väljalülitamine ja AP-ga ühenduse loomine"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Lubab rakendusel hallata kasutajaprofiili"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
-msgstr "Lubab rakendusel pakkuda tähemärkide ja sümbolite sisestusviisi seotud sisestusväljale"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
-msgstr "Lubab rakendusel pakkuda DNS-i"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
-msgstr "Lubab rakendusel pakkuda kasutaja teavitusi, nagu sõnumid ja märgid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Lubab rakendusel suruda NFC-sõnumeid teise seadmesse"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
-msgstr "Lubab rakendusel lugeda kontosid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Lubab rakendusel lugeda ja kirjutada NFC-siltide teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
-msgstr "Lubab rakendusel lugeda rakenduse teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
-msgstr "Lubab rakendusel lugeda järjehoidjaid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
-msgstr "Lubab rakendusel lugeda kõnelogisid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
-msgstr "Lubab rakendusel lugeda sertifikaate"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
-msgstr "Lubab rakendusel lugeda kontakte"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
-msgstr "Lubab rakendusel lugeda sisu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
-msgstr "Lubab rakendusel lugeda failisüsteeme"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Lubab rakendusel lugeda asukohatuvastuse lubasid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
-msgstr "Lubab rakendusel lugeda andmeid, nagu platvorm või API-versioon"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
-msgstr "Lubab rakendusel lugeda võrgustatistikat"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
-msgstr "Lubab rakendusel lugeda privaatsuse seadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Lubab rakendusel lugeda turvalisuse või privaatsuse seadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Lubab rakendusel lugeda ajakava ja ülesannete teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Lubab rakendusel lugeda kasutajaprofiili"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
-msgstr "Lubab rakendusel võtta vastu üksikasjalikku paketi teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
-msgstr "Lubab rakendusel võtta vastu teavitusi esiplaanil olevate rakenduste muudatuste kohta"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Lubab rakendusel võtta vastu paketi teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
-msgstr "Lubab rakendusel võtta vastu push-teavitusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
-msgstr "Lubab rakendusel võtta vastu SMS-sõnumeid määratletud pordilt"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Lubab rakendusel võtta vastu sõnumeid ja laadida sõnumeid sõnumikaustadest"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
-msgstr "Lubab rakendusel taotleda/aktiveerida teatud võrguühendusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
-msgstr "Lubab rakendusel taotleda Wi-Fi Directi teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
-msgstr "Lubab rakendusel taotleda Wi-Fi teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
-msgstr "Lubab rakendusel lähtestada võrgustatistikat"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Lubab rakendusel laadida süsteemiteavet, nagu võrk, SIM ja kõnede üksikasjad"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Lubab rakendusel laadida telefoni teavet, nagu võrk, SIM ja kõnede üksikasjad"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
-msgstr "Lubab rakendusel saata ja võtta vastu SMS-sõnumeid ja laadida SMS-sõnumeid SMS-sõnumikaustadest"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
-msgstr "Lubab rakendusel saata e-kirju"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
-msgstr "Lubab rakendusel saata MMS-sõnumeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Lubab rakendusel saata SMS-e, MMS-e ja e-kirju"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
-msgstr "Lubab rakendusel määrata märguande ja aktiveerida seadme planeeritud ajal"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
-msgstr "Lubab rakendusel määrata helisisendi ja -väljundi marsruudid ning võtab vastu teavitusi uute marsruudisündmuste kohta"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
-msgstr "Lubab rakendusel määrata paketi konfiguratsioone"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Lubab rakendusel sünkroonida seadme andmeid serveriga, kasutades protokolli OMA DS 1.2"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
-msgstr "Lubab rakendusel lülitada värinat sisse ja seda kasutada"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
-msgstr "Lubab rakendusel avada seadet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
-msgstr "Lubab rakendusel värskendada teavitusi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
-msgstr "Lubab rakendusel värskendada või lugeda kasutajaseadeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
-msgstr "Lubab rakendusel värskendada süsteemi võrgukontosid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Lubab rakendusel kasutada ühendatud mälu ilma suuruspiiranguteta andmebaasi või failide jaoks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
-msgstr "Lubab rakendusel kasutada täisekraani"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
-msgstr "Lubab rakendusel kasutada NFC-üldfunktsioone"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
-msgstr "Lubab rakendusel kasutada profiili Generic Access Profile (GAP), näiteks seadmete otsimise ja nendega sidumise jaoks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
-msgstr "Lubab rakendusel kasutada meditsiinilise seadme profiili (HDP) näiteks tervishoiuandmete saatmiseks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
-msgstr "Lubab rakendusel kasutada internetti määratletud kandjaga"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
-msgstr "Lubab rakendusel kasutada objekti push-profiili (OPP) näiteks failide saatmiseks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
-msgstr "Lubab rakendusel kasutada jadapordi profiili (SPP) näiteks tervishoiu andmete saatmiseks"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
-msgstr "Lubab rakendusel kasutada süsteemilogi (dlog)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
-msgstr "Lubab rakendusel kasutada testi automatiseerimise funktsiooni"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
-msgstr "Lubab rakendusel kasutada kasutaja asukoha andmeid"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
-msgstr "Lubab rakendusel kasutada Tizeni veebiseadme API-üldmoodulit"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Lubab rakendusel kirjutada SMS-e, MMS-e ja e-kirju"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
-msgstr "Lubab rakendusel kirjutada failisüsteemidesse"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Lubab rakendusel lugeda privileegi teavet"
-
-msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
-msgstr "Lülitumine täisekraanile"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Rakenduste sulgemine"
 
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Suhtlemine teiste seadmete ja serveritega"
-
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
-msgstr "Suhtlemine HTTP-serveriga"
-
-msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
-msgstr "Mobiilsidevõrkude konfigureerimine"
-
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "Allalaadimine HTTP kaudu"
-
-msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
-msgstr "Kõnede suunamine"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Rakenduste sertifikaatide hankimine"
 
-msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
-msgstr "Dynamic Box'i installimine"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Kontode haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
-msgstr "Rakenduste haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
-msgstr "Rakenduste seadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
-msgstr "Helimarsruutide haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
-msgstr "Bluetooth-ühenduse üldseaded"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "Bluetooth-ühenduse süsteemiseaded"
@@ -433,98 +43,23 @@ msgstr "Kalendri haldamine"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Kõnelogide haldamine"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
-msgstr "Võrguteabeteenuse haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
-msgstr "Sertifikaatide haldamine"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Kontaktide haldamine"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Sisu haldamine"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
-msgstr "DRM-i haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
-msgstr "Asukohatuvastuse lubade haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
-msgstr "Sisestussündmuste haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "Sisestusmeetodite haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
-msgstr "Võrgukontode haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Võrguühenduste haldamine"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC-üldseadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
-msgstr "NFC-süsteemiseadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
-msgstr "Teavituste haldamine"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
 msgstr "Pakettide haldamine"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
-msgstr "Paketiseadete haldamine"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Toite haldamine"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
-msgstr "Privaatsuse seadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
-msgstr "Otseteede haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
-msgstr "SMS-ide haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
-msgstr "Süsteemiseadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
-msgstr "Kasutajaliidese haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
-msgstr "Kasutajaprofiili haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
-msgstr "Värina seadete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
-msgstr "WAP-push sõnumite haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
-msgstr "Veebiandmete haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
-msgstr "Wi-Fi haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
-msgstr "Wi-Fi Directi haldamine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
-msgstr "Wi-Fi süsteemiseadete haldamine"
-
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
 msgstr "Rakenduste avamine"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
-msgstr "DNS-i pakkumine"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
-msgstr "Sisestusmeetodite pakkumine"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Teavituste pakkumine"
@@ -535,9 +70,6 @@ msgstr "NFC-sõnumite tõukamine"
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
 msgstr "Kontode lugemine"
 
-msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
-msgstr "Rakenduse teabe lugemine"
-
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Järjehoidjate lugemine"
 
@@ -546,9 +78,6 @@ msgstr "Kalendri lugemine"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Kõnelogide lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
-msgstr "Sertifikaatide lugemine"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Kontaktide lugemine"
@@ -559,56 +88,17 @@ msgstr "Sisu lugemine"
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
 msgstr "Failisüsteemide lugemine"
 
-msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
-msgstr "Asukohatuvastuse lubade lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
-msgstr "Võrgustatistika lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
-msgstr "Teavituste lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
-msgstr "Platvormi teabe lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
-msgstr "Privaatsuse seadete lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
-msgstr "Privileegi teabe lugemine"
-
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
 msgstr "Turvasüsteemi teabe lugemine"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Süsteemi teabe lugemine"
 
-msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
-msgstr "Süsteemi turvaseadete lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
-msgstr "Kasutajaprofiili lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
-msgstr "Wi-Fi Directi teabe lugemine"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
-msgstr "Wi-Fi teabe lugemine"
-
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "NFC-siltide lugemine/kirjutamine"
 
-msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
-msgstr "Rakenduse kasutamise teavituste vastuvõtmine"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Üksikasjaliku paketiteabe vastuvõtmine"
-
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Paketiteabe vastuvõtmine"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
-msgstr "Pordispetsiifilise SMS-i vastuvõtmine"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Push-teavituste vastuvõtmine"
@@ -616,29 +106,8 @@ msgstr "Push-teavituste vastuvõtmine"
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Heli salvestamine"
 
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
-msgstr "Video salvestamine"
-
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Video ja heli salvestamine"
-
-msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
-msgstr "Võrgustatistika lähtestamine"
-
-msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
-msgstr "Viiruste otsimine"
-
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Võrguühenduse valimine"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
-msgstr "E-kirjade saatmine"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
-msgstr "Sõnumite saatmine"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
-msgstr "MMS-ide saatmine"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Märguannete määramine"
@@ -646,26 +115,11 @@ msgstr "Märguannete määramine"
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
 msgstr "Seadme andmete sünkroonimine"
 
-msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
-msgstr "Seadme avamine"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
-msgstr "Võrguseadete värskendamine"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
-msgstr "Teavituste värskendamine"
-
-msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
-msgstr "Täpsemate internetivalikute kasutamine"
-
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
 msgstr "Bluetooth GAP-i kasutamine"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
 msgstr "Bluetooth HDP kasutamine"
-
-msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP kasutamine"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "Bluetooth SPP kasutamine"
@@ -673,17 +127,8 @@ msgstr "Bluetooth SPP kasutamine"
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
 msgstr "Kaamera kasutamine"
 
-msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
-msgstr "Üldmooduli kasutamine"
-
-msgid "IDS_TPLATFORM_BODY_USING_LOG"
-msgstr "Logi kasutamine"
-
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "NFC-üldfunktsioonide kasutamine"
-
-msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
-msgstr "Testi automatiseerimise kasutamine"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
 msgstr "Kasutaja asukoha kasutamine"
@@ -709,9 +154,6 @@ msgstr "Kontaktid"
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
 
-msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
-msgstr "Sõnumside"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -720,15 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Rakenduse teabe hankimine"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
-msgstr "Vaikerakenduse eelistuste haldamine"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Lubab rakendusel hankida teiste rakendustega seotud teavet"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
-msgstr "Lubab rakendusel lugeda ja värskendada vaikerakenduse eelistusi"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Asukoht"
@@ -754,6 +187,447 @@ msgstr "Muud privileegid"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Veebirakenduste seadete haldamine"
 
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
-msgstr "Lubab rakendusel hallata veebirakenduse seadeid, sealhulgas eemaldada kõiki küpsiseid, mis on salvestatud selle veebirakenduse jaoks"
+msgid "IDS_TPLATFORM_BODY_MESSAGING"
+msgstr "Sõnumid"
+
+msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
+msgstr "Kõnelogi"
+
+msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
+msgstr "Seda privileegi pole maaratletud."
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Seaded"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Üldine"
+
+msgid "IDS_ST_HEADER_PRIVACY"
+msgstr "Privaatsus"
+
+msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
+msgstr "%1$s on desaktiveeritud rakenduses %2$s"
+
+msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
+msgstr "Tervise teabe lugemine"
+
+msgid "IDS_ST_OPT_SEND_SMS_ABB"
+msgstr "Saata SMS-e"
+
+msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
+msgstr "Lugeda SMS/MMS"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
+msgstr "Märguannete laadimine"
+
+msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
+msgstr "Viiruste otsimine ja kustutamine"
+
+msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
+msgstr "Piiramatute Bluetooth-teenuste kasutamine"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
+msgstr "Juurdepääs internetijärjehoidjatele"
+
+msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
+msgstr "Andmete jagamine rakenduste vahel"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
+msgstr "Ekraaniseadete haldamine"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
+msgstr "E-posti kontode, postkastide ja e-kirjade haldamine"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
+msgstr "E-posti konfiguratsioonide haldamine"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Juurdepääs välismälule"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Juurdepääs sisemälus olevate rakenduste andmetele"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
+msgstr "Värina tagasiside haldamine"
+
+msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Turvalise hoiuruumi kasutamine"
+
+msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Turvalise hoiuruumi lukustamine/avamine"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
+msgstr "LED-tulede haldamine"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
+msgstr "Asukohaseadete haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
+msgstr "Juurdepääs meediumikaustadele"
+
+msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
+msgstr "Tekst- ja multimeediumsõnumite ning nendega seotud teabe lugemine"
+
+msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
+msgstr "Võrguteabe lugemine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
+msgstr "Võrguprofiilide haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Võrguühenduste haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
+msgstr "Teavituste haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
+msgstr "Rakenduste pakettide installimine/desinstallimine ja vahemälude kustutamine"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Üksikasjaliku paketiteabe laadimine"
+
+msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Video ja heli salvestamine"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
+msgstr "Seadme ekraani jäädvustamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
+msgstr "Otseteede haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Piiramatute süsteemiseadete haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
+msgstr "Kõigi süsteemiseadete haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
+msgstr "Telefoniseadete haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
+msgstr "Helitugevuse reguleerimine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
+msgstr "Internetiajaloo haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
+msgstr "Wi-Fi Directi teabe haldamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
+msgstr "See rakendus saab lugeda teavet teie salvestatud märguannete kohta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
+msgstr "See rakendus saab lugeda ja kustutada andmeid kõikides teistes seadme rakendustes, et tuvastada ja eemaldada kahjulikku sisu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
+msgstr "See rakendus saab avada teisi rakendusi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
+msgstr "See rakendus saab teostada piiramatuid toiminguid Bluetooth-ühendusega, nt teiste seadmete otsimine ja ühenduse loomine."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
+msgstr "See rakendus saab laadida, luua, redigeerida ja kustutada internetijärjehoidjaid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
+msgstr "See rakendus saab lugeda sündmusi ja ülesandeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
+msgstr "See rakendus saab luua, värskendada ning kustutada sündmusi ja ülesandeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
+msgstr "See rakendus saab luua, värskendada ja kustutada kõnelogi üksusi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
+msgstr "See rakendus saab pildistada ja pilte eelvaadata."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
+msgstr "See rakendus saab luua, värskendada ja kustutada teie profiili, kontakte ning ükskõik millise kontakti ajalugu, mis on seotud selle rakendusega. Kontakti ajalugu võib hõlmata ka sotsiaalvõrgustiku tegevust."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
+msgstr "See rakendus saab lugeda teie profiili, kontakte ja kontakti ajalugu. Kontakti ajalugu võib hõlmata ka sotsiaalvõrgustiku tegevust."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
+msgstr "See rakendus saab muuta meediumisisu. Seda teavet saavad kasutada teised rakendused."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
+msgstr "See rakendus saab jagada andmeid teiste rakendustega."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
+msgstr "See rakendus saab hallata ekraaniseadeid, nt heledust. See võib suurendada aku tarbimist."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
+msgstr "See rakendus saab hallata teie e-posti kontosid, sealhulgas teie kaustu ja e-kirju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
+msgstr "See rakendus saab hallata e-posti rakenduste seadeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "See rakendus saab lugeda ja kirjutada faile, mis on salvestatud välismällu, nt SD-kaartidele."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "See rakendus saab lugeda ja kirjutada isiklikke faile, mis on salvestatud välismällu, nt SD-kaartidele."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
+msgstr "See rakendus saab juhtida värina tagasisidet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Sellel rakendusel on juurdepääs internetile. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
+msgstr "See rakendus saab salvestada võtmeid, sertifikaate ja andmeid ning laadida ja kustutada neid parooliga kaitstud mälust."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
+msgstr "See rakendus saab lukustada ja avada parooliga kaitstud mälu ning hallata selle paroolimuudatusi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
+msgstr "See rakendus saab lülitada LED-tuled sisse või välja, nt seadme esiküljel oleva LED-tule ja kaameravälgu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
+msgstr "See rakendus saab juhtida teie asukohateenuse seadeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
+msgstr "See rakendus saab lugeda ja kirjutada faile meediumikaustades."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
+msgstr "See rakendus saab lugeda tekst- ja multimeediumsõnumeid ning nendega seotud teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
+msgstr "See rakendus saab laadida võrguteavet, nt iga võrgu olekut, selle tüüpi ja üksikasjalikku võrguprofiili teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
+msgstr "See rakendus saab luua, eemaldada ja redigeerida võrguprofiile."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
+msgstr "See rakendus saab lülitada Wi-Fi sisse ja välja ning luua ühenduse Wi-Fi ja mobiilsidevõrkudega ning selle ühenduse katkestada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
+msgstr "See rakendus saab kuvada ja peita oma enda teavitusi ning märke."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
+msgstr "See rakendus saab installida ja desinstallida rakenduste pakette ja kustutada rakenduste vahemälusid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
+msgstr "See rakendus saab laadida üksikasjalikku teavet rakenduste pakettide kohta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
+msgstr "See rakendus saab võtta vastu teavitusi interneti kaudu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
+msgstr "See rakendus saab salvestada videoid ja heli."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
+msgstr "See rakendus saab jäädvustada ekraanipilte."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
+msgstr "See rakendus saab luua ja kustutada otseteid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "See rakendus saab lugeda ja kirjutada piiramatuid süsteemiseadeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
+msgstr "See rakendus saab lugeda ja kirjutada kõiki süsteemiseadeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
+msgstr "See rakendus saab laadida telefoniteavet, nt kasutatavat võrku ja SIM-kaarti, IMEI-d ning kõnede olekuid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
+msgstr "See rakendus saab hallata telefoniseadeid, nt saabuvad ja väljuvad kõned, kõnede suunamine ning ootele panemine, võrgud ja SIM-kaardid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
+msgstr "See rakendus saab reguleerida erinevate funktsioonide helitugevust, nt teavituste märguanded, helinad ja meedium."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
+msgstr "See rakendus saab hallata teie internetiajalugu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
+msgstr "See rakendus saab aktiveerida ja desaktiveerida Wi-Fi Directi, hallata Wi-Fi Directi ühendusi ja muuta Wi-Fi Directi seadeid."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
+msgstr "See rakendus saab luua, redigeerida ja kustutada järjehoidjaid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
+msgstr "See rakendus saab lugeda tervise teavet, mida on kogunud seadme sensorid, nt sammuloendur ja südame löögisageduse monitor."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
+msgstr "See rakendus saab laadida sõnumeid sõnumikaustadest või võtta vastu sõnumeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
+msgstr "See rakendus saab lugeda turvasüsteemi teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
+msgstr "See rakendus saab lugeda andmejuhtimisteenuste pakkujate eksporditud andmeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
+msgstr "See rakendus saab lugeda süsteemiteavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
+msgstr "See rakendus saab ilmuda teiste akende ja ekraanide, k.a lukustusekraani peale, lähtudes akende prioriteetide järjekorrast. On võimalik, et seetõttu ei saa te suhelda teiste rakenduste või akendega, kuni selle rakenduse aken on suletud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
+msgstr "See rakendus saab muuta privaatsuse ja turvalisusega seotud Bluetooth-ühenduse süsteemiseadeid, nagu nähtav režiim."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
+msgstr "See rakendus saab muuta oma veebirakenduste seadeid, sealhulgas kustutada oma küpsiseid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
+msgstr "See rakendus saab sulgeda teisi rakendusi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
+msgstr "See rakendus saab luua, redigeerida ja kustutada kontosid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
+msgstr "See rakendus saab aktiveerida ja desaktiveerida modemiteenuseid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
+msgstr "See rakendus saab teha telefonikõnesid toksatud numbritele ilma kinnitust küsimata."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
+msgstr "See rakendus saab hallata helisalvestisi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
+msgstr "See rakendus saab avada teisi rakendusi, kasutades rakenduse tunnust või rakenduse juhtimist."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
+msgstr "See rakendus saab lugeda kontosid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "See rakendus saab lugeda ja kirjutada NFC sildi teavet ning saata NFC-sõnumeid teistesse seadmetesse."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
+msgstr "See rakendus saab lugeda failisüsteeme."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
+msgstr "See rakendus saab lugeda meediumisisu teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "See rakendus saab laadida teiste rakendustega seotud teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "See rakendus saab laadida määratletud rakenduste sertifikaate."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
+msgstr "See rakendus saab salvestada oma sisu teie seadme mällu või välistesse salvestuskohtadesse, nt SD-kaartidele, seejuures pole sisu suurus piiratud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "See rakendus saab määrata märguandeid ja aktiveerida seadme planeeritud ajal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "See rakendus saab sünkroonida seadme andmeid, nt kontaktid ja kalendrisündmused, kasutades protokolli OMA DS 1.2."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
+msgstr "See rakendus saab kasutada täisekraanivaadet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
+msgstr "See rakendus saab kasutada profiili Bluetooth Generic Access Profile (GAP), näiteks seadmete otsimise ja nendega sidumise jaoks."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
+msgstr "See rakendus saab kasutada Bluetoothiga meditsiinilise seadme profiili (HDP), näiteks tervishoiuandmete saatmiseks."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
+msgstr "See rakendus saab kasutada Bluetoothi jadapordi profiili (SPP) näiteks jadaandmete saatmiseks."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
+msgstr "See rakendus saab kasutada teie asukoha andmeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
+msgstr "See rakendus saab kirjutada tekstsõnumeid, multimeediumsõnumeid ja e-kirju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
+msgstr "See rakendus saab kirjutada failisüsteemidesse."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
+msgstr "Sellel rakendusel on juurdepääs turvalisele nutikaardi kiibile (nagu UICC/SIM), manustatud turvaelementidele või turvalisele SD-kaardile."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
+msgstr "See rakendus saab muuta ja lugeda kasutajaseadeid."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "See rakendus saab muuta NFC-seadeid, nagu NFC sisse- või väljalülitamine."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
+msgstr "See rakendus saab juhtida toitega seotud seadistusi, nt ekraani tuhmistamine."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "See rakendus saab installida või desinstallida rakenduste pakette."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "See rakendus saab suruda NFC-sõnumeid teistesse seadmetesse."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "See rakendus saab lugeda ja kirjutada NFC-siltide teavet."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
+msgstr "See rakendus saab lugeda järjehoidjaid."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
+msgstr "See rakendus saab lugeda kõnelogi üksuseid."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
+msgstr "See rakendus saab võtta vastu teavet pakettide kohta."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
+msgstr "See rakendus saab kasutada NFC-üldfunktsioone."
+
+msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
+msgstr "NFC põhiteenuste kasutamine"
+
+msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
+msgstr "NFC-kaardi emuleerimisrežiimi kasutamine"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
+msgstr "Juurdepääs modemiteenustele"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
+msgstr "Akende kuvamine teiste rakenduste ja ekraanide peal"
+
+msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
+msgstr "Telefonikõnede tegemine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
+msgstr "Sellel rakendusel on juurdepääs nutikaardi andmetele, nt krediitkaardi andmed, ja lubab kasutajatel teha makseid NFC kaudu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
+msgstr "See rakendus saab kirjutada, saata, kustutada ja teisaldada tekst- ja multimeediumsõnumeid ning muuta sõnumite seadeid ja olekuid, nt loetud või mitteloetud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
+msgstr "See rakendus saab piirata seadet, nii et teatud kindlatele domeenidele pääseb ligi ainult mobiilsidevõrkude kaudu."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
+msgstr "Meediumiandmete jäädvustamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
+msgstr "See rakendus saab jäädvustada video- ja heliandmeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
+msgstr "See rakendus saab kuvada, redigeerida ja kustutada teavitusi."
+
+msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
+msgstr "Rakenduste avamine ja jätkamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
+msgstr "Märguannete haldamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "See rakendus saab hallata märguandeid, laadides salvestatud märguandeid ja äratades seadme üles planeeritud aegadel."
+
+msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
+msgstr "Bluetooth-seadete muutmine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
+msgstr "See rakendus saab muuta Bluetoothi-ühenduse seadeid, nagu Bluetooth-ühenduse sisse- või väljalülitamine, seadme nime seadistamine ja AV-kaugjuhtimise aktiveerimine või desaktiveerimine."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
+msgstr "See rakendus saab lugeda teavet märguannete kohta."
+
+msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
+msgstr "Täisekraanivaate kasutamine"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
+msgstr "Teavituste teabe laadimine"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
+msgstr "Tekst- ja multimeediumsõnumite saatmine ning nende oleku värskendamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "See rakendus saab hallata HTTP kaudu allalaadimisi. Sõltuvalt teie paketist võivad rakenduda lisatasud."
 

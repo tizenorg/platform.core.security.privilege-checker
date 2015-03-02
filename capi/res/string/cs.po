@@ -10,416 +10,26 @@ msgstr "Přístup ke zprávám"
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Přístup k zabezpečeným prvkům"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
-msgstr "Přístup k systémovým informacím"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Přístup k informacím o telefonování"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
-msgstr "Přístup k času a datu"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Přístup k neomezenému úložišti"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
-msgstr "Přístup k ID uživatele"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Přístup k uživatelským nastavením"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
-msgstr "Přístup k webovému obsahu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
-msgstr "Povolí antivirové aplikaci vyhledat škodlivý obsah"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
-msgstr "Povolí aplikaci přístup k osobním informacím pro účely identifikace uživatele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
-msgstr "Povolí aplikaci používat informace ze zabezpečeného systému"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
-msgstr "Povolí aplikaci přístup ke specifickým datům exportovaným jinými aplikacemi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
-msgstr "Povolí aplikaci používat informace o systému"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
-msgstr "Povolí aplikaci přístup k Internetu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Umožňuje aplikaci přístup k čipu zabezpečené karty smart card, jako jsou například UICC/SIM, integrované prvky zabezpečení eSE nebo zabezpečené SD karty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
-msgstr "Povolí aplikaci přidávat a odebírat zástupce z domovské obrazovky"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
-msgstr "Povolí aplikaci přidat Dynamic Box na domovskou obrazovku"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
-msgstr "Povolí aplikaci přidávat, aktualizovat a odstraňovat certifikáty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
-msgstr "Povolí aplikaci přidávat, aktualizovat a odstraňovat kontakty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
-msgstr "Povolí aplikaci spustit se podmíněně nebo spustit jinou aplikaci"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
-msgstr "Povolí aplikaci změnit nastavení Bluetooth, např. zapnout nebo vypnout Bluetooth a nastavit místní název zařízení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
-msgstr "Povolí aplikaci změnit nastavení systému Bluetooth související se soukromím a zabezpečením, např. režim viditelnosti"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Povolí aplikaci změnit nastavení NFC, např. zapnout nebo vypnout NFC"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
-msgstr "Povolí aplikaci změnit nastavení systému NFC např. zapnout nebo vypnout vyhrazené nabízení, které odesílá předdefinované zprávy NDEF"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
-msgstr "Povolí aplikaci změnit nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Povolí aplikaci změnit nastavení zabezpečení nebo nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
-msgstr "Povolí aplikaci ukončit jinou aplikaci"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Povolí aplikaci komunikovat s jinými zařízeními a servery"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
-msgstr "Povolí aplikaci komunikovat se serverem HTTP"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
-msgstr "Povolí aplikaci konfigurovat mobilní sítě"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
-msgstr "Povolí aplikaci řídit službu přesměrování hovorů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
-msgstr "Povolí aplikaci vytvářet, aktualizovat a odstraňovat účty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
-msgstr "Povolí aplikaci vytvářet, aktualizovat a odstraňovat protokoly hovorů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
-msgstr "Povolí aplikaci vytvářet, aktualizovat a odstraňovat obsah"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Povolí aplikaci vytvářet, aktualizovat a odstraňovat informace o plánu a úkolech"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Povolí aplikaci vytvářet, aktualizovat a odstraňovat záložky"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
-msgstr "Povolí aplikaci odstraňovat oprávnění k získávání informací o zeměpisné poloze"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
-msgstr "Povolí aplikaci zobrazit webový obsah nebo použít webové rozhraní API související s obsahem"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
-msgstr "Povolí aplikaci generovat události dotyku a stisknutí tlačítka a ukládat kopie obrazovky"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
-msgstr "Povolí aplikaci získávat oznámení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Povolí aplikaci získat specifické certifikáty aplikací"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
-msgstr "Povolí aplikaci získat informace o čase a datu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
-msgstr "Povolí aplikaci udržovat a řídit stavy napájení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Povolí aplikaci instalovat nebo odinstalovat balíčky aplikací"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
-msgstr "Povolí aplikaci spravovat podmíněné spuštění jiné aplikace"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
-msgstr "Povolí aplikaci spravovat nastavení aplikací"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
-msgstr "Povolí aplikaci spravovat nahrávání zvuku"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
-msgstr "Povolí aplikaci spravovat fotoaparáty zařízení a zobrazovat náhledy a ukládat obrázky"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
-msgstr "Povolí aplikaci spravovat licence DRM (Digital Rights Management) a načítat informace o obsahu chráněném pomocí DRM"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
-msgstr "Povolí aplikaci spravovat stahování z HTTP"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
-msgstr "Povolí aplikaci spravovat síťové účty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
-msgstr "Povolí aplikaci spravovat síťová připojení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
-msgstr "Povolí aplikaci spravovat oznámení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
-msgstr "Povolí aplikaci spravovat službu CBS (Cell Broadcast Service)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
-msgstr "Povolí aplikaci spravovat nainstalované metody zadávání"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
-msgstr "Povolí aplikaci spravovat uživatelská data uložená webovým prvkem nebo prohlížečem"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Povolí aplikaci spravovat nastavení systému Wi-Fi, např. aktualizovat informace o přístupových bodech"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
-msgstr "Povolí aplikaci spravovat vlastnosti uživatelského rozhraní"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
-msgstr "Povolí aplikaci spravovat nahrávání videa a audia pomocí fotoaparátu nebo audiorekordéru"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
-msgstr "Povolí aplikaci spravovat nahrávání videa pomocí fotoaparátu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
-msgstr "Povolí aplikaci spravovat nabízené WAP zprávy"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
-msgstr "Povolí aplikaci spravovat Wi-Fi Direct v zařízení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Povolí aplikaci spravovat Wi-Fi v zařízení, např. zapnout nebo vypnout Wi-Fi a připojování k přístupovému bodu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Povolí aplikaci spravovat profil uživatele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
-msgstr "Povolí aplikaci poskytnout způsob zadávání znaků a symbolů do přidruženého vstupního pole"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
-msgstr "Povolí aplikaci poskytovat službu DNS (Domain Name Service)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
-msgstr "Povolí aplikaci poskytovat oznámení pro uživatele, např. zprávy a oznámení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Povolí aplikaci nabízet NFC zprávy do jiných zařízení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
-msgstr "Povolí aplikaci číst účty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Povolí aplikaci číst a zapisovat informace ve značce NFC"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
-msgstr "Povolí aplikaci číst informace o aplikaci"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
-msgstr "Povolí aplikaci číst záložky"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
-msgstr "Povolí aplikaci číst protokoly hovorů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
-msgstr "Povolí aplikaci číst certifikáty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
-msgstr "Povolí aplikaci číst kontakty"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
-msgstr "Povolí aplikaci číst obsah"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
-msgstr "Povolí aplikaci číst systémy souborů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Povolí aplikaci číst oprávnění k získávání informací o zeměpisné poloze"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
-msgstr "Povolí aplikaci číst informace, např. o platformě nebo verzi API"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
-msgstr "Povolí aplikaci číst statistiky sítě"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
-msgstr "Povolí aplikaci číst nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Povolí aplikaci číst nastavení zabezpečení nebo nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Povolí aplikaci číst informace o plánu a úkolech"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Povolí aplikaci číst profil uživatele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
-msgstr "Povolí aplikaci přijímat detailní informace o balíčku"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
-msgstr "Povolí aplikaci přijímat oznámení o změnách aplikací v popředí"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Povolí aplikaci přijímat informace o balíčku"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
-msgstr "Povolí aplikaci přijímat nabízená oznámení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
-msgstr "Povolí aplikaci přijímat SMS zprávy ze zadaného portu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Povolí aplikaci přijímat zprávy a načítat zprávy ze složek zpráv"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
-msgstr "Povolí aplikaci požadovat/uvolňovat specifické síťové připojení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
-msgstr "Povolí aplikaci požadovat informace o Wi-Fi Direct"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
-msgstr "Povolí aplikaci požadovat informace o Wi-Fi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
-msgstr "Povolí aplikaci vynulovat statistiky sítě"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Povolí aplikaci načítat systémové informace, např. detaily sítě, SIM karty a hovorů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Povolí aplikaci načítat informace o telefonování, např. detaily sítě, SIM karty a hovorů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
-msgstr "Povolí aplikaci odesílat a přijímat SMS zprávy a načítat SMS zprávy ze složek SMS zpráv"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
-msgstr "Povolí aplikaci odesílat e-mailové zprávy"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
-msgstr "Povolí aplikaci odesílat MMS zprávy"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Povolí aplikaci odesílat SMS, MMS a e-mailové zprávy"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
-msgstr "Povolí aplikaci nastavit upozornění a probudit zařízení v naplánovaný čas"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
-msgstr "Povolí aplikaci nastavit trasy zvukového vstupu a výstupu a přijímat upozornění o událostech na trasách"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
-msgstr "Povolí aplikaci nastavit konfiguraci balíčku"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Povolí aplikaci synchronizovat data zařízení se serverem pomocí protokolu OMA DS 1.2"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
-msgstr "Povolí aplikaci zapnout a použít vibrace"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
-msgstr "Povolí aplikaci odemknout zařízení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
-msgstr "Povolí aplikaci aktualizovat oznámení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
-msgstr "Povolí aplikaci aktualizovat nebo číst uživatelská nastavení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
-msgstr "Povolí aplikaci aktualizovat spravovat síťové účty systému"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Povolí aplikaci použít připojené úložiště bez omezení velikosti pro databázi nebo soubory"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
-msgstr "Povolí aplikaci použít celý displej"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
-msgstr "Povolí aplikaci použít společné funkce NFC"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
-msgstr "Povolí aplikaci použít profil GAP (Generic Access Profile), např. pro vyhledávání a párování zařízení"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
-msgstr "Povolí aplikaci použít profil HDP (Health Device Profile), např. pro odesílání dat týkajících se zdraví"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
-msgstr "Povolí aplikaci používat Internet se zadaným nosičem"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
-msgstr "Povolí aplikaci použít profil OPP (Object Push Profile), např. pro odesílání souborů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
-msgstr "Povolí aplikaci použít profil SPP (Serial Port Profile), např. pro odesílání dat prostřednictvím sériového portu"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
-msgstr "Povolí aplikaci použít systémový protokol (dlog)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
-msgstr "Povolí aplikaci použít funkci automatizace testů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
-msgstr "Povolí aplikaci použít údaje o poloze uživatele"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
-msgstr "Povolí aplikaci používat společný modul API webového zařízení Tizen"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Povolí aplikaci psát SMS, MMS a e-mailové zprávy"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
-msgstr "Povolí aplikaci zapisovat do systémů souborů"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Povolí aplikaci číst informace o oprávnění"
-
-msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
-msgstr "Změna na celý displej"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Ukončování aplikací"
 
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Komunikace s jinými zařízeními a servery"
-
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
-msgstr "Komunikace se serverem HTTP"
-
-msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
-msgstr "Konfigurace mobilních sítí"
-
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "Stahování prostřednictvím HTTP"
-
-msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
-msgstr "Přesměrování hovorů"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Získávání certifikátů aplikací"
 
-msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
-msgstr "Probíhá instalace Dynamic Box"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Správa účtů"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
-msgstr "Správa aplikací"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
-msgstr "Správa nastavení aplikací"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
-msgstr "Správa tras zvuku"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
-msgstr "Správa obecných nastavení Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "Správa nastavení systému Bluetooth"
@@ -433,98 +43,23 @@ msgstr "Správa kalendáře"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Správa protokolů hovorů"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
-msgstr "Správa služby CBS (cell broadcast service)"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
-msgstr "Správa certifikátů"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Správa kontaktů"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Správa obsahu"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
-msgstr "Správa DRM"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
-msgstr "Změnit oprávnění k získávání informací o zeměpisné poloze"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
-msgstr "Správa vstupních událostí"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "Správa metod zadávání"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
-msgstr "Správa síťových účtů"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Správa připojení k síti"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Správa obecných nastavení NFC"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
-msgstr "Správa nastavení systému NFC"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
-msgstr "Správa oznámení"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
 msgstr "Správa balíčků"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
-msgstr "Správa nastavení balíčků"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Řízení spotřeby"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
-msgstr "Správa nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
-msgstr "Správa zástupců"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
-msgstr "Správa SMS"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
-msgstr "Správa nastavení systému"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
-msgstr "Správa uživatelského rozhraní"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
-msgstr "Správa uživatelského profilu"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
-msgstr "Správa nastavení vibrací"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
-msgstr "Správa nabízených WAP zpráv"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
-msgstr "Správa webových dat"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
-msgstr "Správa Wi-Fi"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
-msgstr "Správa Wi-Fi Direct"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
-msgstr "Správa nastavení systému Wi-Fi"
-
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
 msgstr "Spouštění aplikací"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
-msgstr "Poskytování DNS"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
-msgstr "Poskytování metod zadávání"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Poskytování oznámení"
@@ -535,9 +70,6 @@ msgstr "Nabízení NFC zpráv"
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
 msgstr "Čtení účtů"
 
-msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
-msgstr "Čtení informací o aplikaci"
-
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Čtení záložek"
 
@@ -546,9 +78,6 @@ msgstr "Čtení kalendáře"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Čtení protokolů hovorů"
-
-msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
-msgstr "Čtení certifikátů"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Čtení kontaktů"
@@ -559,56 +88,17 @@ msgstr "Čtení obsahu"
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
 msgstr "Čtení systémů souborů"
 
-msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
-msgstr "Čtení oprávnění k získávání informací o zeměpisné poloze"
-
-msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
-msgstr "Čtení statistik sítě"
-
-msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
-msgstr "Čtení oznámení"
-
-msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
-msgstr "Čtení informací o platformě"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
-msgstr "Čtení nastavení soukromí"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
-msgstr "Čtení informací o oprávnění"
-
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
 msgstr "Čtení informací o zabezpečeném systému"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Čtení informací o systému"
 
-msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
-msgstr "Čtení nastavení zabezpečení systému"
-
-msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
-msgstr "Čtení uživatelského profilu"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
-msgstr "Čtení informací Wi-Fi Direct"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
-msgstr "Čtení informací Wi-Fi"
-
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "Čtení/zápis do značek NFC"
 
-msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
-msgstr "Příjem oznámení využití aplikací"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Příjem detailních informací o balíčku"
-
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Příjem informací o balíčku"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
-msgstr "Příjem SMS specifické pro port"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Příjem nabízených oznámení"
@@ -616,29 +106,8 @@ msgstr "Příjem nabízených oznámení"
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Nahrávání zvuku"
 
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
-msgstr "Nahrávání videa"
-
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Nahrávání videa a audia"
-
-msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
-msgstr "Vynulování statistik sítě"
-
-msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
-msgstr "Vyhledávání virů"
-
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Výběr připojení k síti"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
-msgstr "Odesílání e-mailů"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
-msgstr "Odesílání zpráv"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
-msgstr "Odesílání MMS zprávy"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Nastavení upozornění"
@@ -646,26 +115,11 @@ msgstr "Nastavení upozornění"
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
 msgstr "Synchronizace dat zařízení"
 
-msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
-msgstr "Odemykání zařízení"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
-msgstr "Aktualizace nastavení sítě"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
-msgstr "Aktualizace oznámení"
-
-msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
-msgstr "Použití rozšířených možností Internetu"
-
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
 msgstr "Použití Bluetooth GAP"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
 msgstr "Použití Bluetooth HDP"
-
-msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
-msgstr "Použití Bluetooth OPP"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "Použití Bluetooth SPP"
@@ -673,17 +127,8 @@ msgstr "Použití Bluetooth SPP"
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
 msgstr "Použití fotoaparátu"
 
-msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
-msgstr "Používání společného modulu"
-
-msgid "IDS_TPLATFORM_BODY_USING_LOG"
-msgstr "Použití protokolu"
-
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "Používání společných prvků NFC"
-
-msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
-msgstr "Používání automatizace testů"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
 msgstr "Použití údaje o poloze uživatele"
@@ -709,9 +154,6 @@ msgstr "Kontakty"
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
 
-msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
-msgstr "Zprávy"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -720,15 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Načítání informací o aplikaci"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
-msgstr "Správa výchozích předvoleb aplikace"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Povolí aplikaci načíst informace související s jinými aplikacemi"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
-msgstr "Povolí aplikaci číst a aktualizovat výchozí předvolby aplikace"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Místo"
@@ -754,6 +187,447 @@ msgstr "Jiná oprávnění"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Správa nastavení webových aplikací"
 
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
-msgstr "Povolí aplikaci spravovat nastavení webové aplikace včetně odebírání všech souborů cookies uložených pro danou webovou aplikaci"
+msgid "IDS_TPLATFORM_BODY_MESSAGING"
+msgstr "Zprávy"
+
+msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
+msgstr "Hovory"
+
+msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
+msgstr "Toto oprávnění není definováno."
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Nastavení"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Obecné"
+
+msgid "IDS_ST_HEADER_PRIVACY"
+msgstr "Soukromí"
+
+msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
+msgstr "Služba %1$s je v aplikaci %2$s zakázána."
+
+msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
+msgstr "Probíhá čtení informací o zdraví"
+
+msgid "IDS_ST_OPT_SEND_SMS_ABB"
+msgstr "Odeslat SMS"
+
+msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
+msgstr "Číst SMS a MMS"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
+msgstr "Načítání upozornění"
+
+msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
+msgstr "Vyhledávání a mazání virů"
+
+msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
+msgstr "Použití neomezených služeb Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
+msgstr "Přístup k záložkám Internetu"
+
+msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
+msgstr "Sdílení dat mezi aplikacemi"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
+msgstr "Správa nastavení zobrazení"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
+msgstr "Správa e-mailových účtů, schránek a e-mailů"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
+msgstr "Správa konfigurací e-mailů"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Přístup k externímu úložišti"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Přístup k datům aplikace v externím úložišti"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
+msgstr "Správa vibrací"
+
+msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Použití zabezpečeného úložiště"
+
+msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Zamknutí/odemknutí zabezpečeného úložiště"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
+msgstr "Správa LED diod"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
+msgstr "Správa nastavení zjišťování polohy"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
+msgstr "Přístup ke složkám médií"
+
+msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
+msgstr "Čtení textových a multimediálních zpráv a souvisejících informací"
+
+msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
+msgstr "Čtení informací o síti"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
+msgstr "Správa síťových profilů"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Správa připojení k síti"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
+msgstr "Správa oznámení"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
+msgstr "Instalace/odinstalování balíčků aplikací a mazání pamětí"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Načítání detailních informací o balíčku"
+
+msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Nahrávání videa a audia"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
+msgstr "Ukládání kopie obrazovky zařízení"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
+msgstr "Správa zástupců"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Správa povolených nastavení systému"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
+msgstr "Správa všech nastavení systému"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
+msgstr "Správa nastavení telefonování"
+
+msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
+msgstr "Nastavení hlasitosti"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
+msgstr "Správa historie sítě Internet"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
+msgstr "Správa informací Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
+msgstr "Aplikace může číst informace o uložených upozorněních."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
+msgstr "Aplikace může číst a mazat data v libovolné jiné aplikaci v zařízení, aby mohla rozpoznat a odebrat škodlivý obsah."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
+msgstr "Aplikace může spouštět jiné aplikace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
+msgstr "Aplikace může provádět povolené akce pomocí Bluetooth, například vyhledávat jiná zařízení a připojovat se k nim."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
+msgstr "Aplikace může načítat, vytvářet, upravovat a odstraňovat internetové záložky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
+msgstr "Aplikace může číst události a úkoly."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
+msgstr "Aplikace může vytvářet, aktualizovat a odstraňovat události a úkoly."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
+msgstr "Aplikace může vytvářet, aktualizovat a odstraňovat položky protokolů hovorů."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
+msgstr "Aplikace může fotografovat obrázky a zobrazovat jejich náhled."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
+msgstr "Aplikace může vytvořit, aktualizovat a odstranit profil, kontakty a jakoukoli historii kontaktu související s touto aplikací. Historie kontaktu může zahrnovat aktivitu na sociálních sítích."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
+msgstr "Aplikace může číst profil, kontakty a historii kontaktu. Historie kontaktu může zahrnovat aktivitu na sociálních sítích."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
+msgstr "Aplikace může měnit informace o médiích. Tyto informace mohou použít jiné aplikace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
+msgstr "Aplikace může sdílet data s jinými aplikacemi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
+msgstr "Aplikace může spravovat nastavení displeje, například jas. Tím se může zvýšit spotřeba energie z baterie."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
+msgstr "Aplikace může spravovat e-mailové účty včetně složek a e-mailů."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
+msgstr "Aplikace může spravovat nastavení e-mailových aplikací."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Aplikace může číst a zapisovat soubory ukládané do externího úložiště, například na SD karty."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Aplikace může číst a zapisovat vlastní soubory do externího úložiště, například na SD karty."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
+msgstr "Aplikace může ovládat vibrace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikace má přístup k Internetu. V závislosti na vašem tarifu mohou být účtovány další poplatky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
+msgstr "Aplikace může ukládat klíče, certifikáty a data do heslem chráněného úložiště, a může je z něho načítat a odstraňovat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
+msgstr "Aplikace může zamykat a odemykat úložiště chráněné heslem a spravovat změny hesla."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
+msgstr "Aplikace může zapínat a vypínat LED diody, například LED diodu na přední straně zařízení a blesk fotoaparátu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
+msgstr "Aplikace může ovládat nastavení služeb pro zjišťování polohy."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
+msgstr "Aplikace může číst a zapisovat soubory do složek médií."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
+msgstr "Aplikace může číst textové a multimediální zprávy a veškeré související informace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
+msgstr "Aplikace může načítat informace o sítích, například stav jednotlivých sítí, jejich typ a podrobné informace z profilu sítě."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
+msgstr "Aplikace může přidávat, odebírat a upravovat síťové profily."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
+msgstr "Aplikace může zapínat a vypínat Wi-Fi a připojovat se k Wi-Fi a mobilním sítím a odpojovat se od nich."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
+msgstr "Aplikace může zobrazovat a skrývat vlastní oznámení a odznáčky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
+msgstr "Aplikace může instalovat a odinstalovat balíčky aplikací a mazat mezipaměti aplikací."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
+msgstr "Aplikace může načítat detailní informace o balíčku aplikace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
+msgstr "Aplikace může přijímat oznámení přes Internet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
+msgstr "Aplikace může nahrávat video a audio."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
+msgstr "Aplikace může ukládat kopie obrazovek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
+msgstr "Aplikace může vytvářet a odstraňovat zástupce."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Aplikace může číst a zapisovat povolená nastavení systému."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
+msgstr "Aplikace může číst a zapisovat všechna nastavení systému."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
+msgstr "Aplikace může načítat informace o telefonování, např. o použité síti a SIM kartě, IMEI a stavech hovorů."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
+msgstr "Aplikace může spravovat nastavení pro telefonování, například nastavení příchozích a odchozích hovorů, přesměrování a přidržení hovorů, sítí a SIM karet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
+msgstr "Pomocí této aplikace lze upravit hlasitost pro různé funkce, například upozornění, vyzváněcí tóny a média."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
+msgstr "Aplikace může spravovat historii sítě Internet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
+msgstr "Aplikace může zapínat a vypínat Wi-Fi Direct, spravovat připojení Wi-Fi Direct a měnit nastavení Wi-Fi Direct."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
+msgstr "Aplikace může vytvářet, upravovat a odstraňovat záložky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
+msgstr "Aplikace může číst informace o zdraví shromažďované senzory v zařízení, např. krokoměrem a monitorem srdečního tepu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
+msgstr "Aplikace může načítat zprávy ze složek zpráv a přijímat zprávy."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
+msgstr "Aplikace může číst zabezpečené informace o systému."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
+msgstr "Aplikace může číst data exportovaná uložená poskytovateli řízení dat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
+msgstr "Aplikace může číst informace o systému."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
+msgstr "Tato aplikace se může zobrazit nad ostatními okny a obrazovkami, včetně zamykací obrazovky, podle pořadí priority oken. To vám může zabránit v interakci s jinými aplikacemi nebo obrazovkami, dokud se okno aplikace nezavře."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
+msgstr "Aplikace může měnit nastavení systému Bluetooth související se soukromím a zabezpečením, např. režim viditelnosti."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
+msgstr "Aplikace může měnit webové nastavení aplikace včetně odstraňování cookies."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
+msgstr "Aplikace může ukončovat jiné aplikace."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
+msgstr "Aplikace může vytvářet, upravovat a odstraňovat účty."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
+msgstr "Aplikace může zapínat a vypínat služby sdílení připojení k Internetu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
+msgstr "Aplikace může volat na čísla, pokud na ně klepnete, bez dalšího potvrzení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
+msgstr "Aplikace může spravovat nahrávání zvuku."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
+msgstr "Aplikace může spouštět jiné aplikace pomocí ID aplikace nebo řízení aplikací."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
+msgstr "Aplikace může číst účty."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Aplikace může číst a zapisovat informace ve značce NFC a odesílat NFC zprávy do jiných zařízení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
+msgstr "Aplikace může číst systémy souborů."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
+msgstr "Aplikace může číst informace o multimediálním obsahu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Aplikace může načíst informace související s jinými aplikacemi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Aplikace může načítat specifické certifikáty aplikací."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
+msgstr "Aplikace může ukládat obsah do paměti zařízení nebo do externích úložišť, např. na SD karty, bez omezení velikosti obsahu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Aplikace může nastavit upozornění a probudit zařízení v naplánované časy."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Aplikace může synchronizovat data zařízení, např. kontakty a události v kalendáři, pomocí protokolu OMA DS 1.2."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
+msgstr "Aplikace může použít zobrazení na celé obrazovce."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
+msgstr "Aplikace může použít profil Bluetooth Generic Access Profile (GAP), např. pro vyhledávání a párování zařízení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
+msgstr "Aplikace může použít profil Bluetooth Health Device Profile (HDP), např. pro odesílání dat týkajících se zdraví."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
+msgstr "Aplikace může použít profil Bluetooth Serial Port Profile (SPP), např. pro odesílání dat prostřednictvím sériového portu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
+msgstr "Aplikace může použít údaje o poloze."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
+msgstr "Aplikace může psát textové zprávy, multimediální zprávy a e-maily."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
+msgstr "Aplikace může zapisovat do systémů souborů."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
+msgstr "Aplikace má přístup k čipům zabezpečených karet smart card, jako jsou například UICC/SIM, integrovaným prvkům zabezpečení a zabezpečeným SD kartám."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
+msgstr "Aplikace může měnit a číst uživatelská nastavení."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Aplikace může měnit nastavení NFC, např. zapnout nebo vypnout NFC."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
+msgstr "Aplikace může ovládat nastavení související s napájením, např. ztmavení displeje."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Aplikace může instalovat nebo odinstalovat balíčky aplikací."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Aplikace může nabízet NFC zprávy do jiných zařízení."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Aplikace může číst a zapisovat informace ve značce NFC."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
+msgstr "Aplikace může číst záložky."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
+msgstr "Aplikace může číst položky protokolů hovorů."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Aplikace může přijímat informace o balíčku."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
+msgstr "Aplikace může použít společné funkce NFC."
+
+msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
+msgstr "Použití základních služeb NFC"
+
+msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
+msgstr "Použití režimu emulace karty NFC"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
+msgstr "Přístup ke službám sdílení připojení k Internetu"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
+msgstr "Zobrazení oken nad jinými aplikacemi a obrazovkami"
+
+msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
+msgstr "Volání"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
+msgstr "Aplikace má přístup k detailům karet smart card, například k detailům kreditních karet, a umožňuje uživatelům platit prostřednictvím NFC."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
+msgstr "Aplikace může zapisovat, odesílat, odstraňovat a přesouvat textové a multimediální zprávy, a měnit nastavení a stavy zpráv, např. přečteno nebo nepřečteno."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
+msgstr "Aplikace může omezit zařízení tak, že některé domény budou dostupné pouze prostřednictvím mobilních sítí."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
+msgstr "Zachycování multimediálních dat"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
+msgstr "Aplikace může zachytávat obrazová a zvuková data."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
+msgstr "Aplikace může zobrazovat, upravovat a odstraňovat upozornění."
+
+msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
+msgstr "Spouštění a obnovování aplikací"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
+msgstr "Správa upozornění"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Aplikace může spravovat upozornění načítáním uložených upozornění a probouzením zařízení v naplánované časy."
+
+msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
+msgstr "Probíhá změna nastavení Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
+msgstr "Aplikace může měnit nastavení Bluetooth, např. zapnout nebo vypnout Bluetooth, nastavit název zařízení a povolit nebo zakázat dálkové ovládání AV."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
+msgstr "Aplikace může číst informace o oznámeních."
+
+msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
+msgstr "Použití zobrazení na celou obrazovku"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
+msgstr "Načítání informací o oznámení"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
+msgstr "Odesílání textových a multimediálních zpráv a aktualizace jejich stavu"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikace může spravovat stahování z HTTP. To může mít za následek další poplatky v závislosti na vašem tarifu."
 

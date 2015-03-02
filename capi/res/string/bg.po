@@ -10,416 +10,26 @@ msgstr "Достъп до съобщения"
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Достъп до защитени елементи"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
-msgstr "Достъп до системна информация"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Достъп до информация за телефония"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
-msgstr "Достъп до дата и час"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Достъп до неограничено съхранение"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
-msgstr "Достъп до потребителски ИД"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Достъп до потребителски настройки"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
-msgstr "Достъп до уеб съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
-msgstr "Позволява на антивирусното приложение да сканира за опасно съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
-msgstr "Позволява на приложението достъп до информацията за поверителност за целите на идентификация на потребителя"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
-msgstr "Позволява на приложението да получава достъп до системна информация"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
-msgstr "Позволява на приложението достъп до специфични данни, експортирани от други приложения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
-msgstr "Позволява на приложението да получава достъп до системна информация"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
-msgstr "Позволява на приложението достъп до Интернет"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Позволява на приложението достъп до чипа на защитена смарт карта, като UICC/SIM, вграден защитен елемент или защитена SD карта"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
-msgstr "Позволява на приложението да добавя и премахва бързи команди от началния екран"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
-msgstr "Позволява на приложението да добавя Dynamic Box в началния екран"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
-msgstr "Позволява на приложението да добавя, актуализира и изтрива сертификати"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
-msgstr "Позволява на приложението да добавя, актуализира и изтрива контакти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
-msgstr "Позволява на приложението да се отваря условно или да отваря друго приложение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
-msgstr "Позволява на приложението да променя Bluetooth настройките, като включване или изключване на Bluetooth и задаване на името на локалното устройство"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
-msgstr "Позволява на приложението да променя системните настройки за Bluetooth, свързани с поверителността и защитата, като например режима на видимост"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Позволява на приложението да променя настройките за NFC, като например да включва и изключва NFC"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
-msgstr "Позволява на приложението да променя системните настройки на NFC, като включване или изключване на запазено push, което изпраща предварително зададени NDEF съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
-msgstr "Позволява на приложението да променя настройките за поверителност"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Позволява на приложението да променя настройките за защита или поверителност"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
-msgstr "Позволява на приложението да затваря друго приложение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Позволява на приложението да комуникира с други устройства и сървъри"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
-msgstr "Позволява на приложението да комуникира с HTTP сървъра"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
-msgstr "Позволява на приложението да конфигурира мобилните мрежи"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
-msgstr "Позволява на приложението управлява услугата за препращане на повикване"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
-msgstr "Позволява на приложението да създава, актуализира и изтрива акаунти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
-msgstr "Позволява на приложението да създава, актуализира и изтрива дневниците за повиквания"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
-msgstr "Позволява на приложението да създава, актуализира и изтрива съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Позволява на приложението да създава, актуализира и изтрива информация за графика и задачите"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Позволява на приложението да създава, актуализира и изтрива показалци"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
-msgstr "Позволява на приложението да изтрива разрешения за географско местоположение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
-msgstr "Позволява на приложението да показва Уеб съдържание или да използва API, свързан с Уеб съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
-msgstr "Позволява на приложението да генерира събития за докосване и клавиши и да заснема екрани"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
-msgstr "Позволява на приложението да получава известия"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Позволява на приложението да получава указани сертификати за приложение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
-msgstr "Позволява на приложението да получава информация за часа и датата"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
-msgstr "Позволява на приложението да задържа и управлява състояние на захранването"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Позволява на приложението да инсталира или деинсталира пакети на приложения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
-msgstr "Позволява на приложението да управлява друго приложение, което се отваря условно"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
-msgstr "Позволява на приложението да управлява настройките на друго приложение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
-msgstr "Позволява на приложението да управлява аудио запис"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
-msgstr "Позволява на приложението да управлява камерите на устройството, за да преглежда и прави снимки"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
-msgstr "Позволява на приложението да управлява лицензи на Управление на цифрови права (DRM) и да извлича информация за DRM съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
-msgstr "Позволява на приложението да управлява HTTP изтегляния"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
-msgstr "Позволява на приложението да управлява мрежовите акаунти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
-msgstr "Позволява на приложението да управлява мрежовите връзки"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
-msgstr "Позволява на приложението да управлява известия"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
-msgstr "Позволява на приложението да управлява Услугата за клетъчни информационни съобщения (CBS)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
-msgstr "Позволява на приложението да управлява инсталираните методи за въвеждане"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
-msgstr "Позволява на приложението да управлява потребителските данни, съхранявани от уеб контролата или браузъра"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Позволява на приложението да управлява Wi-Fi системните настройки, като актуализиране на информацията за точка за достъп"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
-msgstr "Позволява на приложението да управлява свойства на ПИ"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
-msgstr "Позволява на приложението да управлява видео и аудио записи с камерата или записването на аудио"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
-msgstr "Позволява на приложението да управлява видео записи с камерата"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
-msgstr "Позволява на приложението да управлява WAP push съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
-msgstr "Позволява на приложението да управлява Wi-Fi Direct на устройството"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Позволява на приложението да управлява Wi-Fi на устройството, като включване или изключване на Wi-Fi и свързване към точка за достъп"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Позволява на приложението да управлява потребителския профил"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
-msgstr "Позволява на приложението да осигурява начин за въвеждане на знаци и символи в свързано поле за въвеждане"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
-msgstr "Позволява на приложението да осигурява Услугата за име на домейн (DNS)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
-msgstr "Позволява на приложението да предоставя известия на потребителя, като съобщения и значки"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Позволява на приложението да изпраща push NFC съобщения до други устройства"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
-msgstr "Позволява на приложението да чете акаунти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Позволява на приложението да чете и пише информация за NFC тагове"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
-msgstr "Позволява на приложението да чете информация за приложението"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
-msgstr "Позволява на приложението да чете показалци"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
-msgstr "Позволява на приложението да чете дневниците на повиквания"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
-msgstr "Позволява на приложението да чете сертификати"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
-msgstr "Позволява на приложението да чете контакти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
-msgstr "Позволява на приложението да чете съдържание"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
-msgstr "Позволява на приложението да чете файлови системи"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Позволява на приложението да чете разрешения за географско местоположение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
-msgstr "Позволява на приложението да чете информация, като версията на платформата или API"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
-msgstr "Позволява на приложението да чете мрежовите статистики"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
-msgstr "Позволява на приложението да чете настройките за поверителност"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Позволява на приложението да чете настройките за защита или поверителност"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Позволява на приложението да чете информация за графика и задачите"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Позволява на приложението да чете потребителския профил"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
-msgstr "Позволява на приложението да получава подробна информация за пакети"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
-msgstr "Позволява на приложението да получава известия за промени в приложението на преден план"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Позволява на приложението да получава информация за пакети"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
-msgstr "Позволява на приложението да получава push известия"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
-msgstr "Позволява на приложението да получава SMS съобщения от определен порт"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Позволява на приложението да получава съобщения и да извлича съобщения от кутиите за съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
-msgstr "Позволява на приложението да заявява/освобождава определени мрежови връзки"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
-msgstr "Позволява на приложението да изисква Wi-Fi Direct информация"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
-msgstr "Позволява на приложението да изисква Wi-Fi информация"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
-msgstr "Позволява на приложението да нулира мрежовите статистики"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Позволява на приложението да извлича системна информация, като данни за мрежа, SIM и повиквания"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Позволява на приложението да извлича информация за телефония, като данни за мрежа, SIM и повиквания"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
-msgstr "Позволява на приложението да изпраща и получава SMS съобщения и да извлича SMS съобщения от кутиите за SMS съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
-msgstr "Позволява на приложението да изпраща имейл съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
-msgstr "Позволява на приложението да изпраща MMS съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Позволява на приложението да изпраща SMS, MMS и имейл съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
-msgstr "Позволява на приложението да задава аларма и да събужда устройството в планираното време"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
-msgstr "Позволява на приложението да задава входящи и изходящи маршрути да получава известия за събития на маршрутите"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
-msgstr "Позволява на приложението да задава конфигурации на пакети"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Позволява на приложението да синхронизира данните за устройството в сървъра с помощта на OMA DS 1.2 протокола"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
-msgstr "Позволява на приложението да включва и използва вибрация"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
-msgstr "Позволява на приложението да отключва устройството"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
-msgstr "Позволява на приложението да актуализира известия"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
-msgstr "Позволява на приложението да актуализира или чете потребителските настройки"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
-msgstr "Позволява на приложението да актуализира системните мрежови акаунти"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Позволява на приложението да използва прикаченото място за съхранение без ограничения в размера за БД или файлове"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
-msgstr "Позволява на приложението да използва цял екран"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
-msgstr "Позволява на приложението да използва общите NFC функции"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
-msgstr "Позволява на устройството да използва Профил за общ достъп (GAP), например, за да сканира за устройства и да ги сдвоява"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
-msgstr "Позволява на устройството да използва Здравен профил на устройството (HDP), например за изпращане на здравни данни"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
-msgstr "Позволява на приложението да използва интернет с определен носител"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
-msgstr "Позволява на устройството да използва Профил за предаване на обект (OPP), например за изпращане на файлове"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
-msgstr "Позволява на устройството да използва Профил за сериен порт (SPP), например за изпращане на серийни данни"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
-msgstr "Позволява на приложението да използва системния дневник (dlog)"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
-msgstr "Позволява на приложението да използва функцията за тестване на автоматизацията"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
-msgstr "Позволява на приложението да използва данните за местоположение на потребителя"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
-msgstr "Позволява на приложението да използва общия API модул за уеб устройство на Tizen"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Позволява на приложението да пише SMS, MMS и имейл съобщения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
-msgstr "Позволява на приложението да пише във файловите системи"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Позволява на приложението да чете информация за привилегии"
-
-msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
-msgstr "Промяна на пълен екран"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Затваряне на приложения"
 
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Комуникиране с други устройства и сървъри"
-
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
-msgstr "Комуникиране с HTTP сървъра"
-
-msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
-msgstr "Конфигуриране на мобилни мрежи"
-
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "Изтегляне през HTTP"
-
-msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
-msgstr "Препращане на повиквания"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Получаване на сертификати за приложения"
 
-msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
-msgstr "Инсталиране на Dynamic Box"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Управление на акаунти"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
-msgstr "Управление на приложения"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
-msgstr "Управление на настройки за приложения"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
-msgstr "Управление на аудио маршрути"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
-msgstr "Управление на общи настройки за Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "Управление на системни настройки на Bluetooth"
@@ -433,98 +43,23 @@ msgstr "Управление на календара"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Управление на регистри на повиквания"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
-msgstr "Управление на услугата за клетъчни информ. съобщения (CBS)"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
-msgstr "Управление на сертификати"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Управление на контакти"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Управление на съдържание"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
-msgstr "Управление на DRM"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
-msgstr "Управление на разрешения за географско местоположение"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
-msgstr "Управление на въвеждане на събития"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "Управление на методите за въвеждане"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
-msgstr "Управление на мрежови акаунти"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Управление на мрежови връзки"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Управление на общи настройки за NFC"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
-msgstr "Управление на системни настройки за NFC"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
-msgstr "Управление на известия"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
 msgstr "Управление на пакети"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
-msgstr "Управление на настройки за пакети"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Управление на захранване"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
-msgstr "Управление на настройки за поверителност"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
-msgstr "Управление на бързи команди"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
-msgstr "Управление на SMS"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
-msgstr "Управление на системни настройки"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
-msgstr "Управление на потребителски интерфейс"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
-msgstr "Управление на потребителски профил"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
-msgstr "Управление на настройки за вибриране"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
-msgstr "Управление на WAP push съобщения"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
-msgstr "Управление на уеб данни"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
-msgstr "Управление на Wi-Fi"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
-msgstr "Управление на Wi-Fi Direct"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
-msgstr "Управление на системни настройки на Wi-Fi"
-
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
 msgstr "Отваряне на приложенията"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
-msgstr "Предоставяне на DNS"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
-msgstr "Предоставяне на методи за въвеждане"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Предоставяне на известия"
@@ -535,9 +70,6 @@ msgstr "Предаване на NFC съобщения"
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
 msgstr "Четене на акаунти"
 
-msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
-msgstr "Четене на информация за приложение"
-
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Четене на показалци"
 
@@ -546,9 +78,6 @@ msgstr "Четене на календар"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Четене на регистри на повиквания"
-
-msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
-msgstr "Четене на сертификати"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Четене на контакти"
@@ -559,56 +88,17 @@ msgstr "Четене на съдържание"
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
 msgstr "Четене на файлови системи"
 
-msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
-msgstr "Четене на разрешения за географско местоположение"
-
-msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
-msgstr "Четене на статистики за мрежата"
-
-msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
-msgstr "Четене на известия"
-
-msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
-msgstr "Четене на информацията за платформата"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
-msgstr "Четене на настройки за поверителност"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
-msgstr "Четене на информация за привилегии"
-
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
 msgstr "Четене на защитена системна информация"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Четене на системна информация"
 
-msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
-msgstr "Четене на настройки за системна защита"
-
-msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
-msgstr "Четене на потребителски профил"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
-msgstr "Четене на информация за Wi-Fi Direct"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
-msgstr "Четене на информация за Wi-Fi"
-
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "Четене/писане в NFC тагове"
 
-msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
-msgstr "Получаване на известия за използване на приложения"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Получаване на подробна информация за пакет"
-
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Получаване на информация за пакет"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
-msgstr "Получаване на SMS с определен порт"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Получаване на push уведомявания"
@@ -616,29 +106,8 @@ msgstr "Получаване на push уведомявания"
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Записване на аудио"
 
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
-msgstr "Записване на видео"
-
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Записване на видео и аудио"
-
-msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
-msgstr "Нулиране на статистиките за мрежата"
-
-msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
-msgstr "Сканиране за вируси"
-
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Избор на мрежова връзка"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
-msgstr "Изпращане на имейли"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
-msgstr "Изпращане на съобщения"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
-msgstr "Изпращане на MMS"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Задаване на аларми"
@@ -646,26 +115,11 @@ msgstr "Задаване на аларми"
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
 msgstr "Синхронизиране на данните за устройството"
 
-msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
-msgstr "Отключване на устройство"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
-msgstr "Актуализиране на настройки за мрежа"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
-msgstr "Актуализиране на известия"
-
-msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
-msgstr "Използване на разширени интернет опции"
-
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
 msgstr "Използване на Bluetooth GAP"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
 msgstr "Използване на Bluetooth HDP"
-
-msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
-msgstr "Използване на Bluetooth OPP"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "Използване на Bluetooth SPP"
@@ -673,17 +127,8 @@ msgstr "Използване на Bluetooth SPP"
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
 msgstr "Използване на камерата"
 
-msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
-msgstr "Използване на общ модул"
-
-msgid "IDS_TPLATFORM_BODY_USING_LOG"
-msgstr "Използване на дневник"
-
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "Използване на общи функции за NFC"
-
-msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
-msgstr "Използване на автоматизиране на тест"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
 msgstr "Използване на местоположение на потребителя"
@@ -709,9 +154,6 @@ msgstr "Телефонен указател"
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Интернет"
 
-msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
-msgstr "Съобщения"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -720,15 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Извличане на информация за приложение"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
-msgstr "Управление на предпочитания по подразбиране за приложение"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Позволява на приложението да извлича информация, свързана с други приложения"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
-msgstr "Позволява на приложение да чете и актуализира предпочитанията по подразбиране за приложението"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Позиция"
@@ -754,6 +187,447 @@ msgstr "Други привилегии"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Управление на настройки за уеб приложения"
 
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
-msgstr "Позволява на приложението да управлява настройките за уеб приложение, включително премахването на всички бисквитки, записани за това уеб приложение"
+msgid "IDS_TPLATFORM_BODY_MESSAGING"
+msgstr "Изпращане на съобщения"
+
+msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
+msgstr "Дневник пов"
+
+msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
+msgstr "Тази привилегия не е дефинирана."
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Общи"
+
+msgid "IDS_ST_HEADER_PRIVACY"
+msgstr "Поверителност"
+
+msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
+msgstr "%1$s е деактивирано в %2$s."
+
+msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
+msgstr "Прочитане на здравната информация"
+
+msgid "IDS_ST_OPT_SEND_SMS_ABB"
+msgstr "Пращане SMS"
+
+msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
+msgstr "Четене SMS, MMS"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
+msgstr "Извличане на аларми"
+
+msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
+msgstr "Сканиране за и изтриване на вируси"
+
+msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
+msgstr "Използване на неограничени Bluetooth услуги"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
+msgstr "Достъп до показалци в интернет"
+
+msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
+msgstr "Споделяне на данни между приложения"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
+msgstr "Управление на настройки за дисплей"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
+msgstr "Управление на имейл акаунти, пощенски кутии и имейли"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
+msgstr "Управление на имейл конфигурации"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Достъп до външна памет"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Достъп до данни на приложения във външна памет"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
+msgstr "Управление на реакция с вибриране"
+
+msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Използване на защитено хранилище"
+
+msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Заключване/отключване на защитено хранилище"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
+msgstr "Управление на светодиоди"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
+msgstr "Управление на настройки за местоположение"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
+msgstr "Достъп до папки с мултимедия"
+
+msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
+msgstr "Четене на текстови и мултимедийни съобщения и сродна информация"
+
+msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
+msgstr "Четене на информация за мрежата"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
+msgstr "Управление на мрежови профили"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Управление на мрежови връзки"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
+msgstr "Управление на уведомления"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
+msgstr "Инсталиране/деинсталиране на пакети на приложения и изчистване на кеш"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Извличане на подробна информация за пакет"
+
+msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Записване на видео и аудио"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
+msgstr "Заснемане на екрана на устройството"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
+msgstr "Управление на преки пътища"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Управление на неограничени системни настройки"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
+msgstr "Управление на всички системни настройки"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
+msgstr "Управление на настройки за телефония"
+
+msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
+msgstr "Регулиране на звука"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
+msgstr "Управление на интернет хронологията"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
+msgstr "Управление на информация за Wi-Fi Direct"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
+msgstr "Това приложение може да прочете информация за вашите записани аларми."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
+msgstr "Това приложение може да чете и изтрива данни във всяко друго приложение на устройството, за да открива и премахва вредно съдържание."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
+msgstr "Това приложение може да отваря други приложения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
+msgstr "Това приложение може да извършва неограничени действия чрез Bluetooth, като например сканиране за и свързване към други устройства."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
+msgstr "Това приложение може да извлича, създава, редактира и изтрива интернет показалци."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
+msgstr "Това приложение може да чете събития и задачи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
+msgstr "Това приложение може да създава, актуализира и изтрива събития и задачи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
+msgstr "Това приложение може да създава, актуализира и изтрива елементи от дневниците за повиквания."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
+msgstr "Това приложение може да прави и визуализира снимки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
+msgstr "Това приложение може да създаде, актуализира и изтрие вашите профил, контакти и всякаква хронология за контакти, която е свързана към това приложение. Хронологията за контакти може да включва дейности в социални мрежи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
+msgstr "Това приложение може да чете вашите профил, контакти и хронология за контакти. Хронологията за контакти може да включва дейности в социални мрежи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
+msgstr "Това приложение може да променя информация за мултимедията. Тази информация може да се използва от други приложения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
+msgstr "Това приложение може да сподели данни с други приложения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
+msgstr "Това приложение може да управлява настройките на дисплея, като например яркостта. Това може да увеличи консумацията на батерията."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
+msgstr "Това приложение може да управлява вашите имейл акаунти, включително вашите папки и имейли."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
+msgstr "Това приложение може да управлява настройките на приложенията за имейл."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Това приложение може да чете и записва файлове, които са записани във външна памет, като например SD карти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Това приложение може да чете и записва свои собствени файлове във външна памет, като например SD карти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
+msgstr "Това приложение може да управлява реакцията с вибриране."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Това приложение може да осъществява достъп до интернет. Това може да доведе до допълнителни такси в зависимост от плана ви на плащане."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
+msgstr "Това приложение може да записва ключове, сертификати и данни във, както и да ги извлича и изтрива от защитени с парола памети."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
+msgstr "Това приложение може да заключва и отключва защитена с парола памет, както и да управлява промяната на паролите за нея."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
+msgstr "Това приложение може да включва/изключва светодиоди, като например светодиода отпред на устройството и светкавицата на камерата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
+msgstr "Това приложение може да управлява настройките на услугата за местоположение."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
+msgstr "Това приложение може да чете и записва файлове в папки с мултимедия."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
+msgstr "Това приложение може да чете текстови и мултимедийни съобщения и всякаква информация, свързана с тях."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
+msgstr "Това приложение може да извлича информация за мрежата, като например състоянието на всяка мрежа, нейния тип, както и подробна информация за профила на мрежата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
+msgstr "Това приложение може да добавя, премахва и редактира мрежови профили."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
+msgstr "Това приложение може да включва и изключва Wi-Fi, както и да създава/прекъсва връзка към Wi-Fi и мобилни мрежи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
+msgstr "Това приложение може да показва и скрива своите собствени уведомления и значки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
+msgstr "Това приложение може да инсталира и деинсталира пакети с приложения и да чисти кеш паметта на приложенията."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
+msgstr "Това приложение може да извлича подробна информация за пакет на приложение."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
+msgstr "Това приложение може да получава уведомления по интернет."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
+msgstr "Това приложение може да записва видео и аудио."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
+msgstr "Това приложение може да прави екранни снимки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
+msgstr "Това приложение може да създава и изтрива преки пътища."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Това приложение може да чете и записва неограничени системни настройки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
+msgstr "Това приложение може да чете и записва всички системни настройки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
+msgstr "Това приложение може да извлича информация за телефония, като например за използваната SIM карта и мрежата, IMEI, като и за състоянията на повикванията."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
+msgstr "Това приложение може да управлява настройките за телефония, като например за входящи и изходящи повиквания, препращане и задържане на повиквания, мрежи и SIM карти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
+msgstr "Това приложение може да регулира силата на звука за различни функции, като например известия за уведомления, тонове на звънене и мултимедия."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
+msgstr "Това приложение може да управлява вашата интернет хронология."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
+msgstr "Това приложение може да активира и деактивира Wi-Fi Direct, да управлява Wi-Fi Direct връзки и да променя настройките на Wi-Fi Direct."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
+msgstr "Това приложение може да създава, редактира и изтрива показалци."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
+msgstr "Това приложение може да чете здравна информация, събрана от сензорите на устройството, като например от крачкомера и от устройството за следене на сърдечния ритъм."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
+msgstr "Това приложение може да извлича съобщения от кутии със съобщения или да получава съобщения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
+msgstr "Това приложение може да чете защитена системна информация."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
+msgstr "Това приложение може да чете данни, експортирани от доставчици за управление на данни."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
+msgstr "Това приложение може да чете системна информация."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
+msgstr "Това приложение може да се покаже отгоре на други прозорци и екрани, включително заключения екран, според реда на приоритет на прозорците. Това може да ви попречи да взаимодействате с други приложения или екрани, докато прозорецът за това приложение не се затвори."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
+msgstr "Това приложение може да променя системните настройки за Bluetooth, свързани с поверителността и защитата, като например режима на видимост."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
+msgstr "Това приложение може да променя своите настройки за уеб приложение, включително да изтрива бисквитки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
+msgstr "Това приложение може да затваря други приложения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
+msgstr "Това приложение може да създава, редактира и изтрива акаунти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
+msgstr "Това приложение може да активира и деактивира услуги за тетъринг."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
+msgstr "Това приложение може да отправя телефонни повиквания до номера, когато те се докоснат, без допълнително потвърждаване."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
+msgstr "Това приложение може да управлява записване на аудио."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
+msgstr "Това приложение може да отваря други приложения чрез ИД на приложението или с управление на приложението."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
+msgstr "Това приложение може да чете акаунти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Това приложение може да чете и пише информация за NFC обозначения, както и да изпраща NFC съобщения до други устройства."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
+msgstr "Това приложение може да чете файлови системи."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
+msgstr "Това приложение може да чете информация за мултимедийно съдържание."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Това приложение може да извлича информация, свързана с други приложения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Това приложение може да извлича указани сертификати за приложение."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
+msgstr "Това приложение може да записва своето съдържание в паметта на устройството ви или на външни места за съхранение, като SD карти, без да има лимит на размера на съдържанието."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Това приложение може да задава аларми и да събужда устройството в планирани часове."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Това приложение може да синхронизира данни за устройството, като например контакти и събития в календара, с помощта на OMA DS 1.2 протокола."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
+msgstr "Това приложение може да използва изглед на цял екран."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
+msgstr "Това приложение може да използва Bluetooth профил за общ достъп (GAP) например за да сканира за устройства и да ги сдвоява."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
+msgstr "Това приложение може да използва Bluetooth здравния профил на устройството (HDP), например за да изпраща на здравна информация."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
+msgstr "Това приложение може да използва Bluetooth профил за сериен порт (SPP) например за изпращане на серийни данни."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
+msgstr "Това приложение може да използва данни за местоположението ви."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
+msgstr "Това приложение може да пише текстови съобщения, мултимедийни съобщения и имейли."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
+msgstr "Това приложение може да записва във файлови системи."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
+msgstr "Това приложени може да осъществява достъп до защитени чипове на смарт карти, като UICC/SIM, вградени защитни елементи и защитени SD карти."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
+msgstr "Това приложение може да променя и чете потребителски настройки."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Това приложение може да променя настройките за NFC, като например да включва и изключва NFC."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
+msgstr "Това приложение може да управлява свързани със захранването настройки, като например затъмняване на екрана."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Това приложение може да инсталира или деинсталира пакети на приложения."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Това приложение може да изпраща push NFC съобщения до други устройства."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Това приложение може да чете и пише информация за NFC обозначения."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
+msgstr "Това приложение може да чете показалци."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
+msgstr "Това приложение може да чете елементи от дневник на повикванията."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Това приложение може да получава информация за пакети."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
+msgstr "Това приложение може да използва общите NFC функции."
+
+msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
+msgstr "Използване на основни NFC услуги"
+
+msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
+msgstr "Използване на режим на емулация на NFC карта"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
+msgstr "Достъп до услуги за тетъринг"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
+msgstr "Показване на прозорци отгоре на други приложения и екрани"
+
+msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
+msgstr "Извършване на телефонни повиквания"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
+msgstr "Това приложени може да осъществява достъп до подробности за смарт карти, като например подробности за кредитни карти, както и да позволява на потребителите да правят плащания чрез NFC."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
+msgstr "Това приложение може да пише, изпраща, изтрива и премества текстови и мултимедийни съобщения, както и да променя настройките и състоянията на съобщенията, като например дали са прочетени или непрочетени."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
+msgstr "Това приложение може да ограничи устройството, така че достъп до някои конкретни домейни да може да се осъществи само по мобилни мрежи."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
+msgstr "Заснемане на мултимедийни данни"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
+msgstr "Това приложение може да заснема видео- и аудиоданни."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
+msgstr "Това приложение може да показва, редактира и изтрива уведомления."
+
+msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
+msgstr "Отваряне и възобновяване на приложения"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
+msgstr "Управление на аларми"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Това приложение може да управлява алармите, като извлича записани аларми и събужда устройството в определените по график часове."
+
+msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
+msgstr "Промяна на настройките за Bluetooth"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
+msgstr "Това приложение може да променя настройките за Bluetooth, като например включване/изключване на Bluetooth, задаване на име на устройството и активиране/деактивиране на AV отдалечено управление."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
+msgstr "Това приложение може да прочете информация за уведомленията."
+
+msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
+msgstr "Използване на изглед на цял екран"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
+msgstr "Извличане на информация за уведомление"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
+msgstr "Изпращане на текстови и мултимедийни съобщения и актуализиране на техните състояния"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Това приложение може да управлява HTTP изтегляния. Това може да доведе до допълнителни такси в зависимост от плана ви на плащане."
 

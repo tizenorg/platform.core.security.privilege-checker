@@ -17,58 +17,58 @@ msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Acceso a almacenamiento ilimitado"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
-msgstr "Acceso a los ajustes del usuario"
+msgstr "Acceso a configuración de usuario"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Cierre de aplicaciones"
 
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
-msgstr "Descarga a través de HTTP"
+msgstr "Descarga mediante HTTP"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Obtención de certificados de aplicaciones"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
-msgstr "Gestión de cuentas"
+msgstr "Administración de cuentas"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
-msgstr "Gestión de ajustes del sistema Bluetooth"
+msgstr "Administración de configuración del sistema Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
-msgstr "Gestión de favoritos"
+msgstr "Administración de favoritos"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
-msgstr "Gestión del calendario"
+msgstr "Administración de calendario"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
-msgstr "Gestión de registros de llamadas"
+msgstr "Administración de registros de llamadas"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
-msgstr "Gestión de contactos"
+msgstr "Administración de contactos"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
-msgstr "Gestión de contenido"
+msgstr "Administración de contenido"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
-msgstr "Gestión de ajustes generales de NFC"
+msgstr "Administración de configuración general de NFC"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
-msgstr "Gestión de paquetes"
+msgstr "Administración de paquetes"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
-msgstr "Gestión de batería"
+msgstr "Administración de encendido"
 
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
-msgstr "Apertura de aplicaciones"
+msgstr "Abrir aplicaciones"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
-msgstr "Proporción de notificaciones"
+msgstr "Entrega de notificaciones"
 
 msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
-msgstr "Difusión de mensajes NFC"
+msgstr "Inserción de mensajes NFC"
 
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
-msgstr "Lectura de cuenta"
+msgstr "Lectura de cuentas"
 
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Lectura de favoritos"
@@ -86,22 +86,22 @@ msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
 msgstr "Lectura de contenido"
 
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
-msgstr "Lectura de sistemas de archivo"
+msgstr "Lectura de sistemas de archivos"
 
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
-msgstr "Lectura de información del sistema seguro"
+msgstr "Lectura de información del sistema de seguridad"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Lectura de información del sistema"
 
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
-msgstr "Lectura/escritura de etiquetas NFC"
+msgstr "Lectura/escritura en etiquetas NFC"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Recepción de información de paquetes"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
-msgstr "Recepción de notificaciones de difusión"
+msgstr "Recepción de notificaciones de inserción"
 
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Grabación de audio"
@@ -110,34 +110,34 @@ msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Selección de conexión de red"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
-msgstr "Ajustes de alarmas"
+msgstr "Configuración de alarmas"
 
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
-msgstr "Sincronización de datos de dispositivo"
+msgstr "Sincronización de datos del dispositivo"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
-msgstr "Uso de Bluetooth GAP"
+msgstr "Uso de GAP de Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
-msgstr "Uso de Bluetooth HDP"
+msgstr "Uso de HDP de Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
-msgstr "Uso de Bluetooth SPP"
+msgstr "Uso de SPP de Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
-msgstr "Uso de la cámara"
+msgstr "Uso de cámara"
 
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
-msgstr "Uso de las funciones comunes de NFC"
+msgstr "Uso de funciones comunes de NFC"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
-msgstr "Uso de la ubicación de usuario"
+msgstr "Uso de ubicación del usuario"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
 msgstr "Escritura de mensajes"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
-msgstr "Escritura de sistemas de archivo"
+msgstr "Escritura en archivos del sistema"
 
 msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
 msgstr "Cuentas"
@@ -158,10 +158,10 @@ msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
 msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
-msgstr "Wi-Fi Direct"
+msgstr "Wi-Fi Directo"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Recuperación de información de aplicación"
+msgstr "Recuperar la información de la aplicación"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Ubicación"
@@ -170,13 +170,13 @@ msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Información personal"
 
 msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
-msgstr "Controles de hardware"
+msgstr "Controles del hardware"
 
 msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
 msgstr "Conexiones de red"
 
 msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
-msgstr "Servicios pagados"
+msgstr "Servicios de paga"
 
 msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
 msgstr "Ajustes del sistema"
@@ -185,13 +185,13 @@ msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
 msgstr "Otros privilegios"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Gestión de ajustes de aplicación web"
+msgstr "Administrar la configuración de las aplicaciones web"
 
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Mensajería"
 
 msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
-msgstr "Reg llam"
+msgstr "Llamadas"
 
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Este privilegio no está definido"
@@ -206,268 +206,268 @@ msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privacidad"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
-msgstr "%1$s se ha desactivado en %2$s."
+msgstr "%1$s desactivado en %2$s."
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
-msgstr "Leyendo la información de salud"
+msgstr "Leer información de salud"
 
 msgid "IDS_ST_OPT_SEND_SMS_ABB"
-msgstr "Enviar SMS"
+msgstr "En. men. tex."
 
 msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
-msgstr "Leer SMS/MMS"
+msgstr "Leer SMS y MMS"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
-msgstr "Recuperación de alarmas"
+msgstr "Recuperar alarmas"
 
 msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
-msgstr "Busqueda y eliminación de virus"
+msgstr "Buscar y eliminar virus"
 
 msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
-msgstr "Uso de los servicios de Bluetooth no restringidos"
+msgstr "Usar servicios Bluetooth no restringidos"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
-msgstr "Acceso a los favoritos de Internet"
+msgstr "Acceder a Favoritos de Internet"
 
 msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
-msgstr "Uso compartido de datos entre aplicaciones"
+msgstr "Compartir datos entre aplicaciones"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
-msgstr "Administración de los ajustes de pantalla"
+msgstr "Administrar la configuración de la pantalla"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
-msgstr "Administración de cuentas de correo electrónico, buzones de correo y correos electrónicos"
+msgstr "Administrar cuentas de correo, bandejas de entrada y correos"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
-msgstr "Administración de configuraciones de correos electrónicos"
+msgstr "Administrar configuraciones de correo"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Acceso al almacenamiento externo"
+msgstr "Acceder al almacenamiento externo"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Acceso a los datos de la aplicación en el almacenamiento externo"
+msgstr "Acceder a datos de aplicaciones en almacenamiento externo"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
-msgstr "Administración de respuesta de vibración"
+msgstr "Administrar respuesta de vibración"
 
 msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
-msgstr "Uso del almacenamiento seguro"
+msgstr "Usar el repositorio seguro"
 
 msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
-msgstr "Bloqueo/desbloqueo del almacenamiento seguro"
+msgstr "Bloquear/desbloquear el repositorio seguro"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
-msgstr "Administración de LED"
+msgstr "Administrar LED"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
-msgstr "Administración de ajustes de ubicación"
+msgstr "Administrar configuración de ubicación"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
-msgstr "Acceso a carpetas multimedia"
+msgstr "Acceder a carpetas de archivos multimedia"
 
 msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
-msgstr "Lectura de texto y mensajes multimedia e información relacionada"
+msgstr "Leer mensajes multimedia y de texto, e información relacionada"
 
 msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
-msgstr "Lectura de la información de red"
+msgstr "Leer información de red"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
-msgstr "Administración de los perfiles de red"
+msgstr "Administrar perfiles de red"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Administración de conexiones de red"
+msgstr "Administrar conexiones de red"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
-msgstr "Administración de notificaciones"
+msgstr "Administrar notificaciones"
 
 msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
-msgstr "Instalación/desinstalación de paquetes de aplicación y borrado de cachés"
+msgstr "Instalar/desinstalar paquetes de aplicaciones y eliminar caché"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Recuperanción de información detallada de paquetes"
+msgstr "Recuperar información detallada de paquetes"
 
 msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Grabación de audio y video"
+msgstr "Grabación de video y audio"
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
 msgstr "Captura de pantalla del dispositivo"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
-msgstr "Administración de accesos directos"
+msgstr "Administrar atajos"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Administración de ajustes del sistema no restringidos"
+msgstr "Administrar configuración del sistema sin restricciones"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
-msgstr "Administración de todos los ajustes del sistema"
+msgstr "Administrar toda la configuración del sistema"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
-msgstr "Gestión de ajustes de telefonía"
+msgstr "Administrar configuración de telefonía"
 
 msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
-msgstr "Ajuste del volumen"
+msgstr "Ajuste de volumen"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
-msgstr "Administración del historial de Internet"
+msgstr "Administrar el historial de Internet"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
-msgstr "Administración de información de Wi-Fi Direct"
+msgstr "Administrar información de Wi-Fi Directo"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
-msgstr "Esta aplicación puede leer información sobre sus alarmas guardadas."
+msgstr "Esta aplicación puede leer información sobre las alarmas guardadas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
-msgstr "Esta aplicación puede leer y borrar datos en cualquier otra aplicación del dispositivo para detectar o eliminar contenido perjudicial."
+msgstr "Esta aplicación puede leer y eliminar datos de cualquier otra aplicación del dispositivo para detectar y eliminar contenido dañino."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
-msgstr "Esta aplicación pude abrir otras aplicaciones."
+msgstr "Esta aplicación puede abrir otras aplicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede realizar acciones no restringidas mediante Bluetooth, como buscar otros dispositivos y conectarse a ellos."
+msgstr "Esta aplicación puede realizar acciones sin restricciones vía Bluetooth, como buscar y conectarse a otros dispositivos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
-msgstr "Esta aplicación puede recuperar, crear, editar y eliminar favoritos de Internet."
+msgstr "Esta aplicación puede recuperar, crear, editar y eliminar Favoritos de Internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
 msgstr "Esta aplicación puede leer eventos y tareas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
-msgstr "Esa aplicación puede crear, actualizar y eliminar eventos y tareas."
+msgstr "Esta aplicación puede crear, actualizar y eliminar eventos y tareas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
-msgstr "Esa aplicación puede crear, actualizar y eliminar elementos del registro de llamadas."
+msgstr "Esta aplicación puede crear, actualizar y eliminar elementos del registro de llamadas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
-msgstr "Esta aplicación puede capturar y previsualizar imágenes."
+msgstr "Esta aplicación puede capturar y realizar vistas previas de imágenes."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
-msgstr "Esta aplicación puede crear, actualizar y eliminar su perfil, los contactos y cualquier historial de contactos relacionado con esta aplicación. El historial de contactos puede incluir actividad de la red social."
+msgstr "Esta aplicación puede crear, actualizar y eliminar su perfil, sus contactos y todo el historial de los contactos que esté relacionado con esta aplicación. El historial de los contactos puede incluir la actividad en las redes sociales."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
-msgstr "Esta aplicación puede leer su perfil, contactos e historial de contactos. El historial de contactos puede incluir actividad de la red social."
+msgstr "Esta aplicación puede leer su perfil, los contactos y el historial de los contactos. El historial de los contactos puede incluir la actividad en las redes sociales."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede cambiar la información multimedia. Esta información la pueden utilizar otras aplicaciones."
+msgstr "Esta aplicación puede cambiar la información multimedia. Otras aplicaciones pueden usar esta información."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
 msgstr "Esta aplicación puede compartir datos con otras aplicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
-msgstr "Esta aplicación puede gestionar los ajustes de pantalla, como el brillo. Esto podría aumentar el consumo de la batería."
+msgstr "Esta aplicación puede administrar la configuración de la pantalla, como el brillo. Esto puede aumentar el consumo de la batería."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
-msgstr "Esta aplicación puede gestionar sus cuentas de correo electrónico, incluidas sus carpetas y correos electrónicos."
+msgstr "Esta aplicación puede administrar sus cuentas de correo, incluidos los correos y las carpetas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
-msgstr "Esta aplicación puede gestionar los ajustes de las aplicaciones de correo electrónico."
+msgstr "Esta aplicación puede administrar la configuración de las aplicaciones de correo."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Esta aplicación puede leer y escribir archivos que se guardan en el almacenamiento externo, como las tarjetas SD."
+msgstr "Esta aplicación puede leer y escribir archivos guardados en el almacenamiento externo, como las tarjetas de memoria."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Esta aplicación puede leer y escribir sus propios archivos en el almacenamiento externo, como las tarjetas SD."
+msgstr "Esta aplicación puede leer y escribir sus propios archivos en el almacenamiento externo, como las tarjetas de memoria."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
 msgstr "Esta aplicación puede controlar la respuesta de vibración."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Esta aplicación puede acceder a Internet. Esto puede suponer costes adicionales según su plan de pago."
+msgstr "Esta aplicación tiene acceso a Internet. Esto puede generar costos adicionales según su plan de pago."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
-msgstr "Esta aplicación puede guardar claves, certificados y datos en el almacenamiento protegido por contraseña, o recuperarlos y eliminarlos desde allí."
+msgstr "Esta aplicación puede guardar claves, certificados y datos en un almacenamiento protegido con contraseña, así como recuperarlos y eliminarlos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
-msgstr "Esta aplicación puede bloquear y desbloquear el almacenamiento protegido por contraseña y gestionar sus cambios de contraseña."
+msgstr "Esta aplicación puede bloquear y desbloquear el almacenamiento protegido con contraseña y administrar los cambios de contraseña del almacenamiento."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
-msgstr "Esa aplicación puede activar o desactivar los LED, como el LED de la parte delantera del dispositivo y el flash de la cámara."
+msgstr "Esta aplicación puede encender y apagar los LED, como el LED ubicado en la parte frontal del dispositivo y el flash de la cámara."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
-msgstr "Esta aplicación puede controlar los ajustes del servicio de ubicación."
+msgstr "Esta aplicación puede controlar la configuración de su servicio de ubicación."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
-msgstr "Esta aplicación puede leer y escribir los archivos en las carpetas multimedia."
+msgstr "Esta aplicación puede leer y escribir los archivos en las carpetas de archivos multimedia."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
-msgstr "Esta aplicación puede leer mensajes multimedia y de texto, y cualquier información relacionada con ellos."
+msgstr "Esta aplicación puede leer mensajes multimedia y de texto, y cualquier información relacionada a ellos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
-msgstr "Esta aplicación puede recuperar información de la red, como el estado de cada red, su tipo e información detallada del perfil de red."
+msgstr "Esta aplicación puede obtener información acerca de las redes, como el estado de cada red, su tipo e información detallada sobre el perfil de la red."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
-msgstr "Esta aplicación puede añadir, eliminar y editar perfiles de redes."
+msgstr "Esta aplicación puede añadir, eliminar y editar perfiles de red."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
-msgstr "Esta aplicación puede activar y desactivar la Wi-Fi y conectarse y desconectarse de redes móviles y Wi-Fi."
+msgstr "Esta aplicación puede activar y desactivar Wi-Fi, conectarse a las redes Wi-Fi y móviles y desconectarse de ellas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
 msgstr "Esta aplicación puede mostrar y ocultar sus propias notificaciones e indicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
-msgstr "Esta aplicación puede instalar y desinstalar paquetes de aplicaciones, y borrar cachés de aplicaciones."
+msgstr "Esta aplicación puede instalar y desinstalar los paquetes de las aplicaciones y eliminar la caché de las aplicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
-msgstr "Esta aplicación puede recuperar la información detallada del paquete de aplicación."
+msgstr "Esta aplicación puede obtener información detallada de paquetes de aplicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Esta aplicación puede recibir notificaciones por Internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
-msgstr "Esta aplicación puede grabar vídeo y audio."
+msgstr "Esta aplicación puede grabar video y audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
-msgstr "Esta aplicación puede hacer capturas de pantalla."
+msgstr "Esta aplicación puede realizar capturas de pantalla."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
-msgstr "Esa aplicación puede crear y eliminar accesos directos."
+msgstr "Esta aplicación puede crear y eliminar atajos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Esta aplicación puede leer y escribir los ajustes del sistema no restringidos."
+msgstr "Esta aplicación puede leer y escribir la configuración del sistema sin restricciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
-msgstr "Esta aplicación puede leer y escribir todos los ajustes del sistema."
+msgstr "Esta aplicación puede leer y escribir toda la configuración del sistema."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
-msgstr "Esta aplicación puede recuperar información telefónica, como la red y la tarjeta SIM utilizadas, el IMEI y los estados de llamadas."
+msgstr "Esta aplicación puede obtener información de telefonía, como la red y la tarjeta SIM utilizadas, el IMEI y el estado de las llamadas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
-msgstr "Esta aplicación puede administrar ajustes de telefonía, como los de llamadas entrantes y salientes, el desvío de llamadas o las llamadas en espera, las redes y las tarjetas SIM."
+msgstr "Esta aplicación puede administrar la configuración relativa a la telefonía, como la configuración de las llamadas entrantes y salientes, el desvío de llamadas y las llamadas en espera, y las tarjetas SIM."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
-msgstr "Esta aplicación puede ajustar el volumen para diferentes funciones, como las alertas de notificaciones, las melodías y los medios."
+msgstr "Esta aplicación puede ajustar el volumen de diversas funciones, como las alertas de notificaciones, los tonos y el contenido multimedia."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
-msgstr "Esta aplicación puede administrar su historial de Internet."
+msgstr "Esta aplicación puede administrar el historial de Internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
-msgstr "Esta aplicación puede activar y desactivar Wi-Fi Direct, administrar conexiones de Wi-Fi Direct y cambiar los ajustes de Wi-Fi Direct."
+msgstr "Esta aplicación puede activar y desactivar Wi-Fi Directo, administrar sus conexiones y cambiar su configuración."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
-msgstr "Esta aplicación puede crear, editar y eliminar favoritos."
+msgstr "Esta aplicación puede crear, editar y eliminar Favoritos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
-msgstr "Esta aplicación puede leer la información de salud recopilada por los sensores del dispositivo, como el podómetro y el monitor de la frecuencia cardiaca."
+msgstr "Esta aplicación puede leer la información relativa a la salud recopilada por los sensores del dispositivo, como el podómetro y el monitor de ritmo cardiaco."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
-msgstr "Esta aplicación puede recuperar mensajes del buzón de mensajes o recibir mensajes."
+msgstr "Esta aplicación puede obtener mensajes de las bandejas de mensajes o recibir mensajes."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
 msgstr "Esta aplicación puede leer información segura del sistema."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
-msgstr "Esta aplicación puede leer los datos exportados por los proveedores de control de datos."
+msgstr "Esta aplicación puede leer datos exportados por proveedores de control de datos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
-msgstr "Esta aplicación puede leer información del sistema."
+msgstr "Esta aplicación puede leer la información del sistema."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
-msgstr "Esta aplicación puede aparecer encima de otras ventanas y pantallas, incluida la pantalla de bloqueo, según el orden de prioridad de las ventanas. Esto podría impedirle interactuar con otras aplicaciones o pantallas hasta que se cierre la ventana de esta aplicación."
+msgstr "Esta aplicación puede aparecer sobre otras ventanas y pantallas, incluida la pantalla de bloqueo, según el orden de prioridad de las ventanas. Esto puede impedir que interactúe con otras aplicaciones o pantallas hasta que la ventana de esta aplicación se haya cerrado."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
-msgstr "Esta aplicación puede modificar los ajustes del sistema Bluetooth en relación a la privacidad y la seguridad, como el modo de visibilidad."
+msgstr "Esta aplicación puede cambiar la configuración del sistema de Bluetooth relacionada con la privacidad y seguridad, como el modo Visibilidad."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
-msgstr "Esta aplicación puede cambiar los ajustes de su aplicación web, incluida la eliminación de las cookies."
+msgstr "Esta aplicación puede cambiar la configuración de la aplicación web, incluida la eliminación de cookies."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
 msgstr "Esta aplicación puede cerrar otras aplicaciones."
@@ -476,88 +476,88 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
 msgstr "Esta aplicación puede crear, editar y eliminar cuentas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
-msgstr "Esta aplicación puede activar y desactivar los dispositivos de anclaje de red."
+msgstr "Esta aplicación puede activar y desactivar servicios de anclaje a red."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
-msgstr "Esta aplicación puede realizar llamadas telefónicas a números cuando se pulsan sin confirmación adicional."
+msgstr "Esta aplicación puede realizar llamadas telefónicas a números cuando son pulsados sin solicitar más confirmaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
-msgstr "Esta aplicación puede gestionar las grabaciones de audio."
+msgstr "Esta aplicación puede administrar grabaciones de audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
-msgstr "Esta aplicación puede abrir otras aplicaciones utilizando el ID de la aplicación o el control de la aplicación."
+msgstr "Esta aplicación puede abrir otras aplicaciones usando la ID de la aplicación o el control de la aplicación."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
 msgstr "Esta aplicación puede leer cuentas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede leer y escribir la información de etiqueta NFC y enviar mensajes NFC a otros dispositivos."
+msgstr "Esta aplicación puede leer y escribir información de etiquetas NFC, y enviar mensajes NFC a otros dispositivos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
 msgstr "Esta aplicación puede leer sistemas de archivos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
-msgstr "Esta aplicación puede leer la información de contenido multimedia."
+msgstr "Esta aplicación puede leer la información del contenido multimedia."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede recuperar información relacionada con otras aplicaciones."
+msgstr "Esta aplicación puede obtener información relacionada con otras aplicaciones."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Esta aplicación puede recuperar certificados de aplicaciones específicos."
+msgstr "Esta aplicación puede obtener certificados de aplicaciones especificadas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
-msgstr "Esta aplicación puede guardar su contenido en sus ubicaciones de almacenamiento externo o almacenamiento del dispositivo, como tarjetas SD, sin límites en el tamaño del contenido."
+msgstr "Esta aplicación puede guardar su contenido en el almacenamiento del dispositivo o en ubicaciones de almacenamiento externas, como tarjetas de memoria, sin aplicar límites al tamaño del contenido."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Esta aplicación puede definir alarmas y despertar el dispositivo a las horas programadas."
+msgstr "Esta aplicación puede definir alarmas y activar el dispositivo a horarios programados."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Esta aplicación puede sincronizar los datos del dispositivo, como los contactos y los eventos del calendario, utilizando el protocolo OMA DS 1.2."
+msgstr "Esta aplicación puede sincronizar los datos del dispositivo, como los contactos y eventos del calendario, mediante el protocolo OMA DS 1.2."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
-msgstr "Esta aplicación puede utilizar la vista de pantalla completa."
+msgstr "Esta aplicación puede usar la vista de pantalla completa."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
-msgstr "Esta aplicación puede utilizar el Perfil de acceso genérico (GAP) de Bluetooth, por ejemplo, para buscar dispositivos y vincularse con ellos."
+msgstr "Esta aplicación puede usar el Perfil de Acceso Genérico (GAP) de Bluetooth para buscar y vincular dispositivos, entre otras cosas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
-msgstr "Esta aplicación puede utilizar el Perfil de salud del dispositivo (HDP) de Bluetooth, por ejemplo, para enviar información de salud."
+msgstr "Esta aplicación puede usar el Perfil de Dispositivo de Salud (HDP) de Bluetooth para enviar información de la salud, entre otras cosas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
-msgstr "Esta aplicación puede utilizar el Perfil del puerto serie (SPP) de Bluetooth, por ejemplo, para enviar datos en serie."
+msgstr "Esta aplicación puede usar el Perfil de Puerto Serie (SPP) de Bluetooth para enviar datos en serie, entre otras cosas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
-msgstr "Esta aplicación puede utilizar sus datos de ubicación."
+msgstr "Esta aplicación puede usar los datos de su ubicación."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
-msgstr "Esta aplicación puede escribir mensajes de texto, mensajes multimedia y correos electrónicos."
+msgstr "Esta aplicación puede escribir mensajes de texto, mensajes multimedia y correos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
-msgstr "Esta aplicación puede escribir sistemas de archivos."
+msgstr "Esta aplicación puede escribir en los sistemas de archivos."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
-msgstr "Esta aplicación puede acceder a los chips de smart card seguros como UICC/SIM, a los elementos seguros integrados y a las tarjetas SD seguras."
+msgstr "Esta aplicación tiene acceso a los chips de tarjetas inteligentes seguras, como UICC o SIM, a elementos seguros integrados, y a tarjetas de memoria seguras."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
-msgstr "Esta aplicación puede cambiar y leer los ajustes del usuario."
+msgstr "Esta aplicación puede cambiar y leer la configuración del usuario."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Esta aplicación puede modificar los ajustes de NFC, como activar o desactivar NFC."
+msgstr "Esta aplicación puede cambiar la configuración de NFC, como su activación o desactivación."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
-msgstr "Esta aplicación puede controlar ajustes relacionados con la energía, como la atenuación de la pantalla."
+msgstr "Esta aplicación puede controlar las opciones de configuración sobre consumo de energía, como atenuar la pantalla."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Esta aplicación puede instalar o desinstalar paquetes de aplicación."
+msgstr "Esta aplicación puede instalar o desinstalar paquetes de aplicaciones."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede enviar mensajes NFC a otros dispositivos."
+msgstr "Esta aplicación puede insertar mensajes NFC en otros dispositivos."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
 msgstr "Esta aplicación puede leer y escribir información de etiquetas NFC."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
-msgstr "Esta aplicación puede leer favoritos."
+msgstr "Esta aplicación puede leer Favoritos."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
 msgstr "Esta aplicación puede leer elementos del registro de llamadas."
@@ -566,68 +566,68 @@ msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
 msgstr "Esta aplicación puede recibir información de paquetes."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
-msgstr "Esta aplicación puede utilizar funciones comunes de NFC."
+msgstr "Esta aplicación puede usar las funciones comunes de NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
-msgstr "Uso de los servicios NFC básicos"
+msgstr "Usar servicios NFC básicos"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
-msgstr "Uso del modo de emulación de tarjeta NFC"
+msgstr "Usar el modo Emulación de tarjeta NFC"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
-msgstr "Acceso a los servicios de anclaje de red"
+msgstr "Acceder a los servicios de anclaje a red"
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
 msgstr "Mostrar ventanas sobre otras aplicaciones y pantallas"
 
 msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
-msgstr "Realizar llamadas de teléfono"
+msgstr "Realizar llamadas"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
-msgstr "Esta aplicación puede acceder a la información de la smart card, por ejemplo los datos de la tarjeta de crédito, y permitir que los usuarios realicen pagos mediante NFC."
+msgstr "Esta aplicación puede acceder a la información de las tarjetas inteligentes, como la información de las tarjetas de crédito, y permitir a los usuarios realizar pagos vía NFC."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
-msgstr "Esta aplicación puede escribir, enviar, eliminar y mover mensajes multimedia y de texto, y cambiar los ajustes y los estados de los mensajes, por ejemplo leído o no leído."
+msgstr "Esta aplicación puede escribir, enviar, eliminar y mover mensajes multimedia y de texto, y cambiar la configuración y el estado de los mensajes, como leído o no leído."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
-msgstr "Esta aplicación puede restringir el dispositivo para que solo se pueda acceder a algunos dominios específicos a través de las redes móviles."
+msgstr "Esta aplicación puede restringir el dispositivo para que solo se pueda acceder a algunos dominios específicos vía redes móviles."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
-msgstr "Captura de datos multimedia"
+msgstr "Capturar datos multimedia"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
-msgstr "Esta aplicación puede capturar datos de vídeo y audio."
+msgstr "Esta aplicación puede capturar datos de video y audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
 msgstr "Esta aplicación puede mostrar, editar y eliminar notificaciones."
 
 msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
-msgstr "Apertura y reanudación de aplicaciones"
+msgstr "Abrir y reanudar aplicaciones"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
-msgstr "Gestión de alarmas"
+msgstr "Administrar alarmas"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Esta aplicación puede gestionar alarmas recuperando las alarmas guardadas y activando el dispositivo a las horas programadas."
+msgstr "Esta aplicación puede administrar alarmas recuperando las alarmas guardadas y activando el dispositivo a las horas programadas."
 
 msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
-msgstr "Cambio de ajustes de Bluetooth"
+msgstr "Cambiar la configuración Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
-msgstr "Esta aplicación puede cambiar los ajustes de Bluetooth, como activar o desactivar el Bluetooth, definir el nombre del dispositivo y activar o desactivar el control remoto de AV."
+msgstr "Esta aplicación puede cambiar las opciones de configuración de Bluetooth, como la activación o desactivación de Bluetooth, la definición del nombre del dispositivo, y la activación o desactivación del control remoto de AV."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
 msgstr "Esta aplicación puede leer información sobre las notificaciones."
 
 msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
-msgstr "Uso de la vista de pantalla completa"
+msgstr "Usar la vista de pantalla completa"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
-msgstr "Recuperación de información de notificación"
+msgstr "Recuperar información de notificaciones"
 
 msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
-msgstr "Envío de mensajes multimedia y de texto y actualización de sus estados"
+msgstr "Enviar mensajes multimedia y de texto, y actualizar sus estados"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Esta aplicación puede administrar descargas de HTTP. Esto puede suponer costes adicionales según su plan de pago."
+msgstr "Esta aplicación puede administrar las descargas HTTP. Esto puede generar costos adicionales según su plan de pago."
 

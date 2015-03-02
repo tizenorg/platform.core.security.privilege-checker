@@ -10,416 +10,26 @@ msgstr "Üzenetek hozzáférése"
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Biztonságos elemek hozzáférése"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
-msgstr "Rendszeradatok hozzáférése"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Telefonos szolgáltatások hozzáférése"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
-msgstr "Idő és dátum hozzáférése"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Tárhely korlát nélküli hozzáférése"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
-msgstr "Felhasználóazonosító hozzáférése"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Felhasználói beállítások hozzáférése"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
-msgstr "Webtartalom hozzáférése"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
-msgstr "Lehetővé teszi a víruskereső alkalmazás számára a káros tartalom keresését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
-msgstr "Lehetővé teszi az alkalmazás számára a hozzáférést az adatvédelmi információkhoz a felhasználó azonosítása céljából"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a biztonságos rendszer-információk hozzáférését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára az egyéb alkalmazások által exportált specifikus adatok hozzáférését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a rendszeradatok hozzáférését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
-msgstr "Lehetővé teszi az alkalmazás számára a hozzáférést az internethez"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Lehetővé teszi az alkalmazás hozzáférését a biztonságos intelligenskártya-chiphez, ami lehet például UICC/SIM, beágyazott biztonságos elemhez vagy biztonságos SD-kártyához"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
-msgstr "Lehetővé teszi az alkalmazás számára parancsikonok felvételét a kezdőképernyőre, illetve az eltávolításukat onnan"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
-msgstr "Lehetővé teszi az alkalmazás számára a Dynamic Box felvételét a kezdőképernyőre"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
-msgstr "Lehetővé teszi az alkalmazás számára tanúsítványok hozzáadását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
-msgstr "Lehetővé teszi az alkalmazás számára névjegyek hozzáadását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
-msgstr "Lehetővé teszi az alkalmazás feltételes megnyitását vagy egy másik alkalmazás megnyitását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
-msgstr "Lehetővé teszi az alkalmazás számára a Bluetooth-beállítások módosítását, például a Bluetooth be- és kikapcsolását, valamint a helyi eszköznév beállítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
-msgstr "Lehetővé teszi az alkalmazás számára a biztonsággal és adatvédelemmel kapcsolatos Bluetooth-rendszerbeállítások, például a látható üzemmód módosítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Lehetővé teszi az alkalmazás számára az NFC-beállítások módosítását, például az NFC be- vagy kikapcsolását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára az NFC-rendszerbeállítások módosítását, például az előre megadott NDEF-üzeneteket küldő fenntartott push be- vagy kikapcsolását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára az adatvédelmi beállítások módosítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára a biztonsági vagy adatvédelmi beállítások módosítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
-msgstr "Lehetővé teszi az alkalmazás számára egy másik alkalmazás bezárását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Lehetővé teszi az alkalmazás számára a kommunikációt más eszközökkel és szerverekkel"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
-msgstr "Lehetővé teszi az alkalmazás számára a kommunikációt a HTTP-szerverrel"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
-msgstr "Lehetővé teszi az alkalmazás számára a mobilhálózatok konfigurálását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
-msgstr "Lehetővé teszi az alkalmazás számára a hívásátirányítási szolgáltatás vezérlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
-msgstr "Lehetővé teszi az alkalmazás számára fiókok létrehozását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
-msgstr "Lehetővé teszi az alkalmazás számára hívásnaplók létrehozását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
-msgstr "Lehetővé teszi az alkalmazás számára tartalom létrehozását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára az ütemezési és feladatadatok létrehozását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Lehetővé teszi az alkalmazás számára könyvjelzők létrehozását, frissítését és törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
-msgstr "Lehetővé teszi az alkalmazás számára a geolokációs engedélyek törlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
-msgstr "Lehetővé teszi az alkalmazás számára webtartalom megjelenítését vagy a webtartalommal kapcsolatos API használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
-msgstr "Lehetővé teszi az alkalmazás számára érintési és billentyűesemények generálását, valamint képernyőfelvétel készítését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára az értesítések lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Lehetővé teszi az alkalmazás számára az adott alkalmazástanúsítványok lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára az idő- és dátuminformációk lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
-msgstr "Lehetővé teszi az alkalmazás számára az energiaállapotok tartását és vezérlését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Lehetővé teszi az alkalmazás számára alkalmazáscsomagok telepítését és eltávolítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
-msgstr "Lehetővé teszi az alkalmazás számára egy másik alkalmazás feltételes megnyitásának kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára az alkalmazásbeállítások kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
-msgstr "Lehetővé teszi az alkalmazás számára a hangrögzítés kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
-msgstr "Lehetővé teszi az alkalmazás számára az eszköz fényképezőinek kezelését képek megjelenítése és rögzítése érdekében"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a digitális jogkezelés (DRM) licenceinek kezelését és a DRM-tartalomadatok letöltését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
-msgstr "Lehetővé teszi az alkalmazás számára a HTTP-letöltések kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
-msgstr "Lehetővé teszi az alkalmazás számára a hálózati fiókok kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
-msgstr "Lehetővé teszi az alkalmazás számára a hálózati kapcsolatok kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára az értesítések kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
-msgstr "Lehetővé teszi az alkalmazás számára a hírszolgálat (CBS) kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
-msgstr "Lehetővé teszi az alkalmazás számára a telepített beviteli módszerek kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználó webvezérlő vagy böngésző által mentett adatainak kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a Wi-Fi rendszerbeállítások kezelését, például a hozzáférési pont adatainak frissítését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználói felület tulajdonságainak kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
-msgstr "Lehetővé teszi az alkalmazás számára a fényképező vagy hangrögzítő segítségével történő video- vagy hangrögzítés kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
-msgstr "Lehetővé teszi az alkalmazás számára a videórögzítést a kamerával"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára a WAP push üzenetek kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
-msgstr "Lehetővé teszi az alkalmazás számára a Wi-Fi Direct kezelését az eszközön"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Lehetővé teszi az alkalmazás számára a Wi-Fi kezelését az eszközön, például a Wi-Fi be-ki kapcsolását, valamint a kapcsolódást a hozzáférési ponthoz"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználói profil kezelését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
-msgstr "Lehetővé teszi az alkalmazás számára, hogy az lehetőséget kínáljon karakterek és szimbólumok bevitelére a társított beviteli mezőbe"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
-msgstr "Lehetővé teszi az alkalmazás számára tartománynév-szolgáltatás (DNS) biztosítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználó értesítését, például üzenet vagy jelek formájában"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Lehetővé teszi az alkalmazás számára NFC-üzenetek leküldését más eszközökre"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
-msgstr "Lehetővé teszi az alkalmazás számára a fiókok olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára az NFC-címkeadatok olvasását és írását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára az alkalmazásinformációk olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
-msgstr "Lehetővé teszi az alkalmazás számára a könyvjelzők olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
-msgstr "Lehetővé teszi az alkalmazás számára a naplók olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
-msgstr "Lehetővé teszi az alkalmazás számára a tanúsítványok olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
-msgstr "Lehetővé teszi az alkalmazás számára a névjegyek olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
-msgstr "Lehetővé teszi az alkalmazás számára a tartalom olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
-msgstr "Lehetővé teszi az alkalmazás számára a fájlrendszerek olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Lehetővé teszi az alkalmazás számára a geolokációs engedélyek olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
-msgstr "Lehetővé teszi az alkalmazás számára olyan adatok olvasását, mint a platform vagy az API verziója"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
-msgstr "Lehetővé teszi az alkalmazás számára a hálózati statisztika olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára az adatvédelmi beállítások olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára a biztonsági vagy adatvédelmi beállítások olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára az ütemezési és feladatadatok olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználói profil olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára részletes csomaginformációk fogadását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
-msgstr "Lehetővé teszi az alkalmazás számára, hogy az értesítést kapjon az előtérben futó alkalmazások módosításairól"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára csomaginformációk fogadását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára push értesítések fogadását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
-msgstr "Lehetővé teszi az alkalmazás számára SMS üzenetek fogadását a megadott portról"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Lehetővé teszi az alkalmazás számára az üzenetfogadást, valamint az üzenetek letöltését a postafiókokból"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
-msgstr "Lehetővé teszi az alkalmazás számára adott hálózati kapcsolat kérését, illetve bontását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a Wi-Fi Direct-adatok lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a Wi-Fi adatok lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
-msgstr "Lehetővé teszi az alkalmazás számára a hálózati statisztika nullázását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Lehetővé teszi az alkalmazás számára rendszerinformációk, például a hálózat-, SIM- és hívásadatok lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Lehetővé teszi az alkalmazás számára a telefonos szolgáltatások információi, például a hálózat-, SIM- és hívásadatok lekérését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
-msgstr "Lehetővé teszi az alkalmazás számára az SMS üzenetek küldését és fogadását, valamint az SMS üzenetek letöltését a postafiókokból"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára e-mail üzenetek küldését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára MMS üzenetek küldését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára az SMS, MMS és e-mail üzenetek küldését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
-msgstr "Lehetővé teszi az alkalmazás számára jelzés beállítását és az eszköz felébresztését az ütemezett időpontban"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
-msgstr "Lehetővé teszi az alkalmazás számára a hangbemeneti és -kimeneti útvonalak beállítását és értesítések fogadását az útvonalak eseményeiről"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára csomagkonfigurációk beállítását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Lehetővé teszi az alkalmazás számára az eszköz adatainak szinkronizálását a szerverrel az OMA DS 1.2 protokoll használatával"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
-msgstr "Lehetővé teszi az alkalmazás számára a rezgés bekapcsolását és használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
-msgstr "Lehetővé teszi az alkalmazás számára az eszköz feloldását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára az értesítések frissítését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználói beállítások frissítését vagy olvasását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
-msgstr "Lehetővé teszi az alkalmazás számára a rendszer hálózati fiókjainak frissítését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Lehetővé teszi az alkalmazás számára a csatolt tárhely méretkorlát nélküli használatát adatbázisokhoz és fájlokhoz"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
-msgstr "Lehetővé teszi az alkalmazás számára a teljes képernyő használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
-msgstr "Lehetővé teszi az alkalmazás számára az általános NFC-funkciók használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
-msgstr "Lehetővé teszi az alkalmazás számára a Generic Access Profile (GAP) használatát, például eszközök keresésére és párosítására"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
-msgstr "Lehetővé teszi az alkalmazás számára a Health Device Profile (HDP) használatát, például egészségi adatok küldésére"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
-msgstr "Lehetővé teszi az alkalmazás számára az internet használatát a megfelelő hordozóval"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
-msgstr "Lehetővé teszi az alkalmazás számára az Object Push Profile (OPP) használatát, például fájlok küldésére"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
-msgstr "Lehetővé teszi az alkalmazás számára a Serial Port Profile (SPP) használatát, például soros adatok küldésére"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
-msgstr "Lehetővé teszi az alkalmazás számára a rendszernapló (dlog) használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
-msgstr "Lehetővé teszi az alkalmazás számára a tesztautomatizálás funkció használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
-msgstr "Lehetővé teszi az alkalmazás számára a felhasználó helyadatainak használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
-msgstr "Lehetővé teszi az alkalmazás számára a Tizen webes eszköz API közös moduljának használatát"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Lehetővé teszi az alkalmazás számára az SMS, MMS és e-mail üzenetek írását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
-msgstr "Lehetővé teszi az alkalmazás számára a fájlrendszerek írását"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Lehetővé teszi az alkalmazás számára a jogosultsági adatok olvasását"
-
-msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
-msgstr "Teljes képernyőre kapcsolás"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Alkalmazások bezárása"
 
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Kommunikáció más eszközökkel és szerverekkel"
-
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
-msgstr "Kommunikáció a HTTP-szerverrel"
-
-msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
-msgstr "Mobilhálózat konfigurálása"
-
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "Letöltés HTTP-n keresztül"
-
-msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
-msgstr "Hívások átirányítása"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Alkalmazástanúsítványok lekérése"
 
-msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
-msgstr "Dynamic Box telepítése"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Fiókok kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
-msgstr "Alkalmazások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
-msgstr "Alkalmazásbeállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
-msgstr "Audio-útvonalak kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
-msgstr "Általános Bluetooth-beállítások kezelése"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "Bluetooth-rendszerbeállítások kezelése"
@@ -433,98 +43,23 @@ msgstr "Naptár kezelése"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Hívásnaplók kezelése"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
-msgstr "Hírszolgálat kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
-msgstr "Tanúsítványok kezelése"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Névjegyek kezelése"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Tartalom kezelése"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
-msgstr "DRM kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
-msgstr "Geolokációs engedélyek kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
-msgstr "Bemeneti események kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "Beviteli módok kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
-msgstr "Hálózati fiókok kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Hálózati kapcsolatok kezelése"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Általános NFC-beállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
-msgstr "NFC-rendszerbeállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
-msgstr "Értesítések kezelése"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
 msgstr "Csomagok kezelése"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
-msgstr "Csomagbeállítások kezelése"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Energiagazdálkodás kezelése"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
-msgstr "Adatvédelmi beállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
-msgstr "Parancsikonok kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
-msgstr "SMS-kezelés"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
-msgstr "Rendszerbeállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
-msgstr "Felhasználói felület kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
-msgstr "Felhasználói profil kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
-msgstr "Rezgésbeállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
-msgstr "WAP push üzenetek kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
-msgstr "Webes adatok kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
-msgstr "Wi-Fi kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
-msgstr "Wi-Fi Direct kezelése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
-msgstr "Wi-Fi rendszerbeállítások kezelése"
-
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
 msgstr "Alkalmazások megnyitása"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
-msgstr "DNS biztosítása"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
-msgstr "Beviteli módok biztosítása"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Értesítés adása"
@@ -535,9 +70,6 @@ msgstr "NFC-üzenetek leküldése"
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
 msgstr "Fiókok olvasása"
 
-msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
-msgstr "Alkalmazásadatok olvasása"
-
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Könyvjelzők olvasása"
 
@@ -546,9 +78,6 @@ msgstr "Naptár olvasása"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Hívásnaplók olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
-msgstr "Tanúsítványok olvasása"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Névjegyek olvasása"
@@ -559,56 +88,17 @@ msgstr "Tartalom olvasása"
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
 msgstr "Fájlrendszerek olvasása"
 
-msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
-msgstr "Geolokációs engedélyek olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
-msgstr "Hálózati statisztika olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
-msgstr "Értesítések olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
-msgstr "Platformadatok olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
-msgstr "Adatvédelmi beállítások olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
-msgstr "Jogosultsági adatok olvasása"
-
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
 msgstr "Biztonságos rendszeradatok olvasása"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Rendszeradatok olvasása"
 
-msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
-msgstr "Rendszer biztonsági beállításainak olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
-msgstr "Felhasználói profil olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
-msgstr "Wi-Fi Direct-adatok olvasása"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
-msgstr "Wi-Fi adatok olvasása"
-
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "NFC-címkék olvasása és írása"
 
-msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
-msgstr "Alkalmazáshasználati értesítések fogadása"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Részletes csomagadatok fogadása"
-
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Csomagadatok fogadása"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
-msgstr "Portspecifikus SMS-ek fogadása"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Push értesítések fogadása"
@@ -616,29 +106,8 @@ msgstr "Push értesítések fogadása"
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Hangfelvétel készítése"
 
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
-msgstr "Videofelvétel készítése"
-
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Video- és hangfelvétel készítése"
-
-msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
-msgstr "Hálózati statisztika alaphelyzetbe állítása"
-
-msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
-msgstr "Víruskeresés"
-
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Hálózati kapcsolat kiválasztása"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
-msgstr "E-mail küldése"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
-msgstr "Üzenetek küldése"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
-msgstr "MMS küldése"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Jelzések beállítása"
@@ -646,26 +115,11 @@ msgstr "Jelzések beállítása"
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
 msgstr "Eszközadatok szinkronizálása"
 
-msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
-msgstr "Eszköz feloldása"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
-msgstr "Hálózati beállítások frissítése"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
-msgstr "Értesítések frissítése"
-
-msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
-msgstr "Speciális internetbeállítások használata"
-
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
 msgstr "Bluetooth GAP használata"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
 msgstr "Bluetooth HDP használata"
-
-msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP használata"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "Bluetooth SPP használata"
@@ -673,17 +127,8 @@ msgstr "Bluetooth SPP használata"
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
 msgstr "Fényképező használata"
 
-msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
-msgstr "Közös modul használata"
-
-msgid "IDS_TPLATFORM_BODY_USING_LOG"
-msgstr "Napló használata"
-
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "Általános NFC-funkciók használata"
-
-msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
-msgstr "Tesztautomatizálás használata"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
 msgstr "Felhasználó helyadatainak használata"
@@ -709,9 +154,6 @@ msgstr "Névjegyek"
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
 
-msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
-msgstr "Üzenetek"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -720,15 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Alkalmazásadatok letöltése"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
-msgstr "Alapértelmezett alkalmazásbeállítások kezelése"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Lehetővé teszi az alkalmazás számára az egyéb alkalmazásokhoz kapcsolódó információk letöltését"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
-msgstr "Lehetővé teszi az alkalmazás számára az alapértelmezett alkalmazásbeállítások olvasását és frissítését"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Hely"
@@ -754,6 +187,447 @@ msgstr "Egyéb jogok"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Webalkalmazás-beállítások kezelése"
 
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
-msgstr "Lehetővé teszi az alkalmazás számára a webalkalmazás beállításainak kezelését, beleértve a webalkalmazáshoz mentett valamennyi cookie eltávolítását"
+msgid "IDS_TPLATFORM_BODY_MESSAGING"
+msgstr "Üzenetek"
+
+msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
+msgstr "Hívásnapló"
+
+msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
+msgstr "Ez a jogosultság nincs megadva."
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Általános"
+
+msgid "IDS_ST_HEADER_PRIVACY"
+msgstr "Védett adataim"
+
+msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
+msgstr "%1$s letiltva a(z) %2$s alkalmazásban."
+
+msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
+msgstr "Egészségi adatok olvasása"
+
+msgid "IDS_ST_OPT_SEND_SMS_ABB"
+msgstr "SMS küldése"
+
+msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
+msgstr "SMS és MMS olv."
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
+msgstr "Jelzések letöltése"
+
+msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
+msgstr "Vírusok keresése és törlése"
+
+msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
+msgstr "Nem korlátozott Bluetooth-szolgáltatások használata"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
+msgstr "Internetes könyvjelzők hozzáférése"
+
+msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
+msgstr "Adatok megosztása az alkalmazások között"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
+msgstr "Megjelenítési beállítások kezelése"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
+msgstr "E-mail fiókok, postafiókok és e-mailek kezelése"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
+msgstr "E-mail-konfigurációk kezelése"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Külső tároló hozzáférése"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Alkalmazás adatainak hozzáférése külső tárolóban"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
+msgstr "Rezgéses visszajelzés kezelése"
+
+msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Biztonságos tárház használata"
+
+msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Biztonságos tárház zárolása/feloldása"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
+msgstr "LED-ek kezelése"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
+msgstr "Helybeállítások kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
+msgstr "Médiamappák hozzáférése"
+
+msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
+msgstr "Szöveges és multimédiás üzenetek, valamint a kapcsolódó információk olvasása"
+
+msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
+msgstr "Hálózati információk olvasása"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
+msgstr "Hálózati profilok kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Hálózati kapcsolatok kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
+msgstr "Értesítések kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
+msgstr "Alkalmazáscsomagok telepítése és eltávolítása, valamint gyorsítótárak törlése"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Részletes csomagadatok letöltése"
+
+msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Video- és hangfelvétel készítése"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
+msgstr "Felvétel készítése az eszköz képernyőjéről"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
+msgstr "Parancsikonok kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Nem korlátozott rendszerbeállítások kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
+msgstr "Összes rendszerbeállítás kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
+msgstr "Telefonos szolgáltatások beállításainak kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
+msgstr "Hangerő beállítása"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
+msgstr "Internetes előzmények kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
+msgstr "Wi-Fi Direct-adatok kezelése"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
+msgstr "Az alkalmazás olvashatja az ön mentett jelzéseivel kapcsolatos adatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
+msgstr "Az alkalmazás az eszköz bármely alkalmazásának adatait olvashatja és törölheti a káros tartalmak észlelése és eltávolítása érdekében."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
+msgstr "Az alkalmazás megnyithat más alkalmazásokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
+msgstr "Az alkalmazás korlátozás nélküli műveleteket hajthat végre a Bluetooth segítségével, például eszközöket kereshet, és kapcsolódhat hozzájuk."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
+msgstr "Az alkalmazás internetes könyvjelzőket tölthet le, hozhat létre, szerkeszthet és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
+msgstr "Az alkalmazás olvashatja az eseményeket és feladatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
+msgstr "Az alkalmazás eseményeket és feladatokat hozhat létre, frissíthet és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
+msgstr "Az alkalmazás hívásnapló-bejegyzéseket hozhat létre, frissíthet és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
+msgstr "Az alkalmazás fényképeket készíthet, és megjelenítheti azok előnézetét."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
+msgstr "Az alkalmazás létrehozhatja, frissítheti és törölheti az ön profilját, névjegyeit és az alkalmazáshoz kapcsolódó kapcsolatelőzményeket. A kapcsolatelőzményekben szerepelhetnek a közösségi hálózati tevékenységek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
+msgstr "Az alkalmazás olvashatja az ön profilját, névjegyeit és kapcsolatelőzményeit. A kapcsolatelőzményekben szerepelhetnek a közösségi hálózati tevékenységek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
+msgstr "Az alkalmazás megváltoztathatja a médiaadatokat. Ezeket az adatokat felhasználhatják más alkalmazások."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
+msgstr "Az alkalmazás adatokat oszthat meg más alkalmazásokkal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
+msgstr "Az alkalmazás kezelheti a megjelenítési beállításokat, például a fényerőt. Így gyorsabban merülhet az akkumulátor."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
+msgstr "Az alkalmazás kezelheti az ön e-mail fiókjait, beleértve a mappákat és az e-mail üzeneteket is."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
+msgstr "Az alkalmazás kezelheti az e-mail-alkalmazások beállításait."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Az alkalmazás olvashatja és írhatja a külső tárolóba, például SD-kártyára mentett fájlokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Az alkalmazás olvashatja és írhatja saját fájljait egy külső tárolón, például az SD-kártyára mentett fájlokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
+msgstr "Az alkalmazás vezérelheti a rezgéses visszajelzést."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Az alkalmazás hozzáférhet az internethez. Ez az előfizetési csomagtól függően további költséggel járhat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
+msgstr "Az alkalmazás kulcsokat, tanúsítványokat és adatokat menthet jelszóval védett tárhelyre, valamint ilyen információkat kérhet le vagy törölhet onnan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
+msgstr "Az alkalmazás zárolhatja és feloldhatja a jelszóval védett tárhelyet, és kezelheti a jelszó módosítását."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
+msgstr "Az alkalmazás be- és kikapcsolhatja a LED-eket, például az eszköz előlapján található LED-et, valamint a fényképező vakuját."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
+msgstr "Az alkalmazás kezelheti a helymeghatározó szolgáltatások beállításait."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
+msgstr "Az alkalmazás fájlokat olvashat és írhat a médiamappákban."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
+msgstr "Az alkalmazás olvashatja a szöveges és multimédiás üzeneteket, valamint a kapcsolódó információkat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
+msgstr "Az alkalmazás lekérheti a hálózati információkat, például az egyes hálózatok állapotát, típusát és a hálózati profil részletes adatait."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
+msgstr "Az alkalmazás hálózati profilokat adhat hozzá, távolíthat el és szerkeszthet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
+msgstr "Az alkalmazás be- és kikapcsolhatja a Wi-Fi-t, továbbá Wi-Fi- és mobilhálózati kapcsolatot létesíthet és bonthat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
+msgstr "Az alkalmazás megjelenítheti vagy elrejtheti saját értesítéseit és jelzőelemeit."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
+msgstr "Az alkalmazás alkalmazáscsomagokat telepíthet és távolíthat el, valamint törölheti az egyes alkalmazások gyorsítótárát."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
+msgstr "Az alkalmazás részletes információkat kérhet le az alkalmazáscsomagokról."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
+msgstr "Az alkalmazás értesítéseket fogadhat az interneten keresztül."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
+msgstr "Az alkalmazás video- és hangfelvételeket készíthet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
+msgstr "Az alkalmazás képernyőfotókat készíthet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
+msgstr "Az alkalmazás parancsikonokat hozhat létre és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Az alkalmazás valamennyi nem korlátozott rendszerbeállítást olvashatja és írhatja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
+msgstr "Az alkalmazás valamennyi rendszerbeállítást olvashat és írhat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
+msgstr "Az alkalmazás információkat kérhet le a telefonos szolgáltatásokról, például a használt hálózatról és SIM kártyáról, az IMEI számról és a hívások állapotáról."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
+msgstr "Az alkalmazás kezelheti a telefonos szolgáltatások beállításait, például a bejövő és kimenő hívások, a hívásátirányítás és -tartás, a hálózatok és a SIM kártyák beállításait."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
+msgstr "Az alkalmazás beállíthatja különféle funkciók, például az értesítések, csengőhangok és médiatartalmak hangerejét."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
+msgstr "Az alkalmazás kezelheti az internetes előzményeket."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
+msgstr "Az alkalmazás be- és kikapcsolhatja a Wi-Fi Direct funkciót, kezelheti a Wi-Fi Direct-kapcsolatokat, és módosíthatja a Wi-Fi Direct beállításait."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
+msgstr "Az alkalmazás könyvjelzőket hozhat létre, szerkeszthet és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
+msgstr "Az alkalmazás olvashatja az eszköz érzékelői, például a lépésszámláló és a pulzusfigyelő által gyűjtött egészségi adatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
+msgstr "Az alkalmazás üzeneteket fogadhat, és letöltheti a postafiókokban lévő üzeneteket."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
+msgstr "Az alkalmazás olvashatja a biztonságos rendszeradatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
+msgstr "Az alkalmazás olvashatja az adatvezérlés-szolgáltatók által exportált adatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
+msgstr "Az alkalmazás olvashatja a rendszeradatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
+msgstr "Az alkalmazás az ablakok prioritási sorrendjének megfelelően egyéb ablakokat és képernyőket eltakarva jelenhet meg, a zárolt képernyőt is beleértve. Amíg be nem zárja az alkalmazás ablakát, ez akadályozhatja az egyéb ablakok és képernyők használatát."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
+msgstr "Az alkalmazás módosíthatja a rendszer biztonsággal és adatvédelemmel kapcsolatos Bluetooth-beállításait, például a látható üzemmód beállítását."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
+msgstr "Az alkalmazás módosíthatja a webalkalmazása beállításait, a cookie-k törlését is beleértve."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
+msgstr "Az alkalmazás bezárhat más alkalmazásokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
+msgstr "Az alkalmazás fiókokat hozhat létre, szerkeszthet és törölhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
+msgstr "Az alkalmazás be- vagy kikapcsolhatja az internetmegosztó szolgáltatásokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
+msgstr "Az alkalmazás megerősítés kérése nélkül hívhatja a megérintett telefonszámokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
+msgstr "Az alkalmazás hangfelvételeket kezelhet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
+msgstr "Az alkalmazás megnyithat egyéb alkalmazásokat az alkalmazásazonosító vagy alkalmazásvezérlés használatával."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
+msgstr "Az alkalmazás olvashatja a fiókokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Az alkalmazás NFC-címkeadatokat olvashat és írhat, valamint NFC-üzeneteket küldhet más eszközökre."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
+msgstr "Az alkalmazás olvashatja a fájlrendszereket."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
+msgstr "Az alkalmazás olvashatja a médiatartalom-adatokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Az alkalmazás egyéb alkalmazásokhoz kapcsolódó információkat kérhet le."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Az alkalmazás lekérheti a meghatározott alkalmazástanúsítványokat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
+msgstr "Az alkalmazás az eszköz tárhelyére vagy külső tárhelyre, például SD-kártyára mentheti a tartalmát, méretkorlátozás nélkül."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Az alkalmazás jelzéseket állíthat be, és felébresztheti az eszközt az ütemezett időpontokban."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Az alkalmazás az OMA DS 1.2 protokoll használatával szinkronizálhatja az eszköz adatait, például a névjegyzéket és a naptári eseményeket."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
+msgstr "Az alkalmazás használhatja a teljes képernyős nézetet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
+msgstr "Az alkalmazás használhatja a Bluetooth Generic Access Profile-t (GAP) például eszközök kereséséhez és párosításához."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
+msgstr "Az alkalmazás használhatja a Bluetooth Health Device Profile-t (HDP), például egészségi adatok küldéséhez."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
+msgstr "Az alkalmazás használhatja a Bluetooth Serial Port Profile-t (SPP) például soros adatok küldéséhez."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
+msgstr "Az alkalmazás felhasználhatja az ön helyadatait."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
+msgstr "Az alkalmazás szöveges, multimédiás és e-mail üzeneteket írhat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
+msgstr "Az alkalmazás írhat a fájlrendszerekbe."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
+msgstr "Az alkalmazás hozzáférhet a biztonságos intelligenskártya-chipekhez, ami lehet például UICC/SIM, a beágyazott biztonságos elemekhez és a biztonságos SD-kártyákhoz."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
+msgstr "Az alkalmazás módosíthatja és olvashatja a felhasználói beállításokat."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Az alkalmazás módosíthatja az NFC beállításait, például be- vagy kikapcsolhatja az NFC-t."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
+msgstr "Az alkalmazás kezelheti az energiagazdálkodási beállításokat, például a képernyő elhalványítását."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Az alkalmazás alkalmazáscsomagokat telepíthet és távolíthat el."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Az alkalmazás NFC-üzeneteket küldhet le más eszközökre."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Az alkalmazás NFC-címkeadatokat olvashat és írhat."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
+msgstr "Az alkalmazás olvashatja a könyvjelzőket."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
+msgstr "Az alkalmazás olvashatja a hívásnapló-bejegyzéseket."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Az alkalmazás csomaginformációkat kérhet le."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
+msgstr "Az alkalmazás használhatja az általános NFC-funkciókat."
+
+msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
+msgstr "Alapvető NFC-szolgáltatások használata"
+
+msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
+msgstr "NFC-kártyaemulációs üzemmód használata"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
+msgstr "Internetmegosztó szolgáltatások hozzáférése"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
+msgstr "Ablakok megjelenítése egyéb alkalmazásokat és képernyőket eltakarva"
+
+msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
+msgstr "Telefonhívás indítása"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
+msgstr "Az alkalmazás hozzáférhet az intelligens kártyák, mint például a hitelkártyák adataihoz, és lehetővé teheti a felhasználó számára az NFC-fizetést."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
+msgstr "Az alkalmazás szöveges és multimédiás üzeneteket írhat, küldhet, törölhet és helyezhet át, továbbá módosíthatja az üzenetek beállításait és állapotát, például az olvasott vagy olvasatlan állapotot."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
+msgstr "Az alkalmazás korlátozhatja az eszközt, így bizonyos tartományok hozzáféréséhez mobilhálózatot kell használni."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
+msgstr "Médiaadatok rögzítése"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
+msgstr "Az alkalmazás video- és hangadatokat rögzíthet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
+msgstr "Az alkalmazás értesítéseket jeleníthet meg, szerkeszthet és törölhet."
+
+msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
+msgstr "Alkalmazások megnyitása és folytatása"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
+msgstr "Jelzések kezelése"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Az alkalmazás kezelheti a jelzéseket a mentett jelzések letöltésével és az eszköz felébresztésével a beütemezett időpontokban."
+
+msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
+msgstr "Bluetooth-beállítások módosítása"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
+msgstr "Az alkalmazás módosíthatja a Bluetooth-beállításokat, például be- vagy kikapcsolhatja a Bluetooth-t vagy az AV-távvezérlőt, illetve beállíthatja az eszköz nevét."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
+msgstr "Az alkalmazás olvashatja az értesítésekkel kapcsolatos információkat."
+
+msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
+msgstr "Teljes képernyős nézet használata"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
+msgstr "Értesítési adatok letöltése"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
+msgstr "Szöveges és multimédiás üzenetek küldése, valamint állapotuk frissítése"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Az alkalmazás kezelheti a HTTP-letöltéseket. Ez az előfizetési csomagtól függően további költséggel járhat."
 

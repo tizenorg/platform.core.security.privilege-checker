@@ -1,155 +1,155 @@
 msgid "IDS_TPLATFORM_BODY_ACCESSING_EXPORTED_DATA"
-msgstr "Acceso a datos exportados"
+msgstr "Toegang tot geëxporteerde gegevens"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET"
-msgstr "Acceso a Internet"
+msgstr "Toegang tot internet"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_MESSAGES"
-msgstr "Acceso a mensajes"
+msgstr "Toegang tot berichten"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
-msgstr "Acceso a elementos seguros"
+msgstr "Toegang tot beveiligde elementen"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
-msgstr "Acceso a información telefónica"
+msgstr "Toegang tot telefoniegegevens"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
-msgstr "Acceso a almacenamiento ilimitado"
+msgstr "Toegang tot onbeperkte opslag"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
-msgstr "Acceso a los ajustes del usuario"
+msgstr "Toegang tot gebruikersinstellingen"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
-msgstr "Cierre de aplicaciones"
+msgstr "Applicaties sluiten"
 
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
-msgstr "Descarga a través de HTTP"
+msgstr "Downloaden via HTTP"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
-msgstr "Obtención de certificados de aplicaciones"
+msgstr "Applicatiecertificaten ophalen"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
-msgstr "Gestión de cuentas"
+msgstr "Accounts beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
-msgstr "Gestión de ajustes del sistema Bluetooth"
+msgstr "Bluetooth-systeeminstellingen beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
-msgstr "Gestión de favoritos"
+msgstr "Favorieten beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
-msgstr "Gestión del calendario"
+msgstr "Agenda beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
-msgstr "Gestión de registros de llamadas"
+msgstr "Oproepenlijsten beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
-msgstr "Gestión de contactos"
+msgstr "Contacten beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
-msgstr "Gestión de contenido"
+msgstr "Inhoud beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
-msgstr "Gestión de ajustes generales de NFC"
+msgstr "Algemene NFC-instellingen beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
-msgstr "Gestión de paquetes"
+msgstr "Pakketten beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
-msgstr "Gestión de batería"
+msgstr "Energie beheren"
 
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
-msgstr "Apertura de aplicaciones"
+msgstr "Applicaties openen"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
-msgstr "Proporción de notificaciones"
+msgstr "Meldingen leveren"
 
 msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
-msgstr "Difusión de mensajes NFC"
+msgstr "NFC-berichten pushen"
 
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
-msgstr "Lectura de cuenta"
+msgstr "Accounts lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
-msgstr "Lectura de favoritos"
+msgstr "Favorieten lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
-msgstr "Lectura de calendario"
+msgstr "Agenda lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
-msgstr "Lectura de registros de llamadas"
+msgstr "Oproepenlijsten lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
-msgstr "Lectura de contactos"
+msgstr "Contacten lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
-msgstr "Lectura de contenido"
+msgstr "Inhoud lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
-msgstr "Lectura de sistemas de archivo"
+msgstr "Bestandssystemen lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
-msgstr "Lectura de información del sistema seguro"
+msgstr "Beveiligde systeemgegevens lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
-msgstr "Lectura de información del sistema"
+msgstr "Systeemgegevens lezen"
 
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
-msgstr "Lectura/escritura de etiquetas NFC"
+msgstr "Lezen/schrijven naar NFC-tags"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
-msgstr "Recepción de información de paquetes"
+msgstr "Pakketinformatie ontvangen"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
-msgstr "Recepción de notificaciones de difusión"
+msgstr "Pushmeldingen ontvangen"
 
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
-msgstr "Grabación de audio"
+msgstr "Audio opnemen"
 
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
-msgstr "Selección de conexión de red"
+msgstr "Netwerkverbinding selecteren"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
-msgstr "Ajustes de alarmas"
+msgstr "Alarmen instellen"
 
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
-msgstr "Sincronización de datos de dispositivo"
+msgstr "Apparaatgegevens synchroniseren"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
-msgstr "Uso de Bluetooth GAP"
+msgstr "Bluetooth GAP gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
-msgstr "Uso de Bluetooth HDP"
+msgstr "Bluetooth HDP gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
-msgstr "Uso de Bluetooth SPP"
+msgstr "Bluetooth SPP gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
-msgstr "Uso de la cámara"
+msgstr "Camera gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
-msgstr "Uso de las funciones comunes de NFC"
+msgstr "Algemene NFC-functies gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
-msgstr "Uso de la ubicación de usuario"
+msgstr "Gebruikerslocatie gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
-msgstr "Escritura de mensajes"
+msgstr "Berichten schrijven"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
-msgstr "Escritura de sistemas de archivo"
+msgstr "Schrijven naar bestandssystemen"
 
 msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
-msgstr "Cuentas"
+msgstr "Accounts"
 
 msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
-msgstr "Calendario"
+msgstr "Agenda"
 
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
-msgstr "Contactos"
+msgstr "Contacten"
 
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
@@ -161,473 +161,473 @@ msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
 msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Recuperación de información de aplicación"
+msgstr "Applicatiegegevens ophalen"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Ubicación"
+msgstr "Locatie"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
-msgstr "Información personal"
+msgstr "Persoonlijke gegevens"
 
 msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
-msgstr "Controles de hardware"
+msgstr "Hardwarebedieningen"
 
 msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
-msgstr "Conexiones de red"
+msgstr "Netwerkverbindingen"
 
 msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
-msgstr "Servicios pagados"
+msgstr "Betaalde services"
 
 msgid "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
-msgstr "Ajustes del sistema"
+msgstr "Systeeminstellingen"
 
 msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
-msgstr "Otros privilegios"
+msgstr "Overige privileges"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Gestión de ajustes de aplicación web"
+msgstr "Webapplicatie-instellingen beheren"
 
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
-msgstr "Mensajería"
+msgstr "Berichten"
 
 msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
-msgstr "Reg llam"
+msgstr "Opr.lijst"
 
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
-msgstr "Este privilegio no está definido"
+msgstr "Dit privilege is niet gedefinieerd."
 
 msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ajustes"
+msgstr "Instellingen"
 
 msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
+msgstr "Algemeen"
 
 msgid "IDS_ST_HEADER_PRIVACY"
-msgstr "Privacidad"
+msgstr "Privacy"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
-msgstr "%1$s se ha desactivado en %2$s."
+msgstr "%1$s uitgeschakeld in %2$s."
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
-msgstr "Leyendo la información de salud"
+msgstr "Gezondheidsgegevens lezen"
 
 msgid "IDS_ST_OPT_SEND_SMS_ABB"
-msgstr "Enviar SMS"
+msgstr "SMS verzenden"
 
 msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
-msgstr "Leer SMS/MMS"
+msgstr "SMS & MMS lezen"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
-msgstr "Recuperación de alarmas"
+msgstr "Alarmen ophalen"
 
 msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
-msgstr "Busqueda y eliminación de virus"
+msgstr "Scannen op virussen en deze wissen"
 
 msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
-msgstr "Uso de los servicios de Bluetooth no restringidos"
+msgstr "Onbeperkte Bluetooth-services gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
-msgstr "Acceso a los favoritos de Internet"
+msgstr "Toegang tot internetfavorieten"
 
 msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
-msgstr "Uso compartido de datos entre aplicaciones"
+msgstr "Gegevens delen tussen applicaties"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
-msgstr "Administración de los ajustes de pantalla"
+msgstr "Weergave-instellingen beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
-msgstr "Administración de cuentas de correo electrónico, buzones de correo y correos electrónicos"
+msgstr "E-mailaccounts, postvakken en e-mails beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
-msgstr "Administración de configuraciones de correos electrónicos"
+msgstr "E-mailconfiguraties beheren"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Acceso al almacenamiento externo"
+msgstr "Toegang tot externe opslaglocatie"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Acceso a los datos de la aplicación en el almacenamiento externo"
+msgstr "Toegang tot applicatiegegevens in externe opslaglocatie"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
-msgstr "Administración de respuesta de vibración"
+msgstr "Trilfeedback beheren"
 
 msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
-msgstr "Uso del almacenamiento seguro"
+msgstr "Veilige opslagplaats gebruiken"
 
 msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
-msgstr "Bloqueo/desbloqueo del almacenamiento seguro"
+msgstr "Veilige opslagplaats ver-/ontgrendelen"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
-msgstr "Administración de LED"
+msgstr "Leds beheren"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
-msgstr "Administración de ajustes de ubicación"
+msgstr "Locatie-instellingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
-msgstr "Acceso a carpetas multimedia"
+msgstr "Mediamappen openen"
 
 msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
-msgstr "Lectura de texto y mensajes multimedia e información relacionada"
+msgstr "SMS- en MMS-berichten en de samenhangende gegevens lezen"
 
 msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
-msgstr "Lectura de la información de red"
+msgstr "Netwerkgegevens lezen"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
-msgstr "Administración de los perfiles de red"
+msgstr "Netwerkprofielen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Administración de conexiones de red"
+msgstr "Netwerkverbindingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
-msgstr "Administración de notificaciones"
+msgstr "Meldingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
-msgstr "Instalación/desinstalación de paquetes de aplicación y borrado de cachés"
+msgstr "Applicatiepakketten installeren/verwijderen en caches wissen"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Recuperanción de información detallada de paquetes"
+msgstr "Gedetailleerde pakketinformatie ophalen"
 
 msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Grabación de audio y video"
+msgstr "Video en audio opnemen"
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
-msgstr "Captura de pantalla del dispositivo"
+msgstr "Apparaatscherm vastleggen"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
-msgstr "Administración de accesos directos"
+msgstr "Sneltoetsen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Administración de ajustes del sistema no restringidos"
+msgstr "Onbeperkte systeeminstellingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
-msgstr "Administración de todos los ajustes del sistema"
+msgstr "Alle systeeminstellingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
-msgstr "Gestión de ajustes de telefonía"
+msgstr "Telefonie-instellingen beheren"
 
 msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
-msgstr "Ajuste del volumen"
+msgstr "Volume aanpassen"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
-msgstr "Administración del historial de Internet"
+msgstr "Internethistorie beheren"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
-msgstr "Administración de información de Wi-Fi Direct"
+msgstr "Wi-Fi Direct-informatie beheren"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
-msgstr "Esta aplicación puede leer información sobre sus alarmas guardadas."
+msgstr "Deze applicatie kan uw gegevens lezen over uw opgeslagen alarmen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
-msgstr "Esta aplicación puede leer y borrar datos en cualquier otra aplicación del dispositivo para detectar o eliminar contenido perjudicial."
+msgstr "Deze applicatie kan gegevens in een andere applicatie op het apparaat lezen en wissen om schadelijke inhoud te detecteren en te verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
-msgstr "Esta aplicación pude abrir otras aplicaciones."
+msgstr "Deze applicatie kan andere applicaties openen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede realizar acciones no restringidas mediante Bluetooth, como buscar otros dispositivos y conectarse a ellos."
+msgstr "Deze applicatie kan onbeperkte acties uitvoeren met Bluetooth, zoals zoeken naar en verbinden met andere apparaten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
-msgstr "Esta aplicación puede recuperar, crear, editar y eliminar favoritos de Internet."
+msgstr "Deze applicatie kan internetfavorieten ophalen, maken, bewerken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
-msgstr "Esta aplicación puede leer eventos y tareas."
+msgstr "Deze applicatie kan gebeurtenissen en taken lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
-msgstr "Esa aplicación puede crear, actualizar y eliminar eventos y tareas."
+msgstr "Deze applicatie kan gebeurtenissen en taken maken, bijwerken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
-msgstr "Esa aplicación puede crear, actualizar y eliminar elementos del registro de llamadas."
+msgstr "Deze applicatie kan items in oproeplijsten maken, bijwerken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
-msgstr "Esta aplicación puede capturar y previsualizar imágenes."
+msgstr "Deze applicatie kan foto's maken en voorbeelden weergeven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
-msgstr "Esta aplicación puede crear, actualizar y eliminar su perfil, los contactos y cualquier historial de contactos relacionado con esta aplicación. El historial de contactos puede incluir actividad de la red social."
+msgstr "Deze applicatie kan uw profiel, contacten en de contacthistorie die met deze applicatie samenhangt, maken, bijwerken en verwijderen. De contacthistorie kan sociale netwerkactiviteit omvatten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
-msgstr "Esta aplicación puede leer su perfil, contactos e historial de contactos. El historial de contactos puede incluir actividad de la red social."
+msgstr "Deze applicatie kan uw profiel, contacten en contacthistorie lezen. Contacthistorie kan sociale netwerkactiviteit omvatten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede cambiar la información multimedia. Esta información la pueden utilizar otras aplicaciones."
+msgstr "Deze applicatie kan mediagegevens wijzigen. Deze informatie kan door andere applicaties worden gebruikt."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede compartir datos con otras aplicaciones."
+msgstr "Deze applicatie kan gegevens met andere applicaties delen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
-msgstr "Esta aplicación puede gestionar los ajustes de pantalla, como el brillo. Esto podría aumentar el consumo de la batería."
+msgstr "Deze applicatie kan weergave-instellingen als helderheid beheren. Hierdoor kan het batterijverbruik toenemen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
-msgstr "Esta aplicación puede gestionar sus cuentas de correo electrónico, incluidas sus carpetas y correos electrónicos."
+msgstr "Deze applicatie kan uw e-mailaccounts beheren, waaronder uw mappen en e-mails."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
-msgstr "Esta aplicación puede gestionar los ajustes de las aplicaciones de correo electrónico."
+msgstr "Deze applicatie kan de instellingen van e-mailapplicaties beheren."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Esta aplicación puede leer y escribir archivos que se guardan en el almacenamiento externo, como las tarjetas SD."
+msgstr "Deze applicatie kan bestanden lezen en schrijven die zijn opgeslagen in een externe opslaglocatie, zoals SD-kaarten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Esta aplicación puede leer y escribir sus propios archivos en el almacenamiento externo, como las tarjetas SD."
+msgstr "Deze applicatie kan eigen bestanden lezen en schrijven in een externe opslaglocatie, zoals SD-kaarten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
-msgstr "Esta aplicación puede controlar la respuesta de vibración."
+msgstr "Deze applicatie kan trilsignaal instellen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Esta aplicación puede acceder a Internet. Esto puede suponer costes adicionales según su plan de pago."
+msgstr "Deze applicatie heeft toegang tot internet. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
-msgstr "Esta aplicación puede guardar claves, certificados y datos en el almacenamiento protegido por contraseña, o recuperarlos y eliminarlos desde allí."
+msgstr "Deze applicatie kan sleutels, certificaten en gegevens opslaan op, en ophalen en verwijderen uit een met wachtwoord beveiligde opslaglocatie."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
-msgstr "Esta aplicación puede bloquear y desbloquear el almacenamiento protegido por contraseña y gestionar sus cambios de contraseña."
+msgstr "Deze applicatie kan met wachtwoord beveiligde opslaglocatie vergrendelen en ontgrendelen, en wachtwoordwijzigingen ervoor beheren."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
-msgstr "Esa aplicación puede activar o desactivar los LED, como el LED de la parte delantera del dispositivo y el flash de la cámara."
+msgstr "Deze applicatie kan leds in- of uitschakelen, zoals de led op de voorkant van het apparaat en de cameraflits."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
-msgstr "Esta aplicación puede controlar los ajustes del servicio de ubicación."
+msgstr "Deze applicatie kan de instellingen voor uw locatieservices opgeven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
-msgstr "Esta aplicación puede leer y escribir los archivos en las carpetas multimedia."
+msgstr "Deze applicatie kan bestanden in mediamappen lezen en schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
-msgstr "Esta aplicación puede leer mensajes multimedia y de texto, y cualquier información relacionada con ellos."
+msgstr "Deze applicatie kan SMS- en MMS-berichten en samenhangende gegevens lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
-msgstr "Esta aplicación puede recuperar información de la red, como el estado de cada red, su tipo e información detallada del perfil de red."
+msgstr "Deze applicatie kan netwerkgegevens ophalen zoals de status en het type van elk netwerk en gedetailleerde informatie over het netwerkprofiel."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
-msgstr "Esta aplicación puede añadir, eliminar y editar perfiles de redes."
+msgstr "Deze applicatie kan netwerkprofielen toevoegen, verwijderen en bewerken."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
-msgstr "Esta aplicación puede activar y desactivar la Wi-Fi y conectarse y desconectarse de redes móviles y Wi-Fi."
+msgstr "Deze applicatie kan Wi-Fi in- en uitschakelen, en verbinding maken en verbreken met Wi-Fi- en mobiele netwerken."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
-msgstr "Esta aplicación puede mostrar y ocultar sus propias notificaciones e indicaciones."
+msgstr "Deze applicatie kan eigen meldingen en badges weergeven en verbergen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
-msgstr "Esta aplicación puede instalar y desinstalar paquetes de aplicaciones, y borrar cachés de aplicaciones."
+msgstr "Deze applicatie kan applicatiepakketten installeren of verwijderen en de cache van applicaties wissen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
-msgstr "Esta aplicación puede recuperar la información detallada del paquete de aplicación."
+msgstr "Deze applicatie kan gedetailleerde gegevens van applicatiepakket ophalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
-msgstr "Esta aplicación puede recibir notificaciones por Internet."
+msgstr "Deze applicatie kan meldingen ontvangen via internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
-msgstr "Esta aplicación puede grabar vídeo y audio."
+msgstr "Deze applicatie kan video en audio opnemen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
-msgstr "Esta aplicación puede hacer capturas de pantalla."
+msgstr "Deze applicatie kan schermafbeeldingen vastleggen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
-msgstr "Esa aplicación puede crear y eliminar accesos directos."
+msgstr "Deze applicatie kan sneltoetsen maken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Esta aplicación puede leer y escribir los ajustes del sistema no restringidos."
+msgstr "Deze applicatie kan onbeperkte systeeminstellingen lezen en schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
-msgstr "Esta aplicación puede leer y escribir todos los ajustes del sistema."
+msgstr "Deze applicatie kan alle systeeminstellingen lezen en schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
-msgstr "Esta aplicación puede recuperar información telefónica, como la red y la tarjeta SIM utilizadas, el IMEI y los estados de llamadas."
+msgstr "Deze applicatie kan telefoniegegevens, zoals netwerk en gebruikte SIM-kaart, IMEI en oproepstatussen ophalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
-msgstr "Esta aplicación puede administrar ajustes de telefonía, como los de llamadas entrantes y salientes, el desvío de llamadas o las llamadas en espera, las redes y las tarjetas SIM."
+msgstr "Deze applicatie kan telefooninstellingen beheren, zoals voor inkomende en uitgaande oproepen, oproepen doorschakelen en in de wacht zetten, netwerken en SIM-kaarten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
-msgstr "Esta aplicación puede ajustar el volumen para diferentes funciones, como las alertas de notificaciones, las melodías y los medios."
+msgstr "Deze applicatie kan het volume voor verschillende voorzieningen aanpassen, zoals meldingsignalen, beltonen en media."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
-msgstr "Esta aplicación puede administrar su historial de Internet."
+msgstr "Deze applicatie kan uw internethistorie beheren."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
-msgstr "Esta aplicación puede activar y desactivar Wi-Fi Direct, administrar conexiones de Wi-Fi Direct y cambiar los ajustes de Wi-Fi Direct."
+msgstr "Deze applicatie kan Wi-Fi Direct in- en uitschakelen, Wi-Fi Direct-verbindingen beheren en Wi-Fi Direct-instellingen wijzigen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
-msgstr "Esta aplicación puede crear, editar y eliminar favoritos."
+msgstr "Deze applicatie kan favorieten maken, bewerken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
-msgstr "Esta aplicación puede leer la información de salud recopilada por los sensores del dispositivo, como el podómetro y el monitor de la frecuencia cardiaca."
+msgstr "Deze applicatie kan gezondheidsgegevens lezen die zijn verzameld door de apparaatsensoren, zoals de stappenteller en de hartslagmonitor."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
-msgstr "Esta aplicación puede recuperar mensajes del buzón de mensajes o recibir mensajes."
+msgstr "Deze applicatie kan berichten ophalen uit postvakken of berichten ontvangen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
-msgstr "Esta aplicación puede leer información segura del sistema."
+msgstr "Deze applicatie kan beveiligde systeemgegevens lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
-msgstr "Esta aplicación puede leer los datos exportados por los proveedores de control de datos."
+msgstr "Deze applicatie kan gegevens lezen die zijn geëxporteerd door gegevensbeheerproviders."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
-msgstr "Esta aplicación puede leer información del sistema."
+msgstr "Deze applicatie kan systeemgegevens lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
-msgstr "Esta aplicación puede aparecer encima de otras ventanas y pantallas, incluida la pantalla de bloqueo, según el orden de prioridad de las ventanas. Esto podría impedirle interactuar con otras aplicaciones o pantallas hasta que se cierre la ventana de esta aplicación."
+msgstr "Deze applicatie kan boven op andere vensters en schermen worden weergegeven, met inbegrip van het vergrendelscherm, afhankelijk van de prioriteit van de vensters. Mogelijk verhindert dit dat u met andere applicaties of schermen kunt werken totdat het venster voor deze applicatie wordt gesloten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
-msgstr "Esta aplicación puede modificar los ajustes del sistema Bluetooth en relación a la privacidad y la seguridad, como el modo de visibilidad."
+msgstr "Deze applicatie kan Bluetooth-systeeminstellingen wijzigen die samenhangen met privacy en beveiliging, zoals de zichtbaarheidsstand."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
-msgstr "Esta aplicación puede cambiar los ajustes de su aplicación web, incluida la eliminación de las cookies."
+msgstr "Deze applicatie kan de webapplicatie-instellingen wijzigen, inclusief het verwijderen van cookies."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede cerrar otras aplicaciones."
+msgstr "Deze applicatie kan andere applicaties sluiten."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
-msgstr "Esta aplicación puede crear, editar y eliminar cuentas."
+msgstr "Deze applicatie kan accounts maken, bewerken en verwijderen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
-msgstr "Esta aplicación puede activar y desactivar los dispositivos de anclaje de red."
+msgstr "Deze applicatie kan tetheringservices in- en uitschakelen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
-msgstr "Esta aplicación puede realizar llamadas telefónicas a números cuando se pulsan sin confirmación adicional."
+msgstr "Deze applicatie kan telefoonnummers bellen wanneer erop wordt getikt zonder verdere bevestiging."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
-msgstr "Esta aplicación puede gestionar las grabaciones de audio."
+msgstr "Deze applicatie kan geluidsopnames beheren."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
-msgstr "Esta aplicación puede abrir otras aplicaciones utilizando el ID de la aplicación o el control de la aplicación."
+msgstr "Deze applicatie kan andere applicaties openen met de applicatie-id of applicatiebediening."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
-msgstr "Esta aplicación puede leer cuentas."
+msgstr "Deze applicatie kan accounts lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede leer y escribir la información de etiqueta NFC y enviar mensajes NFC a otros dispositivos."
+msgstr "Deze applicatie kan NFC-taginformatie lezen en schrijven, en NFC-berichten naar andere apparaten verzenden."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
-msgstr "Esta aplicación puede leer sistemas de archivos."
+msgstr "Deze applicatie kan bestandssystemen lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
-msgstr "Esta aplicación puede leer la información de contenido multimedia."
+msgstr "Deze applicatie kan media-inhoudgegevens lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Esta aplicación puede recuperar información relacionada con otras aplicaciones."
+msgstr "Deze applicatie kan informatie over andere applicaties ophalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Esta aplicación puede recuperar certificados de aplicaciones específicos."
+msgstr "Deze applicatie kan bepaalde applicatiecertificaten ophalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
-msgstr "Esta aplicación puede guardar su contenido en sus ubicaciones de almacenamiento externo o almacenamiento del dispositivo, como tarjetas SD, sin límites en el tamaño del contenido."
+msgstr "Deze applicatie kan inhoud opslaan in de opslaglocatie in uw apparaat of in externe opslaglocaties, zoals SD-kaart, zonder limiet voor de omvang."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Esta aplicación puede definir alarmas y despertar el dispositivo a las horas programadas."
+msgstr "Deze applicatie kan alarmen instellen en het apparaat wekken op geplande tijden."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Esta aplicación puede sincronizar los datos del dispositivo, como los contactos y los eventos del calendario, utilizando el protocolo OMA DS 1.2."
+msgstr "Deze applicatie kan apparaatgegevens synchroniseren, zoals contacten en agenda-items, via het OMA DS 1.2-protocol."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
-msgstr "Esta aplicación puede utilizar la vista de pantalla completa."
+msgstr "Deze applicatie kan volledige schermweergave gebruiken."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
-msgstr "Esta aplicación puede utilizar el Perfil de acceso genérico (GAP) de Bluetooth, por ejemplo, para buscar dispositivos y vincularse con ellos."
+msgstr "Deze applicatie kan het Bluetooth GAP-profiel (Generic Access Profile) gebruiken om bijvoorbeeld te scannen naar apparaten en hiermee te koppelen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
-msgstr "Esta aplicación puede utilizar el Perfil de salud del dispositivo (HDP) de Bluetooth, por ejemplo, para enviar información de salud."
+msgstr "Deze applicatie kan het Bluetooth HDP-profiel (Health Device Profile) gebruiken om bijvoorbeeld gezondheidsgegevens te verzenden."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
-msgstr "Esta aplicación puede utilizar el Perfil del puerto serie (SPP) de Bluetooth, por ejemplo, para enviar datos en serie."
+msgstr "Deze applicatie kan het Bluetooth SPP-profiel (Serial Port Profile) gebruiken om bijvoorbeeld seriële gegevens te verzenden."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
-msgstr "Esta aplicación puede utilizar sus datos de ubicación."
+msgstr "Deze applicatie kan uw locatiegegevens gebruiken."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
-msgstr "Esta aplicación puede escribir mensajes de texto, mensajes multimedia y correos electrónicos."
+msgstr "Deze applicatie kan SMS- en MMS-berichten en e-mails schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
-msgstr "Esta aplicación puede escribir sistemas de archivos."
+msgstr "Deze applicatie kan naar bestandssystemen schrijven."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
-msgstr "Esta aplicación puede acceder a los chips de smart card seguros como UICC/SIM, a los elementos seguros integrados y a las tarjetas SD seguras."
+msgstr "Deze applicatie heeft toegang tot beveiligde smartcardchips zoals UICC/SIM, ingesloten beveiligde elementen en beveiligde SD-kaarten."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
-msgstr "Esta aplicación puede cambiar y leer los ajustes del usuario."
+msgstr "Deze applicatie kan gebruikerinstellingen wijzigen en lezen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Esta aplicación puede modificar los ajustes de NFC, como activar o desactivar NFC."
+msgstr "Deze applicatie kan NFC-instellingen wijzigen, zoals NFC in- of uitschakelen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
-msgstr "Esta aplicación puede controlar ajustes relacionados con la energía, como la atenuación de la pantalla."
+msgstr "Deze applicatie kan instellingen voor energiebeheer regelen, zoals het scherm dimmen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Esta aplicación puede instalar o desinstalar paquetes de aplicación."
+msgstr "Deze applicatie kan applicatiepakketten installeren of verwijderen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Esta aplicación puede enviar mensajes NFC a otros dispositivos."
+msgstr "Deze applicatie kan NFC-berichten naar andere apparaten overbrengen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Esta aplicación puede leer y escribir información de etiquetas NFC."
+msgstr "Deze applicatie kan NFC-taginformatie lezen en schrijven."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
-msgstr "Esta aplicación puede leer favoritos."
+msgstr "Deze applicatie kan favorieten lezen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
-msgstr "Esta aplicación puede leer elementos del registro de llamadas."
+msgstr "Deze applicatie kan items in oproeplijsten lezen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Esta aplicación puede recibir información de paquetes."
+msgstr "Deze applicatie kan pakketinformatie ontvangen."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
-msgstr "Esta aplicación puede utilizar funciones comunes de NFC."
+msgstr "Deze applicatie kan algemene NFC-voorzieningen gebruiken."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
-msgstr "Uso de los servicios NFC básicos"
+msgstr "Eenvoudige NFC-services gebruiken"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
-msgstr "Uso del modo de emulación de tarjeta NFC"
+msgstr "Emulatiestand NFC-kaart gebruiken"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
-msgstr "Acceso a los servicios de anclaje de red"
+msgstr "Tetheringservices openen"
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
-msgstr "Mostrar ventanas sobre otras aplicaciones y pantallas"
+msgstr "Vensters weergeven boven op andere applicaties en schermen"
 
 msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
-msgstr "Realizar llamadas de teléfono"
+msgstr "Bellen"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
-msgstr "Esta aplicación puede acceder a la información de la smart card, por ejemplo los datos de la tarjeta de crédito, y permitir que los usuarios realicen pagos mediante NFC."
+msgstr "Deze applicatie heeft toegang tot smartcarddetails, zoals creditcarddetails, en kan gebruikers toestaan om via NFC te betalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
-msgstr "Esta aplicación puede escribir, enviar, eliminar y mover mensajes multimedia y de texto, y cambiar los ajustes y los estados de los mensajes, por ejemplo leído o no leído."
+msgstr "Deze applicatie kan SMS- en MMS-berichten schrijven, verzenden, verwijderen en verplaatsen, en de instellingen en status van berichten, zoals gelezen of ongelezen, wijzigen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
-msgstr "Esta aplicación puede restringir el dispositivo para que solo se pueda acceder a algunos dominios específicos a través de las redes móviles."
+msgstr "Deze applicatie kan het apparaat beperken waardoor bepaalde specifieke domeinen alleen kunnen worden geopend via mobiele netwerken."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
-msgstr "Captura de datos multimedia"
+msgstr "Mediagegevens vastleggen"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
-msgstr "Esta aplicación puede capturar datos de vídeo y audio."
+msgstr "Deze applicatie kan video- en audiogegevens vastleggen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
-msgstr "Esta aplicación puede mostrar, editar y eliminar notificaciones."
+msgstr "Met deze applicatie kunt u meldingen weergeven, bewerken en verwijderen."
 
 msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
-msgstr "Apertura y reanudación de aplicaciones"
+msgstr "Applicaties openen en hervatten"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
-msgstr "Gestión de alarmas"
+msgstr "Alarmen beheren"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Esta aplicación puede gestionar alarmas recuperando las alarmas guardadas y activando el dispositivo a las horas programadas."
+msgstr "Deze applicatie kan alarmen beheren door opgeslagen alarmen op te halen en het apparaat op geplande tijdstippen te wekken."
 
 msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
-msgstr "Cambio de ajustes de Bluetooth"
+msgstr "Bluetooth-instellingen wijzigen"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
-msgstr "Esta aplicación puede cambiar los ajustes de Bluetooth, como activar o desactivar el Bluetooth, definir el nombre del dispositivo y activar o desactivar el control remoto de AV."
+msgstr "Deze applicatie kan Bluetooth-instellingen wijzigen, zoals in- of uitschakelen van Bluetooth, instellen van de apparaatnaam en in- of uitschakelen van de audio/video-afstandsbediening."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
-msgstr "Esta aplicación puede leer información sobre las notificaciones."
+msgstr "Deze applicatie kan gegevens lezen over meldingen."
 
 msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
-msgstr "Uso de la vista de pantalla completa"
+msgstr "Weergave op volledig scherm gebruiken"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
-msgstr "Recuperación de información de notificación"
+msgstr "Meldinggegevens ophalen"
 
 msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
-msgstr "Envío de mensajes multimedia y de texto y actualización de sus estados"
+msgstr "SMS- en MMS-berichten verzenden en hun status bijwerken"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Esta aplicación puede administrar descargas de HTTP. Esto puede suponer costes adicionales según su plan de pago."
+msgstr "Deze applicatie kan HTTP-downloads beheren. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
 

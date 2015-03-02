@@ -9,13 +9,13 @@ SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 SET(INC_DIR include)
 
 INCLUDE_DIRECTORIES(
-	"${INC_DIR}" 
-	)
-	
-SET(pc_requires "capi-base-common")
+    "${INC_DIR}" 
+    )
+    
+SET(pc_requires "capi-base-common cert-svc")
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(${fw_name} REQUIRED capi-base-common dlog	vconf pkgmgr-info)
+pkg_check_modules(${fw_name} REQUIRED capi-base-common dlog vconf pkgmgr-info capi-appfw-package-manager glib-2.0)
 FOREACH(flag ${${fw_name}_CFLAGS})
     SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
 ENDFOREACH(flag)
@@ -29,6 +29,12 @@ ENDIF("${ARCH}" STREQUAL "arm")
 
 ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
 ADD_DEFINITIONS("-DSLP_DEBUG")
+MESSAGE("PROFILE_TYPE = ${PROFILE_TYPE}")
+IF("${PROFILE_TYPE}" STREQUAL "WEARABLE")
+    ADD_DEFINITIONS("-DPROFILE_TYPE_WEARABLE")
+ELSE()
+    ADD_DEFINITIONS("-DPROFILE_TYPE_MOBILE")
+ENDIF()
 
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -Wl,--rpath=/usr/lib")
 
@@ -44,9 +50,9 @@ SET_TARGET_PROPERTIES(${fw_name}
     CLEAN_DIRECT_OUTPUT 1
 )
 
-INSTALL(TARGETS ${fw_name} DESTINATION ${LIB_INSTALL_DIR})
+INSTALL(TARGETS ${fw_name} DESTINATION ../lib)
 INSTALL(
-        DIRECTORY ${INC_DIR}/ DESTINATION ${INCLUDE_INSTALL_DIR}/privilegemgr
+        DIRECTORY ${INC_DIR}/ DESTINATION ../include/privilegemgr
         FILES_MATCHING
         PATTERN "*_private.h" EXCLUDE
         PATTERN "${INC_DIR}/*.h"
@@ -56,6 +62,9 @@ SET(PC_NAME ${fw_name})
 SET(PC_REQUIRED ${pc_requires})
 SET(PC_LDFLAGS -l${fw_name})
 SET(PC_CFLAGS -I\${includedir}/privilegemgr)
+
+CONFIGURE_FILE(${fw_name}.pc.in ${fw_name}.pc @ONLY)
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/${fw_name}.pc DESTINATION ../lib/pkgconfig)
 
 
 IF(UNIX)
@@ -96,26 +105,25 @@ SET(LOCALE_ROOT_PATH "${ROOT_DIR}/target/generic/root/usr/share/locale")
 FILE(GLOB _pofiles res/string/*.po)
 
 FOREACH(_file ${_pofiles})
-	GET_FILENAME_COMPONENT(_in ${_file} ABSOLUTE)
-	GET_FILENAME_COMPONENT(_basename ${_file} NAME_WE)
+    GET_FILENAME_COMPONENT(_in ${_file} ABSOLUTE)
+    GET_FILENAME_COMPONENT(_basename ${_file} NAME_WE)
 
-	SET(_out "${LOCALE_ROOT_PATH}/${_basename}/LC_MESSAGES/privilege.mo")
+    SET(_out "${LOCALE_ROOT_PATH}/${_basename}/LC_MESSAGES/privilege.mo")
 
-	ADD_CUSTOM_COMMAND(
-		OUTPUT ${_out}
-		COMMENT "Generating ${_out}"
-		COMMAND mkdir -p ${LOCALE_ROOT_PATH}/${_basename}/LC_MESSAGES
-		COMMAND msgfmt -o ${_out} ${_in}
-		DEPENDS ${_in}
-		)
+    ADD_CUSTOM_COMMAND(
+        OUTPUT ${_out}
+        COMMENT "Generating ${_out}"
+        COMMAND mkdir -p ${LOCALE_ROOT_PATH}/${_basename}/LC_MESSAGES
+        COMMAND msgfmt -o ${_out} ${_in}
+        DEPENDS ${_in}
+        )
 
-	SET(mo_files ${mo_files} ${_out})
+    SET(mo_files ${mo_files} ${_out})
 
-	#INSTALL(FILES ${_out} DESTINATION "${_out}")
 ENDFOREACH(_file ${_pofiles})
 
 ADD_CUSTOM_TARGET(privilege-string ALL DEPENDS ${mo_files})
 
-INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ${SHARE_INSTALL_PREFIX})
+INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ../share)
 
 

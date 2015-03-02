@@ -18,22 +18,11 @@
 #define __TIZEN_SECURITY_PRIVILEGE_INFO_H
 
 #include <tizen.h>
+#include "privilege_manager.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-/**
- * @brief Enumerations of error code for Privilege Information.
- */
-typedef enum
-{
-	PRVMGR_ERR_NONE					=  0, /**< Successful */
-	PRVMGR_ERR_INVALID_PARAMETER 	= -1, /**< Invalid parameter */
-	PRVMGR_ERR_OUT_OF_MEMORY		= -2, /**< Out of memory */
-	PRVMGR_ERR_INTERNAL_ERROR		= -3, /**< Internal error */
-	PRVMGR_ERR_NO_DATA				= -4, /**< No data found */
-} privilege_manager_error_e;
 
 /**
  * @brief Called to get a privilege group once for specific package.
@@ -109,7 +98,7 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
 /**
  * @brief Gets the description of privilege with the given privilege.
  * @remarks @a description must be released with free() by you.
- * @param [in] privilege The privilege
+ * @param [in]  privilege The privilege
  * @param [out] description The description of the privilege
  * @return 0 on success, otherwise a negative error value.
  * @retval #PRVMGR_ERR_NONE Successful
@@ -117,18 +106,6 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
  */
 EXPORT_API int privilege_info_get_privilege_description(const char *privilege, char **description);
-
-/**
- * @brief Gets the privilege level of external privilege.
- * @remarks @a privilege_level must be released with free() by you.
- * @param [in] privilege The privilege
- * @param [out] privilege_level The privilege_level of the external privilege
- * @return 0 on success, otherwise a negative error value.
- * @retval #PRVMGR_ERR_NONE Successful
- * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
- * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
- */
-EXPORT_API int privilege_info_get_external_privilege_level(const char *privilege, char **privilege_level);
 
 #ifdef __cplusplus
 }

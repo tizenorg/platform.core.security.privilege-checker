@@ -10,416 +10,26 @@ msgstr "Mezuetara sartzea"
 msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Elementu seguruetara sartzea"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_SYSTEM_INFORMATION"
-msgstr "Sistema informaziora sartzea"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
 msgstr "Telefonia informaziora sartzea"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_TIME_AND_DATE"
-msgstr "Data eta ordura sartzea"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Biltegi mugagabera sartzea"
 
-msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_ID"
-msgstr "Erabiltzaile IDra sartzea"
-
 msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Erabiltzailearen ezarpenetara sartzea"
-
-msgid "IDS_TPLATFORM_BODY_ACCESSING_WEB_CONTENT"
-msgstr "Web edukira sartzea"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_ANTIVIRUS_APPLICATION_TO_SCAN_FOR_HARMFUL_CONTENT"
-msgstr "Antibirus aplikazioari eduki maltzurra bilatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_PRIVACY_INFORMATION_FOR_USER_IDENTIFICATION_PURPOSES"
-msgstr "Aplikazioari pribatutasun informaziora sartzea ahalbidetzen dio erabiltzaileak identifikatzeko helburuetarako"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SECURE_SYSTEM_INFORMATION"
-msgstr "Aplikazioari sistema informazio segurura sartzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SPECIFIC_DATA_EXPORTED_BY_OTHER_APPLICATIONS"
-msgstr "Aplikazioari beste aplikazio batzuek esportatutako datu zehatzetara sartzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_SYSTEM_INFORMATION"
-msgstr "Aplikazioari sistema informaziora sartzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_THE_INTERNET"
-msgstr "Aplikazioari Internet-en sartzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ACCESS_TO_SECURE_SMART_CARD_CHIP_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENT_OR_SECURE_SD_CARD"
-msgstr "Aplikazioari chip txartel adimendu seguru batera, UICC/SIM kasu, txertatutako elementu seguru batera edo SD txartel seguru batera sartzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_AND_REMOVE_SHORTCUTS_FROM_THE_HOME_SCREEN"
-msgstr "Aplikazioari pantaila nagusian lasterbideak jartzen eta kentzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_DYNAMIC_BOX_TO_THE_HOME_SCREEN"
-msgstr "Aplikazioari pantaila nagusian Dynamic Box gehitzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CERTIFICATES"
-msgstr "Aplikazioari ziurtagiriak gehitzea, eguneratzea eta ezabatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_ADD_UPDATE_AND_DELETE_CONTACTS"
-msgstr "Aplikazioari kontaktuak gehitzea, eguneratzea eta ezabatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_BE_OPENED_CONDITIONALLY_OR_TO_OPEN_ANOTHER_APPLICATION"
-msgstr "Aplikazioa baldintzekin irekitzea edo beste aplikazio bat irekitzea ahalbidetzen du"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_AND_SETTING_THE_LOCAL_DEVICE_NAME"
-msgstr "Aplikazioari Bluetooth ezarpenak aldatzen uzten dio, adibidez, Bluetootha piztea edo itzaltzea eta gailuaren izen lokala ezartzea"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBLE_MODE"
-msgstr "Aplikazioari pribatutasunarekin eta segurtasunarekin zerikusia duen Bluetooth sistemaren ezarpenak aldatzen uzten dio, adibidez, ikusgai modua"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Aplikazioari NFC ezarpenak aldatzen uzten dio, esaterako, NFC piztea edo itzaltzea"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_NFC_SYSTEM_SETTINGS_SUCH_AS_TURNING_ON_OR_OFF_RESERVED_PUSH_WHICH_SENDS_PREDEFINED_NDEF_MESSAGES"
-msgstr "Aplikazioari NFC sistemaren ezarpenak aldatzen uzten dio, adibidez, aurrezarritako NDEF mezuak bidaltzen dituen atzerako push piztea edo itzaltzea"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_PRIVACY_SETTINGS"
-msgstr "Aplikazioari pribatutasun ezarpenak aldatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CHANGE_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Aplikazioari segurtasun edo pribatutasun ezarpenak aldatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CLOSE_ANOTHER_APPLICATION"
-msgstr "Aplikazioari beste aplikazio bat ixtea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Aplikazioari beste gailu eta zerbitzari batzuekin komunikatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_COMMUNICATE_WITH_THE_HTTP_SERVER"
-msgstr "Aplikazioari HTTP zerbitzariarekin komunikatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONFIGURE_THE_MOBILE_NETWORKS"
-msgstr "Aplikazioari sare mugikorrak konfiguratzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CONTROL_THE_CALL_FORWARDING_SERVICE"
-msgstr "Aplikazioari deiak birbidaltzeko zerbitzua kontrolatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_ACCOUNTS"
-msgstr "Aplikazioari kontuak sortzea, eguneratzea eta ezabatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CALL_LOGS"
-msgstr "Aplikazioari deien erregistroak sortzen, eguneratzen eta ezabatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_CONTENT"
-msgstr "Aplikazioari edukia sortzea, eguneratzea eta ezabatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND_DELETE_SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Aplikazioari programa eta ataza informazioa sortzea, eguneratzea eta ezabatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_CREATE_UPDATE_AND DELETE_BOOKMARKS"
-msgstr "Aplikazioari lastermarkak sortzen, eguneratzen eta ezabatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DELETE_GEOLOCATION_PERMISSIONS"
-msgstr "Aplikazioari geokokapen baimenak ezabatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_DISPLAY_WEB_CONTENT_OR_USE_THE_WEB_CONTENT_RELATED_API"
-msgstr "Aplikazioari Web edukia erakustea edo Web edukiarekin lotutako API erabiltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GENERATE_TOUCH_AND_KEY_EVENTS_AND_CAPTURE_SCREENS"
-msgstr "Aplikazioari ukimen eta tekla gertaerak sortzea eta pantailak kapturatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_NOTIFICATIONS"
-msgstr "Aplikazioari jakinarazpenak lortzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Aplikazioari aplikazioen ziurtagiri zehatzak lortzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_GET_TIME_AND_DATE_INFORMATION"
-msgstr "Aplikazioari ordu eta dataren informazioa lortzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_HOLD_AND_CONTROL_POWER_STATES"
-msgstr "Aplikazioari botere egoerak edukitzea eta kontrolatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Aplikazioari aplikazioaren paketeak instalatzea edo desinstalatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_ANOTHER_APPLICATION_OPENING_CONDITIONALLY"
-msgstr "Aplikazioari beste aplikazio baten irekitzea baldintzekin kudeatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_APPLICATION_SETTINGS"
-msgstr "Aplikazioari aplikazioaren ezarpenak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_AUDIO_RECORDING"
-msgstr "Aplikazioari audio grabaketa kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DEVICE_CAMERAS_TO_PREVIEW_AND_CAPTURE_PICTURES"
-msgstr "Aplikazioari argazkiak aurreikusteko eta ateratzeko gailuaren kamerak kudeatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_DIGITAL_RIGHTS_MANAGEMENT_HDRM_LICENCES_AND_RETRIEVE_DRM_CONTENT_INFORMATION"
-msgstr "Aplikazioari Eskubide Digitalen Kudeaketa (DRM) lizentziak kudeatzea eta DRM edukiaren informazioa berreskuratzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_HTTP_DOWNLOADS"
-msgstr "Aplikazioari HTTP deskargak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_ACCOUNTS"
-msgstr "Aplikazioari sare kontuak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NETWORK_CONNECTIONS"
-msgstr "Aplikazioari sare konexioak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_NOTIFICATIONS"
-msgstr "Aplikazioari jakinarazpenak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_CELL_BROADCAST_SERVICE_HCBS"
-msgstr "Aplikazioari igorpen gelaxkaren zerbitzua (CBS) kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_INSTALLED_INPUT_METHODS"
-msgstr "Aplikazioari instalatutako sarrera metodoak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_USER_DATA_STORED_BY_THE_WEB_CONTROL_OR_BROWSER"
-msgstr "Aplikazioari Web kontrolak edo nabigatzaileak bildutako erabiltzaile datuak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WI_FI_SYSTEM_SETTINGS_SUCH_AS_UPDATING_AP_INFORMATION"
-msgstr "Aplikazioari Wi-Fi sistemaren ezarpenak kudeatzen, adibidez AP informazioa eguneratzen, uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_UI_PROPERTIES"
-msgstr "Aplikazioari UI propietateak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_AND_AUDIO_RECORDING_WITH_CAMERA_OR_AUDIO_RECORDER"
-msgstr "Aplikazioari kamerarekin edo audio grabatzailearekin bideo eta audio grabaketa kudeatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_VIDEO_RECORDING_WITH_THE_CAMERA"
-msgstr "Aplikazioari kamerarekin bideo grabaketa kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WAP_PUSH_MESSAGES"
-msgstr "Aplikazioari WAP push mezuak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_DIRECT_ON_THE_DEVICE"
-msgstr "Aplikazioari gailuko Wi-Fi Direct kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_WI_FI_ON_THE_DEVICE_SUCH_AS_TURNING_WI_FI_ON_OR_OFF_AND_CONNECTING_TO_AP"
-msgstr "Aplikazioari gailuko Wi-Fia kudeatzen uzten dio, adibidez, Wi-Fia pizten edo itzaltzen eta APra konektatzen"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE THE_USER_PROFILE"
-msgstr "Aplikazioari erabiltzaile profila kudeatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_A_WAY_TO_INPUT_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_INPUT_FIELD"
-msgstr "Aplikazioari karaktereak eta sinboloak lotutako sarrera eremu batean sartzeko modua ematea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_THE_DOMAIN_NAME_SERVICE_HDNS"
-msgstr "Aplikazioari domeinu izenaren zerbitzua (DNS) eskaintzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PROVIDE_USER_NOTIFICATIONS_SUCH_AS_MESSAGES_AND_BADGES"
-msgstr "Aplikazioari erabiltzaile jakinarazpenak, adibidez, mezuak eta bereizgarriak, ematea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Aplikazioari NFC mezuak beste gailu batzuetara bidaltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_ACCOUNTS"
-msgstr "Aplikazioari kontuak irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Aplikazioari NFC etiketa informazioa irakurtzen eta idazten uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_APPLICATION_INFORMATION"
-msgstr "Aplikazioari aplikazioen informazioa irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_BOOKMARKS"
-msgstr "Aplikazioari lastermarkak irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CALL_LOGS"
-msgstr "Aplikazioari deien erregistroak irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CERTIFICATES"
-msgstr "Aplikazioari ziurtagiriak irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTACTS"
-msgstr "Aplikazioari kontaktuak irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_CONTENT"
-msgstr "Aplikazioari edukia irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_FILE_SYSTEMS"
-msgstr "Aplikazioari fitxategi sistemak irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_GEOLOCATION_PERMISSIONS"
-msgstr "Aplikazioari geokokapen baimenak irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_INFORMATION_SUCH_AS_THE_PLATFORM_OR_API_VERSION"
-msgstr "Aplikazioari informazioa irakurtzea ahalbidetzen dio, esaterako, plataforma edo API bertsioa"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_NETWORK_STATISTICS"
-msgstr "Aplikazioari sare estatistikak irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_PRIVACY_SETTINGS"
-msgstr "Aplikazioari pribatutasun ezarpenak irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_SECURITY_OR_PRIVACY_SETTINGS"
-msgstr "Aplikazioari segurtasun edo pribatutasun baldintzak irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ SCHEDULE_AND_TASK_INFORMATION"
-msgstr "Aplikazioari programa eta ataza informazioa irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ THE_USER_PROFILE"
-msgstr "Aplikazioari erabiltzaile profila irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_DETAILED_PACKAGE_INFORMATION"
-msgstr "Aplikazioari pakete informazioa xehatua jasotzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_NOTIFICATIONS_ABOUT_FOREGROUND_APPLICATION_CHANGES"
-msgstr "Aplikazioari aurreko planoko aplikazioen aldaketei buruzko jakinarazpenak jasotzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Aplikazioari pakete informazioa jasotzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_PUSH_NOTIFICATIONS"
-msgstr "Aplikazioari push jakinarazpenak jasotzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE_SMS_MESSAGES_FROM_A_SPECIFIED_PORT"
-msgstr "Aplikazioari ataka jakin batetik SMS mezuak jasotzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RECEIVE MESSAGES_AND_RETRIEVE_MESSAGES_FROM_THE_MESSAGE_BOXES"
-msgstr "Aplikazioari mezuak jasotzen eta mezu ontzietako mezuak berreskuratzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_RELEASE_A_SPECIFIC_NETWORK_CONNECTION"
-msgstr "Aplikazioari sare konexio zehatza eskatzen/argitaratzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_DIRECT_INFORMATION"
-msgstr "Aplikazioari Wi-Fi Direct informazioa eskatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_REQUEST_WI_FI_INFORMATION"
-msgstr "Aplikazioari Wi-Fi informazioa eskatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RESET_NETWORK_STATISTICS"
-msgstr "Aplikazioari sare estatistikak berrezartzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_SYSTEM_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Aplikazioari sistema informazioa berreskuratzen uzten dio, adibidez, sarearena, SIMarena eta dei xehetasunena"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_NETWORK_SIM_AND_CALL_DETAILS"
-msgstr "Aplikazioari telefonia informazioa berreskuratzen uzten dio, adibidez, sarearena, SIMarena eta dei xehetasunena"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_AND_RECEIVE SMS_MESSAGES_AND_RETRIEVE_SMS_MESSAGES_FROM_THE_SMS_MESSAGE_BOXES"
-msgstr "Aplikazioari SMS mezuak bidaltzen eta jasotzen eta SMS mezu ontzietako SMS mezuak berreskuratzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_EMAIL_MESSAGES"
-msgstr "Aplikazioari mezu elektronikoak bidaltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_MMS_MESSAGES"
-msgstr "Aplikazioari MMS mezuak bidaltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SEND_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Aplikazioari SMS, MMS eta mezu elektronikoak bidaltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AN_ALARM_AND_WAKE_THE_DEVICE_UP_AT_THE_SCHEDULED_TIME"
-msgstr "Aplikazioari alarma ezartzen eta gailua agindutako orduan esnatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_AUDIO_INPUT_AND_OUTPUT_ROUTES_AND_RECEIVE_NOTIFICATIONS_ABOUT_ROUTE_EVENTS"
-msgstr "Aplikazioari audio sarrera eta irteera ibilbideak ezartzea eta ibilbide gertaerei buruzko jakinarazpenak jasotzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SET_PACKAGE_CONFIGURATIONS"
-msgstr "Aplikazioari pakete konfigurazioak ezartzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_SYNCHRONISE_DEVICE_DATA_TO_THE_SERVER_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Aplikazioari gailuaren datuak zerbitzarian sinkronizatzen uzten dio OMA DS 1.2 protokoloa erabiliz"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_TURN_ON_AND_USE_VIBRATE"
-msgstr "Aplikazioari piztu eta bibrazioa erabiltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UNLOCK_THE_DEVICE"
-msgstr "Aplikazioari gailua desblokeatzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_NOTIFICATIONS"
-msgstr "Aplikazioari jakinarazpenak eguneratzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_OR_READ_USER_SETTINGS"
-msgstr "Aplikazioari erabiltzailearen ezarpenak eguneratzea edo irakurtzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_UPDATE_SYSTEM_NETWORK_ACCOUNTS"
-msgstr "Aplikazioari sistema sare kontuak kudeatzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_ATTACHED_STORAGE_WITHOUT_SIZE_LIMITATIONS_FOR_DB_OR_FILES"
-msgstr "Aplikazioari erantsitako biltegiratze DB edo fitxategietarako mugarik gabe erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_FULL_SCREEN"
-msgstr "Aplikazioari pantaila osoa erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_NFC_COMMON_FEATURES"
-msgstr "Aplikazioari ohiko NFC eginbideak erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_GENERIC_ACCESS_PROFILE_HGAP_FOR_EXAMPLE_TO_SCAN_FOR_AND_PAIR_DEVICES"
-msgstr "Aplikazioari sarbide profil generikoa (GAP) erabiltzea ahalbidetzen dio, esaterako, gailuak bilatzeko eta parekatzeko"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_HEALTH_DEVICE_PROFILE_HHDP_FOR_EXAMPLE_TO_SEND_HEALTH_DATA"
-msgstr "Aplikazioari osasun gailuaren profila (HDP) erabiltzea ahalbidetzen dio, esaterako, osasunari buruzko datuak bidaltzeko"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_INTERNET_WITH_A_SPECIFIED_BEARER"
-msgstr "Aplikazioari Internet eramaile zehatz batekin erabiltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_OBJECT_PUSH_PROFILE_HOPP_FOR_EXAMPLE_TO_SEND_FILES"
-msgstr "Aplikazioari difusio objektuaren profila (OPP) erabiltzea ahalbidetzen dio, esaterako, fitxategiak bidaltzeko"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SERIAL_PORT_PROFILE_HSPP_FOR_EXAMPLE_TO_SEND_SERIAL_DATA"
-msgstr "Aplikazioari serieko atakaren profila (SPP) erabiltzea ahalbidetzen dio, esaterako, serieko datuak bidaltzeko"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_SYSTEM_LOG_HDLOG"
-msgstr "Aplikazioari sistema erregistroa (dlog) erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_TEST_AUTOMATION_FEATURE"
-msgstr "Aplikazioari proba automatizazio eginbidea erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_THE_USER_LOCATION_DATA"
-msgstr "Aplikazioari erabiltzailea kokatzeko datuak erabiltzea ahalbidetzen dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_USE_TIZEN_WEB_DEVICE_API_COMMON_MODULE"
-msgstr "Aplikazioari Tizen web gailuko API modulu komuna erabiltzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_SMS_MMS_AND_EMAIL_MESSAGES"
-msgstr "Aplikazioari SMS, MMS eta mezu elektronikoak idazten uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_WRITE_TO_FILE_SYSTEMS"
-msgstr "Aplikazioari fitxategi sistemak idazten uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO READ_PRIVILEGE_INFORMATION"
-msgstr "Aplikazioari pribilejio informazioa irakurtzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_CHANGING_TO_FULL_SCREEN"
-msgstr "Pantaila osora aldatzea"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
 msgstr "Aplikazioak ixtea"
 
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_OTHER_DEVICES_AND_SERVERS"
-msgstr "Beste gailu eta zerbitzari batzuekin komunikatzea"
-
-msgid "IDS_TPLATFORM_BODY_COMMUNICATING_WITH_THE_HTTP_SERVER"
-msgstr "HTTP zerbitzariarekin komunikatzea"
-
-msgid "IDS_TPLATFORM_BODY_CONFIGURING_MOBILE_NETWORKS"
-msgstr "Sare mugikorrak konfiguratzea"
-
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "HTTP bidez deskargatzea"
-
-msgid "IDS_TPLATFORM_BODY_FORWARDING_CALLS"
-msgstr "Deia birbidaltzea"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "Aplikazio ziurtagiriak lortzea"
 
-msgid "IDS_TPLATFORM_BODY_INSTALLING_DYNAMIC_BOX"
-msgstr "Dynamic Box instalatzea"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Kontuak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATIONS"
-msgstr "Aplikazioak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_APPLICATION_SETTINGS"
-msgstr "Aplikazio ezarpenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_AUDIO_ROUTES"
-msgstr "Audio ibilbideak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_GENERAL_SETTINGS"
-msgstr "Bluetooth ezarpen orokorrak kudeatzea"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "Bluetooth sistema ezarpenak kudeatzea"
@@ -433,98 +43,23 @@ msgstr "Egutegia kudeatzea"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Deien erregistroak kudeatzea"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_CELL_BROADCAST_SERVICE"
-msgstr "Igorpen gelaxka zerbitzua kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_CERTIFICATES"
-msgstr "Ziurtagiriak kudeatzea"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Kontaktuak kudeatzea"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Edukia kudeatzea"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_DRM"
-msgstr "DRM kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_GEOLOCATION_PERMISSIONS"
-msgstr "Geokokapen baimenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_EVENTS"
-msgstr "Ekitaldi sarrera kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "Idazkera metodoak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_ACCOUNTS"
-msgstr "Sare kontuak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Sare konexioak kudeatzea"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC ezarpen orokorrak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_SYSTEM_SETTINGS"
-msgstr "NFC sistema ezarpenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_NOTIFICATIONS"
-msgstr "Jakinarazpenak kudeatzea"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGES"
 msgstr "Paketeak kudeatzea"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PACKAGE_SETTINGS"
-msgstr "Pakete ezarpenak kudeatzea"
-
 msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Bateria kudeatzea"
 
-msgid "IDS_TPLATFORM_BODY_MANAGING_PRIVACY_SETTINGS"
-msgstr "Pribatutasun ezarpenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SHORTCUTS"
-msgstr "Lasterbideak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SMS"
-msgstr "SMS kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_SYSTEM_SETTINGS"
-msgstr "Sistema ezarpenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_INTERFACE"
-msgstr "Erabiltzailearen interfazea kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_USER_PROFILE"
-msgstr "Erabiltzailearen profila kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_SETTINGS"
-msgstr "Bibrazio ezarpenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WAP_PUSH_MESSAGES"
-msgstr "WAP push mezuak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_DATA"
-msgstr "Web datuak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI"
-msgstr "Wi-Fi kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_DIRECT"
-msgstr "Wi-Fi Direct kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_WI_FI_SYSTEM_SETTINGS"
-msgstr "Wi-Fi sistema ezarpenak kudeatzea"
-
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
 msgstr "Aplikazioak irekitzea"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_DNS"
-msgstr "DNS ematea"
-
-msgid "IDS_TPLATFORM_BODY_PROVIDING_INPUT_METHODS"
-msgstr "Idazkera metodoak ematea"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Jakinarazpenak ematea"
@@ -535,9 +70,6 @@ msgstr "NFC mezuak bidaltzea"
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
 msgstr "Kontuak irakurtzea"
 
-msgid "IDS_TPLATFORM_BODY_READING_APPLICATION_INFORMATION"
-msgstr "Aplikazioaren informazioa irakurtzea"
-
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Lastermarkak irakurtzea"
 
@@ -546,9 +78,6 @@ msgstr "Egutegia irakurtzea"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Dei erregistroak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_CERTIFICATES"
-msgstr "Ziurtagiriak irakurtzea"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Kontaktuak irakurtzea"
@@ -559,56 +88,17 @@ msgstr "Edukia irakurtzea"
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
 msgstr "Fitxategi sistemak irakurtzea"
 
-msgid "IDS_TPLATFORM_BODY_READING_GEOLOCATION_PERMISSIONS"
-msgstr "Geokokapen baimenak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_NETWORK_STATISTICS"
-msgstr "Sare estatistikak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_NOTIFICATIONS"
-msgstr "Jakinarazpenak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_PLATFORM_INFORMATION"
-msgstr "Plataforma informazioa irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVACY_SETTINGS"
-msgstr "Pribatutasun ezarpenak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_PRIVILEGE_INFORMATION"
-msgstr "Pribilegio informazioa irakurtzea"
-
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
 msgstr "Sistema informazio segurua irakurtzea"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
 msgstr "Sistema informazioa irakurtzea"
 
-msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_SECURITY_SETTINGS"
-msgstr "Sistemaren segurtasun ezarpenak irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_USER_PROFILE"
-msgstr "Erabiltzailearen profila irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_DIRECT_INFORMATION"
-msgstr "Wi-Fi Direct informazioa irakurtzea"
-
-msgid "IDS_TPLATFORM_BODY_READING_WI_FI_INFORMATION"
-msgstr "Wi-Fi informazio irakurtzea"
-
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "NFC etiketak irakurtzea/idaztea"
 
-msgid "IDS_TPLATFORM_BODY_RECEIVING_APPLICATION_USAGE_NOTIFICATIONS"
-msgstr "Aplikazio erabilera jakinarazpenak jasotzea"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Pakete informazio xehatua jasotzea"
-
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
 msgstr "Pakete informazioa jasotzea"
-
-msgid "IDS_TPLATFORM_BODY_RECEIVING_PORT_SPECIFIC_SMS"
-msgstr "SMS ataka espezifikoa jasotzea"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Push jakinarazpenak jasotzea"
@@ -616,29 +106,8 @@ msgstr "Push jakinarazpenak jasotzea"
 msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Audioa grabatzea"
 
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO"
-msgstr "Bideoa grabatzea"
-
-msgid "IDS_TPLATFORM_BODY_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Bideoa eta audioa grabatzea"
-
-msgid "IDS_TPLATFORM_BODY_RESETTING_NETWORK_STATISTICS"
-msgstr "Sare estatistikak berrezartzea"
-
-msgid "IDS_TPLATFORM_BODY_SCANNING_FOR_VIRUSES"
-msgstr "Birusak eskaneatzea"
-
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
 msgstr "Sare konexioa hautatzea"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_EMAILS"
-msgstr "Mezu elektronikoak bidaltzea"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MESSAGES"
-msgstr "Mezuak bidaltzea"
-
-msgid "IDS_TPLATFORM_BODY_SENDING_MMS"
-msgstr "MMSa bidaltzea"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Alarmak ezartzea"
@@ -646,26 +115,11 @@ msgstr "Alarmak ezartzea"
 msgid "IDS_TPLATFORM_BODY_SYNCING_DEVICE_DATA"
 msgstr "Gailuaren datuak sinkronizatzea"
 
-msgid "IDS_TPLATFORM_BODY_UNLOCKING_DEVICE"
-msgstr "Gailua desblokeatzea"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NETWORK_SETTINGS"
-msgstr "Sarearen ezarpenak eguneratzea"
-
-msgid "IDS_TPLATFORM_BODY_UPDATING_NOTIFICATIONS"
-msgstr "Jakinarazpenak eguneratzea"
-
-msgid "IDS_TPLATFORM_BODY_USING_ADVANCED_INTERNET_OPTIONS"
-msgstr "Internet aurreratuko aukerak erabiltzea"
-
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_GAP"
 msgstr "Bluetooth GAP erabiltzea"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_HDP"
 msgstr "Bluetooth HDP erabiltzea"
-
-msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_OPP"
-msgstr "Bluetooth OPP erabiltzea"
 
 msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "Bluetooth SPP erabiltzea"
@@ -673,17 +127,8 @@ msgstr "Bluetooth SPP erabiltzea"
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
 msgstr "Kamera erabiltzea"
 
-msgid "IDS_TPLATFORM_BODY_USING_COMMON_MODULE"
-msgstr "Modulu komunak erabiltzea"
-
-msgid "IDS_TPLATFORM_BODY_USING_LOG"
-msgstr "Erregistroa erabiltzea"
-
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "NFC ezaugarri komunak erabiltzea"
-
-msgid "IDS_TPLATFORM_BODY_USING_TEST_AUTOMATION"
-msgstr "Automatizazio testa erabiltzea"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
 msgstr "Erabiltzaile kokapena erabiltzea"
@@ -709,9 +154,6 @@ msgstr "Kontaktuak"
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
 
-msgid "IDS_TPLATFORM_OPT_MESSAGING_ABB"
-msgstr "Mezularitza"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -720,15 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Aplikazioaren informazioa berreskuratzea"
-
-msgid "IDS_TPLATFORM_BODY_MANAGING_DEFAULT_APPLICATION_PREFERENCES_M_NOUN"
-msgstr "Lehenetsitako aplikazio lehenespenak kudeatzea"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Aplikazioari beste aplikazio batzuekin lotutako informazioa berreskuratzen uzten dio"
-
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_READ_AND_UPDATE_DEFAULT_APPLICATION_PREFERENCES"
-msgstr "Aplikazioari lehenetsitako aplikazio lehenespenak irakurtzen eta eguneratzen uzten dio"
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
 msgstr "Kokalekua"
@@ -754,6 +187,447 @@ msgstr "Bestelako abantailak"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Web aplikazio ezarpenak kudeatzea"
 
-msgid "IDS_TPLATFORM_BODY_ALLOWS_THE_APPLICATION_TO_MANAGE_THE_WEB_APPLICATION_SETTINGS_MSG"
-msgstr "Aplikazioari web aplikazioaren ezarpenak kudeatzen uzten dio, baita web aplikazio honetan gordetako cookie guztiak kentzen ere"
+msgid "IDS_TPLATFORM_BODY_MESSAGING"
+msgstr "Mezularitza"
+
+msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
+msgstr "Dei erregis."
+
+msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
+msgstr "Pribilegio hau ez dago zehaztuta"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ezarpenak"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Orokorra"
+
+msgid "IDS_ST_HEADER_PRIVACY"
+msgstr "Pribatutasuna"
+
+msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
+msgstr "%1$s ezgaitu da %2$s-(e)n."
+
+msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
+msgstr "Osasunaren informazioa irakurtzea"
+
+msgid "IDS_ST_OPT_SEND_SMS_ABB"
+msgstr "Bidali SMS"
+
+msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
+msgstr "Irak. SMS eta MMS"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
+msgstr "Alarmak berreskuratzen"
+
+msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
+msgstr "Birusak bilatzea eta ezabatzea"
+
+msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
+msgstr "Mugatu gabeko Bluetooth zerbitzuak erabiltzea"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
+msgstr "Interneteko lastermarketara sartzea"
+
+msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
+msgstr "Aplikazioen artean datuak partekatzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
+msgstr "Pantailaren ezarpenak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
+msgstr "Kontu elektronikoak, postontziak eta mezu elektronikoak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
+msgstr "Mezu elektronikoen konfigurazioak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Kanpo biltegira sartzea"
+
+msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
+msgstr "Kanpo biltegietako aplikazio datuetara sartzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
+msgstr "Bibrazio erantzuna kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Biltegi segurua erabiltzea"
+
+msgid "IDS_TPLATFORM_BODY_LOCKING_UNLOCKING_SECURE_REPOSITORY_M_NOUN"
+msgstr "Biltegi segurua blokeatzea/desblokeatzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
+msgstr "LEDak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
+msgstr "Kokapen ezarpenak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
+msgstr "Multimedia karpetetara sartzea"
+
+msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
+msgstr "Testua eta multimedia mezuak eta haiei lotutako informazioa irakurtzea"
+
+msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
+msgstr "Sare informazioa irakurtzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
+msgstr "Sare profilak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
+msgstr "Sare konexioak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
+msgstr "Jakinarazpenak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
+msgstr "Aplikazio paketeak instalatzea/desinstalatzea eta cacheak garbitzea"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
+msgstr "Pakete informazio xehatua berreskuratzea"
+
+msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
+msgstr "Bideoa eta audioa grabatzea"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
+msgstr "Gailuaren pantaila kapturatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
+msgstr "Lasterbideak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Muga gabeko sistema ezarpenak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
+msgstr "Sistema ezarpen guztiak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
+msgstr "Telefoniako ezarpenak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
+msgstr "Bolumena egokitzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
+msgstr "Internet historia kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
+msgstr "Wi-Fi Direct informazioa kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
+msgstr "Aplikazio honek gordetako alarmei buruzko informazioa irakur dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
+msgstr "Aplikazio honek gailuko beste edozer aplikazioko datuak irakurri eta ezabatu ditzake, eduki kaltegarria aurkitzeko eta kentzeko."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
+msgstr "Aplikazio honek beste aplikazio batzuk ireki ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
+msgstr "Aplikazio honek mugarik gabeko ekintzak gauza ditzake Bluetooth erabiliz, adibidez, beste gailu batzuk bilatzea eta horietara konektatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
+msgstr "Aplikazio honek Interneteko lastermarkak berreskuratu, sortu, editatu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
+msgstr "Aplikazio honek gertaerak eta atazak irakurri ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
+msgstr "Aplikazio honek gertaerak eta atazak sortu, eguneratu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
+msgstr "Aplikazio honek dei erregistro elementuak sortu, eguneratu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
+msgstr "Aplikazio honek argazkiak atera eta aurrebistaratu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
+msgstr "Aplikazio honek zure profila, kontaktuak eta aplikazioarekin lotutako kontaktu historiak sortu, eguneratu eta ezabatu ditzake, Kontaktu historiak sare sozialen jarduera bildu dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
+msgstr "Aplikazio honek zure profila, kontaktuak eta kontaktu historia irakur ditzake. Kontaktu historiak sare sozialaren jarduera har dezake barne."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
+msgstr "Aplikazio honek multimedia informazioa alda dezake. Informazio hau beste aplikazio batzuek erabil dezakete."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
+msgstr "Aplikazio honek datuak beste aplikazio batzuekin parteka ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
+msgstr "Aplikazio honek pantailaren ezarpenak kudeatu ditzake, adibidez, argitasuna. Baliteke bateria kontsumoa handitzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
+msgstr "Aplikazio honek kontu elektronikoak kudeatu ditzake, baita karpetak eta mezu elektronikoak ere."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
+msgstr "Aplikazio honek posta elektronikoko aplikazioen ezarpenak kudeatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Aplikazio honek kanpo biltegietan, adibidez SD txarteletan, gordetako fitxategiak irakurri eta idatzi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
+msgstr "Aplikazio honek bere fitxategiak irakurri eta idatzi ditzake kanpo biltegietan, adibidez SD txarteletan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
+msgstr "Aplikazio honek bibrazio erantzuna kontrola dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikazio hau Internetera sar daiteke. Baliteke kostu osagarriak eragitea zure ordainketa planaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
+msgstr "Aplikazio honek teklak, ziurtagiriak eta datuak gorde ditzake pasahitzez babestutako biltegian, baita handik berreskuratu eta ezabatu ere."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
+msgstr "Aplikazio honek pasahitzez babestutako biltegia blokea eta desblokea dezake eta haren pasahitz aldaketak kudea ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
+msgstr "Aplikazio honek LEDak piztu eta itzali ditzake, adibidez, gailuaren aurreko LEDa eta kameraren flasha."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
+msgstr "Aplikazio honek zure kokapen zerbitzu ezarpenak kontrola ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
+msgstr "Aplikazio honek multimedia karpetetako fitxategiak irakurri eta idatzi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
+msgstr "Aplikazio honek testu eta multimedia mezuak irakurri ditzake, baita horiekin lotutako informazioa ere."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
+msgstr "Aplikazio honek sare informazioa berreskura dezake, adibidez, sareen egoera, mota eta sareko profilaren informazio xehatua."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
+msgstr "Aplikazio honek sare profilak gehitu, kendu eta edita ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
+msgstr "Aplikazio honek Wi-Fi piztu eta itzali dezake eta Wi-Fi eta sare mugikorretara konektatu eta horietatik deskonekta daiteke."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
+msgstr "Aplikazio honek bere jakinarazpenak eta bereizgarriak erakutsi eta ezkutatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
+msgstr "Aplikazio honek aplikazio paketeak instalatu eta desinstalatu ditzake eta aplikazioen cacheak garbitu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
+msgstr "Aplikazio honek aplikazio pakete informazio xehatua berreskura dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
+msgstr "Aplikazio honek jakinarazpenak Internet bidez jaso ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
+msgstr "Aplikazio honek bideoa eta audioa grabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
+msgstr "Aplikazio honek pantaila kapturak har ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
+msgstr "Aplikazio honek lasterbideak sortu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
+msgstr "Aplikazio honek sistemako ezarpen mugagabeak irakurri eta idatzi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
+msgstr "Aplikazio honek sistemako ezarpen guztiak irakurri eta idatzi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
+msgstr "Aplikazio honek telefonia informazioa berreskura dezake, adibidez, erabilitako sarea eta SIM txartela, IMEI eta deien egoerak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
+msgstr "Aplikazio honek telefoniako ezarpenak kudea ditzake, adibidez, sarrera eta irteera deiak, dei birbidalketa eta zain jartzea, sareak eta SIM txartelak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
+msgstr "Aplikazioak hainbat eginbideren bolumena egokitu dezake, adibidez, jakinarazpen alerta, dei tonu eta multimediarena."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
+msgstr "Aplikazio honek Interneteko historia kudea dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
+msgstr "Aplikazio honek Wi-Fi Direct gaitu eta ezgaitu dezake, Wi-Fi Direct konexioak kudeatu ditzake eta Wi-Fi Direct ezarpenak aldatu ditzake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
+msgstr "Aplikazio honek lastermarkak sortu, editatu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
+msgstr "Aplikazio honek gailuaren sentsoreek bildutako osasun-informazioa irakur dezake, adibidez, podometroak eta bihotz frekuentziaren monitoreak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
+msgstr "Aplikazio honek mezu kutxetako mezuak berreskuratu edo mezuak jaso ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
+msgstr "Aplikazio honek sistema informazio segurua irakurri dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
+msgstr "Aplikazio honek datu kontrolaren hornitzaileek esportatutako datuak irakurri ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
+msgstr "Aplikazio honek sistema informazioa irakurri dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
+msgstr "Aplikazio hau beste leihoen eta pantailen gainean ager daiteke, baita blokeo pantailen gainean ere, leihoen lehentasun ordenaren arabera. Baliteke aplikazioaren leihoa itxi arte, beste aplikazio edo pantaila batzuetan aritzea oztopatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
+msgstr "Aplikazio honek pribatutasunarekin eta segurtasunarekin lotura duten Bluetooth sistemaren ezarpenak alda ditzake, adibidez, ikusgarritasun modua."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
+msgstr "Aplikazio honek bere web aplikazioaren ezarpenak aldatu ditzake, baita cookieak ezabatu ere."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
+msgstr "Aplikazio honek beste aplikazio batzuk itxi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
+msgstr "Aplikazio honek kontuak sortu, editatu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
+msgstr "Aplikazio honek ainguraketa zerbitzuak gaitu eta ezgaitu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
+msgstr "Aplikazio honek zenbakiak dei ditzake, bestelako baieztapenik gabe ukitzen badira."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
+msgstr "Aplikazio honek audio grabaketak kudeatu ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
+msgstr "Aplikazio honek bestelako aplikazioak ireki ditzake aplikazio IDa edo aplikazio kontrola erabiliz."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
+msgstr "Aplikazio honek kontuak irakur ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Aplikazio honek NFC etiketaren informazioa idatzi eta irakurri dezake eta NFC mezuak bidali diezazkieke beste gailuei."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
+msgstr "Aplikazio honek fitxategi sistemak irakurri ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
+msgstr "Aplikazio honek multimedia edukiaren informazioa irakurri dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
+msgstr "Aplikazio honek beste aplikazio batzuekin lotutako informazioa berreskura dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
+msgstr "Aplikazio honek aplikazioen ziurtagiri zehatzak berreskura ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
+msgstr "Aplikazio honek edukia gorde dezake gailuaren biltegian edo kanpo biltegi kokapenetan, adibidez, SD txarteletan, edukiaren neurria mugatu gabe."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Aplikazio honek alarmak ezarri ditzake eta gailua programatutako orduetan esnatu dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
+msgstr "Aplikazio honek gailuaren datuak sinkroniza ditzake OMA DS 1.2 protokoloa erabiliz, adibidez, kontaktuak eta egutegiko gertaerak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
+msgstr "Aplikazio honek pantaila osoko ikuspegia erabili dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
+msgstr "Aplikazio honek Bluetooth sarbide profil generikoa (GAP) erabili dezake, adibidez, gailuak bilatzeko eta parekatzeko."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
+msgstr "Aplikazio honek Bluetooth serieko atakaren profila (HDP) erabili dezake, adibidez, osasun informazioa bidaltzeko."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
+msgstr "Aplikazio honek Bluetooth serieko atakaren profila (SPP) erabili dezake, adibidez, serieko datuak bidaltzeko."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
+msgstr "Aplikazio honek zure kokapen informazioa erabili dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
+msgstr "Aplikazio honek testu mezuak, multimedia mezuak eta mezu elektronikoak idatzi ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
+msgstr "Aplikazio honek fitxategi sistemetan idatzi dezake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
+msgstr "Aplikazio hau chip txartel adimendu seguruetara, adibidez, UICC/SIM, elementu seguru txertatuetara eta SD txartel seguruetara sar daiteke."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
+msgstr "Aplikazio honek erabiltzaile ezarpenak aldatu eta irakurri ditzake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
+msgstr "Aplikazio honek NFC ezarpenak alda ditzake, adibidez, NFC piztea edo itzaltzea."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
+msgstr "Aplikazio honek bateriarekin lotutako ezarpenak kudeatu ditzake, adibidez, pantaila iluntzea."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Aplikazio honek aplikazio paketeak instalatu edo desinstalatu ditzake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
+msgstr "Aplikazio honek NFC mezuak bidal ditzake beste gailu batzuetara."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
+msgstr "Aplikazio honek NFC etiketa informazioa irakurri eta idatzi dezake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
+msgstr "Aplikazio honek lastermarkak irakur ditzake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
+msgstr "Aplikazio honek dei erregistroetako elementuak irakurri ditzake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
+msgstr "Aplikazio honek pakete informazioa jaso dezake."
+
+msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
+msgstr "Aplikazio honek ohiko NFC eginbideak erabili ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
+msgstr "Oinarrizko NFC zerbitzuak erabiltzea"
+
+msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
+msgstr "NFC txartel irudikapen modua erabiltzea"
+
+msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
+msgstr "Ainguratze zerbitzuetara sartzea"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
+msgstr "Beste aplikazioen eta pantailen gainean leihoak erakustea"
+
+msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
+msgstr "Telefono deiak egitea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
+msgstr "Aplikazio hau txartel adimendunaren xehetasunetara sar daiteke, adibidez, kreditu txartelaren xehetasunetara, eta erabiltzaileei NFC bidez ordainketak egiteko baimena eman diezaieke."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
+msgstr "Aplikazio honek testu eta multimedia mezuak idatzi, bidali, ezabatu eta mugitu ditzake eta mezuen ezarpenak eta egoerak aldatu ditzake, adibidez, irakurrita edo irakurri gabe dauden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
+msgstr "Aplikazio honek gailua mugatu dezake, domeinu jakin batzuetara sare mugikorretatik soilik sartzeko."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
+msgstr "Multimedia datuak hartzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
+msgstr "Aplikazio honek bideoa eta audio datuak har ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
+msgstr "Aplikazio jakinarazpenak erakutsi, editatu eta ezabatu ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
+msgstr "Aplikazioak irekitzea eta berrezartzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
+msgstr "Alarmak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
+msgstr "Aplikazio honek alarmak kudeatu ditzake, gordetako alarmak berreskuratuz eta gailua programatutako orduetan esnatuz."
+
+msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
+msgstr "Bluetooth ezarpenak aldatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
+msgstr "Aplikazio honek Bluetooth ezarpenak alda ditzake, adibidez, Bluetooth piztea edo itzaltzea, gailuaren izena aldatzea eta AV urrutiko agintea gaitzea edo ezgaitzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
+msgstr "Aplikazio honek jakinarazpenei buruzko jakinarazpenak irakurri ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
+msgstr "Pantaila osoko ikuspegia erabiltzea"
+
+msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
+msgstr "Jakinarazpenen informazioa berreskuratzea"
+
+msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
+msgstr "Testua eta multimedia mezuak bidaltzea eta haien egoerak eguneratzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikazioak HTTP deskargak kudea ditzake. Baliteke kostu osagarriak eragitea zure ordainketa planaren arabera."
 
