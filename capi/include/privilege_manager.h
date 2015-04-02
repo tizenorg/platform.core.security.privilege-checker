@@ -20,7 +20,7 @@
 #include <tizen.h>
 #include <glib.h>
 #include <cert-service.h>
-
+#include "privilege_info.h"
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -36,23 +36,11 @@ typedef enum
 
 typedef enum
 {
-    PRVMGR_PACKAGE_TYPE_CORE    =  0, 
-    PRVMGR_PACKAGE_TYPE_NATIVE  =  1,
+    PRVMGR_PACKAGE_TYPE_WRT     =  0,
+    PRVMGR_PACKAGE_TYPE_CORE    =  1,
 } privilege_manager_package_type_e;
 
-/**
- * @brief Enumerations of error code for Privilege Information.
- */
-typedef enum
-{
-    PRVMGR_ERR_NONE                         = 0,
-    PRVMGR_ERR_INVALID_PARAMETER            = 1,
-    PRVMGR_ERR_OUT_OF_MEMORY                = 2,
-    PRVMGR_ERR_INTERNAL_ERROR               = 3,
-    PRVMGR_ERR_NO_DATA                      = 4,
-    PRVMGR_ERR_NO_EXIST_PRIVILEGE           = 5,
-    PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL    = 6
-} privilege_manager_error_e;
+
 
 /**
  * @brief verify privilege name and level in the privilege list.
@@ -72,41 +60,7 @@ typedef enum
  */
 EXPORT_API int privilege_manager_verify_privilege_list(privilege_manager_package_type_e package_type, GList* privilege_list, privilege_manager_visibility_e visibility, char **error_privilege_name);
 
-/**
- * @brief verify privilege name in the privilege list.
- * @remarks @a privilege_list must be released with free() by you.
- * @remarks @a error_privilege_name_list must be released with free() by you.
- * @param [in] privilege_manager_package_type_e The privilege_manager_package_type_e
- * @param [in] privilege_list The privilege_list
- * @param [out] error_privilege_name_list The error_privilege_name_list's value is assigned when PRVMGR_ERR_NO_EXIST_PRIVILEGE is returned, otherwise null is assigned.
- * @return 0 on success, otherwise a negative error value.
- * @retval #PRVMGR_ERR_NONE Successful
- * @retval #PRVMGR_ERR_NO_EXIST_PRIVILEGE privilege don't exist. Error_privilege_name'value is assigned.
- * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
- * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
- * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
- */
-EXPORT_API int privilege_manager_verify_privilege_name(privilege_manager_package_type_e package_type, GList* privilege_list, GList **error_privilege_name_list);
-
-/**
- * @brief verify privilege name and level in the privilege list.
- * @remarks @a privilege_list must be released with free() by you.
- * @remarks @a error_privilege_name_list must be released with free() by you.
- * @remarks @a error_privilege_level_list must be released with free() by you.
- * @param [in] privilege_manager_package_type_e The privilege_manager_package_type_e
- * @param [in] privilege_list The privilege_list
- * @param [in] privilege_manager_visibility_e The privilege_manager_visibility_e
- * @param [out] error_privilege_name_list The error_privilege_name_list's value is assigned when PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL is returned, otherwise null is assigned.
- * @param [out] error_privilege_level_list The error_privilege_level_list's value is assigned when PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL is returned, otherwise null is assigned.
- * @return 0 on success, otherwise a negative error value.
- * @retval #PRVMGR_ERR_NONE Successful
- * @retval #PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL privilege level is higher than visibility. Error_privilege_name_list and error_privilege_level_list 'value is assigned.
- * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
- * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
- * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
- */
-EXPORT_API int privilege_manager_verify_privilege_level(privilege_manager_package_type_e package_type, GList* privilege_list, privilege_manager_visibility_e visibility, GList **error_privilege_name_list,  GList **error_privilege_level_list);
-
+EXPORT_API int privilege_manager_verify_privilege(const char* api_version, privilege_manager_package_type_e package_type, GList* privilege_list, privilege_manager_visibility_e visibility, char **error_message);
 
 #ifdef __cplusplus
 }

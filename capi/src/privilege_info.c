@@ -23,6 +23,7 @@
 #include "privilege_db_manager.h"
 #include "privilege_info.h"
 #include "privilege_info_types.h"
+#include "privilege_manager.h"
 
 #ifdef LOG_TAG
 #undef LOG_TAG
@@ -46,28 +47,28 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
 
     int group_id = 6;
     //Native
-    int ret = privilege_db_manager_get_privilege_group_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         LOGD("group_id = %d", group_id);
         groupTable[group_id] = 1;
 
         return PRVMGR_ERR_NONE;
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
     //Web
-    ret = privilege_db_manager_get_privilege_group_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         LOGD("group_id = %d", group_id);
         groupTable[group_id] = 1;
 
         return PRVMGR_ERR_NONE;
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
@@ -122,8 +123,8 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
     TryReturn(user_data != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] user_data is NULL");
 
     //Native
-    int ret = privilege_db_manager_get_privilege_group_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(group_id == data.privilege_group){
             LOGD("data.privilege_group = %d", data.privilege_group);
@@ -133,14 +134,14 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
 
     //Web
-    ret = privilege_db_manager_get_privilege_group_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(group_id == data.privilege_group){
             LOGD("data.privilege_group = %d", data.privilege_group);
@@ -150,7 +151,7 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
@@ -288,11 +289,11 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
     char* temp = NULL;
 
     // Check Native
-    int ret = privilege_db_manager_get_privilege_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
+    int ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
 
     LOGD("privilege = %s, string id = %s", privilege, temp);
 
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
@@ -317,7 +318,7 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         free(temp);
         return PRVMGR_ERR_INTERNAL_ERROR;
@@ -330,9 +331,9 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
     }
 
     // Check WRT
-    ret = privilege_db_manager_get_privilege_display(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
+    ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
 
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
@@ -363,7 +364,7 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret == PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret == PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         *name_string_id = NULL;
         free(temp);
@@ -443,9 +444,9 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
     char* temp = NULL;
 
     // Check Native
-    int ret = privilege_db_manager_get_privilege_description(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
+    int ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
 
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
@@ -470,7 +471,7 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret != PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         free(temp);
         return PRVMGR_ERR_INTERNAL_ERROR;
@@ -483,9 +484,9 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
     }
 
     // Check Web
-    ret = privilege_db_manager_get_privilege_description(PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
 
-    if(ret == PRIVILIEGE_DB_MANAGER_ERR_NONE)
+    if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
@@ -516,7 +517,7 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret == PRIVILIEGE_DB_NO_EXIST_RESULT)
+    else if(ret == PRIVILEGE_DB_NO_EXIST_RESULT)
     {
         *description_string_id = NULL;
         free(temp);
@@ -580,109 +581,5 @@ int privilege_info_get_privilege_description(const char *privilege, char **descr
     return  PRVMGR_ERR_NONE;
 }
 
-static void __free_privilege_list(GList* privilege_list)
-{
-    GList* l = NULL;
-    for (l = privilege_list; l != NULL; l = l->next)
-    {
-        privilege_info_db_row_s* privilege_info_db_row = (privilege_info_db_row_s*)l->data;
-        if(privilege_info_db_row->privilege_name != NULL)
-            free(privilege_info_db_row->privilege_name);
-    }
-}
 
-
-static int __privilege_manager_core_privilege_level(const char* privilege, int* privilege_level)
-{
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
-
-    int ret;
-    GList* privilege_list;
-    ret = privilege_db_manager_get_privilege_list(&privilege_list);
-    if(ret != PRIVILIEGE_DB_MANAGER_ERR_NONE){
-        LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
-        return PRVMGR_ERR_INTERNAL_ERROR;
-    }
-
-    GList* l = NULL;
-    for (l = privilege_list; l != NULL; l = l->next)
-    {
-        privilege_info_db_row_s* privilege_info_db_row = (privilege_info_db_row_s*)l->data;
-        if (strcmp(privilege_info_db_row->privilege_name, privilege) == 0)
-        {
-            *privilege_level = privilege_info_db_row->privilege_level_id;
-            __free_privilege_list(privilege_list);
-            return PRVMGR_ERR_NONE;
-        }
-    }
-    __free_privilege_list(privilege_list);
-
-    return  PRVMGR_ERR_NO_EXIST_PRIVILEGE;
-}
-
-int privilege_manager_verify_privilege_list(privilege_manager_package_type_e package_type, GList* privilege_list, privilege_manager_visibility_e visibility, char** error_privilege_name)
-{
-    LOGD("privilege_info_compare_privilege_level called");
-    GList *l;
-    int ret;
-    int i = 0;
-    *error_privilege_name = NULL;
-
-    TryReturn(privilege_list != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL");
-
-    for (l = privilege_list; l != NULL; l = l->next)
-    {
-        int privilege_level_id;
-        char* privilege_name = (char*)l->data;
-
-        TryReturn(privilege_name != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_list[%d] is NULL", i);
-        i++;
-
-        LOGD("Checking privilege : %s", privilege_name);
-
-        ret = __privilege_manager_core_privilege_level(privilege_name, &privilege_level_id);
-        if(ret == PRVMGR_ERR_NO_EXIST_PRIVILEGE)
-        {
-            LOGE("[PRVMGR_ERR_NO_EXIST_PRIVILEGE] There are no privilege %s in DB", privilege_name);
-            *error_privilege_name = (char*)calloc(strlen(privilege_name) + 1, sizeof(char));
-            TryReturn(*error_privilege_name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
-            memcpy(*error_privilege_name, privilege_name, strlen(privilege_name));
-
-            return  PRVMGR_ERR_NO_EXIST_PRIVILEGE;
-        }
-        else if(ret == PRVMGR_ERR_NONE)
-        {
-            if(visibility == PRVMGR_PACKAGE_VISIBILITY_PARTNER){
-                if(privilege_level_id == PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PLATFORM)
-                {
-                    LOGE("[PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL] Visibility and Privilege level are mismatched");
-                    LOGE("[PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL] Visibility : partner, Privilege Level : %d", privilege_level_id);
-                    *error_privilege_name = (char*)calloc(strlen(privilege_name) + 1, sizeof(char));
-                    TryReturn(*error_privilege_name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
-                    memcpy(*error_privilege_name, privilege_name, strlen(privilege_name));
-
-                    return PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL;
-                }
-            }
-            else if(visibility == PRVMGR_PACKAGE_VISIBILITY_PUBLIC){
-                if(privilege_level_id == PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PARTNER || privilege_level_id == PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PLATFORM)
-                {
-                    LOGE("[PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL] Visibility and Privilege level are mismatched");
-                    LOGE("[PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL] Visibility : public, Privilege Level : %d", privilege_level_id);
-                    *error_privilege_name = (char*)calloc(strlen(privilege_name) + 1, sizeof(char));
-                    TryReturn(*error_privilege_name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
-                    memcpy(*error_privilege_name, privilege_name, strlen(privilege_name));
-
-                    return PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL;
-                }
-            }
-        }
-        else
-        {
-            return ret;
-        }
-    }
-
-    return PRVMGR_ERR_NONE;
-}
 

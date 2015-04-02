@@ -18,11 +18,25 @@
 #define __TIZEN_SECURITY_PRIVILEGE_INFO_H
 
 #include <tizen.h>
-#include "privilege_manager.h"
-
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/**
+ * @brief Enumerations of error code for Privilege Information.
+ */
+typedef enum
+{
+    PRVMGR_ERR_NONE                         = 0,
+    PRVMGR_ERR_INVALID_PARAMETER            = 1,
+    PRVMGR_ERR_OUT_OF_MEMORY                = 2,
+    PRVMGR_ERR_INTERNAL_ERROR               = 3,
+    PRVMGR_ERR_NO_DATA                      = 4,
+    PRVMGR_ERR_NO_EXIST_PRIVILEGE           = 5,
+    PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL    = 6,
+    PRVMGR_ERR_INVALID_PRIVILEGE            = 7,
+    PRVMGR_ERR_DEPRECATED_PRIVILEGE         = 8,
+} privilege_manager_error_e;
 
 /**
  * @brief Called to get a privilege group once for specific package.

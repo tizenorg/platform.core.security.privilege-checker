@@ -36,6 +36,7 @@ BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(capi-appfw-package-manager)
 BuildRequires:  cert-svc-devel
+BuildRequires:  pkgconfig(glib-2.0)
 
 %description -n capi-security-privilege-manager
 The Privilege Manager API provides functions to get information about privilege information of installed packages.
@@ -60,10 +61,14 @@ The Privilege Manager API provides functions to get information about privilege 
 
 %build
 
-%if "%{?tizen_profile_name}" == "wearable"
+%if "%{?profile}" == "tv"
+    __PROFILE_TYPE="TV"
+%else if "%{?profile}" == "wearable"
     __PROFILE_TYPE="WEARABLE"
-%else
+%else if "%{?profile}" == "mobile"
     __PROFILE_TYPE="MOBILE"
+%else
+    __PROFILE_TYPE="COMMON"
 %endif
 
 export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
@@ -77,6 +82,7 @@ echo cmake . -DPREFIX=%{_prefix} \
         -DCMAKE_BUILD_TYPE=%{build_type} \
         -DVERSION=%{version} \
         -DDPL_LOG="ON" \
+        -DDATADIR=%{_datadir} \
         -DPROFILE_TYPE="${__PROFILE_TYPE}"
 
 cmake . -DPREFIX=%{_prefix} \
@@ -86,31 +92,32 @@ cmake . -DPREFIX=%{_prefix} \
         -DCMAKE_BUILD_TYPE=%{build_type} \
         -DVERSION=%{version} \
         -DDPL_LOG="ON" \
+        -DDATADIR=%{_datadir} \
         -DPROFILE_TYPE="${__PROFILE_TYPE}"
 
 make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/license
-cp LICENSE.APLv2 %{buildroot}/usr/share/license/privilege-checker
+mkdir -p %{buildroot}%{_datadir}/license
+cp LICENSE.APLv2 %{buildroot}%{_datadir}/license/privilege-checker
 mkdir -p %{buildroot}/opt/dbspace
-mkdir -p %{buildroot}/usr/share/privilege-manager
-cp capi/res/dbspace/core_privilege_info.db %{buildroot}/usr/share/privilege-manager/.core_privilege_info.db
-sqlite3 /%{buildroot}/usr/share/privilege-manager/.core_privilege_info.db "select * from privilege_info"
-cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}/usr/share/privilege-manager/.wrt_privilege_info.db
-sqlite3 /%{buildroot}/usr/share/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+mkdir -p %{buildroot}%{_datadir}/privilege-manager
+cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
+cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
 %make_install
 
 %files -n privilege-checker
-/usr/share/license/privilege-checker
+%{_datadir}/license/privilege-checker
 %manifest packaging/privilege-checker.manifest
 
 %files -n capi-security-privilege-manager
 %{_libdir}/libcapi-security-privilege-manager.so*
-/usr/share/locale/*
-/usr/share/privilege-manager/.core_privilege_info.db
-/usr/share/privilege-manager/.wrt_privilege_info.db
+%{_datadir}/locale/*
+%{_datadir}/privilege-manager/.core_privilege_info.db
+%{_datadir}/privilege-manager/.wrt_privilege_info.db
 %manifest packaging/capi-security-privilege-manager.manifest
 
 %files -n capi-security-privilege-manager-devel

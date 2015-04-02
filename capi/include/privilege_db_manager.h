@@ -31,36 +31,38 @@ typedef struct
     char* privilege_description;
     int privilege_level_id;
     char* privilege_level;
-    char* version;
+    char* issued_version;
+    char* expired_version;
+    char* changed_to;
 } privilege_info_db_row_s;
 
 typedef enum
 {
-    PRIVILIEGE_DB_MANAGER_ERR_NONE                  = TIZEN_ERROR_NONE,
-    PRIVILIEGE_DB_NO_EXIST_RESULT                   = TIZEN_ERROR_NO_DATA,
-    PRIVILIEGE_DB_MANAGER_ERR_CONNECTION_FAIL       = TIZEN_ERROR_UNKNOWN,
-    PRIVILIEGE_DB_MANAGER_ERR_INVALID_QUERY         = TIZEN_ERROR_INVALID_PARAMETER,
-    PRIVILIEGE_DB_MANAGER_ERR_OUT_OF_MEMORY         = TIZEN_ERROR_OUT_OF_MEMORY,
+    PRIVILEGE_DB_MANAGER_ERR_NONE                  = TIZEN_ERROR_NONE,
+    PRIVILEGE_DB_NO_EXIST_RESULT                   = TIZEN_ERROR_NO_DATA,
+    PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL       = TIZEN_ERROR_UNKNOWN,
+    PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY         = TIZEN_ERROR_INVALID_PARAMETER,
+    PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY         = TIZEN_ERROR_OUT_OF_MEMORY,
 } privilege_db_manager_error_e;
 
 typedef enum
 {
-    PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PUBLIC    =   0,
-    PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PARTNER   =   1,
-    PRIVILIEGE_DB_MANAGER_PRIVILEGE_LEVEL_PLATFORM  =   2
+    PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PUBLIC    =   0,
+    PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PARTNER   =   1,
+    PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PLATFORM  =   2
 } privilege_db_manager_privilege_level_e;
 
 typedef enum
 {
-    PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_WRT          =   0,
-    PRIVILIEGE_DB_MANAGER_PACKAGE_TYPE_CORE         =   1
+    PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT          =   0,
+    PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE         =   1
 } privilege_db_manager_package_type_e;
 
 #ifdef __cplusplus
     extern "C" {
 #endif
 
-int privilege_db_manager_get_privilege_list(GList** privilege_list);
+int privilege_db_manager_get_privilege_list(const char* api_version, privilege_db_manager_package_type_e package_type, GList** privilege_list);
 
 int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, char** privilege_display);
 

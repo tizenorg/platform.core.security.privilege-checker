@@ -9,7 +9,7 @@ SET(PREFIX ${CMAKE_INSTALL_PREFIX})
 SET(INC_DIR include)
 
 INCLUDE_DIRECTORIES(
-    "${INC_DIR}" 
+    "${INC_DIR}"
     )
     
 SET(pc_requires "capi-base-common cert-svc")
@@ -30,13 +30,17 @@ ENDIF("${ARCH}" STREQUAL "arm")
 ADD_DEFINITIONS("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
 ADD_DEFINITIONS("-DSLP_DEBUG")
 MESSAGE("PROFILE_TYPE = ${PROFILE_TYPE}")
-IF("${PROFILE_TYPE}" STREQUAL "WEARABLE")
+IF("${PROFILE_TYPE}" STREQUAL "TV")
+    ADD_DEFINITIONS("-DPROFILE_TYPE_TV")
+ELSEIF("${PROFILE_TYPE}" STREQUAL "WEARABLE")
     ADD_DEFINITIONS("-DPROFILE_TYPE_WEARABLE")
-ELSE()
+ELSEIF("${PROFILE_TYPE}" STREQUAL "MOBILE")
     ADD_DEFINITIONS("-DPROFILE_TYPE_MOBILE")
+ELSE()
+    ADD_DEFINITIONS("-DPROFILE_TYPE_COMMON")
 ENDIF()
 
-SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -Wl,--rpath=/usr/lib")
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -Wl,--rpath=${LIBDIR}")
 
 aux_source_directory(src SOURCES)
 ADD_LIBRARY(${fw_name} SHARED ${SOURCES})
@@ -50,9 +54,9 @@ SET_TARGET_PROPERTIES(${fw_name}
     CLEAN_DIRECT_OUTPUT 1
 )
 
-INSTALL(TARGETS ${fw_name} DESTINATION ../lib)
+INSTALL(TARGETS ${fw_name} DESTINATION ${LIBDIR})
 INSTALL(
-        DIRECTORY ${INC_DIR}/ DESTINATION ../include/privilegemgr
+        DIRECTORY ${INC_DIR}/ DESTINATION ${INCLUDEDIR}/privilegemgr
         FILES_MATCHING
         PATTERN "*_private.h" EXCLUDE
         PATTERN "${INC_DIR}/*.h"
@@ -64,7 +68,7 @@ SET(PC_LDFLAGS -l${fw_name})
 SET(PC_CFLAGS -I\${includedir}/privilegemgr)
 
 CONFIGURE_FILE(${fw_name}.pc.in ${fw_name}.pc @ONLY)
-INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/${fw_name}.pc DESTINATION ../lib/pkgconfig)
+INSTALL(FILES ${CMAKE_CURRENT_SOURCE_DIR}/${fw_name}.pc DESTINATION ${LIBDIR}/pkgconfig)
 
 
 IF(UNIX)
@@ -124,6 +128,6 @@ ENDFOREACH(_file ${_pofiles})
 
 ADD_CUSTOM_TARGET(privilege-string ALL DEPENDS ${mo_files})
 
-INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ../share)
+INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ${DATADIR})
 
 
