@@ -15,7 +15,7 @@ INCLUDE_DIRECTORIES(
 SET(pc_requires "capi-base-common cert-svc")
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(${fw_name} REQUIRED capi-base-common dlog vconf pkgmgr-info capi-appfw-package-manager glib-2.0)
+pkg_check_modules(${fw_name} REQUIRED capi-base-common dlog pkgmgr-info capi-appfw-package-manager glib-2.0)
 FOREACH(flag ${${fw_name}_CFLAGS})
     SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
 ENDFOREACH(flag)

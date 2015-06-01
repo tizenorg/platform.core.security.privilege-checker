@@ -17,7 +17,6 @@
 #include <stdlib.h>
 #include <libintl.h>
 #include <locale.h>
-#include <vconf.h>
 #include <dlog.h>
 #include <pkgmgr-info.h>
 #include "privilege_db_manager.h"

@@ -9,8 +9,6 @@ BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(capi-base-common)
-BuildRequires: pkgconfig(libwbxml2)
-BuildRequires: pkgconfig(db-util)
 BuildRequires:  pkgconfig(glib-2.0)
 
 %description
@@ -31,7 +29,6 @@ License:    TO BE FILLED IN
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(dlog)
 BuildRequires:  pkgconfig(capi-base-common)
-BuildRequires:  pkgconfig(vconf)
 BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(capi-appfw-package-manager)
