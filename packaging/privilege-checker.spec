@@ -32,7 +32,6 @@ BuildRequires:  pkgconfig(capi-base-common)
 BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(capi-appfw-package-manager)
-BuildRequires:  cert-svc-devel
 BuildRequires:  pkgconfig(glib-2.0)
 
 %description -n capi-security-privilege-manager

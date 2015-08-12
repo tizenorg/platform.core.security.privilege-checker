@@ -19,19 +19,17 @@
 
 #include <tizen.h>
 #include <glib.h>
-#include <cert-service.h>
 #include "privilege_info.h"
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-//typedef cert_svc_visibility privilege_manager_visibility_e;
-
 typedef enum
 {
-    PRVMGR_PACKAGE_VISIBILITY_PUBLIC        =  1 << 6,
-    PRVMGR_PACKAGE_VISIBILITY_PARTNER       =  1 << 7,
-    PRVMGR_PACKAGE_VISIBILITY_PLATFORM      =  1 << 10,
+    PRVMGR_PACKAGE_VISIBILITY_PUBLIC        =  1 << 1,
+    PRVMGR_PACKAGE_VISIBILITY_PARTNER       =  1 << 2,
+    PRVMGR_PACKAGE_VISIBILITY_PLATFORM      =  1 << 3,
 } privilege_manager_visibility_e;
 
 typedef enum
