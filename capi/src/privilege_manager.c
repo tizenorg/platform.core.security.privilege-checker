@@ -1,6 +1,7 @@
 #include <dlog.h>
 #include <stdlib.h>
 #include <stdio.h>
+
 #include "privilege_db_manager.h"
 #include "privilege_manager.h"
 

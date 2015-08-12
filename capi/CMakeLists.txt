@@ -12,7 +12,7 @@ INCLUDE_DIRECTORIES(
     "${INC_DIR}"
     )
     
-SET(pc_requires "capi-base-common cert-svc")
+SET(pc_requires "capi-base-common")
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(${fw_name} REQUIRED capi-base-common dlog pkgmgr-info capi-appfw-package-manager glib-2.0)
