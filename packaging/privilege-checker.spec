@@ -8,7 +8,6 @@ Source0: %{name}-%{version}.tar.gz
 BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
-BuildRequires: pkgconfig(capi-base-common)
 BuildRequires:  pkgconfig(glib-2.0)
 
 %description
@@ -28,14 +27,12 @@ Group:      TO_BE/FILLED_IN
 License:    TO BE FILLED IN
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(dlog)
-BuildRequires:  pkgconfig(capi-base-common)
 BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
-BuildRequires:  pkgconfig(capi-appfw-package-manager)
 BuildRequires:  pkgconfig(glib-2.0)
 
 %description -n capi-security-privilege-manager
-The Privilege Manager API provides functions to get information about privilege information of installed packages.
+The Privilege Manager API provides functions to verify privilege information of packages to be installed.
 
 %package  -n capi-security-privilege-manager-devel
 Summary:  Privilege Manager API (Development)
@@ -43,7 +40,7 @@ Group:    TO_BE/FILLED_IN
 Requires: capi-security-privilege-manager
 
 %description -n capi-security-privilege-manager-devel
-The Privilege Manager API provides functions to get information about privilege information of installed packages.(DEV)
+The Privilege Manager API provides functions to verify privilege information of packages to be installed.(DEV)
 
 #%package  -n tc-privilege-checker
 #Summary:  tc-privilege-checker
@@ -63,8 +60,6 @@ The Privilege Manager API provides functions to get information about privilege 
     __PROFILE_TYPE="WEARABLE"
 %else if "%{?profile}" == "mobile"
     __PROFILE_TYPE="MOBILE"
-%else
-    __PROFILE_TYPE="COMMON"
 %endif
 
 export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
@@ -123,7 +118,6 @@ sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "selec
 #%files -n tc-privilege-checker
 #%{_bindir}/tc-privilege-db-manager
 #%{_bindir}/tc-privilege-manager
-#%{_bindir}/tc-privilege-checker
 #%{_bindir}/tc-privilege-hash
 #%{_bindir}/tc-privilege-info
 
