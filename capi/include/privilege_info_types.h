@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 Samsung Electronics Co., Ltd All Rights Reserved
+ * Copyright (c) 2013-2015 Samsung Electronics Co., Ltd All Rights Reserved
  *
  * Licensed under the Apache License, Version 2.0 (the License);
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
 
 #ifndef __TIZEN_SECURITY_PRIVILEGE_INFO_TYPES_H
 #define __TIZEN_SECURITY_PRIVIELGE_INFO_TYPES_H
-
-#include <tizen.h>
 
 #ifdef __cplusplus
 extern "C" {

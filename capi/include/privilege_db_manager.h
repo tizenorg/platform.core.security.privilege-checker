@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 Samsung Electronics Co., Ltd All Rights Reserved
+ * Copyright (c) 2013-2015 Samsung Electronics Co., Ltd All Rights Reserved
  *
  * Licensed under the Apache License, Version 2.0 (the License);
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 #ifndef __PRIVILEGE_DB_MANAGER_H
 #define __PRIVILEGE_DB_MANAGER_H
 
-#include <tizen.h>
 #include <glib.h>
 
 typedef struct
@@ -38,11 +37,11 @@ typedef struct
 
 typedef enum
 {
-    PRIVILEGE_DB_MANAGER_ERR_NONE                  = TIZEN_ERROR_NONE,
-    PRIVILEGE_DB_NO_EXIST_RESULT                   = TIZEN_ERROR_NO_DATA,
-    PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL       = TIZEN_ERROR_UNKNOWN,
-    PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY         = TIZEN_ERROR_INVALID_PARAMETER,
-    PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY         = TIZEN_ERROR_OUT_OF_MEMORY,
+    PRIVILEGE_DB_MANAGER_ERR_NONE                  = 0,
+    PRIVILEGE_DB_NO_EXIST_RESULT                   = 1,
+    PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL       = 2,
+    PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY         = 3,
+    PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY         = 4,
 } privilege_db_manager_error_e;
 
 typedef enum
