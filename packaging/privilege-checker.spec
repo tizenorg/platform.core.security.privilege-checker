@@ -56,10 +56,14 @@ The Privilege Manager API provides functions to verify privilege information of 
 
 %if "%{?profile}" == "tv"
     __PROFILE_TYPE="TV"
-%else if "%{?profile}" == "wearable"
+%else 
+%if "%{?profile}" == "wearable"
     __PROFILE_TYPE="WEARABLE"
-%else if "%{?profile}" == "mobile"
+%else
+%if "%{?profile}" == "mobile"
     __PROFILE_TYPE="MOBILE"
+%endif
+%endif
 %endif
 
 export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
