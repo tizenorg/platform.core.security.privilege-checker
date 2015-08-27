@@ -49,6 +49,9 @@ msgstr "Կառավարում է կոնտակտներ"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Կառավարում է բովանդակություն"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Կառավարում է ներածման եղանակները"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Կառավարում է NFC-ի ընդհանուր դրվածքները"
 
@@ -484,6 +487,9 @@ msgstr "Այս ծրագիրը կարող է հեռախոսականչեր կատ�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Այս ծրագիրը կարող է կառավարել ձայնագրությունները:"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Այս ծրագիրը կարող է կառավարել տեղադրված ներածման եղանակները:"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Այս ծրագիրը կարող է բացել այլ ծրագրեր՝ օգտագործելով ծրագրի ID-ն կամ ծրագրի վերահսկումը:"
 
@@ -630,4 +636,172 @@ msgstr "Տեքստային և մուլտիմեդիա հաղորդագրությ�
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Այս ծրագիրը կարող է կառավարել HTTP ներբեռնումները: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Ծրագրերի օգտագործման վիճակագրության ընթերցում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Այս ծրագիրը կարող է կարդալ ծրագրերի օգտագործման վիճակագրությունը, օրինակ՝ թե որ ծրագրերն են ավելի հաճախակի կամ վերջերս օգտագործվել:"
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Մեդիա ֆայլերի վերարտադրման վիճակագրության ընթերցում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Այս ծրագիրը կարող է կարդալ սարքով նվագարկված երաժշտության ու տեսանյութերի վերաբերյալ վիճակագրություն, օրինակ՝ երաժշտություն և տեսանյութեր նվագարկելու պիկ ժամերը:"
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Միջոցների կառավարման իրադարձությունների գրանցում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Այս ծրագիրը կարող է մատյանում գրանցել միջոցների կառավարման իրադարձությունները, օրինակ՝ երաժշտության ու տեսանյութերի սկսելու և կանգնեցնելու ժամերը:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Այս ծրագիրը կարող է օգտվողներին տրամադրել համապատասխան տեքստի դաշտում նիշեր և սիմվոլներ մուտքագրելու եղանակ:"
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Տրամադրում է ներածման եղանակներ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Այս ծրագիրը կարող է լուսանկարահանել և խցիկի լուսաբռնկիչը միացնել ու անջատել Խցիկն օգտագործելու ընթացքում:"
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Փակում է հետին պլանում գործող ծրագրերը"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Ստեղծում է հպումային և ստեղնային իրադարձություններ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Այս ծրագիրը կարող է նմանակել ստեղների սեղմում և հպումային փոխգործողություններ էկրանի հետ:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Այս ծրագիրը կարող է պահանջել հետին պլանում գործող ծրագրերի փակում:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Այս ծրագիրը կարող է հեռախոսականչեր կատարել համարներին, երբ դրանք թակվում են՝ առանց լրացուցիչ հաստատման անհրաժեշտության: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Այս ծրագիրը կարող է կառավարել Ձեր էլփոստի հաշիվները, ներառյալ պանակներն ու էլեկտրոնային նամակները, POP3 և IMAP ներբեռնումները և SMTP վերբեռնումները: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Այս ծրագիրը կարող է ծանուցումներ ստանալ Ինտերնետով: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Այս ծրագիրը կարող է պահպանել բանալիներ, վկայականներ ու տվյալներ և դրանք առբերել ու վերացնել գաղտնաբառով պաշտպանված պահոցից: Շարժական կապի ցանցին միացված ժամանակ վկայականների կարգավիճակների ստուգումը կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Կառավարում է մեդիա նվագարկիչը"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Այս ծրագիրը կարող է ներկա պահին նվագարկվող մեդիա ֆայլի մասին տեղեկատվություն ստանալ այն ուղարկելու թույլտվություն ունեցող ծրագրերից և հեռակառավարել այդ ծրագրերը:"
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Ընդունում է հեռակառավարման տարրեր"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Այս ծրագիրը կարող է ներկա պահին նվագարկվող մեդիա ֆայլի մասին տեղեկատվություն ուղարկել այն ստանալու թույլտվություն ունեցող ծրագրերին և հեռակառավարվել այդ ծրագրերի կողմից:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Այս ծրագիրը կարող է գրել, ուղարկել, վերացնել ու տեղափոխել տեքստային և մուլտիմեդիա հաղորդագրություններ, ներբեռնել մուլտիմեդիա հաղորդագրություններ և փոխել հաղորդագրությունների դրվածքներն ու կարգավիճակները, օրինակ՝ կարդացված և չկարդացված: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Այս ծրագիրը կարող է միացնել և անջատել Wi-Fi-ը, միացնել Wi-Fi-ին ու շարժական կապի ցանցերին և անջատել դրանցից: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Տեղադրում կամ ապատեղադրում է ծրագրային փաթեթներ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Այս ծրագիրը կարող է տեղադրել և ապատեղադրել ծրագրային փաթեթներ:"
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Մաքրում է այլ ծրագրերի հիշապահեստները"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Այս ծրագիրը կարող է մաքրել այլ ծրագրերի հիշապահեստները:"
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Վերագործարկում է սարքը"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Այս ծրագիրը կարող է վերագործարկել սարքը:"
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Մշտադիտարկում է համակարգի ռեսուրսները"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Այս ծրագիրը կարող է կարդալ համակարգի տեղեկություններ, ներառյալ տեղեկությունները CPU-ից և RAM-ից:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Այս ծրագիրը կարող է ընձեռել և կասեցնել տեղակապման ծառայությունները: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Ցույց է տալիս պատկերագրեր"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Այս ծրագիրը կարող է հիմնական էկրանի վրա ցույց տալ պատկերագրեր և տեղեկություններ իրեն առնչվող ծրագրերից:"
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Քարտեզագրական ծառայությունների օգտագործում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Այս ծրագիրը կարող է օգտագործել քարտեզագրական ծառայություններ, օրինակ՝ Երկրակոդավորիչ, Վայրեր և Երթուղի (Ուղղություն):"
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Գործիքագոտու ցուցադրում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Այս ծրագիրը կարող է փոքր գործիքագոտի ցույց տալ ծանուցումների վահանակի կամ կողպված էկրանի վրա, երբ այն բաց է:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Այս ծրագիրը կարող է համաժամացնել սարքի տվյալները, ինչպիսիք են կոնտակտներն ու օրացուցային իրադարձությունները՝ օգտագործելով OMA DS 1.2 հաղորդակարգը: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Այս ծրագիրը կարող է էլեկտրոնային նամակներ, տեքստային հաղորդագրություններ և մուլտիմեդիա հաղորդագրություններ առբերել սերվերից կամ դրանք ստանալ ուղղակիորեն: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Այս ծրագիրը կարող է գրել տեքստային հաղորդագրություններ, մուլտիմեդիա հաղորդագրություններ և էլ-նամակներ: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել սարքը, որպեսզի միայն շարժական կապի ցանցերի միջոցով հնարավոր լինի մուտք գործել դեպի որոշ կոնկրետ տիրույթներ: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Ծանուցումներ"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Չանհանգստացնել"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Կառավարում է ձայնի ուժգնությունը և ձայնային ազդանշաններ է հնչեցնում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Այս ծրագիրը կարող է փոխել ձայնի ուժգնությունը, ընձեռի կամ կասեցնի Լուռ ռեժիմը, հայտնաբերել ձայնի փոփոխությունները և նվագարկել ազդանշանները:"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Կառավարում է ՀՏ ալիքը և տեղեկություններ է կարդում ՀՏ ալիքի ու հաղորդումների ծրագրի մասին"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Այս ծրագիրը կարող է փոխել ՀՏ ալիքը, տեղեկություններ կարդալ ՀՏ ալիքների ու հաղորդումների ծրագրի մասին և ծանուցումներ ստանալ, երբ ՀՏ ալիքը փոխված լինի:"
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Ստուգում է՝ արդյոք սարքն ապահովում է 3D, և տեղեկատվություն է ստանում 3D ռեժիմի էֆեկտների մասին"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Այս ծրագիրը կարող է ստուգել՝ արդյոք սարքն ապահովում է 3D, և տեղեկատվություն կարդալ 3D ռեժիմի մասին:"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Սևեռում է ներածման սարքերի, օրինակ՝ ՀՑ հեռակառավարման սարքի, կարևոր իրադարձությունները"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Այս ծրագիրը կարող է սևեռել ներածման սարքի, օրինակ՝ ՀՑ հեռակառավարման սարքի, կարևոր իրադարձությունները և բաց թողնել ստեղների կալումը:"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Ցուցադրում է այս ծրագրում ներդրված տեսանյութի աղբյուրը"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Այս ծրագիրը կարող է ներդնել տեսանյութի աղբյուրի ցուցադրումը, նշել չափը և ցույց տալ կամ թաքցնել ներդրված ցուցադրումը:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Այս ծրագիրը կարող է կարդալ հատուկ ստեղներով, օրինակ՝ ձայնի ուժգնության ստեղներով կատարվող գործողություններն այս կամ այլ սարքերի վրա (օր.՝ ՀՑ հեռակառավարման տարրերի), նույնիսկ երբ այն գործում է հետին պլանում:"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Սևեռում է հատուկ կարևոր իրադարձություններ"
 

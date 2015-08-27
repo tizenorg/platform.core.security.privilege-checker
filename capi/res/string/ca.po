@@ -49,6 +49,9 @@ msgstr "Gestió de contactes"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Gestió de contingut"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Gestió de mètodes d'introducció"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Gestió d'ajustaments generals de NFC"
 
@@ -484,6 +487,9 @@ msgstr "Aquesta aplicació pot realitzar trucades telefòniques a números quan 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Aquesta aplicació pot gestionar gravacions d'àudio."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Aquesta aplicació pot gestionar els mètodes d'introducció instal·lats."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Aquesta aplicació pot obrir altres aplicacions com a l'ID d'aplicació o el control d'aplicacions."
 
@@ -630,4 +636,172 @@ msgstr "Enviament de missatges de text i multimèdia i actualització dels seus 
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Aquesta aplicació pot gestionar descàrregues HTTP. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Lectura de les estadístiques d'ús de l'aplicació"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Aquesta aplicació pot llegir les estadístiques d'ús de l'aplicació, com ara quines aplicacions s'han utilitzat amb freqüència o fa poc."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Lectura de les estadístiques de la reproducció d'elem multimèdia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Aquesta aplicació pot llegir les estadístiques sobre la música i els vídeos reproduïts al dispositiu, com ara les hores punta per reproduir música o vídeos."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Registre d'esdeveniments de control multimèdia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Aquesta aplicació pot registrar esdeveniments de control multimèdia, com ara l'hora d'inici i de finalització, per a música i vídeos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Aquesta aplicació pot proporcionar als usuaris un sistema d'introducció de caràcters i símbols en un camp de text associat."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Proporcionar mètodes d'entrada"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Aquesta aplicació pot fer fotos, així com activar i desactivar el flaix de la càmera mentre utilitza Càmera."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Tancar aplicacions en segon pla"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Generar esdeveniments de tecles i toc"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Aquesta aplicació pot simular que prem tecles i una interacció tàctil amb la pantalla."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Aquesta aplicació pot sol·licitar que es tanquin aplicacions executant-se en segon pla."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Aquesta aplicació pot realitzar trucades telefòniques a números quan es toquen sense cap altra confirmació. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Aquesta aplicació pot gestionar els comptes de correu electrònic, a més de les carpetes i els correus electrònics, les descàrregues POP3 i IMAP i les càrregues SMTP. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aquesta aplicació pot rebre notificacions mitjançant Internet. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Aquesta aplicació pot desar, recuperar i esborrar claus, certificats i dades de l'emmagatzematge protegit amb contrasenya. Comprovar l'estat dels certificats mentre està connectat a una xarxa mòbil pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Control de reproducció multimèdia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Aquesta aplicació pot rebre informació sobre els elements multimèdia que s'estan reproduint area des de les aplicacions que tenen permís per fer-ho i pot controlar aquestes aplicacions a distància."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Acceptació dels controls remots"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Aquesta aplicació pot enviar informació sobre els elements multimèdia que s'estan reproduint ara a les aplicacions que tenen permís per rebre-la i a més la poden controlar a distància."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Aquesta aplicació pot escriure, enviar, esborrar i moure missatges de text i multimèdia, descarregar missatges multimèdia i canviar els ajustaments i l'estat dels missatges, com ara llegit o no llegit. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Aquesta aplicació pot activar o desactivar el Wi-Fi i connectar-se i desconnectar-se a xarxes Wi-Fi i mòbils. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Instal·lar o desinstal·lar paquets d'aplicacions"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Aquesta aplicació pot instal·lar i desinstal·lar paquets d'aplicacions."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Esborrat de les memòries cau d'altres aplicacions"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Aquesta aplicació pot esborrar la memòria cau d'altres aplicacions."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Reiniciar dispositiu"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Aquesta aplicació pot restablir el dispositiu."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Supervisió de recursos del sistema"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Aquesta aplicació pot llegir informació del sistema, incloent informació de la CPU i la RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aquesta aplicació pot activar i desactivar els serveis d'ancoratge a xarxa. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Visualització de widgets"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Aquesta aplicació pot mostrar widgets i informació de les aplicacions associades a la pantalla d'inici."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Utilitzar serveis de mapa"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Aquesta aplicació pot utilitzar serveis de mapes com ara Geocoder, Llocs i Ruta (Direcció)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Mostrant barra d'eines"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Aquesta aplicació pot mostrar una barra d'eines petita al tauler de notificacions o a la pantalla de bloqueig mentre estigui oberta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Aquesta aplicació pot sincronitzar les dades del dispositiu, com ara els contactes i els esdeveniments del calendari, utilitzant el protocol OMA DS 1.2. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Aquesta aplicació pot recuperar correus electrònics, missatges de text i missatges multimèdia del servidor o rebre'ls directament. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aquesta aplicació pot escriure missatges de text, missatges multimèdia i correus electrònics. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Aquesta aplicació pot restringir el dispositiu perquè només es pugui accedir a dominis específics mitjançant xarxes mòbils. Això pot comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Notificacions"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "No molestar"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Controlar el nivell de volum i reproduir l'àudio bip"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Aquesta aplicació pot canviar el volum, activar i desactivar el mode Silenci, detectar canvis de volum i reproduir bips."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Controlar canal de TV, llegir canal de TV, i informació de programa"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Aquesta aplicació pot canviar el canal de TV, llegir informació sobre programes i canals de TV i rebre notificacions quan s'hagi canviat el canal de TV."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Comprovació de la compatibilitat del 3D en un dispositiu i informació sobre els efectes del mode 3D"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Aquesta aplicació pot comprovar la compatibilitat del 3D en un dispositiu i llegir informació sobre els efectes del mode 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Captura d'esdeveniments de tecles de dispositius d'entrada, p. ex., comandament a distància TV"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Aquesta aplicació pot capturar esdeveniments de teclat d'un dispositiu d'entrada, p. ex., el comandament a distància de la TV i obtenir tecles d'alliberament."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Visualització de la font de vídeo incrustada en aquesta aplicació"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Aquesta aplicació pot incrustar la pantalla d'una font de vídeo, especificar la mida i mostrar o ocultar la pantalla incrustada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Aquesta aplicació pot llegir accions que impliquin tecles especials, com les tecles de volum o altres dispositius (p. ex. controls remots TV), fins i tot quan s'està executant en el fons."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Captura d'esdeveniments de tecles especials"
 

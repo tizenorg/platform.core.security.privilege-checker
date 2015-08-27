@@ -49,6 +49,9 @@ msgstr "Kişilerin yönetilmesi"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "İçeriğin yönetilmesi"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Giriş yöntemlerinin yönetilmesi"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC genel ayarlarının yönetilmesi"
 
@@ -484,6 +487,9 @@ msgstr "Bu uygulama, başka bir doğrulama olmaksızın üzerlerine dokunulan te
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Bu uygulama, ses kayıtlarını yönetebilir."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Bu uygulama, yüklenmiş giriş yöntemlerini yönetebilir."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Bu uygulama, uygulama kimliğini veya uygulama kontrolünü kullanarak diğer uygulamaları açabilir."
 
@@ -630,4 +636,172 @@ msgstr "Metin ve multimedya mesajlarını gönderme ve bunların durumlarını g
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Bu uygulama, HTTP indirme işlemlerini yönetebilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Uygulama kullanımı istatistiklerini okuma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Bu uygulama, sıklıkla veya yakın zamanda kullanılan uygulamalar gibi uygulama kullanımı istatistiklerini okuyabilir."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Medya oynatma istatistiklerini okuma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Bu uygulama, müzik veya video oynatma bakımından yoğun dönemler gibi cihazda oynatılan müzik ve videolarla ilgili istatistikleri okuyabilir."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Medya kontrolü etkinliklerini kaydetme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Bu uygulama, müzik ve videolar için başlatma ve durdurma zamanları gibi medya kontrolü etkinliklerini kaydedebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Bu uygulama, kullanıcılar için ilişkilendirilmiş bir metin alanına karakter ve sembol girme yolu sunabilir."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Giriş yöntemleri sağlama"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Bu uygulama, fotoğraf çekebilir ve Kamera kullanılırken kameranın flaşını açıp kapatabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Arka plan uygulamalarını kapatma"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Dokunma ve tuş olayları oluşturma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Bu uygulama, basılan tuşları ve ekranla dokunma etkileşimlerini taklit edebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Bu uygulama, arka planda çalışan uygulamaların kapatılmasını isteyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Bu uygulama, başka bir onay olmadan üzerlerine dokunulan telefon numaralarını arayabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Bu uygulama, klasörleriniz ve e-postalarınız, POP3 ve IMAP indirme ve SMTP yükleme işlemleriniz dahil olmak üzere e-posta hesaplarınızı yönetebilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Bu uygulama, İnternet yoluyla bildirimler alabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Bu uygulama, tuşları, sertifikaları ve verileri şifre korumalı hafızaya kaydedebilir ve buradan alıp silebilir. Bir mobil ağa bağlıyken sertifikaların durumlarını kontrol etmek ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Medya oynatıcıyı kontrol etme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Bu uygulama, göndermeye izin verilen uygulamalardan şu anda oynatılan medyayla ilgili bilgileri alabilir ve bu uygulamaları uzaktan kontrol edebilir."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Uzak kontrolleri kabul etme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Bu uygulama, şu anda oynatılan medyayla ilgili bilgileri almaya izin verilen uygulamalara gönderebilir ve bu uygulamalar tarafından uzaktan kontrol edilebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Bu uygulama, metin ve multimedya mesajlarını yazabilir, gönderebilir, silebilir, taşıyabilir, multimedya mesajlarını indirebilir ve mesajların ayarlarını ve okunmuş veya okunmamış gibi durumlarını değiştirebilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Bu uygulama, Wi-Fi'ı açıp kapatabilir, Wi-Fi ve mobil ağlara bağlanıp bunlarla bağlantıyı kesebilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Uygulama paketlerini yükleme/kaldırma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Bu uygulama, uygulama paketlerini yükleyebilir ve kaldırabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Diğer uygulamaların önbelleklerini temizleme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Bu uygulama, diğer uygulamaların önbelleklerini temizleyebilir."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Cihaz yeniden başlatılıyor"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Bu uygulama, cihazı tekrar başlatabilir."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Sistem kaynaklarını izleme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Bu uygulama, CPU ve RAM bilgileri de dahil olmak üzere sistem bilgilerini okuyabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Bu uygulama, internet paylaşımı servislerini etkinleştirebilir ve devre dışı bırakabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Widget'ları gösterme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Bu uygulama, widget'ları ve ilişkilendirilmiş uygulamalarından bilgileri ana ekranda gösterebilir."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Harita servislerini kullanma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Bu uygulama Geocoder, Yerler ve Rota (Yön) gibi harita servislerini kullanabilir."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Araç çubuğunu gösterme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Bu uygulama, açıkken bildirim panelinde veya kilit ekranında küçük bir araç çubuğu gösterebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Bu uygulama, OMA DS 1.2 protokolünü kullanarak kişiler ve takvim etkinlikleri gibi cihaz verilerini eşitleyebilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Bu uygulama, sunucudan e-postaları, metin mesajlarını ve multimedya mesajlarını çekebilir veya doğrudan alabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Bu uygulama metin mesajı, multimedya mesajı ve e-posta yazabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Bu uygulama, bazı belirli etki alanlarına sadece mobil ağlar yoluyla erişilebilmesi için cihazı kısıtlayabilir. Bu işlem ödeme planınıza bağlı olarak ek ücretlere neden olabilir."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Bildirimler"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Rahatsız etmeyin"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Ses seviyesini kontrol etme ve bip sesini oynatma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Bu uygulama ses düzeyini değiştirebilir, Sessiz modu etkinleştirip devre dışı bırakabilir, ses düzeyi değişikliklerini algılayabilir ve bip seslerini oynatabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "TV kanalını kontrol etme ve TV kanal ve program bilgilerini okuma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Bu uygulama, TV kanalını değiştirebilir, TV kanalları ve programlarıyla ilgili bilgileri okuyabilir ve TV kanalı değiştirildiğinde bildirimler alabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Bir cihazın 3D'yi destekleyip desteklemediğini kontrol etme ve 3D modunun etkileriyle ilgili bilgileri alma"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Bu uygulama, bir cihazın 3D'yi destekleyip desteklemediğini kontrol edebilir ve 3D moduyla ilgili bilgileri okuyabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "TV uzaktan kumandası gibi giriş cihazlarının tuş etkinliklerini yakalama"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Bu uygulama, TV uzaktan kumandası gibi bir giriş cihazının tuş etkinliklerini yakalayabilir ve tuş tutmayı serbest bırakabilir."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Bu uygulamadaki yerleşik video kaynağını gösterme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Bu uygulama, bir video kaynağının ekranını yerleştirebilir, boyutu belirleyebilir ve yerleştirilen ekranı gösterebilir veya gizleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Bu uygulama arka planda çalıştığında bile bu cihaz veya diğer cihazlar üzerindeki (ör. TV uzaktan kumandası) ses düzeyi tuşları gibi özel tuşları içeren işlemleri okuyabilir."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Özel tuş etkinliklerini yakalama"
 

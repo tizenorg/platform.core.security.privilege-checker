@@ -49,6 +49,9 @@ msgstr "Správa kontaktů"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Správa obsahu"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Správa metod zadávání"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Správa obecných nastavení NFC"
 
@@ -484,6 +487,9 @@ msgstr "Aplikace může volat na čísla, pokud na ně klepnete, bez dalšího p
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Aplikace může spravovat nahrávání zvuku."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Aplikace může spravovat nainstalované metody zadávání."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Aplikace může spouštět jiné aplikace pomocí ID aplikace nebo řízení aplikací."
 
@@ -630,4 +636,172 @@ msgstr "Odesílání textových a multimediálních zpráv a aktualizace jejich 
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Aplikace může spravovat stahování z HTTP. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Čtení statistik využití aplikací"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Aplikace může číst statistiky využití aplikací, například které aplikace byly využívány často nebo naposledy."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Čtení statistik přehrávání médií"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Aplikace může číst statistiky týkající se hudby a videí přehrávaných v zařízení, například špičky přehrávání hudby nebo videí."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Protokolování událostí ovládání médií"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Aplikace může zaznamenávat události ovládání médií, například čas spuštění a zastavení, pro hudbu a videa."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Aplikace může uživatelům poskytnout způsob zadávání znaků a symbolů do přidruženého textového pole."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Poskytování metod zadávání"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Aplikace může během používání Fotoaparátu fotografovat a zapínat a vypínat blesk."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Ukončování aplikací na pozadí"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Generování událostí dotyku a stisknutí tlačítek"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Aplikace může simulovat stisknutí tlačítek a dotykové interakce na obrazovce."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Aplikace může požadovat ukončení aplikací spuštěných na pozadí."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Aplikace může volat na čísla, pokud na ně klepnete, bez dalšího potvrzení. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Aplikace může spravovat vaše e-mailové účty včetně složek a e-mailů, stahování ze serverů POP3 a IMAP a odesílání na server SMTP. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikace může přijímat upozornění prostřednictvím Internetu. V závislosti na vašem tarifu mohou být účtovány další poplatky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Aplikace může ukládat klíče, certifikáty a data do heslem chráněného úložiště, a může je z něho načítat a odstraňovat. Kontrola stavu certifikátů během připojení k mobilní síti může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Ovládání přehrávače médií"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Aplikace může přijímat informace o aktuálně přehrávaných multimédiích z aplikací, které je mohou odesílat, a může tyto aplikace dálkově ovládat."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Přijímání dálkového ovládání"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Aplikace může odesílat informace o aktuálně přehrávaných multimédiích do aplikací, které je mohou přijímat, a může být těmito aplikacemi dálkově ovládána."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Aplikace může zapisovat, odesílat, odstraňovat a přesouvat textové a multimediální zprávy, stahovat multimediální zprávy a měnit nastavení a stavy zpráv, např. přečteno nebo nepřečteno. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Aplikace může zapínat a vypínat Wi-Fi a připojovat se k Wi-Fi a mobilním sítím a odpojovat se od nich. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Instalace/odinstalace balíčků aplikací"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Aplikace může instalovat a odinstalovat balíčky aplikací."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Mazání pamětí ostatních aplikací"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Aplikace může mazat paměti jiných aplikací."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Restartování zařízení"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Aplikace může restartovat zařízení."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Monitorování systémových prostředků"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Aplikace může číst systémové informace včetně informací z procesoru a paměti RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikace může zapínat a vypínat služby sdílení připojení k Internetu. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Zobrazení pomůcek"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Aplikace může na domovské obrazovce zobrazit pomůcky a informace z přidružených aplikací."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Použití mapových služeb"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Aplikace může používat mapové služby, např. Přiřazení zeměpisné polohy, Místa a Trasa (Navigace)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Zobrazení panelu nástrojů"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Když je aplikace spuštěná, může zobrazit malý panel nástrojů na oznamovacím panelu nebo na zamykací obrazovce."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Aplikace může synchronizovat data zařízení, například kontakty a události v kalendáři, pomocí protokolu OMA DS 1.2. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Aplikace může načítat e-maily, textové zprávy a multimediální zprávy ze serveru nebo je přijímat přímo. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikace může psát textové zprávy, multimediální zprávy a e-maily. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Aplikace může omezit zařízení tak, že některé zadané domény budou dostupné pouze prostřednictvím mobilních sítí. To může mít za následek další poplatky v závislosti na vašem tarifu."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Oznámení"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Nerušit"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Kontrola úrovně hlasitosti a přehrávání pípání"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Tato aplikace může měnit hlasitost, zapínat a vypínat Tichý režim, detekovat změny hlasitosti a přehrávat pípnutí."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Kontrola TV kanálu a čtení TV kanálu a informací o programech"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Tato aplikace může měnit TV kanál, číst informace o TV kanálech a programech a přijímat upozornění při změně TV kanálu."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Kontrola, zda zařízení podporuje 3D a získání informací o efektech režimu 3D"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Tato aplikace může kontrolovat, zda zařízení podporuje 3D, a číst informace o režimu 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Zachycování stisknutí tlačítek vstupních zařízení, např. dálkového ovládání TV"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Tato aplikace může zachycovat stisknutí tlačítek vstupního zařízení, např. dálkového ovládání TV, a uvolňovat monitorování tlačítek."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Zobrazení zdroje videa integrovaného v aplikaci"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Tato aplikace může integrovat displej zdroje videa, specifikovat velikost a zobrazit nebo skrýt integrovaný displej."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Tato aplikace dokáže číst akce včetně speciálních tlačítek, například tlačítek pro ovládání hlasitosti v tomto zařízení nebo v jiných zařízeních (například dálkových ovládáních TV), i když je spuštěná na pozadí."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Zachycování akcí speciálních tlačítek"
 

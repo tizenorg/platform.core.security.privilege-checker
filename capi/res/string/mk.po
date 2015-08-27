@@ -49,6 +49,9 @@ msgstr "Управување со контактите"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Управување со содржините"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Управување со начините на внесување"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Управување со општите поставки за NFC"
 
@@ -484,6 +487,9 @@ msgstr "Оваа апликација може да упатува телефо�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Оваа апликација може да уредува звучни снимки."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Оваа апликација може да управува со инсталираните методи за внесување."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Оваа апликација може да отвора други апликации користејќи ги идентификацијата на апликацијата или контролата на апликацијата."
 
@@ -630,4 +636,172 @@ msgstr "Праќање текст и мултимедијални пораки �
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Оваа апликација може да управува со преземањата HTTP. Тоа може да се наплаќа дополнително, зависно од Вашиот пакет."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Читање статистика за користењето апликации"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Оваа апликација може да чита статистика за користењето апликации, како кои апликации се користат често или неодамна."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Читање статистика за емитувањето медиуми"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Оваа апликација може да чита статистика за емитувањето музика и видеа на уредот, како ударното време за емитување музика и видеа."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Бележење настани за контрола на медиумите"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Апликацијава може да бележи настани за контролирање на медиумите, како почетни и завршни времиња, за музика и видеа."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Апликацијава може да им овозможи на корисниците начин за внесување знаци и симболи во сродно текстуално поле."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Обезбедување начини на внесување"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Оваа апликација може да слика и да го вклучува и исклучува блицот додека се користи Камера."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Се затвораат апликациите во заден план"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Се генерираат допирни и клучни настани"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Оваа апликација може да симулира притискање на копчињата и допирни интеракции со екранот."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Оваа апликација може да бара затворање на апликациите што работат во заднината."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Апликацијава може да упатува телефонски повици до броеви кога ќе се допрат без понатамошна потврда. Тоа може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Апликацијава може да управува со сметките за е-пошта, вклучувајќи папки и е-пошта, преземања на POP3 и IMAP, како и поставувања на SMTP. Тоа може да се наплаќа дополнително, зависно од Вашата претлата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Апликацијава може да прима известувања преку интернет. Тоа може да се наплаќа дополнително, зависно од Вашата претлата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Апликацијава може да сочува копчиња, сертификати и податоци на местото за меморија заштитено со лозинка и да ги презема и брише од него. Проверката на состојбите на сертификатите додека сте поврзани на мобилна мрежа може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Се контролира плеерот за медиуми"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Апликацијава може да прима информации за тековно пуштените медиуми од апликации на кои им е дозволено да ги испраќаат и може да ги контролира тие апликации од далечина."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Се прифаќаат далечински контроли"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Апликацијава може да праќа информации за тековно пуштените медиуми до апликации на кои им е дозволено да ги примаат и тие апликации може да ја контролираат од далечина."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Оваа апликација може да пишува, праќа, брише и преместува текстуални и мултимедијални пораки, да презема мултимедијални пораки и да ги менува подесувањата и состојбите на пораките како прочитани или непрочитани. Тоа може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Апликацијава може да го вклучи или исклучи Wi-Fi и да се поврзе или исклучи од Wi-Fi и мобилните мрежи. Тоа може да се наплаќа дополнително, зависно од Вашата претлата."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Се инсталираат/деинсталираат пакети за апликациите"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Оваа апликација може да инсталира и деинсталира пакети за апликациите."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Се бришат кешовите на другите апликации"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Оваа апликација може да брише кешови на други апликации."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Уредот се рестартира"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Оваа апликација може да го рестартира уредот."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Се следат системските ресурси"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Оваа апликација може да чита системски информации, вклучувајќи ги информациите за CPU и RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Апликацијава може да вклучува и исклучува услуги на споделување. Тоа може да се наплаќа дополнително, зависно од Вашата претлата."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Се прикажуваат виџети"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Оваа апликација може да прикажува виџети и информации од нивните поврзани апликации на почетниот екран."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Користење на услугите за карта"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Оваа апликација може да ги користи услугите за карта како Geocoder, Места и Рута (Насока)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Се прикажува лента со алати"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Апликацијава може да прикажува мала лента со алати на таблата за известувања или на екранот за заклучување додека е отворен."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Апликацијава може да синхронизира податоци на уредот, како што се календарски настани, користејќи го протоколот OMA DS 1.2. Ова може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Апликацијава може да презема е-пораки, текстуални и мултимедијални пораки од серверот или да ги прима директно. Ова може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Апликацијава може да пишува текстуални, мултимедијални и е-пораки. Ова може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Апликацијава може да го ограничи уредот, па до некои специфични домени ќе може да се пристапи само преку мобилни мрежи. Ова може да се наплаќа дополнително, зависно од Вашата претплата."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Известувања"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Не вознемирувај"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Се контролира нивото на јачина на звукот и емитувањето на звукот бип"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Апликацијава може да ја менува гласноста, да вклучува и исклучува Тивок режим, да открива промени на гласноста и да емитува сигнали."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Се контролира ТВ-каналот и читањето на информации за ТВ-каналот и програмата"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Апликацијава може да промени ТВ-канал, да чита информации за ТВ-канали и програми и да прима известувања кога е променет ТВ-канал."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Проверување дали уредот поддржува 3D и собирање информации за ефектите на режимот 3D"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Апликацијава може да провери дали уредот поддржува 3D и чита информации за режимот 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Снимање клучни настани од влезни уреди, на пр. далечинско за ТВ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Апликацијава може да ги сними клучните настани од влезниот уред, на пр. далечинско за ТВ, и да го отпушти фаќањето копчиња."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Се прикажува изворот на видео вграден во апликацијава"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Апликацијава може да вгради екран од извор на видео, да одреди големина и да го прикаже или сокрие вградениот екран."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Апликацијава може да чита дејства што ги опфаќаат посебните копчиња, како што се копчињата за гласност на овој и на други уреди (пр. далечинскиот управувач на телевизорот), дури и кога работи во заднина."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Снимање настани со посебно копче"
 

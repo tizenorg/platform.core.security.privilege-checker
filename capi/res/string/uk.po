@@ -49,6 +49,9 @@ msgstr "Керування контактами"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Керування вмістом"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Керування способами введення"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Керування загальними установками NFC"
 
@@ -484,6 +487,9 @@ msgstr "Ця програма дає змогу здійснювати теле�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Ця програма дає змогу керувати аудіозаписами."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Ця програма дає змогу керувати встановленими способами введення."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Ця програма дає змогу відкривати інші програми за допомогою ідентифікатора програми або елемента керування програмою."
 
@@ -630,4 +636,172 @@ msgstr "Надсилання SMS- і MMS-повідомлень і оновле�
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Ця програма дозволяє керувати завантаженнями через HTTP. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Зчитування статистики використання програм"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Ця програма може зчитувати статистику використання програм, наприклад частоту та періодичність виконання."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Зчитування статистики відтворення медіафайлів"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Ця програма може зчитувати статистику, що стосується музики та відео, відтворюваних на пристрої, наприклад час найінтенсивнішого відтворення музики та відео."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Реєстрація подій керування медіа-файлами"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Ця програма може записати події керування медіа, такі як час початку і завершення для музики і відео."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Програма надає користувачам спосіб уведення символів та цифр у пов'язане поле введення."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Надання способів уведення"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Під час користування камерою ця програма робить знімки, а також вмикає та вимикає спалах."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Закриття фонових програм"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Створення подій натискання та клавіатурних подій"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Дозволяє програмі моделювати натискання клавіш та дотики до екрана."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Дозволяє програмі надсилати запити на закриття фонових програм."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Ця програма дає змогу здійснювати телефонні виклики за вибраними номерами без підтвердження. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Ця програма дає змогу керувати обліковими записами електронної пошти, включно з папками й повідомленнями, завантаженнями через POP3, IMAP та SMTP. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ця програма дає змогу отримувати сповіщення через Інтернет. Це може призвести до додаткових витрат залежно від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Дозволяє програмі зберігати ключі, сертифікати і дані в сховищі, захищеному паролем, а також отримувати та видаляти їх. За перевірку сертифікатів через мобільну мережу можуть стягуватися додаткові кошти (в залежності від вашого тарифного плану)."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Керування медіаплеєром"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Дозволяє програмі отримувати інформацію щодо відтворюваних медіафайлів від дозволених програм та здійснювати віддалене керування цими програмами."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Приймання запиту на дистанційне керування"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Дозволяє програмі надсилати інформацію щодо відтворюваних медіафайлів дозволеним програмам. Ці програми можуть здійснювати віддалене керування цією програмою."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Дозволяє програмі записувати, надсилати, видаляти та переміщувати SMS та MMS, а також змінювати налаштування і статуси повідомлень, зокрема відмічати їх як прочитані або непрочитані. Це може призвести до додаткових витрат залежно від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Ця програма дає змогу вмикати та вимикати функцію Wi-Fi, підключатися та відключатися від Wi-Fi та мобільних мереж. Це може призвести до додаткових витрат залежно від тарифного плану."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Встановлення та видалення пакетів програм"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Дозволяє програмі встановлювати та видаляти пакети програм."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Очищення кешу інших програм"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Дозволяє програмі очищати кеш інших програм."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Перезавантаження пристрою"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Дозволяє програмі перезавантажувати пристрій."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Відстеження використання ресурсів системи"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Дозволяє програмі зчитувати системну інформацію, зокрема інформацію, що надається ЦП та ОЗП."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ця програма дозволяє вмикати та вимикати служби модему. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Показ віджетів"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Дозволяє програмі відображати на головному екрані віджети та інформацію від пов’язаних з ними програм."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Використання сервісів з картами"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Ця програма може використовувати картографічні служби, такі як Geocoder, Places та Route (Direction)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Демонстрація панелі інструментів"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Коли цю програму відкрито, вона може показувати маленьку панель інструментів на панелі сповіщень або на екрані блокування."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Ця програма може синхронізувати дані пристрою, такі як контакти, події у календарі за допомогою протоколу OMA DS 1.2. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Ця програма може отримувати електронні листи, а також текстові та мультимедійні повідомлення з сервера або безпосередньо. Це може призвести до додаткових витрат, які залежать від вашого тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ця програма дозволяє писати текстові повідомлення, MMS та листи електронною поштою. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Ця програма може заборонити доступ пристрою до деяких окремих доменів будь-яким способом, окрім мобільних мереж. Це може призвести до додаткових витрат, які залежать від тарифного плану."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Сповіщення"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Не турбувати"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Керування рівнем гучності та програвання тональних аудіосигналів"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Ця програма дає змогу налаштовувати гучність, вмикати і вимикати режим «Без звуку», виявляти зміни гучності та відтворювати гудки."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Керування каналами телевізора та читання інформації про програму телебачення"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Ця програма може змінювати канал на телевізорі, зчитувати інформацію про канали та програми телевізору, а також отримувати сповіщення про зміну каналу на телевізорі."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Перевірка підтримки пристроєм 3D та отримання інформації про ефекти режиму 3D"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Ця програма може перевіряти підтримку пристрою 3D та зчитувати інформацію про режим 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Створення ключових подій пристроїв вводу, наприклад, пристрою дистанційного керування телевізора"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Ця програма може створювати ключові події пристрою вводу, наприклад, пульту дистанційного керування телевізора, та відпускати захват клавіш."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Відображення джерела відео, що вбудоване у цій програмі"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Ця програма може вбудовувати відображення джерела відео, вказувати розмір, а також відображати або приховувати вбудовані дисплеї."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Ця програма може зчитувати дії, що включають у себе особливі клавіші, такі як клавіші гучності на цьому або іншому пристрої (наприклад, пульти дистанційного керування ТВ), навіть якщо вони працюють у фоновому режимі."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Зйомка особливих ключових подій"
 

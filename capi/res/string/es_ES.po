@@ -49,6 +49,9 @@ msgstr "Gestión de contactos"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Gestión de contenido"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Gestión de métodos de entrada"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Gestión de ajustes generales de NFC"
 
@@ -476,13 +479,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
 msgstr "Esta aplicación puede crear, editar y eliminar cuentas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
-msgstr "Esta aplicación puede activar y desactivar los dispositivos de anclaje de red."
+msgstr "Esta aplicación puede activar y desactivar los dispositivos de módem USB."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
 msgstr "Esta aplicación puede realizar llamadas telefónicas a números cuando se pulsan sin confirmación adicional."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Esta aplicación puede gestionar las grabaciones de audio."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Esta aplicación puede gestionar los métodos de entrada instalados."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Esta aplicación puede abrir otras aplicaciones utilizando el ID de la aplicación o el control de la aplicación."
@@ -575,7 +581,7 @@ msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Uso del modo de emulación de tarjeta NFC"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
-msgstr "Acceso a los servicios de anclaje de red"
+msgstr "Acceso a los servicios de módem USB"
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
 msgstr "Mostrar ventanas sobre otras aplicaciones y pantallas"
@@ -630,4 +636,172 @@ msgstr "Envío de mensajes multimedia y de texto y actualización de sus estados
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Esta aplicación puede administrar descargas de HTTP. Esto puede suponer costes adicionales según su plan de pago."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Lectura de estadísticas de uso de la aplicación"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Esta aplicación puede leer las estadísticas de uso de la aplicación, como las aplicaciones que se utilizaron reciente o frecuentemente."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Lectura de estadísticas de reproducción multimedia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Esta aplicación puede leer las estadísticas relacionadas con la música y los vídeos reproducidos en el dispositivo, como las horas punta de reproducción de música o vídeos."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Registro de los eventos de control multimedia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Esta aplicación puede registrar eventos de control multimedia, como las horas de inicio y finalización, para música y vídeos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Esta aplicación puede proporcionar a los usuarios un modo de introducir caracteres y símbolos en un campo de texto asociado."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Proporcionar métodos de entrada"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Esta aplicación puede sacar fotos y activar o desactivar el flash de la cámara mientras utiliza la Cámara."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Cierre de aplicaciones en segundo plano"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Creación de eventos de teclas y táctiles"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Esta aplicación puede simular pulsaciones de teclas e interacciones táctiles con la pantalla."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Esta aplicación puede solicitar que se cierren aplicaciones que se estén ejecutando en segundo plano."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Esta aplicación puede realizar llamadas telefónicas a números cuando se pulsan sin confirmación adicional. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Esta aplicación puede administrar sus cuentas de correo electrónico, incluidos los correos electrónicos, carpetas, descargas de POP3 e IMAP y cargas de SMTP. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Esta aplicación puede recibir notificaciones por Internet. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Esta aplicación puede guardar, recuperar y eliminar claves, certificados y datos del almacenamiento protegido por contraseña. El uso de una red móvil para comprobar los estados de los certificados puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Control del reproductor multimedia"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Esta aplicación puede recibir información sobre la reproducción multimedia actual de aplicaciones que tengan permiso para enviarla. También puede controlar dichas aplicaciones de forma remota."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Aceptar controles remotos"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Esta aplicación puede enviar información sobre la reproducción multimedia actual a aplicaciones que tengan permiso para recibirla. También puede ser controlada por dichas aplicaciones de forma remota."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Esta aplicación puede escribir, enviar, eliminar y mover mensajes de texto y multimedia, así como descargar mensajes multimedia y cambiar los ajustes y estados de los mensajes, tales como leído y no leído. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Esta aplicación puede activar y desactivar la Wi-Fi y conectarse y desconectarse de redes Wi-Fi y móviles. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Instalación y desinstalación de paquetes de aplicaciones"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Esta aplicación puede instalar y desinstalar paquetes de aplicaciones."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Borrado de cachés de otras aplicaciones"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Esta aplicación puede borrar las cachés de otras aplicaciones."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Reinicio del dispositivo"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Esta aplicación puede reiniciar el dispositivo."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Control de los recursos del sistema"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Esta aplicación puede leer información del sistema, incluida la información de la CPU y de la RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Esta aplicación puede activar y desactivar los servicios de módem USB/Bluetooth. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Mostrar widgets"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Esta aplicación puede mostrar widgets, así como información de las aplicaciones asociadas a estos, en la pantalla Inicio."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Uso de servicios de mapas"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Esta aplicación puede utilizar servicios de mapas como Geocoder, Lugares y Ruta (direcciones)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Mostrar barra de herramientas"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Esta aplicación puede mostrar una barra de herramientas pequeña en el panel de notificaciones o en la pantalla Bloqueo cuando esté abierta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Esta aplicación puede sincronizar datos del dispositivo, como contactos y eventos de calendario, mediante el protocolo OMA DS 1.2. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Esta aplicación puede recuperar correos electrónicos, mensajes de texto y mensajes multimedia del servidor o recibirlos directamente. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Esta aplicación puede escribir mensajes de texto, mensajes multimedia y correos electrónicos. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Esta aplicación puede limitar el acceso de manera que el dispositivo tan solo pueda acceder a determinados dominios mediante el uso de redes móviles. Esto puede suponer costes adicionales en función de su plan de pago."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Notificaciones"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "No molestar"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Control del volumen y reproducción del audio del pitido"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Esta aplicación puede cambiar el volumen, activar y desactivar el modo Silencio, detectar cambios de volumen y emitir pitidos."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Control de canales de TV y lectura de información sobre canales de TV y programación"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Esta aplicación puede cambiar los canales de TV, leer información sobre los canales de TV y la programación, y recibir notificaciones cuando se cambia de canal de TV."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Comprobación de compatibilidad 3D de un dispositivo y obtención de información de efectos del modo 3D"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Esta aplicación puede comprobar la compatibilidad 3D de un dispositivo y leer información sobre el modo 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Captura de eventos de teclas de dispositivos de entrada, p. ej., mando a distancia de TV"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Esta aplicación puede capturar eventos de teclas de un dispositivo de entrada, p. ej., mando a distancia de TV, y liberar capturas de teclas."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Mostrar fuente de vídeo integrada en esta aplicación"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Esta aplicación puede integrar la pantalla de una fuente de vídeo, especificar el tamaño y mostrar u ocultar la pantalla integrada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Esta aplicación puede leer acciones asociadas a teclas especiales, tales como el botón Volumen en este y otros dispositivos (p. ej., el mando a distancia de la TV), incluso cuando se ejecute en segundo plano."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Captura de eventos de teclas especiales"
 

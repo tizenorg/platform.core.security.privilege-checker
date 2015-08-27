@@ -49,6 +49,9 @@ msgstr "Kontaktide haldamine"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Sisu haldamine"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Sisestusmeetodite haldamine"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC-üldseadete haldamine"
 
@@ -484,6 +487,9 @@ msgstr "See rakendus saab teha telefonikõnesid toksatud numbritele ilma kinnitu
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "See rakendus saab hallata helisalvestisi."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "See rakendus saab hallata installitud sisestusviise."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "See rakendus saab avada teisi rakendusi, kasutades rakenduse tunnust või rakenduse juhtimist."
 
@@ -630,4 +636,172 @@ msgstr "Tekst- ja multimeediumsõnumite saatmine ning nende oleku värskendamine
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "See rakendus saab hallata HTTP kaudu allalaadimisi. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Rakenduse kasutamise statistika lugemine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "See rakendus saab lugeda rakenduste kasutamise statistikat, nt teave sageli või hiljuti kasutatud rakenduste kohta."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Meediumi taasesituse statistika lugemine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "See rakendus saab lugeda seadmes esitatud muusika ja videote statistikat, nt muusika või videote esitamise tippkoormusajad."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Meediumi juhtimissündmuste logimine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "See rakendus saab logida meediumi juhtimissündmusi, nt muusika ja videote alustamise ja lõpetamise aegasid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "See rakendus saab pakkuda kasutajatele võimalusi märkide ja sümbolite sisestamiseks seotud tekstiväljale."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Sisestusmeetodite pakkumine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "See rakendus saab pildistada ning lülitada kaamera kasutamise ajal välku sisse ja välja."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Taustarakenduste sulgemine"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Puute- ja klahvisündmuste loomine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "See rakendus saab simuleerida vajutatavaid klahve ja ekraani puutetoiminguid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "See rakendus saab taotleda taustal töötavate rakenduste sulgemist."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "See rakendus saab teha telefonikõnesid toksatud numbritele ilma kinnitust küsimata. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "See rakendus saab hallata teie e-posti kontosid, muuhulgas teie kaustasid ja e-kirju, POP3- ja IMAP-allalaadimisi ning SMTP-üleslaadimisi. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "See rakendus saab võtta vastu teavitusi interneti kaudu. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "See rakendus saab salvestada võtmeid, sertifikaate ja andmeid parooliga kaitstud mällu ning neid sealt tuua ja kustutada. Sertifikaatide olekute kontrollimisel, kui olete ühendatud mobiilsidevõrku, võivad olenevalt teie paketist rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Meediumipleieri juhtimine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "See rakendus saab võtta vastu teavet hetkel esitatava meediumi kohta rakendustelt, mis lubavad selle saatmist, ja suudab neid rakendusi kaugelt juhtida."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Kaugjuhtimispultidega nõustumine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "See rakendus saab saata teavet hetkel esitatava meediumi kohta rakendustele, milles on lubatud selle vastuvõtmine, ja seda saab juhtida kaugelt nende rakendustega."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "See rakendus saab kirjutada, saata, kustutada ja teisaldada tekst- ja multimeediumsõnumeid, alla laadida multimeediumsõnumeid ning muuta sõnumite seadeid ja olekuid, nt loetud või mitteloetud. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "See rakendus saab lülitada Wi-Fi sisse ja välja ning luua ühenduse Wi-Fi ja mobiilsidevõrkudega ning selle ühenduse katkestada. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Rakenduste pakettide installimine/desinstallimine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "See rakendus saab installida või desinstallida rakenduste pakette."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Muude rakenduste vahemälu puhastamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "See rakendus saab tühjendada teiste rakenduste vahemälusid."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Seadme taaskäivitamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "See rakendus saab seadet taaskäivitada."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Süsteemiressursside jälgimine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "See rakendus saab lugeda süsteemi teavet, kaasa arvatud CPU ja RAM-i teavet."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "See rakendus saab aktiveerida ja inaktiveerida modemiteenuseid. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Vidinate kuvamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "See rakendus saab kuvada vidinaid ja teavet nendega seotud rakenduste kohta avaekraanil."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Kaarditeenuste kasutamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "See rakendus saab kasutada kaarditeenuseid, nt Geokooder, Kohad ja Marsruut (suund)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Tööriistariba kuvamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Avatud oleku korral saab see rakendus kuvada teavituste paneelile või lukustusekraanile väikese tööriistariba."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "See rakendus saab sünkroonida seadme andmeid, nt kontaktid ja kalendrisündmused, kasutades protokolli OMA DS 1.2. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "See rakendus saab võtta vastu e-kirju, tekstsõnumeid ja multimeediumsõnumeid serveri kaudu või vahetult. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "See rakendus saab kirjutada tekstsõnumeid, multimeediumsõnumeid ja e-kirju. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "See rakendus saab piirata seadet, nii et teatud kindlatele domeenidele pääseb ligi ainult mobiilsidevõrkude kaudu. Sõltuvalt teie paketist võivad rakenduda lisatasud."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Teavitused"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Mitte segada"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Helitugevuse taseme juhtimine ja piiksuheli esitamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "See rakendus saab muuta helitugevust, aktiveerida ja desaktiveerida vaikse režiimi, tuvastada helitugevuse muudatusi ja teha piikse."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Telekanali juhtimine ning telekanali ja saateteabe lugemine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "See rakendus saab muuta telekanalit, lugeda teavet telekanalite ja saadete kohta ning võtta vastu teavitusi, kui telekanalit on muudetud."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Kontrollimine, kas seade toetab 3D-d, ja teabe hankimine 3D-režiimi efektide kohta"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "See rakendus saab kontrollida, kas seade toetab 3D-d, ja lugeda teavet 3D-režiimi kohta."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Sisendseadmete (nt teleri kaugjuhtimispuldi) põhisündmuste jäädvustamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "See rakendus saab jäädvustada sisendseadme (nt teleri kaugjuhtimispuldi) põhisündmused ja vabastada klahvihõive."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Sellele rakendusele lisatud videoallika kuvamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "See rakendus saab manustada videoallika kuva, määrata suuruse ning kuvada või peita manustatud kuva."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "See rakendus suudab lugeda toiminguid, mis on seotud eriklahvidega, nt helitugevusnupud selles või teises seadmes (nt teleri kaugjuhtimispult), isegi taustal töötades."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Eriliste võtmesündmuste jäädvustamine"
 

@@ -49,6 +49,9 @@ msgstr "Stjórna tengiliðum"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Stjórna efni"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Stjórna innsláttaraðferðum"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Stjórna almennum stillingum NFC"
 
@@ -484,6 +487,9 @@ msgstr "Þetta forrit getur hringt í númer þegar pikkað er á þau án freka
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Þetta forrit getur stjórnað hljóðupptökum."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Þetta forrit getur stjórnað uppsettum innsláttaraðferðum."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Þetta forrit getur opnað önnur forrit með auðkenni forrits eða forritsstýringu."
 
@@ -630,4 +636,172 @@ msgstr "Sending texta- og margmiðlunarskilaboða ásamt stöðuuppfærslu"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Þetta forrit getur stjórnað HTTP-niðurhali. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Lestur tölfræðiupplýsinga um forritanotkun"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Þetta forrit getur lesið tölfræðiupplýsingar um notkun forrita, t.d. hvaða forrit hafa verið notuð oft eða nýlega."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Lestur tölfræðiupplýsinga um efnisspilun"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Þetta forrit getur lesið tölfræðiupplýsingar um tónlist og myndskeið sem spiluð eru í þessu tæki, t.d. hvenær tónlist og myndskeið eru oftast spiluð."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Skráning efnisstjórnunaratvika"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Þetta forrit getur skráð efnisstjórnun, til dæmis upphafs- og stöðvunartíma tónlistar og myndskeiða."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Þetta forrit getur boðið notendum upp á leið til að slá inn stafi og tákn í tengdan innsláttarreit."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Sjá fyrir innsláttaraðferðum"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Þetta forrit getur tekið myndir og kveikt eða slökkt á flassinu þegar verið er að nota myndavélina."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Bakgrunnsforritum lokað"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Búa til snerti- og takkaatvik"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Þetta forrit getur hermt eftir áslætti á takka og snertiaðgerðum á skjánum."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Þetta forrit getur farið fram á að forritum sem keyra í bakgrunni sé lokað."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Þetta forrit getur hringt í númer þegar pikkað er á þau, án sérstakrar staðfestingar. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Þetta forrit getur stjórnað tölvupóstreikningum, þar með talið möppum og tölvupósti, POP3- og IMAP-niðurhali og SMTP-upphleðslu. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Þetta forrit getur fengið tilkynningar í gegnum internetið. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Þetta forrit getur vistað lykla, vottorð og gögn í og sótt eða eytt þeim úr geymslu sem varin er með lykilorði. Athugun á stöðu vottorða yfir tengingu við farsímakerfi getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Stjórnun efnisspilara"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Þetta forrit getur tekið á móti upplýsingum um spilað efni frá forritum með heimild til að senda þær og fjarstýrt þessum sömu forritum."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Samþykkt fjarstýringa"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Þetta forrit getur sent upplýsingar um spilað efni til forrita sem mega taka við þeim og fjarstýrt þessum sömu forritum."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Þetta forrit getur skrifað, sent, eytt og fært texta og margmiðlunarskilaboð, sótt margmiðlunarskilaboð og breytt stillingum og stöðu skilaboða, til dæmis í lesin eða ólesin. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Þetta forrit getur kveikt og slökkt á Wi-Fi og tengt við og aftengt frá Wi-Fi netum og farsímakerfum. Þetta kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Setja upp/fjarlægja forritapakka"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Þetta forrit getur sett upp og fjarlægt forritapakka."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Skyndiminni annarra forrita hreinsað"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Þetta forrit getur hreinsað skyndiminni annarra forrita."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Tæki endurræst"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Þetta forrit getur endurræst tækið."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Eftirlit með kerfistilföngum"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Þetta forrit getur lesið kerfisupplýsingar, þar á meðal upplýsingar frá örgjörva og vinnsluminni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Þetta forrit getur kveikt og slökkt á tjóðrunarþjónustu. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Sýna græjur"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Þetta forrit getur birt græjur og upplýsingar þeim tengdar á heimaskjánum."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Notkun kortaþjónustu"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Þetta forrit getur notað kortaþjónustu á borð við landkóðara, staði og leið (stefnu)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Sýnir tækjastiku"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Þetta forrit getur birt litla tækjastiku á tilkynningasvæðinu eða lásskjánum þegar það er opið."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Þetta forrit getur samstillt gögn tækisins, eins og tengiliði og dagatalsviðburði, með OMA DS 1.2 samskiptareglu. Þetta kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Þetta forrit getur tekið á móti tölvupósti, SMS-skilaboðum og margmiðlunarskilaboðum frá þjóninum eða beint. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Þetta forrit getur skrifað SMS, margmiðlunarskilaboð og tölvupóst. Þetta getur haft viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Þetta forrit getur takmarkað virkni tækisins á þann hátt að aðeins er hægt að opna sum lén í gegnum farsímakerfi. Þetta kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Tilkynningar"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Ónáðið ekki"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Stjórnun hljóðstyrks og spilun hljóðs"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Þetta forrit getur breytt hljóðstyrknum, kveikt og slökkt á hljóðlausri stillingu, greint breytingar á hljóðstyrk og gefið frá sér hljóðmerki."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Val á sjónvarpsstöð og lestur sjónvarpsstöðvar og dagskrárupplýsinga"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Þetta forrit getur skipt á milli sjónvarpsstöðva, lesið upplýsingar um sjónvarpsstöðvar og dagskrá og móttekið tilkynningar þegar skipt er á milli stöðva."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Skoðun á hvort tæki styður þrívídd og upplýsingar um áhrif þrívíddarstillingar sóttar"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Þetta forrit getur athugað hvort tæki styður þrívídd og lesið upplýsingar um áhrif þrívíddarstillingar."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Skráning innsláttar í inntakstækjum, t.d. sjónvarpsfjarstýringu"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Þetta forrit getur skráð innslátt inntakstækis, t.d. sjónvarpsfjarstýringar, og hætt að skrá innslátt."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Birting uppruna myndskeiðs sem innfellt er í þetta forrit"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Þetta forrit getur fellt inn myndskeið, tilgreint stærðina og sýnt eða falið innfellda myndskeiðið."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Þetta forrit getur lesið aðgerðir sem tengjast sérstökum lyklum, til dæmis hljóðstyrkstökkum þessa tækis eða annarra (t.d. sjónvarpsfjarstýringa), jafnvel þótt það keyri í bakgrunni."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Fanga sérstaka lyklavirkni"
 

@@ -1,0 +1,39 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+SET(PACKAGE_NAME tc-privilege-checker)
+PROJECT(${PACKAGE_NAME})
+
+SET(TC1_NAME tc-privilege-db-manager)
+SET(TC2_NAME tc-privilege-manager)
+SET(TC3_NAME tc-privilege-info)
+
+SET(TC1_SRCS ${TC1_NAME}.c)
+SET(TC2_SRCS ${TC2_NAME}.c)
+SET(TC3_SRCS ${TC3_NAME}.c)
+
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/capi/include)
+
+SET(requires glib-2.0 dlog)
+INCLUDE(FindPkgConfig)
+pkg_check_modules(${PACKAGE_NAME} REQUIRED ${requires})
+FOREACH(flag ${${PACKAGE_NAME}_CFLAGS})
+    SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
+ENDFOREACH(flag)
+
+# Compiler flags
+SET(EXTRA_CXXFLAGS "${EXTRA_CFLAGS} -fPIC -Wall -Werror")
+SET(CMAKE_CXX_FLAGS_DEBUG "-O0 -g")
+
+SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} -fPIC -Wall -fvisibility=hidden -D_WITH_SYSTEMD_")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} ${PACKAGE_NAME_CFLAGS}")
+
+ADD_EXECUTABLE(${TC1_NAME} ${TC1_SRCS})
+ADD_EXECUTABLE(${TC2_NAME} ${TC2_SRCS})
+ADD_EXECUTABLE(${TC3_NAME} ${TC3_SRCS})
+
+TARGET_LINK_LIBRARIES(${TC1_NAME} "capi-security-privilege-manager")
+TARGET_LINK_LIBRARIES(${TC2_NAME} "capi-security-privilege-manager")
+TARGET_LINK_LIBRARIES(${TC3_NAME} "capi-security-privilege-manager")
+
+INSTALL(TARGETS ${TC1_NAME} DESTINATION /usr/bin)
+INSTALL(TARGETS ${TC2_NAME} DESTINATION /usr/bin)
+INSTALL(TARGETS ${TC3_NAME} DESTINATION /usr/bin)

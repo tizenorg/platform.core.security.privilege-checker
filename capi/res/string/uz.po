@@ -49,6 +49,9 @@ msgstr "Kontaktlarni boshqarish"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Tarkibni boshqarish"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Kiritish usulini boshqarish"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC umumiy parametrlarini boshqarish"
 
@@ -484,6 +487,9 @@ msgstr "Ushbu ilova raqamlarga tegilganda ogohlantirishsiz telefon qo‘ng‘iro
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Ushbu ilova audio yozuvlarni boshqarishi mumkin."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Ushbu ilova o‘rnatilgan kiritish usullarini boshqarishi mumkin."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Ushbu ilova ilova IDsi yoki ilova nazorati yordamida boshqa ilovalarni ochishi mumkin."
 
@@ -630,4 +636,172 @@ msgstr "Matn va multimedia xabarlarini yuborish va ularning holatlarini yangilas
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Ushbu ilova HTTP yuklanmalarini boshqarishi mumkin. Bu to‘lov rejangiz asosidagi qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Ilovadan foydalanish statistikasini o‘qish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Bu ilova ko‘p ishlatilgan yoki oxirgi marta foydalanilgan ilova kabi ilova ishlatilishi statistikasini o‘qishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Media ijro etilish statistikasini o‘qish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Bu ilova musiqa yoki video qo‘yishning ommabop vaqtlari kabi qurilmada ijro etilgan musiqa va videoga tegishli statistikani o‘qishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Mediani boshqarish hodisalarini jurnalda qayd qilish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Ushbu ilova musiqa va videolar uchun boshlash va to‘xtatish vaqtlari kabi media boshqaruvi hodisalarini qayd qilishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Ushbu ilova foydalanuvchilarga birlashtirilgan matn maydoniga belgi va simvollar kiritish usulini taqdim etadi."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Kiritish usullarini taqdim etish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Ushbu ilova rasmga olishi va Kameradan foydalanayotganda kamera chaqnog‘ini yoqishi va o‘chirishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Fondagi ma’lumotlarni yopish"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Sensor va tugma hodisalarini ishga tushirish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Ushbu ilova tugmalar bosilishini va ekranga tegishlarni imitatsiyalashi mumin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Ushbu ilova fonda ishlayotgan ilovalarning yopilishini so‘rashi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Ushbu ilova raqamlarga tegilganda ogohlantirishsiz telefon qo‘ng‘iroqlarini amalga oshirishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Ushbu ilova e-pochta hisob qaydnomalaringizni, jumladan, jild va e-pochta xabarlaringizni, POP3 va IMAP yuklanmalarini hamda SMTP yuklanmalarini boshqarishingiz mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ushbu ilova bildirishnomalarni Internet orqali olishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Ushbu ilova kalit, sertifikat va ma’lumotlarni saqlashi hamda ularni parol bilan himoyalangan xotiradan olishi va yo‘q qilishi mumkin. Mobil tarmoqqa ulangan vaqtda sertifikatlar holatini tekshirish to‘lov rejangiz asosidagi qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Media pleyerni boshqarish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Ushbu ilova ma’lumotlarni jo‘natish ruxsat berilgan ilovalardan hozirda ijro etilayotgan media haqidagi ma’lumotlarni olishi va bu ilovalarni qo‘lda boshqarishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Masofadan boshqarishni qabul qilish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Ushbu ilova ma’lumotlarni olish ruxsat berilgan ilovalarga hozirda ijro etilayotgan media haqidagi ma’lumotlarni yuborishi va bu ilovalarni qo‘lda boshqarishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Ushbu ilova matnli va multimedia xabarlarini yozishi, yuborishi, yo‘q qilishi va ko‘chirishi, multimedia xabarlarini yuklab olishi hamda xabarlarning o‘qilgan yoki o‘qilmagan kabi maqomlarini va parametrlarini o‘zgartirishi mumkin. Bu to‘lov rejangiz asosidagi qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Ushbu ilova Wi-Fi ulanishni yoqishi va o‘chirishi hamda Wi-Fi va mobil tarmoqlarga ulanishi va ulardan uzilishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Ilova paketlarini o‘rnatish/olib tashlash"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Ushbu ilova ilova paketlarini o‘rnatishi va olib tashlashi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Boshqa ilovalar keshlarini tozalash"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Ushbu ilova boshqa ilovalar kesh xotirasini tozalashi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Qurilma qayta ishga tushirilmoqda"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Ushbu ilova qurilmani qayta ishga tushirishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Tizim resurslari monitoringi"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Ushbu ilova tizim haqidagi ma’lumotlarni, jumladan, Markaziy protsessor va RAM ma’lumotlarini, o‘qishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ushbu ilova bog‘lanish xizmatlarini yoqishi va o‘chirishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Vidjetlarni ko‘rsatish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Ushbu ilova asosiy ekranda vidjetlar va ularga bog‘langan ilovalardan olingan ma’lumotlarni ko‘rsatadi."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Xarita xizmatlaridan foydalanish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Bu ilova Geokodlovchi, Joylar va Marshrut (Yo‘nalish) kabi xarita xizmatlaridan foydalanishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Asboblar panelini ko‘rsatish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Ushbu ilova ochiq turgan vaqtda bildirishnoma panelida yoki bloklash ekranida kichkina asboblar paneli ko‘rsatilishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Ushbu ilova OMA DS 1.2 bayonnomasi yordamida kontaktlar va kalendar hodisalari kabi qurilma ma’lumotlarini sinxronlashi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Ushbu ilova e-pochta, matnli va multimedia xabarlarni serverdan chiqarib olishi yoki to‘g‘ridan-to‘g‘ri olishi mumkin. Bu to‘lov rejangiz asosidagi qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ushbu ilova matnli, multimedia va e-pochta xabarlarini yozishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Ushbu ilova qurilma funksiyalari cheklashi mumkin va ba’zi domenlarga faqat mobil tarmoqlar orqali kirilishi mumkin. Bu tarif rejangiz asosida qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Bildirishnomalar"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Bezovta qilma"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Ovoz balandligi darajasini boshqarish va signal audiosini ijro etish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Ushbu ilova ovoz balandligini o‘zgartirishi, Ovozsiz rejimni yoqishi yoki o‘chirishi, ovozdagi o‘zgarishlarni aniqlashi va signallarni chalishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "TV kanalini boshqarish va TV kanalini va dasturlari ma’lumotini o‘qish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Ushbu ilova TV kanalini o‘zgartirishi, TV kanallari va dasturlari haqidagi ma’lumotni o‘zgartirishi va TV kanali o‘zgargan vaqtda bildirishnomalarni olishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Qurilmangiz 3D rejimni qo‘llab-quvvatlashini tekshirish va 3D rejimining effektlari haqida ma’lumot olish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Ushbu ilova qurilma 3D rejimni qo‘llab-quvvatlashini tekshiradi va 3D rejim haqidagi ma’lumotlarni o‘qiydi."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Kiritish qurilmlarining tugma hodisalarini rasmga olish, misol uchun, TV pulti"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Ushbu ilova kiritish qurilmasining tugma hodisalarini rasmga olishi mumkin, misol uchun, TV pulti va chiqarish tugmasini ushlab olish."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Ushbu ilovalarda biriktirilgan video manbaini ko‘rsatilishi"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Ushbu ilova video manba ekanini bog‘lashi, uning o‘lchamini o‘zgartirishi va bog‘langan ekranni ko‘rsatishi yoki yashirishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Ushbu ilova bu yoki boshqa qurilmalarda (misol uchun, TV pultida) ovoz balandligi kabi maxsus tugmalar funksiyasini o‘qishi mumkin, u fonda ishlayotganda ham."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Maxsus tugma hodisalarini rasmga olish"
 

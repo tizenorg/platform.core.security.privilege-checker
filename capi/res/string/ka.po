@@ -49,6 +49,9 @@ msgstr "კონტაქტების მართვა"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "მასალის მართვა"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "შეყვანის მეთოდების მართვა"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC საერთო პარამეტრების მართვა"
 
@@ -484,6 +487,9 @@ msgstr "ამ აპლიკაციას შეუძლია, გან�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "ამ აპლიკაციას შეუძლია, მართოს აუდიო ჩანაწერები."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "ამ აპლიკაციას შეუძლია, მართოს ინფორმაციის შეყვანის დაინსტალირებული მეთოდები."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "ამ აპლიკაციას შეუძლია, გახსნას სხვა აპლიკაციები, აპლიკაციის ID-ის ან აპლიკაციის კონტროლის საშუალებით."
 
@@ -630,4 +636,172 @@ msgstr "ტექსტური და მულტიმედიური შ
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "ამ აპლიკაციას შეუძლია, მართოს HTTP ჩამოტვირთვები. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "აპლიკაციების გამოყენების სტატისტიკის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "ამ აპლიკაციას შეუძლია, წაიკითხოს აპლიკაციების გამოყენების სტატისტიკა, მაგალითად, რომელი აპლიკაციებია გამოყენებული ხშირად ან ბოლოდროს."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "მედიის გაშვების სტატისტიკის წაკითხვა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "ამ აპლიკაციას შეუძლია, წაიკითხოს მოწყობილობაში მუსიკისა და ვიდეოების გაშვების სტატისტიკა, მაგალითად, მუსიკისა და ვიდეოს ჩართვის პიკის საათები."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "მედიის მართვის ოპერაციების ჩაწერა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "ამ აპლიკაციას შეუძლია, ჩაიწეროს მედიის მართის შემთხვევები, როგორიცაა მუსიკისა და ვიდეოების ჩართვისა და გამორთვის დროები."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "ეს აპლიკაცია მომხმარებლებს სთავაზობს ასოებისა და სიმბოლოების აკრეფის გზას შესაბამის ტესტურ ველში."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "ინფორმაციის შეყვანის მეთოდების უზრუნველყოფა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "ამ აპლიკაციას შეუძლია, გადაიღოს სურათები და ჩართოს ან გამორთოს კამერის ნათება, როდესაც იყენებთ კამერას."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "ფონური აპლიკაციების დახურვა"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "სენსორული და ფიზიკური კლავიშების მოქმედებების გენერირება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "ამ აპლიკაციას შეუძლია კოდების სიმულირება, ეკრანზე დაჭერითა და შეხებით ინტერაქტივის დროს."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "ამ აპლიკაციას შეუძლია, მოითხოვოს ფონზე გაშვებული აპლიკაციების დახურვა."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, განახორციელოს სატელეფონო ზარები ნომრებზე, მათი აკრეფის შემდეგ, შემდგომი დადასტურების გარეშე. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, მართოს თქვენი ელფოსტის ანგარიშები, მათ შორის საქაღალდეები და ელწერილები, POP3 და IMAP ჩამოტვირთვები, SMTP ატვირთვები. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ამ აპლიკაციას შეუძლია, ინტერნეტით მიიღოს შეტყობინებები. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "ამ აპლიკაციას შეუძლია შეინახოს კოდები, სერტიფიკატები და მონაცემები და, ასევე, მიიღოს და წაშალოს ისინი პაროლით დაცულ მეხსიერებაში. სერტიფიკატების სტატუსების მობილური ქსელით შემოწმებისთვის შეიძლება დაგერიცხოთ დამატებითი გადასახადი, თქვენი სატარიფო გეგმის შესაბამისად."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "მედია პლეერის მართვა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, მიიღოს ინფორმაცია ამჟამად გაშვებული მედიის შესახებ იმ აპლიკაციებიდან, რომლებსაც აქვს მისი გაგზავნის ნებართვა და, ასევე, შეუძლია დისტანციურად მართოს ეს აპლიკაციები."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "დისტანციური მართვის მიღება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, ამჟამად გაშვებული მედიის ინფორმაცია გაუგზავნოს იმ აპლიკაციებს, რომლებსაც აქვს მისი მიღების ნებართვა და, ასევე, შესაძლებელია მისი დისტანციური მართვა ამ აპლიკაციებით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "ამ აპლიკაციას შეუძლია ჩაწეროს, გაგზავნოს, წაშალოს და გადაიტანოს ტექსტური და მულტიმედიური შეტყობინებები, ჩამოტვირთოს მულტიმედიური შეტყობინებები და შეცვალოს შეტყობინებების პარამეტრები და სტატუსები, როგორიცაა წაკითხული ან წაუკითხავი. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, ჩართოს და გამორთოს Wi-Fi, დაამყაროს და შეწყვიტოს Wi-Fi და მობილური ქსელების კავშირი. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "აპლიკაციის პაკეტების ინსტალაცია/დეინსტალაცია"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "ამ აპლიკაციას შეუძლია, დააინსტალიროს და ამოაინსტალიროს პროგრამის პაკეტები."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "სხვა პროგრამების ქეშ-მეხსიერების გასუფთავება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "ამ აპლიკაციას შეუძლია, გაასუფთაოს სხვა აპლიკაციების ქეში."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "მოწყობილობის გადატვირთვა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "ამ აპლიკაციას შეუძლია, გადატვირთოს მოწყობილობა."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "სისტემის რესურსების მონიტორინგი"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "ამ აპლიკაციას შეუძლია, წაიკითხოს სისტემის ინფორმაცია, მათ შორის ინფორმაცია CPU და RAM-დან."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ამ აპლიკაციას შეუძლია, ჩართოს ან გამორთოს მობილური ინტერნეტის გაზიარების სერვისი. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "ვიჯეტების ჩვენება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "ამ აპლიკაციას შეუძლია, იმავე ეკრანზე გაჩვენოთ ვიჯეტები და ინფორმაცია მათთან დაკავშირებული აპლიკაციებიდან."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "რუკის სერვისების გამოყენება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "ამ აპლიკაციას შეუძლია, გამოიყენოს რუკების სერვისები, როგორიცაა „გეოკოდირება“, „ადგილები“ და „მარშრუტი“ (მიმართულება)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "ხელსაწყოთა ზოლის ჩვენება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "როდესაც გახსნილია, ამ აპლიკაციას შეუძლია, შეტყობინებათა დაფაზე ან დაბლოკილ ეკრანზე გამოაჩინოს მცირე ზომის ხელსაწყოთა ზოლი."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, დაასინქრონოს მოწყობილობის მონაცემები, როგორიცაა კონტაქტები და კალენდრის მოვლენები, OMA DS 1.2 პროტოკოლის გამოყენებით. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, მიიღოს ელწერილები, ტექსტური შეტყობინებები და მულტიმედიური შეტყობინებები, სერვერიდან ან პირდაპირ. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ამ აპლიკაციას შეუძლია, დაწეროს ტექსტური შეტყობინებები, მულტიმედიური შეტყობინებები და ელწერილები. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, მოწყობილობას შეუზღუდოს წვდომა ისე, რომ მხოლოდ რამდენიმე კონკრეტულ დომენზე იყოს შესაძლებელი წვდომა მობილური ქსელებით. შესაძლოა, ამის გამო დაგერიცხოთ დამატებითი გადასახადები, თქვენი სატარიფო გეგმის მიხედვით."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "შეტყობინებები"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "არ შემაწუხოთ"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "ხმის სიმაღლის კონტროლი და აუდიოსიგნალის დაკვრა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, შეცვალოს ხმის სიმაღლე, ჩართოს და გამორთოს უხმო რეჟიმი, ამოიცნოს ხმის სიმაღლის ცვლილება და ჩართოს ხმოვანი სიგნალი."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "სატელევიზიო არხის მართვა, სატელევიზიო არხის წაკითხვა და პროგრამის ინფორმაცია"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, შეცვალოს ტელეარხი, წაიკითხოს ინფორმაცია სატელევიზიო არხებისა და პროგრამების შესახებ და მიიღოს შეტყობინებები, როდესაც ტელეარხი შეიცვლება."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "მოწყობილობაში 3D-ის მხარდაჭერის შემოწმება და ინფორმაციის მიღება 3D რეჟიმის ეფექტების შესახებ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "ამ აპლიკაციას შეუძლია მოწყობილობაში 3D-ის მხარდაჭერის შემოწმება და ინფორმაციის წაკითხვა 3D რეჟიმის შესახებ."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "ინფორმაციის შემყვანი მოწყობილობის, მაგ. ტელევიზორის პულტის, ძირითადი მოქმედებების გადაღება"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, გადაიღოს ინფორმაციის შემყვანი მოწყობილობის, მაგ. ტელევიზორის პულტის, ძირითადი მოქმედებები და აუშვას ღილაკი."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "ამ აპლიკაციაში ჩაშენებული ვიდეოს წყაროს გამოჩენა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, ჩააშენოს ვიდეოს წყაროს ეკრანი, მიუთითოს ზომა, გამოაჩინოს ან დამალოს ჩაშენებული ეკრანი."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, წაიკითხოს მოქმედებები სპეციალური ღილაკების გამოყენებით, როგორიცაა ხმის რეგულირების ღილაკები, ამ და სხვა მოწყობილობებში (მაგ., ტელევიზორის პულტი), მაშინაც კი, როცა ის გაშვებულია ფონზე."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "სპეციალური მთავარი მოვლენების გადაღება"
 

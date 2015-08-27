@@ -49,6 +49,9 @@ msgstr "Teagmhálaithe a bhainistiú"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Inneachar a bhainistiú"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Modhanna ionchuir a bhainistiú"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Socruithe ginearálta NFC a bhainistiú"
 
@@ -484,6 +487,9 @@ msgstr "Is féidir leis an bhfeidhmchlár seo glaonna fóin a chur ar uimhreacha
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Is féidir leis an bhfeidhmchlár seo taifeadtaí fuaime a bhainistiú."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Is féidir leis an bhfeidhmchlár seo na modhanna ionchuir suiteáilte a bhainistiú."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Is féidir leis an bhfeidhmchlár seo feidhmchláir eile a oscailt le ID an fheidhmchláir nó le rialú feidhmchláir."
 
@@ -630,4 +636,172 @@ msgstr "Teachtaireachtaí téacs agus ilmheán a sheoladh, agus a stádais a nua
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Is féidir leis an bhfeidhmchlár seo íoslódálacha HTTP a bhainistiú. Is féidir go ngearrfar táillí breise air sin ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Staitisticí úsáide maidir leis an bhfeidhmchlár a léamh"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Is féidir leis an bhfeidhmchlár seo staitisticí maidir le húsáid feidhmchlár a léamh, amhail na feidhmchláir a úsáideadh go minic nó le déanaí."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Staitisticí faoi athsheinm meán a léamh"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Is féidir leis an bhfeidhmchlár seo na staitisticí maidir leis an gceol agus leis na físeáin a sheinntear ar an ngléas a léamh, mar shampla, na buaic-amanna a seinntear ceol nó físeáin."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Imeachtaí rialaithe meán a logáil"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Is féidir leis an bhfeidhmchlár seo imeachtaí rialaithe meán a logáil, amhail amanna tosaithe agus stoptha, i ndáil le ceol agus le físeáin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Is féidir leis an bhfeidhmchlár seo bealach a thabhairt d'úsáideoirí carachtair agus siombailí a iontráil i réimse téacs lena mbaineann."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Modhanna ionchuir a sholáthar"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Is féidir leis an bhfeidhmchlár seo pictiúir a ghlacadh agus splanc an cheamara a chasadh air agus as le linn Ceamara a úsáid."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Feidhmchláir sa chúlra a dhúnadh"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Imeachtaí tadhaill agus eochair-imeachtaí a ghiniúint"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Is féidir leis an bhfeidhmchlár seo brú eochracha agus idirghníomhaíochtaí tadhaill leis an scáileán a ionsamhlú."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Is féidir leis an bhfeidhmchlár seo iarraidh feidhmchláir atá ar rith sa chúlra a scor."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo glaonna a chur ar uimhreacha nuair a thapáiltear iad gan tuilleadh deimhnithe. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo do chuntais r-phoist a bhainistiú, lena n-áirítear d'fhillteáin agus do r-phoist, íoslódálacha POP3 agus IMAP, agus uaslódálacha SMTP. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Is féidir leis an bhfeidhmchlár seo fógraí a fháil tríd an Idirlíon. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo eochracha, deimhnithe, agus sonraí a shábháil chuig stóras atá faoi chosaint ag pasfhocal, agus iad a aisghabháil agus a scriosadh uaidh. Is féidir go ngearrfar táillí breise ar stádais deimhnithe a sheiceáil agus tú nasctha le líonra móibíleach, ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Seinnteoir meán a rialú"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo faisnéis faoi mheáin atá á seinm faoi láthair a fháil ó fheidhmchláir a gceadaítear dóibh a leithéid d'fhaisnéis a sheoladh, agus is féidir leis na feidhmchláir sin a chianrialú."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Cianrialtáin a ghlacadh"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo faisnéis faoi mheáin atá á seinm faoi láthair a sheoladh chuig feidhmchláir a gceadaítear dóibh a leithéid d'fhaisnéis a fháil, agus is féidir leis na feidhmchláir sin é a chianrialú."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo teachtaireachtaí téacs agus ilmheán a scríobh, a sheoladh, a scriosadh, agus a bhogadh, teachtaireachtaí ilmheán a íoslódáil, agus socruithe agus stádais teachtaireachtaí a athrú, amhail léite nó neamhléite. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo Wi-Fi a chasadh air agus as, nascadh le líonraí Wi-Fi agus líonraí móibíleacha, agus dínascadh uathu. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Pacáistí feidhmchláir a shuiteáil nó a dhíshuiteáil"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Is féidir leis an bhfeidhmchlár seo pacáistí feidhmchláir a shuiteáil agus a dhíshuiteáil."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Taiscí feidhmchlár eile a ghlanadh"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Is féidir leis an bhfeidhmchlár seo taiscí feidhmchlár eile a ghlanadh."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "An gléas a atosú"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Is féidir leis an bhfeidhmchlár seo an gléas a atosú."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Monatóireacht a dhéanamh ar acmhainní an chórais"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Is féidir leis an bhfeidhmchlár seo faisnéis faoin gcóras a léamh, lena n-áirítear faisnéis ón CPU agus ón RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Is féidir leis an bhfeidhmchlár seo seirbhísí nascaireachta a chumasú agus a dhíchumasú. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Giuirléidí a thaispeáint"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Is féidir leis an bhfeidhmchlár seo giuirléidí, agus faisnéis ó na feidhmchláir lena mbaineann, a thaispeáint ar an scáileán baile."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Seirbhísí léarscáile a úsáid"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Is féidir leis an bhfeidhmchlár seo seirbhísí léarscáile, amhail Geochódóir, Áiteanna, agus Eolas an Bhealaigh (Treo) a úsáid."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Barra uirlisí a thaispeáint"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Is féidir leis an bhfeidhmchlár seo barra uirlisí beag a thaispeáint ar an bpainéal fógraí nó ar an scáileán glasála nuair a bhíonn sé ar oscailt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo sonraí gléis a shioncronú, amhail teagmhálaithe agus imeachtaí féilire, le prótacal OMA DS 1.2. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo r-phoist, teachtaireachtaí téacs, agus teachtaireachtaí ilmheán a aisghabháil ón bhfreastalaí nó iad a fháil caol díreach. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Is féidir leis an bhfeidhmchlár seo teachtaireachtaí téacs, teachtaireachtaí ilmheán, agus r-phoist a scríobh. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur leis an ngléas ionas nach bhféadfar roinnt fearann ar leith a rochtain ach amháin trí líonraí móibíleacha. Is féidir go ngearrfar táillí breise air seo ag brath ar do phlean íocaíochta."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Fógraí"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Ná cuir isteach orm"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "An leibhéal airde a rialú agus fuaim na bípe a sheinm"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo an airde a athrú, Mód tostach a chumasú agus a dhíchumasú, athruithe airde a bhrath, agus bípeanna a sheinm."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "An cainéal teilifíse a rialú agus faisnéis faoin gcainéal teilifíse agus faoi chláir a léamh"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo an cainéal teilifíse a athrú, faisnéis faoi chainéil agus faoi chláir teilifíse a léamh, agus fógraí a fháil nuair a athraítear an chainéil teilifíse."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Seiceáil cibé acu atá nó nach bhfuil tacú i ngléas don 3D agus faisnéis a fháil faoi mhaisíochtaí an mhóid 3d"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo seiceáil cibé acu atá nó nach bhfuil tacú i ngléas don 3D agus faisnéis a léamh faoin mód 3D."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Imeachtaí eochrach gléasanna ionchuir a ghabháil, m.sh. cianrialtán teilifíse"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo imeachtaí eochrach gléasanna ionchuir a ghabháil, m.sh. cianrialtán teilifíse, chomh maith le scaoileadh eochracha."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Foinse físe atá leabaithe san fheidhmchlár seo a thaispeáint"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo taispeáint na foinse físe a leabú, an mhéid a shonrú, agus an taispeáint leabaithe a thaispeáint nó a fholú."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo gníomhartha a léamh a bhfuil baint acu le heochracha speisialta, amhail na heochracha airde ar an ngléas seo agus ar ghléasanna eile (m.sh. cianrialtáin teilifíse), fiú nuair a bhíonn sé ar rith sa chúlra."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Imeachtaí eochrach speisialta a ghabháil"
 

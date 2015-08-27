@@ -6,23 +6,28 @@
 
 #define MESSAGE_SIZE            512
 #define MESSAGE_LIST_SIZE       10000
+#define TOTAL_MESSAGE_LIST_SIZE	30000
 
 #ifdef LOG_TAG
 #undef LOG_TAG
 #define LOG_TAG "PRIVILEGE_MANAGER"
 #endif
 
-#define TryReturn(condition, returnValue, ...)  \
+#define TryReturn(condition, expr, returnValue, ...)  \
     if (!(condition)) { \
+        expr; \
         LOGE(__VA_ARGS__); \
         return returnValue; \
     } \
     else {;}
-
 static int __privilege_manager_check_privilege_list(const char* api_version, const char* privilege, GList* vaild_privilege_list, int* privilege_level, char** changed_to, char** valid_api_version)
 {
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege != NULL,, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
     int i, is_valid_version = 0;
+    int ret_val = PRVMGR_ERR_NO_EXIST_PRIVILEGE;
+    char* tmp_api_version = NULL;
+    char* tmp_expired_version = NULL;
+    char* tmp_issued_version = NULL;
     GList* l = NULL;
     for (l = vaild_privilege_list; l != NULL; l = l->next)
     {
@@ -31,15 +36,63 @@ static int __privilege_manager_check_privilege_list(const char* api_version, con
         {
             LOGD("Matched privilege name exist");
             LOGD("Check api version");
-            for(i=0; i<3; i++)
+
+            if(tmp_api_version != NULL)
             {
-                if( !(api_version[i] <= privilege_info_db_row->expired_version[i]) )
+                free(tmp_api_version);
+                tmp_api_version = NULL;
+            }
+            if(tmp_issued_version != NULL)
+            {
+                free(tmp_issued_version);
+                tmp_issued_version = NULL;
+            }
+            if(tmp_expired_version != NULL)
+            {
+                free(tmp_expired_version);
+                tmp_expired_version = NULL;
+            }
+			is_valid_version = 0;
+
+			tmp_api_version = strdup(api_version);
+            TryReturn(tmp_api_version != NULL, free(tmp_api_version); free(tmp_expired_version); free(tmp_issued_version), PRVMGR_ERR_OUT_OF_MEMORY,"[PRVMGR_ERR_OUT_OF_MEMORY] tmp_api_version's strdup is failed.");
+            strncat(tmp_api_version, ".0", strlen(".0"));
+            tmp_expired_version = strdup(privilege_info_db_row->expired_version);
+            TryReturn(tmp_expired_version != NULL, free(tmp_api_version); free(tmp_expired_version); free(tmp_issued_version), PRVMGR_ERR_OUT_OF_MEMORY,"[PRVMGR_ERR_OUT_OF_MEMORY] tmp_expired_version's strdup is failed.");
+            strncat(tmp_expired_version, ".0", strlen(".0"));
+            tmp_issued_version = strdup(privilege_info_db_row->issued_version);
+            TryReturn(tmp_issued_version != NULL, free(tmp_api_version); free(tmp_expired_version); free(tmp_issued_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] tmp_issued_version's strdup is failed.");
+            strncat(tmp_issued_version, ".0", strlen(".0"));
+
+            for(i=0; i<5; i++)
+            {
+                if( !(tmp_api_version[i] <= tmp_expired_version[i]) )
                 {
-                    is_valid_version = 1;
+                    if(i >= 2)
+                    {
+                        if( !(tmp_api_version[i-2] < tmp_expired_version[i-2]) )
+                        {
+                            is_valid_version = 1;
+                        }
+                    }
+                    else
+                    {
+                        is_valid_version = 1;
+                    }
                 }
-                else if ( !(api_version[i] >= privilege_info_db_row->issued_version[i]))
+                else if ( !(tmp_api_version[i] >= tmp_issued_version[i]))
                 {
+                    if( i >= 2 )
+                    {
+                        if( !(tmp_api_version[i-2] > tmp_issued_version[i-2]) )
+                        {
+                            is_valid_version = 2;
+                        }
+                    }
+                    else
+                    {
                         is_valid_version = 2;
+                    }
                 }
             }
 
@@ -51,33 +104,41 @@ static int __privilege_manager_check_privilege_list(const char* api_version, con
             if(is_valid_version == 0)
             {
                 *privilege_level = privilege_info_db_row->privilege_level_id;
-                return PRVMGR_ERR_NONE;
+
+                ret_val = PRVMGR_ERR_NONE;
+                goto FINISH;
             }
             else if(is_valid_version == 1)
             {
                 LOGD("privilege deprecated version is lower than api version");
                 *valid_api_version = strdup(privilege_info_db_row->expired_version);
-                TryReturn(valid_api_version != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] valid_api_version's strdup is failed.");
+                TryReturn(valid_api_version != NULL, free(tmp_api_version); free(tmp_issued_version); free(tmp_expired_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] valid_api_version's strdup is failed.");
+
                 if(privilege_info_db_row->changed_to != NULL && strcmp(privilege_info_db_row->changed_to, "") != 0 )
                 {
-                    LOGE("%s was changed to %s", privilege, privilege_info_db_row->changed_to);
-
+                    LOGD("%s was changed to %s.", privilege, privilege_info_db_row->changed_to);
                     *changed_to = strdup(privilege_info_db_row->changed_to);
-                    TryReturn(changed_to != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] changed_to's strdup is failed.");
+                    TryReturn(changed_to != NULL, free(tmp_api_version); free(tmp_issued_version); free(tmp_expired_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] changed_to's strdup is failed.");
                 }
-                return PRVMGR_ERR_DEPRECATED_PRIVILEGE;
+
+                ret_val = PRVMGR_ERR_DEPRECATED_PRIVILEGE;
             }
             else if(is_valid_version == 2)
             {
                 LOGD("privilege issued version is higher than api version");
                 *valid_api_version = strdup(privilege_info_db_row->issued_version);
-                TryReturn(valid_api_version != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] valid_api_version's strdup is failed.");
-                return PRVMGR_ERR_NO_EXIST_PRIVILEGE;
+                TryReturn(valid_api_version != NULL, free(tmp_api_version); free(tmp_issued_version); free(tmp_expired_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] valid_api_version's strdup is failed.");
+
+                ret_val = PRVMGR_ERR_NO_EXIST_PRIVILEGE;
             }
         }
     }
 
-    return  PRVMGR_ERR_NO_EXIST_PRIVILEGE;
+FINISH:
+    free(tmp_issued_version);
+    free(tmp_expired_version);
+    free(tmp_api_version);
+    return ret_val;
 }
 
 const char* __get_privilege_level_string(privilege_db_manager_privilege_level_e privilege_db_manager_privilege_level)
@@ -100,23 +161,27 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
     GList *l;
     int ret;
     int ret_val = PRVMGR_ERR_NONE;
-    char message_list[MESSAGE_LIST_SIZE] = {0,};
+    char message_list[TOTAL_MESSAGE_LIST_SIZE] = {0,};
+	char noexist_message[MESSAGE_LIST_SIZE] = {0,};
+	char deprecated_message[MESSAGE_LIST_SIZE] = {0,};
+	char mismatched_message[MESSAGE_LIST_SIZE] = {0,};
     char message[MESSAGE_SIZE] = {0,};
+	char guide_message[MESSAGE_SIZE] = {0.};
     char* changed_to = NULL;
     char* valid_api_version = NULL;
     GList* vaild_privilege_list;
-    char* wrt_active_version = "2.4";
-    int is_vaild_wrt_version;
-
+    char* wrt_active_version = "2.3.1";
+    int is_valid_wrt_version = 1;
+    char* pkg_type = NULL;
+    int i = 0;
     //Check invaild parameters
     if (api_version == NULL){
         LOGE("[PRVMGR_ERR_INVALID_PARAMETER] api_version is NULL");
         *error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] api_version is NULL");
-        TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+        TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
         return PRVMGR_ERR_INVALID_PARAMETER;
     }else{
-        int i;
         int is_vaild_version_type = 1;
         int api_version_size = strlen(api_version);
         if( api_version_size % 2 == 1 && (3 <= api_version_size && api_version_size <= 7) ){
@@ -138,7 +203,7 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
         if(is_vaild_version_type == 0){
             LOGE("[PRVMGR_ERR_INVALID_PARAMETER] %s is in invaild form. api_version form should be X.X, X.X.X or X.X.X.X (X=integer)", api_version);
             *error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] api_version form should be a X.X, X.X.X or X.X.X.X (X=integer)");
-            TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed");
+            TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed");
 
             return PRVMGR_ERR_INVALID_PARAMETER;
         }
@@ -148,9 +213,43 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
         LOGD("checking package type = %d", package_type);
         LOGE("[PRVMGR_ERR_INVALID_PARAMETER] package_type is not a PRVMGR_PACKAGE_TYPE_WRT or PRVMGR_PACKAGE_TYPE_CORE");
         *error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] package_type is a unknown type. package_type must be a PRVMGR_PACKAGE_TYPE_WRT or PRVMGR_PACKAGE_TYPE_CORE");
-        TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+        TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
         return PRVMGR_ERR_INVALID_PARAMETER;
+    }
+    if(package_type == PRVMGR_PACKAGE_TYPE_WRT)
+    {
+        char* tmp_api_version = strdup(api_version);
+        strncat(tmp_api_version,".0", strlen(".0"));
+
+        for( i=0; i<5; i++ )
+        {
+            if( ! (tmp_api_version[i] >= wrt_active_version[i]) )
+            {
+                if( i >= 2 )
+                {
+                    if( !(tmp_api_version[i-2] > wrt_active_version[i-2]) )
+                    {
+                        is_valid_wrt_version = 0;
+                    }
+                }
+                else
+                {
+                    is_valid_wrt_version = 0;
+                }
+            }
+        }
+        pkg_type = strdup("WRT");
+        TryReturn(pkg_type != NULL, free(tmp_api_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] pkg_type's strdup is failed.");
+        LOGD("package type = %s, api version %s, is valid wrt version %d", pkg_type, api_version, is_valid_wrt_version);
+		snprintf(guide_message, MESSAGE_SIZE, "Check config.xml| - Current required_version(=api version) = %s,|   ", api_version);
+        free(tmp_api_version);
+    }
+    else if(package_type == PRVMGR_PACKAGE_TYPE_CORE)
+    {
+        pkg_type = strdup("Native");
+        TryReturn(pkg_type != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] pkg_type's strdup is failed.");
+		snprintf(guide_message, MESSAGE_SIZE, "Check tizen-manifest.xml| - Current api-version = %s,|   ", api_version);
     }
 
     if( (visibility & PRVMGR_PACKAGE_VISIBILITY_PUBLIC) != PRVMGR_PACKAGE_VISIBILITY_PUBLIC
@@ -159,36 +258,33 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
 
         LOGE("[PRVMGR_ERR_INVALID_PARAMETER] visibility don't include any public, partner, platform");
         *error_message = strdup("[INVALID_PARAMETER] Signature Level is invalid. Signature Level must be a public, partner or platform");
-        TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
-
+        TryReturn(error_message != NULL, free(pkg_type), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+        free(pkg_type);
         return PRVMGR_ERR_INVALID_PARAMETER;
     }
 
-
-    is_vaild_wrt_version = 1;
-    int i=0;
-    if(package_type == PRVMGR_PACKAGE_TYPE_WRT){
-        for(i=0; i<3; i++){
-            if( ! (api_version[i] >= wrt_active_version[i]) ){
-                is_vaild_wrt_version = 0;
-            }
-        }
-    }
+	if((visibility & PRVMGR_PACKAGE_VISIBILITY_PUBLIC) == PRVMGR_PACKAGE_VISIBILITY_PUBLIC)
+		strncat(guide_message, "certificate signature level = public|", strlen("certificate signature level = public|"));
+	else if((visibility & PRVMGR_PACKAGE_VISIBILITY_PARTNER) == PRVMGR_PACKAGE_VISIBILITY_PARTNER)
+		strncat(guide_message, "certificate signature level = partner|", strlen("certificate signature level = partner|"));
+	else
+		strncat(guide_message, "certificate signature level = platform|", strlen("certificate signature level = platform|"));
 
     if(privilege_list == NULL){
         LOGE("[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL");
         *error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL");
-        TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+        TryReturn(error_message != NULL, free(pkg_type), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
+        free(pkg_type);
         return PRVMGR_ERR_INVALID_PARAMETER;
     }
-
 
     //Get vaild privilege list
     ret = privilege_db_manager_get_privilege_list(api_version, package_type, &vaild_privilege_list);
     if(ret != PRIVILEGE_DB_MANAGER_ERR_NONE){
         LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
         *error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] failed to get privilege list from DB");
+        free(pkg_type);
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
 
@@ -199,45 +295,52 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
         char* privilege_name = (char*)l->data;
 
         LOGD("Checking privilege = %s", privilege_name);
+		if (valid_api_version != NULL) {
+			free(valid_api_version);
+			valid_api_version = NULL;
+		}
+		if (changed_to != NULL) {
+			free(changed_to);
+			changed_to = NULL;
+		}
         ret = __privilege_manager_check_privilege_list(api_version, privilege_name, vaild_privilege_list, &privilege_level_id, &changed_to, &valid_api_version);
 
-        if( is_vaild_wrt_version == 0 )
+        if( is_valid_wrt_version == 0 )
         {
             ret = PRVMGR_ERR_NONE;
         }
 
         if(ret == PRVMGR_ERR_NO_EXIST_PRIVILEGE)
         {
-            LOGE("[PRVMGR_ERR_NO_EXIST_PRIVILEGE] There are no privilege %s in Tizen version %s", privilege_name, api_version);
-
             memset(message, 0, MESSAGE_SIZE);
             if(valid_api_version != NULL && strcmp(valid_api_version, "") != 0)
             {
-                sprintf(message, "[NO_EXIST_PRIVILEGE]%s is issued at Tizen version %s\n", privilege_name, valid_api_version);
+				LOGE("[NO_EXIST_PRIVILEGE]%s %s privilege is valid from Tizen version %s and your api version is %s. Use at least api version %s or remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version, valid_api_version);
+                snprintf(message, MESSAGE_SIZE, " - %s|   >> Use at least api version %s or remove the privilege.|", privilege_name, valid_api_version);
             }
             else
             {
-                sprintf(message, "[NO_EXIST_PRIVILEGE]%s is an invalid privilege\n", privilege_name);
+				LOGE("[NO_EXIST_PRIVILEGE]%s %s is an invalid privilege. Check spelling or remove the privilege.", pkg_type, privilege_name);
+                snprintf(message, MESSAGE_SIZE, " - %s|   >> Check spelling or remove the privilege.|", privilege_name);
             }
-
-            strcat(message_list, message);
+            strncat(noexist_message, message, strlen(message));
 
             ret_val = PRVMGR_ERR_INVALID_PRIVILEGE;
 
         }else if(ret == PRVMGR_ERR_DEPRECATED_PRIVILEGE){
 
-            LOGE("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]%s is deprecated before Tizen version %s", privilege_name, api_version);
-
             memset(message, 0, MESSAGE_SIZE);
             if(changed_to != NULL && strcmp(changed_to, "") != 0)
             {
-                sprintf(message, "[DEPRECATED_PRIVILEGE]Use %s instead of %s\n", changed_to, privilege_name);
+				LOGE("[DEPRECATED_PRIVILEGE]%s %s is a deprecated after Tizen version %s and your api version is %s. Use %s instead or change api version to %s.", pkg_type, privilege_name, valid_api_version, api_version, changed_to, valid_api_version);
+                snprintf(message, MESSAGE_SIZE, " - %s|   >> Use %s instead of it or change api version to %s.|", privilege_name, changed_to, valid_api_version);
             }
             else
             {
-                sprintf(message, "[DEPRECATED_PRIVIELGE]%s is deprecated after Tizen version %s\n", privilege_name, valid_api_version);
+				LOGE("[DEPRECATED_PRIVILEGE]%s %s is deprecated after Tizen version %s and your api version is %s. Remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version);
+                snprintf(message, MESSAGE_SIZE, " - %s|   >> Remove the privilege.|", privilege_name);
             }
-            strcat(message_list, message);
+            strncat(deprecated_message, message, strlen(message));
 
             ret_val = PRVMGR_ERR_INVALID_PRIVILEGE;
 
@@ -252,9 +355,9 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
                     LOGE("[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL] Visibility = public, Privilege Level = %s", __get_privilege_level_string(privilege_level_id));
 
                     memset(message, 0, MESSAGE_SIZE);
-                    sprintf(message, "[MISMATCHED_PRIVILEGE_LEVEL]Signature Level is too low to use %s - Signature Level = public, Privilege Level = %s\n", privilege_name, __get_privilege_level_string(privilege_level_id));
+                    snprintf(message, MESSAGE_SIZE, " - %s|   >> Use at least %s signatured certificate.|", privilege_name, __get_privilege_level_string(privilege_level_id));
 
-                    strcat(message_list, message);
+                    strncat(mismatched_message, message, strlen(message));
 
                     ret_val = PRVMGR_ERR_INVALID_PRIVILEGE;
                 }
@@ -266,9 +369,9 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
                     LOGE("[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL] Visibility = partner, Privilege Level = %s", __get_privilege_level_string(privilege_level_id));
 
                     memset(message, 0, MESSAGE_SIZE);
-                    sprintf(message, "[MISMATCHED_PRIVILEGE_LEVEL]Signature Level is too low to use %s - Signature Level = partner, Privilege Level = %s\n", privilege_name, __get_privilege_level_string(privilege_level_id));
+                    snprintf(message, MESSAGE_SIZE, " - %s|   >> Use at least %s signatured certificate.|", privilege_name, __get_privilege_level_string(privilege_level_id));
 
-                    strcat(message_list, message);
+                    strncat(mismatched_message, message, strlen(message));
 
                     ret_val = PRVMGR_ERR_INVALID_PRIVILEGE;
                 }
@@ -277,8 +380,8 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
         else if(ret == PRVMGR_ERR_INVALID_PARAMETER)
         {
             LOGE("[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
-            *error_message = strdup("[INVALID_PARAMETER] Invaild parameter was passed.");
-            TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+            *error_message = strdup("[INVALID_PARAMETER] Invaild parameter was passed.|");
+            TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
             ret_val = PRVMGR_ERR_INVALID_PARAMETER;
             goto FINISH;
@@ -286,22 +389,51 @@ int privilege_manager_verify_privilege(const char* api_version, privilege_manage
         else if(ret == PRVMGR_ERR_INTERNAL_ERROR)
         {
             LOGE("[PRVMGR_ERR_INVALID_PARAMETER] Unknown Error occured.");
-            *error_message = strdup("[INTERNAL_ERROR] Unknown Error occured.");
-            TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+            *error_message = strdup("[INTERNAL_ERROR] Unknown Error occured.|");
+            TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
             ret_val = PRVMGR_ERR_INTERNAL_ERROR;
             goto FINISH;
         }
     }
+	char error_code[MESSAGE_SIZE] = {0,};
+	char* newline = "|";
+
+	if (strlen(noexist_message) > 0)
+		strncat(error_code, "[NO_EXIST_PRIVILEGE] ", strlen("[NO_EXIST_PRIVILEGE]"));
+
+    if (strlen(deprecated_message) > 0)
+		strncat(error_code, "[PRVMGR_ERR_DEPRECATED_PRIVILEGE] ", strlen("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]"));
+
+    if (strlen(mismatched_message) > 0)
+		strncat(error_code, "[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]", strlen("[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]"));
 
     if(ret_val != PRVMGR_ERR_NONE){
+		strncat(message_list, guide_message, strlen(guide_message));
+		strncat(message_list, newline, strlen(newline));
+		if (strlen(noexist_message) > 0) {
+			strncat(message_list, "[NO_EXIST_PRIVILEGE]|", strlen("[NO_EXIST_PRIVILEGE]|"));
+			strncat(message_list, noexist_message, strlen(noexist_message));
+		}
+		if (strlen(deprecated_message) > 0) {
+			strncat(message_list, "[PRVMGR_ERR_DEPRECATED_PRIVILEGE]|", strlen("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]|"));
+			strncat(message_list, deprecated_message, strlen(deprecated_message));
+		}
+		if (strlen(mismatched_message) > 0) {
+			strncat(message_list, "[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]|", strlen("[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]|"));
+			strncat(message_list, mismatched_message, strlen(mismatched_message));
+		}
+		strncat(message_list, newline, strlen(newline));
+
         *error_message = strdup(message_list);
-        TryReturn(error_message != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
+        TryReturn(error_message != NULL,, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
     }
 
 FINISH:
+    free(changed_to);
+    free(valid_api_version);
+    free(pkg_type);
     g_list_free(vaild_privilege_list);
     return ret_val;
 }
-
 

@@ -1,6 +1,6 @@
 Name:    privilege-checker
 Summary: Privilege Management
-Version: 0.0.3
+Version: 0.0.4
 Release: 3
 Group:   System/Libraries
 License: Apache-2.0
@@ -11,20 +11,18 @@ BuildRequires: pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(glib-2.0)
 
 %description
-Privilege Management
+Pakcage for Privilege Management
 
 %package -n privilege-checker-devel
-summary: privilege-checker server
+summary: privilege-checker-devel
 Group: Development/Libraries
 Requires: privilege-checker = %{version}-%{release}
 
 %description -n privilege-checker-devel
-privilege-checker devel
+Package for Privilege Management (DEV)
 
 %package -n capi-security-privilege-manager
 Summary:    Privilege Manager API
-Group:      TO_BE/FILLED_IN
-License:    TO BE FILLED IN
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(dlog)
 BuildRequires:  gettext-tools
@@ -42,12 +40,12 @@ Requires: capi-security-privilege-manager
 %description -n capi-security-privilege-manager-devel
 The Privilege Manager API provides functions to verify privilege information of packages to be installed.(DEV)
 
-#%package  -n tc-privilege-checker
-#Summary:  tc-privilege-checker
-#Group:    TO_BE/FILLED_IN
+%package  -n tc-privilege-checker
+Summary:  tc-privilege-checker
+Group:    TO_BE/FILLED_IN
 
-#%description -n tc-privilege-checker
-#tc-privilege-checker
+%description -n tc-privilege-checker
+Testsuit for Privilege Manager APIs
 
 %prep
 %setup -q
@@ -98,10 +96,15 @@ mkdir -p %{buildroot}%{_datadir}/license
 cp LICENSE.APLv2 %{buildroot}%{_datadir}/license/privilege-checker
 mkdir -p %{buildroot}/opt/dbspace
 mkdir -p %{buildroot}%{_datadir}/privilege-manager
+%if "%{?profile}" == "tv"
+cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+%else
 cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
 cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+%endif
 %make_install
 
 %files -n privilege-checker
@@ -111,7 +114,9 @@ sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "selec
 %files -n capi-security-privilege-manager
 %{_libdir}/libcapi-security-privilege-manager.so*
 %{_datadir}/locale/*
+%if "%{?profile}" != "tv"
 %{_datadir}/privilege-manager/.core_privilege_info.db
+%endif
 %{_datadir}/privilege-manager/.wrt_privilege_info.db
 %manifest packaging/capi-security-privilege-manager.manifest
 
@@ -119,11 +124,10 @@ sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "selec
 %{_includedir}/privilegemgr/*.h
 %{_libdir}/pkgconfig/capi-security-privilege-manager.pc
 
-#%files -n tc-privilege-checker
-#%{_bindir}/tc-privilege-db-manager
-#%{_bindir}/tc-privilege-manager
-#%{_bindir}/tc-privilege-hash
-#%{_bindir}/tc-privilege-info
+%files -n tc-privilege-checker
+%{_bindir}/tc-privilege-db-manager
+%{_bindir}/tc-privilege-manager
+%{_bindir}/tc-privilege-info
 
 %clean
 rm -rf %{buildroot}

@@ -49,6 +49,9 @@ msgstr "Kontaktuak kudeatzea"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Edukia kudeatzea"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Idazkera metodoak kudeatzea"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC ezarpen orokorrak kudeatzea"
 
@@ -484,6 +487,9 @@ msgstr "Aplikazio honek zenbakiak dei ditzake, bestelako baieztapenik gabe ukitz
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Aplikazio honek audio grabaketak kudeatu ditzake."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Aplikazio honek instalatutako sarrera metodoak kudeatu ditzake."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Aplikazio honek bestelako aplikazioak ireki ditzake aplikazio IDa edo aplikazio kontrola erabiliz."
 
@@ -630,4 +636,172 @@ msgstr "Testua eta multimedia mezuak bidaltzea eta haien egoerak eguneratzea"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Aplikazioak HTTP deskargak kudea ditzake. Baliteke kostu osagarriak eragitea zure ordainketa planaren arabera."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Aplikazio erabileraren informazioa irakurtzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Aplikazio honek aplikazio erabileraren estatistikak irakur ditzake, hala nola maiz edo berriki erabilitako aplikazioak."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Multimedia erreprodukzioen estatistikak irakurtzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Aplikazio honek gailuan erreproduzitu diren musika eta bideoen estatistikak irakur ditzake, hala nola musika edo bideoak gehien erreproduzitutako orduak."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Multimedia edukia kontrolatzeko gertaerak erregistratzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Aplikazioak multimedia kontrolen jarduerak erregistra ditzake, hala nola musika eta filmen erreprodukzio denborak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Aplikazioak erlazionatutako testu eremu batean karaktereak eta ikurrak sartzeko aukera eskaintzen die erabiltzaileei."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Idazketa metodoak eskaintzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Aplikazioak argazkiak atera ditzake eta kameraren flasha aktibatu eta desaktibatu Kamera erabili bitartean."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Atzealdeko aplikazioak ixten"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Ukipen eta tekla gertaerak sortzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Teklak sakatuta edukita sortutako eta ukipen bidezko interakzioak simula ditzake aplikazio honek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Aplikazio honek atzealdean exekutatzen ari diren aplikazioak ixteko eska dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Aplikazio honek telefono deiak egin ditzake zenbakiak besterik gabe ukitzen direnean. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Aplikazio honek zure posta kontuak kudea ditzake, karpetak eta mezu elektronikoak, POP3 eta IMAP deskargak eta SMTP kargatzeak barne. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikazio honek jakinarazpenak jaso ditzake Internet bidez. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Aplikazio honek gakoak, ziurtagiriak eta datuak gorde ditzake pasahitzez babestutako biltegian, baita handik berreskuratu eta ezabatu ere. Sare mugikor batera konektatuta zauden bitartean ziurtagirien egoerak egiaztatzen badituzu, baliteke kostu gehigarriak sortzea duzun tarifaren arabera."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Multimedia erreproduzigailua kontrolatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Aplikazio honek une honetan erreproduzitzen ari den eta halakoak bidaltzea onartzen zaien aplikazioetako multimediari buruzko informazioa jaso dezake. Gainera, aplikazio horiek urrutitik ere kontrola ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Urrutiko aginteak onartzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Aplikazio honek une honetan erreproduzitzen ari den eta halakoak jasotzea onartzen zaien aplikazioetako multimediari buruzko informazioa bidal dezake. Gainera, aplikazio horiek urrutitik ere kontrola ditzake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Aplikazio honek testu eta multimedia mezuak idatzi, bidali, ezabatu eta mugi ditzake, multimedia mezuak deskargatu eta mezuen ezarpenak eta egoerak aldatu, adibidez irakurritako edo irakurri gabeko gisa markatu. Baliteke ekintza horrek kostu gehigarriak sortzea duzun tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Aplikazio honek Wi-Fia piztu eta itzali dezake, eta Wi-Fi eta sare mugikorretara konektatu edo deskonekta daiteke. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Aplikazioaren paketeak instalatzen edo desinstalatzen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Aplikazio honek aplikazio paketeak instalatu eta desinstala ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Beste aplikazio batzuen cacheak garbitzen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Aplikazio honek beste aplikazio batzuen cacheak garbi ditzake."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Gailua berrabiarazten"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Aplikazio honek gailua berrabiaraz dezake."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Sistema baliabideak kontrolatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Aplikazio honek sistemaren informazioa irakur dezake, PUZ eta RAM informazioa barne."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikazio honek kable bidezko konexio partekatzeko zerbitzuak gai edo desgai ditzake. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Widgetak erakustea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Aplikazio honek widgetak erakuts ditzake pantaila nagusian, baita lotutako aplikazioetako informazioa ere."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Mapa zerbitzuak erabiltzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Aplikazio honek mapa zerbitzuak erabil ditzake, adibidez, Geokodetzailea, Tokiak eta Ibilbidea (Norabidea)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Tresna barra erakustea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Aplikazioa irekita dagoenean, tresna barra txiki bat erakuts dezake jakinarazpen panelean, edo pantaila blokeatu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Aplikazio honek gailuko datuak sinkroniza ditzake, hala nola kontaktuak eta egutegiko gertaerak, OMA DS 1.2 protokoloa erabilita. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Aplikazio honek zerbitzaritik eskuratu edo zuzenean jaso ditzake mezu elektronikoak, testu eta multimedia mezuak. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Aplikazio honek testu eta multimedia mezuak idatz ditzake, bai eta mezu elektronikoak ere. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Aplikazio honek gailua muga dezake, domeinu jakin batzuetan sare mugikorren bidez bakarrik sartzeko. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Jakinarazpenak"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Ez molestatu"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Bolumena kontrolatzea eta bip audioa erreproduzitzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Bolumena aldatu, Modu isila gaitu eta desgaitu, bolumen aldaketak hauteman eta soinuak erreproduzitu ditzake aplikazio honek."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Telebista kanala kontrolatzea, eta telebista kanala eta programaren informazioa irakurtzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Telebista kanala aldatu, telebista kanalei eta telesaioei buruzko informazioa irakurri, eta telebista kanala aldatzearen jakinarazpenak jaso ditzake aplikazioak."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Gailuaren 3D bateragarritasuna egiaztatzea eta 3D moduaren efektuei buruzko informazioa eskuratzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Gailuaren 3D bateragarritasuna egiaztatu eta 3D moduari buruzko informazioa eskura dezake aplikazioak."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Sarrerako gailuen gertaera nagusiak kapturatzea, adibidez, telebistaren urruneko kontrolarenak"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Sarrerako gailuen gertaera nagusiak kaptura ditzake aplikazioak, adibidez, telebistaren urruneko kontrolarenak eta askatzeko teklarenak."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Bideoaren iturburua aplikazio honetan kapsulatuta bistaratzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Bideo iturburuen bistaratzea kapsulatu, neurria zehaztu eta bistaratze kapsulatua erakutsi edo ezkuta dezake aplikazioak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Tekla bereziei dagozkien ekintzak irakur ditzake aplikazio honek, hala nola gailu honetako edo beste gailu batzuetako (adib., telebistako urrutiko agintea) bolumen teklak, nahiz eta atzealdean exekutatzen aritu."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Gertaera berezi nagusien argazkiak"
 

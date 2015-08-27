@@ -49,6 +49,9 @@ msgstr "संपर्क प्रबंधित कर रहा है"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "सामग्री प्रबंधित कर रहा है"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "इनपुट पद्धतियाँ प्रबंधित कर रहा है"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC सामान्य सेटिंग्स प्रबंधित कर रहा है"
 
@@ -484,6 +487,9 @@ msgstr "यह एप्लीकेशन अतिरिक्त पुष्
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "यह एप्लीकेशन ऑडियो रिकॉर्डिंग्‍स प्रबंधित कर सकता है।"
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "यह एप्लीकेशन स्थापित इनपुट पद्धतियाँ प्रबंधित कर सकता है।"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "यह एप्लीकेशन, एप्लीकेशन ID या एप्लीकेशन नियंत्रण उपयोग करके अन्य एप्लीकेशंस खोल सकता है।"
 
@@ -630,4 +636,172 @@ msgstr "टेक्स्ट और मल्टीमीडिया सन्
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "यह एप्लीकेशन HTTP डाउनलोड्स प्रबंधित कर सकती है। आपकी भुगतान योजना के आधार पर इसके परिणाम स्वरूप अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "एप्लीकेशन उपयोग सांख्यिकी पढ़ना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "यह एप्लीकेशन, एप्लीकेशन उपयोग की सांख्यिकी पढ़ सकती है, जैसे कि कौन-सी एप्लीकेशंस बार-बार या हाल ही में उपयोग की गई हैं।"
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "मीडिया प्लेबैक सांख्यिकी पढ़ना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "यह एप्लीकेशन डिवाइस पर चलाए गए संगीत और वीडियोज संबंधित सांख्यिकी पढ़ सकती है, जैसे कि संगीत और वीडियोज चलाने का व्यस्त समय।"
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "मीडिया नियंत्रण प्रसंगों को लॉग करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "यह एप्लीकेशन संगीत और वीडियोज के लिए मीडिया नियंत्रण प्रसंग लॉग कर सकती है, जैसे कि प्रारंभ करने और रोकने के समय।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "यह एप्लीकेशन संबद्ध टेक्स्ट फील्ड में वर्ण और प्रतीक प्रविष्ट करने के लिए उपयोगकर्ताओं को एक तरीका प्रदान कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "इनपुट पद्धतियाँ प्रदान करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "कैमरा उपयोग करने के दौरान यह एप्लीकेशन तस्वीरें ले सकती है और कैमरा फ्लैश चालू और बंद कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "बैकग्राउंड एप्लीकेशंस बंद करना"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "टच और कुंजी प्रसंग जनरेट करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "यह एप्लीकेशन कुंजियों को दबाए जाने और स्क्रीन के साथ सहभागिताएँ टच करने के अनुरूप बना सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "यह एप्लीकेशन बैकग्राउंड में चल रही एप्लीकेशंस को बंद करने का अनुरोध कर सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "यह एप्लीकेशन अतिरिक्त पुष्टिकरण के बिना नंबर्स पर टैप किए जाने पर उन्हें फोन कॉल्स कर सकता है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "यह एप्लीकेशन आपके फोल्डर्स और ईमेल्स, POP3 और IMAP डाउनलोड्स तथा SMTP अपलोड्स सहित आपके ईमेल खातों को प्रबंधित कर सकता है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "यह एप्लीकेशन इंटरनेट के माध्यम से अधिसूचनाएँ प्राप्त कर सकता है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "यह एप्लीकेशन पासवर्ड-सुरक्षित स्टोरेज में कुंजियों, प्रमाणपत्रों और डाटा को सुरक्षित कर सकती है और उन्हें वहाँ से पुनर्प्राप्त कर सकती है और हटा सकती है। मोबाइल नेटवर्क से कनेक्ट रहने के दौरान प्रमाणपत्रों की स्थितियाँ जांचने पर आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "मीडिया प्लेयर नियंत्रित करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "यह एप्लीकेशन वर्तमान में चल रहे मीडिया के बारे में उन एप्लीकेशंस से जानकारी प्राप्त कर सकती है जिन्होनें इसे भेजने की अनुमति दी है, और उन एप्लीकेशंस को दूरस्थ रूप से नियंत्रित कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "रिमोट नियंत्रण स्वीकार करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "यह एप्लीकेशन वर्तमान में चल रहे मीडिया के बारे में उन एप्लीकेशंस को जानकारी भेज सकती है जिन्हें इसे प्राप्त करने की अनुमति है, और उन एप्लीकेशंस द्वारा दूरस्थ रूप से नियंत्रित की जा सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "यह एप्लीकेशन टेक्स्ट और मल्टीमीडिया सन्देश लिख, भेज, हटा और ले जा सकती है, मल्टीमीडिया सन्देश डाउनलोड कर सकती है एवं सन्देशों की सेटिंग्स और स्थितियाँ जैसे कि पठित या अपठित को बदल सकती है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "यह एप्लीकेशन Wi-Fi चालू और बंद कर सकता है तथा Wi-Fi और मोबाइल नेटवर्क्स से कनेक्ट और डिस्कनेक्ट हो सकता है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "एप्लीकेशन पैकेजेस की स्थापना करना/स्थापना रद्द करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "यह एप्लीकेशन, एप्लीकेशन पैकेजेस की स्थापना कर सकती है और स्थापना रद्द कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "अन्य एप्लीकेशंस के कैश साफ करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "यह एप्लीकेशन अन्य एप्लीकेशंस के कैश साफ कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "डिवाइस पुनः चालू करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "यह एप्लीकेशन डिवाइस पुनः चालू कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "सिस्टम संसाधनों को मॉनिटर करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "यह एप्लीकेशन CPU और RAM की जानकारी सहित सिस्टम जानकारी पढ़ सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "यह एप्लीकेशन टेथरिंग सेवाओं को सक्षम और अक्षम कर सकता है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "विजेट्स दिखाना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "यह एप्लीकेशन होम स्क्रीन पर विजेट्स और उनसे संबंधित एप्लीकेशंस की जानकारी दिखा सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "मानचित्र सेवाओं का उपयोग करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "यह एप्लीकेशन जिओकोडर, स्थान और रूट (दिशा) जैसी मानचित्र सेवाओं का उपयोग कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "टूलबार दिखाना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "यह एप्लीकेशन खुले रहने पर अधिसूचना पैनल या लॉक स्क्रीन पर एक छोटा टूलबार दिखा सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "यह एप्लीकेशन, OMA DS 1.2 प्रोटोकॉल का उपयोग करके, संपर्क और कैलेंडर प्रसंग जैसे डिवाइस डाटा सिंक कर सकती है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "यह एप्लीकेशन सर्वर से ईमेल्स, टेक्स्ट सन्देश और मल्टीमीडिया सन्देश पुनःप्राप्त कर सकती है या उन्हें सीधे प्राप्त कर सकती है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "यह एप्लीकेशन टेक्स्ट सन्देश, मल्टीमीडिया सन्देश और ईमेल्स लिख सकती है। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "यह एप्लीकेशन डिवाइस को प्रतिबंधित कर सकती है, जिससे कुछ विशिष्ट डोमेन्स केवल मोबाइल नेटवर्क्स के माध्यम से एक्सेस किए जा सकते हैं। इसके परिणाम स्वरूप आपकी भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "अधिसूचनाएँ"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "परेशान न करें"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "वॉल्यूम स्तर नियंत्रित करना और बीप ऑडियो चलाना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "यह एप्लीकेशन वॉल्यूम बदल सकती है, शांत मोड को सक्षम और अक्षम कर सकती है, वॉल्यूम परिवर्तनों का पता लगा सकती है और बीप चला सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "टीवी चैनल नियंत्रित करना और टीवी चैनल तथा प्रोग्राम जानकारी पढ़ना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "यह एप्लीकेशन टीवी चैनल को बदल सकती है, टीवी चैनल्स और प्रोग्राम्स के बारे में जानकारी पढ़ सकती है और टीवी चैनल बदल दिए जाने पर अधिसूचनाएँ प्राप्त कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "यह जांचना कि क्या डिवाइस 3D का समर्थन करता है और 3D मोड के प्रभावों के बारे में जानकारी प्राप्त करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "यह एप्लीकेशन जांच कर सकती है कि कोई डिवाइस 3D का समर्थन करता है या नहीं और 3D मोड के बारे में जानकारी पढ़ सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "इनपुट डिवाइसेस जैसे कि टीवी रिमोट कंट्रोल के प्रमुख प्रसंग कैप्चर करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "यह एप्लीकेशन किसी इनपुट डिवाइस जैसे कि टीवी रिमोट कंट्रोल के प्रमुख प्रसंगों को कैप्चर कर सकती है और कुंजी ग्रैबिंग रिलीज कर सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "इस एप्लीकेशन में एम्बेडेड वीडियो स्रोत प्रदर्शित करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "यह एप्लीकेशन वीडियो स्रोत के प्रदर्शन को एम्बेड कर सकती है, आकार निर्दिष्ट कर सकती है और एम्बेडेड प्रदर्शन को दिखा या छिपा सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "यह एप्लीकेशन बैकग्राउंड में चलने पर भी इस या अन्य डिवाइसेस (जैसे कि टीवी रिमोट कंट्रोल्स) पर वॉल्यूम कुंजियों जैसी विशेष कुंजियों को शामिल करने वाली कार्यवाही को पढ़ सकती है।"
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "विशेष कुंजी प्रसंगों को कैप्चर करना"
 

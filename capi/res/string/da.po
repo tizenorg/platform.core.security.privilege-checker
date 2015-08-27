@@ -49,6 +49,9 @@ msgstr "Administrerer kontakter"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Administrerer indhold"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Administrerer inputmetoder"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Administrerer generelle NFC-indstillinger"
 
@@ -185,7 +188,7 @@ msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
 msgstr "Andre rettigheder"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Administrerer indstillinger for internetprogrammer"
+msgstr "Administrerer indstillinger for internetapplikationer"
 
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Meddelelser"
@@ -484,6 +487,9 @@ msgstr "Denne applikation kan foretage telefonopkald til numre, når der trykkes
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Denne applikation kan administrere lydoptagelser."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Denne applikation kan administrere installerede inputmetoder."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Denne applikation kan åbne andre applikationer med deres id eller kontrolelement."
 
@@ -630,4 +636,172 @@ msgstr "Sende sms'er, mms'er og opdatere deres status"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Denne applikation kan administrere HTTP-downloads. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Læse statistikker om applikationsbrug"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Denne applikation kan læse statistikker om applikationsbrug. Det kan f.eks. dreje sig om, hvilke applikationer der bliver brugt ofte eller er blevet brugt for nyligt."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Læse statistikker om medieafspilning"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Denne applikation kan læse statistikker om musik og videoer, der bliver afspillet på enheden. Det kan f.eks. dreje sig om, hvornår der bliver afspillet mest."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Logføre mediekontrolevents"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Denne applikation kan registrere mediekontrolevents, såsom start- og stoptidspunkter, for musik og videoer."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Denne applikation kan tilbyde brugere en metode til at indtaste tegn og symboler i et tilknyttet tekstfelt."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Levere inputmetoder"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Denne applikation kan tage billeder og slå kameralyset til og fra, når Kamera er i brug."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Lukke baggrundsapplikationer"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Oprette events for berøring og taster"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Denne applikation kan simulere taster, der bliver trykket på, og berøringsinteraktioner med skærmen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Denne applikation kan anmode om lukning af applikationer, der kører i baggrunden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Denne applikation kan foretage telefonopkald til numre, når der trykkes på dem, uden yderligere bekræftelse. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Denne applikation kan administrere dine e-mailkonti, herunder mapper og e-mails, POP3- og IMAP-downloads og SMTP-uploads. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Denne applikation kan modtage meddelelser via internettet. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Denne applikation kan gemme nøgler, certifikater og data i og hente og slette dem fra, adgangsbeskyttede lagre. Hvis du kontrollerer status for certifikater, mens du har forbindelse til et mobilt netværk, kan det medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Kontrollere medieafspiller"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Denne applikation kan modtage oplysninger om aktuelt afspillende medier fra applikationer, der har tilladelse til at sende oplysningerne, og kan fjernstyre de pågældende applikationer."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Acceptere fjernbetjening"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Denne applikation kan sende oplysninger om aktuelt afspillende medier til applikationer, der har tilladelse til at modtage oplysningerne, og kan blive fjernstyret af de pågældende applikationer."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Denne applikation kan skrive, sende, slette og flytte sms- og mms-beskeder, downloade mms-beskeder og ændre status for beskeder til f.eks. læst eller ulæst. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Denne applikation kan slå Wi-Fi til og fra og oprette eller afbryde en forbindelse til Wi-Fi- og mobile netværk. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Installere/afinstallere applikationspakker"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Denne applikation kan installere og afinstallere applikationspakker."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Rydde andre applikationers cacher"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Denne applikation kan rydde andre applikationers cacher."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Genstarter enhed"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Denne applikation kan genstarte enheden."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Overvåge systemressourcer"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Denne applikation kan læse systemoplysninger inklusive oplysninger fra CPU og RAM."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Denne applikation kan aktivere og deaktivere delingstjenester. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Vise widgets"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Denne applikation kan vise widgets og oplysninger fra deres tilknyttede applikationer på startskærmen."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Brug af korttjenester"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Denne applikation kan bruge korttjenester såsom Geocoder, Steder og Rute (rutevejledning)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Viser værktøjslinje"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Denne applikation kan vise en lille værktøjslinje på informationspanelet eller låseskærmen, når den er åben."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Denne applikation kan synkronisere enhedsdata, for eksempel kontakter og kalenderbegivenheder, ved hjælp af OMA DS 1.2-protokollen. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Denne applikation kan hente e-mails, sms'er og mms'er fra serveren eller modtage dem direkte. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Denne applikation kan skrive sms'er, mms'er og e-mails. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Denne applikation kan begrænse enheden, så der kun er adgang til bestemte domæner via mobile netværk. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Meddelelser"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Forstyr ikke"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Kontrollerer lydstyrkeniveauet og afspiller biplyd"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Applikationen kan ændre lydstyrken, aktivere og deaktivere Lydløs tilstand, registrere ændringer af lydstyrken og afspille bip."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Kontrollerer tv-kanalen og læser oplysninger om tv-kanalen og programmer"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Denne applikation kan ændre tv-kanalen, læse oplysninger om tv-kanaler og programmer og modtage meddelelser, når en tv-kanal er blevet ændret."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Kontrollerer, om en enhed understøtter 3D og henter oplysninger om effekterne i 3D-tilstand"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Denne applikation kan kontrollere, om en enhed understøtter 3D og læse oplysninger om 3D-tilstand."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Henter nøgleevents for enheder som f.eks. en tv-fjernbetjening"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Denne applikation kan hente nøgleevents fra en enhed, som f.eks. en tv-fjernbetjening, og frigive nøgleindhentning."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Viser videokilden indlejret i denne applikation"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Denne applikation kan indlejre visningen af en videokilde, angive størrelsen og vise eller skjule den indlejrede visning."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Denne applikation kan læse handlinger, der involverer særlige taster som f.eks. lydstyrketaster på denne enhed eller andre enheder, f.eks. tv-fjernbetjeninger, selvom den kører i baggrunden."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Henter særlige nøgleevents"
 

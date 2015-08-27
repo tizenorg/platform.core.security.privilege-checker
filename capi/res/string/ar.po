@@ -49,6 +49,9 @@ msgstr "إدارة جهات الاتصال"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "إدارة المحتوى"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "إدارة طرق الإدخال"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "إدارة الإعدادات العامة لعلامة NFC"
 
@@ -149,7 +152,7 @@ msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
 msgstr "التقويم"
 
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
-msgstr "الأسماء"
+msgstr "جهات الاتصال"
 
 msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "الإنترنت"
@@ -158,7 +161,7 @@ msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
 msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
-msgstr "مباشر Wi-Fi"
+msgstr "Wi-Fi مباشر"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "استرداد معلومات التطبيق"
@@ -311,7 +314,7 @@ msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
 msgstr "إدارة محفوظات الإنترنت"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
-msgstr "إدارة معلومات Wi-Fi Direct"
+msgstr "إدارة معلومات Wi-Fi مباشر"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
 msgstr "يمكن لهذا التطبيق قراءة معلومات حول التنبيهات المحفوظة."
@@ -326,7 +329,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USIN
 msgstr "يمكن لهذا التطبيق تنفيذ إجراءات غير مقيدة باستخدام البلوتوث، مثل المسح للعثور على أجهزة أخرى والاتصال بها."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
-msgstr "يمكن لهذا التطبيق استرداد إشارات الإنترنت المرجعية وإنشائها وتحريرها وحذفها."
+msgstr "يمكن لهذا التطبيق استرداد إشارات الإنترنت المرجعية وإنشائها وتعديلها وحذفها."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
 msgstr "يمكن لهذا التطبيق قراءة الأحداث والمهام."
@@ -395,7 +398,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH
 msgstr "يمكن لهذا التطبيق استرداد معلومات الشبكة مثل حالة كل شبكة ونوعها ومعلومات مفصلة حول ملف تعريف الشبكة."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
-msgstr "يمكن لهذا التطبيق إضافة ملفات تعريف الشبكة، وإزالتها، وتحريرها."
+msgstr "يمكن لهذا التطبيق إضافة ملفات تعريف الشبكة، وإزالتها، وتعديلها."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
 msgstr "يمكن لهذا التطبيق تشغيل شبكة Wi-Fi وإيقاف تشغيلها، والاتصال بشبكتي Wi-Fi والهاتف المحمول وقطع الاتصال عنهما."
@@ -440,10 +443,10 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
 msgstr "يمكن لهذا التطبيق إدارة محفوظات الإنترنت."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
-msgstr "يمكن لهذا التطبيق تفعيل Wi-Fi Direct وإلغاء تفعيله وإدارة اتصالاته وتغيير ضبطه."
+msgstr "يمكن لهذا التطبيق تفعيل Wi-Fi مباشر وإلغاء تفعيله وإدارة اتصالاته وتغيير ضبطه."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
-msgstr "يمكن لهذا التطبيق إنشاء إشارات مرجعية وتحريرها وحذفها."
+msgstr "يمكن لهذا التطبيق إنشاء إشارات مرجعية وتعديلها وحذفها."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
 msgstr "يمكن لهذا التطبيق قراءة المعلومات الصحية التي تم جمعها بواسطة مستشعرات الجهاز، مثل مقياس الخطوات وجهاز مراقبة سرعة ضربات القلب."
@@ -473,7 +476,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
 msgstr "يمكن لهذا التطبيق إغلاق تطبيقات أخرى."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
-msgstr "يمكن لهذا التطبيق إنشاء الحسابات، وتحريرها، وحذفها."
+msgstr "يمكن لهذا التطبيق إنشاء الحسابات، وتعديلها، وحذفها."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
 msgstr "يمكن لهذا التطبيق تفعيل خدمات التقييد وإلغاء تفعيلها."
@@ -483,6 +486,9 @@ msgstr "يمكن لهذا التطبيق إجراء مكالمات هاتفية 
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "يمكن لهذا التطبيق إدارة التسجيلات الصوتية."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "يمكن لهذا التطبيق إدارة طرق الإدخال المثبتة."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "يمكن لهذا التطبيق فتح تطبيقات أخرى باستخدام معرف التطبيق أو بالتحكم في التطبيق."
@@ -599,7 +605,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
 msgstr "يمكن لهذا التطبيق التقاط بيانات الصوت والفيديو."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
-msgstr "يمكن لهذا التطبيق عرض الإشعارات وتحريرها وحذفها."
+msgstr "يمكن لهذا التطبيق عرض الإشعارات وتعديلها وحذفها."
 
 msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
 msgstr "فتح التطبيقات واستئنافها"
@@ -630,4 +636,172 @@ msgstr "إرسال النصوص ورسائل الوسائط المتعددة و�
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "يمكن لهذا التطبيق إدارة تنزيلات HTTP. قد يترتب على ذلك فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "قراءة إحصائيات استخدام التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "يمكن لهذا التطبيق قراءة الإحصائيات ذات الصلة باستخدام التطبيق، مثل التطبيقات المستخدمة بشكل متكرر أو مؤخراً."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "قراءة إحصائيات تشغيل الوسائط"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "يمكن لهذا التطبيق قراءة الإحصائيات ذات الصلة بالموسيقى ومقاطع الفيديو التي تم تشغيلها على الجهاز، مثل أوقات الذروة لتشغيل الموسيقى ومقاطع الفيديو."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "تسجيل أحداث التحكم في الوسائط"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "يمكن لهذا التطبيق تسجيل أحداث التحكم في الوسائط مثل أوقات تشغيل الموسيقى ومقاطع الفيديو وإيقاف تشغيلها."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "يمكن أن يوفر هذا التطبيق للمستخدمين طريقة لإدخال الأحرف والرموز في الحقل النصي ذي الصلة."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "توفير طرق الإدخال"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "يمكن أن يقوم هذا التطبيق  بالتقاط الصور وتشغيل فلاش الكاميرا وإيقاف تشغيله أثناء استخدامها."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "إغلاق تطبيقات الخلفية"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "إنشاء أحداث اللمس والمفاتيح"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "يمكن لهذا التطبيق محاكاة المفاتيح التي يتم ضغطها وتفاعلات اللمس مع الشاشة."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "يمكن لهذا التطبيق إرسال طلب إغلاق التطبيقات التي يتم تشغيلها في الخلفية."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "يمكن لهذا التطبيق إجراء مكالمات هاتفية إلى أرقام عند النقر فوقها من دون طلب موافقة المستخدم. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "يمكن لهذا التطبيق إدارة حسابات البريد الإلكتروني، بما في ذلك مجلداتك ورسائل البريد الإلكتروني وتنزيلات POP3 وIMAP وتحميلات SMTP. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "يمكن لهذا التطبيق تلقي الإشعارات عبر الإنترنت. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "يمكن لهذا التطبيق حفظ المفاتيح والشهادات والبيانات في وحدة تخزين محمية بكلمة مرور، واستردادها وحذفها منها. قد يؤدي التحقق من حالات الشهادات أثناء الاتصال بشبكة المحمول إلى تطبيق رسوم إضافية بحسب خطة الدفع الخاصة بك."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "التحكم بمشغّل الوسائط"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "يمكن لهذا التطبيق تلقي معلومات حول الوسائط التي يتم تشغيلها حالياً من التطبيقات التي يُسمح لها بإرسالها، ويمكن أن يتحكم بتلك التطبيقات عن بعد."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "قبول عمليات التحكم عن بُعد"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "يمكن لهذا التطبيق إرسال معلومات حول الوسائط التي يتم تشغيلها حالياً إلى التطبيقات التي يُسمح لها بتلقيها، ويمكن لتلك التطبيقات التحكم به عن بعد."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "يمكن لهذا التطبيق كتابة الرسائل النصية ورسائل الوسائط المتعددة، وإرسالها، وحذفها، ونقلها، وتنزيل رسائل الوسائط المتعددة، وتغيير ضبط الرسائل وحالاتها، مثل مقروءة أو غير مقروءة. قد يؤدي ذلك إلى تطبيق رسوم إضافية بحسب خطة الدفع الخاصة بك."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "يمكن لهذا التطبيق تشغيل شبكة Wi-Fi وإيقاف تشغيلها، والاتصال بشبكتي Wi-Fi والهاتف المحمول وقطع الاتصال عنهما. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "تثبيت/إلغاء تثبيت حزم التطبيقات"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "يمكن لهذا التطبيق تثبيت حزم التطبيقات أو إلغاء تثبيتها."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "مسح التخزين المؤقت الخاص بالتطبيقات الأخرى"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "يمكن أن يمسح هذا التطبيق التخزين المؤقت لتطبيقات أخرى."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "إعادة تشغيل الجهاز"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "يمكن لهذا التطبيق إعادة تشغيل الجهاز."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "مراقبة موارد النظام"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "يمكن لهذا التطبيق قراءة معلومات النظام، بما في ذلك المعلومات من وحدة المعالجة المركزية وذاكرة الوصول العشوائي."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "يمكن لهذا التطبيق تفعيل خدمات التقييد وإلغاء تفعيلها. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "عرض التطبيقات المصغرة"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "يمكن أن يعرض هذا التطبيق التطبيقات المصغرة، ومعلومات من التطبيقات المرتبطة بها، على الشاشة الرئيسية."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "استخدام خدمات الخريطة"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "يمكن لهذا التطبيق استخدام خدمات الخرائط مثل Geocoder، والأماكن، والمسارات (الاتجاه)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "عرض شريط الأدوات"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "يمكن لهذا التطبيق عرض شريط أدوات صغير على لوحة الإشعارات أو على شاشة القفل أثناء فتحه."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "يمكن لهذا التطبيق مزامنة بيانات الجهاز، مثل جهات الاتصال وأحداث التقويم، باستخدام البروتوكول OMA DS 1.2. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "يمكن لهذا التطبيق استرداد رسائل البريد الإلكتروني والرسائل النصية ورسائل الوسائط المتعددة من الخادم أو تلقيها مباشرةً. قد يترتب على هذا الأمر فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "يمكن لهذا التطبيق كتابة الرسائل النصية ورسائل الوسائط المتعددة ورسائل البريد الإلكتروني. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "يمكن لهذا التطبيق تقييد الجهاز بحيث يتم الوصول إلى بعض المجالات المحددة فقط عبر شبكات الهاتف المحمول. قد يترتب على هذا الإجراء فرض رسوم إضافية وفقاً لخطة الدفع."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "الإشعارات"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "عدم الإزعاج"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "التحكم بمستوى الصوت وتشغيل صوت الإشارة الصوتية"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "يمكن لهذا التطبيق تغيير مستوى الصوت وتفعيل الوضع الصامت وإلغاء تفعيله واكتشاف التغيير في مستوى الصوت وتشغيل الإشارات الصوتية."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "التحكم بقناة التلفاز وقراءة معلومات القنوات والبرامج التلفزيونية"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "يمكن لهذا التطبيق تغيير قناة التلفاز، وقراءة معلومات حول القنوات والبرامج التلفزيونية، وتلقي إشعارات عند تغيير قناة التلفاز."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "التحقق ما إذا كان الجهاز يدعم التقنية الثلاثية الأبعاد والحصول على معلومات حول تأثيرات الوضع الثلاثي الأبعاد"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "يمكن أن يتحقق هذا التطبيق من ما إذا كان الجهاز يدعم التقنية الثلاثية الأبعاد وقراءة معلومات حول الوضع الثلاثي الأبعاد."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "التقاط الأحداث الأساسية لأجهزة الإدخال، مثل جهاز التحكم عن بعد للتلفاز"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "يمكن لهذا التطبيق التقاط الأحداث الأساسية لجهاز إدخال، مثل جهاز التحكم عن بعد للتلفاز، وتحرير المفتاح بعد إمساكه."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "عرض مصدر الفيديو المضمّن في هذا التطبيق"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "يمكن لهذا التطبيق إرفاق عرض مصدر الفيديو، وتعيين الحجم، وإظهار العرض المرفق أو إخفائه."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "يمكن لهذا التطبيق قراءة الإجراءات ذات الصلة بالمفاتيح المميزة، مثل مفتاحَي التحكم بمستوى الصوت على هذا الجهاز أو غيره من الأجهزة (مثل خيارات التحكم في التلفاز عن بعد)، حتى عندما تكون قيد التشغيل في الخلفية."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "تلقّي أحداث المفتاح الخاص"
 

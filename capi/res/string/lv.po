@@ -49,6 +49,9 @@ msgstr "Kontaktu pārvaldība"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Satura pārvaldība"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Ievades metožu pārvaldība"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "NFC vispārīgo iestatījumu pārvaldība"
 
@@ -484,6 +487,9 @@ msgstr "Šī programma var veikt zvanus bez papildu apstiprināšanas, kad piesk
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Šī programma var pārvaldīt audio ierakstus."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Šī programma var pārvaldīt instalētās ievades metodes."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Šī programma var atvērt citas programmas, izmantojot programmas ID vai programmas vadību."
 
@@ -630,4 +636,172 @@ msgstr "Īsziņu un multiziņu sūtīšana, un to statusu atjaunināšana"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Šī programma var pārvaldīt HTTP lejupielādes. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Programmu lietojuma statistikas lasīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Šī programma var nolasīt programmu lietojuma statistiku, piemēram, kuras programmas tiek lietotas bieži vai ir lietotas nesen."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Multivides atskaņošanas statistikas lasīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Šī programma var nolasīt statistiku par ierīcē atskaņoto mūziku un demonstrētajiem videoklipiem, piemēram, populārākos mūzikas vai videoklipu atskaņošanas laikus."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Multivides vadības notikumu reģistrēšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Šī programma var reģistrēt multivides vadības notikumus, piemēram, mūzikas un videoklipu atskaņošanas sākšanas un apturēšanas laikus."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Šī programma var nodrošināt lietotājiem iespēju ievadīt rakstzīmes un simbolus saistītajā teksta laukā."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Ievades metožu nodrošināšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Šī programma var uzņemt attēlus un ieslēgt vai izslēgt zibspuldzi kameras lietošanas laikā."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Fona programmu aizvēršana"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Skāriena un taustiņu darbību ģenerēšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Šī programma var simulēt taustiņu nospiešanu un skāriensaziņu ar ekrānu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Šī programma var pieprasīt fonā darbojošos programmu aizvēršanu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Šī programma var veikt zvanus bez papildu apstiprināšanas, kad pieskaraties numuriem. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Šī programma var pārvaldīt jūsu e-pasta kontus, tostarp jūsu mapes un e-pasta ziņas, POP3 un IMAP lejupielādes un SMTP augšupielādes. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Šī programma var saņemt paziņojumus, izmantojot internetu. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Šī programma var saglabāt atslēgas, sertifikātus un datus ar paroli aizsargātā krātuvē, kā arī izgūt un izdzēst tos. Sertifikātu statusu pārbaude, kad ir izveidots savienojums ar mobilo tīklu, var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Multivides atskaņotāja vadība"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Šī programma var saņemt informāciju par šobrīd atskaņoto multivides saturu no programmām, kurām ir atļauts to sūtīt, kā arī var attāli vadīt šīs programmas."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Attālās vadības akceptēšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Šī programma var sūtīt informāciju par šobrīd atskaņoto multivides saturu citām programmām, kurām ir atļauts to saņemt; tāpat šīs programmas var attāli vadīt šo programmu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Šī programma var rakstīt, sūtīt, dzēst un pārvietot īsziņas un multiziņas, lejupielādēt multiziņas, mainīt ziņu iestatījumus un statusu, piemēram, lasīta ziņa vai nelasīta ziņa. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Šī programma var ieslēgt un izslēgt Wi-Fi un izveidot un pārtraukt savienojumu ar Wi-Fi un mobilajiem tīkliem. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Programmu pakotņu instalēšana/atinstalēšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Šī programma var instalēt un atinstalēt programmu pakotnes."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Citu programmu kešatmiņu notīrīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Šī programma var notīrīt citu programmu kešatmiņas."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Ierīces restartēšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Šī programma var restartēt ierīci."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Sistēmas resursu pārraudzība"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Šī programma var nolasīt sistēmas informāciju, tostarp centrālā procesora un RAM informāciju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Šī programma var aktivizēt un deaktivizēt piesaistes pakalpojumus. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Logrīku rādīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Šī programma var sākuma ekrānā rādīt logrīkus un informāciju no to saistītajām programmām."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Kartes pakalpojumu lietošana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Šī programma var izmantot kartes pakalpojumus, piemēram, Ģeokodētājs, Vietas un Maršruts (braukšanas norādījumi)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Rīkjoslas rādīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Šī programma var parādīt mazu rīkjoslu paziņojumu panelī vai bloķēt ekrānu, kamēr tas ir atvērts."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Šī programma var sinhronizēt ierīces datus, piemēram, kontaktus un kalendāra notikumus, izmantojot OMA DS 1.2 protokolu. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Šī programma var izgūt e-pasta ziņas, īsziņas un multiziņas no servera vai saņemt tās ierīcē. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Šī programma var rakstīt īsziņas, multiziņas un e-pasta ziņas. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Šī programma var ierobežot ierīci, lai atsevišķiem domēniem varētu piekļūt, tikai izmantojot mobilos tīklus. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Paziņojumi"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Netraucēt"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Skaļuma līmeņa regulēšana un signāla skaņas atskaņošana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Šī programma var mainīt skaļumu, aktivizēt un deaktivizēt klusuma režīmu, noteikt skaļuma izmaiņas un atskaņot signālus."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "TV kanālu vadīšana un TV kanālu un programmu informācijas lasīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Šī programma var mainīt TV kanālu, lasīt informāciju par TV kanāliem un programmām un saņemt paziņojumus, ja TV kanāls ir mainīts."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Pārbauda, vai ierīce atbalsta 3D, un iegūst informāciju par 3D režīma efektiem"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Šī programma var pārbaudīt, vai ierīce atbalsta 3D, un nolasīt informāciju par 3D režīmu."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Ievades ierīču, piem., tālvadības pults, galveno notikumu tveršana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Šī programma var tvert ievades ierīces, piem., TV tālvadības pults, galvenos notikumus un atbrīvot taustiņa izvēli."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Šajā programmā iegultā video avota parādīšana"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Šī programma var iegult video avota displeju, norādīt tā lielumu un rādīt vai slēpt iegulto displeju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Šī programma var nolasīt darbības, kas saistītas ar speciālajiem taustiņiem, piemēram, skaļuma taustiņiem uz šīs vai citām ierīcēm (piem., TV tālvadības pultīm) arī tad, ja tā darbojas fonā."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Tver noteiktas taustiņu darbības"
 

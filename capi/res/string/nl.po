@@ -49,6 +49,9 @@ msgstr "Contacten beheren"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Inhoud beheren"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Invoermethoden beheren"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Algemene NFC-instellingen beheren"
 
@@ -212,10 +215,10 @@ msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Gezondheidsgegevens lezen"
 
 msgid "IDS_ST_OPT_SEND_SMS_ABB"
-msgstr "SMS verzenden"
+msgstr "Sms verzenden"
 
 msgid "IDS_ST_OPT_READ_SMS_N_MMS_ABB"
-msgstr "SMS & MMS lezen"
+msgstr "Sms & mms lezen"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
 msgstr "Alarmen ophalen"
@@ -266,7 +269,7 @@ msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
 msgstr "Mediamappen openen"
 
 msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
-msgstr "SMS- en MMS-berichten en de samenhangende gegevens lezen"
+msgstr "Sms- en mms-berichten en de samenhangende gegevens lezen"
 
 msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
 msgstr "Netwerkgegevens lezen"
@@ -389,7 +392,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOL
 msgstr "Deze applicatie kan bestanden in mediamappen lezen en schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
-msgstr "Deze applicatie kan SMS- en MMS-berichten en samenhangende gegevens lezen."
+msgstr "Deze applicatie kan sms- en mms-berichten en samenhangende gegevens lezen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
 msgstr "Deze applicatie kan netwerkgegevens ophalen zoals de status en het type van elk netwerk en gedetailleerde informatie over het netwerkprofiel."
@@ -484,6 +487,9 @@ msgstr "Deze applicatie kan telefoonnummers bellen wanneer erop wordt getikt zon
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Deze applicatie kan geluidsopnames beheren."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Deze applicatie kan geïnstalleerde invoermethoden beheren."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Deze applicatie kan andere applicaties openen met de applicatie-id of applicatiebediening."
 
@@ -530,7 +536,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
 msgstr "Deze applicatie kan uw locatiegegevens gebruiken."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
-msgstr "Deze applicatie kan SMS- en MMS-berichten en e-mails schrijven."
+msgstr "Deze applicatie kan sms- en mms-berichten en e-mails schrijven."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
 msgstr "Deze applicatie kan naar bestandssystemen schrijven."
@@ -587,7 +593,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS
 msgstr "Deze applicatie heeft toegang tot smartcarddetails, zoals creditcarddetails, en kan gebruikers toestaan om via NFC te betalen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
-msgstr "Deze applicatie kan SMS- en MMS-berichten schrijven, verzenden, verwijderen en verplaatsen, en de instellingen en status van berichten, zoals gelezen of ongelezen, wijzigen."
+msgstr "Deze applicatie kan sms- en mms-berichten schrijven, verzenden, verwijderen en verplaatsen, en de instellingen en status van berichten, zoals gelezen of ongelezen, wijzigen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
 msgstr "Deze applicatie kan het apparaat beperken waardoor bepaalde specifieke domeinen alleen kunnen worden geopend via mobiele netwerken."
@@ -626,8 +632,176 @@ msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
 msgstr "Meldinggegevens ophalen"
 
 msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
-msgstr "SMS- en MMS-berichten verzenden en hun status bijwerken"
+msgstr "Sms- en mms-berichten verzenden en hun status bijwerken"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Deze applicatie kan HTTP-downloads beheren. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Statistieken applicatiegebruik lezen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Deze applicatie kan de statistieken van applicatiegebruik lezen, zoals welke applicaties vaak of recentelijk zijn gebruikt."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Statistieken media afspelen lezen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Deze applicatie kan de statistieken met betrekking tot de op dit apparaat afgespeelde muziek en video's lezen, zoals de piektijden voor afspelen van muziek of video's."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Gebeurtenissen mediabediening vastleggen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Deze applicatie kan gebeurtenissen voor de mediabediening, zoals start- en stoptijden, vastleggen voor muziek en video's."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Met deze applicatie kunnen gebruikers tekens en symbolen invoeren in een bijbehorend tekstveld."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Invoermethoden leveren"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Deze applicatie kan foto's maken en de cameraflits in- en uitschakelen terwijl u Camera gebruikt."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Achtergrondapplicaties sluiten"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Aanraak- en toetsgebeurtenissen genereren"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Deze applicatie kan simuleren dat toetsen worden ingedrukt en dat aanraakinteracties met het scherm plaatsvinden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Deze applicatie kan verzoeken om in de achtergrond uitgevoerde applicaties te sluiten."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Deze applicatie kan telefoonnummers bellen wanneer erop wordt getikt zonder verdere bevestiging. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Deze applicatie kan uw e-mailaccounts beheren, inclusief uw mappen en e-mails, POP3- en IMAP-downloads en SMTP-uploads. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Deze applicatie kan meldingen ontvangen via internet. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Deze applicatie kan sleutels, certificaten en gegevens opslaan in, en ophalen en verwijderen uit een met wachtwoord beveiligde opslag. Als u de status van de certificaten controleert, terwijl u verbonden bent met een mobiel netwerk, kan dat afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Mediaspeler bedienen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Deze applicatie kan informatie ontvangen over de media die momenteel wordt afgespeeld, uit applicaties die dit mogen verzenden, en kan deze applicaties op afstand bedienen."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Afstandsbedieningen accepteren"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Deze applicatie kan informatie verzenden over de media die momenteel wordt afgespeeld, naar applicaties die dit mogen ontvangen en kan op afstand worden bediend door deze applicaties."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Deze applicatie kan sms- en mms-berichten schrijven, verzenden, verwijderen en verplaatsen, mms-berichten downloaden en de instellingen en de berichtstatus, zoals gelezen of ongelezen, wijzigen. Dat kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Deze applicatie kan Wi-Fi in- en uitschakelen, en verbinding maken/verbreken met Wi-Fi en mobiele netwerken. Dit kan afhankelijk van uw abonnement tot extra kosten leiden."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Applicatiepakketten installeren/verwijderen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Deze applicatie kan applicatiepakketten installeren en verwijderen."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Caches van andere applicaties wissen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Deze applicatie kan de cache van andere applicaties wissen."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Apparaat opnieuw opstarten"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Deze applicatie kan het apparaat opnieuw opstarten."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Systeembronnen controleren"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Deze applicatie kan systeemgegevens, waaronder CPU- en RAM- gegevens, lezen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Deze applicatie kan tetheringservices in- en uitschakelen. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Widgets weergeven"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Deze applicatie kan widgets en informatie van de daarmee samenhangende applicaties weergeven op het startscherm."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Kaartservices gebruiken"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Deze applicatie kan kaartservices zoals Geocoder, Plaatsen en Routebeschrijving gebruiken."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Werkbalk weergeven"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Deze applicatie kan een kleine werkbalk op het meldingenvenster of vergrendelscherm weergeven terwijl deze open is."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Deze applicatie kan apparaatgegevens, zoals contacten en agenda-items, synchroniseren met het OMA DS 1.2-protocol. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Deze applicatie kan e-mails, sms- en mms-berichten ophalen van de server of deze rechtstreeks ontvangen. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Deze applicatie kan sms- en mms-berichten en e-mails schrijven. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Deze applicatie kan het apparaat zo beperken dat sommige specifieke domeinen alleen via mobiele netwerken kunnen worden geopend. Dit kan afhankelijk van uw abonnement extra kosten met zich meebrengen."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Meldingen"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Niet storen"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Het volumeniveau instellen en de pieptoon afspelen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Deze applicatie kan het volume wijzigen, de Stille stand in- en uitschakelen, veranderingen in het volume detecteren en piepsignalen afspelen."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Het tv-kanaal instellen en informatie lezen over het tv-kanaal en de programma's"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Deze applicatie kan het tv-kanaal wijzigen, informatie lezen over tv-kanalen en programma's, en meldingen ontvangen wanneer het tv-kanaal is gewijzigd."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Controleren of een apparaat 3D ondersteunt en informatie ophalen over de effecten van 3D-stand"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Deze applicatie kan controleren of een apparaat 3D ondersteunt en informatie lezen over de 3D-stand."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Belangrijke gebeurtenissen van invoerapparaten vastleggen, bijvoorbeeld tv-afstandsbediening"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Deze applicatie kan belangrijke gebeurtenissen vastleggen voor een invoerapparaat zoals een tv-afstandsbediening, en toetsen opnemen."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Videobron afspelen die in deze applicatie is ingesloten"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Deze applicatie kan de weergave van een videobron insluiten, de grootte opgeven en de ingesloten weergave tonen of verbergen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Deze applicatie kan acties lezen van speciale toetsen, zoals de volumetoetsen op dit of een ander apparaat (bijvoorbeeld tv-afstandsbediening), zelfs wanneer de applicatie in de achtergrond wordt uitgevoerd."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Speciale belangrijke gebeurtenissen vastleggen"
 

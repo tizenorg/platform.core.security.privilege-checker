@@ -49,6 +49,9 @@ msgstr "Yhteystietojen hallinta"
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "Sisällön hallinta"
 
+msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
+msgstr "Syöttötapojen hallinta"
+
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "Yleisten NFC-asetusten hallinta"
 
@@ -484,6 +487,9 @@ msgstr "Tämä sovellus pystyy soittamaan puheluita napautettuihin numeroihin il
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
 msgstr "Tämä sovellus pystyy hallitsemaan äänitallenteita."
 
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
+msgstr "Tämä sovellus pystyy hallitsemaan asennettuja syöttömenetelmiä."
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
 msgstr "Tämä sovellus pystyy avaamaan muita sovelluksia sovellustunnuksella tai sovellusten hallintatoiminnoilla."
 
@@ -630,4 +636,172 @@ msgstr "Teksti- ja multimediaviestien lähettäminen sekä niiden tilan päivitt
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "Tämä sovellus pystyy hallitsemaan HTTP-latauksia. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
+msgstr "Sovelluksen käyttötilastojen lukeminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
+msgstr "Sovellus pystyy lukemaan sovelluksen käyttötilastot, kuten sen, mitä sovelluksia on käytetty usein tai hiljattain."
+
+msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
+msgstr "Median toistotilastojen lukeminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
+msgstr "Sovellus pystyy lukemaan laitteella toistettavia musiikkitiedostoja ja videoita koskevat tilastotiedot, kuten musiikin tai videoiden toiston käyttöhuiput."
+
+msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
+msgstr "Medianhallintatapahtumien kirjaaminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
+msgstr "Tämä sovellus pystyy kirjaamaan musiikkitiedostojen ja videoiden medianhallintatapahtumia, kuten aloitus- ja lopetusaikoja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
+msgstr "Tämä sovellus antaa käyttäjille mahdollisuuden syöttää merkkejä ja symboleita asianmukaiseen tekstikenttään."
+
+msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
+msgstr "Syöttötapojen antaminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
+msgstr "Tämä sovellus voi ottaa kuvia ja ottaa kameran salaman käyttöön kameran käytön aikana."
+
+msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
+msgstr "Taustasovellusten sulkeminen"
+
+msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
+msgstr "Kosketus- ja avaintapahtumien luominen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
+msgstr "Tämä sovellus pystyy simuloimaan näppäinten painallusta ja näytön kosketustoimintoja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
+msgstr "Tämä sovellus pystyy pyytämään taustalla käynnissä olevien sovellusten sulkemista."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
+msgstr "Tämä sovellus pystyy soittamaan puheluita napautettuihin numeroihin ilman erillistä vahvistusta. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
+msgstr "Tämä sovellus pystyy hallitsemaan sähköpostitilejäsi, muun muassa kansioita ja sähköpostiviestejä, POP3- ja IMAP-latauksia sekä SMTP-lähetyksiä. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Tämä sovellus pystyy vastaanottamaan ilmoituksia Internetin kautta. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
+msgstr "Tämä sovellus pystyy tallentamaan avaimia, varmenteita ja tietoja salasanalla suojattuun säilöön sekä hakemaan ja poistamaan ne sieltä. Varmenteiden tilan tarkistamisesta matkapuhelinverkkoyhteyden välityksellä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
+msgstr "Mediasoittimen hallinta"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
+msgstr "Tämä sovellus pystyy vastaanottamaan juuri toistettaviin mediasisältöihin liittyviä tietoja sovelluksista, joilla on lupa lähettää tietoja, ja hallitsemaan kyseisiä sovelluksia etäältä."
+
+msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
+msgstr "Kaukosäätimien hyväksyminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
+msgstr "Tämä sovellus pystyy lähettämään juuri toistettaviin mediasisältöihin liittyviä tietoja sovelluksiin, joilla on lupa vastaanottaa tietoja, ja kyseiset sovellukset pystyvät hallitsemaan tätä sovellusta etäältä."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
+msgstr "Tämä sovellus pystyy kirjoittamaan, lähettämään, poistamaan ja siirtämään teksti- ja multimediaviestejä, lataamaan multimediaviestejä sekä muuttamaan viestien asetukset ja tilan esimerkiksi luetuksi tai lukemattomaksi. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
+msgstr "Tämä sovellus pystyy ottamaan Wi-Fi-toiminnon käyttöön ja poistamaan sen käytöstä sekä muodostamaan yhteyksiä Wi-Fi- ja matkapuhelinverkkoihin sekä katkaisemaan ne. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
+msgstr "Sovelluspakettien asentaminen / asennuksen poistaminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
+msgstr "Tämä sovellus pystyy asentamaan sovelluspaketteja ja poistamaan niiden asennuksen."
+
+msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
+msgstr "Muiden sovellusten välimuistien tyhjentäminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
+msgstr "Tämä sovellus pystyy tyhjentämään muiden sovellusten välimuistit."
+
+msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
+msgstr "Laitteen uudelleenkäynnistäminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
+msgstr "Tämä sovellus pystyy käynnistämään laitteen uudelleen."
+
+msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
+msgstr "Järjestelmäresurssien valvonta"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
+msgstr "Tämä sovellus pystyy lukemaan järjestelmätietoja, muun muassa suorittimen ja RAM-muistin tietoja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Tämä sovellus pystyy ottamaan yhteyden jakopalvelut käyttöön ja poistamaan ne käytöstä. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
+msgstr "Pienoisohjelmien näyttäminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
+msgstr "Tämä sovellus pystyy näyttämään pienoisohjelmat ja niihin liittyvien sovellusten tiedot alkunäytössä."
+
+msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
+msgstr "Karttapalveluiden käyttäminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
+msgstr "Tämä sovellus pystyy käyttämään karttapalveluita, joihin kuuluvat muun muassa Geokooderi, Paikat ja Reitti (Suunta)."
+
+msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
+msgstr "Näkyvä työkalurivi"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
+msgstr "Tämä sovellus pystyy näyttämään pienen työkalurivin ilmoituspaneelissa tai lukitusnäytössä, kun se on avattuna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
+msgstr "Tämä sovellus pystyy synkronoimaan laitteen tiedot, kuten yhteystiedot ja kalenteritapahtumat, OMA DS 1.2 -protokollan avulla. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
+msgstr "Tämä sovellus pystyy hakemaan sähköposti-, teksti- ja multimediaviestejä palvelimelta tai vastaanottamaan ne suoraan. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Tämä sovellus pystyy kirjoittamaan teksti- ja multimediaviestejä sekä sähköpostiviestejä. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan laitteen käyttöä niin, että tiettyjä toimialueita voi käyttää vain matkapuhelinverkkojen kautta. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
+msgstr "Ilmoitukset"
+
+msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
+msgstr "Älä häiritse"
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
+msgstr "Äänenvoimakkuustason hallinta ja äänimerkin toistaminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
+msgstr "Tämä sovellus pystyy muuttamaan äänenvoimakkuutta, ottamaan äänettömän tilan käyttöön ja poistamaan sen käytöstä, tunnistamaan äänenvoimakkuuden muutokset ja antamaan äänimerkkejä."
+
+msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
+msgstr "Televisiokanavan hallinta sekä televisiokanava- ja ohjelmatietojen lukeminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
+msgstr "Tämä sovellus pystyy vaihtamaan televisiokanavaa, lukemaan televisiokanavia ja -ohjelmia koskevia tietoja sekä vastaanottamaan ilmoituksia, kun televisiokanavaa on vaihdettu."
+
+msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Laitteen 3D-tuen tarkistaminen ja tietojen hakeminen 3D-tilan vaikutuksista"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
+msgstr "Tämä sovellus pystyy tarkistamaan, tukeeko laite 3D-tilaa, ja lukemaan tietoja 3D-tilasta."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
+msgstr "Syöttölaitteiden, esimerkiksi television kaukosäätimen, näppäintapahtumien sieppaaminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
+msgstr "Tämä sovellus pystyy tallentamaan syöttölaitteen, kuten television kaukosäätimen, näppäintapahtumat ja vapauttamaan näppäinten tallennuksen."
+
+msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
+msgstr "Tähän sovellukseen upotetun videolähteen näyttäminen"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
+msgstr "Tämä sovellus pystyy upottamaan videolähteen näytön, määrittämään sen koon ja näyttämään tai piilottamaan upotetun näytön."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
+msgstr "Tämä sovellus pystyy lukemaan erikoisnäppäimiin, kuten tämän laitteen tai muiden laitteiden (esimerkiksi televisioiden kaukosäätimien) äänenvoimakkuusnäppäimiin, liittyviä tapahtumia, vaikka se on käynnissä taustalla."
+
+msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
+msgstr "Erikoistapahtumien sieppaus"
 
