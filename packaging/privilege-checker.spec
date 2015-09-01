@@ -99,6 +99,8 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 %if "%{?profile}" == "tv"
 cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+cp capi/res/dbspace/tv_core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
 %else
 cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
@@ -114,9 +116,9 @@ sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "selec
 %files -n capi-security-privilege-manager
 %{_libdir}/libcapi-security-privilege-manager.so*
 %{_datadir}/locale/*
-%if "%{?profile}" != "tv"
+#%if "%{?profile}" != "tv"
 %{_datadir}/privilege-manager/.core_privilege_info.db
-%endif
+#%endif
 %{_datadir}/privilege-manager/.wrt_privilege_info.db
 %manifest packaging/capi-security-privilege-manager.manifest
 
