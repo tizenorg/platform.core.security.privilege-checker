@@ -70,26 +70,34 @@ int privilege_db_manager_get_privilege_list(const char* api_version, privilege_d
     sqlite3* db = NULL;
     sqlite3_stmt* stmt = NULL;
     int ret;
+	char* changed_to_version = NULL;
+
+    if( g_privilege_db_manager_profile_type == PRIVILEGE_DB_MANAGER_PROFILE_TYPE_TV ){
+        changed_to_version = strdup("CHANGED_TO_2_4_0");
+		if( strcmp(api_version, "3.0") == 0 || strcmp(api_version, "3") == 0 ){
+			package_type = PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE;
+        }
+    }else{
+        if( strcmp(api_version, "2.3.1") == 0 ){
+            changed_to_version = strdup("CHANGED_TO_2_3_1");
+        }
+        else if( strcmp(api_version, "2.4") == 0 || strcmp(api_version, "2.4.0") == 0 ){
+            changed_to_version = strdup("CHANGED_TO_2_4_0");
+        }
+		else if( strcmp(api_version, "3.0") == 0 || strcmp(api_version, "3") == 0 ){
+			changed_to_version = strdup("CHANGED_TO_2_4_0"); // it should be changed to CHANGED_TO_3_0_0
+			package_type = PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE;
+		}
+        else{
+            changed_to_version = strdup("CHANGED_TO_2_4_0");
+        }
+    }
+
     ret = __initialize_db(&db, package_type);
     if(ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
         return ret;
 
     GList* temp_privilege_list = NULL;
-    char* changed_to_version = NULL;
-
-	if( g_privilege_db_manager_profile_type == PRIVILEGE_DB_MANAGER_PROFILE_TYPE_TV ){
-		changed_to_version = strdup("CHANGED_TO_2_4_0");
-	}else{
-		if( strcmp(api_version, "2.3.1") == 0 ){
-			changed_to_version = strdup("CHANGED_TO_2_3_1");
-		}
-		else if( strcmp(api_version, "2.4") == 0 || strcmp(api_version, "2.4.0") == 0 ){
-			changed_to_version = strdup("CHANGED_TO_2_4_0");
-		}
-		else{
-			changed_to_version = strdup("CHANGED_TO_2_4_0");
-		}
-	}
 
     char* sql = sqlite3_mprintf("select privilege_name, privilege_level_id, %s, api_version_issued, api_version_expired from privilege_info where (profile_id=%d or profile_id=%d) and package_type_id=%d", changed_to_version, PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type);
 	free(changed_to_version);
