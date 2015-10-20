@@ -10,8 +10,9 @@ echo "Creating PRIVILEGE_INFO table ..."
 sqlite3 $DB_NAME "CREATE TABLE PRIVILEGE_INFO (PROFILE_ID NUMERIC, PROFILE TEXT, PACKAGE_TYPE_ID NUMERIC, PACKAGE_TYPE TEXT, PRIVILEGE_LEVEL_ID NUMERIC, PRIVILEGE_LEVEL TEXT, API_VERSION_ISSUED TEXT, API_VERSION_EXPIRED TEXT, DOCUMENTED INTEGER, PRIVILEGE_NAME TEXT, PRIVILEGE_DISPLAY TEXT, PRIVILEGE_DESCRIPTION TEXT, PRIVILEGE_GROUP_ID NUMERIC, PRIVLEGE_GROUP TEXT, CHANGED_TO_2_3_1 TEXT,CHANGED_TO_2_4_0 TEXT);"
 
 echo "Inserting data ..."
-LIST=`cat wrt_privilege_info.csv | sed 's/ //g'`
-for i in $LIST
+IFS=$'\n'
+#LIST=`cat wrt_privilege_info.csv | sed 's/ //g'`
+for i in `cat wrt_privilege_info.csv`
 do
 	temp=`echo $i | awk '/^#/'`
 	if [ ! "$temp" = "" ]
