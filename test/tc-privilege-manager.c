@@ -170,15 +170,15 @@ static void __test_privilege_manager_verify_privilege()
     privilege_list = NULL;
     printf("privilege name : http://tizen.org/privilege/healthinfo\n");
     printf("privilege name : http://tizen.org/privilege/led\n");
-    printf("privilege name : http://tizen.org/privilege/se\n");
+    printf("privilege name : http://tizen.org/privilege/keymanager.admin\n");
     printf("privilege version : 2.4\n");
     printf("signature level : public\n");
-    printf("privilege level : public, public, partner\n");
+    printf("privilege level : public, public, platform\n");
     printf("package type : core\n");
     printf("expected result : PRVMGR_ERR_INVALID_PRIVILEGE\n");
     privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/healthinfo");
     privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/led");
-    privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/se");
+    privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/keymanager.admin");
     ret = privilege_manager_verify_privilege("2.4", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
     __check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
     if(error_message != NULL)
@@ -291,6 +291,7 @@ static void __test_privilege_manager_verify_privilege()
     printf("privilege name : http://tizen.org/privilege/healthinfo\n");
     printf("privilege name : http://tizen.org/privilege/led\n");
     printf("privilege name : http://tizen.org/privilege/systemmanager\n");
+	printf("privilege name : http://tizen.org/privilege/nfc\n");
     printf("privilege version : 2.3.1\n");
     printf("signature level : public\n");
     printf("privilege level : public, public, partner\n");
@@ -299,6 +300,7 @@ static void __test_privilege_manager_verify_privilege()
     privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/healthinfo");
     privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/led");
     privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/systemmanager");
+	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/nfc");
     ret = privilege_manager_verify_privilege("2.3.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
     __check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
     if(error_message != NULL)
@@ -335,7 +337,7 @@ static void __test_privilege_manager_verify_privilege()
     g_list_free(privilege_list);
     privilege_list = NULL;
     printf("privilege name : http://tizen.org/privilege/healthinfo\n");
-    printf("privilege name : http://tizen.org/privilege/led\n");
+    printf("privilege name : http://tizen.org/privilege/networkbearerselection\n");
     printf("privilege name : http://tizen.org/privilege/XXXXX\n");
     printf("privilege version : 2.4\n");
     printf("signature level : partner\n");
