@@ -67,6 +67,11 @@ int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type
 
 int privilege_db_manager_get_privilege_description(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, char** privilege_description);
 
+int privilege_db_manager_get_privilege_display_by_name(privilege_db_manager_package_type_e package_type, const char* privilege_name, char** privilege_display);
+
+int privilege_db_manager_get_privilege_description_by_name(privilege_db_manager_package_type_e package_type, const char* privilege_name, char** privilege_description);
+
+
 int privilege_db_manager_get_privilege_group_display(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, int* privilege_group_number);
 
 #ifdef __cplusplus
