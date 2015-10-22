@@ -9,6 +9,8 @@ BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(glib-2.0)
+Requires(post): /sbin/ldconfig
+Requires(postun): /sbin/ldconfig
 
 %description
 Pakcage for Privilege Management
@@ -28,13 +30,14 @@ BuildRequires:  pkgconfig(dlog)
 BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(glib-2.0)
+Requires(post): /sbin/ldconfig
+Requires(postun): /sbin/ldconfig
 
 %description -n capi-security-privilege-manager
 The Privilege Manager API provides functions to verify privilege information of packages to be installed.
 
 %package  -n capi-security-privilege-manager-devel
 Summary:  Privilege Manager API (Development)
-Group:    TO_BE/FILLED_IN
 Requires: capi-security-privilege-manager
 
 %description -n capi-security-privilege-manager-devel
@@ -42,7 +45,6 @@ The Privilege Manager API provides functions to verify privilege information of 
 
 %package  -n tc-privilege-checker
 Summary:  tc-privilege-checker
-Group:    TO_BE/FILLED_IN
 
 %description -n tc-privilege-checker
 Testsuit for Privilege Manager APIs
@@ -108,6 +110,12 @@ cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-mana
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
 %endif
 %make_install
+
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
+
+%post -n capi-security-privilege-manager -p /sbin/ldconfig
+%postun -n capi-security-privilege-manager -p /sbin/ldconfig
 
 %files -n privilege-checker
 %{_datadir}/license/privilege-checker

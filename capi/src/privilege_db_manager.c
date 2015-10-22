@@ -188,6 +188,41 @@ int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type
 	return PRIVILEGE_DB_NO_EXIST_RESULT;
 }
 
+int privilege_db_manager_get_privilege_display_by_name(privilege_db_manager_package_type_e package_type, const char* privilege_name, char** privilege_display)
+{
+	sqlite3* db = NULL;
+	sqlite3_stmt* stmt = NULL;
+	int ret;
+	ret = __initialize_db(&db, package_type);
+	if(ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	char* sql = sqlite3_mprintf("select privilege_display from privilege_info where (profile_id=%d or profile_id=%d) and package_type_id=%d and privilege_name=%Q",
+					PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name);
+
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if(ret != SQLITE_OK)
+	{
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	ret = sqlite3_step(stmt);
+	if(ret == SQLITE_ROW)
+	{
+		LOGD("privilege_display = %s", (char*)sqlite3_column_text(stmt,0));
+
+		*privilege_display = strdup((char*)sqlite3_column_text(stmt,0));
+		TryReturn(*privilege_display != NULL,, PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
+		__finalize_db(db, stmt);
+		return PRIVILEGE_DB_MANAGER_ERR_NONE;
+	}
+
+	__finalize_db(db, stmt);
+	return PRIVILEGE_DB_NO_EXIST_RESULT;
+}
+
 int privilege_db_manager_get_privilege_description(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, char** privilege_description)
 {
 	sqlite3* db = NULL;
@@ -199,6 +234,43 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 
 	char* sql = sqlite3_mprintf("select privilege_description from privilege_info where (profile_id=%d or profile_id=%d) and package_type_id=%d and privilege_name=%Q and api_version_issued<=%Q and api_version_expired>=%Q",
 					PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name, api_version, api_version);
+
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if(ret != SQLITE_OK)
+	{
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	ret = sqlite3_step(stmt);
+	if(ret == SQLITE_ROW)
+	{
+		LOGD("privilege_description = %s", (char*)sqlite3_column_text(stmt,0));
+
+		*privilege_description = strdup((char*)sqlite3_column_text(stmt,0));
+		TryReturn(*privilege_description != NULL,, PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
+
+		__finalize_db(db, stmt);
+		return PRIVILEGE_DB_MANAGER_ERR_NONE;
+	}
+
+	__finalize_db(db, stmt);
+	return PRIVILEGE_DB_NO_EXIST_RESULT;
+}
+
+
+int privilege_db_manager_get_privilege_description_by_name(privilege_db_manager_package_type_e package_type, const char* privilege_name, char** privilege_description)
+{
+	sqlite3* db = NULL;
+	sqlite3_stmt* stmt = NULL;
+	int ret;
+	ret = __initialize_db(&db, package_type);
+	if(ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	char* sql = sqlite3_mprintf("select privilege_description from privilege_info where (profile_id=%d or profile_id=%d) and package_type_id=%d and privilege_name=%Q",
+					PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name);
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if(ret != SQLITE_OK)
