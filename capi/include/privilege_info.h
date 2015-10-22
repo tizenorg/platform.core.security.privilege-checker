@@ -44,7 +44,7 @@ typedef enum
  * @brief Called to get a privilege group once for specific package.
  * @param[in] privilege_group The privilege group
  * @param[in] user_data The user data passed from the foreach function
- * @return 0 if success, negative value(<0) if fail. Callback is not called if return value is negative.
+ * @return 0 if success, nonzero value(>0) if fail. Callback is not called if return value is nonzero.
  * @pre privilege_info_foreach_privilege_group_list_by_pkgid() will invoke this callback.
  * @see privilege_info_foreach_privilege_group_list_by_pkgid()
  */
@@ -54,7 +54,7 @@ typedef int (*privilege_info_privilege_groups_cb) (const char *privilege_group, 
  * @brief Called to get a privilege in the privilege group once for specific package.
  * @param[in] privilege The privilege
  * @param[in] user_data The user data passed from the foreach function
- * @return 0 if success, negative value(<0) if fail. Callback is not called if return value is negative.
+ * @return 0 if success, nonzero value(>0) if fail. Callback is not called if return value is nonzero.
  * @pre privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group() will invoke this callback.
  * @see privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group()
  */
@@ -65,7 +65,7 @@ typedef int (*privilege_info_privileges_cb) (const char *privilege, void* user_d
  * @param [in] package_id The package id
  * @param [in] callback The callback function to invoke
  * @param [in] user_data The user data to be passed to the callback function
- * @return 0 on success, otherwise a negative error value.
+ * @return 0 on success, otherwise a nonzero error value.
  * @retval #PRVMGR_ERR_NONE Successful
  * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
@@ -79,7 +79,7 @@ EXPORT_API int privilege_info_foreach_privilege_group_list_by_pkgid(const char *
  * @param [in] package_id The package id
  * @param [in] callback The callback function to invoke
  * @param [in] user_data The user data to be passed to the callback function
- * @return 0 on success, otherwise a negative error value.
+ * @return 0 on success, otherwise a nonzero error value.
  * @retval #PRVMGR_ERR_NONE Successful
  * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
@@ -92,7 +92,7 @@ EXPORT_API int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_grou
  * @remarks @a name must be released with free() by you.
  * @param [in] privilege_group The privilege group
  * @param [out] name The display name of the privilege group
- * @return 0 on success, otherwise a negative error value.
+ * @return 0 on success, otherwise a nonzero error value.
  * @retval #PRVMGR_ERR_NONE Successful
  * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
@@ -104,7 +104,7 @@ EXPORT_API int privilege_info_get_privilege_group_display_name(const char *privi
  * @remarks @a name must be released with free() by you.
  * @param [in] privilege The privilege
  * @param [out] name The display name of the privilege
- * @return 0 on success, otherwise a negative error value.
+ * @return 0 on success, otherwise a nonzero error value.
  * @retval #PRVMGR_ERR_NONE Successful
  * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
@@ -116,7 +116,7 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
  * @remarks @a description must be released with free() by you.
  * @param [in]  privilege The privilege
  * @param [out] description The description of the privilege
- * @return 0 on success, otherwise a negative error value.
+ * @return 0 on success, otherwise a nonzero error value.
  * @retval #PRVMGR_ERR_NONE Successful
  * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter

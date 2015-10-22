@@ -22,17 +22,17 @@
 #include "privilege_db_manager.h"
 #include "privilege_info.h"
 #include "privilege_info_types.h"
-#include "privilege_manager.h"
 
 #ifdef LOG_TAG
 #undef LOG_TAG
 #define LOG_TAG "PRIVILEGE_INFO"
 #endif
 
-#define TryReturn(condition, returnValue, ...)  \
+#define TryReturn(condition, expr, returnValue, ...)    \
     if (!(condition)) { \
         LOGE(__VA_ARGS__); \
-        return returnValue; \
+        expr; \
+        return returnValue;    \
     } \
     else {;}
 
@@ -41,12 +41,12 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
     LOGD("privilege name = %s", privilege_name);
 
     int* groupTable = (int*)user_data;
-    TryReturn(privilege_name != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
-    TryReturn(user_data != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] user_data is NULL");
+    TryReturn(privilege_name != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
+    TryReturn(user_data != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] user_data is NULL");
 
     int group_id = 6;
-    //Native
-    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
+    //core
+    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "9.9", &group_id);
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         LOGD("group_id = %d", group_id);
@@ -58,8 +58,8 @@ int privilege_info_privilege_list_by_pkgid_callback (const char *privilege_name,
     {
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
-    //Web
-    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
+    //wrt
+    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "9.9", &group_id);
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         LOGD("group_id = %d", group_id);
@@ -85,16 +85,16 @@ int privilege_info_foreach_privilege_group_list_by_pkgid(const char *package_id,
     int i = 0;
     int res = PRVMGR_ERR_NONE;
 
-    TryReturn(package_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] package_id is NULL");
-    TryReturn(callback != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] callback is NULL");
+    TryReturn(package_id != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] package_id is NULL");
+    TryReturn(callback != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] callback is NULL");
 
     pkgmgrinfo_pkginfo_h handle;
     res = pkgmgrinfo_pkginfo_get_pkginfo(package_id, &handle);
-    TryReturn(res == PMINFO_R_OK, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.");
+    TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.");
 
     res = pkgmgrinfo_pkginfo_foreach_privilege(handle, privilege_info_privilege_list_by_pkgid_callback, &groupTable);
     pkgmgrinfo_pkginfo_destroy_pkginfo(handle);
-    TryReturn(res == PMINFO_R_OK, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
+    TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
 
     for (i = 0; i < MAX_PRV_GROUP; i++)
     {
@@ -103,7 +103,7 @@ int privilege_info_foreach_privilege_group_list_by_pkgid(const char *package_id,
             res = callback(privilege_group_info_table[i].privilege_group, user_data);
             LOGD("group = %s", privilege_group_info_table[i].privilege_group);
 
-            TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
+            TryReturn(res >= 0, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
         }
     }
 
@@ -118,17 +118,17 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
     privilege_list_cb_data data = *((privilege_list_cb_data*)(user_data));
     int group_id = 6;
 
-    TryReturn(privilege_name != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
-    TryReturn(user_data != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] user_data is NULL");
+    TryReturn(privilege_name != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
+    TryReturn(user_data != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] user_data is NULL");
 
-    //Native
-    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "2.3", &group_id);
+    //core
+    int ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege_name, "9.9", &group_id);
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(group_id == data.privilege_group){
             LOGD("data.privilege_group = %d", data.privilege_group);
             res = data.callback(privilege_name, data.user_data);
-            TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
+            TryReturn(res >= 0, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
 
             return PRVMGR_ERR_NONE;
         }
@@ -138,14 +138,14 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
 
-    //Web
-    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "2.3", &group_id);
+    //wrt
+    ret = privilege_db_manager_get_privilege_group_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_name, "9.9", &group_id);
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(group_id == data.privilege_group){
             LOGD("data.privilege_group = %d", data.privilege_group);
             res = data.callback(privilege_name, data.user_data);
-            TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
+            TryReturn(res >= 0, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
 
             return PRVMGR_ERR_NONE;
         }
@@ -159,7 +159,7 @@ int privilege_info_privilege_list_callback (const char *privilege_name, void *us
     {
         LOGD("data.privilege_group = %d", data.privilege_group);
         res = data.callback(privilege_name, data.user_data);
-        TryReturn(res >= 0, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
+        TryReturn(res >= 0, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] return value of callback function is negative.");
     }
 
     return PRVMGR_ERR_NONE;
@@ -173,9 +173,9 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
     int res = PRVMGR_ERR_NONE;
     privilege_list_cb_data data;
 
-    TryReturn(package_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] package_id is NULL");
-    TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_group is NULL");
-    TryReturn(callback != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] callback is NULL");
+    TryReturn(package_id != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] package_id is NULL");
+    TryReturn(privilege_group != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_group is NULL");
+    TryReturn(callback != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] callback is NULL");
 
     data.privilege_group = -1;
     data.callback = callback;
@@ -194,11 +194,11 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
     {
         pkgmgrinfo_pkginfo_h handle;
         res = pkgmgrinfo_pkginfo_get_pkginfo(package_id, &handle);
-        TryReturn(res == PMINFO_R_OK, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.")
+        TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.")
 
         res = pkgmgrinfo_pkginfo_foreach_privilege(handle, privilege_info_privilege_list_callback, &data);
         pkgmgrinfo_pkginfo_destroy_pkginfo(handle);
-        TryReturn(res == PMINFO_R_OK, PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
+        TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
     }
 
     return PRVMGR_ERR_NONE;
@@ -209,14 +209,14 @@ int privilege_info_get_group_name_string_id(const char *privilege_group, char **
     LOGD("privilege_group = %s", privilege_group);
 
     int index = 0;
-    TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege_group != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     for (index = 0; index < MAX_PRV_GROUP; index++)
     {
         if (strcmp(privilege_group_info_table[index].privilege_group, privilege_group) == 0)
         {
             *group_string_id = (char*)calloc(strlen(privilege_group_info_table[index].name_string_id) + 1, sizeof(char));
-            TryReturn(*group_string_id != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+            TryReturn(*group_string_id != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
             memcpy(*group_string_id, privilege_group_info_table[index].name_string_id, strlen(privilege_group_info_table[index].name_string_id));
             break;
@@ -232,12 +232,12 @@ int privilege_info_get_privilege_group_display_name_by_string_id(const char *str
 
     char *temp = NULL;
 
-    TryReturn(string_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
+    TryReturn(string_id != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
 
     temp = dgettext("privilege", string_id);
 
     *name = (char*)calloc(strlen(temp) + 1, sizeof(char));
-    TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+    TryReturn(*name != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
     memcpy(*name, temp, strlen(temp));
 
@@ -251,7 +251,7 @@ int privilege_info_get_privilege_group_display_name(const char *privilege_group,
     int ret = 0;
     char* name_string_id = NULL;
 
-    TryReturn(privilege_group != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege_group != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     ret = privilege_info_get_group_name_string_id(privilege_group, &name_string_id);
 
@@ -260,15 +260,16 @@ int privilege_info_get_privilege_group_display_name(const char *privilege_group,
         char tempPrivilegeGroup[256] = {0,};
         char* temp = NULL;
         char* buffer = NULL;
+        char* save = NULL;
         memcpy(tempPrivilegeGroup, privilege_group, strlen(privilege_group));
-        temp = strtok(tempPrivilegeGroup, "/");
+        temp = strtok_r(tempPrivilegeGroup, "/", &save);
         while(temp)
         {
             buffer = temp;
-            temp = strtok(NULL, "/");
+            temp = strtok_r(NULL, "/", &save);
         }
         *name = (char*)calloc(strlen(buffer) + 1, sizeof(char));
-        TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+        TryReturn(*name != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
         memcpy(*name, buffer, strlen(buffer));
     }
@@ -276,19 +277,19 @@ int privilege_info_get_privilege_group_display_name(const char *privilege_group,
     {
         ret = privilege_info_get_privilege_group_display_name_by_string_id(name_string_id, name);
         free(name_string_id);
-        TryReturn(ret == PRVMGR_ERR_NONE, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+        TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
     }
     return  PRVMGR_ERR_NONE;
 }
 
 int privilege_info_get_name_string_id(const char *privilege, char **name_string_id)
 {
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     char* temp = NULL;
 
     // Check Native
-    int ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
+    int ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, NULL, &temp);
 
     LOGD("privilege = %s, string id = %s", privilege, temp);
 
@@ -300,26 +301,33 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
         }
         else if(strcmp(temp,"") == 0)
         {
-            *name_string_id = NULL;
+            //*name_string_id = NULL;
+            *name_string_id = strdup("");
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
+            return PRVMGR_ERR_NONE;
         }
         else
         {
             *name_string_id = (char*)calloc(strlen(temp) + 1, sizeof(char));
-            if(*name_string_id == NULL)
-            {
-                LOGE("[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
-                free(temp);
-                return PRVMGR_ERR_OUT_OF_MEMORY;
-            }
+            TryReturn(*name_string_id != NULL, free(temp), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
             memcpy(*name_string_id, temp, strlen(temp));
             LOGD("display_name_string_id = %s", *name_string_id);
-            free(temp);
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
     }
     else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
-        free(temp);
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
 
@@ -330,56 +338,52 @@ int privilege_info_get_name_string_id(const char *privilege, char **name_string_
     }
 
     // Check WRT
-    ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
+    ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, NULL, &temp);
 
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
             *name_string_id = NULL;
-            free(temp);
-            LOGE("There is no %s's string id in db", privilege);
-            return PRVMGR_ERR_NONE;
         }
-        else if(strcmp(temp,"") == 0)
+        else if(strcmp(temp, "") == 0)
         {
-            *name_string_id = NULL;
-            free(temp);
-            LOGE("There is no %s's string id in db", privilege);
+            //*name_string_id = NULL;
+            *name_string_id = strdup("");
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
         else
         {
             *name_string_id = (char*)calloc(strlen(temp) + 1, sizeof(char));
-            if(*name_string_id == NULL)
-            {
-                LOGE("[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
-                free(temp);
-                return PRVMGR_ERR_OUT_OF_MEMORY;
-            }
+            TryReturn(*name_string_id != NULL, free(temp), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
             memcpy(*name_string_id, temp, strlen(temp));
-            LOGD("display_name_string_id = %s", *name_string_id);
-            free(temp);
+            LOGE("display_name_string_id = %s", *name_string_id);
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret == PRIVILEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
-        *name_string_id = NULL;
-        free(temp);
-        LOGD("There is no %s in db", privilege);
-        return PRVMGR_ERR_NONE;
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
+        return PRVMGR_ERR_INTERNAL_ERROR;
     }
     else
     {
-        free(temp);
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
         return PRVMGR_ERR_INTERNAL_ERROR;
-    }
-
-    if(temp != NULL)
-    {
-        free(temp);
-        temp = NULL;
     }
 
     return PRVMGR_ERR_NONE;
@@ -389,12 +393,12 @@ int privilege_info_get_privilege_display_name_by_string_id(const char *string_id
 {
     char *temp = NULL;
 
-    TryReturn(string_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
+    TryReturn(string_id != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
 
     temp = dgettext("privilege", string_id);
 
     *name = (char*)calloc(strlen(temp) + 1, sizeof(char));
-    TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+    TryReturn(*name != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
     memcpy(*name, temp, strlen(temp));
 
@@ -406,11 +410,12 @@ int privilege_info_get_privilege_display_name(const char *privilege, char **name
     int ret = 0;
     char* name_string_id = NULL;
 
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     ret = privilege_info_get_name_string_id(privilege, &name_string_id);
     if (name_string_id == NULL)
     {
+        /*
         char tempPrivilege[256] = {0,};
         char* temp = NULL;
         char* buffer = NULL;
@@ -425,25 +430,34 @@ int privilege_info_get_privilege_display_name(const char *privilege, char **name
         TryReturn(*name != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
         memcpy(*name, buffer, strlen(buffer));
+        */
+        //*name = strdup("");
+    }
+    else if(strcmp(name_string_id,"") == 0){
+        *name = strdup("display string is not defined yet");
     }
     else
     {
         ret = privilege_info_get_privilege_display_name_by_string_id(name_string_id, name);
         free(name_string_id);
-        TryReturn(ret == PRVMGR_ERR_NONE, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+        name_string_id = NULL;
+        TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
     }
+
+    if(name_string_id != NULL)
+        free(name_string_id);
 
     return PRVMGR_ERR_NONE;
 }
 
 int privilege_info_get_description_string_id(const char *privilege, char **description_string_id)
 {
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     char* temp = NULL;
 
     // Check Native
-    int ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, "2.3", &temp);
+    int ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege, NULL, &temp);
 
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
@@ -453,26 +467,33 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
         }
         else if(strcmp(temp, "") == 0)
         {
-            *description_string_id = NULL;
+            //*description_string_id = NULL;
+            *description_string_id = strdup("");
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
+            return PRVMGR_ERR_NONE;
         }
         else
         {
             *description_string_id = (char*)calloc(strlen(temp) + 1, sizeof(char));
-            if(*description_string_id == NULL)
-            {
-                LOGE("[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
-                free(temp);
-                return PRVMGR_ERR_OUT_OF_MEMORY;
-            }
+            TryReturn(*description_string_id != NULL, free(temp), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
             memcpy(*description_string_id, temp, strlen(temp));
             LOGD("description_string_id = %s", *description_string_id);
-            free(temp);
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
     }
     else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
-        free(temp);
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
         return PRVMGR_ERR_INTERNAL_ERROR;
     }
 
@@ -482,57 +503,53 @@ int privilege_info_get_description_string_id(const char *privilege, char **descr
         temp = NULL;
     }
 
-    // Check Web
-    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, "2.3", &temp);
+    // Check WRT
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege, NULL, &temp);
 
     if(ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
     {
         if(temp == NULL)
         {
             *description_string_id = NULL;
-            free(temp);
-            LOGE("There is no %s's string id in db", privilege);
-            return PRVMGR_ERR_NONE;
         }
-        else if(strcmp(temp,"") == 0)
+        else if(strcmp(temp, "") == 0)
         {
-            *description_string_id = NULL;
-            free(temp);
-            LOGE("There is no %s's string id in db", privilege);
+            //*description_string_id = NULL;
+            *description_string_id = strdup("");
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
         else
         {
             *description_string_id = (char*)calloc(strlen(temp) + 1, sizeof(char));
-            if(*description_string_id == NULL)
-            {
-                LOGE("[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
-                free(temp);
-                return PRVMGR_ERR_OUT_OF_MEMORY;
-            }
+            TryReturn(*description_string_id != NULL, free(temp), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation is failed.");
             memcpy(*description_string_id, temp, strlen(temp));
-            LOGD("description_string_id = %s", *description_string_id);
-            free(temp);
+            LOGE("description_string_id = %s", *description_string_id);
+            if(temp != NULL){
+                free(temp);
+                temp = NULL;
+            }
             return PRVMGR_ERR_NONE;
         }
     }
-    else if(ret == PRIVILEGE_DB_NO_EXIST_RESULT)
+    else if(ret != PRIVILEGE_DB_NO_EXIST_RESULT)
     {
-        *description_string_id = NULL;
-        free(temp);
-        LOGE("There is no %s in db", privilege);
-        return PRVMGR_ERR_NONE;
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
+        return PRVMGR_ERR_INTERNAL_ERROR;
     }
     else
     {
-        free(temp);
+        if(temp != NULL){
+            free(temp);
+            temp = NULL;
+        }
         return PRVMGR_ERR_INTERNAL_ERROR;
-    }
-
-    if(temp != NULL)
-    {
-        free(temp);
-        temp = NULL;
     }
 
     return PRVMGR_ERR_NONE;
@@ -542,12 +559,12 @@ int privilege_info_get_privilege_description_by_string_id(const char *string_id,
 {
     char *temp = NULL;
 
-    TryReturn(string_id != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
+    TryReturn(string_id != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] string_id is NULL");
 
     temp = dgettext("privilege", string_id);
 
     *description = (char*)calloc(strlen(temp) + 1, sizeof(char));
-    TryReturn(*description != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+    TryReturn(*description != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
     memcpy(*description, temp, strlen(temp));
 
@@ -559,26 +576,37 @@ int privilege_info_get_privilege_description(const char *privilege, char **descr
     int ret = 0;
     char* description_string_id = NULL;
 
-    TryReturn(privilege != NULL, PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+    TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
     ret = privilege_info_get_description_string_id(privilege, &description_string_id);
     if (description_string_id == NULL)
     {
+        /*
         char *temp = NULL;
         temp = dgettext("privilege", "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED");
         *description = (char*)calloc(strlen(temp) + 1, sizeof(char));
-        TryReturn(*description != NULL, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+        TryReturn(*description != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
 
         memcpy(*description, temp, strlen(temp));
+        */
+        //*description = strdup("");
+    }
+    else if(strcmp(description_string_id,"") == 0){
+
+        *description = strdup("description string is not defined yet");
     }
     else
     {
         ret = privilege_info_get_privilege_display_name_by_string_id(description_string_id, description);
         free(description_string_id);
-        TryReturn(ret == PRVMGR_ERR_NONE, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
+        description_string_id = NULL;
+        TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] Memory allocation failed.");
     }
+
+    if(description_string_id != NULL)
+        free(description_string_id);
+
     return  PRVMGR_ERR_NONE;
 }
-
 
 

@@ -153,10 +153,30 @@ void __test_privilege_db_manager_get_privilege_display(){
     privilege_display = NULL;
     ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/messasdfsfsdfsdfad", "2.3", &privilege_display);
     __check_get_privilege_display_result(PRIVILEGE_DB_NO_EXIST_RESULT, ret, privilege_display);
-    printf("-----------------------------------------------------------\n");
     free(privilege_display);
-}
 
+	printf("-----------------------------------------------------------\n");
+    printf("api_version is NULL\n");
+    printf("privilege : http://tizen.org/privilege/power\n");
+    printf("privilege_type : wrt\n");
+    printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
+    privilege_display = NULL;
+    ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", NULL, &privilege_display);
+    __check_get_privilege_display_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
+	free(privilege_display);
+
+	printf("-----------------------------------------------------------\n");
+	printf("api_version is NULL\n");
+    printf("privilege : http://tizen.org/privilege/messasdfsfsdfsdfad\n");
+    printf("expected result : PRIVILEGE_DB_NO_EXIST_RESULT\n");
+    privilege_display = NULL;
+    ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/messasdfsfsdfsdfad", NULL, &privilege_display);
+    __check_get_privilege_display_result(PRIVILEGE_DB_NO_EXIST_RESULT, ret, privilege_display);
+    free(privilege_display);
+
+	printf("-----------------------------------------------------------\n");
+
+}
 
 void __check_get_privilege_description_result(privilege_db_manager_error_e expected_result, privilege_db_manager_error_e result, char* privilege_description)
 {
@@ -187,39 +207,64 @@ void __test_privilege_db_manager_get_privilege_description(){
 
     int ret;
 
-    char* privilege_display = NULL;
+    char* privilege_description = NULL;
     printf("-----------------------------------------------------------\n");
     printf("privilege : http://tizen.org/privilege/location\n");
     printf("privilege_type : core\n");
     printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
-    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/location", "2.3", &privilege_display);
-    __check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/location", "2.3", &privilege_description);
+    __check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_description);
 
-    if(privilege_display != NULL){
-        free(privilege_display);
-        privilege_display = NULL;
+    if(privilege_description != NULL){
+        free(privilege_description);
+        privilege_description = NULL;
     }
 
     printf("-----------------------------------------------------------\n");
     printf("privilege : http://tizen.org/privilege/power\n");
     printf("privilege_type : wrt\n");
     printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
-    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", "2.3", &privilege_display);
-    __check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", "2.3", &privilege_description);
+    __check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_description);
 
-    if(privilege_display != NULL){
-        free(privilege_display);
-        privilege_display = NULL;
+    if(privilege_description != NULL){
+        free(privilege_description);
+        privilege_description = NULL;
     }
 
     printf("-----------------------------------------------------------\n");
     printf("privilege : http://tizen.org/privilege/messasdfsfsdfsdfad\n");
     printf("expected result : PRIVILEGE_DB_NO_EXIST_RESULT\n");
-    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/messasdfsfsdfsdfad", "2.3", &privilege_display);
-    __check_get_privilege_description_result(PRIVILEGE_DB_NO_EXIST_RESULT, ret, privilege_display);
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/messasdfsfsdfsdfad", "2.3", &privilege_description);
+    __check_get_privilege_description_result(PRIVILEGE_DB_NO_EXIST_RESULT, ret, privilege_description);
+
+	if(privilege_description != NULL){
+        free(privilege_description);
+        privilege_description = NULL;
+    }
+
+    printf("-----------------------------------------------------------\n");
+	printf("api_version is NULL\n");
+    printf("privilege : http://tizen.org/privilege/power\n");
+    printf("privilege_type : wrt\n");
+    printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", NULL, &privilege_description);
+    __check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_description);
+
+    if(privilege_description != NULL){
+        free(privilege_description);
+        privilege_description = NULL;
+    }
+
+    printf("-----------------------------------------------------------\n");
+	printf("api_version is NULL\n");
+    printf("privilege : http://tizen.org/privilege/messasdfsfsdfsdfad\n");
+    printf("expected result : PRIVILEGE_DB_NO_EXIST_RESULT\n");
+    ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/messasdfsfsdfsdfad", NULL, &privilege_description);
+    __check_get_privilege_description_result(PRIVILEGE_DB_NO_EXIST_RESULT, ret, privilege_description);
     printf("-----------------------------------------------------------\n");
 
-    free(privilege_display);
+    free(privilege_description);
 
 }
 
