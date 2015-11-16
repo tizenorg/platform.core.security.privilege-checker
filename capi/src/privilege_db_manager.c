@@ -74,9 +74,6 @@ int privilege_db_manager_get_privilege_list(const char* api_version, privilege_d
 
 	if( g_privilege_db_manager_profile_type == PRIVILEGE_DB_MANAGER_PROFILE_TYPE_TV ){
 		changed_to_version = strdup("CHANGED_TO_2_4_0");
-		if( strcmp(api_version, "3.0") == 0 || strcmp(api_version, "3") == 0 ){
-			package_type = PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE;
-		}
 	}else{
 		if( strcmp(api_version, "2.3.1") == 0 ){
 			changed_to_version = strdup("CHANGED_TO_2_3_1");
@@ -86,12 +83,12 @@ int privilege_db_manager_get_privilege_list(const char* api_version, privilege_d
 		}
 		else if( strcmp(api_version, "3.0") == 0 || strcmp(api_version, "3") == 0 ){
 			changed_to_version = strdup("CHANGED_TO_2_4_0"); // it should be changed to CHANGED_TO_3_0_0
-			package_type = PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE;
 		}
 		else{
 			changed_to_version = strdup("CHANGED_TO_2_4_0");
 		}
 	}
+	TryReturn(changed_to_version != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
 
 	ret = __initialize_db(&db, package_type);
 	if(ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
