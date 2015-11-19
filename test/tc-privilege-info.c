@@ -58,17 +58,7 @@ static void __check_get_privilege_display_name_result(privilege_manager_error_e 
         printf("matched\n");
         if(result == PRVMGR_ERR_NONE)
         {
-            if(display_name == NULL)
-            {
-                printf("display_name must not be NULL\n");
-                __change_color_to_red();
-                printf("test fail\n");
-                fail_cnt++;
-                __change_color_to_origin();
-                return;
-            }else{
-                printf("display_name = %s\n", display_name);
-            }
+            printf("display_name = %s\n", display_name);
         }else{
             if(display_name != NULL)
             {
@@ -103,17 +93,7 @@ static void __check_get_privilege_description_result(privilege_manager_error_e e
         printf("matched\n");
         if(result == PRVMGR_ERR_NONE)
         {
-            if(description == NULL)
-            {
-                printf("description must not be NULL\n");
-                __change_color_to_red();
-                printf("test fail\n");
-                fail_cnt++;
-                __change_color_to_origin();
-                return;
-            }else{
-                printf("description = %s\n", description);
-            }
+            printf("description = %s\n", description);
         }else{
             if(description != NULL)
             {
