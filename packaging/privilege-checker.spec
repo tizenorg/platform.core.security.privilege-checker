@@ -1,6 +1,6 @@
 Name:    privilege-checker
 Summary: Privilege Management
-Version: 0.0.4
+Version: 0.0.5
 Release: 3
 Group:   System/Libraries
 License: Apache-2.0
@@ -45,6 +45,7 @@ The Privilege Manager API provides functions to verify privilege information of 
 
 %package  -n tc-privilege-checker
 Summary:  tc-privilege-checker
+BuildRequires: pkgconfig(security-manager)
 
 %description -n tc-privilege-checker
 Testsuit for Privilege Manager APIs
@@ -103,11 +104,19 @@ cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-m
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
 cp capi/res/dbspace/tv_core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
+cp capi/res/dbspace/tv_wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
+cp capi/res/dbspace/tv_core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
 %else
 cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
 cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
 sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+cp capi/res/dbspace/core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
+cp capi/res/dbspace/wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
+sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
 %endif
 %make_install
 
@@ -126,8 +135,10 @@ sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "selec
 %{_datadir}/locale/*
 #%if "%{?profile}" != "tv"
 %{_datadir}/privilege-manager/.core_privilege_info.db
+%{_datadir}/privilege-manager/.core_privilege_mapping.db
 #%endif
 %{_datadir}/privilege-manager/.wrt_privilege_info.db
+%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
 %manifest packaging/capi-security-privilege-manager.manifest
 
 %files -n capi-security-privilege-manager-devel
