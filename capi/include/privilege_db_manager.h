@@ -63,6 +63,7 @@ typedef enum
 
 int privilege_db_manager_get_privilege_list(const char* api_version, privilege_db_manager_package_type_e package_type, GList** privilege_list);
 
+int privilege_db_manager_get_mapped_privilege_list(const char* api_version, privilege_db_manager_package_type_e package_type, GList* privilege_list, GList** mapped_privilege_list);
 
 int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, char** privilege_display);
 

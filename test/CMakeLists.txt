@@ -20,7 +20,7 @@ ELSEIF("${PROFILE_TYPE}" STREQUAL "TV")
     ADD_DEFINITIONS("-DPROFILE_TYPE_TV")
 ENDIF()
 
-SET(requires glib-2.0 dlog)
+SET(requires glib-2.0 dlog security-manager)
 INCLUDE(FindPkgConfig)
 pkg_check_modules(${PACKAGE_NAME} REQUIRED ${requires})
 FOREACH(flag ${${PACKAGE_NAME}_CFLAGS})
@@ -38,7 +38,11 @@ ADD_EXECUTABLE(${TC1_NAME} ${TC1_SRCS})
 ADD_EXECUTABLE(${TC2_NAME} ${TC2_SRCS})
 ADD_EXECUTABLE(${TC3_NAME} ${TC3_SRCS})
 
-TARGET_LINK_LIBRARIES(${TC1_NAME} "capi-security-privilege-manager")
+TARGET_LINK_LIBRARIES(${TC1_NAME} 
+	"capi-security-privilege-manager"
+	"security-manager-client"
+	"security-manager-commons"
+	)
 TARGET_LINK_LIBRARIES(${TC2_NAME} "capi-security-privilege-manager")
 TARGET_LINK_LIBRARIES(${TC3_NAME} "capi-security-privilege-manager")
 

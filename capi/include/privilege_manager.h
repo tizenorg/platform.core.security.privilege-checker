@@ -61,6 +61,24 @@ typedef enum
  */
 EXPORT_API int privilege_manager_verify_privilege(const char* api_version, privilege_manager_package_type_e package_type, GList* privilege_list, privilege_manager_visibility_e visibility, char **error_message);
 
+
+/**
+ * @brief get mapped privilege list of input privilege list according to the given package type, api version, and profile.
+ * @remarks @a privilege_list must be released with free() by you.
+ * @remarks @a mapped_privilege_list must be released with free() by you.
+ * @param [in] api_version The api version of the application
+ * @param [in] privilege_manager_package_type_e The privilege_manager_package_type_e
+ * @param [in] privilege_list The privilege_list
+ * @param [out] mapped_privilege_list The mapped_privilege_list is assigned when privileges mapped to the given privilege list are exist. Else, mapped_privilege_list is NULL. Mapped privileges are listed according to the given the privilege_list, package_type, api_version, and profile.
+ * @return 0 on success, otherwise a negative error value.
+ * @retval #PRVMGR_ERR_NONE Successful
+ * @retval #PRVMGR_ERR_OUT_OF_MEMORY Out of memory
+ * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
+ * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
+ */
+EXPORT_API int privilege_manager_get_mapped_privilege_list(const char* api_version, privilege_manager_package_type_e package_type, GList* privilege_list, GList** mapped_privilege_list);
+
+
 #ifdef __cplusplus
 }
 #endif
