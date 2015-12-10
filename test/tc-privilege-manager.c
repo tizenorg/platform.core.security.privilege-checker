@@ -18,81 +18,102 @@
 		__print_error_message(error_message); \
 		free(error_message); \
 		error_message = NULL; \
-	} \
-	else {;}
+	}
 
-static int fail_cnt=0;
-static int success_cnt=0;
-GList* privilege_list = NULL;
+static int fail_cnt = 0;
+static int success_cnt = 0;
+GList *privilege_list = NULL;
 
-static void __change_color_to_red(){
+static void __change_color_to_red()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, RED);
 }
 
-static void __change_color_to_green(){
+static void __change_color_to_green()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, GREEN);
 }
 
-static void __change_color_to_yellow(){
+static void __change_color_to_yellow()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, YELLOW);
 }
 
-static void __change_color_to_blue(){
+static void __change_color_to_blue()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, BLUE);
 }
 
-static void __change_color_to_magenta(){
+static void __change_color_to_magenta()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, MAGENTA);
 }
 
-static void __change_color_to_cyan(){
+static void __change_color_to_cyan()
+{
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, CYAN);
 }
-static void __change_color_to_origin(){
+
+static void __change_color_to_origin()
+{
 	printf("%c[%dm", 0x1B, 0);
 }
-static void __change_to_bold_white(){
+
+static void __change_to_bold_white()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, WHITE);
 }
-static void __change_to_bold_red(){
+
+static void __change_to_bold_red()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, RED);
 }
-static void __change_to_bold_green(){
+
+static void __change_to_bold_green()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, GREEN);
 }
-static void __change_to_bold_yellow(){
+
+static void __change_to_bold_yellow()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, YELLOW);
 }
-static void __change_to_bold_cyan(){
+
+static void __change_to_bold_cyan()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, CYAN);
 }
-static void __change_to_bold_blue(){
+
+static void __change_to_bold_blue()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, BLUE);
 }
-static void __change_to_bold_magenta(){
+
+static void __change_to_bold_magenta()
+{
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, MAGENTA);
 }
 
-static void __print_error_message(char* error_message)
+static void __print_error_message(char *error_message)
 {
-	char* token = NULL;
-	char* temp = strdup(error_message);
-	char* save = NULL;
+	char *token = NULL;
+	char *temp = strdup(error_message);
+	char *save = NULL;
 
-	char err_type[256] = {0,};
+	char err_type[256] = { 0, };
 
-	if (strstr(error_message, "DEPRECATED") != NULL) {
+	if (strstr(error_message, "DEPRECATED") != NULL)
 		strncat(err_type, "PRVMGR_ERR_DEPRECATED_PRIVILEGE ", strlen("PRVMGR_ERR_DEPRECATED_PRIVILEGE "));
-	}
-	if (strstr(error_message, "NO_EXIST") != NULL) {
+
+	if (strstr(error_message, "NO_EXIST") != NULL)
 		strncat(err_type, "PRVMGR_ERR_NO_EXIST_PRIVILEGE ", strlen("PRVMGR_ERR_NO_EXIST_PRIVILEGE "));
-	}
-	if (strstr(error_message, "MISMATCHED") != NULL) {
+
+	if (strstr(error_message, "MISMATCHED") != NULL)
 		strncat(err_type, "PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL ", strlen("PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL "));
-	}
-	if (strstr(error_message, "INVALID_PARAMETER") != NULL) {
+
+	if (strstr(error_message, "INVALID_PARAMETER") != NULL)
 		strncat(err_type, "PRVMGR_ERR_INVALID_PARAMETER ", strlen("PRVMGR_ERR_INVALID_PARAMETER "));
-	}
+
 
 	if (strlen(err_type) == 0) {
 		fail_cnt++;
@@ -113,64 +134,66 @@ static void __print_error_message(char* error_message)
 	free(temp);
 }
 
-static const char* __get_result_string(privilege_manager_error_e ret){
-	if (ret == PRVMGR_ERR_NONE) {
+static const char *__get_result_string(privilege_manager_error_e ret)
+{
+	if (ret == PRVMGR_ERR_NONE)
 		return "PRVMGR_ERR_NONE";
-	} else if (ret == PRVMGR_ERR_INTERNAL_ERROR) {
+	else if (ret == PRVMGR_ERR_INTERNAL_ERROR)
 		return "PRVMGR_ERR_INTERNAL_ERROR";
-	} else if (ret == PRVMGR_ERR_INVALID_PRIVILEGE) {
+	else if (ret == PRVMGR_ERR_INVALID_PRIVILEGE)
 		return "PRVMGR_ERR_INVALID_PRIVILEGE";
-	} else if (ret == PRVMGR_ERR_INVALID_PARAMETER) {
+	else if (ret == PRVMGR_ERR_INVALID_PARAMETER)
 		return "PRVMGR_ERR_INVALID_PARAMETER";
-	} else {
+	else
 		return "FAIL";
-	}
+
 }
 
-typedef enum
-{
-	goal		= 1,
-	cert_level	= 2,
-	api_version	= 3,
-	pkg_type	= 4,
-	expect		= 5
+typedef enum {
+	goal = 1,
+	cert_level = 2,
+	api_version = 3,
+	pkg_type = 4,
+	expect = 5
 } tcinfo_type_e;
 
-static void __tcinfo(tcinfo_type_e type, char* input_string, ...)
+static void __tcinfo(tcinfo_type_e type, char *input_string, ...)
 {
-	switch(type) {
-		case goal:
-			__change_color_to_yellow();
-			printf("TEST >> %s\n\n", input_string);
-			__change_color_to_origin();
-			break;
-		case cert_level:
-			printf("\n- signature level : %s\n\n", input_string);
-			break;
-		case api_version:
-			printf("API VERSION : %s\n", input_string);
-			break;
-		case pkg_type:
-			printf("PACKAGE TYPE : %s\n", input_string);
-			break;
-		case expect:
-			printf("- expected result : %s\n", input_string);
-			break;
-		default:
-			printf("no matching enum for input\n");
+	switch (type) {
+	case goal:
+		__change_color_to_yellow();
+		printf("TEST >> %s\n\n", input_string);
+		__change_color_to_origin();
+		break;
+	case cert_level:
+		printf("\n- signature level : %s\n\n", input_string);
+		break;
+	case api_version:
+		printf("API VERSION : %s\n", input_string);
+		break;
+	case pkg_type:
+		printf("PACKAGE TYPE : %s\n", input_string);
+		break;
+	case expect:
+		printf("- expected result : %s\n", input_string);
+		break;
+	default:
+		printf("no matching enum for input\n");
 	}
 }
 
-static void __privinfo(char* name, char* level, char* comment)
+static void __privinfo(char *name, char *level, char *comment)
 {
-	if (level != NULL) printf("|%s| ", level);
+	if (level != NULL)
+		printf("|%s| ", level);
 	printf("%s", name);
 	privilege_list = g_list_append(privilege_list, name);
-	if (comment != NULL) printf("   -- %s", comment);
+	if (comment != NULL)
+		printf("   -- %s", comment);
 	printf("\n");
 }
 
-static void __print_result(char* input_string)
+static void __print_result(char *input_string)
 {
 	printf("- achieved result : %s\n\n", input_string);
 }
@@ -179,29 +202,29 @@ static void __print_line()
 {
 	printf("-------------------------------------------------------------------\n");
 }
+
 static void __print_dline()
 {
 	printf("===================================================================\n");
 }
 
-static void __print_privilege_list(GList* privilege_list)
+static void __print_privilege_list(GList * privilege_list)
 {
-	GList* l;
+	GList *l;
 	printf("Print mapped privilege list: \n");
-	for (l = privilege_list; l != NULL; l = l->next){
-		char* privilege_name = (char*)l->data;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		char *privilege_name = (char *)l->data;
 		printf("%s\n", privilege_name);
 	}
 }
 
 static void __check_verify_result(privilege_manager_error_e expected_result, privilege_manager_error_e result)
 {
-	if(expected_result != result)
-	{
+	if (expected_result != result) {
 		__change_to_bold_red();
 		printf(">> test fail\n");
 		fail_cnt++;
-	}else{
+	} else {
 		__change_color_to_green();
 		printf(">> test success\n");
 		success_cnt++;
@@ -212,7 +235,7 @@ static void __check_verify_result(privilege_manager_error_e expected_result, pri
 static void __test_privilege_manager_get_mapped_privilege_list()
 {
 	int ret = 0;
-	GList* mapped_privilege_list;
+	GList *mapped_privilege_list;
 
 	__tcinfo(goal, "api_version == NULL");
 	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
@@ -222,294 +245,290 @@ static void __test_privilege_manager_get_mapped_privilege_list()
 	ret = privilege_manager_get_mapped_privilege_list(NULL, PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
 	__print_result(__get_result_string(ret));
 	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
-    __print_line();
+	__print_line();
 
 	g_list_free(privilege_list);
-    privilege_list = NULL;
+	privilege_list = NULL;
 	__tcinfo(goal, "api_version == 2.3.4.5.1");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/camera", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/camera", NULL, NULL);
 	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
-    ret = privilege_manager_get_mapped_privilege_list("2.3.4.5.1", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
+	ret = privilege_manager_get_mapped_privilege_list("2.3.4.5.1", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
+	__print_line();
 
 	g_list_free(privilege_list);
-    privilege_list = NULL;
-    __tcinfo(goal, "api_version == 2.3");
-    __privinfo("http://tizen.org/privilege/wrong-privilege-name", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-	if (mapped_privilege_list == NULL) printf("it's null\n");
-	else printf("it's NOT null\n");
-	__print_privilege_list(mapped_privilege_list);
-    __print_line();
+	privilege_list = NULL;
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+	__tcinfo(goal, "api_version == 2.3");
+	__privinfo("http://tizen.org/privilege/wrong-privilege-name", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	if (mapped_privilege_list == NULL)
+		printf("it's null\n");
+	else
+		printf("it's NOT null\n");
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
 #ifdef PROFILE_TYPE_MOBILE
 
-    /* 2.3 core - mobile */
-    __print_dline();
-    __change_to_bold_yellow();
-    __tcinfo(api_version, "2.3");
-    __tcinfo(pkg_type, "core");
-    __change_color_to_origin();
-    __print_dline();
+	/* 2.3 core - mobile */
+	__print_dline();
+	__change_to_bold_yellow();
+	__tcinfo(api_version, "2.3");
+	__tcinfo(pkg_type, "core");
+	__change_color_to_origin();
+	__print_dline();
 
 	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/camera", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/camera", NULL, NULL);
 	__tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
 	__print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
-	__privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
-	__privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-	/* 2.2.1 wrt - mobile */
-    __print_dline();
-    __change_to_bold_yellow();
-    __tcinfo(api_version, "2.2.1");
-    __tcinfo(pkg_type, "wrt");
-    __change_color_to_origin();
-    __print_dline();
-
-	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-
-	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/contact.write", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/datasync", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-
-	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/content.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.p2p", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/call", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/internet", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-	/* 2.3 wrt - mobile */
-    __print_dline();
-    __change_to_bold_yellow();
-    __tcinfo(api_version, "2.3");
-    __tcinfo(pkg_type, "wrt");
-    __change_color_to_origin();
-    __print_dline();
-
-	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-
-    __tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/contact.write", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/datasync", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
-
-    g_list_free(privilege_list);
-    privilege_list = NULL;
-
-
-    __tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/content.read", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/nfc.p2p", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/call", NULL, NULL);
-    __privinfo("http://tizen.org/privilege/internet", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
+	__print_line();
 
 	g_list_free(privilege_list);
-    privilege_list = NULL;
+	privilege_list = NULL;
 
 	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/location", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	/* 2.2.1 wrt - mobile */
+	__print_dline();
+	__change_to_bold_yellow();
+	__tcinfo(api_version, "2.2.1");
+	__tcinfo(pkg_type, "wrt");
+	__change_color_to_origin();
+	__print_dline();
 
 	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/contact.write", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/datasync", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/content.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.p2p", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/call", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/internet", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.2.1", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	/* 2.3 wrt - mobile */
+	__print_dline();
+	__change_to_bold_yellow();
+	__tcinfo(api_version, "2.3");
+	__tcinfo(pkg_type, "wrt");
+	__change_color_to_origin();
+	__print_dline();
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.write", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/contact.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/account.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.admin", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/contact.write", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/datasync", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/public", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/content.read", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/nfc.p2p", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/call", NULL, NULL);
+	__privinfo("http://tizen.org/privilege/internet", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/location", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.3", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
 	/* 2.4 wrt - mobile */
-    __print_dline();
-    __change_to_bold_yellow();
-    __tcinfo(api_version, "2.4");
-    __tcinfo(pkg_type, "wrt");
-    __change_color_to_origin();
-    __print_dline();
+	__print_dline();
+	__change_to_bold_yellow();
+	__tcinfo(api_version, "2.4");
+	__tcinfo(pkg_type, "wrt");
+	__change_color_to_origin();
+	__print_dline();
 
 	__tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/location", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
+	__privinfo("http://tizen.org/privilege/location", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
-    __tcinfo(goal, "normal mapping");
-    __privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
-    __tcinfo(expect, "PRVMGR_ERR_NONE");
-    ret = privilege_manager_get_mapped_privilege_list("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-    __print_result(__get_result_string(ret));
-    __check_verify_result(PRVMGR_ERR_NONE, ret);
-    __print_privilege_list(mapped_privilege_list);
-    __print_line();
+	__tcinfo(goal, "normal mapping");
+	__privinfo("http://tizen.org/privilege/internal/default/platform", NULL, NULL);
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_get_mapped_privilege_list("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
+	__print_result(__get_result_string(ret));
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_privilege_list(mapped_privilege_list);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
 #endif
 }
 
 static void __test_privilege_manager_verify_privilege()
 {
-	char* error_message = NULL;
+	char *error_message = NULL;
 	int ret = 0;
 
 	__tcinfo(goal, "api_version == NULL");
-    __privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
-    __tcinfo(cert_level, "public");
-    __tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
-    ret = privilege_manager_verify_privilege(NULL, PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
-    ShowErrorMsg(error_message != NULL, error_message, ret);
-    __check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
-    __print_line();
+	__privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
+	ret = privilege_manager_verify_privilege(NULL, PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
 	__tcinfo(goal, "invalid api_version == 2.3.4.2.1");
-    __privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
-    __privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
-    __tcinfo(cert_level, "public");
-    __tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
-    ret = privilege_manager_verify_privilege("2.3.4.2.1", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
-    ShowErrorMsg(error_message != NULL, error_message, ret);
-    __check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
-    __print_line();
+	__privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
+	ret = privilege_manager_verify_privilege("2.3.4.2.1", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
+	__print_line();
 
-    g_list_free(privilege_list);
-    privilege_list = NULL;
+	g_list_free(privilege_list);
+	privilege_list = NULL;
 
 #ifdef PROFILE_TYPE_MOBILE
 
@@ -1008,7 +1027,6 @@ static void __test_privilege_manager_verify_privilege()
 	ShowErrorMsg(error_message != NULL, error_message, ret);
 	__check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
 	__print_line();
-
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -1518,7 +1536,6 @@ static void __test_privilege_manager_verify_privilege()
 	__check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
 	__print_line();
 
-
 	g_list_free(privilege_list);
 	privilege_list = NULL;
 	__tcinfo(goal, "!!! LEVEL MISMATCHED !!! -- with public signatured certificate");
@@ -1810,7 +1827,7 @@ static void __test_privilege_manager_verify_privilege()
 	__print_line();
 #endif
 	g_list_free(privilege_list);
-    privilege_list = NULL;
+	privilege_list = NULL;
 }
 
 int main()
@@ -1821,9 +1838,9 @@ int main()
 	__test_privilege_manager_verify_privilege();
 
 	__change_color_to_yellow();
-    printf("Test function : privilege_manager_get_mapped_privilege_list\n");
-    __change_color_to_origin();
-    __test_privilege_manager_get_mapped_privilege_list();
+	printf("Test function : privilege_manager_get_mapped_privilege_list\n");
+	__change_color_to_origin();
+	__test_privilege_manager_get_mapped_privilege_list();
 
 	__change_color_to_green();
 	printf("Test Complete\n");
@@ -1834,4 +1851,3 @@ int main()
 
 	return 0;
 }
-
