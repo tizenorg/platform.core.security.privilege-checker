@@ -45,7 +45,6 @@ The Privilege Manager API provides functions to verify privilege information of 
 
 %package  -n tc-privilege-checker
 Summary:  tc-privilege-checker
-BuildRequires: pkgconfig(security-manager)
 
 %description -n tc-privilege-checker
 Testsuit for Privilege Manager APIs

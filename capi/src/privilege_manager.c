@@ -219,6 +219,10 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	}
 	if (package_type == PRVMGR_PACKAGE_TYPE_WRT) {
 		char *tmp_api_version = strdup(api_version);
+		TryReturn(tmp_api_version != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] tmp_api_version's strdup is failed.");
+		size_t new_size = snprintf(0, 0, "%s%s", tmp_api_version, API_VERSION_PADDING) + 1;
+        tmp_api_version = realloc(tmp_api_version, new_size * sizeof(char));
+        TryReturn(tmp_api_version != NULL, free(tmp_api_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] tmp_api_version's realloc is failed.");
 		strncat(tmp_api_version, ".0", strlen(".0"));
 
 		for (i = 0; i < 5; i++) {
