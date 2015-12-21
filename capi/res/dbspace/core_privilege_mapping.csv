@@ -46,6 +46,9 @@ wearable,http://tizen.org/privilege/contact.write,2.4,9.9,http://tizen.org/privi
 wearable,http://tizen.org/privilege/contact.write,2.4,9.9,http://tizen.org/privilege/internal/buxton/contact.read
 mobile,http://tizen.org/privilege/content.write,2.3,9.9,http://tizen.org/privilege/content.write
 wearable,http://tizen.org/privilege/content.write,2.3.1,9.9,http://tizen.org/privilege/content.write
+common,http://tizen.org/privilege/d2d.admin,3,9.9,http://tizen.org/privilege/d2d.admin
+common,http://tizen.org/privilege/d2d.appcontrol,3,9.9,http://tizen.org/privilege/d2d.appcontrol
+common,http://tizen.org/privilege/d2d.datasharing,3,9.9,http://tizen.org/privilege/d2d.datasharing
 mobile,http://tizen.org/privilege/datasharing,2.3,9.9,http://tizen.org/privilege/datasharing
 wearable,http://tizen.org/privilege/datasharing,2.3.1,9.9,http://tizen.org/privilege/datasharing
 mobile,http://tizen.org/privilege/display,2.3,9.9,http://tizen.org/privilege/display

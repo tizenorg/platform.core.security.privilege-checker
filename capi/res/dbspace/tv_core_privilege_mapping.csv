@@ -25,6 +25,9 @@ tv,http://tizen.org/privilege/contact.read,2.4,9.9,http://tizen.org/privilege/in
 tv,http://tizen.org/privilege/contact.write,2.4,9.9,http://tizen.org/privilege/contact.write
 tv,http://tizen.org/privilege/contact.write,2.4,9.9,http://tizen.org/privilege/internal/buxton/contact.read
 tv,http://tizen.org/privilege/content.write,2.4,9.9,http://tizen.org/privilege/content.write
+tv,http://tizen.org/privilege/d2d.admin,3,9.9,http://tizen.org/privilege/d2d.admin
+tv,http://tizen.org/privilege/d2d.appcontrol,3,9.9,http://tizen.org/privilege/d2d.appcontrol
+tv,http://tizen.org/privilege/d2d.datasharing,3,9.9,http://tizen.org/privilege/d2d.datasharing
 tv,http://tizen.org/privilege/datasharing,2.4,9.9,http://tizen.org/privilege/datasharing
 tv,http://tizen.org/privilege/display,2.4,9.9,http://tizen.org/privilege/display
 tv,http://tizen.org/privilege/download,2.4,9.9,http://tizen.org/privilege/download

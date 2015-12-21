@@ -320,6 +320,26 @@ static void __test_privilege_manager_get_mapped_privilege_list()
 	g_list_free(privilege_list);
 	privilege_list = NULL;
 
+    /* 3.0 core - mobile */
+    __print_dline();
+    __change_to_bold_yellow();
+    __tcinfo(api_version, "2.3");
+    __tcinfo(pkg_type, "core");
+    __change_color_to_origin();
+    __print_dline();
+
+	__tcinfo(goal, "normal mapping");
+    __privinfo("http://tizen.org/privilege/message.read", NULL, NULL);
+    __tcinfo(expect, "PRVMGR_ERR_NONE");
+    ret = privilege_manager_get_mapped_privilege_list("3.0", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, &mapped_privilege_list);
+    __print_result(__get_result_string(ret));
+    __check_verify_result(PRVMGR_ERR_NONE, ret);
+    __print_privilege_list(mapped_privilege_list);
+    __print_line();
+
+    g_list_free(privilege_list);
+    privilege_list = NULL;
+
 	/* 2.2.1 wrt - mobile */
 	__print_dline();
 	__change_to_bold_yellow();
