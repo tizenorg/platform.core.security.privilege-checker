@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DB_NAME="wrt_privilege_info.db"
-
+DB_NAME=".wrt_privilege_info.db"
+target_profile=$1
 rm $DB_NAME 2> /dev/null
 echo "Creating $DB_NAME ..."
 touch $DB_NAME
@@ -23,21 +23,25 @@ do
 	#echo PROFILE = $PROFILE
 
 	if [ "$PROFILE" = "common" ]
-	then
-		PROFILE_ID=0
+    then
+        PROFILE_ID=0
+    elif [ ! "$PROFILE" = "$target_profile" ]
+    then
+        continue
+    elif [ "$PROFILE" = "mobile" ]
+    then
+        PROFILE_ID=1
 
-	elif [ "$PROFILE" = "mobile" ]
-	then
-		PROFILE_ID=1
-
-	elif [ "$PROFILE" = "wearable" ]
-	then
-		PROFILE_ID=2
-
-	else
-		echo "Fail to create table : PROFILE must be common, mobile or wearable"
-		exit
-	fi
+    elif [ "$PROFILE" = "wearable" ]
+    then
+        PROFILE_ID=2
+    elif [ "$PROFILE" = "tv" ]
+    then
+        PROFILE_ID=3
+    else
+        echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
+        exit
+    fi
 
 	PACKAGE_TYPE=`echo $i | cut -d "," -f 2`
 
@@ -133,4 +137,4 @@ do
 done
 
 echo "Check inserted data"
-sqlite3 $DB_NAME "select * from privilege_info"
+#sqlite3 $DB_NAME "select * from privilege_info"

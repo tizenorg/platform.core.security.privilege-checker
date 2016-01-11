@@ -1,10 +1,12 @@
 #!/bin/bash
 
-DB_NAME="core_privilege_info.db"
+DB_NAME=".core_privilege_info.db"
 
 rm $DB_NAME 2> /dev/null
 echo "Creating $DB_NAME ..."
 touch $DB_NAME
+
+target_profile=$1
 
 echo "Creating PRIVILEGE_INFO table ..."
 sqlite3 $DB_NAME "CREATE TABLE PRIVILEGE_INFO (PROFILE_ID NUMERIC, PROFILE TEXT, PACKAGE_TYPE_ID NUMERIC, PACKAGE_TYPE TEXT, PRIVILEGE_LEVEL_ID NUMERIC, PRIVILEGE_LEVEL TEXT, API_VERSION_ISSUED TEXT, API_VERSION_EXPIRED TEXT, DOCUMENTED INTEGER, PRIVILEGE_NAME TEXT, PRIVILEGE_DISPLAY TEXT, PRIVILEGE_DESCRIPTION TEXT, PRIVILEGE_GROUP_ID NUMERIC, PRIVLEGE_GROUP TEXT, CHANGED_TO_2_3_1 TEXT, CHANGED_TO_2_4_0 TEXT);"
@@ -25,7 +27,9 @@ do
 	if [ "$PROFILE" = "common" ]
 	then
 		PROFILE_ID=0
-
+	elif [ ! "$PROFILE" = "$target_profile" ]
+	then
+		continue
 	elif [ "$PROFILE" = "mobile" ]
 	then
 		PROFILE_ID=1
@@ -33,9 +37,11 @@ do
 	elif [ "$PROFILE" = "wearable" ]
 	then
 		PROFILE_ID=2
-
+	elif [ "$PROFILE" = "tv" ]
+	then
+		PROFILE_ID=3
 	else
-		echo "Fail to create table : PROFILE must be common, mobile or wearable"
+		echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
 		exit
 	fi
 
@@ -134,4 +140,4 @@ do
 done
 
 echo "Check inserted data"
-sqlite3 $DB_NAME "select * from privilege_info"
+#sqlite3 $DB_NAME "select * from privilege_info"
