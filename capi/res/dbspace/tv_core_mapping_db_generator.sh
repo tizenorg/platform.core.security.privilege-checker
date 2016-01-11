@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DB_NAME="tv_core_privilege_mapping.db"
+DB_NAME=".core_privilege_mapping.db"
 
 rm $DB_NAME 2> /dev/null
 echo "Creating $DB_NAME ..."

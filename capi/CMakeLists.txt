@@ -128,4 +128,4 @@ ADD_CUSTOM_TARGET(privilege-string ALL DEPENDS ${mo_files})
 
 INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/cmake_build_tmp/output/target/generic/root/usr/share/locale DESTINATION ${DATADIR})
 
-
+ADD_SUBDIRECTORY(res/dbspace)

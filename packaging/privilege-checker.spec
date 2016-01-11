@@ -98,25 +98,25 @@ mkdir -p %{buildroot}%{_datadir}/license
 cp LICENSE.APLv2 %{buildroot}%{_datadir}/license/privilege-checker
 mkdir -p %{buildroot}/opt/dbspace
 mkdir -p %{buildroot}%{_datadir}/privilege-manager
-%if "%{?profile}" == "tv"
-cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
-cp capi/res/dbspace/tv_core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
-cp capi/res/dbspace/tv_wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
-cp capi/res/dbspace/tv_core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
-%else
-cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
-cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
-cp capi/res/dbspace/core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
-cp capi/res/dbspace/wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
-sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
-%endif
+#%if "%{?profile}" == "tv"
+#cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+#cp capi/res/dbspace/tv_core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
+#cp capi/res/dbspace/tv_wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
+#cp capi/res/dbspace/tv_core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
+#%else
+#cp capi/res/dbspace/core_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_info.db "select * from privilege_info"
+#cp capi/res/dbspace/wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db "select * from privilege_info"
+#cp capi/res/dbspace/core_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.core_privilege_mapping.db "select * from privilege_mapping"
+#cp capi/res/dbspace/wrt_privilege_mapping.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db
+#sqlite3 /%{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_mapping.db "select * from privilege_mapping"
+#%endif
 %make_install
 
 %post -p /sbin/ldconfig

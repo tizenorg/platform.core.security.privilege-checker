@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DB_NAME="tv_wrt_privilege_info.db"
+DB_NAME=".wrt_privilege_info.db"
 
 rm $DB_NAME 2> /dev/null
 echo "Creating $DB_NAME ..."
