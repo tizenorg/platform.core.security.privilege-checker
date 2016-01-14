@@ -44,6 +44,8 @@ common,http://tizen.org/privilege/content.read,2,9.9,http://tizen.org/privilege/
 common,http://tizen.org/privilege/content.write,2,9.9,http://tizen.org/privilege/content.write,
 mobile,http://tizen.org/privilege/datacontrol.consumer,2.1,9.9,http://tizen.org/privilege/appmanager.launch,
 mobile,http://tizen.org/privilege/datacontrol.consumer,2.1,9.9,http://tizen.org/privilege/datasharing,
+wearable,http://tizen.org/privilege/datacontrol.consumer,2.3.2,9.9,http://tizen.org/privilege/appmanager.launch,
+wearable,http://tizen.org/privilege/datacontrol.consumer,2.3.2,9.9,http://tizen.org/privilege/datasharing,
 mobile,http://tizen.org/privilege/datasync,2.1,9.9,http://tizen.org/privilege/notexist,
 common,http://tizen.org/privilege/download,2,9.9,http://tizen.org/privilege/download,
 common,http://tizen.org/privilege/filesystem.read,1,9.9,http://tizen.org/privilege/systemsettings.admin,
