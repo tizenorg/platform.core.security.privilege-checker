@@ -17,6 +17,8 @@
 #ifndef __TIZEN_SECURITY_PRIVILEGE_INFO_H
 #define __TIZEN_SECURITY_PRIVILEGE_INFO_H
 
+#include "privilege_db_manager.h"
+
 #ifndef EXPORT_API
 #define EXPORT_API __attribute__((__visibility__("default")))
 #endif
@@ -122,6 +124,36 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
  * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
  */
 EXPORT_API int privilege_info_get_privilege_description(const char *privilege, char **description);
+
+/**
+ * @brief Determines whether the given privilege is privacy related or not.
+ * @param [in]  privilege The privilege
+ * @return 1 if true(=is privacy related privilege), 0 if false, and -1 on error
+ */
+EXPORT_API int privilege_info_is_privacy(const char *privilege);
+
+/**
+ * @brief Gets all privacy list.
+ * @remarks @a privacy_list must be released with g_list_free() by you.
+ * @param [out]  privacy_list The privacy list
+ * @return 0 on success, otherwise a nonzero error value.
+ * @retval #PRVMGR_ERR_NONE Successful
+ * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
+ * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
+ */
+EXPORT_API int privilege_info_get_privacy_list(GList **privacy_list);
+
+/**
+ * @brief Gets privilege list with the given privacy.
+ * @remarks @a privilege_list must be released with g_list_free() by you.
+ * @param [in]  privacy The privacy
+ * @param [out] privilege_list The list of privileges mapped to the given privacy
+ * @return 0 on success, otherwise a nonzero error value.
+ * @retval #PRVMGR_ERR_NONE Successful
+ * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
+ * @retval #PRVMGR_ERR_INVALID_PARAMETER Invalid parameter
+ */
+EXPORT_API int privilege_info_get_privilege_list_by_privacy(const char *privacy, GList **privilege_list);
 
 #ifdef __cplusplus
 }
