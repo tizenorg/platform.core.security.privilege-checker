@@ -19,7 +19,6 @@
 #include <locale.h>
 #include <dlog.h>
 #include <pkgmgr-info.h>
-#include "privilege_db_manager.h"
 #include "privilege_info.h"
 #include "privilege_info_types.h"
 
@@ -528,4 +527,22 @@ int privilege_info_get_privilege_description(const char *privilege, char **descr
 		free(description_string_id);
 
 	return PRVMGR_ERR_NONE;
+}
+
+int privilege_info_is_privacy(const char* privilege)
+{
+	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+
+	return __privilege_db_manager_is_privacy(privilege);
+}
+
+int privilege_info_get_privacy_list(GList **privacy_list)
+{
+	return __privilege_db_manager_get_privacy_list(privacy_list);
+}
+
+int privilege_info_get_privilege_list_by_privacy(const char* privacy, GList **privilege_list)
+{
+	TryReturn(privacy != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privacy is NULL");
+	return __privilege_db_manager_get_privilege_list_by_privacy(privacy, privilege_list);
 }

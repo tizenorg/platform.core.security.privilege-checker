@@ -149,6 +149,77 @@ static void __check_get_privilege_group_display_name_result(privilege_manager_er
 	}
 	__change_color_to_origin();
 }
+static void __test_privilege_info_is_privacy()
+{
+	int ret;
+	printf("-----------------------------------------------------------\n");
+	printf("privilege : http://tizen.org/privilege/account.read\n");
+	ret = privilege_info_is_privacy("http://tizen.org/privilege/account.read");
+	if (ret == 1)
+		printf("SUCCESS: http://tizen.org/privilege/account.read is PRIVACY\n");
+	else if (ret == 0)
+		printf("Test FAILED\n");
+
+	printf("-----------------------------------------------------------\n");
+	printf("privilege : http://tizen.org/privilege/internet\n");
+	ret = privilege_info_is_privacy("http://tizen.org/privilege/internet");
+	if (ret == 0)
+		printf("SUCCESS: http://tizen.org/privilege/internet is NOT PRIVACY\n");
+	else if (ret == 1)
+		printf("Test FAILED\n");
+}
+
+static void __test_privilege_info_get_privacy_list()
+{
+	GList* privacy_list = NULL;
+	GList* l;
+	int ret = privilege_info_get_privacy_list(&privacy_list);
+	if (ret == 0) {
+		for (l = privacy_list; l != NULL; l = l->next) {
+			char *privacy_name = (char*)l->data;
+			printf("%s\n", privacy_name);
+		}
+	} else {
+		printf("Test FAILED\n");
+	}
+	g_list_free(privacy_list);
+}
+
+static void __test_privilege_info_get_privilege_list_by_privacy()
+{
+	GList* privilege_list = NULL;
+	GList* l;
+	printf("-----------------------------------------------------------\n");
+	printf("privacy : ACCOUNT\n");
+	int ret = privilege_info_get_privilege_list_by_privacy("ACCOUNT", &privilege_list);
+	if (ret == 0) {
+		for (l = privilege_list; l != NULL; l = l->next) {
+			char *privilege_name = (char*)l->data;
+			printf("%s\n", privilege_name);
+		}
+	} else {
+		printf("Test FAILED\n");
+	}
+
+	if (privilege_list != NULL) {
+		g_list_free(privilege_list);
+		privilege_list = NULL;
+	}
+
+	printf("-----------------------------------------------------------\n");
+	printf("privacy : USERHISTORY\n");
+	ret = privilege_info_get_privilege_list_by_privacy("USERHISTORY", &privilege_list);
+	if (ret == 0) {
+		for (l = privilege_list; l != NULL; l = l->next) {
+			char *privilege_name = (char*)l->data;
+			printf("%s\n", privilege_name);
+		}
+	} else {
+		printf("Test FAILED\n");
+	}
+
+	g_list_free(privilege_list);
+}
 
 static void __test_privilege_info_get_privilege_display_name()
 {
@@ -267,6 +338,11 @@ static void __test__privilege_info_get_privilege_group_display_name()
 int main()
 {
 	__change_color_to_yellow();
+	printf("Test function : privilege_info_is_privacy()\n");
+	__change_color_to_origin();
+	__test_privilege_info_is_privacy();
+
+	__change_color_to_yellow();
 	printf("Test function : privilege_info_get_privilege_display_name\n");
 	__change_color_to_origin();
 	__test_privilege_info_get_privilege_display_name();
@@ -280,6 +356,16 @@ int main()
 	printf("Test function : privilege_info_get_privilege_group_display_name\n");
 	__change_color_to_origin();
 	__test__privilege_info_get_privilege_group_display_name();
+
+	__change_color_to_yellow();
+	printf("Test function : privilege_info_get_privacy_list\n");
+	__change_color_to_origin();
+	__test_privilege_info_get_privacy_list();
+
+	__change_color_to_yellow();
+	printf("Test function : privilege_info_get_privilege_list_by_privacy\n");
+	__change_color_to_origin();
+	__test_privilege_info_get_privilege_list_by_privacy();
 
 	__change_color_to_green();
 	printf("Test Complete\n");

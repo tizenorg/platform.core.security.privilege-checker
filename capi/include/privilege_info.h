@@ -17,6 +17,8 @@
 #ifndef __TIZEN_SECURITY_PRIVILEGE_INFO_H
 #define __TIZEN_SECURITY_PRIVILEGE_INFO_H
 
+#include "privilege_db_manager.h"
+
 #ifndef EXPORT_API
 #define EXPORT_API __attribute__((__visibility__("default")))
 #endif

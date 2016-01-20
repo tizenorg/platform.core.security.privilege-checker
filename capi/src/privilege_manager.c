@@ -223,17 +223,12 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 		size_t new_size = snprintf(0, 0, "%s%s", tmp_api_version, API_VERSION_PADDING) + 1;
 		tmp_api_version = realloc(tmp_api_version, new_size * sizeof(char));
 		TryReturn(tmp_api_version != NULL, free(tmp_api_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] tmp_api_version's realloc is failed.");
-		strncat(tmp_api_version, ".0", strlen(".0"));
-
-		for (i = 0; i < 5; i++) {
-			if (!(tmp_api_version[i] >= wrt_active_version[i])) {
-				if (i >= 2) {
-					if (!(tmp_api_version[i - 2] > wrt_active_version[i - 2]))
-						is_valid_wrt_version = 0;
-				} else {
-					is_valid_wrt_version = 0;
-				}
-			}
+		strncat(tmp_api_version, API_VERSION_PADDING, API_VERSION_PADDING_LEN);
+		for (i = 0; is_valid_wrt_version == 1 && i < MAX_API_VERSION_LEN; i++) {
+			if (tmp_api_version[i] < wrt_active_version[i])
+				is_valid_wrt_version = 0;
+			else if (tmp_api_version[i] > wrt_active_version[i])
+				break;
 		}
 		pkg_type = strdup("WRT");
 		TryReturn(pkg_type != NULL, free(tmp_api_version), PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] pkg_type's strdup is failed.");
