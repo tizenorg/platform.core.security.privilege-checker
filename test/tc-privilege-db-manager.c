@@ -262,6 +262,7 @@ void __test_privilege_db_manager_get_privilege_display()
 	int ret;
 
 	char *privilege_display = NULL;
+#ifdef PROFILE_TYPE_MOBILE
 	printf("-----------------------------------------------------------\n");
 	printf("privilege : http://tizen.org/privilege/location\n");
 	printf("privilege_type : core\n");
@@ -269,7 +270,7 @@ void __test_privilege_db_manager_get_privilege_display()
 	ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, "http://tizen.org/privilege/location", "2.3", &privilege_display);
 	__check_get_privilege_display_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
 	free(privilege_display);
-
+#endif
 	printf("-----------------------------------------------------------\n");
 	printf("privilege : http://tizen.org/privilege/power\n");
 	printf("privilege_type : wrt\n");
@@ -340,6 +341,7 @@ void __test_privilege_db_manager_get_privilege_description()
 	int ret;
 
 	char *privilege_description = NULL;
+#ifdef PROFILE_TYPE_MOBILE
 	printf("-----------------------------------------------------------\n");
 	printf("privilege : http://tizen.org/privilege/location\n");
 	printf("privilege_type : core\n");
@@ -351,7 +353,7 @@ void __test_privilege_db_manager_get_privilege_description()
 		free(privilege_description);
 		privilege_description = NULL;
 	}
-
+#endif
 	printf("-----------------------------------------------------------\n");
 	printf("privilege : http://tizen.org/privilege/power\n");
 	printf("privilege_type : wrt\n");

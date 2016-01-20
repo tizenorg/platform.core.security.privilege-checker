@@ -279,11 +279,10 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 
 	char *sql = NULL;
 
-	if (api_version == NULL) {
-		sql = sqlite3_mprintf("select privilege_description from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q", PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name);;
-	} else {
+	if (api_version == NULL)
+		sql = sqlite3_mprintf("select privilege_description from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q", PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name);
+	else
 		sql = sqlite3_mprintf("select privilege_description from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q and api_version_issued<=%Q and api_version_expired>=%Q", PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name, api_version, api_version);
-	}
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if (ret != SQLITE_OK) {
@@ -337,4 +336,99 @@ int privilege_db_manager_get_privilege_group_display(privilege_db_manager_packag
 
 	__finalize_db(db, stmt);
 	return PRIVILEGE_DB_NO_EXIST_RESULT;
+}
+
+int __privilege_db_manager_is_privacy(const char* privilege)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return -1;
+
+	char *sql = sqlite3_mprintf("select is_privacy from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q",
+								PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege);
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	ret = sqlite3_step(stmt);
+	if (ret == SQLITE_ROW)
+		ret = sqlite3_column_int(stmt, 0);
+	else
+		ret = -1;
+
+	__finalize_db(db, stmt);
+	return ret;
+}
+
+int __privilege_db_manager_get_privacy_list(GList **privacy_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	char *sql = sqlite3_mprintf("select DISTINCT privacy_group from privilege_info where is_privacy=1 order by privacy_group");
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	GList* temp_privacy_list = NULL;
+	do {
+		ret = sqlite3_step(stmt);
+		if (ret == SQLITE_ROW) {
+			char *privacy_name = strdup((char *)sqlite3_column_text(stmt, 0));
+			temp_privacy_list = g_list_append(temp_privacy_list, privacy_name);
+		}
+	} while (ret == SQLITE_ROW);
+
+	*privacy_list = temp_privacy_list;
+
+	__finalize_db(db, stmt);
+
+	return PRIVILEGE_DB_MANAGER_ERR_NONE;
+
+}
+
+int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GList **privilege_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	char *sql = sqlite3_mprintf("select distinct privilege_name from privilege_info where is_privacy=1 and privacy_group=%Q", privacy);
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	GList* temp_privilege_list = NULL;
+	do {
+		ret = sqlite3_step(stmt);
+		if (ret == SQLITE_ROW) {
+			char *privilege_name = strdup((char *)sqlite3_column_text(stmt, 0));
+			temp_privilege_list = g_list_append(temp_privilege_list, privilege_name);
+		}
+	} while (ret == SQLITE_ROW);
+
+	*privilege_list = temp_privilege_list;
+
+	__finalize_db(db, stmt);
+
+	return PRIVILEGE_DB_MANAGER_ERR_NONE;
+
 }
