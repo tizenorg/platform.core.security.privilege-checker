@@ -7,7 +7,7 @@ echo "Creating $DB_NAME ..."
 touch $DB_NAME
 
 echo "Creating PRIVILEGE_INFO table ..."
-sqlite3 $DB_NAME "CREATE TABLE PRIVILEGE_INFO (PROFILE_ID NUMERIC, PROFILE TEXT, PACKAGE_TYPE_ID NUMERIC, PACKAGE_TYPE TEXT, PRIVILEGE_LEVEL_ID NUMERIC, PRIVILEGE_LEVEL TEXT, API_VERSION_ISSUED TEXT, API_VERSION_EXPIRED TEXT, DOCUMENTED INTEGER, PRIVILEGE_NAME TEXT, PRIVILEGE_DISPLAY TEXT, PRIVILEGE_DESCRIPTION TEXT, PRIVILEGE_GROUP_ID NUMERIC, PRIVLEGE_GROUP TEXT, CHANGED_TO_2_4_0 TEXT);"
+sqlite3 $DB_NAME "CREATE TABLE PRIVILEGE_INFO (PROFILE_ID NUMERIC, PROFILE TEXT, PACKAGE_TYPE_ID NUMERIC, PACKAGE_TYPE TEXT, PRIVILEGE_LEVEL_ID NUMERIC, PRIVILEGE_LEVEL TEXT, API_VERSION_ISSUED TEXT, API_VERSION_EXPIRED TEXT, DOCUMENTED INTEGER, PRIVILEGE_NAME TEXT, IS_PRIVACY NUMERIC, PRIVACY_GROUP TEXT, PRIVILEGE_DISPLAY TEXT, PRIVILEGE_DESCRIPTION TEXT, PRIVILEGE_GROUP_ID NUMERIC, PRIVLEGE_GROUP TEXT, CHANGED_TO_2_4_0 TEXT);"
 
 echo "Inserting data ..."
 IFS=$'\n'
@@ -37,7 +37,7 @@ do
     then
         PROFILE_ID=3
 	else
-		echo "Fail to create table : PROFILE must be common, mobile or wearable"
+		echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
 		exit
 	fi
 
@@ -79,12 +79,23 @@ do
 	API_VERSION_EXPIRED=`echo $i | cut -d "," -f 5`
 	DOCUMENTED=`echo $i | cut -d "," -f 6`
 	PRIVILEGE_NAME=`echo $i | cut -d "," -f 7`
+	IS_PRIVACY_TEXT=`echo $i | cut -d "," -f 8`
+	if [ "$IS_PRIVACY_TEXT" = "yes" ]
+	then
+		IS_PRIVACY=1
+	elif [ "$IS_PRIVACY_TEXT" = "no" ]
+	then
+		IS_PRIVACY=0
+	else
+		echo "Fail to create table : IS_PRIVACY must be yes or no"
+		exit
+	fi
+	PRIVACY_GROUP=`echo $i | cut -d "," -f 9`
+	PRIVILEGE_DISPLAY=`echo $i | cut -d "," -f 10`
 
-	PRIVILEGE_DISPLAY=`echo $i | cut -d "," -f 8`
+	PRIVILEGE_DESCRIPTION=`echo $i | cut -d "," -f 11`
 
-	PRIVILEGE_DESCRIPTION=`echo $i | cut -d "," -f 9`
-
-	PRIVILEGE_GROUP=`echo $i | cut -d "," -f 10`
+	PRIVILEGE_GROUP=`echo $i | cut -d "," -f 12`
 
 	if [ "$PRIVILEGE_GROUP" = "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB" ]
 	then
@@ -126,7 +137,7 @@ do
 		exit
 	fi
 
-    CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 11`
+    CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 13`
 
 	echo "Inserting $PRIVILEGE_NAME ..."
 
