@@ -272,11 +272,11 @@ void __test_privilege_db_manager_get_privilege_display()
 	free(privilege_display);
 #endif
 	printf("-----------------------------------------------------------\n");
-	printf("privilege : http://tizen.org/privilege/power\n");
+	printf("privilege : http://tizen.org/privilege/internet\n");
 	printf("privilege_type : wrt\n");
 	printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
 	privilege_display = NULL;
-	ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", "2.3", &privilege_display);
+	ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/internet", "2.3", &privilege_display);
 	__check_get_privilege_display_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
 	free(privilege_display);
 
@@ -290,11 +290,11 @@ void __test_privilege_db_manager_get_privilege_display()
 
 	printf("-----------------------------------------------------------\n");
 	printf("api_version is NULL\n");
-	printf("privilege : http://tizen.org/privilege/power\n");
+	printf("privilege : http://tizen.org/privilege/internet\n");
 	printf("privilege_type : wrt\n");
 	printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
 	privilege_display = NULL;
-	ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", NULL, &privilege_display);
+	ret = privilege_db_manager_get_privilege_display(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/internet", NULL, &privilege_display);
 	__check_get_privilege_display_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_display);
 	free(privilege_display);
 
@@ -355,10 +355,10 @@ void __test_privilege_db_manager_get_privilege_description()
 	}
 #endif
 	printf("-----------------------------------------------------------\n");
-	printf("privilege : http://tizen.org/privilege/power\n");
+	printf("privilege : http://tizen.org/privilege/internet\n");
 	printf("privilege_type : wrt\n");
 	printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
-	ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", "2.3", &privilege_description);
+	ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/internet", "2.3", &privilege_description);
 	__check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_description);
 
 	if (privilege_description != NULL) {
@@ -379,10 +379,10 @@ void __test_privilege_db_manager_get_privilege_description()
 
 	printf("-----------------------------------------------------------\n");
 	printf("api_version is NULL\n");
-	printf("privilege : http://tizen.org/privilege/power\n");
+	printf("privilege : http://tizen.org/privilege/internet\n");
 	printf("privilege_type : wrt\n");
 	printf("expected result : PRIVILEGE_DB_MANAGER_ERR_NONE\n");
-	ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/power", NULL, &privilege_description);
+	ret = privilege_db_manager_get_privilege_description(PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, "http://tizen.org/privilege/internet", NULL, &privilege_description);
 	__check_get_privilege_description_result(PRIVILEGE_DB_MANAGER_ERR_NONE, ret, privilege_description);
 
 	if (privilege_description != NULL) {
