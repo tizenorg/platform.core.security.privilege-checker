@@ -92,9 +92,9 @@ int privilege_db_manager_get_privilege_list(const char *api_version, privilege_d
 	if (g_privilege_db_manager_profile_type == PRIVILEGE_DB_MANAGER_PROFILE_TYPE_TV) {
 		changed_to_version = strdup("CHANGED_TO_2_4_0");
 	} else {
-		if (strcmp(api_version, "2.3.1") == 0)
+		if (strncmp(api_version, "2.3.1", strlen("2.3.1")) == 0)
 			changed_to_version = strdup("CHANGED_TO_2_3_1");
-		else if (strcmp(api_version, "2.4") == 0 || strcmp(api_version, "2.4.0") == 0)
+		else if (strncmp(api_version, "2.4", strlen("2.4")) == 0)
 			changed_to_version = strdup("CHANGED_TO_2_4_0");
 		else if (strcmp(api_version, "3.0") == 0 || strcmp(api_version, "3") == 0)
 			changed_to_version = strdup("CHANGED_TO_2_4_0");	/* it should be changed to CHANGED_TO_3_0_0 */

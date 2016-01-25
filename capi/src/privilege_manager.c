@@ -11,7 +11,7 @@
 #define LOG_TAG "PRIVILEGE_MANAGER"
 #endif
 
-#define API_VERSION_PADDING ".0"
+#define API_VERSION_PADDING ".0.0"
 #define API_VERSION_PADDING_LEN strlen(API_VERSION_PADDING)
 #define MAX_API_VERSION_LEN 5
 
@@ -72,11 +72,15 @@ static int __privilege_manager_check_privilege_list(const char *api_version, con
 			TryReturn(tmp_issued_version != NULL, ret_val = PRVMGR_ERR_OUT_OF_MEMORY; goto FINISH, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] tmp_issued_version's realloc is failed.");
 			strncat(tmp_issued_version, API_VERSION_PADDING, API_VERSION_PADDING_LEN);
 
-			for (i = 0; is_valid_version == 0 && i < MAX_API_VERSION_LEN; i++) {
-				if (tmp_api_version[i] > tmp_expired_version[i])
-					is_valid_version = 1;
-				else if (tmp_api_version[i] < tmp_expired_version[i])
-					break;
+			if (strncmp(tmp_api_version, tmp_expired_version, MAX_API_VERSION_LEN) == 0) {
+				is_valid_version = 1;
+			} else {
+				for (i = 0; is_valid_version == 0 && i < MAX_API_VERSION_LEN; i++) {
+					if (tmp_api_version[i] > tmp_expired_version[i])
+						is_valid_version = 1;
+					else if (tmp_api_version[i] < tmp_expired_version[i])
+						break;
+				}
 			}
 
 			for (i = 0; is_valid_version == 0 && i < MAX_API_VERSION_LEN; i++) {
@@ -94,7 +98,7 @@ static int __privilege_manager_check_privilege_list(const char *api_version, con
 				ret_val = PRVMGR_ERR_NONE;
 				goto FINISH;
 			} else if (is_valid_version == 1) {
-				LOGD("privilege deprecated version is lower than api version");
+				LOGD("privilege deprecated version is equal to or lower than api version");
 				if (*valid_api_version != NULL) {
 					free(*valid_api_version);
 					*valid_api_version = NULL;
@@ -318,10 +322,10 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 
 			memset(message, 0, MESSAGE_SIZE);
 			if (changed_to != NULL && strcmp(changed_to, "") != 0) {
-				LOGE("[DEPRECATED_PRIVILEGE]%s %s is a deprecated after Tizen version %s and your api version is %s. Use %s instead or change api version to %s.", pkg_type, privilege_name, valid_api_version, api_version, changed_to, valid_api_version);
-				snprintf(message, MESSAGE_SIZE, " - %s|   >> Use %s instead of it or change api version to %s.|", privilege_name, changed_to, valid_api_version);
+				LOGE("[DEPRECATED_PRIVILEGE]%s %s is a deprecated since Tizen version %s and your api version is %s. Use %s instead or use api version lower than %s.", pkg_type, privilege_name, valid_api_version, api_version, changed_to, valid_api_version);
+				snprintf(message, MESSAGE_SIZE, " - %s|   >> Use %s instead of it or use api version lower than %s.|", privilege_name, changed_to, valid_api_version);
 			} else {
-				LOGE("[DEPRECATED_PRIVILEGE]%s %s is deprecated after Tizen version %s and your api version is %s. Remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version);
+				LOGE("[DEPRECATED_PRIVILEGE]%s %s is deprecated since Tizen version %s and your api version is %s. Remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version);
 				snprintf(message, MESSAGE_SIZE, " - %s|   >> Remove the privilege.|", privilege_name);
 			}
 
