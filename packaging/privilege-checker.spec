@@ -23,7 +23,7 @@ Requires: privilege-checker = %{version}-%{release}
 %description -n privilege-checker-devel
 Package for Privilege Management (DEV)
 
-%package -n capi-security-privilege-manager
+%package -n security-privilege-manager
 Summary:    Privilege Manager API
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(dlog)
@@ -33,14 +33,14 @@ BuildRequires:  pkgconfig(glib-2.0)
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
-%description -n capi-security-privilege-manager
+%description -n security-privilege-manager
 The Privilege Manager API provides functions to verify privilege information of packages to be installed.
 
-%package  -n capi-security-privilege-manager-devel
+%package  -n security-privilege-manager-devel
 Summary:  Privilege Manager API (Development)
-Requires: capi-security-privilege-manager
+Requires: security-privilege-manager
 
-%description -n capi-security-privilege-manager-devel
+%description -n security-privilege-manager-devel
 The Privilege Manager API provides functions to verify privilege information of packages to be installed.(DEV)
 
 %package  -n tc-privilege-checker
@@ -122,15 +122,15 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
 
-%post -n capi-security-privilege-manager -p /sbin/ldconfig
-%postun -n capi-security-privilege-manager -p /sbin/ldconfig
+%post -n security-privilege-manager -p /sbin/ldconfig
+%postun -n security-privilege-manager -p /sbin/ldconfig
 
 %files -n privilege-checker
 %{_datadir}/license/privilege-checker
 %manifest packaging/privilege-checker.manifest
 
-%files -n capi-security-privilege-manager
-%{_libdir}/libcapi-security-privilege-manager.so*
+%files -n security-privilege-manager
+%{_libdir}/libsecurity-privilege-manager.so*
 %{_datadir}/locale/*
 #%if "%{?profile}" != "tv"
 %{_datadir}/privilege-manager/.core_privilege_info.db
@@ -138,11 +138,11 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 #%endif
 %{_datadir}/privilege-manager/.wrt_privilege_info.db
 %{_datadir}/privilege-manager/.wrt_privilege_mapping.db
-%manifest packaging/capi-security-privilege-manager.manifest
+%manifest packaging/security-privilege-manager.manifest
 
-%files -n capi-security-privilege-manager-devel
+%files -n security-privilege-manager-devel
 %{_includedir}/privilegemgr/*.h
-%{_libdir}/pkgconfig/capi-security-privilege-manager.pc
+%{_libdir}/pkgconfig/security-privilege-manager.pc
 
 %files -n tc-privilege-checker
 %{_bindir}/tc-privilege-db-manager

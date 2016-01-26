@@ -39,10 +39,10 @@ ADD_EXECUTABLE(${TC2_NAME} ${TC2_SRCS})
 ADD_EXECUTABLE(${TC3_NAME} ${TC3_SRCS})
 
 TARGET_LINK_LIBRARIES(${TC1_NAME}
-	"capi-security-privilege-manager"
+	"security-privilege-manager"
 	)
-TARGET_LINK_LIBRARIES(${TC2_NAME} "capi-security-privilege-manager")
-TARGET_LINK_LIBRARIES(${TC3_NAME} "capi-security-privilege-manager")
+TARGET_LINK_LIBRARIES(${TC2_NAME} "security-privilege-manager")
+TARGET_LINK_LIBRARIES(${TC3_NAME} "security-privilege-manager")
 
 INSTALL(TARGETS ${TC1_NAME} DESTINATION /usr/bin)
 INSTALL(TARGETS ${TC2_NAME} DESTINATION /usr/bin)

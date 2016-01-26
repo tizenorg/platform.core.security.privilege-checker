@@ -1,5 +1,5 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-SET(fw_name "capi-security-privilege-manager")
+SET(fw_name "security-privilege-manager")
 
 PROJECT(${fw_name})
 
@@ -12,7 +12,7 @@ INCLUDE_DIRECTORIES(
     "${INC_DIR}"
     )
 
-SET(pc_requires "")
+SET(pc_requires "glib-2.0")
 
 INCLUDE(FindPkgConfig)
 pkg_check_modules(${fw_name} REQUIRED dlog pkgmgr-info glib-2.0)
