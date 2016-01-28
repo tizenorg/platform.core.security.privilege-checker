@@ -204,7 +204,7 @@ int privilege_db_manager_get_mapped_privilege_list(const char *api_version, priv
 		}
 	}
 
-	char *sql = sqlite3_mprintf("select distinct mapped_privilege_name from privilege_mapping where privilege_name in(%s)and(profile_id=%d or profile_id=%d)and from_api_version<=%Q and to_api_version>=%Q", privilege_list_str, PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, api_version, api_version);
+	char *sql = sqlite3_mprintf("select distinct mapped_privilege_name from privilege_mapping where privilege_name in(%s)and(profile_id=%d or profile_id=%d)and from_api_version<=%Q and to_api_version>%Q", privilege_list_str, PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, api_version, api_version);
 	free(privilege_list_str);
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
