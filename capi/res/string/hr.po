@@ -154,9 +154,6 @@ msgstr "Kalendar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Imenik"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Preuzimanje podataka o aplikaciji"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Položaj"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Osobni podaci"
@@ -199,17 +193,14 @@ msgstr "Pozivi"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Privilegija nije definirana."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Postavke"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Općenito"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privatnost"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s isključeno u %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Čitanje zdravstvenih informacija"
@@ -412,6 +403,9 @@ msgstr "Ova aplikacija može instalirati ili deinstalirati pakete aplikacija i b
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Ova aplikacija može vraćati detaljne informacije o aplikacijskom paketu."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Položaj"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Ova aplikacija može primati obavijesti putem interneta."
 
@@ -518,7 +512,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP
 msgstr "Ova aplikacija može postavljati alarme i pokretati uređaj u zakazano vrijeme."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Ova aplikacija može pomoću OMA DS 1.2 protokola sinkronizirati podatke na uređaju, kao što su kontakti i događaji u kalendaru."
+msgstr "Ova aplikacija može pomoću OMA DS 1.2 protokola sinkronizirati podatke na uređaju, kao što su kontakti i događaji iz kalendara."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
 msgstr "Ova aplikacija može koristiti puni zaslon."
@@ -576,6 +570,12 @@ msgstr "Ova aplikacija može koristiti zajedničke značajke NFC-a."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Korištenje osnovnih NFC usluga"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Postavke"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Općenito"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Korištenje načina emulacije NFC kartice"
@@ -752,7 +752,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIF
 msgstr "Dok je otvorena, aplikacija može prikazati malu alatnu traku na ploči s obavijestima ili zaslonu za zaključavanje."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
-msgstr "Ova aplikacija može sinkronizirati podatke uređaja, poput kontakata i kalendarskih događaja, s pomoću protokola OMA DS 1.2. To može uzrokovati dodatne troškove ovisno o vašoj tarifi."
+msgstr "Ova aplikacija može sinkronizirati podatke uređaja, poput kontakata i događaja iz kalendara, s pomoću protokola OMA DS 1.2. To može uzrokovati dodatne troškove ovisno o vašoj tarifi."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
 msgstr "Aplikacija može s poslužitelja ili izravno preuzimati e-poštu, SMS poruke i multimedijske poruke. To može dovesti do dodatnih troškova, ovisno o vašoj tarifi."
@@ -804,4 +804,16 @@ msgstr "Ova aplikacija može čitati radnje s posebnim tipkama poput tipki za gl
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Bilježenje posebnih događaja s tipkom"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Upotreba infracrvenog odašiljača"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Ova aplikacija koristi infracrveni odašiljač."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Ova aplikacija može dijeliti podatke s drugim uređajima."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Dijeljenje podataka s drugim uređajima"
 

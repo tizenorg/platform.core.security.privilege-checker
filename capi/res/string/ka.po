@@ -154,9 +154,6 @@ msgstr "კალენდარი"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "კონტაქტები"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "ინტერნეტი"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "პროგრამის ინფორმაციის მიღება"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "ადგილმდებარეობა"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "პერსონალური ინფორმაცია"
@@ -199,17 +193,14 @@ msgstr "ჟურნალი"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "ეს პრივილეგია არ არის დაზუსტებული."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "პარამეტრები"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "საერთო"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "პირადი"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s გამოირთო პროგრამაში %2$s"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "ინტერნეტი"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "სამედიცინო ინფორმაციის წაკითხვა"
@@ -412,6 +403,9 @@ msgstr "ამ აპლიკაციას შეუძლია, დაა�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "ამ აპლიკაციას შეუძლია, მიიღოს აპლიკაციის პაკეტის დეტალური ინფორმაცია."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "ადგილმდებარეობა"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "ამ აპლიკაციას შეუძლია, ინტერნეტით მიიღოს შეტყობინებები."
 
@@ -576,6 +570,12 @@ msgstr "ამ აპლიკაციას შეუძლია, გამ�
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "ძირითადი NFC სერვისების გამოყენება"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "პარამეტრები"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "საერთო"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC ბარათის ემულაციის რეჟიმის გამოყენება"
@@ -804,4 +804,16 @@ msgstr "ამ აპლიკაციას შეუძლია, წაი�
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "სპეციალური მთავარი მოვლენების გადაღება"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "ინფრაწითელი გადამცემის გამოყენება"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "ამ აპლიკაციას შეუძლია, გამოიყენოს მოწყობილობის ინფრაწითელი გადამცემი."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "ამ აპლიკაციას შეუძლია, გააზიაროს მონაცემები სხვა მოწყობილობებთან."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "მასალის გაზიარება სხვა მოწყობილობებთან"
 

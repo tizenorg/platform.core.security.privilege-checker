@@ -154,9 +154,6 @@ msgstr "日曆"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "聯絡人"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "網際網路"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "正在取得應用程式資訊"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "位置"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "個人資訊"
@@ -199,17 +193,14 @@ msgstr "通話記錄"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "未定義此權限。"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "設定"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "一般"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "隱私設定"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s 已於 %2$s 中停用"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "網際網路"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "讀取健康資訊"
@@ -412,6 +403,9 @@ msgstr "此應用程式能安裝及解除安裝應用程式套件，並清除應
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "此應用程式可擷取詳細的應用程式套件資訊。"
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "位置"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "此應用程式能經由網際網路接收通知。"
 
@@ -577,6 +571,12 @@ msgstr "此應用程式能使用 NFC 一般功能。"
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "使用基本 NFC 服務"
 
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "設定"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "一般"
+
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "使用 NFC 卡模擬模式"
 
@@ -662,7 +662,7 @@ msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
 msgstr "正在提供輸入法"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
-msgstr "此應用程式可拍照並於使用相機時開啟及關閉相機閃光燈。"
+msgstr "此應用程式可拍照並於使用 [相機] 時開啟及關閉相機閃光燈。"
 
 msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
 msgstr "關閉背景應用程式"
@@ -804,4 +804,16 @@ msgstr "即使在背景執行時，此應用程式仍可讀取牽涉特殊按鍵
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "擷取特殊按鍵事件"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "使用紅外線發射器"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "此應用程式可使用紅外線發射器。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "此應用程式可與其他裝置共享資料。"
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "與其他裝置共享資料"
 

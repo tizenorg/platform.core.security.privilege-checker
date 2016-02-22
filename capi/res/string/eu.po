@@ -154,9 +154,6 @@ msgstr "Egutegia"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontaktuak"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Aplikazioaren informazioa berreskuratzea"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Kokalekua"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Informazio pertsonala"
@@ -199,17 +193,14 @@ msgstr "Dei erregis."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Pribilegio hau ez dago zehaztuta"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ezarpenak"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Orokorra"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Pribatutasuna"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s ezgaitu da %2$s-(e)n."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Osasunaren informazioa irakurtzea"
@@ -412,6 +403,9 @@ msgstr "Aplikazio honek aplikazio paketeak instalatu eta desinstalatu ditzake et
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Aplikazio honek aplikazio pakete informazio xehatua berreskura dezake."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Kokalekua"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Aplikazio honek jakinarazpenak Internet bidez jaso ditzake."
 
@@ -576,6 +570,12 @@ msgstr "Aplikazio honek ohiko NFC eginbideak erabili ditzake."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Oinarrizko NFC zerbitzuak erabiltzea"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ezarpenak"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Orokorra"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC txartel irudikapen modua erabiltzea"
@@ -804,4 +804,16 @@ msgstr "Tekla bereziei dagozkien ekintzak irakur ditzake aplikazio honek, hala n
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Gertaera berezi nagusien argazkiak"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infragorrien transmisorea erabiltzea"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Aplikazio honek infragorrien transmisorea erabili dezake."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Aplikazio honek beste gailu batzuekin parteka ditzake datuak."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Datuak beste gailu batzuekin partekatzea"
 

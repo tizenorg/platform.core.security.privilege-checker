@@ -154,9 +154,6 @@ msgstr "Календарь"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Контакты"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Интернет"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Получение данных приложений"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Местоположение"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Личные данные"
@@ -199,17 +193,14 @@ msgstr "Журнал"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Привилегия не задана."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Настройки"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Общие"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Конфиденциальность"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Служба “%1$s” отключена в приложении “%2$s”"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Интернет"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Считывание данных о здоровье"
@@ -412,6 +403,9 @@ msgstr "Это приложение может устанавливать и у�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Это приложение может получать подробные данные о пакетах приложений."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Местоположение"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Это приложение может получать уведомления через Интернет."
 
@@ -576,6 +570,12 @@ msgstr "Это приложение может использовать стан
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Использование базовых служб NFC"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Общие"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Использование режима эмуляции NFC-карты"
@@ -804,4 +804,16 @@ msgstr "Данное приложение может считывать дейс
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Съемка особых ключевых событий"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Использование ИК-передатчика"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Это приложение может использовать ИК-передатчик."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Это приложение может отправлять данные на другие устройства."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Отправка данных на другие устройства"
 

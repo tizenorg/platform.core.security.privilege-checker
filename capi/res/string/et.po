@@ -154,9 +154,6 @@ msgstr "Kalender"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontaktid"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Rakenduse teabe hankimine"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Asukoht"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Isiklik teave"
@@ -199,17 +193,14 @@ msgstr "Kõnelogi"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Seda privileegi pole maaratletud."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Seaded"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Üldine"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privaatsus"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s on desaktiveeritud rakenduses %2$s"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Tervise teabe lugemine"
@@ -412,6 +403,9 @@ msgstr "See rakendus saab installida ja desinstallida rakenduste pakette ja kust
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "See rakendus saab laadida üksikasjalikku teavet rakenduste pakettide kohta."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Asukoht"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "See rakendus saab võtta vastu teavitusi interneti kaudu."
 
@@ -576,6 +570,12 @@ msgstr "See rakendus saab kasutada NFC-üldfunktsioone."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "NFC põhiteenuste kasutamine"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Seaded"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Üldine"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC-kaardi emuleerimisrežiimi kasutamine"
@@ -804,4 +804,16 @@ msgstr "See rakendus suudab lugeda toiminguid, mis on seotud eriklahvidega, nt h
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Eriliste võtmesündmuste jäädvustamine"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infrapunasaatja kasutamine"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "See rakendus saab kasutada infrapunasaatjat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "See rakendus saab jagada andmeid teiste seadmetega."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Andmete jagamine teiste seadmetega"
 

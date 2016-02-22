@@ -154,9 +154,6 @@ msgstr "Təqvim"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Adlar"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "İnternet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Proqram haqqında məlumat əldə edilir"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Yeri"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Şəxsi məlumat"
@@ -199,17 +193,14 @@ msgstr "Zəng jurnalı"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Bu üstünlük müəyyən edilmədi."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Parametrlər"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Ümumi"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Gizlilik"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s %2$s-də qeyri-aktiv edilmişdir"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "İnternet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Sağlamlıq məlumatının oxunması"
@@ -412,6 +403,9 @@ msgstr "Bu proqram proqram paketlərini quraşdıra və poza və proqram keşlə
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Bu proqram ətraflı proqram paket məlumatını çıxara bilər."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Yeri"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Bu proqram internet vasitəsilə bildiriş ala bilər."
 
@@ -576,6 +570,12 @@ msgstr "Bu proqram NFC ümumi funksiyalarından istifadə edə bilər."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Əsas NFC xidmətlərindən istifadə"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Parametrlər"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Ümumi"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC kartın təkrarlama rejimindən istifadə"
@@ -804,4 +804,16 @@ msgstr "Bu proqram hətta fonda işlədiyi zaman belə bu və ya digər cihazlar
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Xüsusi əsas tədbirlərin çəkilməsi"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "İnfraqırmızı ötürücüdən istifadə"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Bu proqram infraqırmızı ötürücüdən istifadə edə bilər."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Bu proqram məlumatı başqa cihazlarla paylaşa bilər."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Məlumat başqa cihazlarla paylaşılır"
 

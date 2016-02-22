@@ -154,9 +154,6 @@ msgstr "Kalendár"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakty"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Načítanie aplikačných informácií"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "GPS"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Osobné údaje"
@@ -199,17 +193,14 @@ msgstr "D. hovor."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Toto oprávnenie nie je definované."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Nastavenia"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Všeobecné"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Súkromie"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Služba %1$s je v aplikácii %2$s vypnutá."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Čítanie zdravotných informácií"
@@ -412,6 +403,9 @@ msgstr "Táto aplikácia môže inštalovať a odinštalovať balíky aplikáci�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Táto aplikácia môže načítať podrobné informácie o aplikačnom balíku."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "GPS"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Táto aplikácia môže prijímať oznámenia cez internet."
 
@@ -576,6 +570,12 @@ msgstr "Táto aplikácia môže používať bežné funkcie NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Používanie základných služieb NFC"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Nastavenia"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Všeobecné"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Používanie režimu emulácie karty NFC"
@@ -804,4 +804,16 @@ msgstr "Táto aplikácia môže čítať činnosti súvisiace so špeciálnymi t
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Zaznamenávanie udalostí špeciálnych tlačidiel"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Používanie infračerveného vysielača"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Táto aplikácia môže používať infračervený vysielač."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Táto aplikácia môže zdieľať údaje s inými zariadeniami."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Zdieľanie údajov s inými zariadeniami"
 

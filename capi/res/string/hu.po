@@ -154,9 +154,6 @@ msgstr "Naptár"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Névjegyek"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Alkalmazásadatok letöltése"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Hely"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Személyes adatok"
@@ -199,17 +193,14 @@ msgstr "Hívásnapló"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ez a jogosultság nincs megadva."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Beállítások"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Általános"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Védett adataim"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s letiltva a(z) %2$s alkalmazásban."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Egészségi adatok olvasása"
@@ -412,6 +403,9 @@ msgstr "Az alkalmazás alkalmazáscsomagokat telepíthet és távolíthat el, va
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Az alkalmazás részletes információkat kérhet le az alkalmazáscsomagokról."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Hely"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Az alkalmazás értesítéseket fogadhat az interneten keresztül."
 
@@ -576,6 +570,12 @@ msgstr "Az alkalmazás használhatja az általános NFC-funkciókat."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Alapvető NFC-szolgáltatások használata"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Általános"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC-kártyaemulációs üzemmód használata"
@@ -804,4 +804,16 @@ msgstr "Az alkalmazás a háttérben futva is olvashatja a speciális – péld�
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Speciális gombok eseményeinek naplózása"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infraadó használata"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Az alkalmazás használhatja az infraadót."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Az alkalmazás adatokat oszthat meg más eszközökkel."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Adatok megosztása más eszközökkel"
 

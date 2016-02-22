@@ -154,9 +154,6 @@ msgstr "Kalendorius"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Adresatai"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internetas"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "„Wi-Fi Direct“"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Programų informacijos gavimas"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Vieta"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Asmeninė informacija"
@@ -199,17 +193,14 @@ msgstr "Skamb. žur."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ši teisė neapibrėžta."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Nustatymai"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Bendri nustatymai"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privatumas"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s yra išjungta %2$s"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internetas"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Skaityti sveikatos informaciją"
@@ -412,6 +403,9 @@ msgstr "Ši programa gali diegti ir pašalinti programų paketus ir valyti progr
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Šia programa galima atnaujinti išsamią programos paketo informaciją."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Vieta"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Ši programa gali priimti pranešimus internetu."
 
@@ -576,6 +570,12 @@ msgstr "Ši programa gali naudoti bendrąsias NFC funkcijas."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Pagrindinių NFC paslaugų naudojimas"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Bendri nustatymai"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC kortelės emuliacijos režimo naudojimas"
@@ -804,4 +804,16 @@ msgstr "Net veikdama fone ši programa gali nuskaityti su konkrečiais veiksmais
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Konkrečių mygtukų paspaudimų fiksavimas"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infraraudonųjų spindulių siųstuvo naudojimas"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Ši programa gali naudoti infraraudonųjų spindulių siųstuvą."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Ši programa gali bendrinti duomenis su kitais įrenginiais."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Duomenų bendrinimas su kitais įrenginiais"
 

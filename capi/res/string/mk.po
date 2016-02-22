@@ -154,9 +154,6 @@ msgstr "Календар"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Именик"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Интернет"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Вчитување информации за апликацијата"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Локација"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Лични информации"
@@ -199,17 +193,14 @@ msgstr "Бележник"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Оваа привилегија не е дефинирана."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Опции"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Општо"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Доверливо"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s е исклучено во %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Интернет"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Читање здравствени информации"
@@ -412,6 +403,9 @@ msgstr "Оваа апликација може да инсталира и деи
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Оваа апликација може да открива детални информации за апликациски пакети."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Локација"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Оваа апликација може да прима известувања преку интернет."
 
@@ -576,6 +570,12 @@ msgstr "Оваа апликација може да ги користи општ
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Користење на основните услуги NFC"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Опции"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Општо"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Користење режим за емулација на NFC-картичка"
@@ -803,5 +803,17 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KE
 msgstr "Апликацијава може да чита дејства што ги опфаќаат посебните копчиња, како што се копчињата за гласност на овој и на други уреди (пр. далечинскиот управувач на телевизорот), дури и кога работи во заднина."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
-msgstr "Снимање настани со посебно копче"
+msgstr "Снимање настани на посебно копче"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Користење на инфрацрвениот предавател"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Оваа апликација може да го користи инфрацрвениот предавател."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Оваа апликација може да споделува податоци со други уреди."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Споделување податоци со другите уреди"
 

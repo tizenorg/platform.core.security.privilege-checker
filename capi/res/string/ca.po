@@ -154,9 +154,6 @@ msgstr "Calendari"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contactes"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Recuperació de la informació de l'aplicació"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Ubicació"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Informació personal"
@@ -199,17 +193,14 @@ msgstr "Reg. trucad."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Aquest privilegi no està definit"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ajustaments"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Confidencialitat"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s està deshabilitat a %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Llegint informació de salut"
@@ -412,6 +403,9 @@ msgstr "Aquesta aplicació pot instal·lar o desinstal·lar paquets d'aplicacion
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Aquesta aplicació pot recuperar informació detallada de paquets d'aplicacions."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Ubicació"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Aquesta aplicació pot rebre notificacions mitjançant Internet."
 
@@ -576,6 +570,12 @@ msgstr "Aquesta aplicació pot utilitzar funcions comunes de NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Ús de serveis NFC bàsics"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ajustaments"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "General"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Ús del mode d'emulació de targetes NFC"
@@ -800,8 +800,20 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
 msgstr "Aquesta aplicació pot incrustar la pantalla d'una font de vídeo, especificar la mida i mostrar o ocultar la pantalla incrustada."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
-msgstr "Aquesta aplicació pot llegir accions que impliquin tecles especials, com les tecles de volum o altres dispositius (p. ex. controls remots TV), fins i tot quan s'està executant en el fons."
+msgstr "Aquesta aplicació pot llegir accions que impliquin tecles especials, com les tecles de volum o altres dispositius (per exemple, comandaments a distància de TV), fins i tot quan s'està executant en segon pla."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Captura d'esdeveniments de tecles especials"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Ús de transmissor d'infrarojos"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Aquesta aplicació pot utilitzar el transmissor d'infrarojos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Aquesta aplicació pot compartir dades amb altres dispositius."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "S'estan compartint les dades amb altres dispositius"
 

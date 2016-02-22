@@ -154,9 +154,6 @@ msgstr "Календар"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Телефонен указател"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Интернет"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Извличане на информация за приложение"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Позиция"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Лична информация"
@@ -199,17 +193,14 @@ msgstr "Дневник пов"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Тази привилегия не е дефинирана."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Настройки"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Общи"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Поверителност"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s е деактивирано в %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Интернет"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Прочитане на здравната информация"
@@ -412,6 +403,9 @@ msgstr "Това приложение може да инсталира и деи
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Това приложение може да извлича подробна информация за пакет на приложение."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Позиция"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Това приложение може да получава уведомления по интернет."
 
@@ -576,6 +570,12 @@ msgstr "Това приложение може да използва общит�
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Използване на основни NFC услуги"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Настройки"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Общи"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Използване на режим на емулация на NFC карта"
@@ -804,4 +804,16 @@ msgstr "Това приложение може да чете действия, �
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Заснемане на специални ключови събития"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Използване на инфрачервен предавател"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Това приложение може да използва инфрачервения предавател."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Това приложение може да споделя данни с други устройства."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Споделяне на данни с други устройства"
 

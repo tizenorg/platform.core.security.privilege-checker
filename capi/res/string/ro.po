@@ -154,9 +154,6 @@ msgstr "Calendar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contacte"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Preluarea informaţiilor legate de aplicaţii"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Locaţie"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Informaţii personale"
@@ -199,17 +193,14 @@ msgstr "Jurnal ap."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Acest privilegiu nu este definit."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Setări"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Confidenţialitate"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Serviciul %1$s a fost dezactivat în %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Citirea informaţiilor despre sănătate"
@@ -412,6 +403,9 @@ msgstr "Această aplicaţie poate instala şi dezinstala pachetele de aplicaţii
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Această aplicaţie poate prelua informaţii detaliate despre pachetele de aplicaţii."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Locaţie"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Această aplicaţie poate primi notificări prin internet."
 
@@ -576,6 +570,12 @@ msgstr "Această aplicaţie poate utiliza caracteristicile NFC obişnuite."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Utilizarea setărilor NFC de bază"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Setări"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "General"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Se utilizează modul de emulare a cardului NFC"
@@ -800,8 +800,20 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
 msgstr "Această aplicaţie poate integra afişarea unei surse video, poate specifica dimensiunea şi poate afişa sau ascunde afişajul integrat."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
-msgstr "Aplicaţia poate citi acţiuni care implică taste speciale, cum ar fi tastele de volum de pe acest dispozitiv sau altul (de ex., telecomenzi de televizoare), chiar atunci când rulează în fundal."
+msgstr "Aplicaţia poate citi acţiuni care implică taste speciale, cum ar fi tastele de volum de pe acest dispozitiv sau un alt dispozitiv (de ex., telecomenzi de televizoare), chiar și atunci când rulează în fundal."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Capturarea evenimentelor speciale"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Utilizarea transmiţătorului infraroşu"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Această aplicaţie poate utiliza transmiţătorul infraroşu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Această aplicaţie poate partaja date cu alte dispozitive."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Partajarea datelor cu alte dispozitive"
 

@@ -154,9 +154,6 @@ msgstr "Kalender"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakter"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Hämtar programinformation"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Plats"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Personlig information"
@@ -199,17 +193,14 @@ msgstr "Samt.logg"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Den här behörigheten är inte definierad."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Inställningar"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Allmänt"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privat"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s har inaktiverats i %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Läsa hälsoinformation"
@@ -412,6 +403,9 @@ msgstr "Det här programmet kan installera eller avinstallera programpaket och r
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Det här programmet kan hämta detaljerad information om programpaket."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Plats"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Det här programmet kan ta emot aviseringar via Internet."
 
@@ -576,6 +570,12 @@ msgstr "Det här programmet kan använda vanliga NFC-funktioner."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Använda grundläggande NFC-tjänster"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Inställningar"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Allmänt"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Använda NFC-kortemuleringsläge"
@@ -804,4 +804,16 @@ msgstr "Programmet kan läsa åtgärder som innefattar specialknappar, till exem
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Spelar in särskilda knapphändelser"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Använd infraröd sändare"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Det här programmet kan använda den infraröda sändaren."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Det här programmet kan dela data med andra enheter."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Delar data med andra enheter"
 

@@ -154,9 +154,6 @@ msgstr "Kalendář"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakty"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Načítání informací o aplikaci"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Místo"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Osobní informace"
@@ -199,17 +193,14 @@ msgstr "Hovory"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Toto oprávnění není definováno."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Nastavení"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Obecné"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Soukromí"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Služba %1$s je v aplikaci %2$s zakázána."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Probíhá čtení informací o zdraví"
@@ -412,6 +403,9 @@ msgstr "Aplikace může instalovat a odinstalovat balíčky aplikací a mazat me
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Aplikace může načítat detailní informace o balíčku aplikace."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Místo"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Aplikace může přijímat oznámení přes Internet."
 
@@ -576,6 +570,12 @@ msgstr "Aplikace může použít společné funkce NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Použití základních služeb NFC"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Nastavení"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Obecné"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Použití režimu emulace karty NFC"
@@ -804,4 +804,16 @@ msgstr "Tato aplikace dokáže číst akce včetně speciálních tlačítek, na
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Zachycování akcí speciálních tlačítek"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Použití infračerveného vysílače"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Aplikace může použít infračervený vysílač."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Aplikace může sdílet data s jinými zařízeními."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Sdílení dat s jinými zařízeními"
 

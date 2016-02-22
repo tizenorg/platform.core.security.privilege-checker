@@ -154,9 +154,6 @@ msgstr "Calendario"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contactos"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Recuperación de información da aplicación"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Localización"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Información persoal"
@@ -199,17 +193,14 @@ msgstr "Rex. chamada"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Este privilexio non está definido"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Axustes"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Xeral"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privacidade"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s desactivado en %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Lectura de información de saúde"
@@ -412,6 +403,9 @@ msgstr "Esta aplicación pode instalar e desinstalar paquetes de aplicacións e 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Esta aplicación pode recuperar información de paquetes de aplicacións detallada."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Localización"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Esta aplicación pode recibir notificacións a través da Internet."
 
@@ -576,6 +570,12 @@ msgstr "Esta aplicación pode usar funcións NFC comúns."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Uso dos servizos NFC básicos"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Axustes"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Xeral"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Uso do modo de emulación da tarxeta NFC"
@@ -804,4 +804,16 @@ msgstr "Esta aplicación pode ler accións que inclúan teclas especiais, como a
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Captura de eventos clave especiais"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Uso do transmisor de infravermellos"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Esta aplicación pode usar o transmisor de infravermellos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Esta aplicación pode compartir datos con outros dispositivos."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Compartindo datos con outros dispositivos"
 

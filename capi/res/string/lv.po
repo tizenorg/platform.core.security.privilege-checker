@@ -154,9 +154,6 @@ msgstr "Kalendārs"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakti"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internets"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Programmas informācijas izgūšana"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Atrašanās vieta"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Personiskā informācija"
@@ -199,17 +193,14 @@ msgstr "Zv. arh."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Šī privilēģija nav definēta."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Iestatījumi"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Vispārīgi"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Konfidencialitāte"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Funkcija %1$s ir deaktivizēta programmā %2$s"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internets"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Veselības informācijas lasīšana"
@@ -412,6 +403,9 @@ msgstr "Šī programma var instalēt un atinstalēt programmu pakotnes un notīr
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Šī programma var izgūt detalizētu programmas pakotnes informāciju."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Atrašanās vieta"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Šī programma var saņemt paziņojumus, izmantojot internetu."
 
@@ -576,6 +570,12 @@ msgstr "Šī programma var izmantot vispārīgās NFC funkcijas."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "NFC pamatpakalpojumu lietošana"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Iestatījumi"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Vispārīgi"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC kartes emulācijas režīma lietošana"
@@ -804,4 +804,16 @@ msgstr "Šī programma var nolasīt darbības, kas saistītas ar speciālajiem t
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Tver noteiktas taustiņu darbības"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infrasarkanā raidītāja lietošana"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Šī programma var izmantot infrasarkano staru raidītāju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Šī programma var kopīgot datus ar citām ierīcēm."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Datu kopīgošana ar citām ierīcēm"
 

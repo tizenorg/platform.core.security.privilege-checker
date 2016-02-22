@@ -154,9 +154,6 @@ msgstr "Kalendar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakti"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Prijem informacija o aplikaciji"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Lokacija"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Lični podaci"
@@ -199,17 +193,14 @@ msgstr "Dnev. poz."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ova privilegija nije definisana."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Podešavanja"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Opšte"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privatnost"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s onemogućen za %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Čitanje informacija o zdravlju"
@@ -412,6 +403,9 @@ msgstr "Ova aplikacija može da instalira i deinstalira pakete aplikacija, kao i
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Ova aplikacija može da primi detaljne informacije o paketu aplikacija."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Lokacija"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Ova aplikacija može da prima obaveštenja putem Interneta."
 
@@ -576,6 +570,12 @@ msgstr "Ova aplikacija može da koristi uobičajene NFC funkcije."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Korišćenje osnovnih NFC usluga"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Podešavanja"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Opšte"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Upotreba režima Emulacija NFC kartice"
@@ -804,4 +804,16 @@ msgstr "Ova aplikacija može da čita radnje koje uključuju specijalne tastere 
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Snimanje događaja specijalnim tasterom"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Korišćenje odašiljača infracrvenih zraka"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Ova aplikacija može da koristi odašiljač infracrvenih zraka."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Ova aplikacija može da deli podatke sa drugim uređajima."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Deljenje podataka sa drugim uređajima"
 

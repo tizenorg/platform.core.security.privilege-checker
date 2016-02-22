@@ -82,11 +82,11 @@ do
 	DOCUMENTED=`echo $i | cut -d "," -f 6`
 	PRIVILEGE_NAME=`echo $i | cut -d "," -f 7`
 
-	PRIVILEGE_DISPLAY=`echo $i | cut -d "," -f 8`
+	PRIVILEGE_DISPLAY=`echo $i | cut -d "," -f 9`
 
-	PRIVILEGE_DESCRIPTION=`echo $i | cut -d "," -f 9`
+	PRIVILEGE_DESCRIPTION=`echo $i | cut -d "," -f 10`
 
-	PRIVILEGE_GROUP=`echo $i | cut -d "," -f 10`
+	PRIVILEGE_GROUP=`echo $i | cut -d "," -f 11`
 
 	if [ "$PRIVILEGE_GROUP" = "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB" ]
 	then
@@ -128,8 +128,8 @@ do
 		exit
 	fi
 
-    CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 11`
-	CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 12`
+    CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 12`
+	CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 13`
 
 	echo "Inserting $PRIVILEGE_NAME ..."
 

@@ -154,9 +154,6 @@ msgstr "Kalendar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontaktlar"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Ilova ma’lumotini olish"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Joylashuv"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Shaxsiy ma’lumot"
@@ -199,17 +193,14 @@ msgstr "Qo‘ng‘iroq jurnali"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ushbu vakolat aniqlanmagan."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Parametrlar"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Umumiy"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Maxfiylik"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s %2$sda o‘chirilgan"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Salomatlik haqidagi ma’lumotlarni o‘qish"
@@ -412,6 +403,9 @@ msgstr "Ushbu ilova ilova paketlarini o‘rnatishi va olib tashlashi hamda ilova
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Ushbu ilova ilova paketi haqida batafsil ma’lumotlarni olishi mumkin."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Joylashuv"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Ushbu ilova bildirishnomalarni Internet orqali olishi mumkin."
 
@@ -576,6 +570,12 @@ msgstr "Ushbu ilova NFC umumiy funksiyalaridan foydalanishi mumkin."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Asosiy NFC xizmatlaridan foydalanish"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Parametrlar"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Umumiy"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC karta emulatsiyasi rejimidan foydalanish"
@@ -804,4 +804,16 @@ msgstr "Ushbu ilova bu yoki boshqa qurilmalarda (misol uchun, TV pultida) ovoz b
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Maxsus tugma hodisalarini rasmga olish"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infra qizil uzatish moslamasidan foydalanish"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Ushub ilova infrazili uzatgichidan foydalanishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Bu ilova ma’lumotlarni boshqa qurilmalar bilan ulashishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Ma’lumotlarni boshqa qurilmalar bilan ulashish"
 

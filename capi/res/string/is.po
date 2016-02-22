@@ -38,7 +38,7 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_BOOKMARKS"
 msgstr "Stjórna bókamerkjum"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALENDAR"
-msgstr "Stjórna dagbók"
+msgstr "Stjórna dagatali"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CALL_LOGS"
 msgstr "Stjórna símtalaskrám"
@@ -77,7 +77,7 @@ msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "Lesa bókamerki"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALENDAR"
-msgstr "Lesa dagbók"
+msgstr "Lesa dagatal"
 
 msgid "IDS_TPLATFORM_BODY_READING_CALL_LOGS"
 msgstr "Lesa símtalaskrár"
@@ -149,13 +149,10 @@ msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
 msgstr "Bluetooth"
 
 msgid "IDS_TPLATFORM_OPT_CALENDAR_ABB"
-msgstr "Dagbók"
+msgstr "Dagatal"
 
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Tengiliðir"
-
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Netið"
 
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Sækja upplýsingar um forrit"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Staðsetning"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Persónulegar upplýsingar"
@@ -199,17 +193,14 @@ msgstr "Símtöl"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Þessi réttindi eru ekki skilgreind."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Stillingar"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Almennt"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Leynd"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s er óvirkt í %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Netið"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Heilsufarsupplýsingar lesnar"
@@ -412,6 +403,9 @@ msgstr "Þetta forrit getur sett upp og fjarlægt forritapakka og hreinsað skyn
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Þetta forrit getur sótt ítarlegar upplýsingar um forritapakka."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Staðsetning"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Þetta forrit getur tekið á móti tilkynningum yfir internetið."
 
@@ -576,6 +570,12 @@ msgstr "Þetta forrit getur notað almenna NFC-eiginleika."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Notkun NFC-grunnþjónustu"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Stillingar"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Almennt"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Notkun NFC-kortahermingar"
@@ -804,4 +804,16 @@ msgstr "Þetta forrit getur lesið aðgerðir sem tengjast sérstökum lyklum, t
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Fanga sérstaka lyklavirkni"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Notkun innrauðs sendis"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Þetta forrit getur notað innrauða sendinn."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Þetta forrit getur deilt gögnum með öðrum tækjum."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Deili gögnum með öðrum tækjum"
 

@@ -154,9 +154,6 @@ msgstr "कैलेंडर"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "संपर्क"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "इंटरनेट"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "एप्लीकेशन जानकारी पुनर्प्राप्त कर रहा है"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "स्थान"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "व्यक्तिगत जानकारी"
@@ -199,17 +193,14 @@ msgstr "कॉल लॉग"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "यह विशेषाधिकार निर्धारित नहीं है"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "सेटिंग्स"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "सामान्य"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "गोपनीयता"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%2$s में %1$s अक्षम किया गया"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "इंटरनेट"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "स्वास्थ्य जानकारी पढ़ना"
@@ -412,6 +403,9 @@ msgstr "यह एप्लीकेशन, एप्लीकेशन पै�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "यह एप्लीकेशन विस्तृत एप्लीकेशन पैकेज जानकारी को पुनर्प्राप्त कर सकता है।"
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "स्थान"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "यह एप्लीकेशन इंटरनेट के माध्यम से अधिसूचनाएँ प्राप्त कर सकता है।"
 
@@ -576,6 +570,12 @@ msgstr "यह एप्लीकेशन NFC सामान्य सुव�
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "मूल NFC सेवाओं का उपयोग करना"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "सेटिंग्स"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "सामान्य"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC कार्ड एम्यूलेशन मोड का उपयोग करना"
@@ -804,4 +804,16 @@ msgstr "यह एप्लीकेशन बैकग्राउंड मे
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "विशेष कुंजी प्रसंगों को कैप्चर करना"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "इंफ्रारेड ट्रांसमिटर का उपयोग करना"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "यह एप्लीकेशन इन्फ्रारेड ट्रांसमीटर का उपयोग कर सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "यह एप्लीकेशन अन्य डिवाइसेस के साथ डाटा साझा कर सकता है।"
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "अन्य डिवाइसेस के साथ डेटा साझा करना"
 

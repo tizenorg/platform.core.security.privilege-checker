@@ -154,9 +154,6 @@ msgstr "Takvim"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Rehber"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "İnternet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Uygulama bilgilerinin alınması"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Konum"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Kişisel bilgiler"
@@ -199,17 +193,14 @@ msgstr "Arama kaydı"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Bu ayrıcalık tanımlanmadı."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ayarlar"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Genel"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Gizlilik"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s , %2$s uygulamasında devre dışı"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "İnternet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Sağlık bilgilerini okuma"
@@ -412,6 +403,9 @@ msgstr "Bu uygulama, uygulama paketlerini yükleyip kaldırabilir ve uygulamalar
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Bu uygulama ayrıntılı uygulama paket bilgilerini alabilir."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Konum"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Bu uygulama, İnternet yoluyla bildirim alabilir."
 
@@ -576,6 +570,12 @@ msgstr "Bu uygulama, NFC'nin ortak özelliklerini kullanabilir."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Temel NFC servislerini kullanma"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Genel"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC kart emülasyonu modunu kullanma"
@@ -804,4 +804,16 @@ msgstr "Bu uygulama arka planda çalıştığında bile bu cihaz veya diğer cih
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Özel tuş etkinliklerini yakalama"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Kızılötesi vericiyi kullanma"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Bu uygulama, kızılötesi vericiyi kullanabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Bu uygulama, diğer cihazlarla veri paylaşabilir."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Diğer cihazlarla veri paylaşımı"
 

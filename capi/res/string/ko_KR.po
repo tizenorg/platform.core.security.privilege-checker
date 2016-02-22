@@ -154,9 +154,6 @@ msgstr "캘린더"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "연락처"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "인터넷"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi 다이렉트"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "애플리케이션 정보 가져오기"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "위치"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "개인정보"
@@ -199,17 +193,14 @@ msgstr "통화기록"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "정의되지 않은 권한입니다."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "설정"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "일반"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "개인정보 보호"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%2$s에서 %1$s 사용을 해제하였습니다."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "인터넷"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "건강정보 읽기"
@@ -320,7 +311,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED
 msgstr "이 앱은 저장된 알람 관련 정보를 읽을 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
-msgstr "이 앱은 유해 컨텐츠를 감지하고 제거하기 위해 디바이스에 있는 다른 앱의 데이터를 읽고 삭제할 수 있습니다."
+msgstr "이 앱은 유해 컨텐츠를 감지하고 삭제하기 위해 디바이스에 있는 다른 앱의 데이터를 읽고 삭제할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
 msgstr "이 앱은 다른 앱을 실행할 수 있습니다."
@@ -398,7 +389,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH
 msgstr "이 앱은 각 네트워크 상태, 유형, 상세 네트워크 프로필 정보와 같은 네트워크 정보를 가져올 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
-msgstr "이 앱은 네트워크 프로필을 추가, 제거, 편집할 수 있습니다."
+msgstr "이 앱은 네트워크 프로필을 추가, 삭제, 편집할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
 msgstr "이 앱은 Wi-Fi를 실행하거나 해제하고, Wi-Fi 및 모바일 네트워크에 연결하거나 연결을 해제할 수 있습니다."
@@ -411,6 +402,9 @@ msgstr "이 앱은 앱 패키지를 설치하거나 삭제할 수 있고, 앱 �
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "이 앱은 앱 패키지 상세정보를 가져올 수 있습니다."
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "위치"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "이 앱은 인터넷으로 알림을 받을 수 있습니다."
@@ -512,7 +506,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CE
 msgstr "이 앱은 특정 앱 인증서를 가져올 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
-msgstr "이 앱은 디바이스 저장공간 또는 SD 카드와 같은 외장 저장공간에 컨텐츠 크기의 제한 없이 컨텐츠를 저장할 수 있습니다."
+msgstr "이 앱은 디바이스 저장공간 또는 SD 카드와 같은 외장 저장공간에 컨텐츠 크기의 제한없이 컨텐츠를 저장할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
 msgstr "이 앱은 알람을 설정하고 예약한 시간에 디바이스를 호출할 수 있습니다."
@@ -577,6 +571,12 @@ msgstr "이 앱은 NFC 일반 기능을 사용할 수 있습니다."
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "기본 NFC 서비스 사용하기"
 
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "일반"
+
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC 카드 에뮬레이션 모드 사용하기"
 
@@ -593,7 +593,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS
 msgstr "이 앱은 신용카드 상세정보와 같은 스마트 카드 상세정보에 접근할 수 있고, 사용자가 NFC로 결제할 수 있도록 허용할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
-msgstr "이 앱은 텍스트 및 멀티미디어 메시지를 쓰고, 보내고, 삭제하고, 이동할 수 있고, 읽음/읽지 않음과 같은 메시지 상태 설정을 변경할 수 있습니다."
+msgstr "이 앱은 문자 및 멀티미디어 메시지를 쓰고, 보내고, 삭제하고, 이동할 수 있고, 읽음/읽지 않음과 같은 메시지 상태 설정을 변경할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
 msgstr "이 앱은 모바일 네트워크로 일부 특정 도메인만 접근할 수 있도록 디바이스를 제한할 수 있습니다."
@@ -804,4 +804,16 @@ msgstr "이 앱은 백그라운드에서 실행 중인 경우에도, 이 디바�
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "특정 버튼 입력 인식하기"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "적외선 송신기 사용하기"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "이 앱은 적외선 송신기를 사용할 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "이 애플리케이션은 다른 디바이스와 데이터를 공유할 수 있습니다."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "다른 디바이스와 데이터 공유"
 

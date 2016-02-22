@@ -154,9 +154,6 @@ msgstr "Koledar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Imenik"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Prejemanje podatkov o aplikacijah"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Lokacija"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Osebne informacije"
@@ -199,17 +193,14 @@ msgstr "Dnev. kl."
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ta pravica ni določena."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Nastavitve"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Splošno"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Zasebnost"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Storitev %1$s je onemogočena v aplikaciji %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Branje zdravstvenih podatkov"
@@ -412,6 +403,9 @@ msgstr "Ta aplikacija lahko namesti in odstrani pakete aplikacij ter počisti pr
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Ta aplikacija lahko pridobi podrobne podatke o paketih aplikacij."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Lokacija"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Ta aplikacija lahko prejema obvestila prek interneta."
 
@@ -576,6 +570,12 @@ msgstr "Ta aplikacija lahko uporablja pogoste funkcije za NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Uporaba osnovnih storitev NFC"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Nastavitve"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Splošno"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Uporaba načina emulacije kartic NFC"
@@ -804,4 +804,16 @@ msgstr "Ta aplikacija lahko bere dejanja aktivnih tipk, kot sta denimo tipki za 
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Zajemanje dogodkov posebne tipke"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Uporaba infrardečega vmesnika"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Ta aplikacija lahko uporablja infrardeči oddajnik."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Ta aplikacija lahko deli podatke z drugimi napravami."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Deljenje podatkov z drugimi napravami"
 

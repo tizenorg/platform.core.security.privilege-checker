@@ -154,9 +154,6 @@ msgstr "Calendario"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contactos"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Recuperación de información de aplicación"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Ubicación"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Información personal"
@@ -199,17 +193,14 @@ msgstr "Reg llam"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Este privilegio no está definido"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ajustes"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privacidad"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s se ha desactivado en %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Leyendo la información de salud"
@@ -412,6 +403,9 @@ msgstr "Esta aplicación puede instalar y desinstalar paquetes de aplicaciones, 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Esta aplicación puede recuperar la información detallada del paquete de aplicación."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Ubicación"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Esta aplicación puede recibir notificaciones por Internet."
 
@@ -518,7 +512,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP
 msgstr "Esta aplicación puede definir alarmas y despertar el dispositivo a las horas programadas."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Esta aplicación puede sincronizar los datos del dispositivo, como los contactos y los eventos del calendario, utilizando el protocolo OMA DS 1.2."
+msgstr "Esta aplicación puede sincronizar los datos del dispositivo, como los contactos y los eventos de calendario, utilizando el protocolo OMA DS 1.2."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
 msgstr "Esta aplicación puede utilizar la vista de pantalla completa."
@@ -576,6 +570,12 @@ msgstr "Esta aplicación puede utilizar funciones comunes de NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Uso de los servicios NFC básicos"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ajustes"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "General"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Uso del modo de emulación de tarjeta NFC"
@@ -804,4 +804,16 @@ msgstr "Esta aplicación puede leer acciones asociadas a teclas especiales, tale
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Captura de eventos de teclas especiales"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Usar transmisor de infrarrojos"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Esta aplicación puede utilizar el transmisor de infrarrojos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Esta aplicación puede compartir datos con otros dispositivos."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Compartir datos con otros dispositivos"
 

@@ -154,9 +154,6 @@ msgstr "التقويم"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "جهات الاتصال"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "الإنترنت"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi مباشر"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "استرداد معلومات التطبيق"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "الموقع"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "معلومات شخصية"
@@ -199,17 +193,14 @@ msgstr "سجل المكالمات"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "هذا الامتياز غير محدد."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "الضبط"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "عام"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "الخصوصية"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "تمّ إلغاء تفعيل %1$s في %2$s"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "الإنترنت"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "قراءة معلومات حول الصحة"
@@ -412,6 +403,9 @@ msgstr "يمكن لهذا التطبيق تثبيت حزم التطبيقات و
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "يمكن لهذا التطبيق استرداد معلومات حزم التطبيقات المفصلة."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "الموقع"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "يمكن لهذا التطبيق تلقي الإشعارات عبر الإنترنت."
 
@@ -576,6 +570,12 @@ msgstr "يمكن لهذا التطبيق استخدام ميزات علامات 
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "استخدام خدمات NFC الأساسية"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "عام"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "استخدام وضع محاكاة بطاقة NFC"
@@ -804,4 +804,16 @@ msgstr "يمكن لهذا التطبيق قراءة الإجراءات ذات ا
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "تلقّي أحداث المفتاح الخاص"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "استخدام مرسل الأشعة تحت الحمراء"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "يمكن لهذا التطبيق استخدام مرسل الأشعة تحت الحمراء."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "يمكن لهذا التطبيق مشاركة البيانات مع أجهزة أخرى."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "مشاركة البيانات مع أجهزة أخرى"
 

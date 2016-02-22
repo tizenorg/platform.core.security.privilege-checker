@@ -154,9 +154,6 @@ msgstr "カレンダー"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "連絡先"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "ブラウザ"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "アプリケーション情報の取得"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "位置情報"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "個人情報"
@@ -199,17 +193,14 @@ msgstr "通話履歴"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "この権限は定義されていません。"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "設定"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "一般"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "プライバシー"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%2$sでは%1$sが無効になっています。"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "ブラウザ"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "健康情報の読み取り"
@@ -412,6 +403,9 @@ msgstr "このアプリケーションは、アプリケーションパッケー
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "このアプリケーションは、詳細なアプリケーションパッケージ情報を取得することができます。"
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "位置情報"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "このアプリケーションは、インターネットで通知を受信することができます。"
 
@@ -576,6 +570,12 @@ msgstr "このアプリケーションは、NFC共通機能を使用すること
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "基本NFCサービスを使用"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "設定"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "一般"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFCカードエミュレーションモードを使用"
@@ -804,4 +804,16 @@ msgstr "このアプリケーションは、バックグラウンドで実行中
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "特別なキーイベントをキャプチャ"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "赤外線送信機能の使用"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "このアプリケーションは、赤外線送信機能を使用することができます。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "このアプリケーションは、他のデバイスとデータを共有することができます。"
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "他のデバイスとデータを共有"
 

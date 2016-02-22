@@ -154,9 +154,6 @@ msgstr "Calendario"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contactos"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Directo"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Recuperar la información de la aplicación"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Ubicación"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Información personal"
@@ -199,17 +193,14 @@ msgstr "Llamadas"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Este privilegio no está definido"
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Ajustes"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privacidad"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s desactivado en %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Leer información de salud"
@@ -412,6 +403,9 @@ msgstr "Esta aplicación puede instalar y desinstalar los paquetes de las aplica
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Esta aplicación puede obtener información detallada de paquetes de aplicaciones."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Ubicación"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Esta aplicación puede recibir notificaciones por Internet."
 
@@ -467,7 +461,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AN
 msgstr "Esta aplicación puede aparecer sobre otras ventanas y pantallas, incluida la pantalla de bloqueo, según el orden de prioridad de las ventanas. Esto puede impedir que interactúe con otras aplicaciones o pantallas hasta que la ventana de esta aplicación se haya cerrado."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
-msgstr "Esta aplicación puede cambiar los ajustes del sistema de Bluetooth relacionada con la privacidad y seguridad, como el modo Visibilidad."
+msgstr "Esta aplicación puede cambiar los ajustes del sistema de Bluetooth relacionados con la privacidad y seguridad, como el modo Visibilidad."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
 msgstr "Esta aplicación puede cambiar los ajustes de la aplicación web, incluida la eliminación de cookies."
@@ -576,6 +570,12 @@ msgstr "Esta aplicación puede usar las funciones comunes de NFC."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Usar servicios NFC básicos"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Ajustes"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "General"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Usar el modo Emulación de tarjeta NFC"
@@ -804,4 +804,16 @@ msgstr "Esta aplicación puede leer acciones asociadas a teclas especiales, como
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Capturar eventos de teclas especiales"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Usar el transmisor infrarrojo"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Esta aplicación puede usar el transmisor infrarrojo."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Esta aplicación puede compartir datos con otros dispositivos."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Compartir datos con otros dispositivos"
 

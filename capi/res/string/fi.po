@@ -154,9 +154,6 @@ msgstr "Kalenteri"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Yhteystiedot"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Sovellustietojen hakeminen"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Sijainti"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Henkilökohtaiset tiedot"
@@ -199,17 +193,14 @@ msgstr "Puh.loki"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Tätä oikeutta ei ole määritetty."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Asetukset"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Yleiset"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Yksityisyys"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s poistettu käytöstä sovelluksessa %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Terveystietojen lukeminen"
@@ -412,6 +403,9 @@ msgstr "Tämä sovellus pystyy asentamaan sovelluspaketteja ja poistamaan niiden
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Tämä sovellus pystyy hakemaan yksityiskohtaisia sovelluspakettitietoja."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Sijainti"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Tämä sovellus pystyy vastaanottamaan ilmoituksia Internetin kautta."
 
@@ -576,6 +570,12 @@ msgstr "Tämä sovellus pystyy käyttämään yleisiä NFC-toimintoja."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "NFC-peruspalveluiden käyttäminen"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Yleiset"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "NFC-kortin emulointitilan käyttäminen"
@@ -804,4 +804,16 @@ msgstr "Tämä sovellus pystyy lukemaan erikoisnäppäimiin, kuten tämän laitt
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Erikoistapahtumien sieppaus"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Infrapunalähettimen käyttäminen"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Tämä sovellus pystyy käyttämään infrapunalähetintä."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Tämä sovellus pystyy jakamaan tietoja muiden laitteiden kanssa."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Tietojen jakaminen muiden laitteiden kanssa"
 

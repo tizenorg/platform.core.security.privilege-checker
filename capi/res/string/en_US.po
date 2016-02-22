@@ -154,9 +154,6 @@ msgstr "Calendar"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contacts"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Retrieving application information"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Location"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Personal information"
@@ -199,17 +193,14 @@ msgstr "Call log"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "This privilege is not defined."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Settings"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "General"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Privacy"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s turned off in %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Reading health information"
@@ -412,6 +403,9 @@ msgstr "This application can install and uninstall application packages, and cle
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "This application can retrieve detailed application package information."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Location"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "This application can receive notifications via the Internet."
 
@@ -576,6 +570,12 @@ msgstr "This application can use NFC common features."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Using basic NFC services"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Settings"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "General"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Using NFC card emulation mode"
@@ -804,4 +804,16 @@ msgstr "This application can read actions involving special keys, such as the Vo
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Capturing special key events"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Using infrared transmitter"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "This application can use the infrared transmitter."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "This application can share data with other devices."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Sharing data with other devices"
 

@@ -29,7 +29,7 @@ msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
 msgstr "正在获取应用程序证书"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
-msgstr "正在管理账户"
+msgstr "正在管理帐户"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_BLUETOOTH_SYSTEM_SETTINGS"
 msgstr "正在管理蓝牙系统设置"
@@ -50,7 +50,7 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
 msgstr "正在管理内容"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
-msgstr "正在管理输入法"
+msgstr "管理输入法"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_NFC_GENERAL_SETTINGS"
 msgstr "正在管理 NFC 通用设置"
@@ -71,7 +71,7 @@ msgid "IDS_TPLATFORM_BODY_PUSHING_NFC_MESSAGES"
 msgstr "正在推送 NFC 信息"
 
 msgid "IDS_TPLATFORM_BODY_READING_ACCOUNTS"
-msgstr "正在读取账户"
+msgstr "正在读取帐户"
 
 msgid "IDS_TPLATFORM_BODY_READING_BOOKMARKS"
 msgstr "正在读取书签"
@@ -128,7 +128,7 @@ msgid "IDS_TPLATFORM_BODY_USING_BLUETOOTH_SPP"
 msgstr "正在使用蓝牙 SPP"
 
 msgid "IDS_TPLATFORM_BODY_USING_CAMERA"
-msgstr "正在使用相机"
+msgstr "使用相机"
 
 msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "正在使用 NFC 通用功能"
@@ -143,7 +143,7 @@ msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
 msgstr "正在写入至文件系统"
 
 msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
-msgstr "账户"
+msgstr "帐户"
 
 msgid "IDS_TPLATFORM_OPT_BLUETOOTH"
 msgstr "蓝牙"
@@ -154,9 +154,6 @@ msgstr "日历"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "联系人"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "网络"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi 直连"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "获取应用程序信息"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "位置"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "个人信息"
@@ -194,22 +188,19 @@ msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "正在发送信息"
 
 msgid "IDS_TPLATFORM_OPT_CALL_LOG_ABB"
-msgstr "呼叫记录"
+msgstr "通话记录"
 
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "该权限未定义。"
-
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "设定"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "一般"
 
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "隐私权"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s 已在 %2$s 中禁用"
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "网络"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "阅读健康信息"
@@ -233,13 +224,13 @@ msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
 msgstr "访问互联网书签"
 
 msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
-msgstr "应用程序之间共享数据"
+msgstr "应用程序之间分享数据"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
-msgstr "管理显示设定"
+msgstr "管理显示设置"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
-msgstr "管理电子邮件账户、邮箱和电子邮件"
+msgstr "管理电子邮件帐户、邮箱和电子邮件"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
 msgstr "管理电子邮件配置"
@@ -263,7 +254,7 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
 msgstr "管理 LED"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
-msgstr "管理位置设定"
+msgstr "管理位置设置"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
 msgstr "访问媒体文件夹"
@@ -299,13 +290,13 @@ msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
 msgstr "管理快捷方式"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "管理无限制系统设定"
+msgstr "管理无限制系统设置"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
-msgstr "管理所有系统设定"
+msgstr "管理所有系统设置"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_TELEPHONY_SETTINGS"
-msgstr "管理电话设定"
+msgstr "管理电话设置"
 
 msgid "IDS_TPLATFORM_HEADER_ADJUSTING_VOLUME"
 msgstr "调整音量"
@@ -329,7 +320,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USIN
 msgstr "该应用程序可执行扫描和连接至其他设备等使用蓝牙的不受限制操作。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
-msgstr "该应用程序可检索、创建、编辑和删除互联网书签。"
+msgstr "该应用程序可获取、创建、编辑和删除互联网书签。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
 msgstr "该应用程序可读取事件和任务。"
@@ -338,7 +329,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_A
 msgstr "该应用程序可创建、更新和删除事件和任务。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
-msgstr "该应用程序可创建、更新和删除通话记录项目。"
+msgstr "该应用程序可新建、更新和删除通话记录。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
 msgstr "该应用程序可拍摄和预览照片。"
@@ -353,16 +344,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INF
 msgstr "该应用程序可更改媒体信息。其他应用程序可使用该信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
-msgstr "该应用程序可与其他应用程序共享数据。"
+msgstr "该应用程序可与其他应用程序分享数据。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
-msgstr "该应用程序可管理亮度等显示设定。这可能会增加电池消耗。"
+msgstr "该应用程序可管理亮度等显示设置。这可能会增加电量消耗。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
-msgstr "该应用程序可管理您的电子邮件账户，包括文件夹和电子邮件。"
+msgstr "该应用程序可管理您的电子邮件帐户，包括文件夹和电子邮件。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
-msgstr "该应用程序可管理电子邮件应用程序的设定。"
+msgstr "该应用程序可管理电子邮件应用程序的设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
 msgstr "该应用程序可读取和写入已保存至 SD 卡等外部存储器的文件。"
@@ -374,19 +365,19 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
 msgstr "该应用程序可控制振动反馈。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "该应用程序可访问互联网。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可访问互联网。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
-msgstr "该应用程序可将密钥、证书和数据保存至受密码保护的存储，并可从中检索和删除它们。"
+msgstr "该应用程序可将密钥、证书和数据保存至受密码保护的存储，并可从中获取和删除它们。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
 msgstr "该应用程序可锁定和解锁受密码保护的存储，并管理其密码更改。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
-msgstr "该应用程序可打开或关闭 LED 指示灯，例如设备正面的 LED 指示灯和照相机闪光灯。"
+msgstr "该应用程序可打开或关闭 LED 指示灯，例如设备正面的 LED 指示灯和相机闪光灯。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
-msgstr "该应用程序可控制您的位置服务设定。"
+msgstr "该应用程序可控制您的位置服务设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
 msgstr "该应用程序可读取和写入媒体文件夹中的文件。"
@@ -395,7 +386,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES
 msgstr "该应用程序可读取短信和彩信，及与其相关的任何信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
-msgstr "该应用程序可检索每个网络的状态、其类型和详细的网络配置文件信息等网络信息。"
+msgstr "该应用程序可获取每个网络的状态、类型和详细的网络配置文件信息等网络信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
 msgstr "该应用程序可添加、移除和编辑网络配置文件。"
@@ -410,7 +401,10 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION
 msgstr "该应用程序可安装和卸载应用程序包，并清除应用程序的缓存。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
-msgstr "该应用程序可检测详细的应用程序包信息。"
+msgstr "该应用程序可获取详细的应用程序包信息。"
+
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "位置"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "该应用程序可通过互联网接收通知。"
@@ -425,16 +419,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
 msgstr "该应用程序可创建和删除快捷方式。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "该应用程序可读取和写入不受限制的系统设定。"
+msgstr "该应用程序可读取和写入不受限制的系统设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
-msgstr "该应用程序可读取和写入所有系统设定。"
+msgstr "该应用程序可读取和写入所有系统设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
-msgstr "该应用程序可检索使用的网络和 SIM 卡、IMEI 以及通话状态等电话信息。"
+msgstr "该应用程序可获取使用的网络和 SIM 卡、IMEI 以及通话状态等电话信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
-msgstr "该应用程序可管理来电和拨出通话、转移和保持通话、网络和 SIM 卡等电话设定。"
+msgstr "该应用程序可以管理来电和拨出电话、转移和保持通话、网络和 SIM 卡等通话设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
 msgstr "该应用程序可调整通知提示、铃声和媒体等不同功能的音量。"
@@ -443,7 +437,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
 msgstr "该应用程序可管理您的互联网历史记录。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
-msgstr "该应用程序可启用和禁用 Wi-Fi 直连、管理 Wi-Fi 直连连接，以及更改 Wi-Fi 直连设定。"
+msgstr "该应用程序可启用和禁用 Wi-Fi 直连、管理 Wi-Fi 直连连接，以及更改 Wi-Fi 直连设置。"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
 msgstr "该应用程序可创建、编辑和删除书签"
@@ -452,7 +446,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_
 msgstr "该应用程序可读取计步器和心率监控器等设备传感器搜集的健康信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
-msgstr "该应用程序可从信箱获取信息或接收信息。"
+msgstr "该应用程序可从收件箱中获取信息或接收信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
 msgstr "该应用程序可读取安全系统信息。"
@@ -467,16 +461,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AN
 msgstr "根据窗口的优先顺序，该应用程序可在其他窗口和屏幕，包括锁定屏幕的顶部出现。在该应用程序的窗口关闭之前，这可能会防止您与其他应用程序或屏幕互动。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
-msgstr "该应用程序可更改可见模式等与隐私和安全相关的蓝牙系统设定。"
+msgstr "该应用程序可更改可见模式等与隐私和安全相关的蓝牙系统设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
-msgstr "该应用程序可更改其网络应用程序设定，包括删除其 Cookie。"
+msgstr "该应用程序可更改其网络应用程序设置，包括删除其 Cookie。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
 msgstr "该应用程序可关闭其他应用程序。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
-msgstr "该应用程序可创建、编辑和删除账户。"
+msgstr "该应用程序可创建、编辑和删除帐户。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
 msgstr "该应用程序可启用和禁用网络共享服务。"
@@ -494,7 +488,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE
 msgstr "该应用程序可使用应用程序 ID 或应用程序控制打开其他应用程序。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
-msgstr "该应用程序可读取账户。"
+msgstr "该应用程序可读取帐户。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
 msgstr "该应用程序可读取并写入 NFC 标签信息，并将 NFC 信息发送至其他设备。"
@@ -509,7 +503,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_O
 msgstr "该应用程序可获取与其他应用程序相关的信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "该应用程序可检索指定的应用程序证书。"
+msgstr "该应用程序可获取指定应用程序的证书。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
 msgstr "该应用程序可将其内容保存至设备存储或 SD 卡等外部存储位置，且对内容的大小没有限制。"
@@ -518,7 +512,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP
 msgstr "该应用程序可设置闹钟并在预定的时间唤醒设备。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "该应用程序可使用 OMA DS 1.2 协议同步联系人和日历事件等设备数据。"
+msgstr "该应用程序可通过 OMA DS 1.2 协议同步联系人和日历事件等设备数据。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
 msgstr "该应用程序可使用全屏视图。"
@@ -545,13 +539,13 @@ msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_S
 msgstr "该应用程序可访问 UICC/SIM、嵌入式安全元件或安全的 SD 卡等安全智能卡芯片"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
-msgstr "该应用程序可更改并读取用户设定"
+msgstr "该应用程序可更改并读取用户设置"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "该应用程序可更改开启或关闭 NFC 等 NFC 设定"
+msgstr "该应用程序可更改开启或关闭 NFC 等 NFC 设置"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
-msgstr "该应用程序可控制电源相关设定，如调低屏幕亮度。"
+msgstr "该应用程序可控制电源相关设置，如调低屏幕亮度。"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
 msgstr "该应用程序可安装或卸载应用程序包"
@@ -566,7 +560,7 @@ msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
 msgstr "该应用程序可读取书签"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
-msgstr "该应用程序可读取通话记录项目"
+msgstr "该应用程序可读取通话记录。"
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
 msgstr "该应用程序可接收数据包信息"
@@ -576,6 +570,12 @@ msgstr "该应用程序可使用 NFC 通用功能"
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "使用基本 NFC 服务"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "设置"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "一般"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "使用 NFC 卡模拟模式"
@@ -602,7 +602,7 @@ msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
 msgstr "捕捉媒体数据"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
-msgstr "该应用程序可捕捉视频和音频数据。"
+msgstr "该应用程序可获取视频和音频数据。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
 msgstr "该应用程序可显示、编辑和删除通知。"
@@ -620,7 +620,7 @@ msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
 msgstr "正在更改蓝牙设置"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
-msgstr "该应用程序可更改打开或关闭蓝牙、设置设备名称以及启用或禁用 AV 遥控器等蓝牙设定。"
+msgstr "该应用程序可更改打开或关闭蓝牙、设置设备名称以及启用或禁用 AV 遥控器等蓝牙设置。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
 msgstr "该应用程序可读取有关通知的信息。"
@@ -635,7 +635,7 @@ msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEI
 msgstr "发送短信和彩信并更新其状态。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "该应用程序可管理 HTTP 下载。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可管理 HTTP 下载。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
 msgstr "读取应用程序使用量统计数据"
@@ -662,7 +662,7 @@ msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
 msgstr "提供输入法"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
-msgstr "该应用程序可在使用照相机时拍摄照片并打开和关闭照相机闪光灯。"
+msgstr "该应用程序可在使用【相机】时拍摄照片并打开和关闭相机闪光灯。"
 
 msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
 msgstr "关闭后台应用程序"
@@ -677,16 +677,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUN
 msgstr "该应用程序可请求关闭背景中运行的应用程序。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
-msgstr "该应用程序可在点击号码时拨打电话，而无需进一步确认。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可在点击号码时拨打电话，而无需进一步确认。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
-msgstr "该应用程序可管理您的电子邮件账户，包括您的文件夹和电子邮件、POP3 和 IMAP 下载以及 SMTP 上传。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可管理您的电子邮件帐户，包括您的文件夹和电子邮件、POP3 和 IMAP 下载以及 SMTP 上传。请参考您的资费套餐使用，可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "该应用程序可通过互联网接收通知。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可通过互联网接收通知。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
-msgstr "该应用程序可将密钥、证书和数据保存至受密码保护的存储空间，并可从中检索和删除它们。根据您的付费方案，连接至移动网络时检查证书的状态可能产生额外费用。"
+msgstr "该应用程序可将密钥、证书和数据保存至受密码保护的存储空间，并可从中获取和删除它们。根据您的资费套餐，连接至移动网络时检查证书的状态可能产生额外费用。"
 
 msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
 msgstr "控制媒体播放器"
@@ -701,10 +701,10 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_
 msgstr "该应用程序可将有关当前播放媒体的信息发送至允许接收该信息的应用程序，并可通过这些应用程序远程控制。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
-msgstr "该应用程序可编写、发送、删除、移动短信及彩信、下载彩信以及更改信息的设定和状态，如已读和未读。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可编写、发送、删除、移动短信及彩信、下载彩信以及更改信息的设置和状态，如已读和未读。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
-msgstr "该应用程序可打开和关闭 Wi-Fi，以及连接和断开连接 Wi-Fi 和移动网络。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可打开和关闭 Wi-Fi，以及连接和断开连接 Wi-Fi 和移动网络。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
 msgstr "安装/卸载应用程序包"
@@ -731,7 +731,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING
 msgstr "该应用程序可读取系统信息，包括来自 CPU 和内存的信息。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "该应用程序可启用和禁用共享网络服务。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可启用和禁用共享网络服务。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
 msgstr "显示小组件"
@@ -752,22 +752,22 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIF
 msgstr "该应用程序可在通知面板或锁定屏幕打开时在上面显示小工具栏。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
-msgstr "该应用程序可使用 OMA DS 1.2 协议同步联系人和日历事件等设备数据。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可通过 OMA DS 1.2 协议同步联系人和日历事件等设备数据。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
-msgstr "该应用程序可从服务器中检索或直接接收电子邮件、短信和彩信。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可从服务器中获取或直接接收电子邮件、短信和彩信。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "该应用程序可编写短信、彩信和电子邮件。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可编写短信、彩信和电子邮件。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
-msgstr "该应用程序可限制设备，从而使部分指定域仅可通过移动网络访问。根据您的付费方案，这可能会产生额外费用。"
+msgstr "该应用程序可限制设备，从而使部分指定域仅可通过移动网络访问。根据您的资费套餐，这可能会产生额外费用。"
 
 msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
 msgstr "通知"
 
 msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
-msgstr "请勿打扰"
+msgstr "免打扰"
 
 msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
 msgstr "控制音量并播放蜂鸣音频"
@@ -788,10 +788,10 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3
 msgstr "该应用程序可检查设备是否支持 3D 并读取 3D 模式的相关信息。"
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
-msgstr "获取电视遥控等输入设备的键事件"
+msgstr "获取电视遥控等输入设备的按键事件"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
-msgstr "该应用程序可获取电视遥控灯输入设备的键事件并释放键抓取。"
+msgstr "该应用程序可获取电视遥控等输入设备的按键事件并释放按键抓取。"
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
 msgstr "显示该应用程序中嵌入的视频源"
@@ -800,8 +800,20 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
 msgstr "该应用程序可嵌入视频源的显示，指定尺寸以及显示或隐藏嵌入的显示。"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
-msgstr "该应用程序可以读取设计特殊键的操作，如该设备或其他设备 (例如电视遥控器) 上的音量键，即使它在后台运行。"
+msgstr "该应用程序可以读取特殊键的操作，如该设备或其他设备 (例如电视遥控器) 上的音量键，即使它在后台运行。"
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "捕捉特殊关键事件"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "使用红外发射器"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "该应用程序可使用红外发射器。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "此应用程序可与其他设备分享数据。"
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "与其他设备分享内容"
 

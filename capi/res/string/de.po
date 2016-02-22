@@ -154,9 +154,6 @@ msgstr "Kalender"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Kontakte"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Abrufen von Anwendungsinformationen"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Standort"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Persönliche Informationen"
@@ -199,17 +193,14 @@ msgstr "Anrufliste"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Diese Berechtigung ist nicht definiert."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Einstellungen"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Allgemein"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Datenschutz"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s ist in %2$s deaktiviert."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Lesen von Fitnessinformationen"
@@ -412,6 +403,9 @@ msgstr "Diese Anwendung kann Anwendungspakete installieren und deinstallieren so
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Diese Anwendung kann detaillierte Anwendungspaketinformationen abrufen."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Standort"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Diese Anwendung kann Benachrichtigungen über das Internet empfangen."
 
@@ -576,6 +570,12 @@ msgstr "Diese Anwendung kann allgemeine NFC-Funktionen verwenden."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Verwenden von grundlegenden NFC-Diensten"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Einstellungen"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Allgemein"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Verwenden des NFC-Kartenemulationsmodus"
@@ -804,4 +804,16 @@ msgstr "Diese Anwendung kann Aktionen im Zusammenhang mit speziellen Tasten wie 
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Aufnehmen besonderer Ereignisse"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Verwenden des Infrarotsenders"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Diese Anwendung kann den Infrarotsender verwenden."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Diese Anwendung kann Daten mit anderen Geräten austauschen."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Datenfreigabe für andere Geräte"
 

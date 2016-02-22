@@ -154,9 +154,6 @@ msgstr "Calendrier"
 msgid "IDS_TPLATFORM_OPT_CONTACTS_ABB"
 msgstr "Contacts"
 
-msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
-msgstr "Internet"
-
 msgid "IDS_TPLATFORM_OPT_NFC"
 msgstr "NFC"
 
@@ -165,9 +162,6 @@ msgstr "Wifi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
 msgstr "Récupération des informations d'application"
-
-msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Localisation"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 msgstr "Informations personnelles"
@@ -199,17 +193,14 @@ msgstr "Journal d'appels"
 msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Ce privilège n'est pas défini."
 
-msgid "IDS_ST_OPT_SETTINGS"
-msgstr "Réglages"
-
-msgid "IDS_ST_BODY_GENERAL"
-msgstr "Général"
-
 msgid "IDS_ST_HEADER_PRIVACY"
 msgstr "Confident."
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "%1$s est désactivé dans %2$s."
+
+msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
+msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
 msgstr "Lire les informations de santé"
@@ -412,6 +403,9 @@ msgstr "Cette application peut installer et désinstaller l'ensemble d'applicati
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
 msgstr "Cette application peut récupérer des informations de package d'application détaillées."
 
+msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
+msgstr "Localisation"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
 msgstr "Cette application peut recevoir des notifications via Internet."
 
@@ -576,6 +570,12 @@ msgstr "Cette application peut utiliser les fonctions NFC communes."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Utiliser les services NFC de base"
+
+msgid "IDS_ST_OPT_SETTINGS"
+msgstr "Réglages"
+
+msgid "IDS_ST_BODY_GENERAL"
+msgstr "Général"
 
 msgid "IDS_TPLATFORM_HEADER_USING_NFC_CARD_EMULATION_MODE"
 msgstr "Utiliser le mode d'émulation de la carte NFC"
@@ -803,5 +803,17 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KE
 msgstr "Cette application peut interpréter des actions impliquant des touches spéciales, comme les touches de volume de cet appareil ou d'autres appareils (par exemple, les télécommandes TV), et ce, même lorsqu'elle est exécutée en arrière-plan."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
-msgstr "Capture d'événements spéciaux importants"
+msgstr "Capture d'évènements spéciaux importants"
+
+msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
+msgstr "Utilisation de l'émetteur infrarouge"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
+msgstr "Cette application peut utiliser l'émetteur infrarouge."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
+msgstr "Cette application peut partager des données avec d'autres appareils."
+
+msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
+msgstr "Partage des données avec d'autres appareils"
 
