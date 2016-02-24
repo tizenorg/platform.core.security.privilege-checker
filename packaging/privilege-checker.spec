@@ -96,7 +96,7 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_datadir}/license
 cp LICENSE.APLv2 %{buildroot}%{_datadir}/license/privilege-checker
-mkdir -p %{buildroot}/opt/dbspace
+mkdir -p %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_datadir}/privilege-manager
 #%if "%{?profile}" == "tv"
 #cp capi/res/dbspace/tv_wrt_privilege_info.db %{buildroot}%{_datadir}/privilege-manager/.wrt_privilege_info.db
