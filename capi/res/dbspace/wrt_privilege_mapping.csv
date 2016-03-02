@@ -42,6 +42,7 @@ mobile,http://tizen.org/privilege/contact.read,1,9.9,http://tizen.org/privilege/
 mobile,http://tizen.org/privilege/contact.write,1,9.9,http://tizen.org/privilege/contact.write,
 common,http://tizen.org/privilege/content.read,2,9.9,http://tizen.org/privilege/content.write,
 common,http://tizen.org/privilege/content.write,2,9.9,http://tizen.org/privilege/content.write,
+common,http://tizen.org/privilege/d2d.datasharing,3,9.9,http://tizen.org/privilege/d2d.datasharing,
 mobile,http://tizen.org/privilege/datacontrol.consumer,2.1,9.9,http://tizen.org/privilege/appmanager.launch,
 mobile,http://tizen.org/privilege/datacontrol.consumer,2.1,9.9,http://tizen.org/privilege/datasharing,
 wearable,http://tizen.org/privilege/datacontrol.consumer,2.3.2,9.9,http://tizen.org/privilege/appmanager.launch,
