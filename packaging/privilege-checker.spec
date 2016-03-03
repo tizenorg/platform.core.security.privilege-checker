@@ -60,9 +60,9 @@ Testsuit for Privilege Manager APIs
 %if "%{?profile}" == "wearable"
     __PROFILE_TYPE="WEARABLE"
 %else
-%if "%{?profile}" == "mobile"
+#%if "%{?profile}" == "mobile"
     __PROFILE_TYPE="MOBILE"
-%endif
+#%endif
 %endif
 %endif
 
