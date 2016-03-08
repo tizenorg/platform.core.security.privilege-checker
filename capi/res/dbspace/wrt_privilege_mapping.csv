@@ -55,7 +55,6 @@ mobile,http://tizen.org/privilege/fullscreen,2.1,9.9,http://tizen.org/privilege/
 common,http://tizen.org/privilege/healthinfo,2.3,9.9,http://tizen.org/privilege/healthinfo,
 common,http://tizen.org/privilege/internet,2.3,9.9,http://tizen.org/privilege/internet,
 common,http://tizen.org/privilege/ime,2.4,9.9,http://tizen.org/privilege/ime,
-common,http://tizen.org/privilege/keymanager,3,9.9,http://tizen.org/privilege/keymanager,
 mobile,http://tizen.org/privilege/led,2.4,9.9,http://tizen.org/privilege/led,
 common,http://tizen.org/privilege/location,2.1,9.9,http://tizen.org/privilege/location,
 common,http://tizen.org/privilege/location,2.4,9.9,http://tizen.org/privilege/internal/buxton/location,

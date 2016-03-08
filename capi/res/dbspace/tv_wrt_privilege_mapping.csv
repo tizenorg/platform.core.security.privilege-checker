@@ -14,7 +14,7 @@ tv,http://tizen.org/privilege/filesystem.read,2.3,9.9,http://tizen.org/privilege
 tv,http://tizen.org/privilege/filesystem.write,2.3,9.9,http://tizen.org/privilege/systemsettings.admin
 tv,http://tizen.org/privilege/fullscreen,2.3,9.9,http://tizen.org/privilege/notexist
 tv,http://tizen.org/privilege/internet,2.3,9.9,http://tizen.org/privilege/internet
-tv,http://tizen.org/privilege/keymanager,2.4,9.9,http://tizen.org/privilege/keymanager
+tv,http://tizen.org/privilege/keymanager,2.4,3,http://tizen.org/privilege/keymanager
 tv,http://tizen.org/privilege/mediacapture,2.3,9.9,http://tizen.org/privilege/camera
 tv,http://tizen.org/privilege/mediacapture,2.3,9.9,http://tizen.org/privilege/internal/buxton/camcorder
 tv,http://tizen.org/privilege/mediacapture,2.3,9.9,http://tizen.org/privilege/recorder
