@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <privilege_info.h>
 
 #define BRIGHTNESS 0
@@ -6,9 +7,6 @@
 #define GREEN 32
 #define YELLOW 33
 #define BG_BLACK 40
-
-static int fail_cnt = 0;
-static int success_cnt = 0;
 
 static void __change_color_to_red()
 {
@@ -30,14 +28,15 @@ static void __change_color_to_origin()
 	printf("%c[%dm", 0x1B, 0);
 }
 
+static int fail_cnt = 0;
+static int success_cnt = 0;
+
 static const char *__get_result_string(privilege_manager_error_e ret)
 {
 	if (ret == PRVMGR_ERR_NONE)
 		return "PRVMGR_ERR_NONE";
-	else if (ret == PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL)
-		return "PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL";
-	else if (ret == PRVMGR_ERR_NO_EXIST_PRIVILEGE)
-		return "PRVMGR_ERR_NO_EXIST_PRIVILEGE";
+	else if (ret == PRVMGR_ERR_INVALID_PRIVILEGE)
+		return "PRVMGR_ERR_INVALID_PRIVILEGE";
 	else if (ret == PRVMGR_ERR_INVALID_PARAMETER)
 		return "PRVMGR_ERR_INVALID_PARAMETER";
 	else if (ret == PRVMGR_ERR_INTERNAL_ERROR)
@@ -45,7 +44,6 @@ static const char *__get_result_string(privilege_manager_error_e ret)
 
 	return "FAIL";
 }
-
 static void __check_get_privilege_display_name_result(privilege_manager_error_e expected_result, privilege_manager_error_e result, const char *display_name)
 {
 	printf("expected result = %s, result = %s\n", __get_result_string(expected_result), __get_result_string(result));
@@ -386,4 +384,6 @@ int main()
 	__change_color_to_red();
 	printf("fail : %d\n", fail_cnt);
 	__change_color_to_origin();
+
+	return 0;
 }

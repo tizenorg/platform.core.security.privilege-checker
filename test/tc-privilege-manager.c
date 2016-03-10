@@ -1,17 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <glib.h>
 #include <privilege_manager.h>
-#include <stdarg.h>
 
 #define BRIGHTNESS 0
 #define RED 31
 #define GREEN 32
 #define YELLOW 33
 #define BLUE 34
-#define MAGENTA 35
-#define CYAN 36
 #define WHITE 37
 #define BG_BLACK 40
-
 #define ShowErrorMsg(condition, error_message, result, ...) \
 	__print_result(__get_result_string(result)); \
 	if (condition) { \
@@ -19,10 +18,6 @@
 		free(error_message); \
 		error_message = NULL; \
 	}
-
-static int fail_cnt = 0;
-static int success_cnt = 0;
-GList *privilege_list = NULL;
 
 static void __change_color_to_red()
 {
@@ -44,24 +39,9 @@ static void __change_color_to_blue()
 	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, BLUE);
 }
 
-static void __change_color_to_magenta()
-{
-	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, MAGENTA);
-}
-
-static void __change_color_to_cyan()
-{
-	printf("%c[%d;%dm", 0x1B, BRIGHTNESS, CYAN);
-}
-
 static void __change_color_to_origin()
 {
 	printf("%c[%dm", 0x1B, 0);
-}
-
-static void __change_to_bold_white()
-{
-	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, WHITE);
 }
 
 static void __change_to_bold_red()
@@ -69,31 +49,28 @@ static void __change_to_bold_red()
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, RED);
 }
 
-static void __change_to_bold_green()
-{
-	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, GREEN);
-}
-
 static void __change_to_bold_yellow()
 {
 	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, YELLOW);
 }
 
-static void __change_to_bold_cyan()
-{
-	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, CYAN);
-}
+static int fail_cnt = 0;
+static int success_cnt = 0;
+GList *privilege_list = NULL;
 
-static void __change_to_bold_blue()
+static const char *__get_result_string(privilege_manager_error_e ret)
 {
-	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, BLUE);
-}
+	if (ret == PRVMGR_ERR_NONE)
+		return "PRVMGR_ERR_NONE";
+	else if (ret == PRVMGR_ERR_INVALID_PRIVILEGE)
+		return "PRVMGR_ERR_INVALID_PRIVILEGE";
+	else if (ret == PRVMGR_ERR_INVALID_PARAMETER)
+		return "PRVMGR_ERR_INVALID_PARAMETER";
+	else if (ret == PRVMGR_ERR_INTERNAL_ERROR)
+		return "PRVMGR_ERR_INTERNAL_ERROR";
 
-static void __change_to_bold_magenta()
-{
-	printf("%c[%dm%c[%dm", 0x1B, 1, 0x1B, MAGENTA);
+	return "FAIL";
 }
-
 static void __print_error_message(char *error_message)
 {
 	char *token = NULL;
@@ -132,21 +109,6 @@ static void __print_error_message(char *error_message)
 	}
 	printf("\n");
 	free(temp);
-}
-
-static const char *__get_result_string(privilege_manager_error_e ret)
-{
-	if (ret == PRVMGR_ERR_NONE)
-		return "PRVMGR_ERR_NONE";
-	else if (ret == PRVMGR_ERR_INTERNAL_ERROR)
-		return "PRVMGR_ERR_INTERNAL_ERROR";
-	else if (ret == PRVMGR_ERR_INVALID_PRIVILEGE)
-		return "PRVMGR_ERR_INVALID_PRIVILEGE";
-	else if (ret == PRVMGR_ERR_INVALID_PARAMETER)
-		return "PRVMGR_ERR_INVALID_PARAMETER";
-	else
-		return "FAIL";
-
 }
 
 typedef enum {
@@ -193,7 +155,7 @@ static void __privinfo(char *name, char *level, char *comment)
 	printf("\n");
 }
 
-static void __print_result(char *input_string)
+static void __print_result(const char *input_string)
 {
 	printf("- achieved result : %s\n\n", input_string);
 }
@@ -543,6 +505,41 @@ static void __test_privilege_manager_verify_privilege()
 	__tcinfo(cert_level, "public");
 	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
 	ret = privilege_manager_verify_privilege("2.3.4.2.1", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+
+	__tcinfo(goal, "invalid api_version == 2.");
+	__privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
+	ret = privilege_manager_verify_privilege("2.", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
+	__tcinfo(goal, "invalid api_version == a.b");
+	__privinfo("http://tizen.org/privilege/account.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/account.write", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/alarm.get", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/bluetooth", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/calendar.read", "Public", NULL);
+	__privinfo("http://tizen.org/privilege/systemsettings", "Public", NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_INVALID_PARAMETER");
+	ret = privilege_manager_verify_privilege("a.b", PRVMGR_PACKAGE_TYPE_CORE, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
 	ShowErrorMsg(error_message != NULL, error_message, ret);
 	__check_verify_result(PRVMGR_ERR_INVALID_PARAMETER, ret);
 	__print_line();
@@ -1222,6 +1219,36 @@ static void __test_privilege_manager_verify_privilege()
 	ret = privilege_manager_verify_privilege("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PARTNER, &error_message);
 	ShowErrorMsg(error_message != NULL, error_message, ret);
 	__check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
+	__print_line();
+
+	/* Web - mobile => Test for duplicated privilege history */
+	__print_dline();
+	__change_to_bold_yellow();
+	__tcinfo(api_version, "1.0 and 2.4");
+	__tcinfo(pkg_type, "wrt");
+	__change_color_to_origin();
+	__print_dline();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+	__tcinfo(goal, "bluetooth exist at 1.0 and 2.4 -----1.0");
+	__privinfo("http://tizen.org/privilege/bluetooth", NULL, NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_verify_privilege("1.0", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
+	__print_line();
+
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+	__tcinfo(goal, "bluetooth exist at 1.0 and 2.4------2.4");
+	__privinfo("http://tizen.org/privilege/bluetooth", NULL, NULL);
+	__tcinfo(cert_level, "public");
+	__tcinfo(expect, "PRVMGR_ERR_NONE");
+	ret = privilege_manager_verify_privilege("2.4", PRVMGR_PACKAGE_TYPE_WRT, privilege_list, PRVMGR_PACKAGE_VISIBILITY_PUBLIC, &error_message);
+	ShowErrorMsg(error_message != NULL, error_message, ret);
+	__check_verify_result(PRVMGR_ERR_NONE, ret);
 	__print_line();
 
 #endif

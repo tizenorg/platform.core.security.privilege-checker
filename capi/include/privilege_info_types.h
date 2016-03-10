@@ -66,7 +66,7 @@ typedef struct
     void* user_data;
 } privilege_list_cb_data;
 
-const static privilege_group_info_s const privilege_group_info_table[MAX_PRV_GROUP] =
+static const privilege_group_info_s const privilege_group_info_table[MAX_PRV_GROUP] =
 {
     {"http://tizen.org/privilege/group/group0", _PRV_GROUP_0, "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"},
     {"http://tizen.org/privilege/group/group1", _PRV_GROUP_1, "IDS_TPLATFORM_OPT_LOCATION_T_LBS"},

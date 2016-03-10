@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <privilege_db_manager.h>
 
 #define BRIGHTNESS 0
@@ -72,7 +74,7 @@ static const char *__get_result_string(privilege_db_manager_error_e ret)
 
 void __test_privilege_db_manager_get_privilege_list()
 {
-	GList *privilege_list;
+	GList *privilege_list = NULL;
 	int ret = privilege_db_manager_get_privilege_list("2.4", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, &privilege_list);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE) {
 		printf("failed to call privilege_db_manager_get_privilege_list()\n");
@@ -98,11 +100,25 @@ void __test_privilege_db_manager_get_privilege_list()
 	success_cnt++;
 }
 
+void __print_mapped_privilege_list(int ret, GList* mapped_privilege_list)
+{
+	GList *l = NULL;
+	if (ret == PRIVILEGE_DB_MANAGER_ERR_NONE && mapped_privilege_list != NULL) {
+		for (l = mapped_privilege_list; l != NULL; l = l->next) {
+			char *privilege_name = (char *)l->data;
+			printf("mapped_privilege_name = %s\n", privilege_name);
+		}
+		success_cnt++;
+	} else
+		fail_cnt++;
+
+	printf("test result = %s\n", __get_result_string(ret));
+}
+
 void __test_privilege_db_manager_get_mapped_privilege_list()
 {
-	GList *privilege_list;
-	GList *mapped_privilege_list;
-	GList *l;
+	GList *privilege_list = NULL;
+	GList *mapped_privilege_list = NULL;
 	int ret;
 
 	printf("-----------------------------------------------------------\n");
@@ -111,11 +127,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	printf("package type : wrt\n");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/internal/default/public");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.4", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -128,10 +140,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	printf("package type : wrt\n");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/mediacapture");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.4", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -146,11 +155,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/internal/default/public");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/mediacapture");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.4", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -163,11 +168,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	printf("package type : wrt\n");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/internal/default/public");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.2.1", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -180,10 +181,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	printf("package type : wrt\n");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/mediacapture");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.2.1", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -196,10 +194,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	printf("package type : wrt\n");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/content.read");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.2.1", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	privilege_list = NULL;
@@ -218,11 +213,7 @@ void __test_privilege_db_manager_get_mapped_privilege_list()
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/mediacapture");
 	privilege_list = g_list_append(privilege_list, "http://tizen.org/privilege/content.read");
 	ret = privilege_db_manager_get_mapped_privilege_list("2.2.1", PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT, privilege_list, &mapped_privilege_list);
-
-	for (l = mapped_privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		printf("mapped_privilege_name = %s\n", privilege_name);
-	}
+	__print_mapped_privilege_list(ret, mapped_privilege_list);
 
 	g_list_free(privilege_list);
 	g_list_free(mapped_privilege_list);
