@@ -1338,6 +1338,9 @@ static void __test_privilege_manager_verify_privilege()
 	__check_verify_result(PRVMGR_ERR_INVALID_PRIVILEGE, ret);
 	printf("\n");
 
+	g_list_free(privilege_list);
+	privilege_list = NULL;
+
 	/* 2.4 core - wearable */
 	__print_dline();
 	__change_to_bold_yellow();
@@ -1361,7 +1364,7 @@ static void __test_privilege_manager_verify_privilege()
 	__privinfo("http://tizen.org/privilege/internet", "Public", NULL);
 	__privinfo("http://tizen.org/privilege/mapservice", "Public", "Valid from 2.4");
 	__privinfo("http://tizen.org/privilege/mediacontroller.client", "Public", "Valid from 2.4");
-	__privinfo("http://tizen.org/privilege/minicontrol.viewer", "Public", "Valid from 2.4");
+	__privinfo("http://tizen.org/privilege/minicontrol.provider", "Public", "Valid from 2.4");
 	__privinfo("http://tizen.org/privilege/nfc", "Public", NULL);
 	__privinfo("http://tizen.org/privilege/packagemanager.clearcache", "Public", "Valid from 2.4");
 	__privinfo("http://tizen.org/privilege/telephony", "Public", NULL);
@@ -1378,7 +1381,7 @@ static void __test_privilege_manager_verify_privilege()
 	__tcinfo(goal, "Name=OK, Version=OK, Level=OK -- Platform");
 	__privinfo("http://tizen.org/privilege/bluetooth.admin", "Platform", NULL);
 	__privinfo("http://tizen.org/privilege/appmanager.kill", "Platform", NULL);
-	__privinfo("http://tizen.org/privielge/keygrab", "Platform", "Valid from 2.4");
+	__privinfo("http://tizen.org/privilege/keygrab", "Platform", "Valid from 2.4");
 	__privinfo("http://tizen.org/privilege/systemsettings.admin", "Platform", NULL);
 	__privinfo("http://tizen.org/privilege/nfc.admin", "Platform", NULL);
 	__privinfo("http://tizen.org/privilege/packagemanager.admin", "Platform", NULL);
