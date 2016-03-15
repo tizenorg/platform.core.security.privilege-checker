@@ -76,6 +76,7 @@ mobile,http://tizen.org/privilege/location,2.3,9.9,http://tizen.org/privilege/lo
 mobile,http://tizen.org/privilege/location,2.4,9.9,http://tizen.org/privilege/internal/buxton/location
 wearable,http://tizen.org/privilege/location,2.3.1,9.9,http://tizen.org/privilege/location
 wearable,http://tizen.org/privilege/location,2.4,9.9,http://tizen.org/privilege/internal/buxton/location
+common,http://tizen.org/privilege/location.coarse,3,9.9,http://tizen.org/privilege/location.coarse
 mobile,http://tizen.org/privilege/location.enable,2.3,9.9,http://tizen.org/privilege/location.enable
 mobile,http://tizen.org/privilege/location.enable,2.4,9.9,http://tizen.org/privilege/internal/buxton/location
 wearable,http://tizen.org/privilege/location.enable,2.3.1,9.9,http://tizen.org/privilege/location.enable
