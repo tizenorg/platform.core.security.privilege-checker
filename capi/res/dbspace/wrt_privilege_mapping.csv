@@ -115,7 +115,7 @@ mobile,http://tizen.org/privilege/secureelement,2.1,9.9,http://tizen.org/privile
 wearable,http://tizen.org/privilege/secureelement,2.3.1,9.9,http://tizen.org/privilege/secureelement,
 common,http://tizen.org/privilege/setting,2,9.9,http://tizen.org/privilege/systemsettings.admin,
 common,http://tizen.org/privilege/system,2.1,9.9,http://tizen.org/privilege/telephony,
-common,http://tizen.org/privilege/systemmanager,2.1,2.3,http://tizen.org/privilege/telephony,
+common,http://tizen.org/privilege/systemmanager,2.1,2.3.1,http://tizen.org/privilege/telephony,
 common,http://tizen.org/privilege/telephony,2.3.1,9.9,http://tizen.org/privilege/telephony,
 common,http://tizen.org/privilege/unlimitedstorage,2.1,9.9,http://tizen.org/privilege/notexist,
 common,http://tizen.org/privilege/volume.set,2.3,9.9,http://tizen.org/privilege/volume.set,
