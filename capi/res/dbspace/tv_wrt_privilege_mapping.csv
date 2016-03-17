@@ -8,6 +8,7 @@ tv,http://tizen.org/privilege/appmanager.kill,2.3,9.9,http://tizen.org/privilege
 tv,http://tizen.org/privilege/content.read,2.3,9.9,http://tizen.org/privilege/content.write
 tv,http://tizen.org/privilege/content.write,2.3,9.9,http://tizen.org/privilege/content.write
 tv,http://tizen.org/privilege/datacontrol.consumer,2.4,9.9,http://tizen.org/privilege/appmanager.launch
+tv,http://tizen.org/privilege/d2d.datasharing,3,9.9,http://tizen.org/privilege/d2d.datasharing
 tv,http://tizen.org/privilege/datacontrol.consumer,2.4,9.9,http://tizen.org/privilege/datasharing
 tv,http://tizen.org/privilege/download,2.3,9.9,http://tizen.org/privilege/download
 tv,http://tizen.org/privilege/filesystem.read,2.3,9.9,http://tizen.org/privilege/systemsettings.admin
