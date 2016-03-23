@@ -817,3 +817,21 @@ msgstr "Diese Anwendung kann Daten mit anderen Geräten austauschen."
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Datenfreigabe für andere Geräte"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Ermitteln des ungefähren Standorts"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Diese Anwendung kann den ungefähren Standort Ihres Geräts, einschließlich Mobil-ID, LAC (Location Area Code) und TAC (Tracking Area Code), bestimmen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Diese Anwendung kann die VPN (virtuelles privates Netzwerk)-Funktionen aktivieren und deaktivieren."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Aktivieren/Deaktivieren von VPN (virtuelles privates Netzwerk)-Funktionen"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "Verwalten des VPNs (virtuelles privates Netzwerk)"
+

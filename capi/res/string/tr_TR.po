@@ -817,3 +817,21 @@ msgstr "Bu uygulama, diğer cihazlarla veri paylaşabilir."
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Diğer cihazlarla veri paylaşımı"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Yaklaşık konum belirleme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Bu uygulama, cihazınızın Hücre kimliği, LAC (Konum Alan Kodu) ve TAC (Takip Alan Kodu) bilgileri dahil olmak üzere yaklaşık konumunuzu belirleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Bu uygulama, VPN (sanal özel ağ) işlevlerini etkinleştirip devre dışı bırakabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "VPN (sanal özel ağ) işlevlerini etkinleştirme/devre dışı bırakma"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "VPN'i (sanal özel ağ) yönetme"
+

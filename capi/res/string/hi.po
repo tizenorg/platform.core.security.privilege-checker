@@ -815,5 +815,23 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
 msgstr "यह एप्लीकेशन अन्य डिवाइसेस के साथ डाटा साझा कर सकता है।"
 
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
-msgstr "अन्य डिवाइसेस के साथ डेटा साझा करना"
+msgstr "अन्य डिवाइसेस के साथ डाटा साझा करना"
+
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "अनुमानित स्थान निर्धारित करना"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "आपके डिवाइस का सेल ID, LAC (लोकेशन एरिया कोड) और TAC (ट्रैकिंग एरिया कोड) सहित यह एप्लीकेशन आपका अनुमानित स्थान निर्धारित कर सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "यह एप्लीकेशन VPN (वर्चुअल प्राइवेट नेटवर्क) फंक्शंस को सक्षम और अक्षम कर सकती है।"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "VPN (वर्चुअल प्राइवेट नेटवर्क) फंक्शंस सक्षम/अक्षम करना"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "VPN (वर्चुअल प्राइवेट नेटवर्क) प्रबंधित करना"
 

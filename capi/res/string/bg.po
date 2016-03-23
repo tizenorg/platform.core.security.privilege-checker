@@ -817,3 +817,21 @@ msgstr "Това приложение може да споделя данни с
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Споделяне на данни с други устройства"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Определяне на приблизително местоположение"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Това приложение може да определи приблизителното ви местоположение, включително Cell ID, LAC (Location Area Code; Кода за местоположение) и TAC (Tracking Area Code; Код за проследяване) на устройството."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Това приложение може да активира и деактивира функциите за VPN (виртуална частна мрежа)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Активиране/деактивиране на функции за VPN (виртуална частна мрежа)"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "Управление на VPN (виртуална частна мрежа)"
+

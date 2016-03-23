@@ -817,3 +817,21 @@ msgstr "Bu proqram məlumatı başqa cihazlarla paylaşa bilər."
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Məlumat başqa cihazlarla paylaşılır"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Təxmini yer müəyyən edilir"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Bu proqram cihazı Şəbəkə ID, LAC (Məkan Kodu) və TAC (İzləmə Kodu) daxil olmaqla təxmini yerinizi müəyyən edə bilər."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Bu proqram VPN funksiyalarını (virtual şəxsi şəbəkə) aktiv və ya qeyri-aktiv edə bilər."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "VPN funksiyalarının (virtual şəxsi şəbəkə) aktiv/qeyri-aktiv edilməsi"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "VPN (virtual şəxsi şəbəkə) idarə edilir"
+

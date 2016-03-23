@@ -817,3 +817,21 @@ msgstr "Aquesta aplicació pot compartir dades amb altres dispositius."
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "S'estan compartint les dades amb altres dispositius"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "S'està determinant la ubicació aproximada"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Aquesta aplicació pot determinar la seva ubicació aproximada incloent l'ID mòbil, el LAC (Codi d'Àrea d'Ubicació) i el TAC (Codi d'Àrea de Seguiment) del dispositiu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Aquesta aplicació pot activar i desactivar les funcions VPN (xarxa privada virtual)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Activar/desactivar les funcions VPN (xarxa privada virtual)"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "Gestió VPN (xarxa privada virtual)"
+

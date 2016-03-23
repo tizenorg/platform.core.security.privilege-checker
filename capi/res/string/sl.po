@@ -817,3 +817,21 @@ msgstr "Ta aplikacija lahko deli podatke z drugimi napravami."
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Deljenje podatkov z drugimi napravami"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Določanje približne lokacije"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Ta aplikacija lahko določi vašo približno lokacijo, vključno z ID-jem celice naprave, kodo LAC (koda lokacijskega območja) in kodo TAC (koda območja sledenja)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Ta aplikacija lahko omogoča in onemogoča funkcije omrežja VPN (navidezno zasebno omrežje)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Omogočanje/onemogočanje funkcij omrežja VPN (navidezno zasebno omrežje)"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "Upravljanje omrežja VPN (navidezno zasebno omrežje)"
+

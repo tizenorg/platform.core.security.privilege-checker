@@ -817,3 +817,21 @@ msgstr "ამ აპლიკაციას შეუძლია, გაა�
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "მასალის გაზიარება სხვა მოწყობილობებთან"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "ლოკაციის დაახლოებით განსაზღვრა"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "ამ აპლიკაციას შეუძლია, განსაზღვროს თქვენ დაახლოებითი ლოკაცია, მათ შორის თქვენი მოწყობილობის „ფიჭური ID“, LAC (ადგილობრივი რეგიონის კოდი) და TAC (თვალყურის დევნების რეგიონის კოდი)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "ამ აპლიკაციას შეუძლია, ჩართოს და გამორთოს VPN (ვირტუალური პირადი ქსელის) ფუნქციები."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "VPN (ვირტუალური პერსონალური ქსელის) ფუნქციების ჩართვა/გამორთვა"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "VPN-ის (ვირტუალური პერსონალური ქსელის) მართვა"
+

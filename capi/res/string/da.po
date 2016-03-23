@@ -512,7 +512,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP
 msgstr "Denne applikation kan indstille alarmer og vække enheden på planlagte tidspunkter."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Denne applikation kan synkronisere enhedsdata, for eksempel kontakter og kalenderbegivenheder, ved hjælp af OMA DS 1.2-protokollen."
+msgstr "Denne applikation kan synkronisere enhedsdata, for eksempel kontakter og kalenderevents, ved hjælp af OMA DS 1.2-protokollen."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
 msgstr "Denne applikation kan bruge fuldskærmsvisning."
@@ -752,7 +752,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIF
 msgstr "Denne applikation kan vise en lille værktøjslinje på informationspanelet eller låseskærmen, når den er åben."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
-msgstr "Denne applikation kan synkronisere enhedsdata, for eksempel kontakter og kalenderbegivenheder, ved hjælp af OMA DS 1.2-protokollen. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
+msgstr "Denne applikation kan synkronisere enhedsdata, for eksempel kontakter og kalenderevents, ved hjælp af OMA DS 1.2-protokollen. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
 msgstr "Denne applikation kan hente e-mails, sms'er og mms'er fra serveren eller modtage dem direkte. Dette kan medføre yderligere gebyrer afhængigt af dit abonnement."
@@ -816,4 +816,22 @@ msgstr "Denne applikation kan dele data med andre enheder."
 
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Deling af data med andre enheder"
+
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Fastslår omtrentlig placering"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Denne applikation kan fastslå din omtrentlige placering, herunder din enheds mobil-id, LAC (Location Area Code) og TAC (Tracking Area Code)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Denne applikation kan aktivere og deaktivere VPN-funktioner (virtuelle private netværk)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Aktiverer/deaktiverer VPN-funktioner (virtuelt privat netværk)"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "Administrerer VPN’er (virtuelle private netværk)"
 

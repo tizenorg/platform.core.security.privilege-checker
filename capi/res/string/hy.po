@@ -817,3 +817,21 @@ msgstr "Այս ծրագիրը կարող է տվյալներ համօգտագո�
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Տվյալների համօգտագործում այլ սարքերի հետ"
 
+msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
+msgstr "Մոտավոր տեղի որոշում"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
+msgstr "Այս ծրագիրը կարող է որոշելու Ձեր մոտավոր տեղը, ներառյալ սարքի բջջային ID-ն, LAC կոդը (Տեղի տարածաշրջանային կոդը) և TAC կոդը (Հետևման տարածաշրջանային կոդը):"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "Այս ծրագիրը կարող է ընձեռել կամ կասեցնել VPN-ի (վիրտուալ մասնավոր ցանցի) գործառույթները:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
+msgstr "This application can manage the VPN (virtual private network) and change its settings."
+
+msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
+msgstr "VPN-ի (վիրտուալ մասնավոր ցանցի) գործառույթների ընձեռում և կասեցում"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
+msgstr "VPN-ի (վիրտուալ մասնավոր ցանցի) կառավարում"
+
