@@ -11,15 +11,16 @@ common,http://tizen.org/privilege/appmanager.certificate,2.1,9.9,http://tizen.or
 common,http://tizen.org/privilege/appmanager.kill,2.1,9.9,http://tizen.org/privilege/appmanager.kill,
 wearable,http://tizen.org/privilege/audiorecorder,2.3,9.9,http://tizen.org/privilege/recorder,
 wearable,http://tizen.org/privilege/audiorecorder,2.3,9.9,http://tizen.org/privilege/internal/buxton/camcorder,
-common,http://tizen.org/privilege/bluetooth,2.4,9.9,http://tizen.org/privilege/bluetooth,
+mobile,http://tizen.org/privilege/bluetooth,2.4,9.9,http://tizen.org/privilege/bluetooth,
+wearable,http://tizen.org/privilege/bluetooth,3,9.9,http://tizen.org/privilege/bluetooth,
 mobile,http://tizen.org/privilege/bluetooth.admin,1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
-wearable,http://tizen.org/privilege/bluetooth.admin,2.3.1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
+wearable,http://tizen.org/privilege/bluetooth.admin,2.3.1,3,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
 mobile,http://tizen.org/privilege/bluetooth.gap,1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
-wearable,http://tizen.org/privilege/bluetooth.gap,2.3.1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
+wearable,http://tizen.org/privilege/bluetooth.gap,2.3.1,3,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
 mobile,http://tizen.org/privilege/bluetooth.health,2.2,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
-wearable,http://tizen.org/privilege/bluetooth.health,2.3.1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
+wearable,http://tizen.org/privilege/bluetooth.health,2.3.1,3,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
 mobile,http://tizen.org/privilege/bluetooth.spp,1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
-wearable,http://tizen.org/privilege/bluetooth.spp,2.3.1,2.4,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
+wearable,http://tizen.org/privilege/bluetooth.spp,2.3.1,3,http://tizen.org/privilege/bluetooth,Bluetooth.* was changed to bluetooth
 mobile,http://tizen.org/privilege/bluetoothmanager,2.1,9.9,http://tizen.org/privilege/bluetooth.admin,
 wearable,http://tizen.org/privilege/bluetoothmanager,2.3.1,9.9,http://tizen.org/privilege/bluetooth.admin,
 mobile,http://tizen.org/privilege/bookmark.read,2.1,9.9,http://tizen.org/privilege/bookmark.admin,
@@ -54,15 +55,19 @@ common,http://tizen.org/privilege/filesystem.write,1,9.9,http://tizen.org/privil
 mobile,http://tizen.org/privilege/fullscreen,2.1,9.9,http://tizen.org/privilege/notexist,
 common,http://tizen.org/privilege/healthinfo,2.3,9.9,http://tizen.org/privilege/healthinfo,
 common,http://tizen.org/privilege/internet,2.3,9.9,http://tizen.org/privilege/internet,
-common,http://tizen.org/privilege/ime,2.4,9.9,http://tizen.org/privilege/ime,
+mobile,http://tizen.org/privilege/ime,2.4,9.9,http://tizen.org/privilege/ime,
+wearable,http://tizen.org/privilege/ime,3,9.9,http://tizen.org/privilege/ime,
 mobile,http://tizen.org/privilege/led,2.4,9.9,http://tizen.org/privilege/led,
 common,http://tizen.org/privilege/location,2.1,9.9,http://tizen.org/privilege/location,
-common,http://tizen.org/privilege/location,2.4,9.9,http://tizen.org/privilege/internal/buxton/location,
+mobile,http://tizen.org/privilege/location,2.4,9.9,http://tizen.org/privilege/internal/buxton/location,
+wearable,http://tizen.org/privilege/location,3,9.9,http://tizen.org/privilege/internal/buxton/location,
 common,http://tizen.org/privilege/mediacapture,2.1,9.9,http://tizen.org/privilege/camera,
 common,http://tizen.org/privilege/mediacapture,2.1,9.9,http://tizen.org/privilege/internal/buxton/camcorder,
 common,http://tizen.org/privilege/mediacapture,2.1,9.9,http://tizen.org/privilege/recorder,
-common,http://tizen.org/privilege/mediacontroller.client,2.4,9.9,http://tizen.org/privilege/mediacontroller.client,
-common,http://tizen.org/privilege/mediacontroller.server,2.4,9.9,http://tizen.org/privilege/mediacontroller.server,
+mobile,http://tizen.org/privilege/mediacontroller.client,2.4,9.9,http://tizen.org/privilege/mediacontroller.client,
+wearable,http://tizen.org/privilege/mediacontroller.client,3,9.9,http://tizen.org/privilege/mediacontroller.client,
+mobile,http://tizen.org/privilege/mediacontroller.server,2.4,9.9,http://tizen.org/privilege/mediacontroller.server,
+wearable,http://tizen.org/privilege/mediacontroller.server,3,9.9,http://tizen.org/privilege/mediacontroller.server,
 mobile,http://tizen.org/privilege/messaging.read,1,9.9,http://tizen.org/privilege/email,
 mobile,http://tizen.org/privilege/messaging.read,1,9.9,http://tizen.org/privilege/internal/buxton/message.read,
 mobile,http://tizen.org/privilege/messaging.read,1,9.9,http://tizen.org/privilege/mediastorage,
@@ -120,7 +125,8 @@ common,http://tizen.org/privilege/telephony,2.3.1,9.9,http://tizen.org/privilege
 common,http://tizen.org/privilege/unlimitedstorage,2.1,9.9,http://tizen.org/privilege/notexist,
 common,http://tizen.org/privilege/volume.set,2.3,9.9,http://tizen.org/privilege/volume.set,
 mobile,http://tizen.org/privilege/websetting,2.2,2.4,http://tizen.org/privilege/notexist,
-common,http://tizen.org/privilege/internal/default/public,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+mobile,http://tizen.org/privilege/internal/default/public,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+wearable,http://tizen.org/privilege/internal/default/public,2.2.1,3,http://tizen.org/privilege/internal/buxton/location,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen.org/privilege/internal/default/public,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,2.3,http://tizen.org/privilege/call,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,2.3,http://tizen.org/privilege/internet,
@@ -133,7 +139,8 @@ common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen
 common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen.org/privilege/network.get,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen.org/privilege/notification,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen.org/privilege/packagemanager.info,
-common,http://tizen.org/privilege/internal/default/partner,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+mobile,http://tizen.org/privilege/internal/default/partner,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+wearable,http://tizen.org/privilege/internal/default/partner,2.2.1,3,http://tizen.org/privilege/internal/buxton/location,
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tizen.org/privilege/internal/default/public,
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tizen.org/privilege/internal/default/partner,
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,2.3,http://tizen.org/privilege/call,
@@ -147,7 +154,8 @@ common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tize
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tizen.org/privilege/network.get,
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tizen.org/privilege/notification,
 common,http://tizen.org/privilege/internal/default/partner,2.2.1,9.9,http://tizen.org/privilege/packagemanager.info,
-common,http://tizen.org/privilege/internal/default/platform,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+mobile,http://tizen.org/privilege/internal/default/platform,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
+wearable,http://tizen.org/privilege/internal/default/platform,2.2.1,3,http://tizen.org/privilege/internal/buxton/location,
 common,http://tizen.org/privilege/internal/default/platform,2.2.1,9.9,http://tizen.org/privilege/internal/default/public,
 common,http://tizen.org/privilege/internal/default/platform,2.2.1,9.9,http://tizen.org/privilege/internal/default/partner,
 common,http://tizen.org/privilege/internal/default/platform,2.2.1,9.9,http://tizen.org/privilege/internal/default/platform,
