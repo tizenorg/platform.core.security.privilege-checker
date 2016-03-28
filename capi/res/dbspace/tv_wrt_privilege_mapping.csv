@@ -30,6 +30,7 @@ tv,http://tizen.org/privilege/tv.display,2.3,9.9,http://tizen.org/privilege/note
 tv,http://tizen.org/privilege/tv.inputdevice,2.3,9.9,http://tizen.org/privilege/notexist
 tv,http://tizen.org/privilege/tv.window,2.3,9.9,http://tizen.org/privilege/notexist
 tv,http://tizen.org/privilege/unlimitedstorage,2.3,9.9,http://tizen.org/privilege/notexist
+tv,http://tizen.org/privilege/volume.set,3,9.9,http://tizen.org/privilege/volume.set
 tv,http://tizen.org/privilege/websetting,2.3,2.4,http://tizen.org/privilege/notexist
 tv,http://tizen.org/privilege/internal/default/public,2.3,2.4,http://tizen.org/privilege/internal/buxton/location
 tv,http://tizen.org/privilege/internal/default/public,2.3,9.9,http://tizen.org/privilege/internal/default/public
