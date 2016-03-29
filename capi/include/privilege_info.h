@@ -29,17 +29,16 @@ extern "C" {
 /**
  * @brief Enumerations of error code for Privilege Information.
  */
-typedef enum
-{
-    PRVMGR_ERR_NONE                         = 0,
-    PRVMGR_ERR_INVALID_PARAMETER            = 1,
-    PRVMGR_ERR_OUT_OF_MEMORY                = 2,
-    PRVMGR_ERR_INTERNAL_ERROR               = 3,
-    PRVMGR_ERR_NO_DATA                      = 4,
-    PRVMGR_ERR_NO_EXIST_PRIVILEGE           = 5,
-    PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL    = 6,
-    PRVMGR_ERR_INVALID_PRIVILEGE            = 7,
-    PRVMGR_ERR_DEPRECATED_PRIVILEGE         = 8,
+typedef enum {
+	PRVMGR_ERR_NONE						 = 0,
+	PRVMGR_ERR_INVALID_PARAMETER			= 1,
+	PRVMGR_ERR_OUT_OF_MEMORY				= 2,
+	PRVMGR_ERR_INTERNAL_ERROR			   = 3,
+	PRVMGR_ERR_NO_DATA					  = 4,
+	PRVMGR_ERR_NO_EXIST_PRIVILEGE		   = 5,
+	PRVMGR_ERR_MISMACHED_PRIVILEGE_LEVEL	= 6,
+	PRVMGR_ERR_INVALID_PRIVILEGE			= 7,
+	PRVMGR_ERR_DEPRECATED_PRIVILEGE		 = 8,
 } privilege_manager_error_e;
 
 /**
@@ -158,4 +157,4 @@ EXPORT_API int privilege_info_get_privilege_list_by_privacy(const char *privacy,
 }
 #endif
 
-#endif // __TIZEN_SECURITY_PRIVILEGE_INFO_H
+#endif /* __TIZEN_SECURITY_PRIVILEGE_INFO_H */

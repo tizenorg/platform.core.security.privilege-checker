@@ -1,7 +1,7 @@
 /*
- * Copyright (c) 2013-2015 Samsung Electronics Co., Ltd All Rights Reserved
+ * Copyright(c)2013-2015 Samsung Electronics Co., Ltd All Rights Reserved
  *
- * Licensed under the Apache License, Version 2.0 (the License);
+ * Licensed under the Apache License, Version 2.0(the License);
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
@@ -28,25 +28,23 @@
 extern "C" {
 #endif
 
-typedef enum
-{
-    PRVMGR_PACKAGE_VISIBILITY_PUBLIC        =  1 << 1,
-    PRVMGR_PACKAGE_VISIBILITY_PARTNER       =  1 << 2,
-    PRVMGR_PACKAGE_VISIBILITY_PLATFORM      =  1 << 3,
+typedef enum {
+	PRVMGR_PACKAGE_VISIBILITY_PUBLIC		=  1 << 1,
+	PRVMGR_PACKAGE_VISIBILITY_PARTNER	   =  1 << 2,
+	PRVMGR_PACKAGE_VISIBILITY_PLATFORM	  =  1 << 3,
 } privilege_manager_visibility_e;
 
-typedef enum
-{
-    PRVMGR_PACKAGE_TYPE_WRT     =  0,
-    PRVMGR_PACKAGE_TYPE_CORE    =  1,
+typedef enum {
+	PRVMGR_PACKAGE_TYPE_WRT	 =  0,
+	PRVMGR_PACKAGE_TYPE_CORE	=  1,
 } privilege_manager_package_type_e;
 
 
 
 /**
  * @brief verify privilege in the privilege list by checking its name and level at given api version.
- * @remarks @a privilege_list must be released with free() by you.
- * @remarks @a error_message must be released with free() by you.
+ * @remarks @a privilege_list must be released with free()by you.
+ * @remarks @a error_message must be released with free()by you.
  * @param [in] api_version The api version of the application
  * @param [in] privilege_manager_package_type_e The privilege_manager_package_type_e
  * @param [in] privilege_list The privilege_list
@@ -64,8 +62,8 @@ EXPORT_API int privilege_manager_verify_privilege(const char* api_version, privi
 
 /**
  * @brief get mapped privilege list of input privilege list according to the given package type, api version, and profile.
- * @remarks @a privilege_list must be released with free() by you.
- * @remarks @a mapped_privilege_list must be released with free() by you.
+ * @remarks @a privilege_list must be released with free()by you.
+ * @remarks @a mapped_privilege_list must be released with free()by you.
  * @param [in] api_version The api version of the application
  * @param [in] privilege_manager_package_type_e The privilege_manager_package_type_e
  * @param [in] privilege_list The privilege_list
@@ -83,5 +81,5 @@ EXPORT_API int privilege_manager_get_mapped_privilege_list(const char* api_versi
 }
 #endif
 
-#endif // __TIZEN_SECURITY_PRIVILEGE_MANAGER_H
+#endif /* __TIZEN_SECURITY_PRIVILEGE_MANAGER_H */
 
