@@ -827,7 +827,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTU
 msgstr "Tämä sovellus pystyy ottamaan VPN-toiminnot (näennäisen yksityisverkon toiminnot) käyttöön ja poistamaan ne käytöstä."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
-msgstr "This application can manage the VPN (virtual private network) and change its settings."
+msgstr "Tämä sovellus pystyy hallitsemaan VPN:ää (näennäistä yksityisverkkoa) ja muuttamaan sen asetuksia."
 
 msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
 msgstr "VPN-toimintojen (näennäisen yksityisverkon toimintojen) ottaminen käyttöön ja poistaminen käytöstä"
