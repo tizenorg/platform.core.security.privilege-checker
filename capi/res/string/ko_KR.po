@@ -827,7 +827,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTU
 msgstr "이 앱은 VPN(가상사설망) 기능을 실행하거나 해제할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
-msgstr "This application can manage the VPN (virtual private network) and change its settings."
+msgstr "이 앱은 VPN(가상사설망)을 관리하고 VPN 설정을 변경할 수 있습니다."
 
 msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
 msgstr "VPN(가상사설망) 기능 실행/해제하기"

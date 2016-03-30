@@ -827,7 +827,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTU
 msgstr "यह एप्लीकेशन VPN (वर्चुअल प्राइवेट नेटवर्क) फंक्शंस को सक्षम और अक्षम कर सकती है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
-msgstr "This application can manage the VPN (virtual private network) and change its settings."
+msgstr "यह एप्लीकेशन VPN (वर्चुअल प्राइवेट नेटवर्क) प्रबंधित कर सकती है और इसकी सेटिंग्स बदल सकती है।"
 
 msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
 msgstr "VPN (वर्चुअल प्राइवेट नेटवर्क) फंक्शंस सक्षम/अक्षम करना"

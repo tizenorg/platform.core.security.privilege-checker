@@ -506,7 +506,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CE
 msgstr "Esta aplicación puede recuperar certificados de aplicaciones específicos."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
-msgstr "Esta aplicación puede guardar su contenido en sus ubicaciones de almacenamiento externo o en la memoria del dispositivo, como tarjetas SD, sin límites en el tamaño del contenido."
+msgstr "Esta aplicación puede guardar su contenido en la memoria del dispositivo o en sus ubicaciones de almacenamiento externo, como tarjetas SD, sin límites en el tamaño del contenido."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
 msgstr "Esta aplicación puede definir alarmas y despertar el dispositivo a las horas programadas."
@@ -827,7 +827,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTU
 msgstr "Esta aplicación puede activar y desactivar las funciones de VPN (red privada virtual)."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
-msgstr "This application can manage the VPN (virtual private network) and change its settings."
+msgstr "Esta aplicación puede administrar la VPN (red privada virtual) y cambiar sus ajustes."
 
 msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
 msgstr "Activar/desactivar funciones de VPN (red privada virtual)"
