@@ -1,6 +1,8 @@
 #include <dlog.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
 #include "privilege_db_manager.h"
 #include "privilege_manager.h"
 
@@ -269,6 +271,16 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 		free(pkg_type);
 		return PRVMGR_ERR_INVALID_PARAMETER;
 	}
+
+	/* Check black list */
+	int uid = getuid();
+	ret = privilege_db_manager_check_black_list(uid, package_type, privilege_list);
+	if (ret > 0) {
+		LOGE("[PRVMGR_ERR_USING_BANNED_PRIVILEGE] Application manifest contains banned privilege(s) declared by DPM");
+		*error_message = strdup("[PRVMGR_ERR_USING_BANNED_PRIVILEGE] Application manifest contains banned privilege(s) declared by the DPM");
+		return PRVMGR_ERR_USING_BANNED_PRIVILEGE;
+	}
+
 	/* Get vaild privilege list */
 	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &vaild_privilege_list);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE) {
@@ -464,5 +476,25 @@ int privilege_manager_get_mapped_privilege_list(const char *api_version, privile
 	TryReturn(privilege_list != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL.");
 	ret = privilege_db_manager_get_mapped_privilege_list(api_version, package_type, privilege_list, mapped_privilege_list);
 	TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] privilege_db_manager_get_mapped_privilege_list failed, ret = %d", ret);
+	return ret;
+}
+
+int privilege_manager_set_black_list(int uid, privilege_manager_package_type_e package_type, GList *privilege_list)
+{
+	TryReturn(privilege_list != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL.");
+	TryReturn(package_type == PRVMGR_PACKAGE_TYPE_WRT || package_type == PRVMGR_PACKAGE_TYPE_CORE, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] Invalid package_type = %d.", package_type);
+	int ret = privilege_db_manager_set_black_list(uid, package_type, privilege_list);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		ret = PRVMGR_ERR_INTERNAL_ERROR;
+	return ret;
+}
+
+int privilege_manager_unset_black_list(int uid, privilege_manager_package_type_e package_type, GList *privilege_list)
+{
+	TryReturn(privilege_list != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_list is NULL.");
+	TryReturn(package_type == PRVMGR_PACKAGE_TYPE_WRT || package_type == PRVMGR_PACKAGE_TYPE_CORE, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] Invalid package_type = %d.", package_type);
+	int ret = privilege_db_manager_unset_black_list(uid, package_type, privilege_list);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		ret = PRVMGR_ERR_INTERNAL_ERROR;
 	return ret;
 }
