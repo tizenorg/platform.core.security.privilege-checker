@@ -557,3 +557,16 @@ int privilege_info_get_privilege_list_by_privacy(const char* privacy, GList **pr
 		ret = PRVMGR_ERR_INTERNAL_ERROR;
 	return ret;
 }
+
+
+int privilege_info_get_black_list(int uid, privilege_manager_package_type_e package_type, GList **privilege_list)
+{
+	TryReturn(package_type == PRVMGR_PACKAGE_TYPE_WRT || package_type == PRVMGR_PACKAGE_TYPE_CORE, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] package_type invalid!");
+
+	int ret = privilege_db_manager_get_black_list(uid, package_type, privilege_list);
+	if (ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
+		ret = PRVMGR_ERR_NONE;
+	else
+		ret = PRVMGR_ERR_INTERNAL_ERROR;
+	return ret;
+}

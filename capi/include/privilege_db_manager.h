@@ -35,22 +35,27 @@ typedef struct {
 } privilege_info_db_row_s;
 
 typedef enum {
-	PRIVILEGE_DB_MANAGER_ERR_NONE				  = 0,
-	PRIVILEGE_DB_NO_EXIST_RESULT				   = 1,
-	PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL	   = 2,
-	PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY		 = 3,
-	PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY		 = 4,
+	PRIVILEGE_DB_MANAGER_ERR_NONE                = 0,
+	PRIVILEGE_DB_NO_EXIST_RESULT                 = 1,
+	PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL     = 2,
+	PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY       = 3,
+	PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY       = 4,
+	PRIVILEGE_DB_MANAGER_ERR_INVALID_TYPE        = 5,
+	PRIVILEGE_DB_MANAGER_ERR_DB_BUSY_FAIL        = 6,
+	PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL  = 7,
+	PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL        = 8,
+	PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL      = 9,
 } privilege_db_manager_error_e;
 
 typedef enum {
-	PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PUBLIC	=   0,
+	PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PUBLIC    =   0,
 	PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PARTNER   =   1,
 	PRIVILEGE_DB_MANAGER_PRIVILEGE_LEVEL_PLATFORM  =   2
 } privilege_db_manager_privilege_level_e;
 
 typedef enum {
-	PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT		  =   0,
-	PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE		 =   1
+	PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_WRT         =   0,
+	PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE        =   1
 } privilege_db_manager_package_type_e;
 
 #ifdef __cplusplus
@@ -68,10 +73,14 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 int privilege_db_manager_get_privilege_group_display(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, int* privilege_group_number);
 
 int __privilege_db_manager_is_privacy(const char* privilege);
-
 int __privilege_db_manager_get_privacy_list(GList** privacy_list);
-
 int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GList **privilege_list);
+
+int privilege_db_manager_get_black_list(int uid, privilege_db_manager_package_type_e package_type, GList** privilege_list);
+int privilege_db_manager_set_black_list(int uid, privilege_db_manager_package_type_e pacakge_type, GList *privilege_list);
+int privilege_db_manager_unset_black_list(int uid, privilege_db_manager_package_type_e package_type, GList *privilege_list);
+
+int privilege_db_manager_check_black_list(int uid, privilege_db_manager_package_type_e pacakge_type, GList *privilege_list);
 
 #ifdef __cplusplus
 	}

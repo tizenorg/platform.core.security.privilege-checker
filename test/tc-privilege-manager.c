@@ -68,6 +68,8 @@ static const char *__get_result_string(privilege_manager_error_e ret)
 		return "PRVMGR_ERR_INVALID_PARAMETER";
 	else if (ret == PRVMGR_ERR_INTERNAL_ERROR)
 		return "PRVMGR_ERR_INTERNAL_ERROR";
+	else if (ret == PRVMGR_ERR_USING_BANNED_PRIVILEGE)
+		return "PRVMGR_ERR_USING_BANNED_PRIVILEGE";
 
 	return "FAIL";
 }
@@ -91,6 +93,8 @@ static void __print_error_message(char *error_message)
 	if (strstr(error_message, "INVALID_PARAMETER") != NULL)
 		strncat(err_type, "PRVMGR_ERR_INVALID_PARAMETER ", strlen("PRVMGR_ERR_INVALID_PARAMETER "));
 
+	if (strstr(error_message, "BANNED") != NULL)
+		strncat(err_type, "PRVMGR_ERR_USING_BANNED_PRIVILEGE ", strlen("PRVMGR_ERR_USING_BANNED_PRIVILEGE "));
 
 	if (strlen(err_type) == 0) {
 		fail_cnt++;
