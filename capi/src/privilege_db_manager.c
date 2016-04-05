@@ -3,11 +3,6 @@
 #include <dlog.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define PRIVILEGE_INFO_CORE_DB_PATH "/usr/share/privilege-manager/.core_privilege_info.db"
-#define PRIVILEGE_INFO_WRT_DB_PATH "/usr/share/privilege-manager/.wrt_privilege_info.db"
-#define PRIVILEGE_MAPPING_CORE_DB_PATH "/usr/share/privilege-manager/.core_privilege_mapping.db"
-#define PRIVILEGE_MAPPING_WRT_DB_PATH "/usr/share/privilege-manager/.wrt_privilege_mapping.db"
-
 #ifdef LOG_TAG
 #undef LOG_TAG
 #define LOG_TAG "PRIVILEGE_DB_MANAGER"
@@ -37,34 +32,35 @@ static privilege_db_manager_profile_type_e g_privilege_db_manager_profile_type =
 		return returnValue; \
 	}
 
-int __initialize_db(sqlite3 ** db, privilege_db_manager_package_type_e package_type)
+int __initialize_db(char type, sqlite3 ** db, privilege_db_manager_package_type_e package_type)
 {
 	char *db_path = NULL;
+	int db_mode = SQLITE_OPEN_READONLY;
 
-	if (package_type == PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE)
-		db_path = PRIVILEGE_INFO_CORE_DB_PATH;
-	else
-		db_path = PRIVILEGE_INFO_WRT_DB_PATH;
-
-	int ret = sqlite3_open_v2(db_path, db, SQLITE_OPEN_READONLY, NULL);
-	if (ret != SQLITE_OK) {
-		LOGE("[DB_FAIL] Can't open database %s : %s", db_path, sqlite3_errmsg(*db));
-		sqlite3_close(*db);
-		return PRIVILEGE_DB_MANAGER_ERR_CONNECTION_FAIL;
+	switch (type) {
+	case 'i':
+		if (package_type == PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE)
+			db_path = PRIVILEGE_INFO_CORE_DB_PATH;
+		else
+			db_path = PRIVILEGE_INFO_WRT_DB_PATH;
+		break;
+	case 'm':
+		if (package_type == PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE)
+			db_path = PRIVILEGE_MAPPING_CORE_DB_PATH;
+		else
+			db_path = PRIVILEGE_MAPPING_WRT_DB_PATH;
+		break;
+	case 'u':
+		db_mode = SQLITE_OPEN_READWRITE;
+	case 'p':
+		db_path = PRIVILEGE_POLICY_DB_PATH;
+		break;
+	default:
+		LOGE("Undefined db initialize mode!");
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_TYPE;
 	}
-	return PRIVILEGE_DB_MANAGER_ERR_NONE;
-}
-
-int __initialize_mapping_db(sqlite3 ** db, privilege_db_manager_package_type_e package_type)
-{
-	char *db_path = NULL;
-
-	if (package_type == PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE)
-		db_path = PRIVILEGE_MAPPING_CORE_DB_PATH;
-	else
-		db_path = PRIVILEGE_MAPPING_WRT_DB_PATH;
-
-	int ret = sqlite3_open_v2(db_path, db, SQLITE_OPEN_READONLY, NULL);
+	LOGD("DB PATH = %s", db_path);
+	int ret = sqlite3_open_v2(db_path, db, db_mode, NULL);
 	if (ret != SQLITE_OK) {
 		LOGE("[DB_FAIL] Can't open database %s : %s", db_path, sqlite3_errmsg(*db));
 		sqlite3_close(*db);
@@ -81,6 +77,87 @@ void __finalize_db(sqlite3 * db, sqlite3_stmt * stmt)
 	if (db != NULL)
 		sqlite3_close(db);
 }
+
+int __make_privilege_list_str(GList *privilege_list, char** privilege_list_str)
+{
+	GList *l;
+	char* temp_privilege_list_str = NULL;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		char *privilege_name = (char *)l->data;
+		if (temp_privilege_list_str == NULL) {
+			size_t size = snprintf(0, 0, "'%s'", privilege_name) + 1;
+			temp_privilege_list_str = (char *)malloc(size * sizeof(char));
+			TryReturn(temp_privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's malloc is failed.");
+			snprintf(temp_privilege_list_str, size, "'%s'", privilege_name);
+		} else {
+			size_t new_size = snprintf(0, 0, "%s, '%s'", temp_privilege_list_str, privilege_name) + 1;
+			temp_privilege_list_str = realloc(temp_privilege_list_str, new_size * sizeof(char));
+			TryReturn(temp_privilege_list_str != NULL, free(temp_privilege_list_str), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's realloc is failed.");
+			strncat(temp_privilege_list_str, ", '", strlen(", '"));
+			strncat(temp_privilege_list_str, privilege_name, strlen(privilege_name));
+			strncat(temp_privilege_list_str, "'", strlen("'"));
+		}
+	}
+	*privilege_list_str = temp_privilege_list_str;
+	return 0;
+}
+
+int __get_db_error(int ret)
+{
+	LOGE("[PRIVILEGE_DB_MANAGER_ERR_DB_FAIL] %s", sqlite3_errstr(ret));
+	switch (ret) {
+	case SQLITE_BUSY:
+		ret = PRIVILEGE_DB_MANAGER_ERR_DB_BUSY_FAIL;
+		break;
+	case SQLITE_CONSTRAINT:
+		ret = PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL;
+		break;
+	case SQLITE_FULL:
+		ret = PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL;
+		break;
+	default:
+		ret = PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL;
+	}
+
+	return ret;
+}
+
+int privilege_db_manager_check_black_list(int uid, privilege_db_manager_package_type_e package_type, GList* privilege_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = 0;
+	int count = 0;
+
+	ret = __initialize_db('p', &db, package_type);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	char *privilege_list_str = NULL;
+	ret = __make_privilege_list_str(privilege_list, &privilege_list_str);
+	LOGD("check black list with uid = %d, package_type = %d, privilege_list = %s", uid, package_type, privilege_list_str);
+	char *sql = sqlite3_mprintf("select distinct privilege_name from black_list where privilege_name in(%s)and uid=%d and package_type=%d", privilege_list_str, uid, package_type);
+
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	do {
+		ret = sqlite3_step(stmt);
+		if (ret == SQLITE_ROW)
+			++count;
+	} while (ret == SQLITE_ROW);
+
+	if (count > 0)
+		LOGE("Privilege list contains banned privileges!");
+
+	__finalize_db(db, stmt);
+	return count;
+}
+
 
 int privilege_db_manager_get_privilege_list(const char *api_version, privilege_db_manager_package_type_e package_type, GList ** privilege_list)
 {
@@ -103,7 +180,7 @@ int privilege_db_manager_get_privilege_list(const char *api_version, privilege_d
 	}
 	TryReturn(changed_to_version != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
 
-	ret = __initialize_db(&db, package_type);
+	ret = __initialize_db('i', &db, package_type);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
@@ -177,32 +254,15 @@ int privilege_db_manager_get_mapped_privilege_list(const char *api_version, priv
 	sqlite3_stmt *stmt = NULL;
 	int ret;
 
-	ret = __initialize_mapping_db(&db, package_type);
+	ret = __initialize_db('m', &db, package_type);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
 	GList *temp_privilege_list = NULL;
 
 	char *privilege_list_str = NULL;
-	GList *l;
-	for (l = privilege_list; l != NULL; l = l->next) {
-		char *privilege_name = (char *)l->data;
-		if (privilege_list_str == NULL) {
-			size_t size = snprintf(0, 0, "'%s'", privilege_name) + 1;
-			privilege_list_str = (char *)malloc(size * sizeof(char));
-			TryReturn(privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's malloc is failed.");
-			snprintf(privilege_list_str, size, "'%s'", privilege_name);
-			LOGD("privilege_list_str = %s", privilege_list_str);
-		} else {
-			size_t new_size = snprintf(0, 0, "%s, '%s'", privilege_list_str, privilege_name) + 1;
-			privilege_list_str = realloc(privilege_list_str, new_size * sizeof(char));
-			TryReturn(privilege_list_str != NULL, free(privilege_list_str), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's realloc is failed.");
-			strncat(privilege_list_str, ", '", strlen(", '"));
-			strncat(privilege_list_str, privilege_name, strlen(privilege_name));
-			strncat(privilege_list_str, "'", strlen("'"));
-			LOGD("privilege_list_str = %s", privilege_list_str);
-		}
-	}
+	ret = __make_privilege_list_str(privilege_list, &privilege_list_str);
+	TryReturn(ret == 0 && privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] making privilege_list_str for where in query is failed.");
 
 	char *sql = sqlite3_mprintf("select distinct mapped_privilege_name from privilege_mapping where privilege_name in(%s)and(profile_id=%d or profile_id=%d)and from_api_version<=%Q and to_api_version>%Q", privilege_list_str, PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, api_version, api_version);
 	free(privilege_list_str);
@@ -234,7 +294,7 @@ int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
 	int ret;
-	ret = __initialize_db(&db, package_type);
+	ret = __initialize_db('i', &db, package_type);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
@@ -273,7 +333,7 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
 	int ret;
-	ret = __initialize_db(&db, package_type);
+	ret = __initialize_db('i', &db, package_type);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
@@ -311,7 +371,7 @@ int privilege_db_manager_get_privilege_group_display(privilege_db_manager_packag
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
 	int ret;
-	ret = __initialize_db(&db, package_type);
+	ret = __initialize_db('i', &db, package_type);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
@@ -342,7 +402,7 @@ int __privilege_db_manager_is_privacy(const char* privilege)
 {
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
-	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	int ret = __initialize_db('i', &db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return -1;
 
@@ -369,7 +429,7 @@ int __privilege_db_manager_get_privacy_list(GList **privacy_list)
 {
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
-	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	int ret = __initialize_db('i', &db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
@@ -403,12 +463,11 @@ int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GL
 {
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
-	int ret = __initialize_db(&db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	int ret = __initialize_db('i', &db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
 	char *sql = sqlite3_mprintf("select distinct privilege_name from privilege_info where is_privacy=1 and privacy_group=%Q", privacy);
-	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if (ret != SQLITE_OK) {
 		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
@@ -431,4 +490,109 @@ int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GL
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 
+}
+
+int privilege_db_manager_get_black_list(int uid, privilege_db_manager_package_type_e package_type, GList **privilege_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db('p', &db, package_type);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+	LOGD("Get privilege_name from black_list where uid = %d, package_type = %d", uid, package_type);
+	char* sql = sqlite3_mprintf("select privilege_name from black_list where uid=%d and package_type=%d", uid, package_type);
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+		sqlite3_close(db);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
+
+	GList *temp_privilege_list = NULL;
+	do {
+		ret = sqlite3_step(stmt);
+		if (ret == SQLITE_ROW) {
+			char *privilege_name = strdup((char *)sqlite3_column_text(stmt, 0));
+			LOGE("privilege name: %s", privilege_name);
+			temp_privilege_list = g_list_append(temp_privilege_list, privilege_name);
+		} else if (ret != SQLITE_DONE) {
+			LOGE("ret = %d", ret);
+		}
+	} while (ret == SQLITE_ROW);
+
+	*privilege_list = temp_privilege_list;
+
+	__finalize_db(db, stmt);
+
+	return PRIVILEGE_DB_MANAGER_ERR_NONE;
+}
+
+int privilege_db_manager_set_black_list(int uid, privilege_db_manager_package_type_e package_type, GList *privilege_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db('u', &db, package_type);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	sqlite3_exec(db, "BEGIN IMMEDIATE TRANSACTION", NULL, NULL, NULL);
+	GList *l = NULL;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		char *privilege_name = (char *)l->data;
+		LOGD("insert uid = %d, package_type = %d, privilege_name = %s", uid, package_type, privilege_name);
+		char* sql = sqlite3_mprintf("insert or ignore into black_list (uid, package_type, privilege_name) values (%d, %d, %Q)", uid, package_type, privilege_name);
+		ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+		if (ret != SQLITE_OK) {
+			LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+			sqlite3_exec(db, "ROLLBACK TRANSACTION", NULL, NULL, NULL);
+			sqlite3_close(db);
+			return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+		}
+		ret = sqlite3_step(stmt);
+		if (ret != SQLITE_DONE) {
+			__get_db_error(ret);
+			sqlite3_exec(db, "ROLLBACK TRANSACTION", NULL, NULL, NULL);
+			__finalize_db(db, stmt);
+			return ret;
+		}
+	}
+
+	sqlite3_exec(db, "COMMIT TRANSACTION", NULL, NULL, NULL);
+	__finalize_db(db, stmt);
+	return PRIVILEGE_DB_MANAGER_ERR_NONE;
+}
+
+int privilege_db_manager_unset_black_list(int uid, privilege_db_manager_package_type_e package_type, GList *privilege_list)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db('u', &db, package_type);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+
+	sqlite3_exec(db, "BEGIN IMMEDIATE TRANSACTION", NULL, NULL, NULL);
+	GList *l = NULL;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		char *privilege_name = (char *)l->data;
+		LOGD("delete from black_list where uid = %d, package_type = %d, privilege_name = %s", uid, package_type, privilege_name);
+		char* sql = sqlite3_mprintf("delete from black_list where uid=%d and package_type=%d and privilege_name=%Q", uid, package_type, privilege_name);
+		ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+		if (ret != SQLITE_OK) {
+			LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+			sqlite3_exec(db, "ROLLBACK TRANSACTION", NULL, NULL, NULL);
+			sqlite3_close(db);
+			return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+		}
+		ret = sqlite3_step(stmt);
+		if (ret != SQLITE_DONE) {
+			__get_db_error(ret);
+			sqlite3_exec(db, "ROLLBACK TRANSACTION", NULL, NULL, NULL);
+			__finalize_db(db, stmt);
+			return ret;
+		}
+	}
+
+	sqlite3_exec(db, "COMMIT TRANSACTION", NULL, NULL, NULL);
+	__finalize_db(db, stmt);
+	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 }
