@@ -311,10 +311,10 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 		if (ret == PRVMGR_ERR_NO_EXIST_PRIVILEGE) {
 			memset(message, 0, MESSAGE_SIZE);
 			if (valid_api_version != NULL && strcmp(valid_api_version, "") != 0) {
-				LOGE("[NO_EXIST_PRIVILEGE]%s %s privilege is valid from Tizen version %s and your api version is %s. Use at least api version %s or remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version, valid_api_version);
+				LOGE("[PRVMGR_ERR_NO_EXIST_PRIVILEGE]%s %s privilege is valid from Tizen version %s and your api version is %s. Use at least api version %s or remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version, valid_api_version);
 				snprintf(message, MESSAGE_SIZE, " - %s|   >> Use at least api version %s or remove the privilege.|", privilege_name, valid_api_version);
 			} else {
-				LOGE("[NO_EXIST_PRIVILEGE]%s %s is an invalid privilege. Check spelling or remove the privilege.", pkg_type, privilege_name);
+				LOGE("[PRVMGR_ERR_NO_EXIST_PRIVILEGE]%s %s is an invalid privilege. Check spelling or remove the privilege.", pkg_type, privilege_name);
 				snprintf(message, MESSAGE_SIZE, " - %s|   >> Check spelling or remove the privilege.|", privilege_name);
 			}
 
@@ -334,10 +334,10 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 
 			memset(message, 0, MESSAGE_SIZE);
 			if (changed_to != NULL && strcmp(changed_to, "") != 0) {
-				LOGE("[DEPRECATED_PRIVILEGE]%s %s is a deprecated since Tizen version %s and your api version is %s. Use %s instead or use api version lower than %s.", pkg_type, privilege_name, valid_api_version, api_version, changed_to, valid_api_version);
+				LOGE("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]%s %s is a deprecated since Tizen version %s and your api version is %s. Use %s instead or use api version lower than %s.", pkg_type, privilege_name, valid_api_version, api_version, changed_to, valid_api_version);
 				snprintf(message, MESSAGE_SIZE, " - %s|   >> Use %s instead of it or use api version lower than %s.|", privilege_name, changed_to, valid_api_version);
 			} else {
-				LOGE("[DEPRECATED_PRIVILEGE]%s %s is deprecated since Tizen version %s and your api version is %s. Remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version);
+				LOGE("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]%s %s is deprecated since Tizen version %s and your api version is %s. Remove the privilege.", pkg_type, privilege_name, valid_api_version, api_version);
 				snprintf(message, MESSAGE_SIZE, " - %s|   >> Remove the privilege.|", privilege_name);
 			}
 
@@ -424,17 +424,17 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 			strncat(message_list, noexist_message, strlen(noexist_message));
 		}
 		if (deprecated_message != NULL) {
-			size_t new_size = snprintf(0, 0, "%s[PRVMGR_ERR_DEPRECATED_PRIVILEGE]|%s", message_list, deprecated_message) + 1;
+			size_t new_size = snprintf(0, 0, "%s[DEPRECATED_PRIVILEGE]|%s", message_list, deprecated_message) + 1;
 			message_list = realloc(message_list, new_size);
 			TryReturn(message_list != NULL, ret_val = PRVMGR_ERR_OUT_OF_MEMORY; goto FINISH, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] message_list's realloc is failed.");
-			strncat(message_list, "[PRVMGR_ERR_DEPRECATED_PRIVILEGE]|", strlen("[PRVMGR_ERR_DEPRECATED_PRIVILEGE]|"));
+			strncat(message_list, "[DEPRECATED_PRIVILEGE]|", strlen("[DEPRECATED_PRIVILEGE]|"));
 			strncat(message_list, deprecated_message, strlen(deprecated_message));
 		}
 		if (mismatched_message != NULL) {
-			size_t new_size = snprintf(0, 0, "%s[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]|%s", message_list, mismatched_message) + 1;
+			size_t new_size = snprintf(0, 0, "%s[MISMATCHED_PRIVILEGE_LEVEL]|%s", message_list, mismatched_message) + 1;
 			message_list = realloc(message_list, new_size);
 			TryReturn(message_list != NULL, ret_val = PRVMGR_ERR_OUT_OF_MEMORY; goto FINISH, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] message_list's realloc is failed.");
-			strncat(message_list, "[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]|", strlen("[PRVMGR_ERR_MISMATCHED_PRIVILEGE_LEVEL]|"));
+			strncat(message_list, "[MISMATCHED_PRIVILEGE_LEVEL]|", strlen("[MISMATCHED_PRIVILEGE_LEVEL]|"));
 			strncat(message_list, mismatched_message, strlen(mismatched_message));
 		}
 		size_t total_size = snprintf(0, 0, "%s%s", message_list, newline) + 1;
@@ -446,14 +446,10 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	}
 
  FINISH:
-	if (message_list != NULL)
-		free(message_list);
-	if (deprecated_message != NULL)
-		free(deprecated_message);
-	if (mismatched_message != NULL)
-		free(mismatched_message);
-	if (mismatched_message != NULL)
-		free(noexist_message);
+	free(message_list);
+	free(deprecated_message);
+	free(mismatched_message);
+	free(noexist_message);
 	free(changed_to);
 	free(valid_api_version);
 	free(pkg_type);
