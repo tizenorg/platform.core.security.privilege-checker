@@ -85,17 +85,9 @@ int __make_privilege_list_str(GList *privilege_list, char** privilege_list_str)
 	for (l = privilege_list; l != NULL; l = l->next) {
 		char *privilege_name = (char *)l->data;
 		if (temp_privilege_list_str == NULL) {
-			size_t size = snprintf(0, 0, "'%s'", privilege_name) + 1;
-			temp_privilege_list_str = (char *)malloc(size * sizeof(char));
-			TryReturn(temp_privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's malloc is failed.");
-			snprintf(temp_privilege_list_str, size, "'%s'", privilege_name);
+			temp_privilege_list_str = sqlite3_mprintf("'%q'", privilege_name);
 		} else {
-			size_t new_size = snprintf(0, 0, "%s, '%s'", temp_privilege_list_str, privilege_name) + 1;
-			temp_privilege_list_str = realloc(temp_privilege_list_str, new_size * sizeof(char));
-			TryReturn(temp_privilege_list_str != NULL, free(temp_privilege_list_str), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's realloc is failed.");
-			strncat(temp_privilege_list_str, ", '", strlen(", '"));
-			strncat(temp_privilege_list_str, privilege_name, strlen(privilege_name));
-			strncat(temp_privilege_list_str, "'", strlen("'"));
+			temp_privilege_list_str = sqlite3_mprintf("%s, '%q'", temp_privilege_list_str, privilege_name);
 		}
 	}
 	*privilege_list_str = temp_privilege_list_str;
@@ -137,6 +129,7 @@ int privilege_db_manager_check_black_list(int uid, privilege_db_manager_package_
 	ret = __make_privilege_list_str(privilege_list, &privilege_list_str);
 	LOGD("check black list with uid = %d, package_type = %d, privilege_list = %s", uid, package_type, privilege_list_str);
 	char *sql = sqlite3_mprintf("select distinct privilege_name from black_list where privilege_name in(%s)and uid=%d and package_type=%d", privilege_list_str, uid, package_type);
+	sqlite3_free(privilege_list_str);
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if (ret != SQLITE_OK) {
@@ -155,6 +148,8 @@ int privilege_db_manager_check_black_list(int uid, privilege_db_manager_package_
 		LOGE("Privilege list contains banned privileges!");
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
+
 	return count;
 }
 
@@ -244,6 +239,7 @@ int privilege_db_manager_get_privilege_list(const char *api_version, privilege_d
 	*privilege_list = temp_privilege_list;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 }
@@ -265,7 +261,7 @@ int privilege_db_manager_get_mapped_privilege_list(const char *api_version, priv
 	TryReturn(ret == 0 && privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] making privilege_list_str for where in query is failed.");
 
 	char *sql = sqlite3_mprintf("select distinct mapped_privilege_name from privilege_mapping where privilege_name in(%s)and(profile_id=%d or profile_id=%d)and from_api_version<=%Q and to_api_version>%Q", privilege_list_str, PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, api_version, api_version);
-	free(privilege_list_str);
+	sqlite3_free(privilege_list_str);
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if (ret != SQLITE_OK) {
@@ -285,6 +281,7 @@ int privilege_db_manager_get_mapped_privilege_list(const char *api_version, priv
 	*mapped_privilege_list = temp_privilege_list;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 }
@@ -325,6 +322,7 @@ int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type
 	}
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 	return PRIVILEGE_DB_NO_EXIST_RESULT;
 }
 
@@ -363,6 +361,7 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 	}
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 	return PRIVILEGE_DB_NO_EXIST_RESULT;
 }
 
@@ -395,6 +394,7 @@ int privilege_db_manager_get_privilege_group_display(privilege_db_manager_packag
 	}
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 	return PRIVILEGE_DB_NO_EXIST_RESULT;
 }
 
@@ -422,6 +422,7 @@ int __privilege_db_manager_is_privacy(const char* privilege)
 		ret = -1;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 	return ret;
 }
 
@@ -454,6 +455,7 @@ int __privilege_db_manager_get_privacy_list(GList **privacy_list)
 	*privacy_list = temp_privacy_list;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 
@@ -487,6 +489,7 @@ int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GL
 	*privilege_list = temp_privilege_list;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 
@@ -523,6 +526,7 @@ int privilege_db_manager_get_black_list(int uid, privilege_db_manager_package_ty
 	*privilege_list = temp_privilege_list;
 
 	__finalize_db(db, stmt);
+	sqlite3_free(sql);
 
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 }
@@ -555,6 +559,7 @@ int privilege_db_manager_set_black_list(int uid, privilege_db_manager_package_ty
 			__finalize_db(db, stmt);
 			return ret;
 		}
+		sqlite3_free(sql);
 	}
 
 	sqlite3_exec(db, "COMMIT TRANSACTION", NULL, NULL, NULL);
@@ -590,6 +595,7 @@ int privilege_db_manager_unset_black_list(int uid, privilege_db_manager_package_
 			__finalize_db(db, stmt);
 			return ret;
 		}
+		sqlite3_free(sql);
 	}
 
 	sqlite3_exec(db, "COMMIT TRANSACTION", NULL, NULL, NULL);
