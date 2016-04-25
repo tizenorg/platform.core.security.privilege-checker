@@ -85,17 +85,9 @@ int __make_privilege_list_str(GList *privilege_list, char** privilege_list_str)
 	for (l = privilege_list; l != NULL; l = l->next) {
 		char *privilege_name = (char *)l->data;
 		if (temp_privilege_list_str == NULL) {
-			size_t size = snprintf(0, 0, "'%s'", privilege_name) + 1;
-			temp_privilege_list_str = (char *)malloc(size * sizeof(char));
-			TryReturn(temp_privilege_list_str != NULL, , PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's malloc is failed.");
-			snprintf(temp_privilege_list_str, size, "'%s'", privilege_name);
+			temp_privilege_list_str = sqlite3_mprintf("'%q'", privilege_name);
 		} else {
-			size_t new_size = snprintf(0, 0, "%s, '%s'", temp_privilege_list_str, privilege_name) + 1;
-			temp_privilege_list_str = realloc(temp_privilege_list_str, new_size * sizeof(char));
-			TryReturn(temp_privilege_list_str != NULL, free(temp_privilege_list_str), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_list_str's realloc is failed.");
-			strncat(temp_privilege_list_str, ", '", strlen(", '"));
-			strncat(temp_privilege_list_str, privilege_name, strlen(privilege_name));
-			strncat(temp_privilege_list_str, "'", strlen("'"));
+			temp_privilege_list_str = sqlite3_mprintf("%s, '%q'", temp_privilege_list_str, privilege_name);
 		}
 	}
 	*privilege_list_str = temp_privilege_list_str;
