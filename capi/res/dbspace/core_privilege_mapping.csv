@@ -160,8 +160,8 @@ wearable,http://tizen.org/privilege/telephony.admin,2.3.1,9.9,http://tizen.org/p
 mobile,http://tizen.org/privilege/tethering.admin,2.3,9.9,http://tizen.org/privilege/tethering.admin
 common,http://tizen.org/privilege/use_ir,3,9.9,http://tizen.org/privilege/use_ir
 mobile,http://tizen.org/privilege/volume.set,2.3,9.9,http://tizen.org/privilege/volume.set
-common,http://tizen.org/privilege/vpnservice,3,9.9,http://tizen.org/privilege/vpnservice
-common,http://tizen.org/privilege/vpnservice.admin,3,9.9,http://tizen.org/privilege/vpnservice.admin
+mobile,http://tizen.org/privilege/vpnservice,3,9.9,http://tizen.org/privilege/vpnservice
+mobile,http://tizen.org/privilege/vpnservice.admin,3,9.9,http://tizen.org/privilege/vpnservice.admin
 wearable,http://tizen.org/privilege/volume.set,2.3.1,9.9,http://tizen.org/privilege/volume.set
 mobile,http://tizen.org/privilege/web-history.admin,2.3,9.9,http://tizen.org/privilege/web-history.admin
 common,http://tizen.org/privilege/widget.viewer,2.3.1,9.9,http://tizen.org/privilege/widget.viewer
