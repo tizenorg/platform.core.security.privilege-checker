@@ -101,7 +101,7 @@ wearable,http://tizen.org/privilege/message.read,2.3.1,9.9,http://tizen.org/priv
 wearable,http://tizen.org/privilege/message.read,2.3.1,9.9,http://tizen.org/privilege/internal/buxton/message.read
 mobile,http://tizen.org/privilege/message.write,2.3,9.9,http://tizen.org/privilege/message.write
 wearable,http://tizen.org/privilege/message.write,2.3.1,9.9,http://tizen.org/privilege/message.write
-mobile,http://tizen.org/privilege/minicontrol.provider,2.4,9.9,http://tizen.org/privilege/minicontrol.provider
+mobile,http://tizen.org/privilege/minicontrol.provider,2.4,3,http://tizen.org/privilege/minicontrol.provider
 mobile,http://tizen.org/privilege/network.get,2.3,9.9,http://tizen.org/privilege/network.get
 mobile,http://tizen.org/privilege/network.get,2.3,9.9,http://tizen.org/privilege/internal/buxton/network.get
 wearable,http://tizen.org/privilege/network.get,2.3.1,9.9,http://tizen.org/privilege/network.get

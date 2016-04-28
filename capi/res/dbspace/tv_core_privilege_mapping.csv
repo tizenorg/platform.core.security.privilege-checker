@@ -54,7 +54,7 @@ tv,http://tizen.org/privilege/mediastorage,2.4,9.9,http://tizen.org/privilege/me
 tv,http://tizen.org/privilege/message.read,2.4,9.9,http://tizen.org/privilege/message.read
 tv,http://tizen.org/privilege/message.read,2.4,9.9,http://tizen.org/privilege/internal/buxton/message.read
 tv,http://tizen.org/privilege/message.write,2.4,9.9,http://tizen.org/privilege/message.write
-tv,http://tizen.org/privilege/minicontrol.provider,2.4,9.9,http://tizen.org/privilege/minicontrol.provider
+tv,http://tizen.org/privilege/minicontrol.provider,2.4,3,http://tizen.org/privilege/minicontrol.provider
 tv,http://tizen.org/privilege/network.get,2.4,9.9,http://tizen.org/privilege/network.get
 tv,http://tizen.org/privilege/network.get,2.4,9.9,http://tizen.org/privilege/internal/buxton/network.get
 tv,http://tizen.org/privilege/network.profile,2.4,9.9,http://tizen.org/privilege/network.profile
