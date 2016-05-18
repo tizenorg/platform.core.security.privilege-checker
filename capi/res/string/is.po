@@ -821,7 +821,7 @@ msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
 msgstr "Ákvarða áætlaða staðsetningu"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
-msgstr "Þetta forrit getur ákvarðað áætlaða staðsetningu þína, þ.m.t. auðkenni endurvarpa tækisins, LAC-og TAC-kóðann."
+msgstr "Þetta forrit getur ákvarðað áætlaða staðsetningu þína, þ.m.t. auðkenni endurvarpa tækisins, LAC- og TAC-kóða."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
 msgstr "Þetta forrit getur kveikt og slökkt á VPN-aðgerðum."

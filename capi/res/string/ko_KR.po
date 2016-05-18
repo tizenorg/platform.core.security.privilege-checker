@@ -812,7 +812,7 @@ msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
 msgstr "이 앱은 적외선 송신기를 사용할 수 있습니다."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
-msgstr "이 애플리케이션은 다른 디바이스와 데이터를 공유할 수 있습니다."
+msgstr "이 앱은 다른 디바이스와 데이터를 공유할 수 있습니다."
 
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "다른 디바이스와 데이터 공유"

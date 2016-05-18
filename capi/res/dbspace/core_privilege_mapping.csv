@@ -55,6 +55,7 @@ wearable,http://tizen.org/privilege/display,2.3.1,9.9,http://tizen.org/privilege
 mobile,http://tizen.org/privilege/download,2.3,9.9,http://tizen.org/privilege/download
 wearable,http://tizen.org/privilege/download,2.3.1,9.9,http://tizen.org/privilege/download
 mobile,http://tizen.org/privilege/email,2.3,9.9,http://tizen.org/privilege/email
+wearable,http://tizen.org/privilege/email,3,9.9,http://tizen.org/privilege/email
 mobile,http://tizen.org/privilege/email.admin,2.3,9.9,http://tizen.org/privilege/email.admin
 mobile,http://tizen.org/privilege/externalstorage,2.3,9.9,http://tizen.org/privilege/externalstorage
 wearable,http://tizen.org/privilege/externalstorage,2.3.1,9.9,http://tizen.org/privilege/externalstorage
