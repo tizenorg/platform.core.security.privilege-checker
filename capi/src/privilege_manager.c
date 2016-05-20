@@ -24,7 +24,33 @@
 		return returnValue; \
 	}
 
-static int __privilege_manager_check_privilege_list(const char *api_version, const char *privilege, GList * vaild_privilege_list, int *privilege_level, char **changed_to, char **valid_api_version)
+static void __free_privilege_list(GList * privilege_list)
+{
+	GList *l = NULL;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		privilege_info_db_row_s *privilege_info_db_row = (privilege_info_db_row_s *) l->data;
+		if (privilege_info_db_row->profile != NULL)
+			free(privilege_info_db_row->profile);
+		if (privilege_info_db_row->package_type != NULL)
+			free(privilege_info_db_row->package_type);
+		if (privilege_info_db_row->privilege_name != NULL)
+			free(privilege_info_db_row->privilege_name);
+		if (privilege_info_db_row->privilege_display != NULL)
+			free(privilege_info_db_row->privilege_display);
+		if (privilege_info_db_row->privilege_description != NULL)
+			free(privilege_info_db_row->privilege_description);
+		if (privilege_info_db_row->privilege_level != NULL)
+			free(privilege_info_db_row->privilege_level);
+		if (privilege_info_db_row->issued_version != NULL)
+			free(privilege_info_db_row->issued_version);
+		if (privilege_info_db_row->expired_version != NULL)
+			free(privilege_info_db_row->expired_version);
+		if (privilege_info_db_row->changed_to != NULL)
+			free(privilege_info_db_row->changed_to);
+	}
+}
+
+static int __privilege_manager_check_privilege_list(const char *api_version, const char *privilege, GList * valid_privilege_list, int *privilege_level, char **changed_to, char **valid_api_version)
 {
 	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 	int i, is_valid_version = 0;
@@ -33,7 +59,7 @@ static int __privilege_manager_check_privilege_list(const char *api_version, con
 	char *tmp_expired_version = NULL;
 	char *tmp_issued_version = NULL;
 	GList *l = NULL;
-	for (l = vaild_privilege_list; l != NULL; l = l->next) {
+	for (l = valid_privilege_list; l != NULL; l = l->next) {
 		privilege_info_db_row_s *privilege_info_db_row = (privilege_info_db_row_s *)l->data;
 		if (strcmp(privilege_info_db_row->privilege_name, privilege) == 0) {
 			LOGD("Matched privilege name exist");
@@ -156,23 +182,23 @@ int __check_api_version_validity(const char *api_version)
 {
 
 	int i;
-	int is_vaild_version_type = 1;
+	int is_valid_version_type = 1;
 	int api_version_size = strlen(api_version);
 	if (api_version_size % 2 == 1 && (3 <= api_version_size && api_version_size <= 7)) {
 		for (i = 0; i < api_version_size; i++) {
 			if (i % 2 == 0) {
 				if (!('0' <= api_version[i] && api_version[i] <= '9'))
-					is_vaild_version_type = 0;
+					is_valid_version_type = 0;
 			} else {
 				if (api_version[i] != '.')
-					is_vaild_version_type = 0;
+					is_valid_version_type = 0;
 			}
 		}
 	} else {
-		is_vaild_version_type = 0;
+		is_valid_version_type = 0;
 	}
 
-	if (is_vaild_version_type == 0)
+	if (is_valid_version_type == 0)
 		return PRVMGR_ERR_INVALID_PARAMETER;
 
 	return PRVMGR_ERR_NONE;
@@ -192,13 +218,13 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	char guide_message[MESSAGE_SIZE] = { 0, };
 	char *changed_to = NULL;
 	char *valid_api_version = NULL;
-	GList *vaild_privilege_list;
+	GList *valid_privilege_list;
 	char *wrt_active_version = "2.3.1";
 	int is_valid_wrt_version = 1;
 	char *pkg_type = NULL;
 	int i = 0;
 
-	/* Check invaild parameters */
+	/* Check invalid parameters */
 	if (api_version == NULL) {
 		LOGE("[PRVMGR_ERR_INVALID_PARAMETER] api_version is NULL");
 		*error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] api_version is NULL");
@@ -208,7 +234,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	} else {
 		ret = __check_api_version_validity(api_version);
 		if (ret != PRVMGR_ERR_NONE) {
-			LOGE("[PRVMGR_ERR_INVALID_PARAMETER] %s is in invaild form. api_version form should be X.X, X.X.X or X.X.X.X(X=integer)", api_version);
+			LOGE("[PRVMGR_ERR_INVALID_PARAMETER] %s is in invalid form. api_version form should be X.X, X.X.X or X.X.X.X(X=integer)", api_version);
 			*error_message = strdup("[PRVMGR_ERR_INVALID_PARAMETER] api_version form should be a X.X, X.X.X or X.X.X.X(X=integer)");
 			TryReturn(error_message != NULL, , PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed");
 			return ret;
@@ -281,8 +307,8 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 		return PRVMGR_ERR_USING_BANNED_PRIVILEGE;
 	}
 
-	/* Get vaild privilege list */
-	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &vaild_privilege_list);
+	/* Get valid privilege list */
+	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &valid_privilege_list);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE) {
 		LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
 		*error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] failed to get privilege list from DB");
@@ -303,7 +329,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 			free(changed_to);
 			changed_to = NULL;
 		}
-		ret = __privilege_manager_check_privilege_list(api_version, privilege_name, vaild_privilege_list, &privilege_level_id, &changed_to, &valid_api_version);
+		ret = __privilege_manager_check_privilege_list(api_version, privilege_name, valid_privilege_list, &privilege_level_id, &changed_to, &valid_api_version);
 
 		if (is_valid_wrt_version == 0)
 			ret = PRVMGR_ERR_NONE;
@@ -397,7 +423,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 			}
 		} else if (ret == PRVMGR_ERR_INVALID_PARAMETER) {
 			LOGE("[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
-			*error_message = strdup("[INVALID_PARAMETER] Invaild parameter was passed.|");
+			*error_message = strdup("[INVALID_PARAMETER] Invalid parameter was passed.|");
 			TryReturn(error_message != NULL, ret_val = PRVMGR_ERR_OUT_OF_MEMORY; goto FINISH, PRVMGR_ERR_OUT_OF_MEMORY, "[PRVMGR_ERR_OUT_OF_MEMORY] error_message's strdup is failed.");
 
 			ret_val = PRVMGR_ERR_INVALID_PARAMETER;
@@ -453,7 +479,8 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	free(changed_to);
 	free(valid_api_version);
 	free(pkg_type);
-	g_list_free(vaild_privilege_list);
+	__free_privilege_list(valid_privilege_list);
+	g_list_free(valid_privilege_list);
 	return ret_val;
 }
 
@@ -462,7 +489,7 @@ int privilege_manager_get_mapped_privilege_list(const char *api_version, privile
 	int ret;
 	TryReturn(api_version != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] api_version is NULL.");
 	ret = __check_api_version_validity(api_version);
-	TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] %s is in invaild form. api_version form should be X.X, X.X.X or X.X.X.X(X=integer)", api_version);
+	TryReturn(ret == PRVMGR_ERR_NONE, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] %s is in invalid form. api_version form should be X.X, X.X.X or X.X.X.X(X=integer)", api_version);
 
 	if (package_type != PRVMGR_PACKAGE_TYPE_WRT && package_type != PRVMGR_PACKAGE_TYPE_CORE) {
 		LOGE("[PRVMGR_ERR_INVALID_PARAMETER] package_type is not a PRVMGR_PACKAGE_TYPE_WRT or PRVMGR_PACKAGE_TYPE_CORE");
