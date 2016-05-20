@@ -24,7 +24,33 @@
 		return returnValue; \
 	}
 
-static int __privilege_manager_check_privilege_list(const char *api_version, const char *privilege, GList * vaild_privilege_list, int *privilege_level, char **changed_to, char **valid_api_version)
+static void __free_privilege_list(GList * privilege_list)
+{
+	GList *l = NULL;
+	for (l = privilege_list; l != NULL; l = l->next) {
+		privilege_info_db_row_s *privilege_info_db_row = (privilege_info_db_row_s *) l->data;
+		if (privilege_info_db_row->profile != NULL)
+			free(privilege_info_db_row->profile);
+		if (privilege_info_db_row->package_type != NULL)
+			free(privilege_info_db_row->package_type);
+		if (privilege_info_db_row->privilege_name != NULL)
+			free(privilege_info_db_row->privilege_name);
+		if (privilege_info_db_row->privilege_display != NULL)
+			free(privilege_info_db_row->privilege_display);
+		if (privilege_info_db_row->privilege_description != NULL)
+			free(privilege_info_db_row->privilege_description);
+		if (privilege_info_db_row->privilege_level != NULL)
+			free(privilege_info_db_row->privilege_level);
+		if (privilege_info_db_row->issued_version != NULL)
+			free(privilege_info_db_row->issued_version);
+		if (privilege_info_db_row->expired_version != NULL)
+			free(privilege_info_db_row->expired_version);
+		if (privilege_info_db_row->changed_to != NULL)
+			free(privilege_info_db_row->changed_to);
+	}
+}
+
+static int __privilege_manager_check_privilege_list(const char *api_version, const char *privilege, GList * valid_privilege_list, int *privilege_level, char **changed_to, char **valid_api_version)
 {
 	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 	int i, is_valid_version = 0;
@@ -33,7 +59,7 @@ static int __privilege_manager_check_privilege_list(const char *api_version, con
 	char *tmp_expired_version = NULL;
 	char *tmp_issued_version = NULL;
 	GList *l = NULL;
-	for (l = vaild_privilege_list; l != NULL; l = l->next) {
+	for (l = valid_privilege_list; l != NULL; l = l->next) {
 		privilege_info_db_row_s *privilege_info_db_row = (privilege_info_db_row_s *)l->data;
 		if (strcmp(privilege_info_db_row->privilege_name, privilege) == 0) {
 			LOGD("Matched privilege name exist");
@@ -192,7 +218,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	char guide_message[MESSAGE_SIZE] = { 0, };
 	char *changed_to = NULL;
 	char *valid_api_version = NULL;
-	GList *vaild_privilege_list;
+	GList *valid_privilege_list;
 	char *wrt_active_version = "2.3.1";
 	int is_valid_wrt_version = 1;
 	char *pkg_type = NULL;
@@ -282,7 +308,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	}
 
 	/* Get vaild privilege list */
-	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &vaild_privilege_list);
+	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &valid_privilege_list);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE) {
 		LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
 		*error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] failed to get privilege list from DB");
@@ -303,7 +329,7 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 			free(changed_to);
 			changed_to = NULL;
 		}
-		ret = __privilege_manager_check_privilege_list(api_version, privilege_name, vaild_privilege_list, &privilege_level_id, &changed_to, &valid_api_version);
+		ret = __privilege_manager_check_privilege_list(api_version, privilege_name, valid_privilege_list, &privilege_level_id, &changed_to, &valid_api_version);
 
 		if (is_valid_wrt_version == 0)
 			ret = PRVMGR_ERR_NONE;
@@ -453,7 +479,8 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	free(changed_to);
 	free(valid_api_version);
 	free(pkg_type);
-	g_list_free(vaild_privilege_list);
+	__free_privilege_list(valid_privilege_list);
+	g_list_free(valid_privilege_list);
 	return ret_val;
 }
 
