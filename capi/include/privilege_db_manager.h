@@ -80,6 +80,7 @@ int privilege_db_manager_get_black_list(int uid, privilege_db_manager_package_ty
 int privilege_db_manager_set_black_list(int uid, privilege_db_manager_package_type_e pacakge_type, GList *privilege_list);
 int privilege_db_manager_unset_black_list(int uid, privilege_db_manager_package_type_e package_type, GList *privilege_list);
 
+/* Return the number of black-listed privileges in given privilege list */
 int privilege_db_manager_check_black_list(int uid, privilege_db_manager_package_type_e pacakge_type, GList *privilege_list);
 
 #ifdef __cplusplus
