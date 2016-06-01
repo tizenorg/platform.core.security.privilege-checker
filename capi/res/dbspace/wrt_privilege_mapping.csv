@@ -125,6 +125,8 @@ common,http://tizen.org/privilege/telephony,2.3.1,9.9,http://tizen.org/privilege
 common,http://tizen.org/privilege/unlimitedstorage,2.1,9.9,http://tizen.org/privilege/notexist,
 common,http://tizen.org/privilege/volume.set,2.3,9.9,http://tizen.org/privilege/volume.set,
 mobile,http://tizen.org/privilege/websetting,2.2,2.4,http://tizen.org/privilege/notexist,
+wearable,http://tizen.org/privilege/widget.viewer,2.3.2,9.9,http://tizen.org/privilege/widget.viewer,
+mobile,http://tizen.org/privilege/widget.viewer,3,9.9,http://tizen.org/privilege/widget.viewer,
 mobile,http://tizen.org/privilege/internal/default/public,2.2.1,2.4,http://tizen.org/privilege/internal/buxton/location,
 wearable,http://tizen.org/privilege/internal/default/public,2.2.1,3,http://tizen.org/privilege/internal/buxton/location,
 common,http://tizen.org/privilege/internal/default/public,2.2.1,9.9,http://tizen.org/privilege/internal/default/public,
