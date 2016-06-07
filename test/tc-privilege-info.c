@@ -114,9 +114,9 @@ static void __test_privilege_info_is_privacy()
 	if (ret == 1) {
 		success_cnt++;
 		printf("SUCCESS: http://tizen.org/privilege/account.read is PRIVACY\n");
-	} else if (ret == 0) {
+	} else {
 		fail_cnt++;
-		printf("Test FAILED\n");
+		printf("Test FAILED. ret =  %d\n", ret);
 	}
 	__print_line();
 
@@ -125,10 +125,21 @@ static void __test_privilege_info_is_privacy()
 	if (ret == 0) {
 		success_cnt++;
 		printf("SUCCESS: http://tizen.org/privilege/internet is NOT PRIVACY\n");
-	} else if (ret == 1) {
+	} else {
 		fail_cnt++;
-		printf("Test FAILED\n");
+		printf("Test FAILED. ret = %d\n", ret);
 	}
+	__print_line();
+
+	printf("privilege : http://tizen.org/privilege/internettttt\n");
+    ret = privilege_info_is_privacy("http://tizen.org/privilege/internettttt");
+    if (ret == 0) {
+        success_cnt++;
+        printf("SUCCESS: http://tizen.org/privilege/internettttt is NOT PRIVACY\n");
+    } else {
+        fail_cnt++;
+        printf("Test FAILED. ret = %d\n", ret);
+    }
 	__print_line();
 }
 

@@ -534,7 +534,10 @@ int privilege_info_is_privacy(const char* privilege)
 {
 	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
-	return __privilege_db_manager_is_privacy(privilege);
+	int ret = __privilege_db_manager_is_privacy(privilege);
+	if (ret != 0 && ret != 1)
+		ret = -1;
+	return ret;
 }
 
 int privilege_info_get_privacy_list(GList **privacy_list)

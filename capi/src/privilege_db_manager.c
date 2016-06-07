@@ -402,28 +402,30 @@ int __privilege_db_manager_is_privacy(const char* privilege)
 {
 	sqlite3 *db = NULL;
 	sqlite3_stmt *stmt = NULL;
+	int is_privacy = 0;
 	int ret = __initialize_db('i', &db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
-	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
-		return -1;
+	TryReturn(ret == PRIVILEGE_DB_MANAGER_ERR_NONE, , ret, "[PRIVILEGE_DB_MANAGER] DB INITIALIZE FAIL");
 
 	char *sql = sqlite3_mprintf("select is_privacy from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q",
 								PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE, privilege);
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
-	if (ret != SQLITE_OK) {
-		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
-		sqlite3_close(db);
-		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
-	}
+	TryReturn (ret == SQLITE_OK, sqlite3_close(db), -PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY, "[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
 
 	ret = sqlite3_step(stmt);
-	if (ret == SQLITE_ROW)
-		ret = sqlite3_column_int(stmt, 0);
-	else
-		ret = -1;
+	if (ret == SQLITE_ROW) {
+		is_privacy = sqlite3_column_int(stmt, 0);
+		ret = PRIVILEGE_DB_MANAGER_ERR_NONE;
+	} else if (ret == SQLITE_DONE) {
+		LOGD("[PRIVILEGE_DB_MANAGER] NO DATA TO READ. ret = %d", ret);
+		ret = PRIVILEGE_DB_MANAGER_ERR_NONE;
+	}
 
 	__finalize_db(db, stmt);
 	sqlite3_free(sql);
-	return ret;
+	if (ret > 0)
+		return -ret;
+	else
+		return is_privacy;
 }
 
 int __privilege_db_manager_get_privacy_list(GList **privacy_list)
