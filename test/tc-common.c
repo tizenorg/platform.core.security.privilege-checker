@@ -131,11 +131,11 @@ void __tcinfo(tcinfo_type_e type, ...)
 	switch (type) {
 	case goal: /* shows test goal */
 		__color_to_yellow();
-		printf("TEST >> %s\n\n", (char*)va_arg(ap, int));
+		printf("TEST >> %s\n\n", va_arg(ap, char*));
 		__color_to_origin();
 		break;
 	case cert_level: /* set certificate level */
-		visibility_string = (char*)va_arg(ap, int);
+		visibility_string = va_arg(ap, char*);
 		if (strncmp(visibility_string, "public", strlen(visibility_string)) == 0)
 			visibility = PRVMGR_PACKAGE_VISIBILITY_PUBLIC;
 		else if (strncmp(visibility_string, "partner", strlen(visibility_string)) == 0)
@@ -149,8 +149,8 @@ void __tcinfo(tcinfo_type_e type, ...)
 	case version_type: /* set api_version and pkg_type */
 		__print_dline();
 		__color_to_bold_yellow();
-		api_version = (char*)va_arg(ap, int);
-		char* pkg_type_string = (char*)va_arg(ap, int);
+		api_version = va_arg(ap, char*);
+		char* pkg_type_string = va_arg(ap, char*);
 		if(strncmp("core", pkg_type_string, strlen("core")) == 0 )
 			pkg_type = PRVMGR_PACKAGE_TYPE_CORE;
 		else if(strncmp("wrt", pkg_type_string, strlen("wrt")) == 0)
@@ -167,13 +167,13 @@ void __tcinfo(tcinfo_type_e type, ...)
 		expected_result = va_arg(ap, int);
 		break;
 	case results: /* shows expected result and achieved result */
-		printf("\n- EXPECTED RESULT : %s\n", (char*)va_arg(ap, int));
-		printf("- ACHIEVED RESULT : %s\n\n", (char*)va_arg(ap, int));
+		printf("\n- EXPECTED RESULT : %s\n", va_arg(ap, char*));
+		printf("- ACHIEVED RESULT : %s\n\n", va_arg(ap, char*));
 		break;
 	case function: /* shows function to test */
 		__color_to_yellow();
 		__print_dline();
-		printf("# TEST FUNCTION : %s()\n", (char*)va_arg(ap, int));
+		printf("# TEST FUNCTION : %s()\n", va_arg(ap, char*));
 		__print_dline();
 		__color_to_origin();
 		break;
