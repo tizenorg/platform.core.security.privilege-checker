@@ -53,7 +53,7 @@ Testsuit for Privilege Manager APIs
 %setup -q
 
 %build
-
+%restore_fcommon
 %if "%{?profile}" == "tv"
     __PROFILE_TYPE="TV"
 %else
@@ -66,8 +66,8 @@ Testsuit for Privilege Manager APIs
 %endif
 %endif
 
-export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
-export CXXFLAGS="$CXXFLAGS -DTIZEN_ENGINEER_MODE"
+export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE "
+export CXXFLAGS="$CXXFLAGS -DTIZEN_ENGINEER_MODE "
 export FFLAGS="$FFLAGS -DTIZEN_ENGINEER_MODE"
 
 echo cmake . -DPREFIX=%{_prefix} \
@@ -134,4 +134,3 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 
 %clean
 rm -rf %{buildroot}
-
