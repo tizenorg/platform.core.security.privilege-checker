@@ -66,8 +66,8 @@ Testsuit for Privilege Manager APIs
 %endif
 %endif
 
-export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE"
-export CXXFLAGS="$CXXFLAGS -DTIZEN_ENGINEER_MODE"
+export CFLAGS="$CFLAGS -DTIZEN_ENGINEER_MODE -fcommon"
+export CXXFLAGS="$CXXFLAGS -DTIZEN_ENGINEER_MODE -fcommon"
 export FFLAGS="$FFLAGS -DTIZEN_ENGINEER_MODE"
 
 echo cmake . -DPREFIX=%{_prefix} \
