@@ -374,7 +374,7 @@ int privilege_db_manager_get_privilege_group_display(privilege_db_manager_packag
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
 		return ret;
 
-	char *sql = sqlite3_mprintf("select privilege_group_id from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q and api_version_issued<=%Q and api_version_expired>%Q",
+	char *sql = sqlite3_mprintf("select privilege_group_id from privilege_info where(profile_id=%d or profile_id=%d)and package_type_id=%d and privilege_name=%Q and api_version_issued<=%Q",
 								PRIVILEGE_DB_MANAGER_PROFILE_TYPE_COMMON, g_privilege_db_manager_profile_type, package_type, privilege_name, api_version, api_version);
 
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);

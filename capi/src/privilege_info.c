@@ -38,6 +38,8 @@
 int privilege_info_privilege_list_by_pkgid_callback(const char *privilege_name, void *user_data)
 {
 	LOGD("privilege name = %s", privilege_name);
+	if (strstr(privilege_name, "internal") != NULL || strstr(privilege_name, "notexist") != NULL)
+		return PRVMGR_ERR_NONE;
 
 	int *groupTable = (int *)user_data;
 	TryReturn(privilege_name != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege_name is NULL");
@@ -70,7 +72,7 @@ int privilege_info_privilege_list_by_pkgid_callback(const char *privilege_name, 
 	return PRVMGR_ERR_NONE;
 }
 
-int privilege_info_foreach_privilege_group_list_by_pkgid(const char *package_id, privilege_info_privileges_cb callback, void *user_data)
+int privilege_info_foreach_privilege_group_list_by_pkgid(const char *package_id, privilege_info_privilege_groups_cb callback, void *user_data)
 {
 	LOGD("package id = %s", package_id);
 
@@ -87,9 +89,9 @@ int privilege_info_foreach_privilege_group_list_by_pkgid(const char *package_id,
 
 	res = pkgmgrinfo_pkginfo_foreach_privilege(handle, privilege_info_privilege_list_by_pkgid_callback, &groupTable);
 	pkgmgrinfo_pkginfo_destroy_pkginfo(handle);
-	TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
+	TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.");
 
-		for (i = 0; i < MAX_PRV_GROUP; i++) {
+	for (i = 0; i < MAX_PRV_GROUP; i++) {
 		if (groupTable[i] == 1) {
 			res = callback(privilege_group_info_table[i].privilege_group, user_data);
 			LOGD("group = %s", privilege_group_info_table[i].privilege_group);
@@ -139,6 +141,9 @@ int privilege_info_privilege_list_callback(const char *privilege_name, void *use
 		return PRVMGR_ERR_INTERNAL_ERROR;
 	}
 
+	/* TBD: check if the privilege exist and whether the privilege is internal or not */
+	if (strstr(privilege_name, "internal") != NULL || strstr(privilege_name, "notexist") != NULL)
+        return PRVMGR_ERR_NONE;
 	if (data.privilege_group == EXTRA_GROUP) {
 		LOGD("data.privilege_group = %d", data.privilege_group);
 		res = data.callback(privilege_name, data.user_data);
@@ -174,11 +179,10 @@ int privilege_info_foreach_privilege_list_by_pkgid_and_privilege_group(const cha
 	if (data.privilege_group > -1) {
 		pkgmgrinfo_pkginfo_h handle;
 		res = pkgmgrinfo_pkginfo_get_pkginfo(package_id, &handle);
-		TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.")
-
-			res = pkgmgrinfo_pkginfo_foreach_privilege(handle, privilege_info_privilege_list_callback, &data);
+		TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_get_pkginfo is failed.");
+		res = pkgmgrinfo_pkginfo_foreach_privilege(handle, privilege_info_privilege_list_callback, &data);
 		pkgmgrinfo_pkginfo_destroy_pkginfo(handle);
-		TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.")
+		TryReturn(res == PMINFO_R_OK, , PRVMGR_ERR_INTERNAL_ERROR, "[PRVMGR_ERR_INTERNAL_ERROR] pkgmgrinfo_pkginfo_foreach_privilege is failed.");
 	}
 
 	return PRVMGR_ERR_NONE;
