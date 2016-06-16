@@ -88,7 +88,7 @@ mobile,http://tizen.org/privilege/location.enable,2.4,9.9,http://tizen.org/privi
 wearable,http://tizen.org/privilege/location.enable,2.3.1,9.9,http://tizen.org/privilege/location.enable
 wearable,http://tizen.org/privilege/location.enable,3,9.9,http://tizen.org/privilege/internal/buxton/location
 mobile,http://tizen.org/privilege/mapservice,2.4,9.9,http://tizen.org/privilege/mapservice
-wearable,http://tizen.org/privilege/mapservice,3,9.9,http://tizen.org/privilege/mapservice
+wearable,http://tizen.org/privilege/mapservice,2.3.2,9.9,http://tizen.org/privilege/mapservice
 mobile,http://tizen.org/privilege/mediacontroller.client,2.4,9.9,http://tizen.org/privilege/mediacontroller.client
 wearable,http://tizen.org/privilege/mediacontroller.client,3,9.9,http://tizen.org/privilege/mediacontroller.client
 mobile,http://tizen.org/privilege/mediacontroller.server,2.4,9.9,http://tizen.org/privilege/mediacontroller.server
