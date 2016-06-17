@@ -835,3 +835,21 @@ msgstr "Feidhmeanna VPN (líonra príobháideach fíorúil) a chumasú/a dhíchu
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN (líonra príobháideach fíorúil) a bhainistiú"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Scanadh do víris"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Is féidir leis an bhfeidhmchlár seo iarraidh comhaid a scanadh in aon fheidhmchláir eile nó ar an ngléas d'fhonn inneachar díobhálach a bhrath."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo creidiúnacht seolta gréasáin a sheiceáil agus a chinneadh cibé acu a gcuirfí nó nach gcuirfí do ghléas i mbaol dá ndéanfaí é a rochtain."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Feidhmchláir frithvíreas agus bogearraí mailíseacha braite a bhainistiú"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Creidiúnacht seoltaí gréasáin a sheiceáil"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Is féidir leis an bhfeidhmchlár seo feidhmchláir frithvíreas a chumasú nó a dhíchumasú agus bogearraí mailíseacha braite a bhainistiú."
+

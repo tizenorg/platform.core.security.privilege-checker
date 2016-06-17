@@ -835,3 +835,21 @@ msgstr "Activar/desactivar funciones VPN (red privada virtual)"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Administrar VPN (red privada virtual)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Búsqueda de virus"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Esta aplicación puede solicitar el análisis de los archivos de otras aplicaciones o del dispositivo para detectar contenido dañino."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Esta aplicación puede comprobar la reputación de una dirección web y determinar si acceder a dicha dirección web puede poner en riesgo su dispositivo."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Administración de programas antivirus y software malicioso detectado"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Comprobar reputación de la dirección web"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Esta aplicación puede activar o desactivar programas antivirus y administrar software malicioso detectado."
+

@@ -835,3 +835,21 @@ msgstr "VPN (virtuālā privātā tīkla) funkciju aktivizēšana/deaktivizēša
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN (virtuālā privātā tīkla) pārvaldība"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Vīrusu meklēšana"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Šī programma var pieprasīt skenēt failus jebkurā citā programmā vai ierīcē, lai noteiktu kaitīgu saturu."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Šī programma var pārbaudīt tīmekļa adreses reputāciju un noteikt, vai piekļuve tai rada risku ierīcei."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Pretvīrusu programmu un noteiktās ļaunprogrammatūras pārvaldība"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Tīmekļa adreses reputācijas pārbaude"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Šī programma var aktivizēt vai deaktivizēt pretvīrusu programmas un pārvaldīt noteikto ļaunprogrammatūru."
+

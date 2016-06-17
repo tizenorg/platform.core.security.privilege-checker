@@ -835,3 +835,21 @@ msgstr "Aktivera/inaktivera funktioner för VPN (Virtual Private Network)"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Hantera VPN (Virtual Private Network)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Söker efter virus"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Det här programmet kan begära att få söka igenom filer i alla andra program eller på enheten för att identifiera skadligt innehåll."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Det här programmet kan kontrollera en webbadress rykte och ta reda på om enheten utsätts för risk om den ansluter till adressen."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Hantera antivirusprogram och identifierade skadliga program"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Söker efter webbadressrykte"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Det här programmet kan aktivera eller inaktivera antivirusprogram och hantera identifierade skadliga program."
+

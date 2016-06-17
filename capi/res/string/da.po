@@ -835,3 +835,21 @@ msgstr "Aktiverer/deaktiverer VPN-funktioner (virtuelt privat netværk)"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Administrerer VPN’er (virtuelle private netværk)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Scanner for virusser"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Denne applikation kan anmode om at scanne filer i andre applikationer eller på enheden for at finde skadeligt indhold."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Denne applikation kan tjekke en webadresses rygte og afgøre, om det kan udsætte din enhed for risiko, hvis du besøger webadressen."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Administration af antivirusprogrammer og registreret malware"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Kontrollerer webadresserygte"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Denne applikation kan aktivere eller deaktivere antivirusprogrammer og administrere registreret malware."
+

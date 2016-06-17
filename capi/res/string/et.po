@@ -835,3 +835,21 @@ msgstr "VPN-i (virtuaalse privaatvõrgu) funktsioonide aktiveerimine/inaktiveeri
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Virtuaalsete privaatvõrkude (VPN-ide) haldamine"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Viiruste otsimine"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "See rakendus saab taotleda luba skannida faile kõikides teistes rakendustes või seadmes, et tuvastada kahjulikku sisu."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "See rakendus saab kontrollida veebiaadressi mainet ja tuvastada, kas selle avamine võib teie seadet ohustada."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Viirusevastaste programmide ja tuvastatud ründevara haldamine"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Veebiaadressi maine kontrollimine"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "See rakendus saab viirusevastaseid programme aktiveerida või inaktiveerida ja hallata tuvastatud ründevara."
+

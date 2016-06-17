@@ -835,3 +835,21 @@ msgstr "Zapnutie/vypnutie funkcií siete VPN (virtuálna súkromná sieť)"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Spravovanie siete VPN (virtuálna súkromná sieť)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Vyhľadávanie vírusov"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Táto aplikácia môže žiadať o kontrolu súborov v akýchkoľvek iných aplikáciách alebo v zariadení s cieľom zistiť škodlivý obsah."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Táto aplikácia môže skontrolovať reputáciu webovej adresy a určiť, či by prístup k nej mohol ohroziť vaše zariadenie."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Spravovanie antivírusových programov a zisteného malvéru"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Kontrola reputácie webovej adresy"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Táto aplikácia môže zapnúť alebo vypnúť antivírusové programy a spravovať zistený malvér."
+

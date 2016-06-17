@@ -835,3 +835,21 @@ msgstr "VPN-ի (վիրտուալ մասնավոր ցանցի) գործառույ
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN-ի (վիրտուալ մասնավոր ցանցի) կառավարում"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Տեսածրում է վիրուսների առկայությունը"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Այս ծրագիրը կարող է պահանջել ֆայլերի տեսածրում ցանկացած այլ ծրագրերում կամ սարքում՝ վնասակար բովանդակություն հայտնաբերելու նպատակով:"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Այս ծրագիրը կարող է ստուգել կայքի հասցեի համբավը և որոշել՝ արդյոք այդ կայքն այցելելը կարող է վտանգել Ձեր սարքը, թե ոչ:"
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Հակավիրուսային ծրագրերի և հայտնաբերված վնասարար ծրագրակազմի կառավարում"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Կայքի հասցեի համբավի ստուգում"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Այս ծրագիրը կարող է ընձեռել կամ կասեցնել հակավիրուսային ծրագրերն ու կառավարել հայտնաբերված վնասարար ծրագրակազմը:"
+

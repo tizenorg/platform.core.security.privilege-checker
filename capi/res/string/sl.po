@@ -835,3 +835,21 @@ msgstr "Omogočanje/onemogočanje funkcij omrežja VPN (navidezno zasebno omrež
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Upravljanje omrežja VPN (navidezno zasebno omrežje)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Iskanje virusov"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Ta aplikacija lahko zaradi zaznavanja škodljive vsebine zahteva pregled datotek v vseh drugih aplikacijah ali v napravi."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Ta aplikacija lahko preveri ugled spletnega naslova in določi, ali je lahko dostopanje do njega tvegano za napravo."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Upravljanje protivirusnih programov in zaznane zlonamerne programske opreme"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Preverjanje ugleda spletnega naslova"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Ta aplikacija lahko omogoča ali onemogoča protivirusne programe in upravlja zaznano zlonamerno programsko opremo."
+

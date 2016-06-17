@@ -835,3 +835,21 @@ msgstr "Zapnutí/vypnutí funkcí VPN (virtuální privátní síť)"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Správa sítí VPN (virtuální privátní síť)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Vyhledávání virů"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Aplikace může vyžádat kontrolu souborů v libovolných jiných aplikacích nebo v zařízení, aby mohla rozpoznat škodlivý obsah."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Aplikace dokáže zkontrolovat reputaci webové adresy a určit, zda může její použití ohrozit zařízení."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Správa antivirových programů a detekovaný malware"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Kontrola reputace webové adresy"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Aplikace může zapínat nebo vypínat antivirové programy a spravovat detekovaný malware."
+

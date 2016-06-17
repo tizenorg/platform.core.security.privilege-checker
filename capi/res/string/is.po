@@ -835,3 +835,21 @@ msgstr "Kveikja/slökkva á VPN-aðgerðum"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Stjórna VPN-netum"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Leita að vírusum"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Þetta forrit getur beðið um að fá að skanna skrár í hvaða forriti sem er í tækinu til að greina skaðlegt efni."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Þetta forrit getur athugað orðspor veffangs og ákvarðað hvort notkun á því gæti lagt tækið þitt í hættu."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Stjórnun vírusvarnarforrita og greindra spilliforrita"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Leita að orðspori veffangs"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Þetta forrit getur kveikt eða slökkt á vírusvarnarforritum og stjórnað greindum spilliforritum."
+

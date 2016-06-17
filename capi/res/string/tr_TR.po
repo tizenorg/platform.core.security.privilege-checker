@@ -835,3 +835,21 @@ msgstr "VPN (sanal özel ağ) işlevlerini etkinleştirme/devre dışı bırakma
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN'i (sanal özel ağ) yönetme"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Virüs tarama"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Bu uygulama, zararlı içeriği tespit etmek için diğer tüm uygulamalardaki veya cihazdaki dosyaları taramayı isteyebilir."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Bu uygulama, bir web adresinin tanınırlığını kontrol edebilir ve buna erişmenin cihazınız için risk oluşturup oluşturmadığını belirleyebilir."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Antivirüs programlarını ve algılanan kötü amaçlı yazılımları yönetme"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Web adresinin tanınırlığını denetleme"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Bu uygulama, antivirüs programlarını etkinleştirebilir veya devre dışı bırakabilir ve algılanan kötü amaçlı yazılımı yönetebilir."
+

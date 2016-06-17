@@ -835,3 +835,21 @@ msgstr "تفعيل/إلغاء تفعيل وظائف VPN (الشبكة الخاص
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "إدارة VPN (الشبكة الخاصة الظاهرية)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "المسح بحثاً عن فيروسات"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "يمكن لهذا التطبيق طلب مسح الملفات في أي تطبيق آخر أو على الجهاز لاكتشاف المحتويات الضارة."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "يمكن لهذا التطبيق التحقق من سمعة عنوان ويب وتحديد ما إذا كان الوصول إليه قد يعرّض جهازك للخطر."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "إدارة برامج مكافحة الفيروسات والبرامج الضارة المكتشفة"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "التحقق من سمعة عنوان ويب"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "يمكن لهذا التطبيق أن يفعّل أو يلغي تفعيل برامج مكافحة الفيروسات ويدير البرامج الضارة المكتشفة."
+

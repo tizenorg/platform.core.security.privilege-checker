@@ -11,7 +11,7 @@ msgid "IDS_TPLATFORM_BODY_ACCESSING_SECURE_ELEMENTS"
 msgstr "Accesul la elementele securizate"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_TELEPHONY_INFORMATION"
-msgstr "Accesul la informaţiile de telefonie"
+msgstr "Accesul la informațiile de telefonie"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_UNLIMITED_STORAGE"
 msgstr "Accesul la stocare nelimitată"
@@ -20,13 +20,13 @@ msgid "IDS_TPLATFORM_BODY_ACCESSING_USER_SETTINGS"
 msgstr "Accesul la setările utilizatorului"
 
 msgid "IDS_TPLATFORM_BODY_CLOSING_APPLICATIONS"
-msgstr "Închiderea aplicaţiilor"
+msgstr "Închiderea aplicațiilor"
 
 msgid "IDS_TPLATFORM_BODY_DOWNLOADING_VIA_HTTP"
 msgstr "Descărcarea prin HTTP"
 
 msgid "IDS_TPLATFORM_BODY_GETTING_APPLICATION_CERTIFICATES"
-msgstr "Obţinerea certificatelor pentru aplicaţii"
+msgstr "Obținerea certificatelor pentru aplicații"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_ACCOUNTS"
 msgstr "Gestionarea conturilor"
@@ -47,7 +47,7 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_CONTACTS"
 msgstr "Gestionarea contactelor"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_CONTENT"
-msgstr "Gestionarea conţinutului"
+msgstr "Gestionarea conținutului"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_INPUT_METHODS"
 msgstr "Gestionarea metodelor de introducere"
@@ -62,7 +62,7 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_POWER"
 msgstr "Gestionare consumului de energie"
 
 msgid "IDS_TPLATFORM_BODY_OPENING_APPLICATIONS"
-msgstr "Deschiderea aplicaţiilor"
+msgstr "Deschiderea aplicațiilor"
 
 msgid "IDS_TPLATFORM_BODY_PROVIDING_NOTIFICATIONS"
 msgstr "Furnizarea notificărilor"
@@ -86,22 +86,22 @@ msgid "IDS_TPLATFORM_BODY_READING_CONTACTS"
 msgstr "Citirea contactelor"
 
 msgid "IDS_TPLATFORM_BODY_READING_CONTENT"
-msgstr "Citirea conţinutului"
+msgstr "Citirea conținutului"
 
 msgid "IDS_TPLATFORM_BODY_READING_FILE_SYSTEMS"
-msgstr "Citirea sistemelor de fişiere"
+msgstr "Citirea sistemelor de fișiere"
 
 msgid "IDS_TPLATFORM_BODY_READING_SECURE_SYSTEM_INFORMATION"
-msgstr "Citirea informaţiilor de sistem securizate"
+msgstr "Citirea informațiilor de sistem securizate"
 
 msgid "IDS_TPLATFORM_BODY_READING_SYSTEM_INFORMATION"
-msgstr "Citirea informaţiilor de sistem"
+msgstr "Citirea informațiilor de sistem"
 
 msgid "IDS_TPLATFORM_BODY_READING_WRITING_TO_NFC_TAGS"
 msgstr "Citirea/scrierea în etichete NFC"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PACKAGE_INFORMATION"
-msgstr "Primirea informaţiilor despre pachete"
+msgstr "Primirea informațiilor despre pachete"
 
 msgid "IDS_TPLATFORM_BODY_RECEIVING_PUSH_NOTIFICATIONS"
 msgstr "Primirea notificărilor push"
@@ -110,7 +110,7 @@ msgid "IDS_TPLATFORM_BODY_RECORDING_AUDIO"
 msgstr "Înregistrarea audio"
 
 msgid "IDS_TPLATFORM_BODY_SELECTING_NETWORK_CONNECTION"
-msgstr "Selectarea conexiunii la reţea"
+msgstr "Selectarea conexiunii la rețea"
 
 msgid "IDS_TPLATFORM_BODY_SETTING_ALARMS"
 msgstr "Trimiterea alarmelor"
@@ -134,13 +134,13 @@ msgid "IDS_TPLATFORM_BODY_USING_NFC_COMMON_FEATURES"
 msgstr "Utilizarea caracteristicilor NFC comune"
 
 msgid "IDS_TPLATFORM_BODY_USING_USER_LOCATION"
-msgstr "Folosirea locaţiei utilizatorului"
+msgstr "Folosirea locației utilizatorului"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_MESSAGES"
 msgstr "Scrierea mesajelor"
 
 msgid "IDS_TPLATFORM_BODY_WRITING_TO_FILE_SYSTEMS"
-msgstr "Scrierea în sistemele de fişiere"
+msgstr "Scrierea în sistemele de fișiere"
 
 msgid "IDS_TPLATFORM_OPT_ACCOUNTS_ABB"
 msgstr "Conturi"
@@ -161,16 +161,16 @@ msgid "IDS_TPLATFORM_OPT_WI_FI_DIRECT_ABB"
 msgstr "Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_RETRIEVING_APPLICATION_INFORMATION_M_NOUN"
-msgstr "Preluarea informaţiilor legate de aplicaţii"
+msgstr "Preluarea informațiilor legate de aplicații"
 
 msgid "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
-msgstr "Informaţii personale"
+msgstr "Informații personale"
 
 msgid "IDS_TPLATFORM_BODY_HARDWARE_CONTROLS_ABB"
 msgstr "Comenzi hardware"
 
 msgid "IDS_TPLATFORM_BODY_NETWORK_CONNECTIONS_ABB"
-msgstr "Conexiuni reţea"
+msgstr "Conexiuni rețea"
 
 msgid "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
 msgstr "Servicii cu plată"
@@ -182,7 +182,7 @@ msgid "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
 msgstr "Alte privilegii"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
-msgstr "Gestionarea setărilor pentru aplicaţii web"
+msgstr "Gestionarea setărilor pentru aplicații web"
 
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Mesaje"
@@ -194,7 +194,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_PRIVILEGE_IS_NOT_DEFINED"
 msgstr "Acest privilegiu nu este definit."
 
 msgid "IDS_ST_HEADER_PRIVACY"
-msgstr "Confidenţialitate"
+msgstr "Confidențialitate"
 
 msgid "IDS_ST_TPOP_P1SS_DISABLED_IN_P2SS_ABB"
 msgstr "Serviciul %1$s a fost dezactivat în %2$s."
@@ -203,7 +203,7 @@ msgid "IDS_TPLATFORM_OPT_INTERNET_ABB"
 msgstr "Internet"
 
 msgid "IDS_TPLATFORM_HEADER_READING_HEALTH_INFORMATION"
-msgstr "Citirea informaţiilor despre sănătate"
+msgstr "Citirea informațiilor despre sănătate"
 
 msgid "IDS_ST_OPT_SEND_SMS_ABB"
 msgstr "Trimit. SMS"
@@ -215,34 +215,34 @@ msgid "IDS_TPLATFORM_HEADER_RETRIEVING_ALARMS"
 msgstr "Preluarea alarmelor"
 
 msgid "IDS_TPLATFORM_HEADER_SCANNING_FOR_AND_ERASING_VIRUSES"
-msgstr "Scanarea antivirus şi ştergerea viruşilor"
+msgstr "Scanarea antivirus și ștergerea virușilor"
 
 msgid "IDS_TPLATFORM_BODY_USING_UNRESTRICTED_BLUETOOTH_SERVICES_M_NOUN"
-msgstr "Utilizarea serviciilor Bluetooth nerestricţionate"
+msgstr "Utilizarea serviciilor Bluetooth nerestricționate"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_INTERNET_BOOKMARKS_M_NOUN"
 msgstr "Accesarea marcajelor de pe internet"
 
 msgid "IDS_TPLATFORM_BODY_SHARING_DATA_BETWEEN_APPLICATIONS_M_NOUN"
-msgstr "Partajarea datelor între aplicaţii"
+msgstr "Partajarea datelor între aplicații"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_DISPLAY_SETTINGS_M_NOUN"
-msgstr "Gestionarea setărilor de afişare"
+msgstr "Gestionarea setărilor de afișare"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_ACCOUNTS_MAILBOXES_AND_EMAILS_M_NOUN"
-msgstr "Gestionarea conturilor de e-mail, a cutiilor poştale şi a e-mailurilor"
+msgstr "Gestionarea conturilor de e-mail, a cutiilor poștale și a e-mailurilor"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_EMAIL_CONFIGURATIONS_M_NOUN"
-msgstr "Gestionarea configuraţiilor pentru e-mail"
+msgstr "Gestionarea configurațiilor pentru e-mail"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Accesarea spaţiului de stocare extern"
+msgstr "Accesarea spațiului de stocare extern"
 
 msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
-msgstr "Accesarea datelor aplicaţiilor din spaţiul de stocare extern"
+msgstr "Accesarea datelor aplicațiilor din spațiul de stocare extern"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
-msgstr "Gestionarea feedbackului prin vibraţie"
+msgstr "Gestionarea feedbackului prin vibrație"
 
 msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
 msgstr "Utilizarea depozitului securizat"
@@ -254,34 +254,34 @@ msgid "IDS_TPLATFORM_BODY_MANAGING_LEDS_M_NOUN"
 msgstr "Gestionarea LED-urilor"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_LOCATION_SETTINGS_M_NOUN"
-msgstr "Gestionarea setărilor privind locaţia"
+msgstr "Gestionarea setărilor privind locația"
 
 msgid "IDS_TPLATFORM_HEADER_ACCESSING_MEDIA_FOLDERS"
 msgstr "Accesarea folderelor media"
 
 msgid "IDS_TPLATFORM_BODY_READING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_RELATED_INFORMATION_M_NOUN"
-msgstr "Citirea textului, a mesajelor multimedia şi a informaţiilor corelate"
+msgstr "Citirea textului, a mesajelor multimedia și a informațiilor corelate"
 
 msgid "IDS_TPLATFORM_HEADER_READING_NETWORK_INFORMATION"
-msgstr "Citirea informaţiilor despre reţea"
+msgstr "Citirea informațiilor despre rețea"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_PROFILES"
-msgstr "Gestionarea profilurilor de reţea"
+msgstr "Gestionarea profilurilor de rețea"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NETWORK_CONNECTIONS"
-msgstr "Gestionarea conexiunilor la reţea"
+msgstr "Gestionarea conexiunilor la rețea"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_NOTIFICATIONS"
 msgstr "Gestionarea notificărilor"
 
 msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES_AND_CLEARING_CACHES"
-msgstr "Instalarea/dezinstalarea pachetelor de aplicaţii şi golirea memoriilor cache"
+msgstr "Instalarea/dezinstalarea pachetelor de aplicații și golirea memoriilor cache"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_DETAILED_PACKAGE_INFORMATION"
-msgstr "Preluarea informaţiilor detaliate despre pachete"
+msgstr "Preluarea informațiilor detaliate despre pachete"
 
 msgid "IDS_TPLATFORM_HEADER_RECORDING_VIDEO_AND_AUDIO"
-msgstr "Înregistrarea video şi audio"
+msgstr "Înregistrarea video și audio"
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_DEVICE_SCREEN"
 msgstr "Capturarea ecranului dispozitivului"
@@ -290,7 +290,7 @@ msgid "IDS_TPLATFORM_HEADER_MANAGING_SHORTCUTS"
 msgstr "Gestionarea comenzilor rapide"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Gestionarea setărilor de sistem nerestricţionate"
+msgstr "Gestionarea setărilor de sistem nerestricționate"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALL_SYSTEM_SETTINGS"
 msgstr "Gestionarea tuturor setărilor de sistem"
@@ -305,268 +305,268 @@ msgid "IDS_TPLATFORM_HEADER_MANAGING_INTERNET_HISTORY"
 msgstr "Gestionarea istoricului de internet"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_WI_FI_DIRECT_INFORMATION"
-msgstr "Gestionarea informaţiilor Wi-Fi Direct"
+msgstr "Gestionarea informațiilor Wi-Fi Direct"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_YOUR_SAVED_ALARMS"
-msgstr "Această aplicaţie poate citi informaţii privind alarmele salvate."
+msgstr "Această aplicație poate citi informații privind alarmele salvate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_ERASE_DATA_IN_ANY_OTHER_APPLICATION_MSG"
-msgstr "Această aplicaţie poate citi şi şterge datele din orice altă aplicaţie de pe dispozitiv, pentru a detecta şi a elimina conţinutul dăunător."
+msgstr "Această aplicație poate citi și șterge datele din orice altă aplicație de pe dispozitiv, pentru a detecta și a elimina conținutul dăunător."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS"
-msgstr "Această aplicaţie poate deschide alte aplicaţii."
+msgstr "Această aplicație poate deschide alte aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PERFORM_UNRESTRICTED_ACTIONS_USING_BLUETOOTH_SUCH_AS_SCANNING_FOR_AND_CONNECTING_TO_OTHER_DEVICES"
-msgstr "Această aplicaţie poate efectua acţiuni nerestricţionate utilizând conexiunea Bluetooth, cum ar fi căutarea altor dispozitive şi conectarea la acestea."
+msgstr "Această aplicație poate efectua acțiuni nerestricționate utilizând conexiunea Bluetooth, cum ar fi căutarea altor dispozitive și conectarea la acestea."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_CREATE_EDIT_AND_DELETE_INTERNET_BOOKMARKS"
-msgstr "Această aplicaţie poate prelua, crea, edita şi şterge marcajele de internet."
+msgstr "Această aplicație poate prelua, crea, edita și șterge marcajele de internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_EVENTS_AND_TASKS"
-msgstr "Această aplicaţie poate citi evenimentele şi activităţile."
+msgstr "Această aplicație poate citi evenimentele și activitățile."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_EVENTS_AND_TASKS"
-msgstr "Această aplicaţie poate crea, actualiza şi şterge evenimente şi activităţi."
+msgstr "Această aplicație poate crea, actualiza și șterge evenimente și activități."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_CALL_LOG_ITEMS"
-msgstr "Această aplicaţie poate crea, actualiza şi şterge elementele din jurnalul de apeluri."
+msgstr "Această aplicație poate crea, actualiza și șterge elementele din jurnalul de apeluri."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_AND_PREVIEW_PICTURES"
-msgstr "Această aplicaţie poate realiza şi previzualiza fotografii."
+msgstr "Această aplicație poate realiza și previzualiza fotografii."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_UPDATE_AND_DELETE_YOUR_PROFILE_CONTACTS_AND_ANY_CONTACT_HISTORY_MSG"
-msgstr "Aplicaţia poate crea, actualiza şi şterge profilul, contactele, precum şi istoricul contactelor legat de aceasta. Istoricul contactelor poate include activitatea de pe reţelele de socializare."
+msgstr "Aplicația poate crea, actualiza și șterge profilul, contactele, precum și istoricul contactelor legat de aceasta. Istoricul contactelor poate include activitatea de pe rețelele de socializare."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_YOUR_PROFILE_CONTACTS_AND_CONTACT_HISTORY_CONTACT_HISTORY_CAN_INCLUDE_SOCIAL_NETWORK_ACTIVITY"
-msgstr "Această aplicaţie poate citi profilul, contactele şi istoricul contactelor. Istoricul contactelor poate include activitatea de pe reţelele de socializare."
+msgstr "Această aplicație poate citi profilul, contactele și istoricul contactelor. Istoricul contactelor poate include activitatea de pe rețelele de socializare."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_MEDIA_INFORMATION_THIS_INFORMATION_CAN_BE_USED_BY_OTHER_APPLICATIONS"
-msgstr "Această aplicaţie poate schimba informaţiile media. Aceste informaţii pot fi utilizate de alte aplicaţii."
+msgstr "Această aplicație poate schimba informațiile media. Aceste informații pot fi utilizate de alte aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_APPLICATIONS"
-msgstr "Această aplicaţie poate partaja date cu alte aplicaţii."
+msgstr "Această aplicație poate partaja date cu alte aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_DISPLAY_SETTINGS_SUCH_AS_THE_BRIGHTNESS_THIS_MAY_INCREASE_BATTERY_CONSUMPTION"
-msgstr "Această aplicaţie poate gestiona setările de afişare, cum ar fi luminozitatea. Aceasta poate creşte consumul bateriei."
+msgstr "Această aplicație poate gestiona setările de afișare, cum ar fi luminozitatea. Aceasta poate crește consumul bateriei."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS"
-msgstr "Această aplicaţie poate gestiona conturile de e-mail, inclusiv folderele şi e-mailurile dvs."
+msgstr "Această aplicație poate gestiona conturile de e-mail, inclusiv folderele și e-mailurile dvs."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_SETTINGS_OF_EMAIL_APPLICATIONS"
-msgstr "Această aplicaţie poate gestiona setările aplicaţiilor de e-mail."
+msgstr "Această aplicație poate gestiona setările aplicațiilor de e-mail."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_THAT_ARE_SAVED_TO_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Această aplicaţie poate citi şi scrie fişiere care sunt salvate în spaţiul de stocare extern, cum ar fi carduri SD."
+msgstr "Această aplicație poate citi și scrie fișiere care sunt salvate în spațiul de stocare extern, cum ar fi carduri SD."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS"
-msgstr "Această aplicaţie poate citi şi scrie propriile fişiere în spaţiul de stocare extern, cum ar fi pe carduri SD."
+msgstr "Această aplicație poate citi și scrie propriile fișiere în spațiul de stocare extern, cum ar fi pe carduri SD."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
-msgstr "Această aplicaţie poate controla feedbackul prin vibraţii."
+msgstr "Această aplicație poate controla feedbackul prin vibrații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Această aplicaţie poate accesa internetul. În funcţie de planul tarifar, se pot genera costuri suplimentare."
+msgstr "Această aplicație poate accesa internetul. În funcție de planul tarifar, se pot genera costuri suplimentare."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
-msgstr "Această aplicaţie poate salva chei, certificate şi date în spaţiul de stocare protejat prin parolă şi le poate prelua şi şterge din acesta."
+msgstr "Această aplicație poate salva chei, certificate și date în spațiul de stocare protejat prin parolă și le poate prelua și șterge din acesta."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
-msgstr "Această aplicaţie poate bloca şi debloca locaţia de stocare protejată prin parolă şi poate gestiona schimbările parolei pentru aceasta."
+msgstr "Această aplicație poate bloca și debloca locația de stocare protejată prin parolă și poate gestiona schimbările parolei pentru aceasta."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
-msgstr "Această aplicaţie poate aprinde şi stinge LED-urile, cum ar fi LED-ul din partea din faţă a dispozitivului şi bliţul camerei foto."
+msgstr "Această aplicație poate aprinde și stinge LED-urile, cum ar fi LED-ul din partea din față a dispozitivului și blițul camerei foto."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_YOUR_LOCATION_SERVICE_SETTINGS"
-msgstr "Această aplicaţie poate controla setările serviciilor privind locaţia."
+msgstr "Această aplicație poate controla setările serviciilor privind locația."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_FILES_IN_MEDIA_FOLDERS"
-msgstr "Această aplicaţie poate citi şi scrie fişiere în folderele media."
+msgstr "Această aplicație poate citi și scrie fișiere în folderele media."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_TEXT_AND_MULTIMEDIA_MESSAGES_AND_ANY_INFORMATION_RELATED_TO_THEM"
-msgstr "Această aplicaţie poate citi mesajele text şi multimedia, precum şi toate informaţiile corelate cu acestea."
+msgstr "Această aplicație poate citi mesajele text și multimedia, precum și toate informațiile corelate cu acestea."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_NETWORK_INFORMATION_SUCH_AS_THE_STATUS_OF_EACH_NETWORK_ITS_TYPE_AND_DETAILED_NETWORK_PROFILE_INFORMATION"
-msgstr "Această aplicaţie poate prelua informaţii despre reţea, cum ar fi starea fiecărei reţele, tipul acesteia şi informaţii detaliate privind profilul reţelei."
+msgstr "Această aplicație poate prelua informații despre rețea, cum ar fi starea fiecărei rețele, tipul acesteia și informații detaliate privind profilul rețelei."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADD_REMOVE_AND_EDIT_NETWORK_PROFILES"
-msgstr "Această aplicaţie poate adăuga, elimina şi edita profilurile de reţele."
+msgstr "Această aplicație poate adăuga, elimina și edita profilurile de rețele."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_AND_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS"
-msgstr "Această aplicaţie poate activa şi dezactiva conexiunea Wi-Fi şi poate să se conecteze şi să se deconecteze de la reţelele Wi-Fi şi mobile."
+msgstr "Această aplicație poate activa și dezactiva conexiunea Wi-Fi și poate să se conecteze și să se deconecteze de la rețelele Wi-Fi și mobile."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_AND_HIDE_ITS_OWN_NOTIFICATIONS_AND_BADGES"
-msgstr "Această aplicaţie poate afişa şi ascunde propriile notificări şi insigne."
+msgstr "Această aplicație poate afișa și ascunde propriile notificări și insigne."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES_AND_CLEAR_APPLICATIONS_CACHES"
-msgstr "Această aplicaţie poate instala şi dezinstala pachetele de aplicaţii şi poate goli memoriile cache ale aplicaţiilor."
+msgstr "Această aplicație poate instala și dezinstala pachetele de aplicații și poate goli memoriile cache ale aplicațiilor."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_DETAILED_APPLICATION_PACKAGE_INFORMATION"
-msgstr "Această aplicaţie poate prelua informaţii detaliate despre pachetele de aplicaţii."
+msgstr "Această aplicație poate prelua informații detaliate despre pachetele de aplicații."
 
 msgid "IDS_TPLATFORM_OPT_LOCATION_T_LBS"
-msgstr "Locaţie"
+msgstr "Locație"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET"
-msgstr "Această aplicaţie poate primi notificări prin internet."
+msgstr "Această aplicație poate primi notificări prin internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECORD_VIDEO_AND_AUDIO"
-msgstr "Această aplicaţie poate înregistra conţinut video şi audio."
+msgstr "Această aplicație poate înregistra conținut video și audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_SCREENSHOTS"
-msgstr "Această aplicaţie poate realiza capturi de ecran."
+msgstr "Această aplicație poate realiza capturi de ecran."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_DELETE_SHORTCUTS"
-msgstr "Această aplicaţie poate crea şi şterge comenzile rapide."
+msgstr "Această aplicație poate crea și șterge comenzile rapide."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_UNRESTRICTED_SYSTEM_SETTINGS"
-msgstr "Această aplicaţie poate citi şi scrie setările de sistem nerestricţionate."
+msgstr "Această aplicație poate citi și scrie setările de sistem nerestricționate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ALL_SYSTEM_SETTINGS"
-msgstr "Această aplicaţie poate citi şi scrie toate setările de sistem."
+msgstr "Această aplicație poate citi și scrie toate setările de sistem."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_TELEPHONY_INFORMATION_SUCH_AS_THE_NETWORK_AND_SIM_CARD_USED_THE_IMEI_AND_THE_STATUSES_OF_CALLS"
-msgstr "Această aplicaţie poate prelua informaţii de telefonie, cum ar fi reţeaua şi cartela SIM utilizate, codul IMEI şi stările apelurilor."
+msgstr "Această aplicație poate prelua informații de telefonie, cum ar fi rețeaua și cartela SIM utilizate, codul IMEI și stările apelurilor."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_TELEPHONY_SETTINGS_SUCH_AS_THOSE_FOR_INCOMING_AND_OUTGOING_CALLS_FORWARDING_AND_HOLDING_CALLS_NETWORKS_AND_SIM_CARDS"
-msgstr "Această aplicaţie poate gestiona setările de telefonie, cum ar fi cele pentru apelurile de intrare şi de ieşire, redirecţionarea şi punerea în aşteptare a apelurilor, reţelele şi cartelele SIM."
+msgstr "Această aplicație poate gestiona setările de telefonie, cum ar fi cele pentru apelurile de intrare și de ieșire, redirecționarea și punerea în așteptare a apelurilor, rețelele și cartelele SIM."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ADJUST_THE_VOLUME_FOR_DIFFERENT_FEATURES_SUCH_AS_NOTIFICATION_ALERTS_RINGTONES_AND_MEDIA"
-msgstr "Această aplicaţie poate regla volumul pentru diferite caracteristici, cum ar fi alertele de notificare, tonurile de sonerie şi conţinutul media."
+msgstr "Această aplicație poate regla volumul pentru diferite caracteristici, cum ar fi alertele de notificare, tonurile de sonerie și conținutul media."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_INTERNET_HISTORY"
-msgstr "Această aplicaţie poate gestiona istoricul de internet."
+msgstr "Această aplicație poate gestiona istoricul de internet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_WI_FI_DIRECT_MANAGE_WI_FI_DIRECT_CONNECTIONS_AND_CHANGE_WI_FI_DIRECT_SETTINGS"
-msgstr "Această aplicaţie poate activa şi dezactiva Wi-Fi Direct, poate gestiona conexiunile Wi-Fi Direct şi poate modifica setările Wi-Fi Direct."
+msgstr "Această aplicație poate activa și dezactiva Wi-Fi Direct, poate gestiona conexiunile Wi-Fi Direct și poate modifica setările Wi-Fi Direct."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_BOOKMARKS"
-msgstr "Această aplicaţie poate crea, edita şi şterge marcaje."
+msgstr "Această aplicație poate crea, edita și șterge marcaje."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_HEALTH_INFORMATION_GATHERED_BY_THE_DEVICE_SENSORS_SUCH_AS_THE_PEDOMETER_AND_THE_HEART_RATE_MONITOR"
-msgstr "Această aplicaţie poate citi informaţiile privind starea de sănătate, colectate de senzorii dispozitivului, cum ar fi pedometrul şi monitorul pentru puls."
+msgstr "Această aplicație poate citi informațiile privind starea de sănătate, colectate de senzorii dispozitivului, cum ar fi pedometrul și monitorul pentru puls."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_MESSAGES_FROM_MESSAGE_BOXES_OR_RECEIVE_MESSAGES"
-msgstr "Această aplicaţie poate prelua mesaje din casetele de mesaje sau poate primi mesaje."
+msgstr "Această aplicație poate prelua mesaje din casetele de mesaje sau poate primi mesaje."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SECURE_SYSTEM_INFORMATION"
-msgstr "Această aplicaţie poate citi informaţiile de sistem securizate."
+msgstr "Această aplicație poate citi informațiile de sistem securizate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_DATA_EXPORTED_BY_DATA_CONTROL_PROVIDERS"
-msgstr "Această aplicaţie poate citi datele exportate de furnizorii de servicii pentru controlul datelor."
+msgstr "Această aplicație poate citi datele exportate de furnizorii de servicii pentru controlul datelor."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION"
-msgstr "Această aplicaţie poate citi informaţiile de sistem."
+msgstr "Această aplicație poate citi informațiile de sistem."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_APPEAR_ON_TOP_OF_OTHER_WINDOWS_AND_SCREENS_MSG"
-msgstr "Această aplicaţie poate apărea peste alte ferestre şi ecrane, inclusiv peste ecranul de blocare, conform priorităţii pentru ordinea ferestrelor. Din acest motiv, este posibil să nu puteţi interacţiona cu alte aplicaţii sau ecrane până când nu închideţi fereastra acestei aplicaţii."
+msgstr "Această aplicație poate apărea peste alte ferestre și ecrane, inclusiv peste ecranul de blocare, conform priorității pentru ordinea ferestrelor. Din acest motiv, este posibil să nu puteți interacționa cu alte aplicații sau ecrane până când nu închideți fereastra acestei aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SYSTEM_SETTINGS_RELATED_TO_PRIVACY_AND_SECURITY_SUCH_AS_THE_VISIBILITY_MODE"
-msgstr "Această aplicaţie poate modifica setările de sistem Bluetooth legate de confidenţialitate şi securitate, cum ar fi modul de vizibilitate."
+msgstr "Această aplicație poate modifica setările de sistem Bluetooth legate de confidențialitate și securitate, cum ar fi modul de vizibilitate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_ITS_WEB_APPLICATION_SETTINGS_INCLUDING_DELETING_ITS_COOKIES"
-msgstr "Această aplicaţie poate modifica setările pentru aplicaţia web, inclusiv ştergerea cookie-urilor sale."
+msgstr "Această aplicație poate modifica setările pentru aplicația web, inclusiv ștergerea cookie-urilor sale."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLOSE_OTHER_APPLICATIONS"
-msgstr "Această aplicaţie poate închide alte aplicaţii."
+msgstr "Această aplicație poate închide alte aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_EDIT_AND_DELETE_ACCOUNTS"
-msgstr "Această aplicaţie poate crea, edita şi şterge conturile."
+msgstr "Această aplicație poate crea, edita și șterge conturile."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES"
-msgstr "Această aplicaţie poate activa şi dezactiva serviciile de tethering."
+msgstr "Această aplicație poate activa și dezactiva serviciile de tethering."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION"
-msgstr "Această aplicaţie poate realiza apeluri telefonice în timpul introducerii numerelor, fără nicio confirmare ulterioară."
+msgstr "Această aplicație poate realiza apeluri telefonice în timpul introducerii numerelor, fără nicio confirmare ulterioară."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_AUDIO_RECORDINGS"
-msgstr "Această aplicaţie poate să gestioneze înregistrările audio."
+msgstr "Această aplicație poate să gestioneze înregistrările audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_INSTALLED_INPUT_METHODS"
-msgstr "Această aplicaţie poate gestiona metodele de introducere instalate."
+msgstr "Această aplicație poate gestiona metodele de introducere instalate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_OPEN_OTHER_APPLICATIONS_USING_THE_APPLICATION_ID_OR_APPLICATION_CONTROL"
-msgstr "Această aplicaţie poate deschide alte aplicaţii utilizând ID-ul acesteia sau comenzile pentru aplicaţie."
+msgstr "Această aplicație poate deschide alte aplicații utilizând ID-ul acesteia sau comenzile pentru aplicație."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACCOUNTS"
-msgstr "Această aplicaţie poate citi conturi."
+msgstr "Această aplicație poate citi conturi."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION_AND_SEND_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Această aplicaţie poate citi şi scrie informaţii în etichetele NFC şi poate trimite mesaje NFC către alte dispozitive."
+msgstr "Această aplicație poate citi și scrie informații în etichetele NFC și poate trimite mesaje NFC către alte dispozitive."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_FILE_SYSTEMS"
-msgstr "Această aplicaţie poate citi sistemele de fişiere."
+msgstr "Această aplicație poate citi sistemele de fișiere."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_MEDIA_CONTENT_INFORMATION"
-msgstr "Această aplicaţie poate citi informaţiile privind conţinutul media."
+msgstr "Această aplicație poate citi informațiile privind conținutul media."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_INFORMATION_RELATED_TO_OTHER_APPLICATIONS"
-msgstr "Această aplicaţie poate prelua informaţii legate de alte aplicaţii."
+msgstr "Această aplicație poate prelua informații legate de alte aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_SPECIFIED_APPLICATION_CERTIFICATES"
-msgstr "Această aplicaţie poate prelua certificate pentru aplicaţiile specificate."
+msgstr "Această aplicație poate prelua certificate pentru aplicațiile specificate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_ITS_CONTENT_TO_YOUR_DEVICE_STORAGE_OR_EXTERNAL_STORAGE_LOCATIONS_SUCH_AS_SD_CARDS_WITH_NO_LIMIT_ON_THE_CONTENTS_SIZE"
-msgstr "Această aplicaţie îşi poate salva conţinutul în memoria dispozitivului sau în locaţiile de stocare externă ale acestuia, cum ar fi pe carduri SD, fără nicio limită legată de dimensiunea conţinutului."
+msgstr "Această aplicație își poate salva conținutul în memoria dispozitivului sau în locațiile de stocare externă ale acestuia, cum ar fi pe carduri SD, fără nicio limită legată de dimensiunea conținutului."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SET_ALARMS_AND_WAKE_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Această aplicaţie poate seta alarme şi poate porni dispozitivul la orele programate."
+msgstr "Această aplicație poate seta alarme și poate porni dispozitivul la orele programate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNCHRONISE_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL"
-msgstr "Această aplicaţie poate sincroniza datele de pe dispozitiv, cum ar fi contactele şi evenimentele din calendar, utilizând protocolul OMA DS 1.2."
+msgstr "Această aplicație poate sincroniza datele de pe dispozitiv, cum ar fi contactele și evenimentele din calendar, utilizând protocolul OMA DS 1.2."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_FULL_SCREEN_VIEW"
-msgstr "Această aplicaţie poate utiliza vizualizarea pe ecranul complet."
+msgstr "Această aplicație poate utiliza vizualizarea pe ecranul complet."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_GENERIC_ACCESS_PROFILE_HGAP_TO_FOR_EXAMPLE_SCAN_FOR_AND_PAIR_WITH_DEVICES"
-msgstr "Această aplicaţie poate utiliza Profilul generic de acces (Generic Access Profile, GAP) Bluetooth, de exemplu, pentru a căuta şi a se asocia cu dispozitive."
+msgstr "Această aplicație poate utiliza Profilul generic de acces (Generic Access Profile, GAP) Bluetooth, de exemplu, pentru a căuta și a se asocia cu dispozitive."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_HEALTH_DEVICE_PROFILE_HHDP_TO_FOR_EXAMPLE_SEND_HEALTH_INFORMATION"
-msgstr "Această aplicaţie poate utiliza Profilul dispozitivului de sănătate (HDP) Bluetooth, de exemplu, pentru a trimite informaţii despre starea de sănătate."
+msgstr "Această aplicație poate utiliza Profilul dispozitivului de sănătate (HDP) Bluetooth, de exemplu, pentru a trimite informații despre starea de sănătate."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_THE_BLUETOOTH_SERIAL_PORT_PROFILE_HSPP_TO_FOR_EXAMPLE_SEND_SERIAL_DATA"
-msgstr "Această aplicaţie poate utiliza Profilul portului serial (Serial Port Profile, SPP) Bluetooth, de exemplu, pentru a trimite date seriale."
+msgstr "Această aplicație poate utiliza Profilul portului serial (Serial Port Profile, SPP) Bluetooth, de exemplu, pentru a trimite date seriale."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_YOUR_LOCATION_DATA"
-msgstr "Această aplicaţie poate utiliza datele privind locaţia."
+msgstr "Această aplicație poate utiliza datele privind locația."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS"
-msgstr "Această aplicaţie poate scrie mesaje text şi multimedia, precum şi e-mailuri."
+msgstr "Această aplicație poate scrie mesaje text și multimedia, precum și e-mailuri."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TO_FILE_SYSTEMS"
-msgstr "Această aplicaţie poate scrie în sistemele de fişiere."
+msgstr "Această aplicație poate scrie în sistemele de fișiere."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_ACCESS_SECURE_SMART_CARD_CHIPS_SUCH_AS_UICC_SIM_EMBEDDED_SECURE_ELEMENTS_AND_SECURE_SD_CARDS"
-msgstr "Această aplicaţie poate să acceseze cipul securizat al cartelelor inteligente, cum ar fi UICC/SIM, elementele securizate integrate şi cardurile SD securizate."
+msgstr "Această aplicație poate să acceseze cipul securizat al cartelelor inteligente, cum ar fi UICC/SIM, elementele securizate integrate și cardurile SD securizate."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_AND_READ_USER_SETTINGS"
-msgstr "Această aplicaţie poate modifica şi citi setările utilizatorului."
+msgstr "Această aplicație poate modifica și citi setările utilizatorului."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CHANGE_NFC_SETTINGS_SUCH_AS_TURNING_NFC_ON_OR_OFF"
-msgstr "Această aplicaţie poate modifica setările NFC, de exemplu, poate să pornească şi să oprească NFC."
+msgstr "Această aplicație poate modifica setările NFC, de exemplu, poate să pornească și să oprească NFC."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_CONTROL_POWER_RELATED_SETTINGS_SUCH_AS_DIMMING_THE_SCREEN"
-msgstr "Această aplicaţie poate controla setările legate de energie, cum ar fi reducerea luminozităţii ecranului."
+msgstr "Această aplicație poate controla setările legate de energie, cum ar fi reducerea luminozității ecranului."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_INSTALL_OR_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Această aplicaţie poate să instaleze sau să dezinstaleze pachete de aplicaţii."
+msgstr "Această aplicație poate să instaleze sau să dezinstaleze pachete de aplicații."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_PUSH_NFC_MESSAGES_TO_OTHER_DEVICES"
-msgstr "Această aplicaţie poate să transfere prin push mesajele NFC pe alte dispozitive."
+msgstr "Această aplicație poate să transfere prin push mesajele NFC pe alte dispozitive."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_AND_WRITE_NFC_TAG_INFORMATION"
-msgstr "Această aplicaţie poate să citească şi să scrie informaţii în etichetele NFC."
+msgstr "Această aplicație poate să citească și să scrie informații în etichetele NFC."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_BOOKMARKS"
-msgstr "Această aplicaţie poate citi marcajele."
+msgstr "Această aplicație poate citi marcajele."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_READ_CALL_LOG_ITEMS"
-msgstr "Această aplicaţie poate citi elementele din jurnalul de apeluri."
+msgstr "Această aplicație poate citi elementele din jurnalul de apeluri."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_RECEIVE_PACKAGE_INFORMATION"
-msgstr "Această aplicaţie poate primi informaţii despre pachete."
+msgstr "Această aplicație poate primi informații despre pachete."
 
 msgid "IDS_TPLATFORM_SBODY_THIS_APPLICATION_CAN_USE_NFC_COMMON_FEATURES"
-msgstr "Această aplicaţie poate utiliza caracteristicile NFC obişnuite."
+msgstr "Această aplicație poate utiliza caracteristicile NFC obișnuite."
 
 msgid "IDS_TPLATFORM_HEADER_USING_BASIC_NFC_SERVICES"
 msgstr "Utilizarea setărilor NFC de bază"
@@ -584,254 +584,272 @@ msgid "IDS_TPLATFORM_HEADER_ACCESSING_TETHERING_SERVICES"
 msgstr "Accesarea serviciilor de tethering"
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_WINDOWS_ON_TOP_OF_OTHER_APPLICATIONS_AND_SCREENS"
-msgstr "Afişare ferestre deasupra celorlalte aplicaţii şi ecrane"
+msgstr "Afișare ferestre deasupra celorlalte aplicații și ecrane"
 
 msgid "IDS_TPLATFORM_HEADER_MAKING_PHONE_CALLS"
 msgstr "Efectuare apeluri telefonice"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
-msgstr "Această aplicaţie poate accesa detaliile cardurilor inteligente, cum ar fi detaliile cardurilor de credit, şi le poate permite utilizatorilor să efectueze plăţi prin NFC."
+msgstr "Această aplicație poate accesa detaliile cardurilor inteligente, cum ar fi detaliile cardurilor de credit, și le poate permite utilizatorilor să efectueze plăți prin NFC."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
-msgstr "Această aplicaţie poate scrie, trimite, şterge şi muta mesaje text şi multimedia şi poate schimba setările şi stările mesajelor, de exemplu, citite sau necitite."
+msgstr "Această aplicație poate scrie, trimite, șterge și muta mesaje text și multimedia și poate schimba setările și stările mesajelor, de exemplu, citite sau necitite."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS"
-msgstr "Această aplicaţie poate restricţiona dispozitivul, astfel încât anumite domenii specifice să poată fi accesate numai prin reţelele mobile."
+msgstr "Această aplicație poate restricționa dispozitivul, astfel încât anumite domenii specifice să poată fi accesate numai prin rețelele mobile."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_MEDIA_DATA"
 msgstr "Capturarea datelor media"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_VIDEO_AND_AUDIO_DATA"
-msgstr "Această aplicaţie poate captura date video şi audio."
+msgstr "Această aplicație poate captura date video și audio."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DISPLAY_EDIT_AND_DELETE_NOTIFICATIONS"
-msgstr "Aplicaţia poate afişa, edita şi şterge notificările."
+msgstr "Aplicația poate afișa, edita și șterge notificările."
 
 msgid "IDS_TPLATFORM_HEADER_OPENING_AND_RESUMING_APPLICATIONS"
-msgstr "Deschiderea şi reluarea aplicaţiilor"
+msgstr "Deschiderea și reluarea aplicațiilor"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_ALARMS"
 msgstr "Gestionare alarme"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_ALARMS_BY_RETRIEVING_SAVED_ALARMS_AND_WAKING_THE_DEVICE_UP_AT_SCHEDULED_TIMES"
-msgstr "Această aplicaţie poate să gestioneze alarmele, preluându-le pe cele salvate şi activând dispozitivul la ore programate."
+msgstr "Această aplicație poate să gestioneze alarmele, preluându-le pe cele salvate și activând dispozitivul la ore programate."
 
 msgid "IDS_TPLATFORM_HEADER_CHANGING_BLUETOOTH_SETTINGS"
 msgstr "Modificarea setărilor de Bluetooth"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_BLUETOOTH_SETTINGS_SUCH_AS_TURNING_BLUETOOTH_ON_OR_OFF_SETTING_THE_DEVICE_NAME_AND_ENABLING_OR_DISABLING_AV_REMOTE_CONTROL"
-msgstr "Această aplicaţie poate să modifice setările pentru Bluetooth, de exemplu, să pornească sau să oprească Bluetooth, să stabilească numele dispozitivului şi activeze sau să dezactiveze telecomanda AV."
+msgstr "Această aplicație poate să modifice setările pentru Bluetooth, de exemplu, să pornească sau să oprească Bluetooth, să stabilească numele dispozitivului și activeze sau să dezactiveze telecomanda AV."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_INFORMATION_ABOUT_NOTIFICATIONS"
-msgstr "Această aplicaţie poate citi informaţii despre notificări."
+msgstr "Această aplicație poate citi informații despre notificări."
 
 msgid "IDS_TPLATFORM_HEADER_USING_FULL_SCREEN_VIEW"
 msgstr "Utilizarea vizualizării ecran complet"
 
 msgid "IDS_TPLATFORM_HEADER_RETRIEVING_NOTIFICATION_INFORMATION"
-msgstr "Preluarea informaţiilor despre notificări"
+msgstr "Preluarea informațiilor despre notificări"
 
 msgid "IDS_TPLATFORM_BODY_SENDING_TEXT_AND_MULTIMEDIA_MESSAGES_AND_UPDATING_THEIR_STATUSES_M_NOUN"
-msgstr "Trimiterea textului şi a mesajelor multimedia şi actualizarea stărilor acestora"
+msgstr "Trimiterea textului și a mesajelor multimedia și actualizarea stărilor acestora"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_HTTP_DOWNLOADS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Aplicaţia poate gestiona descărcările HTTP. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate gestiona descărcările HTTP. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_HEADER_READING_APPLICATION_USAGE_STATISTICS"
-msgstr "Citirea statisticilor cu privire la utilizarea aplicaţiilor"
+msgstr "Citirea statisticilor cu privire la utilizarea aplicațiilor"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_OF_APPLICATION_USAGE_SUCH_AS_WHICH_APPLICATIONS_HAVE_BEEN_USED_FREQUENTLY_OR_RECENTLY"
-msgstr "Această aplicaţie poate citi statistici cu privire la utilizarea aplicaţiilor, cum ar fi aplicaţiile care au fost utilizate frecvent sau recent."
+msgstr "Această aplicație poate citi statistici cu privire la utilizarea aplicațiilor, cum ar fi aplicațiile care au fost utilizate frecvent sau recent."
 
 msgid "IDS_TPLATFORM_HEADER_READING_MEDIA_PLAYBACK_STATISTICS"
 msgstr "Citirea statisticilor cu privire la redarea media"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_THE_STATISTICS_CONCERNING_THE_MUSIC_AND_VIDEOS_PLAYED_ON_THE_DEVICE_SUCH_AS_THE_PEAK_TIMES_FOR_PLAYING_MUSIC_OR_VIDEOS"
-msgstr "Această aplicaţie poate citi statisticile referitoare la muzica şi videoclipurile redate pe dispozitiv, cum ar fi orele de vârf pentru redarea acestora."
+msgstr "Această aplicație poate citi statisticile referitoare la muzica și videoclipurile redate pe dispozitiv, cum ar fi orele de vârf pentru redarea acestora."
 
 msgid "IDS_TPLATFORM_HEADER_LOGGING_MEDIA_CONTROL_EVENTS"
 msgstr "Înregistrarea evenimentelor de control media"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOG_MEDIA_CONTROL_EVENTS_SUCH_AS_START_AND_STOP_TIMES_FOR_MUSIC_AND_VIDEOS"
-msgstr "Aplicaţia poate înregistra evenimentele de control media, cum ar fi orele de pornire şi de oprire pentru muzică şi videoclipuri."
+msgstr "Aplicația poate înregistra evenimentele de control media, cum ar fi orele de pornire și de oprire pentru muzică și videoclipuri."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PROVIDE_USERS_WITH_A_WAY_TO_ENTER_CHARACTERS_AND_SYMBOLS_INTO_AN_ASSOCIATED_TEXT_FIELD"
-msgstr "Această aplicaţie poate furniza utilizatorilor o modalitate de a introduce caractere şi simboluri într-un câmp de text asociat."
+msgstr "Această aplicație poate furniza utilizatorilor o modalitate de a introduce caractere și simboluri într-un câmp de text asociat."
 
 msgid "IDS_TPLATFORM_HEADER_PROVIDING_INPUT_METHODS"
 msgstr "Furnizarea metodelor de introducere"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TAKE_PICTURES_AND_TURN_THE_CAMERA_FLASH_ON_AND_OFF_WHILE_USING_CAMERA"
-msgstr "Această aplicaţie poate realiza fotografii şi poate activa şi dezactiva bliţul camerei foto utilizând aplicaţia Cameră foto."
+msgstr "Această aplicație poate realiza fotografii și poate activa și dezactiva blițul camerei foto utilizând aplicația Cameră foto."
 
 msgid "IDS_TPLATFORM_HEADER_CLOSING_BACKGROUND_APPLICATIONS"
-msgstr "închiderea aplicaţiilor din fundal"
+msgstr "închiderea aplicațiilor din fundal"
 
 msgid "IDS_TPLATFORM_HEADER_GENERATING_TOUCH_AND_KEY_EVENTS"
-msgstr "Generarea evenimentelor legate de atingere şi butoane"
+msgstr "Generarea evenimentelor legate de atingere și butoane"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SIMULATE_KEYS_BEING_PRESSED_AND_TOUCH_INTERACTIONS_WITH_THE_SCREEN"
-msgstr "Această aplicaţie poate simula apăsarea tastelor şi interacţiunea tactilă cu ecranul."
+msgstr "Această aplicație poate simula apăsarea tastelor și interacțiunea tactilă cu ecranul."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_REQUEST_TO_CLOSE_APPLICATIONS_RUNNING_IN_THE_BACKGROUND"
-msgstr "Această aplicaţie poate solicita închiderea aplicaţiilor care se execută în fundal."
+msgstr "Această aplicație poate solicita închiderea aplicațiilor care se execută în fundal."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MAKE_PHONE_CALLS_TO_NUMBERS_WHEN_THEY_ARE_TAPPED_WITHOUT_FURTHER_CONFIRMATION_MSG"
-msgstr "Aplicaţia poate realiza apeluri telefonice în timpul introducerii numerelor, fără nicio confirmare ulterioară. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate realiza apeluri telefonice în timpul introducerii numerelor, fără nicio confirmare ulterioară. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_YOUR_EMAIL_ACCOUNTS_INCLUDING_YOUR_FOLDERS_AND_EMAILS_POP3_AND_IMAP_DOWNLOADS_AND_SMTP_UPLOADS_MSG"
-msgstr "Aplicaţia poate gestiona conturile de e-mail, inclusiv folderele şi e-mailurile, descărcările prin protocoalele POP3 and IMAP şi încărcările prin protocolul SMTP. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate gestiona conturile de e-mail, inclusiv folderele și e-mailurile, descărcările prin protocoalele POP3 and IMAP și încărcările prin protocolul SMTP. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_NOTIFICATIONS_VIA_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Aplicaţia poate primi notificări prin internet. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate primi notificări prin internet. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_MSG"
-msgstr "Această aplicaţie poate să salveze chei, certificate şi date şi poate să preia şi să şteargă în şi din spaţiul de stocare protejat prin parolă. Verificarea stării certificatelor în timp ce sunteţi conectat la o reţea mobilă poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Această aplicație poate să salveze chei, certificate și date și poate să preia și să șteargă în și din spațiul de stocare protejat prin parolă. Verificarea stării certificatelor în timp ce sunteți conectat la o rețea mobilă poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_HEADER_CONTROLLING_MEDIA_PLAYER"
 msgstr "Controlul playerului media"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RECEIVE_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_FROM_APPLICATIONS_THAT_ARE_ALLOWED_TO_SEND_IT_MSG"
-msgstr "Aplicaţia poate primi informaţii despre conţinutul media redat în momentul actual de la aplicaţii care au permisiunea de a le trimite şi poate controla de la distanţă aceste aplicaţii."
+msgstr "Aplicația poate primi informații despre conținutul media redat în momentul actual de la aplicații care au permisiunea de a le trimite și poate controla de la distanță aceste aplicații."
 
 msgid "IDS_TPLATFORM_HEADER_ACCEPTING_REMOTE_CONTROLS"
-msgstr "Acceptarea comenzilor la distanţă"
+msgstr "Acceptarea comenzilor la distanță"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SEND_INFORMATION_ABOUT_CURRENTLY_PLAYING_MEDIA_TO_APPLICATIONS_THAT_ARE_ALLOWED_TO_RECEIVE_IT_MSG"
-msgstr "Aplicaţia poate trimite informaţii despre conţinutul media redat în momentul actual către aplicaţii care au permisiunea de a le primi şi poate fi controlată de la distanţă de aceste aplicaţii."
+msgstr "Aplicația poate trimite informații despre conținutul media redat în momentul actual către aplicații care au permisiunea de a le primi și poate fi controlată de la distanță de aceste aplicații."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_DOWNLOAD_MULTIMEDIA_MESSAGES_MSG"
-msgstr "Această aplicaţie poate să scrie, să trimită, să şteargă şi să mute mesaje text şi multimedia, să descarce mesaje multimedia şi să modifice setările şi stările mesajelor, cum ar fi marcarea ca citit sau necitit. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Această aplicație poate să scrie, să trimită, să șteargă și să mute mesaje text și multimedia, să descarce mesaje multimedia și să modifice setările și stările mesajelor, cum ar fi marcarea ca citit sau necitit. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_WI_FI_ON_AND_OFF_AND_CONNECT_TO_AND_DISCONNECT_FROM_WI_FI_AND_MOBILE_NETWORKS_MSG"
-msgstr "Aplicaţia poate porni şi opri conexiunea Wi-Fi şi se poate conecta sau deconecta de la reţelele Wi-Fi şi cele mobile. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate porni și opri conexiunea Wi-Fi și se poate conecta sau deconecta de la rețelele Wi-Fi și cele mobile. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_HEADER_INSTALLING_UNINSTALLING_APPLICATION_PACKAGES"
-msgstr "Instalarea/dezinstalarea pachetelor de aplicaţii"
+msgstr "Instalarea/dezinstalarea pachetelor de aplicații"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_INSTALL_AND_UNINSTALL_APPLICATION_PACKAGES"
-msgstr "Această aplicaţie poate să instaleze şi să dezinstaleze pachete de aplicaţii."
+msgstr "Această aplicație poate să instaleze și să dezinstaleze pachete de aplicații."
 
 msgid "IDS_TPLATFORM_HEADER_CLEARING_OTHER_APPLICATIONS_CACHES"
-msgstr "Golirea memoriei cache a altor aplicaţii"
+msgstr "Golirea memoriei cache a altor aplicații"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CLEAR_OTHER_APPLICATIONS_CACHES"
-msgstr "Această aplicaţie poate goli memoria cache a altor aplicaţii."
+msgstr "Această aplicație poate goli memoria cache a altor aplicații."
 
 msgid "IDS_TPLATFORM_HEADER_RESTARTING_DEVICE"
 msgstr "Repornire dispozitiv"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTART_THE_DEVICE"
-msgstr "Această aplicaţie poate reporni dispozitivul."
+msgstr "Această aplicație poate reporni dispozitivul."
 
 msgid "IDS_TPLATFORM_HEADER_MONITORING_SYSTEM_RESOURCES"
 msgstr "Monitorizarea resurselor sistemului"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_SYSTEM_INFORMATION_INCLUDING_INFORMATION_FROM_THE_CPU_AND_RAM"
-msgstr "Această aplicaţie poate să citească informaţiile de sistem, inclusiv cele provenite de la procesor şi memoria RAM."
+msgstr "Această aplicație poate să citească informațiile de sistem, inclusiv cele provenite de la procesor și memoria RAM."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_TETHERING_SERVICES_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Aplicaţia poate activa şi dezactiva serviciile de tethering. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate activa și dezactiva serviciile de tethering. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_HEADER_SHOWING_WIDGETS"
-msgstr "Afişarea widgeturilor"
+msgstr "Afișarea widgeturilor"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
-msgstr "Această aplicaţie poate afişa pe ecranul Acasă widgeturi, precum şi informaţii de la aplicaţiile asociate acestora."
+msgstr "Această aplicație poate afișa pe ecranul Acasă widgeturi, precum și informații de la aplicațiile asociate acestora."
 
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
-msgstr "Utilizarea serviciilor de hărţi"
+msgstr "Utilizarea serviciilor de hărți"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_USE_MAP_SERVICES_SUCH_AS_GEOCODER_PLACES_AND_ROUTE_HDIRECTION"
-msgstr "Această aplicaţie poate să utilizeze servicii de hărţi, cum ar fi Geocoder, Locaţii şi and Rută (Indicaţii)."
+msgstr "Această aplicație poate să utilizeze servicii de hărți, cum ar fi Geocoder, Locații și and Rută (Indicații)."
 
 msgid "IDS_TPLATFORM_HEADER_SHOWING_TOOLBAR"
-msgstr "Afişarea barei de instrumente"
+msgstr "Afișarea barei de instrumente"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_A_SMALL_TOOLBAR_ON_THE_NOTIFICATION_PANEL_OR_LOCK_SCREEN_WHILE_IT_IS_OPEN"
-msgstr "Această aplicaţie poate afişa o mică bară de instrumente pe panoul de notificare sau pe ecranul de blocare atunci când este deschisă."
+msgstr "Această aplicație poate afișa o mică bară de instrumente pe panoul de notificare sau pe ecranul de blocare atunci când este deschisă."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SYNC_DEVICE_DATA_SUCH_AS_CONTACTS_AND_CALENDAR_EVENTS_USING_THE_OMA_DS_12_PROTOCOL_MSG"
-msgstr "Aplicaţia poate sincroniza datele dispozitivului, cum ar fi contactele şi evenimentele din calendar, utilizând protocolul OMA DS 1.2. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate sincroniza datele dispozitivului, cum ar fi contactele și evenimentele din calendar, utilizând protocolul OMA DS 1.2. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RETRIEVE_EMAILS_TEXT_MESSAGES_AND_MULTIMEDIA_MESSAGES_FROM_THE_SERVER_OR_RECEIVE_THEM_DIRECTLY_MSG"
-msgstr "Aplicaţia poate să preia e-mailuri, mesaje text şi mesaje multimedia de pe server sau să le primească direct. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate să preia e-mailuri, mesaje text și mesaje multimedia de pe server sau să le primească direct. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_TEXT_MESSAGES_MULTIMEDIA_MESSAGES_AND_EMAILS_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
-msgstr "Aplicaţia poate scrie mesaje text, mesaje multimedia şi e-mailuri. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate scrie mesaje text, mesaje multimedia și e-mailuri. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_DEVICE_SO_SOME_SPECIFIC_DOMAINS_CAN_ONLY_BE_ACCESSED_VIA_MOBILE_NETWORKS_MSG"
-msgstr "Aplicaţia poate restricţiona dispozitivul, astfel încât anumite domenii să poată fi accesate doar prin intermediul reţelelor mobile. Acest lucru poate genera costuri suplimentare, în funcţie de planul tarifar."
+msgstr "Aplicația poate restricționa dispozitivul, astfel încât anumite domenii să poată fi accesate doar prin intermediul rețelelor mobile. Acest lucru poate genera costuri suplimentare, în funcție de planul tarifar."
 
 msgid "IDS_ST_HEADER_NOTIFICATIONS_ABB"
 msgstr "Notificări"
 
 msgid "IDS_ST_HEADER_DO_NOT_DISTURB_ABB"
-msgstr "Nu deranjaţi"
+msgstr "Nu deranjați"
 
 msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_VOLUME_LEVEL_AND_PLAYING_THE_BEEP_AUDIO"
-msgstr "Controlul nivelului volumului şi redarea bipurilor audio"
+msgstr "Controlul nivelului volumului și redarea bipurilor audio"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_VOLUME_MSG"
-msgstr "Această aplicaţie poate să modifice volumul, să activeze şi să dezactiveze Modul Silenţios, să detecteze schimbările volumului şi se redea bipuri."
+msgstr "Această aplicație poate să modifice volumul, să activeze și să dezactiveze Modul Silențios, să detecteze schimbările volumului și se redea bipuri."
 
 msgid "IDS_TPLATFORM_HEADER_CONTROLLING_THE_TV_CHANNEL_MSG"
-msgstr "Controlul canalului TV, citirea informaţiilor despre canalul şi programul TV"
+msgstr "Controlul canalului TV, citirea informațiilor despre canalul și programul TV"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_THE_TV_CHANNEL_READ_INFORMATION_MSG"
-msgstr "Această aplicaţie poate schimba canalul TV, poate citi informaţii despre canalele şi programele TV şi poate primi notificări atunci când canalul TV a fost schimbat."
+msgstr "Această aplicație poate schimba canalul TV, poate citi informații despre canalele și programele TV și poate primi notificări atunci când canalul TV a fost schimbat."
 
 msgid "IDS_TPLATFORM_HEADER_CHECKING_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
-msgstr "Verificarea faptului că un dispozitiv acceptă modul 3D şi obţinerea informaţiilor despre efectele acestuia"
+msgstr "Verificarea faptului că un dispozitiv acceptă modul 3D și obținerea informațiilor despre efectele acestuia"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHECK_WHETHER_A_DEVICE_SUPPORTS_3D_MSG"
-msgstr "Această aplicaţie poate verifica faptul că un dispozitiv acceptă modul 3D şi poate citi informaţii despre acesta."
+msgstr "Această aplicație poate verifica faptul că un dispozitiv acceptă modul 3D și poate citi informații despre acesta."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_KEY_EVENTS_OF_INPUT_DEVICES_EG_TV_REMOTE_CONTROL"
 msgstr "Capturarea evenimentelor legate de tastele dispozitivelor de intrare, de exemplu, telecomanda TV"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CAPTURE_THE_KEY_EVENTS_OF_AN_INPUT_DEVICE_MSG"
-msgstr "Această aplicaţie poate captura evenimentele legate de tastele unui dispozitiv de intrare, de exemplu, telecomanda TV, şi poate elibera tastele selectate."
+msgstr "Această aplicație poate captura evenimentele legate de tastele unui dispozitiv de intrare, de exemplu, telecomanda TV, și poate elibera tastele selectate."
 
 msgid "IDS_TPLATFORM_HEADER_DISPLAYING_VIDEO_SOURCE_EMBEDDED_IN_THIS_APPLICATION"
-msgstr "Afişarea sursei video integrate în această aplicaţie"
+msgstr "Afișarea sursei video integrate în această aplicație"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_EMBED_THE_DISPLAY_MSG"
-msgstr "Această aplicaţie poate integra afişarea unei surse video, poate specifica dimensiunea şi poate afişa sau ascunde afişajul integrat."
+msgstr "Această aplicație poate integra afișarea unei surse video, poate specifica dimensiunea și poate afișa sau ascunde afișajul integrat."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_ACTIONS_INVOLVING_SPECIAL_KEYS_SUCH_AS_THE_VOLUME_KEYS_MSG"
-msgstr "Aplicaţia poate citi acţiuni care implică taste speciale, cum ar fi tastele de volum de pe acest dispozitiv sau un alt dispozitiv (de ex., telecomenzi de televizoare), chiar și atunci când rulează în fundal."
+msgstr "Aplicația poate citi acțiuni care implică taste speciale, cum ar fi tastele de volum de pe acest dispozitiv sau un alt dispozitiv (de ex., telecomenzi de televizoare), chiar și atunci când rulează în fundal."
 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Capturarea evenimentelor speciale"
 
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
-msgstr "Utilizarea transmiţătorului infraroşu"
+msgstr "Utilizarea transmițătorului infraroșu"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_USE_THE_INFRARED_TRANSMITTER"
-msgstr "Această aplicaţie poate utiliza transmiţătorul infraroşu."
+msgstr "Această aplicație poate utiliza transmițătorul infraroșu."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHARE_DATA_WITH_OTHER_DEVICES"
-msgstr "Această aplicaţie poate partaja date cu alte dispozitive."
+msgstr "Această aplicație poate partaja date cu alte dispozitive."
 
 msgid "IDS_TPLATFORM_HEADER_SHARING_DATA_WITH_OTHER_DEVICES"
 msgstr "Partajarea datelor cu alte dispozitive"
 
 msgid "IDS_TPLATFORM_HEADER_DETERMINING_APPROXIMATE_LOCATION"
-msgstr "Determinarea locaţiei aproximative"
+msgstr "Determinarea locației aproximative"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_DETERMINE_YOUR_APPROXIMATE_LOCATION_INCLUDING_YOUR_DEVICES_MSG"
-msgstr "Această aplicaţie poate determina locaţia dvs. aproximativă, inclusiv ID-ul de telefon mobil, LAC (prefixul locaţiei) şi TAC (prefixul de urmărire) ale dispozitivului."
+msgstr "Această aplicație poate determina locația dvs. aproximativă, inclusiv ID-ul de telefon mobil, LAC (prefixul locației) și TAC (prefixul de urmărire) ale dispozitivului."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ENABLE_AND_DISABLE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
-msgstr "Această aplicaţie poate activa şi dezactiva funcţiile VPN (reţea virtuală privată)."
+msgstr "Această aplicație poate activa și dezactiva funcțiile VPN (rețea virtuală privată)."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_THE_VPN_HVIRTUAL_PRIVATE_NETWORK_AND_CHANGE_ITS_SETTINGS"
-msgstr "Această aplicaţie poate să configureze reţelele virtuale private (VPN) şi să le schimbe setările."
+msgstr "Această aplicație poate să configureze rețelele virtuale private (VPN) și să le schimbe setările."
 
 msgid "IDS_TPLATFORM_HEADER_ENABLING_DISABLING_VPN_HVIRTUAL_PRIVATE_NETWORK_FUNCTIONS"
-msgstr "Activarea/dezactivarea funcţiilor pentru VPN (reţea virtuală privată)"
+msgstr "Activarea/dezactivarea funcțiilor pentru VPN (rețea virtuală privată)"
 
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
-msgstr "Gestionarea VPN (reţea virtuală privată)"
+msgstr "Gestionarea VPN (rețea virtuală privată)"
+
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Scanarea antivirus"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Această aplicație poate solicita scanarea fișierelor din orice altă aplicație sau de pe dispozitiv pentru a detecta conținutul dăunător."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Această aplicație poate să verifice reputația unei adrese web și să determine dacă prin accesarea acesteia dispozitivul dvs. este sau nu supus riscului."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Gestionarea programelor antivirus și a programelor malware detectate"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Verificarea reputației adresei web"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Această aplicație poate activa sau dezactiva programele antivirus și poate gestiona programele malware detectate."
 

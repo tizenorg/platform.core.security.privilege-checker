@@ -835,3 +835,21 @@ msgstr "VPN (ვირტუალური პერსონალური �
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN-ის (ვირტუალური პერსონალური ქსელის) მართვა"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "ვირუსებზე შემოწმება"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "ამ აპლიკაციას შეუძლია, მოითხოვოს ფაილების შემოწმება სხვა აპლიკაციები ან მოწყობილობაში, რომ ამოიცნოს საზიანო მასალა."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "ამ აპლიკაციას შეუძლია ვებ-მისამართის რეპუტაციის შემოწმება და იმის განსაზღვრა, მასზე წვდომა სარისკოა თუა არა მოწყობილობისთვის."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "ანტივირუსული პროგრამების მართვა და საზიანო კოდის ამოცნობა"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "მოწმდება ვებ-მისამართის რეპუტაცია"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "ამ აპლიკაციას შეუძლია ანტივირუსული პროგრამების ჩართვა-გამორთვა და აღმოჩენილ საზიანო კოდთან გამკლავება."
+

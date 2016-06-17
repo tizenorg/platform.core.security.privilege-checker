@@ -835,3 +835,21 @@ msgstr "VPN funksiyalarının (virtual şəxsi şəbəkə) aktiv/qeyri-aktiv edi
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN (virtual şəxsi şəbəkə) idarə edilir"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Virusları axtarmaq"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Bu proqram başqa proqramlarda və cihazda təhlükəli məzmunu aşkar etmək üçün fayllar axtarmaq istəyə bilər."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Bu proqram vebünvanın nüfuzunu yoxlaya və ona çıxışın cihazınız üçün risk olub-olmamasını müəyyən edə bilər."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Antivirus proqramlarının və aşkar edilən ziyanlı proqramların idarə edilməsi"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Vebünvanın nüfuzu yoxlanır"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Bu proqram antivirus proqramlarını aktiv edə və ya qeyri-aktiv edə və aşkarlanan ziyanlı proqramları idarə edə bilər."
+

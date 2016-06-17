@@ -835,3 +835,21 @@ msgstr "A VPN (virtuális magánhálózat) funkcióinak be- és kikapcsolása"
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN (virtuális magánhálózat) kezelése"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Víruskeresés"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Az alkalmazás a káros tartalmak észlelése érdekében kérelmezheti a bármely más alkalmazásban vagy az eszközön tárolt fájlok ellenőrzését."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Az alkalmazás ellenőrizheti a webcímek hírnevét, és meghatározhatja, hogy a webcím megnyitása veszélyt jelent-e az eszközre."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "A vírusirtó programok és az észlelt kártevők kezelése"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "A webcím hírnevének ellenőrzése"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Az alkalmazás be- és kikapcsolhatja a vírusirtó programokat, valamint kezelheti az észlelt kártevőket."
+

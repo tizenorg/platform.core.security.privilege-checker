@@ -835,3 +835,21 @@ msgstr "Функції увімкнення/вимкнення VPN (віртуа
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "Керування VPN (віртуальною приватною мережею)"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "Пошук вірусів"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "Ця програма дає можливість надсилати запити на сканування файлів у будь-якій іншій програмі або на пристрої для виявлення шкідливого вмісту."
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "Ця програма дає можливість перевіряти репутацію веб-адреси та визначати, чи існує небезпека для пристрою при переході на цю адресу."
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "Керування антивірусами та знайденими шкідливими програмами"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Перевірка репутації веб-адреси"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "Ця програма дає можливість вмикати або вимикати антивіруси і протидіяти знайденим шкідливим програмам."
+

@@ -835,3 +835,21 @@ msgstr "VPN(仮想プライベートネットワーク)機能の有効化/無効
 msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN(仮想プライベートネットワーク)の管理"
 
+msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
+msgstr "ウィルスのスキャン"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
+msgstr "このアプリケーションは、有害コンテンツを検出するために、他のアプリケーションのファイルまたは端末上のファイルのスキャンを要求することができます。"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
+msgstr "このアプリケーションは、Webアドレスの評判を確認して、そのWebアドレスにアクセスすると端末が危険にさらされる可能性があるかどうかを判断することができます。"
+
+msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
+msgstr "アンチウイルスプログラムと検出したマルウェアの管理"
+
+msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
+msgstr "Webアドレスの評判を確認"
+
+msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
+msgstr "このアプリケーションは、アンチウイルスプログラムを有効/無効にしたり、検出したマルウェアを管理することができます。"
+
