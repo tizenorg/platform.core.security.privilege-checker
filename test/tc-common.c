@@ -66,13 +66,13 @@ char* __get_result_string(char type, int ret)
 		else if (ret == PRIVILEGE_DB_MANAGER_ERR_INVALID_TYPE)
 			return "PRIVILEGE_DB_MANAGER_ERR_INVALID_TYPE";
 		else if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_BUSY_FAIL)
-            return "PRIVILEGE_DB_MANAGER_ERR_DB_BUSY_FAIL";
+			return "PRIVILEGE_DB_MANAGER_ERR_DB_BUSY_FAIL";
 		else if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL)
-            return "PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL";
+			return "PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL";
 		else if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL)
-            return "PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL";
+			return "PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL";
 		else if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL)
-            return "PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL";
+			return "PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL";
 		break;
 	default:
 		break;
@@ -140,7 +140,7 @@ void __tcinfo(tcinfo_type_e type, ...)
 			visibility = PRVMGR_PACKAGE_VISIBILITY_PUBLIC;
 		else if (strncmp(visibility_string, "partner", strlen(visibility_string)) == 0)
 			visibility = PRVMGR_PACKAGE_VISIBILITY_PARTNER;
-		else if(strncmp(visibility_string, "platform", strlen(visibility_string)) == 0)
+		else if (strncmp(visibility_string, "platform", strlen(visibility_string)) == 0)
 			visibility = PRVMGR_PACKAGE_VISIBILITY_PLATFORM;
 		else
 			printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WRONG CERT LEVEL!!!!!!!!!!!!!!!!!!!!!");
@@ -151,9 +151,9 @@ void __tcinfo(tcinfo_type_e type, ...)
 		__color_to_bold_yellow();
 		api_version = va_arg(ap, char*);
 		char* pkg_type_string = va_arg(ap, char*);
-		if(strncmp("core", pkg_type_string, strlen("core")) == 0 )
+		if (strncmp("core", pkg_type_string, strlen("core")) == 0)
 			pkg_type = PRVMGR_PACKAGE_TYPE_CORE;
-		else if(strncmp("wrt", pkg_type_string, strlen("wrt")) == 0)
+		else if (strncmp("wrt", pkg_type_string, strlen("wrt")) == 0)
 			pkg_type = PRVMGR_PACKAGE_TYPE_WRT;
 		else
 			printf("!!!!!!!!!!!!!!!!!!!!!!WRONG PACKAGE TYPE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
