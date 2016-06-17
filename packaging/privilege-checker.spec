@@ -8,7 +8,8 @@ Source0: %{name}-%{version}.tar.gz
 BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(sqlite3)
-BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(glib-2.0)
+Requires:      security-manager
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
@@ -102,7 +103,11 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
 
-%post -n security-privilege-manager -p /sbin/ldconfig
+%post -n security-privilege-manager
+/sbin/ldconfig
+echo "Update valid privilege info table"
+%{_datadir}/privilege-manager/update_valid_info_table.sh
+rm %{_datadir}/privilege-manager/update_valid_info_table.sh
 %postun -n security-privilege-manager -p /sbin/ldconfig
 
 %files -n privilege-checker
@@ -120,6 +125,7 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 %{_datadir}/privilege-manager/.wrt_privilege_mapping.db
 %config(noreplace) %{_datadir}/privilege-manager/.policy.db
 %config(noreplace) %{_datadir}/privilege-manager/.policy.db-journal
+%attr(755,root,root) %{_datadir}/privilege-manager/update_valid_info_table.sh
 %manifest packaging/security-privilege-manager.manifest
 
 %files -n security-privilege-manager-devel

@@ -538,10 +538,33 @@ int privilege_info_is_privacy(const char* privilege)
 {
 	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
-	int ret = __privilege_db_manager_is_privacy(privilege);
+	int ret = privilege_db_manager_is('p', privilege);
+	LOGD("%s is privacy? %d", privilege, ret);
 	if (ret != 0 && ret != 1)
 		ret = -1;
 	return ret;
+}
+
+int privilege_info_is_valid(const char* privilege)
+{
+	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+
+	int ret = privilege_db_manager_is('v', privilege);
+	LOGD("%s is valid? %d", privilege, ret);
+	if (ret != 0 && ret != 1)
+		ret = -1;
+	return ret;
+}
+
+int privilege_info_is_internal(const char* privilege)
+{
+	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
+
+    int ret = privilege_db_manager_is('i', privilege);
+	LOGD("%s is internal? %d", privilege, ret);
+    if (ret != 0 && ret != 1)
+        ret = -1;
+    return ret;
 }
 
 int privilege_info_get_privacy_list(GList **privacy_list)
@@ -577,3 +600,11 @@ int privilege_info_get_black_list(int uid, privilege_manager_package_type_e pack
 		ret = PRVMGR_ERR_INTERNAL_ERROR;
 	return ret;
 }
+/*
+int privilege_info_is_valid(const char* privilege)
+{
+}
+
+int privilege_info_is_internal(const char* privilege)
+{
+}*/
