@@ -111,6 +111,20 @@ EXPORT_API int privilege_info_get_privilege_display_name(const char *privilege, 
 EXPORT_API int privilege_info_get_privilege_description(const char *privilege, char **description);
 
 /**
+ * @brief Determines whether the given privilege is valid.
+ * @param [in]  privilege The privilege
+ * @return 1 if true(=is valid privilege. the privilege can be granted by security-manager and checked by cynara), 0 if false, and -1 on error
+ */
+EXPORT_API int privilege_info_is_valid(const char *privilege);
+
+/**
+ * @brief Determines whether the given privilege is internal privilege.
+ * @param [in]  privilege The privilege
+ * @return 1 if true(=is internal privilege), 0 if false, and -1 on error
+ */
+EXPORT_API int privilege_info_is_internal(const char *privilege);
+
+/**
  * @brief Determines whether the given privilege is privacy related or not.
  * @param [in]  privilege The privilege
  * @return 1 if true(=is privacy related privilege), 0 if false, and -1 on error
