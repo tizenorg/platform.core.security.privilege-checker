@@ -72,7 +72,7 @@ int privilege_db_manager_get_privilege_description(privilege_db_manager_package_
 
 int privilege_db_manager_get_privilege_group_display(privilege_db_manager_package_type_e package_type, const char* privilege_name, const char* api_version, int* privilege_group_number);
 
-int privilege_db_manager_is(char type, const char* privilege);
+int __privilege_db_manager_is_privacy(const char* privilege);
 int __privilege_db_manager_get_privacy_list(GList** privacy_list);
 int __privilege_db_manager_get_privilege_list_by_privacy(const char* privacy, GList **privilege_list);
 

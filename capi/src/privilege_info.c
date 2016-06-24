@@ -143,7 +143,7 @@ int privilege_info_privilege_list_callback(const char *privilege_name, void *use
 
 	/* TBD: check if the privilege exist and whether the privilege is internal or not */
 	if (strstr(privilege_name, "internal") != NULL || strstr(privilege_name, "notexist") != NULL)
-		return PRVMGR_ERR_NONE;
+        return PRVMGR_ERR_NONE;
 	if (data.privilege_group == EXTRA_GROUP) {
 		LOGD("data.privilege_group = %d", data.privilege_group);
 		res = data.callback(privilege_name, data.user_data);
@@ -538,30 +538,7 @@ int privilege_info_is_privacy(const char* privilege)
 {
 	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
 
-	int ret = privilege_db_manager_is('p', privilege);
-	LOGD("%s is privacy? %d", privilege, ret);
-	if (ret != 0 && ret != 1)
-		ret = -1;
-	return ret;
-}
-
-int privilege_info_is_valid(const char* privilege)
-{
-	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
-
-	int ret = privilege_db_manager_is('v', privilege);
-	LOGD("%s is valid? %d", privilege, ret);
-	if (ret != 0 && ret != 1)
-		ret = -1;
-	return ret;
-}
-
-int privilege_info_is_internal(const char* privilege)
-{
-	TryReturn(privilege != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privilege is NULL");
-
-	int ret = privilege_db_manager_is('i', privilege);
-	LOGD("%s is internal? %d", privilege, ret);
+	int ret = __privilege_db_manager_is_privacy(privilege);
 	if (ret != 0 && ret != 1)
 		ret = -1;
 	return ret;
@@ -600,11 +577,3 @@ int privilege_info_get_black_list(int uid, privilege_manager_package_type_e pack
 		ret = PRVMGR_ERR_INTERNAL_ERROR;
 	return ret;
 }
-/*
-int privilege_info_is_valid(const char* privilege)
-{
-}
-
-int privilege_info_is_internal(const char* privilege)
-{
-}*/
