@@ -11,7 +11,7 @@ BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(glib-2.0)
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
-
+Requires : security-manager
 %description
 Pakcage for Privilege Management
 
@@ -107,6 +107,7 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 echo "Update valid privilege info table"
 %{_datadir}/privilege-manager/update_valid_info_table.sh
 rm %{_datadir}/privilege-manager/update_valid_info_table.sh
+rm %{_datadir}/privilege-manager/.core_privilege_info.db-journal
 %postun -n security-privilege-manager -p /sbin/ldconfig
 
 %files -n privilege-checker
