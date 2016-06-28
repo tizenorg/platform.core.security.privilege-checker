@@ -52,7 +52,6 @@ do
 	echo "Inserting $PRIVILEGE_NAME $MAPPED_PRIVILEGE_NAME..."
 
 	sqlite3 $DB_NAME "insert into privilege_mapping values ( $PROFILE_ID, '$PROFILE', '$PRIVILEGE_NAME','$FROM_API_VERSION', '$TO_API_VERSION', '$MAPPED_PRIVILEGE_NAME')"
+	sqlite3 .core_privilege_info.db "insert or ignore into valid_privilege_info values ('$MAPPED_PRIVILEGE_NAME', 0, 1)"
 done
 
-echo "Check inserted data"
-#sqlite3 $DB_NAME "select * from privilege_mapping"

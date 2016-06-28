@@ -106,6 +106,90 @@ static void __check_get_privilege_group_display_name_result(privilege_manager_er
 	}
 	__color_to_origin();
 }
+static void __test_privilege_info_is_valid()
+{
+	int ret;
+	printf("privilege : http://tizen.org/privilege/account.read\n");
+	ret = privilege_info_is_valid("http://tizen.org/privilege/account.read");
+	if (ret == 1) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/account.read is valid\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret =  %d\n", ret);
+	}
+	__print_line();
+
+	printf("privilege : http://tizen.org/privilege/internal/default/public\n");
+	ret = privilege_info_is_valid("http://tizen.org/privilege/internal/default/public");
+	if (ret == 1) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internal/default/public is valid\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret =  %d\n", ret);
+	}
+	__print_line();
+
+	printf("privilege : http://tizen.org/privilege/internettttttt\n");
+	ret = privilege_info_is_valid("http://tizen.org/privilege/internettttttt");
+	if (ret == 0) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internettttttt is invalid\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret = %d\n", ret);
+	}
+	__print_line();
+
+}
+
+static void __test_privilege_info_is_internal()
+{
+	int ret;
+	printf("privilege : http://tizen.org/privilege/internal/default/public\n");
+	ret = privilege_info_is_internal("http://tizen.org/privilege/internal/default/public");
+	if (ret == 1) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internal/default/public is internal\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret =  %d\n", ret);
+	}
+	__print_line();
+
+	printf("privilege : http://tizen.org/privilege/internal/dbus\n");
+	ret = privilege_info_is_internal("http://tizen.org/privilege/internal/dbus");
+	if (ret == 1) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internal/dbus is internal\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret = %d\n", ret);
+	}
+	__print_line();
+
+	printf("privilege : http://tizen.org/privilege/internet\n");
+	ret = privilege_info_is_internal("http://tizen.org/privilege/internet");
+	if (ret == 0) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internet is NOT internal\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret = %d\n", ret);
+	}
+	__print_line();
+	printf("privilege : http://tizen.org/privilege/internettttt\n");
+	ret = privilege_info_is_internal("http://tizen.org/privilege/internettttt");
+	if (ret == 0) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internettttt is NOT internal\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret = %d\n", ret);
+	}
+	__print_line();
+}
 static void __test_privilege_info_is_privacy()
 {
 	int ret;
@@ -132,14 +216,14 @@ static void __test_privilege_info_is_privacy()
 	__print_line();
 
 	printf("privilege : http://tizen.org/privilege/internettttt\n");
-    ret = privilege_info_is_privacy("http://tizen.org/privilege/internettttt");
-    if (ret == 0) {
-        success_cnt++;
-        printf("SUCCESS: http://tizen.org/privilege/internettttt is NOT PRIVACY\n");
-    } else {
-        fail_cnt++;
-        printf("Test FAILED. ret = %d\n", ret);
-    }
+	ret = privilege_info_is_privacy("http://tizen.org/privilege/internettttt");
+	if (ret == 0) {
+		success_cnt++;
+		printf("SUCCESS: http://tizen.org/privilege/internettttt is NOT PRIVACY\n");
+	} else {
+		fail_cnt++;
+		printf("Test FAILED. ret = %d\n", ret);
+	}
 	__print_line();
 }
 
@@ -303,6 +387,12 @@ int main()
 {
 	__tcinfo(function, "privilege_info_is_privacy");
 	__test_privilege_info_is_privacy();
+
+	__tcinfo(function, "privilege_info_is_internal");
+	__test_privilege_info_is_internal();
+
+	__tcinfo(function, "privilege_info_is_valid");
+	__test_privilege_info_is_valid();
 
 	__tcinfo(function, "privilege_info_get_privilege_display_name");
 	__test_privilege_info_get_privilege_display_name();
