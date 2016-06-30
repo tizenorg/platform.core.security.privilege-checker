@@ -35,8 +35,8 @@ do
 		PROFILE_ID=2
 
 	elif [ "$PROFILE" = "tv" ]
-    then
-        PROFILE_ID=3
+	then
+		PROFILE_ID=3
 	else
 		echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
 		exit
@@ -50,5 +50,10 @@ do
 	echo "Inserting $PRIVILEGE_NAME $MAPPED_PRIVILEGE_NAME..."
 
 	sqlite3 $DB_NAME "insert into privilege_mapping values ( $PROFILE_ID, '$PROFILE', '$PRIVILEGE_NAME','$FROM_API_VERSION', '$TO_API_VERSION', '$MAPPED_PRIVILEGE_NAME')"
+	if [[ $MAPPED_PRIVILEGE_NAME == *"/internal/"* ]]; then
+		sqlite3 .core_privilege_info.db "insert or ignore into valid_privilege_info values ('$MAPPED_PRIVILEGE_NAME', 0, 1)"
+	else
+		sqlite3 .core_privilege_info.db "insert or ignore into valid_privilege_info values ('$MAPPED_PRIVILEGE_NAME', 0, 0)"
+	fi
 done
 

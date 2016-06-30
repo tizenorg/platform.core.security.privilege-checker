@@ -23,25 +23,25 @@ do
 	#echo PROFILE = $PROFILE
 
 	if [ "$PROFILE" = "common" ]
-    then
-        PROFILE_ID=0
-    elif [ ! "$PROFILE" = "$target_profile" ]
-    then
-        continue
-    elif [ "$PROFILE" = "mobile" ]
-    then
-        PROFILE_ID=1
+	then
+		PROFILE_ID=0
+	elif [ ! "$PROFILE" = "$target_profile" ]
+	then
+		continue
+	elif [ "$PROFILE" = "mobile" ]
+	then
+		PROFILE_ID=1
 
-    elif [ "$PROFILE" = "wearable" ]
-    then
-        PROFILE_ID=2
-    elif [ "$PROFILE" = "tv" ]
-    then
-        PROFILE_ID=3
-    else
-        echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
-        exit
-    fi
+	elif [ "$PROFILE" = "wearable" ]
+	then
+		PROFILE_ID=2
+	elif [ "$PROFILE" = "tv" ]
+	then
+		PROFILE_ID=3
+	else
+		echo "Fail to create table : PROFILE must be common, mobile, wearable or tv"
+		exit
+	fi
 
 	PACKAGE_TYPE=`echo $i | cut -d "," -f 2`
 
@@ -124,11 +124,11 @@ do
 		echo "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
 		echo "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 		echo "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
-		echo "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB" 
+		echo "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
 		exit
 	fi
 
-    CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 12`
+	CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 12`
 	CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 13`
 
 	echo "Inserting $PRIVILEGE_NAME ..."

@@ -144,12 +144,12 @@ do
 		echo "IDS_TPLATFORM_BODY_PAID_SERVICES_ABB"
 		echo "IDS_TPLATFORM_BODY_PERSONAL_INFORMATION_ABB"
 		echo "IDS_TPLATFORM_BODY_SYSTEM_SETTINGS_ABB"
-		echo "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB" 
+		echo "IDS_TPLATFORM_BODY_OTHER_PRIVILEGES_ABB"
 		exit
 	fi
 
-    CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 14`
-    CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 15`
+	CHANGED_TO_2_3_1=`echo $i | cut -d "," -f 14`
+	CHANGED_TO_2_4_0=`echo $i | cut -d "," -f 15`
 
 	echo "Inserting $PRIVILEGE_NAME ..."
 
