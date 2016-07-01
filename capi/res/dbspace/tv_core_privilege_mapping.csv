@@ -102,6 +102,8 @@ tv,http://tizen.org/privilege/secureelement,2.4,9.9,http://tizen.org/privilege/s
 tv,http://tizen.org/privilege/shortcut,2.4,9.9,http://tizen.org/privilege/shortcut
 tv,http://tizen.org/privilege/systemmonitor,2.4,9.9,http://tizen.org/privilege/systemmonitor
 tv,http://tizen.org/privilege/systemsettings.admin,2.4,9.9,http://tizen.org/privilege/systemsettings.admin
+tv,http://tizen.org/privilege/systemsettings.admin,2.4,9.9,http://tizen.org/privilege/internal/privacymanagement
+tv,http://tizen.org/privilege/systemsettings.admin,2.4,9.9,http://tizen.org/privilege/internal/usermanagement
 tv,http://tizen.org/privilege/telephony,2.4,9.9,http://tizen.org/privilege/telephony
 tv,http://tizen.org/privilege/telephony.admin,2.4,9.9,http://tizen.org/privilege/telephony.admin
 tv,http://tizen.org/privilege/telephony.admin,2.4,9.9,http://tizen.org/privilege/internal/buxton/telephony

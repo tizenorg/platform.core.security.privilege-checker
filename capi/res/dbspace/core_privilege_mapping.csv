@@ -172,7 +172,11 @@ mobile,http://tizen.org/privilege/shortcut,2.3,9.9,http://tizen.org/privilege/sh
 mobile,http://tizen.org/privilege/systemmonitor,2.4,9.9,http://tizen.org/privilege/systemmonitor
 wearable,http://tizen.org/privilege/systemmonitor,3,9.9,http://tizen.org/privilege/systemmonitor
 mobile,http://tizen.org/privilege/systemsettings.admin,2.3,9.9,http://tizen.org/privilege/systemsettings.admin
+mobile,http://tizen.org/privilege/systemsettings.admin,2.3,9.9,http://tizen.org/privilege/internal/privacymanagement
+mobile,http://tizen.org/privilege/systemsettings.admin,2.3,9.9,http://tizen.org/privilege/internal/usermanagement
 wearable,http://tizen.org/privilege/systemsettings.admin,2.3.1,9.9,http://tizen.org/privilege/systemsettings.admin
+wearable,http://tizen.org/privilege/systemsettings.admin,2.3.1,9.9,http://tizen.org/privilege/internal/privacymanagement
+wearable,http://tizen.org/privilege/systemsettings.admin,2.3.1,9.9,http://tizen.org/privilege/internal/usermanagement
 mobile,http://tizen.org/privilege/telephony,2.3,9.9,http://tizen.org/privilege/telephony
 wearable,http://tizen.org/privilege/telephony,2.3.1,9.9,http://tizen.org/privilege/telephony
 mobile,http://tizen.org/privilege/telephony.admin,2.3,9.9,http://tizen.org/privilege/telephony.admin
