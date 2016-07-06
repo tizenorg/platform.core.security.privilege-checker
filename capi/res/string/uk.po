@@ -184,6 +184,9 @@ msgstr "Інші повноваження"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Керування установками веб-програм"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камера"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Обмін повідомленнями"
 
@@ -592,6 +595,12 @@ msgstr "Здійснення телефонних викликів"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ця програма дає змогу користувачам отримувати доступ до даних смарт-карт, зокрема даних кредитних карт, а також здійснювати платежі за допомогою NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Виклики"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Повідомлення"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ця програма дає змогу записувати, надсилати, видаляти та переміщати SMS- і MMS-повідомлення, а також змінювати налаштування та стани повідомлень на прочитані на непрочитані."
 
@@ -739,6 +748,9 @@ msgstr "Показ віджетів"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Дозволяє програмі відображати на головному екрані віджети та інформацію від пов’язаних з ними програм."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Облікові записи"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Використання сервісів з картами"
 
@@ -805,6 +817,9 @@ msgstr "Ця програма може зчитувати дії, що вклю�
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Зйомка особливих ключових подій"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Закладка"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Використання інфрачервоного передавача"
 
@@ -852,4 +867,106 @@ msgstr "Перевірка репутації веб-адреси"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Ця програма дає можливість вмикати або вимикати антивіруси і протидіяти знайденим шкідливим програмам."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Обмеження з’єднань через Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Запобігання використанню веб-браузера"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Обмеження використання камери"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Обмеження доступу до буфера обміну"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Обмеження налагодження"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Обмеження доступу до електронних листів за протоколами POP та IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Обмеження функцій визначення розташування"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Блокування пристрою"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Обмеження обміну SMS, MMS та повідомленнями чата"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Обмеження використання мікрофона"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Керування політикою паролів"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Керування політиками безпеки"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Блокування доступу до зовнішньої пам’яті"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Обмеження підключень через USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Обмеження доступу до Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Стирання даних та скидання параметрів пристрою"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Керування контейнерами"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Ця програма може забороняти підключення через Bluetooth. Це може призвести до неналежної роботи програм, які використовують Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Ця програма може забороняти використання браузерів. Це може призвести до неналежної роботи програм, які використовують браузер."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Ця програма може забороняти використання камери. Це може призвести до неналежної роботи програм, які використовують камеру."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Ця програма може забороняти використання буфера обміну. Це може призвести до неналежної роботи програм, які використовують буфер обміну."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Ця програма може забороняти використання режиму налагодження. Це може призвести до неналежної роботи програм, які використовують цей режим."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Ця програма може забороняти доступ до електронної пошти за протоколами POP та IMAP. Це може призвести до неналежної роботи програм, які використовують служби електронної пошти."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Ця програма може забороняти використання функції розташування. Це може призвести до неналежної роботи програм, які використовують ці функції."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ця програма може блокувати пристрій."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Ця програма може забороняти використаня служб обміну текстовими та мультимедійними повідомленнями, а також чатів. Це може призвести до неналежної роботи програм, які використовують ці служби."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Ця програма можн забороняти використання мікрофона. Це може призвести до неналежної роботи програм, які використовують мікрофон."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Ця програма дозволяє керувати політиками паролів, а також скидати паролі, які використовуються для розблокування телефону та відновлення даних."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ця програма може змінювати налаштування безпеки, зокрема встановлення сертифікатів, шифрування даних і скидання до заводських значень."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Ця програма може забороняти використання зовнішніх носіїв, наприклад SD-карт та USB-накопичувачів. Це може призвести до неналежної роботи програм, які використовують зовнішні носії."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Ця програма може забороняти підключення через USB, у тому числі використання USB-модему. Це може призвести до неналежної роботи програм, які використовують підключення через USB."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Ця програма може забороняти використання мережі Wi-Fi та мобільних точок доступу. Якщо телефон не підключається до мережі Wi-Fi, можна підключитися до мобільної мережі. Це може призвести до додаткових витрат (залежно від вашого тарифного плану)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ця програма може видаляти всі дані з пристрою та скидати його налаштування до заводських."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ця програма може створювати і видаляти контейнери. Контейнер – це приватний робочій простір, який забезпечує середовище виконання програм і область збереження даних."
 

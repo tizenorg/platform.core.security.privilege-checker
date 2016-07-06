@@ -184,6 +184,9 @@ msgstr "기타 권한"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "웹 앱 설정 관리"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "카메라"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "메시지"
 
@@ -592,6 +595,12 @@ msgstr "전화걸기"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "이 앱은 신용카드 상세정보와 같은 스마트 카드 상세정보에 접근할 수 있고, 사용자가 NFC로 결제할 수 있도록 허용할 수 있습니다."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "통화"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "메시지"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "이 앱은 문자 및 멀티미디어 메시지를 쓰고, 보내고, 삭제하고, 이동할 수 있고, 읽음/읽지 않음과 같은 메시지 상태 설정을 변경할 수 있습니다."
 
@@ -739,6 +748,9 @@ msgstr "위젯 표시"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "이 앱은 위젯, 관련 앱의 정보를 홈 화면에 표시할 수 있습니다."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "계정"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "지도 서비스 사용"
 
@@ -805,6 +817,9 @@ msgstr "이 앱은 백그라운드에서 실행 중인 경우에도, 이 디바�
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "특정 버튼 입력 인식하기"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "북마크"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "적외선 송신기 사용하기"
 
@@ -852,4 +867,106 @@ msgstr "웹 주소 신뢰성 확인하기"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "이 앱에서 바이러스 백신 프로그램 및 악성 소프트웨어 차단 기능을 실행하거나 해제할 수 있습니다."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "블루투스 연결 제한"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "웹 브라우저 사용 제한하기"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "카메라 사용 제한"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "클립보드 접근 제한"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "디버깅 제한"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP 및 IMAP 이메일 접근 제한하기"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "위치 기능 제한"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "디바이스 잠금"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS, 대화 메시지 제한하기"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "마이크 사용 제한"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "비밀번호 정책 관리하기"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "보안정책 관리하기"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "외장 저장공간 접근 제한"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB 연결 제한"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi 접근 제한"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "데이터 삭제 및 디바이스 초기화"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "컨테이너 관리하기"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "이 앱은 블루투스 연결을 제한할 수 있습니다. 블루투스를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "이 앱은 브라우저 앱 사용을 제한할 수 있습니다. 브라우저 앱을 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "이 앱은 카메라 사용을 제한할 수 있습니다. 카메라를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "이 앱은 클립보드 사용을 제한할 수 있습니다. 클립보드를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "이 앱은 디버깅 사용을 제한할 수 있습니다. 디버깅을 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "이 앱은 POP 및 IMAP 이메일 접근을 제한할 수 있습니다. 이메일 서비스를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "이 앱은 위치 기능 사용을 제한할 수 있습니다. 위치 기능을 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "이 앱은 디바이스를 잠글 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "이 앱은 문자, 멀티미디어, 대화 메시지 서비스 사용을 제한할 수 있습니다. 메시지 서비스를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "이 앱은 마이크 사용을 제한할 수 있습니다. 마이크를 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "이 앱은 휴대전화 잠금 해제 및 데이터 복원에 사용되는 비밀번호를 초기화하고 관련 정책을 관리할 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "이 앱은 인증서 설치, 데이터 암호화, 디바이스 전체 초기화와 같은 보안 설정을 변경할 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "이 앱은 SD 카드 및 USB와 같은 외장 저장공간 사용을 제한할 수 있습니다. 외장 저장공간을 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "이 앱은 USB 테더링과 같은 USB 연결을 제한할 수 있습니다. USB 연결을 사용하는 앱이 제대로 작동하지 않을 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "이 앱은 Wi-Fi 네트워크 및 모바일 핫스팟 사용을 제한할 수 있습니다. 휴대전화에서 Wi-Fi 네트워크에 연결할 수 없으면 모바일 네트워크에 연결될 수도 있습니다. 모바일 네트워크에 연결되면 요금제에 따라 추가요금이 부과될 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "이 앱은 디바이스의 모든 데이터를 삭제하고 디바이스를 초기화할 수 있습니다."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "이 앱은 컨텐이너를 추가하거나 삭제할 수 있습니다. 컨테이너는 분리된 앱 런타임 환경 및 데이터 저장공간이 제공되는 개인 업무공간입니다."
 

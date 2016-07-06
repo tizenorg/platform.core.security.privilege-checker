@@ -293,6 +293,36 @@ int privilege_db_manager_get_mapped_privilege_list(const char *api_version, priv
 	return PRIVILEGE_DB_MANAGER_ERR_NONE;
 }
 
+int privilege_db_manager_get_privacy_display(const char *privacy, char **privacy_display)
+{
+	sqlite3 *db = NULL;
+	sqlite3_stmt *stmt = NULL;
+	int ret = __initialize_db('i', &db, PRIVILEGE_DB_MANAGER_PACKAGE_TYPE_CORE);
+	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE)
+		return ret;
+	char *sql = sqlite3_mprintf("select privacy_display from privacy_info where privacy_group=%Q", privacy);
+	TryReturn(sql != NULL, __finalize_db(db, stmt, sql), PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY, "[DB_FAIL] sqlite3_mprintf failed");
+	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
+	if (ret != SQLITE_OK) {
+		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
+        __finalize_db(db, stmt, sql);
+        return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+    }
+
+	ret = sqlite3_step(stmt);
+	if (ret == SQLITE_ROW) {
+		LOGD("privacy display = %s", (char*) sqlite3_column_text(stmt, 0));
+		*privacy_display = strdup((char*)sqlite3_column_text(stmt, 0));
+		TryReturn(*privacy_display != NULL, __finalize_db(db, stmt, sql), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
+        __finalize_db(db, stmt, sql);
+        return PRIVILEGE_DB_MANAGER_ERR_NONE;
+    }
+
+	__finalize_db(db, stmt, sql);
+
+	return PRIVILEGE_DB_NO_EXIST_RESULT;
+}
+
 int privilege_db_manager_get_privilege_display(privilege_db_manager_package_type_e package_type, const char *privilege_name, const char *api_version, char **privilege_display)
 {
 	sqlite3 *db = NULL;

@@ -184,6 +184,9 @@ msgstr "Другие привилегии"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Управление параметрами веб-приложений"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камера"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Сообщения"
 
@@ -592,6 +595,12 @@ msgstr "Телефонные вызовы"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Это приложение может получать доступ к данным смарт-карт, например информации о кредитных картах, и позволять пользователям оплачивать покупки через NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Вызовы"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Сообщение"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Это приложение может записывать, отправлять, удалять и перемещать SMS и MMS, а также изменять параметры и статусы сообщений, например помечать их как прочитанные или непрочитанные."
 
@@ -739,6 +748,9 @@ msgstr "Показ виджетов"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Позволяет приложению отображать на главном экране виджеты и информацию от связанных с ними приложений."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Учетные записи"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Использование сервисов с картами"
 
@@ -805,6 +817,9 @@ msgstr "Данное приложение может считывать дейс
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Съемка особых ключевых событий"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Закладка"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Использование ИК-передатчика"
 
@@ -852,4 +867,106 @@ msgstr "Проверка репутации веб-адреса"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Это приложение может включать и отключать антивирусные программы и управлять обнаруженным вредоносным ПО."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Ограничение соединений через Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Предотвращение использования веб-браузера"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Ограничение использования камеры"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Ограничение доступа к буферу обмена"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Ограничение отладки"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Ограничение доступа к электронным письмам по протоколам POP и IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Ограничение функций определения местоположения"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Блокировка устройства"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Ограничение обмена SMS, MMS и сообщениями чата"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Ограничение использования микрофона"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Управление политикой паролей"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Управление политиками безопасности"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Запрет доступа к внешним накопителям"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Ограничение подключений через USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Ограничение доступа к Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Стирание данных и сброс параметров устройства"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Управление контейнерами"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Это приложение может запрещать создание Bluetooth-подключений. Это может привести к некорректной работе приложений, использующих Bluetooth-подключение."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Это приложение может запрещать использование браузеров. Это может привести к некорректной работе приложений, использующих браузеры."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Это приложение может запрещать использование камеры. Это может привести к некорректной работе приложений, использующих камеру."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Это приложение может запрещать использование буфера обмена. Это может привести к некорректной работе приложений, использующих буфер обмена."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Это приложение может запрещать использование отладки. Это может привести к некорректной работе приложений, использующих отладку."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Это приложение может запрещать доступ к электронной почте по протоколам POP и IMAP. Это может привести к некорректной работе приложений, использующих электронную почту."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Это приложение может запрещать использование функций определения местоположения. Это может привести к некорректной работе приложений, использующих функции определения местоположения."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Это приложение может блокировать устройство."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Это приложение может запрещать использование сервисов по обмену текстовыми сообщениями, мультимедийными сообщениями и сообщениями чата. Это может привести к некорректной работе приложений, использующих сервис по обмену сообщениями."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Это приложение может запрещать использование микрофона. Это может привести к некорректной работе приложений, использующих микрофон."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Это приложение позволяет управлять политиками паролей и сбрасывать пароли, используемые для разблокировки телефона и восстановления данных."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Это приложение может изменять настройки безопасности, например установку сертификатов, шифрование данных и сброс параметров."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Это приложение может запрещать использование внешних носителей, например SD-карт и USB-устройств для хранения данных. Это может привести к некорректной работе приложений, использующих внешние носители."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Это приложение может запрещать создание USB-подключений, в том числе использование функции USB-модема. Это может привести к некорректной работе приложений, использующих USB-подключение."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Это приложение может запрещать использование сетей Wi-Fi и мобильных точек доступа. Если телефон не имеет доступа к сети Wi-Fi, он может подключиться к мобильной сети. За это может взиматься дополнительная плата (в зависимости от вашего тарифного плана)."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Это приложение может удалять все данные с устройства и сбрасывать его на заводские настройки."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Это приложение может создавать и удалять контейнеры. Контейнер — это частная рабочая среда, обеспечивающая отдельную среду выполнения приложений и область хранения данных."
 

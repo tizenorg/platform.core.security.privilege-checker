@@ -184,6 +184,9 @@ msgstr "Boshqa imtiyozlar"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Veb-ilova parametrlarini boshqarish"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Xabarlar"
 
@@ -592,6 +595,12 @@ msgstr "Telefon qo‘ng‘iroqlarini amalga oshirish"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ushbu ilova kredit kartochka tafsilotlari kabi smart karta tafsilotlariga kirishi hamda foydalanuvchilarga NFC orqali to‘lovlarni amalga oshirishiga ruxsat berishi mumkin."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Qo‘ng‘iroq"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Xabar"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ushbu ilova matnli va multimedia xabarlarini yozishi, yuborishi, yo‘q qilishi va ko‘chirishi hamda xabarlarning o‘qilgan yoki o‘qilmagan kabi maqomlarini va parametrlarini o‘zgartirishi mumkin."
 
@@ -739,6 +748,9 @@ msgstr "Vidjetlarni ko‘rsatish"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Ushbu ilova asosiy ekranda vidjetlar va ularga bog‘langan ilovalardan olingan ma’lumotlarni ko‘rsatadi."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Hisob qaydnomalari"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Xarita xizmatlaridan foydalanish"
 
@@ -805,6 +817,9 @@ msgstr "Ushbu ilova bu yoki boshqa qurilmalarda (misol uchun, TV pultida) ovoz b
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Maxsus tugma hodisalarini rasmga olish"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Saqlangan veb-hujjat"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infra qizil uzatish moslamasidan foydalanish"
 
@@ -852,4 +867,106 @@ msgstr "Veb-manzil reputatsiyasi tekshirilmoqda"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Bu ilova antivirus dasturlarini yoqishi yoki o‘chirishi va aniqlangan zararli dasturlarni boshqarishi mumkin."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth ulanishlarini cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Veb-brauzer ishlatishiga yo‘l qo‘ymaslik"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kamera ishlatilishini cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Almashish buferiga kirishni cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Sozlashni cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP va IMAP e-pochta kirishini cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Joylashuv funksiyalaridan cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Qurilmani qulflash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS va chat xabarlarini cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofon ishlatilishini cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Parol siyosatlarini boshqarish"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Xavfsizlik siyosatlarini boshqarish"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Tashqi xotiraga kirishni cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB ulanishlaridan foydalanishni cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi’ga kirishni cheklash"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Ma’lumotlarni o‘chirish va qurilmani birlamchi holatiga tashlash"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Konteynerlarni boshqarish"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Bu ilova Bluetooth ulanishlarini cheklashi mumkin. Bu Bluetooth’dan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Bu ilova brauzer ilovalaridan foydalanishning oldini olishi mumkin. Bu brauzer ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Bu ilova kamera ishlatilishini cheklashi mumkin. Bu kameradan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Bu ilova almashish buferi ishlatilishini cheklashi mumkin. Bu almashish buferidan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Bu ilova sozlashdan foydalanishning oldini olishi mumkin. Bu sozlashdan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Bu ilova POP va IMAP e-pochtaga kirishni cheklashi mumkin. Bu e-pochta xizmatlaridan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Bu ilova joylashuv funksiyalaridan foydalanishni cheklashi mumkin. Bu joylashuv funksiyalaridan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ushbu ilova qurilmani bloklashi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Bu ilova matnli, multimedia va chat xabarlar xizmatlaridan foydalanishni cheklashi mumkin. Bu xabarlar xizmatlaridan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Bu ilova mikrofondan foydalanishni cheklashi mumkin. Bu mikrofondan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Bu ilova parol siyosatlarini boshqarishi va telefonni blokdan chiqarish uchun foydalaniladigan parollarni qayta o‘rnatish va ma’lumotlarni tiklashi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ushbu ilova sertifikatni o‘rnatish, ma’lumotni shifrlash va ishlab chiqaruvchi opsiyalariga tashlash kabi xavfsizlik parametrlarini boshqarishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Bu ilova SD-karta va USB saqlash qurilmalari kabi tashqi xotiradan foydalanishni ta’qiqlashi mumkin. Bu tashqi xotiradan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Bu ilova USB ulanishlarini, jumladan, USB bog‘lanishidan foydalanishga yo‘l qo‘ymasligi mumkin. Bu USB ulanishlardan foydalanuvchi ilovalarining to‘g‘ri ishlashiga yo‘l qo‘ymasligi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Bu ilova Wi-Fi tarmoq va mobil faol nuqtalar ishlatilishini cheklashi mumkin. Telefon Wi-Fi tarmoqqa ulanmasa, u mobil tarmoqqa ulanishi mumkin. Bu tarif rejasi asosidagi qo‘shimcha to‘lovlarga olib kelishi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Bu ilova qurilmadagi barcha ma’lumotlarni o‘chirib yuborishi va qurilmani ishlab chiqaruvchi birlamchi parametrlariga tashlashi mumkin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Bu ilova konteynerlarni yaratishi va olib tashlashi mumkin. Konteynerlar - bu alohida ilova ishlash vaqti muhiti va ma’lumotlar xotirasini taqdim etuvchi shaxsiy ish sohalari."
 

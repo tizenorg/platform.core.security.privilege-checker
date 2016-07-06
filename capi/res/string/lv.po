@@ -184,6 +184,9 @@ msgstr "Citas privilēģijas"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Tīmekļa programmu iestatījumu pārvaldība"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Ziņojumapmaiņa"
 
@@ -592,6 +595,12 @@ msgstr "Tālruņa zvanu veikšana"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Šī programma var piekļūt viedkartes datiem, piemēram, kredītkartes datiem, un ļaut lietotājiem veikt maksājumus, izmantojot NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Zvans"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Ziņa"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Šī programma var rakstīt, sūtīt, dzēst un pārvietot īsziņas un multiziņas, mainīt ziņu iestatījumus un statusu, piemēram, lasīta ziņa vai nelasīta ziņa."
 
@@ -739,6 +748,9 @@ msgstr "Logrīku rādīšana"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Šī programma var sākuma ekrānā rādīt logrīkus un informāciju no to saistītajām programmām."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Konti"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Kartes pakalpojumu lietošana"
 
@@ -805,6 +817,9 @@ msgstr "Šī programma var nolasīt darbības, kas saistītas ar speciālajiem t
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Tver noteiktas taustiņu darbības"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Grāmatzīme"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infrasarkanā raidītāja lietošana"
 
@@ -852,4 +867,106 @@ msgstr "Tīmekļa adreses reputācijas pārbaude"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Šī programma var aktivizēt vai deaktivizēt pretvīrusu programmas un pārvaldīt noteikto ļaunprogrammatūru."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth savienojumu ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Tīmekļa pārlūkprogrammas lietošanas aizliegšana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kameras lietošanas ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Starpliktuves lietošanas ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Atkļūdošanas ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP un IMAP e-pasta piekļuves aizliegšana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Atrašanās vietas funkciju ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Ierīces bloķēšana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS un tērzēšanas ziņapmaiņas aizliegšana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofona lietošanas ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Paroļu politiku pārvaldība"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Drošības politiku pārvaldība"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Liedz piekļuvi ārējai krātuvei"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB savienojumu ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi lietošanas ierobežošana"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Datu dzēšana un ierīces atiestatīšana"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Konteineru pārvaldība"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Šī programma var liegt Bluetooth savienojumu izveidi. Tas var neļaut programmām, kas izmanto Bluetooth, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Šī programma var neļaut pārlūkprogrammu lietošanu. Tas var neļaut programmām, kas izmanto pārlūkprogrammas, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Šī programma var liegt kameras lietošanu. Tas var neļaut programmām, kas izmanto kameru, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Šī programma var liegt starpliktuves lietošanu. Tas var neļaut programmām, kas izmanto starpliktuvi, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Šī programma var liegt atkļūdošanas lietošanu. Tas var neļaut programmām, kas izmanto atkļūdošanu, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Šī programma var liegt POP un IMAP e-pasta piekļuvi. Tas var neļaut programmām, kas izmanto e-pasta pakalpojumus, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Šī programma var liegt atrašanās vietas funkciju lietošanu. Tas var neļaut programmām, kas izmanto atrašanās vietas funkcijas, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Šī programma var bloķēt ierīci."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Šī programma var liegt īsziņu, multiziņu un tērzēšanas ziņapmaiņas pakalpojumu lietošanu. Tas var neļaut programmām, kas izmanto ziņapmaiņas pakalpojumus, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Šī programma var liegt mikrofona lietošanu. Tas var neļaut programmām, kas izmanto mikrofonu, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Šī programma var pārvaldīt paroļu politikas un atiestatīt paroles, kas tiek izmantotas tālruņa atbloķēšanai un datu atkopšanai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Šī programma var mainīt drošības iestatījumus, piemēram, sertifikātu instalēšanas, datu šifrēšanas un rūpnīcas datu atjaunošanas iestatījumus."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Šī programma var neļaut ārējās krātuves, piemēram, SD kartes un USB krātuves ierīces, lietošanu. Tas var neļaut programmām, kas izmanto ārējās krātuves, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Šī programma var neļaut USB savienojumu izveidi, tostarp USB piesaistes lietošanu. Tas var neļaut programmām, kas izmanto USB savienojumus, darboties pareizi."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Šī programma var liegt Wi-Fi tīklu un mobilo tīklāju lietošanu. Ja tālrunis nevar izveidot savienojumu ar Wi-Fi tīklu, tas var izveidot savienojumu ar mobilo tīklu. Tas var radīt papildu izmaksas atkarībā no jūsu tarifu plāna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Šī programma var izdzēst visus ierīces datus un atjaunot tās rūpnīcas noklusējuma iestatījumus."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Šī programma var izveidot un noņemt konteinerus. Konteineri ir privātas darbvietas, kas nodrošina atsevišķas programmu palaišanas vides un datu krātuves."
 

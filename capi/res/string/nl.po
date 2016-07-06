@@ -184,6 +184,9 @@ msgstr "Overige privileges"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Webapplicatie-instellingen beheren"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Camera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Berichten"
 
@@ -592,6 +595,12 @@ msgstr "Bellen"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Deze applicatie heeft toegang tot smartcarddetails, zoals creditcarddetails, en kan gebruikers toestaan om via NFC te betalen."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Oproepen"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Bericht"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Deze applicatie kan sms- en mms-berichten schrijven, verzenden, verwijderen en verplaatsen, en de instellingen en status van berichten, zoals gelezen of ongelezen, wijzigen."
 
@@ -739,6 +748,9 @@ msgstr "Widgets weergeven"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Deze applicatie kan widgets en informatie van de daarmee samenhangende applicaties weergeven op het startscherm."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Accounts"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Kaartservices gebruiken"
 
@@ -805,6 +817,9 @@ msgstr "Deze applicatie kan acties lezen van speciale toetsen, zoals de volumeto
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Speciale belangrijke gebeurtenissen vastleggen"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Favorieten"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infraroodzender gebruiken"
 
@@ -852,4 +867,106 @@ msgstr "Reputatie van webadres controleren"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Deze applicatie kan antivirusprogramma's in- of uitschakelen en gedetecteerde malware beheren."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth-verbindingen beperken"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Gebruik webbrowser voorkomen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Gebruik camera beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Toegang tot klembord beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Foutopsporing beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Toegang tot POP- en IMAP-e-mail beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Locatiefuncties beperken"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Apparaat vergrendelen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Sms, mms en chatberichten beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Gebruik microfoon beperken"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Wachtwoordbeleid beheren"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Beveiligingsbeleid beheren"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Toegang tot externe opslaglocatie verhinderen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB-verbindingen beperken"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Toegang tot Wi-Fi beperken"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Gegevens wissen en apparaat resetten"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Containers beheren"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Deze applicatie kan Bluetooth-verbindingen beperken. Mogelijk werken applicaties die Bluetooth gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Deze applicatie kan het gebruik van browserapplicaties verhinderen. Mogelijk werken applicaties die browserapplicaties gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Deze applicatie kan het gebruik van de camera beperken. Mogelijk werken applicaties die de camera gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Deze applicatie kan het gebruik van het klembord beperken. Mogelijk werken applicaties die het klembord gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Deze applicatie kan het gebruik van foutopsporing beperken. Mogelijk werken applicaties die foutopsporing gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Deze applicatie kan toegang tot POP- en IMAP-e-mail beperken. Mogelijk werken applicaties die e-mailservices gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Deze applicatie kan het gebruik van locatiefuncties beperken. Mogelijk werken applicaties die locatiefuncties gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Deze applicatie kan het apparaat vergrendelen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Deze applicatie kan het gebruik van sms-, mms- en chatberichtservices beperken. Mogelijk werken applicaties die berichtservices gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Deze applicatie kan het gebruik van de microfoon beperken. Mogelijk werken applicaties die de microfoon gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Deze applicatie kan wachtwoordbeleid beheren en de wachtwoorden resetten die zijn gebruikt om de telefoon te ontgrendelen en gegevens te herstellen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Deze applicatie kan veiligheidsinstellingen wijzigen, zoals die voor certificaatinstallatie, gegevenscodering en het resetten van fabrieksinstellingen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Deze applicatie kan het gebruik van externe opslag verhinderen, zoals SD-kaarten en USB-opslagapparaten. Mogelijk werken applicaties die externe opslag gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Deze applicatie kan USB-verbindingen, inclusief het gebruik van USB-tethering, verhinderen. Mogelijk werken applicaties die USB-verbindingen gebruiken daardoor niet correct."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Deze applicatie kan het gebruik van Wi-Fi-netwerken en mobiele hotspots beperken. Als de telefoon geen verbinding kan maken met een Wi-Fi-netwerk, maakt deze mogelijk verbinding met een mobiel netwerk. Afhankelijk van uw abonnement kan dit extra kosten met zich meebrengen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Deze applicatie kan alle gegevens van uw apparaat wissen en uw apparaat resetten naar de fabrieksinstellingen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Deze applicatie kan containers maken en verwijderen. Containers zijn persoonlijke werkruimten die afzonderlijke app-runtimeomgevingen en gegevensopslag leveren."
 

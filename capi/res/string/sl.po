@@ -184,6 +184,9 @@ msgstr "Druge pravice"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Upravljanje nastavitev spletnih aplikacij"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Fotoaparat"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Sporočanje"
 
@@ -592,6 +595,12 @@ msgstr "Vzpostavljanje telefonskih klicev"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ta aplikacija lahko dostopa do podrobnosti pametne kartice, kot so podrobnosti kreditnih kartic, ter uporabnikom omogoča izvrševanje plačil prek funkcije NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Klic"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Sporočilo"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ta aplikacija lahko piše, pošilja, briše ter premika besedilna in večpredstavnostna sporočila ter spreminja nastavitve in stanje sporočil, denimo ali so prebrana ali neprebrana."
 
@@ -739,6 +748,9 @@ msgstr "Prikazovanje pripomočkov"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Ta aplikacija lahko na domačem zaslonu prikazuje pripomočke in podatke iz njihovih povezanih aplikacij."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Računi"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Uporaba storitev zemljevida"
 
@@ -805,6 +817,9 @@ msgstr "Ta aplikacija lahko bere dejanja aktivnih tipk, kot sta denimo tipki za 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Zajemanje dogodkov posebne tipke"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Zaznamek"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Uporaba infrardečega vmesnika"
 
@@ -852,4 +867,106 @@ msgstr "Preverjanje ugleda spletnega naslova"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Ta aplikacija lahko omogoča ali onemogoča protivirusne programe in upravlja zaznano zlonamerno programsko opremo."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Omejevanje povezav Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Preprečevanje uporabe spletnega brskalnika"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Omejevanje uporabe fotoaparata"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Omejevanje dostopa do odložišča"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Omejevanje odpravljanja napak"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Omejevanje dostopa do e-pošte POP in IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Omejevanje lokacijskih funkcij"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Zaklepanje naprave"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Omejevanje sporočil SMS, MMS in klepeta"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Omejevanje uporabe mikrofona"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Upravljanje pravilnikov za gesla"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Upravljanje varnostnih pravilnikov"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Preprečevanje dostopa do zunanje shrambe"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Omejevanje povezav USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Omejevanje dostopa do omrežja Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Brisanje podatkov in ponastavitev naprave"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Upravljanje vsebnikov"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Ta aplikacija lahko omeji povezave Bluetooth. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Ta aplikacija lahko prepreči uporabo brskalnikov. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo brskalnike."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo fotoaparata. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo fotoaparat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo odložišča. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo odložišče."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo odpravljanja napak. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo odpravljanje napak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Ta aplikacija lahko omeji dostop do e-pošte POP in IMAP. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo e-poštne storitve."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo lokacijskih funkcij. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo lokacijske funkcije."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ta aplikacija lahko zaklene napravo."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo storitev besedilnega in večpredstavnostnega sporočanja ter klepeta. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo storitve sporočanja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo mikrofona. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo mikrofon."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Ta aplikacija lahko upravlja pravilnike za gesla ter ponastavi gesla za odklepanje telefona in obnovitev podatkov."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ta aplikacija lahko spreminja varnostne nastavitve, denimo za namestitev certifikata, šifriranje podatkov in ponastavitve tovarniških podatkov."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Ta aplikacija lahko prepreči uporabo zunanje shrambe, denimo kartic SD in naprav za shranjevanje USB. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo zunanjo shrambo."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Ta aplikacija lahko prepreči povezave USB, vključno s skupno rabo interneta prek povezave USB. To lahko prepreči pravilno delovanje aplikacij, ki uporabljajo povezave USB."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Ta aplikacija lahko omeji uporabo omrežij Wi-Fi in mobilnih dostopnih točk. Če se telefon ne more povezati z omrežjem Wi-Fi, se morda lahko z mobilnim omrežjem. To lahko povzroči dodatne stroške, odvisno od vaše naročnine."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ta aplikacija lahko iz naprave izbriše vse podatke in ponastavi napravo na privzete tovarniške nastavitve."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ta aplikacija lahko ustvarja in odstranjuje vsebnike. Vsebniki so zasebna delovna okolja, ki zagotavljajo ločena okolja za delovanje aplikacij in shrambo za podatke."
 

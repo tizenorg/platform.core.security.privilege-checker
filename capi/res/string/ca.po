@@ -184,6 +184,9 @@ msgstr "Altres privilegis"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Gestió d'ajustaments d'aplicacions web"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Càmera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Missatgeria"
 
@@ -592,6 +595,12 @@ msgstr "Realitzar trucades de telèfon"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Aquesta aplicació pot accedir als detalls de la smart card, com ara els detalls de la targeta de crèdit, i permetre que els usuaris facin pagaments mitjançant NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Trucar"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Missatge"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Aquesta aplicació pot escriure, enviar, esborrar i moure missatges de text i multimèdia, i canviar l'estat i els ajustaments dels missatges, com ara llegit o no llegit."
 
@@ -739,6 +748,9 @@ msgstr "Visualització de widgets"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Aquesta aplicació pot mostrar widgets i informació de les aplicacions associades a la pantalla d'inici."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Comptes"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Utilitzar serveis de mapa"
 
@@ -805,6 +817,9 @@ msgstr "Aquesta aplicació pot llegir accions que impliquin tecles especials, co
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Captura d'esdeveniments de tecles especials"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Preferit"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Ús de transmissor d'infrarojos"
 
@@ -852,4 +867,106 @@ msgstr "S'està comprovant la reputació de l'adreça web"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Aquesta aplicació pot activar o desactivar els programes d'antivirus i gestionar el malware detectat."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Restringint les connexions de Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "S'està impedint l'ús del navegador web"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Restringint l'ús de la càmera"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Restringint l'accés al porta-retalls"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Restringint la depuració"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "S'està restringint l'accés de correu electrònic POP i IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Restringint les funcions d'ubicació"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Bloquejant dispositiu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "S'està restringint la missatgeria SMS, MMS i xat"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Restringint l'ús del micròfon"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Gestió de les polítiques de contrasenya"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Gestió de les polítiques de seguretat"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Prohibició de l'accés a l'emmagatzematge extern"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Restringint les connexions USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Restringint l'accés Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Esborrant les dades i restablint el dispositiu"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Gestió de contenidors"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Aquesta aplicació pot restringit les connexions Bluetooth. Això podria impedir el funcionament correcte de les aplicacions que utilitzen Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Aquesta aplicació pot impedir l'ús de les aplicacions de navegador. Això podria impedir el funcionament correcte de les aplicacions que utilitzen aplicacions de navegador."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús de la càmera. Això podria impedir el funcionament correcte de les aplicacions que utilitzen la càmera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús del porta-retalls. Això podria impedir el funcionament correcte de les aplicacions que utilitzen el porta-retalls."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús de depuració. Això podria impedir el funcionament correcte de les aplicacions que utilitzen depuració."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Aquesta aplicació pot restringir l'accés de correu electrònic POP i IMAP. Això podria impedir el funcionament correcte de les aplicacions que utilitzen serveis de correu electrònic."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús de funcions d'ubicació. Això podria impedir el funcionament correcte de les aplicacions que utilitzen funcions d'ubicació."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Aquesta aplicació pot bloquejar el dispositiu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús dels serveis de missatgeria de text, multimèdia i xat. Això podria impedir el funcionament correcte de les aplicacions que utilitzen serveis de missatgeria."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús del micròfon. Això podria impedir el funcionament correcte de les aplicacions que utilitzen el micròfon."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Aquesta aplicació pot gestionar les polítiques de contrasenya i restablir les contrasenyes utilitzades per desbloquejar el telèfon i recuperar les dades."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Aquesta aplicació pot canviar ajustaments de seguretat com ara els d'instal·lacions certificades, xifratge de dades i restabliments de les dades de fàbrica."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Aquesta aplicació pot impedir l'ús d'emmagatzematge extern, com les targetes SD i els dispositius d'emmagatzematge USB. Això podria impedir el funcionament correcte de les aplicacions que utilitzen emmagatzematge extern."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Aquesta aplicació pot impedir les connexions USB, incloent-hi l'ús del mòdem USB. Això podria impedir el funcionament correcte de les aplicacions que utilitzen connexions USB."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Aquesta aplicació pot restringir l'ús de les xarxes Wi-Fi i de les connexions compartides. Si el telèfon no es pot connectar a una xarxa Wi-Fi, és possible que es connecti a una xarxa mòbil. Això podria comportar càrrecs addicionals en funció del seu pla de pagament."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Aquesta aplicació pot esborrar totes les dades del dispositiu i restablir el dispositiu als ajustaments predeterminats de fàbrica."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Aquesta aplicació pot crear i eliminar contenidors. Els contenidors són espais de treball privats que proporcionen entorns d'execució d'apps i d'emmagatzematge de dades per separat."
 

@@ -184,6 +184,9 @@ msgstr "Önnur réttindi"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Umsjón með vefforritastillingum"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Myndavél"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Skilaboð"
 
@@ -592,6 +595,12 @@ msgstr "Símtöl hringd"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Þetta forrit hefur aðgang að upplýsingum snjallkorts, t.d. kreditkortaupplýsingum, og gerir notendum kleift að greiða með NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Símtal"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Skilaboð"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Þetta forrit getur skrifað, sent, eytt og fært SMS- og MMS-skilaboð og breytt stillingum og stöðu skilaboða, t.d. í lesið eða ólesið."
 
@@ -739,6 +748,9 @@ msgstr "Sýna græjur"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Þetta forrit getur birt græjur og upplýsingar þeim tengdar á heimaskjánum."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Reikningar"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Notkun kortaþjónustu"
 
@@ -805,6 +817,9 @@ msgstr "Þetta forrit getur lesið aðgerðir sem tengjast sérstökum lyklum, t
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Fanga sérstaka lyklavirkni"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Bókamerki"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Notkun innrauðs sendis"
 
@@ -852,4 +867,106 @@ msgstr "Leita að orðspori veffangs"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Þetta forrit getur kveikt eða slökkt á vírusvarnarforritum og stjórnað greindum spilliforritum."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Takmarka Bluetooth-tengingu"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Hindrar vafranotkun"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Takmarka myndavélanotkun"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Takmarka aðgang að klippiborði"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Takmarka villuleit"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Takmarkar aðgang að POP- og IMAP-tölvupósti"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Takmarka staðsetningareiginleika"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Læsa tæki"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Takmarkar aðgang að SMS-, MMS- og spjallskilaboðum"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Takmarka notkun á hljóðnema"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Stjórnun lykilorðastefna"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Stjórna öryggisstefnum"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Komið í veg fyrir aðgang að ytri geymslu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Takmarka USB-tengingar"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Takmarka Wi-Fi aðgang"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Eyða gögnum og endurstilla tækið"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Stjórnun svæða"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Þetta forrit getur takmarkað Bluetooth-tengingu. Þetta getur komið í veg fyrir að forrit sem nota Bluetooth virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Þetta forrit getur komið í veg fyrir notkun á vafraforritum. Þetta getur komið í veg fyrir að forrit sem nota vafraforrit virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á myndavélinni. Þetta getur komið í veg fyrir að forrit sem nota myndavélina virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á klippiborðinu. Þetta getur komið í veg fyrir að forrit sem nota klippiborðið virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á villuleit. Þetta getur komið í veg fyrir að forrit sem nota villuleit virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Þetta forrit getur takmarkað aðgang að POP- og IMAP-tölvupósti. Þetta getur komið í veg fyrir að forrit sem nota tölvupóstþjónustu virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á staðsetningareiginleikum. Þetta getur komið í veg fyrir að forrit sem nota staðsetningareiginleika virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Þetta forrit getur læst tækinu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á texta-, margmiðlunar- og spjallskilaboðum. Þetta getur komið í veg fyrir að forrit sem nota skilaboðaþjónustu virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á hljóðnemanum. Þetta getur komið í veg fyrir að forrit sem nota hljóðnemann virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Þetta forrit getur stjórnað lykilorðastefnum og endurstillt lykilorðin sem notuð eru til að opna símann og endurheimta gögn."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Þetta forrit getur breytt öryggisstillingum á borð við uppsetningu vottorða, gagnadulkóðun og núllstillingu gagna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Þetta forrit getur komið í veg fyrir notkun ytri geymslu á borð við SD-kort og USB-geymslutæki. Þetta getur komið í veg fyrir að forrit sem nota ytri geymslu virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Þetta forrit getur komið í veg fyrir USB-tengingu, þ.m.t. notkun á USB-tjóðrun. Þetta getur komið í veg fyrir að forrit sem nota USB-tengingu virki rétt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Þetta forrit getur takmarkað notkun á Wi-Fi neti og farsímaaðgangsstöðum. Ef síminn getur ekki tengst Wi-Fi neti getur hann tengst farsímakerfi. Þetta kann að hafa viðbótarkostnað í för með sér, allt eftir áskrift."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Þetta forrit getur eytt öllum gögnum af tækinu þínu og endurstillt það á sjálfgefnar grunnstillingar framleiðanda."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Þetta forrit getur búið til og fjarlægt svæði. Svæðin eru einkavinnusvæði sem bjóða upp á aðskilin keyrsluumhverfi fyrir forrit og gagnageymslu."
 

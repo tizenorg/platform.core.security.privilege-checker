@@ -184,6 +184,9 @@ msgstr "امتيازات أخرى"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "إدارة إعدادات تطبيق الويب"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "الكاميرا"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "الرسائل"
 
@@ -592,6 +595,12 @@ msgstr "إجراء مكالمات هاتفية"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "يمكن لهذا التطبيق الوصول إلى تفاصيل البطاقة الذكية، مثل تفاصيل بطاقة الائتمان، والسماح للمستخدمين بإجراء عمليات الدفع عبر NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "المكالمة"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "رسالة"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "يمكن لهذا التطبيق كتابة الرسائل النصية ورسائل الوسائط المتعددة، وإرسالها، وحذفها، ونقلها، وتغيير ضبطها وحالاتها، مثل مقروءة أو غير مقروءة."
 
@@ -739,6 +748,9 @@ msgstr "عرض التطبيقات المصغرة"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "يمكن أن يعرض هذا التطبيق التطبيقات المصغرة، ومعلومات من التطبيقات المرتبطة بها، على الشاشة الرئيسية."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "حسابات"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "استخدام خدمات الخريطة"
 
@@ -805,6 +817,9 @@ msgstr "يمكن لهذا التطبيق قراءة الإجراءات ذات ا
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "تلقّي أحداث المفتاح الخاص"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "علامة"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "استخدام مرسل الأشعة تحت الحمراء"
 
@@ -852,4 +867,106 @@ msgstr "التحقق من سمعة عنوان ويب"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "يمكن لهذا التطبيق أن يفعّل أو يلغي تفعيل برامج مكافحة الفيروسات ويدير البرامج الضارة المكتشفة."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "تقييد اتصالات البلوتوث"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "منع استخدام متصفح ويب"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "تقييد استخدام الكاميرا"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "تقييد الوصول إلى الحافظة"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "تقييد تصحيح الأخطاء"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "تقييد الوصول إلى البريد الإلكتروني POP وIMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "تقييد وظائف الموقع"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "إقفال الجهاز"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "تقييد رسائل SMS، وMMS، ومراسلات المحادثة"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "تقييد استخدام الميكروفون"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "إدارة سياسات كلمات المرور"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "إدارة سياسات الحماية"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "منع الوصول إلى وحدة التخزين الخارجية"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "تقييد اتصالات USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "تقييد الوصول إلى شبكة Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "محو البيانات وإعادة ضبط الجهاز"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "إدارة الحاويات"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "يمكن لهذا التطبيق تقييد اتصالات البلوتوث. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم البلوتوث من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "يمكن لهذا التطبيق منع استخدام تطبيقات المتصفح. قد يؤدي ​ذلك إلى منع التطبيقات التي تستخدم تطبيقات المتصفح من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام الكاميرا. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم الكاميرا من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام الحافظة. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم الحافظة من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام تصحيح الأخطاء. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم تصحيح الأخطاء من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "يمكن لهذا التطبيق تقييد الوصول إلى البريد الإلكتروني POP وIMAP. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم خدمات البريد الإلكتروني من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام وظائف الموقع. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم وظائف الموقع من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "يمكن لهذا التطبيق قفل الجهاز."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام خدمات المراسلة النصية/المتعددة الوسائط والدردشة. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم خدمات المراسلة من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام الميكروفون. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم الميكروفون من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "يمكن لهذا التطبيق إدارة نُهج كلمات المرور وإعادة ضبط كلمات المرور التي استُخدمت لإلغاء قفل الهاتف واسترداد البيانات."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "يمكن لهذا التطبيق تغيير ضبط الحماية، مثل الضبط الخاص بتثبيت الشهادة وتشفير البيانات وعمليات إعادة ضبط بيانات المصنع."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "يمكن لهذا التطبيق منع استخدام وحدات التخزين الخارجية مثل بطاقات SD وأجهزة تخزين USB. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم وحدة تخزين خارجية من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "يمكن لهذا التطبيق منع اتصالات USB، بما في ذلك استخدام تقييد USB. قد يؤدي ذلك إلى منع التطبيقات التي تستخدم اتصالات USB من العمل بشكل صحيح."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "يمكن لهذا التطبيق تقييد استخدام شبكات Wi-Fi ونقاط اتصال الهواتف المحمولة. إذا لم يكن بمقدور الهاتف الاتصال بشبكة Wi-Fi، فيمكن توصيله بشبكة الهاتف المحمول. قد يترتب على ذلك فرض رسوم إضافية وفقاً لخطة الدفع التي تتبعها."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "يمكن لهذا التطبيق محو كل البيانات من جهازك وإعادة ضبطه  إلى ضبط المصنع الافتراضي."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "يمكن لهذا التطبيق إنشاء حاويات وإزالتها. تعتبر الحاويات مساحات خاصة توفر بيئات منفصلة لأوقات تشغيل التطبيق ووحدات تخزين للبيانات."
 

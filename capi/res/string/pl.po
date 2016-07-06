@@ -184,6 +184,9 @@ msgstr "Inne uprawnienia"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Zarządzanie ustawieniami aplikacji internetowej"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Aparat"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "SMS/MMS"
 
@@ -592,6 +595,12 @@ msgstr "Nawiązywanie połączeń telefonicznych"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ta aplikacja może uzyskać dostęp do szczegółów kart elektronicznych, np. szczegółów kart kredytowych, i umożliwiać użytkownikom dokonywanie płatności przez NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Połączenia"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Wiadomość"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ta aplikacja może zapisywać, wysyłać, usuwać i przenosić SMS i MMS oraz zmieniać ustawienia i statusy wiadomości, takie jak przeczytane/nieprzeczytane."
 
@@ -739,6 +748,9 @@ msgstr "Wyświetlanie widgetów"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Ta aplikacja może wyświetlać widgety i informacje ze skojarzonych z nimi aplikacji na ekranie startowym."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Konta"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Używanie usług map"
 
@@ -805,6 +817,9 @@ msgstr "Ta aplikacja może odczytywać akcje obejmujące klawisze specjalne, tak
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Przechwytywanie zdarzeń klawisza specjalnego"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Zakładka"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Korzystanie z nadajnika podczerwieni"
 
@@ -852,4 +867,106 @@ msgstr "Sprawdzanie reputacji adresu WWW"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Ta aplikacja może włączać lub wyłączać programy antywirusowe i zarządzać wykrytym złośliwym oprogramowaniem."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Ograniczenie połączeń Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Zapobieganie użyciu przeglądarki internetowej"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Ograniczenie użycia aparatu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Ograniczenie dostępu do schowka"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Ograniczenie debugowania"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Ograniczanie dostępu do protokołów e-mail POP i IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Ograniczenie funkcji lokalizacji"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Blokowanie urządzenia"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Ograniczanie przesyłania wiadomości SMS, MMS i czatu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Ograniczenie użycia mikrofonu"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Zarządzanie zasadami haseł"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Zarządzanie zasadami zabezpieczeń"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Blokowanie dostępu do pamięci zewnętrznej"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Ograniczenie połączeń USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Ograniczenie dostępu do Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Kasowanie danych i zerowanie ustawień urządzenia"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Zarządzanie kontenerami"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Ta aplikacja może ograniczać połączenia Bluetooth. Może to uniemożliwiać poprawne działanie aplikacji korzystających z połączeń Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Ta aplikacja może zapobiegać używaniu aplikacji przeglądarek. Może to uniemożliwiać poprawne działanie aplikacji korzystających z aplikacji przeglądarek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania kamery. Może to uniemożliwiać poprawne działanie aplikacji korzystających z kamery."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania schowka. Może to uniemożliwiać poprawne działanie aplikacji korzystających ze schowka."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość debugowania. Może to uniemożliwiać poprawne działanie aplikacji korzystających z funkcji debugowania."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Ta aplikacja może ograniczać dostęp do poczty e-mail POP oraz IMAP. Może to uniemożliwiać poprawne działanie aplikacji korzystających z usług poczty e-mail."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania funkcji lokalizacji. Może to uniemożliwiać poprawne działanie aplikacji korzystających z tych funkcji."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ta aplikacja może zablokować urządzenie."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania usług wiadomości SMS, MMS i czatu. Może to uniemożliwiać poprawne działanie aplikacji korzystających z usług przesyłania wiadomości."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania mikrofonu. Może to uniemożliwiać poprawne działanie aplikacji korzystających z mikrofonu."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Ta aplikacja może zarządzać zasadami haseł oraz resetować hasła używane do odblokowywania telefonu i odzyskiwania danych."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ta aplikacja może zmienić ustawienia zabezpieczeń, na przykład dotyczące instalacji certyfikatów, szyfrowania danych i zerowania do ustawień fabrycznych."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Ta aplikacja może zapobiegać użyciu pamięci zewnętrznej, takiej jak karty pamięci i urządzenia pamięci USB. Może to uniemożliwiać poprawne działanie aplikacji korzystających z pamięci zewnętrznej."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Ta aplikacja może zapobiegać używaniu połączeń USB, w tym używaniu routera USB. Może to uniemożliwiać poprawne działanie aplikacji korzystających z połączeń USB."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Ta aplikacja może ograniczać możliwość używania sieci i routerów Wi-Fi. Jeśli telefon nie może połączyć się z siecią Wi-Fi, może nawiązać połączenie z siecią komórkową. Może to spowodować naliczenie dodatkowych opłat w zależności od planu taryfowego."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ta aplikacja może skasować wszystkie dane z urządzenia i wyzerować je do domyślnych ustawień fabrycznych."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ta aplikacja może tworzyć i usuwać kontenery. Kontenery to prywatne obszary robocze zapewniające oddzielne środowiska działania aplikacji i pamięci danych."
 

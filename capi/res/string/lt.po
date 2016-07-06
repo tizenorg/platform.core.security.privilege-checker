@@ -184,6 +184,9 @@ msgstr "Kitos teisės"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Žiniatinklio programų nustatymų tvarkymas"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Fotoapar."
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Žinutės"
 
@@ -592,6 +595,12 @@ msgstr "Skambinimas"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ši programa turi prieigą prie išmaniosios kortelės informacijos, pvz., kreditinės kortelės informacijos, ir leidžia naudotojams atlikti mokėjimus per NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Skambutis"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Žinutė"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ši programa gali įrašyti, siųsti, trinti ir perkelti tekstą ir multimedijos žinutes bei keisti nustatymus ir žinučių būsenas, pvz., perskaityta ar neperskaityta."
 
@@ -739,6 +748,9 @@ msgstr "Valdiklių rodymas"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Ši programa gali pradžios ekrane rodyti valdiklius ir informaciją iš susijusių programų."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Paskyros"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Žemėlapių paslaugų naudojimas"
 
@@ -805,6 +817,9 @@ msgstr "Net veikdama fone ši programa gali nuskaityti su konkrečiais veiksmais
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Konkrečių mygtukų paspaudimų fiksavimas"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Adresyno įrašas"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infraraudonųjų spindulių siųstuvo naudojimas"
 
@@ -852,4 +867,106 @@ msgstr "Tikrinama žiniatinklio adreso reputacija"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Ši programa gali įjungti arba išjungti antivirusines programas ir tvarkyti aptiktas kenkėjiškas programas."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "„Bluetooth“ ryšių ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Apsauga nuo žiniatinklio naršyklės naudojimo"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Fotoaparato naudojimo ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Iškarpinės prieigos ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Derinimo ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP ir IMAP el. pašto prieigos ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Vietos funkcijų ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Įrenginio užrakinimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS ir pokalbių žinučių ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofono naudojimo ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Slaptažodžių politikos tvarkymas"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Saugos politikos tvarkymas"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Prieigos prie išorinės saugyklos draudimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB ryšių ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "„Wi-Fi“ prieigos ribojimas"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Duomenų trynimas ir įrenginio nustatymas iš naujo"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Talpyklų tvarkymas"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Ši programa gali riboti „Bluetooth“ ryšius. Dėl to programos, naudojančios „Bluetooth“, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Ši programa gali neleisti naudotis naršyklės programomis. Dėl to programos, naudojančios naršyklės programas, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Ši programa gali riboti fotoaparato naudojimą. Dėl to programos, naudojančios fotoaparatą, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Ši programa gali riboti iškarpinės naudojimą. Dėl to programos, naudojančios iškarpinę, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Ši programa gali riboti derinimo naudojimą. Dėl to programos, naudojančios derinimą, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Ši programa gali riboti POP ir IMAP el. pašto prieigą. Dėl to programos, naudojančios el. pašto paslaugas, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Ši programa gali riboti vietos funkcijų naudojimą. Dėl to programos, naudojančios vietos nustatymo funkcijas, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ši programa gali užrakinti įrenginį."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Ši programa gali riboti teksto, multimedijos ir pokalbių žinučių paslaugų naudojimą. Dėl to programos, naudojančios žinučių siuntimo paslaugas, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Ši programa gali riboti mikrofono naudojimą. Dėl to programos, naudojančios mikrofoną, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Ši programa gali tvarkyti slaptažodžių politikas ir iš naujo nustatyti slaptažodžius, kurie naudojami telefonui atrakinti ir duomenims atkurti."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ši programa gali keisti saugos nustatymus, pvz., sertifikatų diegimą, duomenų šifravimą ir gamyklinių duomenų atkūrimą."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Ši programa gali neleisti naudoti išorinės laikmenos, pvz., SD kortelių ir USB saugyklos įrenginių. Dėl to programos, naudojančios išorinę saugyklą, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Ši programa gali neleisti USB ryšių, įskaitant USB siejimo naudojimą. Dėl to programos, naudojančios USB ryšius, gali veikti netinkamai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Ši programa gali riboti „Wi-Fi“ tinklų ir mobiliųjų saitviečių naudojimą. Jei telefonas negali prisijungti prie „Wi-Fi“ tinklo, juo galima bandyti prisijungti prie mobiliojo tinklo. Atsižvelgiant į turimą mokėjimo planą, gali būti taikomi papildomi mokesčiai."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ši programa gali ištrinti visus duomenis iš jūsų įrenginio ir atkurti numatytuosius gamyklinius įrenginio nustatymus."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ši programa gali kurti ir pašalinti talpyklas. Talpyklos yra privačios darbo erdvės, teikiančios atskiras programos paleidimo aplinkas ir duomenų saugyklas."
 

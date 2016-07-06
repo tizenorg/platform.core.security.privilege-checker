@@ -184,6 +184,9 @@ msgstr "Muud privileegid"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Veebirakenduste seadete haldamine"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kaamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Sõnumid"
 
@@ -592,6 +595,12 @@ msgstr "Telefonikõnede tegemine"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Sellel rakendusel on juurdepääs nutikaardi andmetele, nt krediitkaardi andmed, ja lubab kasutajatel teha makseid NFC kaudu."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Kõne"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Sõnum"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "See rakendus saab kirjutada, saata, kustutada ja teisaldada tekst- ja multimeediumsõnumeid ning muuta sõnumite seadeid ja olekuid, nt loetud või mitteloetud."
 
@@ -739,6 +748,9 @@ msgstr "Vidinate kuvamine"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "See rakendus saab kuvada vidinaid ja teavet nendega seotud rakenduste kohta avaekraanil."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Kontod"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Kaarditeenuste kasutamine"
 
@@ -805,6 +817,9 @@ msgstr "See rakendus suudab lugeda toiminguid, mis on seotud eriklahvidega, nt h
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Eriliste võtmesündmuste jäädvustamine"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Järjehoidja"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infrapunasaatja kasutamine"
 
@@ -852,4 +867,106 @@ msgstr "Veebiaadressi maine kontrollimine"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "See rakendus saab viirusevastaseid programme aktiveerida või inaktiveerida ja hallata tuvastatud ründevara."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetoothi ühenduste piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Veebibrauseri kasutamise takistamine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kaamera kasutamise piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Lõikelaua juurdepääsu piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Silumise piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP ja IMAP e-posti juurdepääsu piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Asukoha funktsioonide piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Seadme lukustamine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS-ide, MMS-ide ja vestlussõnumite piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofoni kasutamise piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Parooli poliitika haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Turvalisuse poliiside haldamine"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Juurdepääsu tõkestamine välismälule"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB-ühenduste piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi juurdepääsu piiramine"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Andmete kustutamine ja seadme lähtestamine"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Mahutite haldamine"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "See rakendus saab piirata Bluetoothi ühendusi. Selle tulemusel ei pruugi Bluetoothi kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "See rakendus saab takistada brauserirakenduste kasutamist. Selle tulemusel ei pruugi brauserirakendusi kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "See rakendus saab piirata kaamera kasutamist. Selle tulemusel ei pruugi kaamerat kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "See rakendus saab piirata lõikelaua kasutamist. Selle tulemusel ei pruugi lõikelauda kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "See rakendus saab piirata silumise kasutamist. Selle tulemusel ei pruugi silumist kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "See rakendus saab piirata POP ja IMAP e-posti juurdepääsu. Selle tulemusel ei pruugi e-posti teenuseid kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "See rakendus saab piirata asukohafunktsioonide kasutamist. Selle tulemusel ei pruugi asukohafunktsioone kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "See rakendus saab seadme lukustada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "See rakendus saab piirata tekst-, multimeedium- ja vestlussõnumite teenuste kasutamist. Selle tulemusel ei pruugi sõnumiteenuseid kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "See rakendus saab piirata mikrofoni kasutamist. Selle tulemusel ei pruugi mikrofoni kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "See rakendus saab hallata parooli poliise ja lähtestada paroole, mida kasutatakse telefoni avamiseks ja andmete taastamiseks."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "See rakendus võib muuta turvalisuse seadeid, nt sertifikaadi installimise, andmete krüptimise ja tehaseandmete lähtestamise seadeid."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "See rakendus saab takistada välismälu kasutamist, nt SD-kaardid ja USB-andmekandjad. Selle tulemusel ei pruugi välismälu kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "See rakendus suudab takistada USB-ühendusi, sh USB-modemi kasutamist. Selle tulemusel ei pruugi USB-ühendusi kasutavad rakendused õigesti töötada."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "See rakendus saab piirata Wi-Fi-võrkude ja mobiilsete kuumkohtade kasutamist. Kui telefon ei suuda luua ühendust Wi-Fi-võrguga, võib see luua ühenduse mobiilsidevõrguga. Olenevalt teie paketist võivad sellega rakenduda lisatasud."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "See rakendus saab teie seadmest kõik andmed kustutada ja lähtestada teie seadme tehase vaikeseadetele."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "See rakendus saab luua ja eemaldada mahuteid. Mahutid on privaatsed tööruumid, mis pakuvad eraldi keskkondi rakenduste käivitamiseks ja andmete salvestamiseks."
 

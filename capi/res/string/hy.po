@@ -184,6 +184,9 @@ msgstr "Այլ արտոնություններ"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Համացանցային ծրագրի դրվածքների կառավարում"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Խցիկ"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Հաղորդագրությունների ուղարկում"
 
@@ -592,6 +595,12 @@ msgstr "Կատարում է հեռախոսականչեր"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Այս ծրագիրը կարող է մուտք գործել խելացի քարտի տվյալներ, ինչպիսիք են վարկային քարտի տվյալները, և օգտվողներին թույլ տալ վճարումներ կատարել NFC-ի միջոցով:"
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Զանգ"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Հաղորդագրություն"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Այս ծրագիրը կարող է գրել, ուղարկել, վերացնել ու տեղափոխել տեքստային և մուլտիմեդիա հաղորդագրություններ և փոխել հաղորդագրությունների դրվածքներն ու կարգավիճակները, օրինակ՝ կարդացված և չկարդացված:"
 
@@ -739,6 +748,9 @@ msgstr "Ցույց է տալիս պատկերագրեր"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Այս ծրագիրը կարող է հիմնական էկրանի վրա ցույց տալ պատկերագրեր և տեղեկություններ իրեն առնչվող ծրագրերից:"
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Հաշիվներ"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Քարտեզագրական ծառայությունների օգտագործում"
 
@@ -805,6 +817,9 @@ msgstr "Այս ծրագիրը կարող է կարդալ հատուկ ստեղն
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Սևեռում է հատուկ կարևոր իրադարձություններ"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Էջանիշ"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Ինֆրակարմիր հաղորդչի օգտագործում"
 
@@ -851,5 +866,107 @@ msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
 msgstr "Կայքի հասցեի համբավի ստուգում"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
-msgstr "Այս ծրագիրը կարող է ընձեռել կամ կասեցնել հակավիրուսային ծրագրերն ու կառավարել հայտնաբերված վնասարար ծրագրակազմը:"
+msgstr "Այս ծրագիրը կարող է միացնել կամ կասեցնել հակավիրուսային ծրագրերն ու կառավարել հայտնաբերված վնասարար ծրագրակազմը:"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth միացումների սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Համացանցային զննարկչի օգտագործման արգելում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Խցիկի օգտագործման սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Դեպի գզրոցը մուտք գործելու սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Վրիպազերծման սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Էլեկտրոնային փոստի POP և IMAP մուտքի սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Տեղորոշման գործառույթների սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Սարքի կողպում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS-ի, MMS-ի և զրույցի հաղորդագրման սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Միկրոֆոնի օգտագործման սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Կառավարել գաղտնաբառերի քաղաքականությունը"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Անվտանգության քաղաքականության կառավարում"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Դեպի արտաքին հիշասարք մուտք գործելու արգելում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB միացումների սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi մուտք գործելու սահմանափակում"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Տվյալների ջնջում և սարքի հետադարձում"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Կառավարել կոնտեյներները"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել Bluetooth միացումները: Դա կարող է խանգարել Bluetooth օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Այս ծրագիրը կարող է արգելել զննարկչի ծրագրերի օգտագործումը: Դա կարող է խանգարել զննարկչի ծրագրեր օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել խցիկի օգտագործումը: Դա կարող է խանգարել խցիկն օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել գզրոցի օգտագործումը: Դա կարող է խանգարել գզրոցն օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել վրիպազերծման օգտագործումը: Դա կարող է խանգարել վրիպազերծում օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել էլեկտրոնային փոստի POP և IMAP մուտքը: Դա կարող է խանգարել էլեկտրոնային փոստի ծառայություններ օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել տեղորոշման գործառույթների օգտագործումը: Դա կարող է խանգարել տեղորոշման գործառույթներ օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Այս ծրագիրը կարող է կողպել սարքը:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել տեքստային, մուլտիմեդիա և զրույցի հաղորդագրման ծառայությունների օգտագործումը: Դա կարող է խանգարել հաղորդագրման ծառայություններ օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել միկրոֆոնի օգտագործումը: Դա կարող է խանգարել միկրոֆոնն օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Այս ծրագիրը կարող է կառավարել գաղտնաբառերին վերաբերող քաղաքականությունը և վերադնել հեռախոսն արգելաբացելու համար օգտագործվող գաղտնաբառերն ու վերականգնել տվյալները:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ծրագիրը կարող է փոխել անվտանգության կարգավորումները, օրինակ՝ վկայագրի տեղադրումը, տվյալների գաղտնագրումը և տվյալների գործարանային վերականգնումը:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Այս ծրագիրը կարող է արգելել արտաքին հիշասարքի օգտագործումը, ինչպիսիք են SD քարտերը և USB հիշասարքերը: Դա կարող է խանգարել արտաքին պահոց օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Այս ծրագիրը կարող է արգելել USB միացումները, ներառյալ USB տեղակապման օգտագործումը: Դա կարող է խանգարել USB միացումներ օգտագործող ծրագրերի նորմալ աշխատանքին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Այս ծրագիրը կարող է սահմանափակել Wi-Fi ցանցերի և շարժական թեժ կետերի օգտագործումը: Եթե հեռախոսը չի կարողանում միանալ որևէ Wi-Fi ցանցի, հնարավոր է, որ այն միանա շարժական կապի ցանցի: Դա կարող է լրացուցիչ վճարների հանգեցնել՝ Ձեր վճարային պլանից կախված:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Այս ծրագիրը կարող է Ձեր սարքից ջնջել տվյալները և սարքը հետադարձել իր գործարանային կանխադրվածքներին:"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Այս ծրագիրը կարող է ստեղծել և հեռացնել կոնտեյներներ: Կոնտեյներներն անձնական աշխատանքային տարածքներ են, որոնք տրամադրում են ծրագրերի գործարկման առանձին միջավայրեր և տվյալների պահոց:"
 

@@ -184,6 +184,9 @@ msgstr "Diğer ayrıcalıklar"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Web uygulaması ayarlarının yönetilmesi"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Mesajlaşma"
 
@@ -592,6 +595,12 @@ msgstr "Telefon araması yapma"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Bu uygulama, kredi kartı ayrıntıları gibi akıllı kart ayrıntılarına erişebilir ve kullanıcıların NFC yoluyla ödeme yapmalarına olanak tanır."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Arama"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Mesaj"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Bu uygulama, metin ve multimedya mesajlarını yazabilir, gönderebilir, silebilir, taşıyabilir ve mesajların ayarlarını ve okunmuş veya okunmamış gibi durumlarını değiştirebilir."
 
@@ -739,6 +748,9 @@ msgstr "Widget'ları gösterme"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Bu uygulama, widget'ları ve ilişkilendirilmiş uygulamalarından bilgileri ana ekranda gösterebilir."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Hesaplar"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Harita servislerini kullanma"
 
@@ -805,6 +817,9 @@ msgstr "Bu uygulama arka planda çalıştığında bile bu cihaz veya diğer cih
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Özel tuş etkinliklerini yakalama"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Yer İmi"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Kızılötesi vericiyi kullanma"
 
@@ -852,4 +867,106 @@ msgstr "Web adresinin tanınırlığını denetleme"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Bu uygulama, antivirüs programlarını etkinleştirebilir veya devre dışı bırakabilir ve algılanan kötü amaçlı yazılımı yönetebilir."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth bağlantılarını kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Web tarayıcısı kullanımını engelleme"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kamera kullanımını kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Pano erişimini kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Hata ayıklamayı kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP ve IMAP e-posta erişimini sınırlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Konum işlevlerini kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Cihazı kilitleme"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS ve sohbet mesajlarını sınırlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofon kullanımını kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Şifre ilkelerini yönetme"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Güvenlik ilkelerini yönetme"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Harici depolama erişimini engelleme"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB bağlantılarını kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi erişimini kısıtlama"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Verileri silme ve cihazı sıfırlama"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Kapsayıcıları yönetme"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Bu uygulama, Bluetooth bağlantılarını sınırlandırabilir. Bu durum, Bluetooth kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Bu uygulama, tarayıcı uygulamalarının kullanımını engelleyebilir. Bu durum, tarayıcı uygulamalarını kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Bu uygulama, kamera kullanımını sınırlandırabilir. Bu durum, kamerayı kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Bu uygulama, pano kullanımını sınırlandırabilir. Bu durum, panoyu kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Bu uygulama, hata ayıklama kullanımını sınırlandırabilir. Bu durum, hata ayıklamayı kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Bu uygulama, POP ve IMAP e-posta erişimini sınırlandırabilir. Bu durum, e-posta servislerini kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Bu uygulama, konum işlevlerinin kullanımını sınırlandırabilir. Bu durum, konum işlevlerini kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Bu uygulama, cihazı kilitleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Bu uygulama; metin, multimedya ve sohbet mesajlaşma servislerinin kullanımını sınırlandırabilir. Bu durum, mesajlaşma servislerini kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Bu uygulama, mikrofon kullanımını sınırlandırabilir. Bu durum, mikrofonu kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Bu uygulama, şifre politikalarını yönetebilir ve telefonun kilidini açmak ve verileri kurtarmak için kullanılan şifreleri sıfırlayabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Bu uygulama, sertifika yükleme, veri şifreleme ve fabrika verilerine sıfırlama gibi güvenlik ayarlarını değiştirebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Bu uygulama, SD kartlar ve USB depolama cihazları gibi harici depolama kullanımını engelleyebilir. Bu durum, harici depolamayı kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Bu uygulama, USB bağlanma işlevinin kullanımı dahil olmak üzere USB bağlantılarını engelleyebilir. Bu durum, USB bağlantılarını kullanan uygulamaların düzgün şekilde çalışmasını engelleyebilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Bu uygulama, Wi-Fi ağlarının ve mobil erişim noktalarının kullanımını sınırlandırabilir. Telefon bir Wi-Fi ağına bağlanamazsa bir mobil ağa bağlanabilir. Ödeme planınıza bağlı olarak ek ücretler uygulanabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Bu uygulama, cihazınızdan tüm verileri silebilir ve cihazınızı varsayılan fabrika ayarlarına sıfırlayabilir."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Bu uygulama, kapsayıcıları oluşturup kaldırabilir. Kapsayıcılar, ayrı uygulama çalışma süresi ortamları ve veri hafızaları sunan, özel çalışma alanlarıdır."
 

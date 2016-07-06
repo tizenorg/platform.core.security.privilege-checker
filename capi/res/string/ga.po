@@ -184,6 +184,9 @@ msgstr "Pribhléidí eile"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Socruithe feidhmchláir ghréasáin a bhainistiú"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Ceamara"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Seoladh teachtaireachtaí"
 
@@ -592,6 +595,12 @@ msgstr "Glaonna fóin a chur"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Is féidir leis an bhfeidhmchlár seo sonraí cártaí cliste a rochtain, amhail sonraí cártaí creidmheasa, agus ceadú d'úsáideoirí íocaíochtaí a dhéanamh trí NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Glaoigh"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Teachtaireacht"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Is féidir leis an bhfeidhmchlár seo teachtaireachtaí téacs agus ilmheán a scríobh, a sheoladh, a scriosadh, agus a bhogadh, agus socruithe agus stádais na dteachtaireachtaí a athrú, amhail cibé acu atá léite nó neamhléite."
 
@@ -739,6 +748,9 @@ msgstr "Giuirléidí a thaispeáint"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Is féidir leis an bhfeidhmchlár seo giuirléidí, agus faisnéis ó na feidhmchláir lena mbaineann, a thaispeáint ar an scáileán baile."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Cuntais"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Seirbhísí léarscáile a úsáid"
 
@@ -805,6 +817,9 @@ msgstr "Is féidir leis an bhfeidhmchlár seo gníomhartha a léamh a bhfuil bai
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Imeachtaí eochrach speisialta a ghabháil"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Leabharmharc"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Tarchuradóir infridhearg a úsáid"
 
@@ -842,14 +857,116 @@ msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLI
 msgstr "Is féidir leis an bhfeidhmchlár seo iarraidh comhaid a scanadh in aon fheidhmchláir eile nó ar an ngléas d'fhonn inneachar díobhálach a bhrath."
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
-msgstr "Is féidir leis an bhfeidhmchlár seo creidiúnacht seolta gréasáin a sheiceáil agus a chinneadh cibé acu a gcuirfí nó nach gcuirfí do ghléas i mbaol dá ndéanfaí é a rochtain."
+msgstr "Is féidir leis an bhfeidhmchlár seo creidiúnacht ag seoladh gréasáin a sheiceáil agus a chinneadh cibé acu a gcuirfí nó nach gcuirfí do ghléas i mbaol dá ndéanfaí é a rochtain."
 
 msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
 msgstr "Feidhmchláir frithvíreas agus bogearraí mailíseacha braite a bhainistiú"
 
 msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
-msgstr "Creidiúnacht seoltaí gréasáin a sheiceáil"
+msgstr "Creidiúnacht ag seoladh gréasáin a sheiceáil"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Is féidir leis an bhfeidhmchlár seo feidhmchláir frithvíreas a chumasú nó a dhíchumasú agus bogearraí mailíseacha braite a bhainistiú."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Srian a chur le naisc Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Cosc a chur ar úsáid an bhrabhsálaí ghréasáin"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Srian a chur le húsáid an cheamara"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Srian a chur le rochtain ar an ngearrthaisce"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Srian a chur le dífhabhtú"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Srian a chur le rochtain r-phoist POP agus IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Srian a chur le feidhmeanna suímh"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "An gléas a ghlasáil"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Srian a chur le cur teachtaireachtaí SMS, MMS, agus comhrá"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Srian a chur le húsáid an mhicreafóin"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Beartais pasfhocal a bhainistiú"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Beartais slándála a bhainistiú"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Cosc a chur ar rochtain ar stóras seachtrach"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Srian a chur le ceangail USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Srian a chur le rochtain Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Sonraí a léirscriosadh agus an gléas a athshocrú"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Coimeádáin a bhainistiú"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar naisc Bluetooth. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann Bluetooth dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo cosc a chur ar úsáid feidhmchláir bhrabhsálaí. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann feidhmchláir bhrabhsálaí dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid an cheamara. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann an ceamara dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid na gearrthaisce. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann an ghearrthaisce dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid dífhabhtaithe. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann dífhabhtú dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar rochtain r-phoist POP agus IMAP. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann seirbhísí r-phoist dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar fheidhmeanna suímh. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann feidhmeanna suímh dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Is féidir leis an bhfeidhmchlár seo an gléas a ghlasáil."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar sheirbhísí curtha teachtaireachtaí téacs, ilmheán, agus comhrá. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann seirbhísí curtha teachtaireachtaí dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid an mhicreafóin. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann an micreafón dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo beartais phasfhocail a bhainistiú agus na pasfhocail a athshocrú a úsáidtear leis an bhfón a dhíghlasáil agus sonraí a aisghabháil."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo socruithe slándála a athrú, amhail iad siúd a bhaineann le suiteáil deimhnithe, criptiú sonraí, agus athshocruithe sonraí monarchan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo cosc a chur ar úsáid stórais sheachtraigh amhail cártaí SD agus gléasanna stórais USB. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann stóras seachtrach dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo cosc a chur ar naisc USB, lena n-áirítear Nascaireacht USB. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann naisc USB dá bharr sin."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid líonraí Wi-Fi agus ball te móibíleach. Mura féidir leis an bhfón nascadh le líonra Wi-Fi, is féidir go nascfaidh sé le líonra móibíleach. Is féidir go ngearrfar táillí breise air sin ag brath ar do phlean íocaíochta."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Is féidir leis an bhfeidhmchlár seo gach sonra a léirscriosadh ó do ghléas agus do ghléas a fhilleadh ar a réamhshocruithe monarchan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Is féidir leis an bhfeidhmchlár seo coimeádáin a chruthú agus a bhaint. Is éard atá i gceist le coimeádáin ná spásanna oibre príobháideacha a thugann timpeallachtaí ama rite agus stóras sonraí ar leith d'fheidhmchláir."
 

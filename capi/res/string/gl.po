@@ -184,6 +184,9 @@ msgstr "Outros privilexios"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Administración de axustes de aplicacións web"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Cámara"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Envío de mensaxes"
 
@@ -592,6 +595,12 @@ msgstr "Realización de chamadas telefónicas"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Esta aplicación pode acceder a detalles da tarxeta intelixente, como datos da tarxeta de crédito e permite que os usuarios realicen pagos mediante NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Chamar"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Mensaxe"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Esta aplicación pode escribir, enviar, eliminar e mover mensaxes de texto e multimedia e cambiar os axustes e os estados das mensaxes, como lida ou non lida."
 
@@ -739,6 +748,9 @@ msgstr "Mostrando widgets"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Esta aplicación pode mostrar widgets e información das súas aplicacións asociadas na pantalla de inicio."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Contas"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Uso dos servizos de mapas"
 
@@ -805,6 +817,9 @@ msgstr "Esta aplicación pode ler accións que inclúan teclas especiais, como a
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Captura de eventos clave especiais"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Favorito"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Uso do transmisor de infravermellos"
 
@@ -852,4 +867,106 @@ msgstr "Comprobación da reputación do enderezo web"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Esta aplicación pode activar ou desactivar programas antivirus e xestionar malware detectado."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Restrición de conexións Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Evitar o uso do navegador web"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Restrición do uso da cámara"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Restrición do acceso ao portapapeis"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Restrición da eliminación de fallos"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Restrición do acceso ao correo electrónico POP e IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Restrición das funcións de localización"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Bloqueo do dispositivo"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Restrición das mensaxes SMS, MMS e de chat"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Restrición do uso do micrófono"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Xestión de políticas de contrasinais"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Xestión de políticas de seguridade"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Evitar o acceso a almacenamento externo"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Restrición das conexións USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Restrición do acceso á Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Borrado de datos e restablecemento do dispositivo"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Xestión de contedores"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Esta aplicación pode restrinxir conexións Bluetooth. É posible que isto impida que as aplicacións que utilizan Bluetooth funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Esta aplicación pode evitar o uso de aplicacións de navegador. É posible que isto impida que as aplicacións que utilizan aplicacións de navegador funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Esta aplicación pode restrinxir o uso da cámara. É posible que isto impida que as aplicacións que utilizan a cámara funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Esta aplicación pode restrinxir o uso do portapapeis. É posible que isto impida que as aplicacións que utilizan o portapapeis funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Esta aplicación pode restrinxir o uso da depuración. É posible que isto impida que as aplicacións que utilizan a depuración funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Esta aplicación pode restrinxir o acceso ao correo electrónico POP e IMAP. É posible que isto impida que as aplicacións que utilizan servizos de correo electrónico funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Esta aplicación pode restrinxir o uso de funcións de localización. É posible que isto impida que as aplicacións que utilizan funcións de localización funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Esta aplicación pode bloquear o dispositivo."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Esta aplicación pode restrinxir o uso de servizos de mensaxería de texto, multimedia e chat. É posible que isto impida que as aplicacións que utilizan servizos de mensaxería funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Esta aplicación pode restrinxir o uso do micrófono. É posible que isto impida que as aplicacións que utilizan o micrófono funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Esta aplicación pode xestionar políticas de contrasinais e restablecer contrasinais usados para desbloquear o teléfono e recuperar os datos."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Esta aplicación pode cambiar os axustes de seguridade, como os correspondentes á instalación de certificados, ao cifrado de datos e aos restablecementos dos datos de fábrica."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Esta aplicación pode evitar o uso de almacenamentos externos, como tarxetas SD e dispositivos de almacenamento USB. É posible que isto impida que as aplicacións que utilizan almacenamentos externos funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Esta aplicación pode evitar as conexións USB, incluído o uso do módem USB. É posible que isto impida que as aplicacións que utilizan conexións USB funcionen correctamente."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Esta aplicación pode restrinxir o uso de redes Wi-Fi e conexións compartidas. Se o teléfono non se pode conectar a unha rede Wi-Fi, é posible que se conecte a unha rede móbil. Isto pode carrexar custos adicionais dependendo do teu plan de pagamento."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Esta aplicación pode borrar todos os datos do teu dispositivo e restablecer os seus axustes predeterminados de fábrica."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Esta aplicación pode crear e eliminar contedores. Os contedores son espazos de traballo privados que fornecen contornos de tempo de execución de aplicacións independentes e almacenamento de datos."
 

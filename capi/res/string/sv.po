@@ -184,6 +184,9 @@ msgstr "Andra privilegier"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Hantera inställningar för webbprogram"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Meddelandehantering"
 
@@ -592,6 +595,12 @@ msgstr "Ringa telefonsamtal"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Det här programmet har åtkomst till uppgifter om smartkort, t.ex. kreditkortsuppgifter, och låter användare betala via NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Samtal"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Meddelande"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Det här programmet kan skriva, skicka, ta bort och flytta SMS och MMS och ändra inställningar och status som t.ex. läst/oläst för meddelanden."
 
@@ -739,6 +748,9 @@ msgstr "Visa widgetar"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Det här programmet kan visa widgetar och information från deras associerade program på hemskärmen."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Konton"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Använda karttjänster"
 
@@ -805,6 +817,9 @@ msgstr "Programmet kan läsa åtgärder som innefattar specialknappar, till exem
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Spelar in särskilda knapphändelser"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Bokmärke"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Använd infraröd sändare"
 
@@ -852,4 +867,106 @@ msgstr "Söker efter webbadressrykte"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Det här programmet kan aktivera eller inaktivera antivirusprogram och hantera identifierade skadliga program."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Begränsa Bluetooth-anslutningar"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Förhindra användning av webbläsaren"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Begränsa användningen av kameran"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Begränsa åtkomsten till urklipp"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Begränsa felsökning"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Begränsa åtkomsten till POP- och IMAP-e-post"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Begränsa platsfunktioner"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Låsa enheten"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Begränsa SMS, MMS och chattmeddelanden"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Begränsa användningen av mikrofonen"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Hantera lösenordspolicyer"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Hantera säkerhetsprinciper"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Förhindra åtkomst till extern lagring"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Begränsa USB-anslutningar"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Begränsa Wi-Fi-åtkomsten"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Radera data och återställa enheten"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Hantera behållare"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Det här programmet kan begränsa Bluetooth-anslutningar. Det kan leda till att program som använder Bluetooth inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Det här programmet kan hindra att webbläsarprogram används. Det kan leda till att program som använder webbläsare inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Det här programmet kan begränsa användningen av kameran. Det kan leda till att program som använder kameran inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Det här programmet kan begränsa användningen av urklipp. Det kan leda till att program som använder urklipp inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Det här programmet kan begränsa användningen av felsökning. Det kan leda till att program som använder felsökning inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Det här programmet kan begränsa POP- och IMAP-e-post. Det kan leda till att program som använder e-posttjänster inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Det här programmet kan begränsa användningen av platsfunktioner. Det kan leda till att program som använder platsfunktioner inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Det här programmet kan låsa enheten."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Det här programmet kan begränsa användningen av SMS-, MMS- och chattjänster. Det kan leda till att program som använder meddelandetjänster inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Det här programmet kan begränsa användningen av mikrofonen. Det kan leda till att program som använder mikrofonen inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Det här programmet kan hantera lösenordspolicyn och återställa lösenordet som låser upp telefonen och återställer data."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Det här programmet kan ändra säkerhetsinställningar för t.ex. installation av certifikat, datakryptering och återställning av fabriksdata."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Det här programmet kan hindra att externa lagringsenheter, som SD-kort och USB-lagringsenheter, används. Det kan leda till att program som använder externa lagringsenheter inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Det här programmet kan hindra att USB-anslutningar, inklusive USB-internetdelning, används. Det kan leda till att program som använder USB-anslutningar inte fungerar."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Det här programmet kan begränsa användningen av Wi-Fi-nätverk och mobila hotspots. Om telefonen inte kan ansluta till ett Wi-Fi-nätverk, kanske den ansluter till ett mobilnät. Detta kan medföra extra avgifter beroende på ditt avtal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Det här programmet kan radera alla data från enheten och återställa enheten till fabriksinställningarna."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Det här programmet kan skapa och ta bort behållare. Behållare är privata arbetsytor som erbjuder separata programkörningsmiljöer och datalagring."
 

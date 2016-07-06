@@ -184,6 +184,9 @@ msgstr "Басқа артықшылықтар"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Веб-бағдарлама параметрлерін басқару"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Камера"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Хабарламалар ауыстыру"
 
@@ -592,6 +595,12 @@ msgstr "Телефон қоңырауларын шалу"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Бұл бағдарлама несие картасы мәліметтері сияқты смарт карта мәліметтеріне қатынаса алады және пайдаланушыларға NFC арқылы төлемдер жасауға рұқсат береді."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Қоңырау"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Хабарлама"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Бұл бағдарлама мультимедиа хабарларын жаза, жібере, жоя және жылжыта алады және хабарлардың параметрлері мен күйлерін өзгерте алады, мысалы, оқылған не оқылмаған."
 
@@ -739,6 +748,9 @@ msgstr "Виджеттерді көрсету"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Бұл қолданба арқылы виджеттер мен ақпаратты олардың байланыстырылған қолданбаларынан бастапқы экранда көрсетуге болады."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Есептік жазбалар"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Карта қызметтерін пайдалану"
 
@@ -805,6 +817,9 @@ msgstr "Бұл қолданба тіпті фондық режимде жұмы�
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Арнайы перне оқиғаларын түсіру"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Белгі қосу"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Инфрақызыл тетікті пайдалану"
 
@@ -852,4 +867,106 @@ msgstr "Веб-мекенжайдың дәрежесін тексеру"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Бұл қолданба антивирустық бағдарламаларды қосып немесе өшіріп, анықталған зиянды бағдарламаны басқара алады."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth қосылымдарын шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Веб-браузерді пайдалануға жол бермеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Камераны пайдалануды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Буферге қатынасуды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Жөндеуді шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP және IMAP электрондық пошта қатынасын шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Орынды анықтау функцияларын шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Құрылғыны құлыптау"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS және чаттық хабар алмасуды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Микрофонды пайдалануды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Құпия сөз саясаттарын басқару"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Қауіпсіздік саясаттарын басқару"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Сыртқы жадқа қатынасуды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB қосылымдарын шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi желісіне қатынасуды шектеу"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Деректерді өшіріп, құрылғыны бастапқы қалпына келтіру"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Контейнерді басқару"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Осы қолданба Bluetooth қосылымдарын шектей алады. Бұл Bluetooth опциясын пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Осы қолданба браузер қолданбаларын пайдалануға бөгет бола алады. Бұл браузер қолданбаларын пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Осы қолданба камераны пайдалануды шектей алады. Бұл камераны пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Осы қолданба буферді пайдалануды шектей алады. Бұл буферді пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Осы қолданба жөндеуді пайдалануды шектей алады. Бұл жөндеуді пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Осы қолданба POP және IMAP электрондық пошта қатынасын шектей алады. Бұл электрондық пошта қызметтерін пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Осы қолданба орынды анықтау функцияларын пайдалануды шектей алады. Бұл орынды анықтау функцияларын пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Осы қолданба құрылғыны құлыптай алады."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Осы қолданба мәтіндік, мультимедиалық және чаттық хабар алмасу қызметтерін пайдалануды шектей алады. Бұл хабар алмасу қызметтерін пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Осы қолданба микрофонды пайдалануды шектей алады. Бұл микрофонды пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Осы қолданба құпиясөз саясаттарын басқарып, телефонның құлпын ашу үшін пайдаланылған құпиясөздер мен деректерді қалпына келтіре алады."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Осы қолданба сертификатты орнату, деректерді шифрлау және зауыттық деректерге дейін қалпына келтіру сияқты қауіпсіздік параметрлерін өзгерте алады."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Осы қолданба SD карталар мен USB сақтау құрылғылары сияқты сыртқы жадты пайдалануға бөгет бола алады. Бұл сыртқы жадты пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Осы қолданба USB қосылымдарына, оның ішінде USB модем режимін пайдалануды қоса алғанда, бөгет бола алады. Бұл USB қосылымдарын пайдаланатын қолданбалардың дұрыс жұмыс істеуіне жол бермеуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Осы қолданба Wi-Fi желілері мен ұялы жедел нүктелерді пайдалануды шектей алады. Егер телефон Wi-Fi желісіне қосыла алмаса, онда ол ұялы байланыс желісіне қосылуы мүмкін. Бұл төлем жоспарыңызға байланысты қосымша ақыларға әкелуі мүмкін."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Осы қолданба барлық деректерді құрылғыдан өшіріп, құрылғыны зауыттық әдепкі параметрлеріне қалпына келтіре алады."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Осы қолданба контейнерлерді жасап, оларды қайта жоя алады. Контейнерлер бұл қолданбаның іске қосылу уақытының бөлек орталары мен деректерді сақтау орнын қамтамасыз ететін жеке жұмыс орындары болып табылады."
 

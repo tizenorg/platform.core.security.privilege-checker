@@ -184,6 +184,9 @@ msgstr "Andre rettigheter"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Administrere innstillinger for nettapper"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Meldinger"
 
@@ -592,6 +595,12 @@ msgstr "Foreta telefonanrop"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Denne appen kan få tilgang til sikre smartkortdetaljer, som kredittkortdetaljer, og kan tillate brukere å foreta betalinger via NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Anrop"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Melding"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Denne appen kan skrive, sende, slette og flytte tekst- og multimediemeldinger og endre innstillinger og statuser for meldinger, som lest eller ulest."
 
@@ -739,6 +748,9 @@ msgstr "Vise widgeter"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Denne appen kan vise widgeter, og informasjon fra tilknyttede apper, på startskjermbildet."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Kontoer"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Bruke karttjenester"
 
@@ -805,6 +817,9 @@ msgstr "Denne appen kan lese handlinger som involverer spesialtaster, som volumt
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Ta vare på spesielle tastehendelser"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Bokmerke"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Bruke infrarød sender"
 
@@ -852,4 +867,106 @@ msgstr "Sjekke nettadresserykte"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Denne appen kan aktivere eller deaktivere anti-virusprogrammer og administrere oppdaget ondsinnet programvare."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Begrense Bluetooth-tilkoblinger"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Hindre nettleserbruk"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Begrense kamerabruk"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Begrense utklippstavletilgang"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Begrense feilsøking"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Begrense POP- og IMAP-e-posttilgang"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Begrense posisjonsfunksjoner"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Låse enheten"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Begrense SMS-, MMS- og chatmeldinger"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Begrense mikrofonbruk"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Administrere passordpolicyer"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Administrere sikkerhetspolicyer"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Hindre tilgang til ekstern lagring"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Begrense USB-tilkoblinger"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Begrense Wi-Fi-tilgang"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Slette data og tilbakestille enheten"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Administrere beholdere"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Denne appen kan begrense Bluetooth-tilkoblinger. Dette kan hindre at apper som bruker Bluetooth, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Denne appen kan hindre bruken av nettleserapper. Dette kan hindre at apper som bruker nettleserapper, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Denne appen kan begrense bruken av kameraet. Dette kan hindre at apper som bruker kameraet, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Denne appen kan begrense bruken av utklippstavlen. Dette kan hindre at apper som bruker utklippstavlen, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Denne appen kan begrense bruken av feilsøking. Dette kan hindre at apper som bruker feilsøking, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Denne appen kan begrense POP- og IMAP-e-posttilgang. Dette kan hindre at apper som bruker e-posttjenester, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Denne appen kan begrense bruken av posisjonsfunksjoner. Dette kan hindre at apper som bruker posisjonsfunksjoner, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Denne appen kan låse enheten."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Denne appen kan begrense bruken av tekst-, multimedie- og chatmeldingstjenester. Dette kan hindre at apper som bruker meldingstjenester, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Denne appen kan begrense bruken av mikrofonen. Dette kan hindre at apper som bruker mikrofonen, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Denne appen kan administrere passordpolicyer og tilbakestille passord som brukes til å låse opp telefonen og gjenopprette data."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Denne appen kan endre sikkerhetsinnstillinger, f.eks. for sertifikatinstallasjon, datakryptering og tilbakestilling til fabrikkstandarder."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Denne appen kan hindre bruken av ekstern lagring som SD-kort og USB-lagringsenheter. Dette kan hindre at apper som bruker ekstern lagring, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Denne appen kan hindre USB-tilkoblinger, inkludert bruken av Internettdeling via USB. Dette kan hindre at apper som bruker USB-tilkoblinger, fungerer som de skal."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Denne appen kan begrense bruken av Wi-Fi-nettverk og mobile trådløssoner. Hvis telefonen ikke kan koble til et Wi-Fi-nettverk, kan den koble til et mobilnett. Dette kan medføre ekstra kostnader, avhengig av abonnementet ditt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Denne appen kan slette alle data fra enheten og tilbakestille enheten til fabrikkinnstillinger."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Denne appen kan opprette og fjerne beholdere. Beholdere er private arbeidsområder som gir separate kjøretidsmiljøer for apper og datalagring."
 

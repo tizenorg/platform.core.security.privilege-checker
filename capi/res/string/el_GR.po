@@ -184,6 +184,9 @@ msgstr "Άλλα δικαιώματα"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Διαχείριση ρυθμίσεων εφαρμογών web"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Κάμερα"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Ανταλλαγή μηνυμάτων"
 
@@ -592,6 +595,12 @@ msgstr "Πραγματοποίηση τηλεφωνικών κλήσεων"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Αυτή η εφαρμογή έχει δυνατότητα πρόσβασης σε πληροφορίες έξυπνης κάρτας, όπως οι πληροφορίες πιστωτικών καρτών και η παροχή στους χρήστες της δυνατότητας πληρωμών μέσω NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Κλήση"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Μήνυμα"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Αυτή η εφαρμογή μπορεί να κάνει εγγραφή, αποστολή, διαγραφή και μεταφορά μηνυμάτων κειμένου και μέσων και να αλλάξει τις ρυθμίσεις και τις καταστάσεις των μηνυμάτων, όπως αναγνωσμένων/μη αναγνωσμένων."
 
@@ -739,6 +748,9 @@ msgstr "Εμφάνιση widget"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Αυτή η εφαρμογή μπορεί να εμφανίζει widget και τις πληροφορίες των σχετικών εφαρμογών τους στην αρχική οθόνη."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Λογαριασμοί"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Χρήση των υπηρεσιών χάρτη"
 
@@ -805,6 +817,9 @@ msgstr "Αυτή η εφαρμογή μπορεί να αναγνωρίσει ε
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Καταγραφή συμβάντων ειδικού κλειδιού"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Σελιδοδείκτης"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Χρήση πομπού υπέρυθρων"
 
@@ -852,4 +867,106 @@ msgstr "Έλεγχος της φήμης της διεύθυνσης web"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Αυτή η εφαρμογή μπορεί να ενεργοποιήσει ή να απενεργοποιήσει προγράμματα προστασίας από ιούς και να διαχειριστεί κακόβουλο λογισμικό που έχει εντοπιστεί."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Περιορισμός συνδέσεων Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Αποτροπή ανοίγματος προγράμματος περιήγησης web"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Περιορισμός χρήσης κάμερας"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Περιορισμός πρόσβασης στο πρόχειρο"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Περιορισμός εντοπισμού σφαλμάτων"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Περιορισμός πρόσβασης σε email POP και IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Περιορισμός λειτουργιών τοποθεσίας"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Κλείδωμα συσκευής"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Περιορισμός πρόσβασης σε SMS, MMS και μηνύματα συνομιλίας"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Περιορισμός χρήσης μικροφώνου"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Διαχείριση πολιτικών κωδικών πρόσβασης"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Διαχείριση πολιτικών ασφάλειας"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Αποτροπή πρόσβασης σε εξωτερικό χώρο αποθήκευσης"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Περιορισμός συνδέσεων USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Περιορισμός πρόσβασης σε Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Διαγραφή δεδομένων και επαναφορά συσκευής"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Διαχείριση κοντέινερ"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τις συνδέσεις Bluetooth. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν το Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να εμποδίσει τη χρήση των εφαρμογών προγραμμάτων περιήγησης. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν τις εφαρμογές προγραμμάτων περιήγησης."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση της κάμερας. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν την κάμερα."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση του πρόχειρου. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν το πρόχειρο."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση του εντοπισμού σφαλμάτων. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν τον εντοπισμό σφαλμάτων."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει την πρόσβαση σε email POP και IMAP. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν τις υπηρεσίες email."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση των λειτουργιών τοποθεσίας. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν τις λειτουργίες τοποθεσίας."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Αυτή η εφαρμογή μπορεί να κλειδώσει τη συσκευή."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση υπηρεσιών μηνυμάτων, πολυμέσων και ανταλλαγής μηνυμάτων συνομιλίας. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν υπηρεσίες ανταλλαγής μηνυμάτων."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να περιορίσει τη χρήση του μικροφώνου. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν το μικρόφωνο."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να διαχειρίζεται πολιτικές κωδικών πρόσβασης και να επαναφέρει τους κωδικούς πρόσβασης που χρησιμοποιούνται για το ξεκλείδωμα του τηλεφώνου και των δεδομένων ανάκτησης."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να αλλάξει τις ρυθμίσεις ασφαλείας όπως αυτές για εγκατάσταση πιστοποιητικών, κρυπτογράφηση δεδομένων και επαναφορά εργοστασιακών δεδομένων."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να εμποδίσει τη χρήση εξωτερικού χώρου αποθήκευσης όπως κάρτες SD και συσκευές αποθήκευσης USB. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν εξωτερικό χώρο αποθήκευσης."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να εμποδίσει τις συνδέσεις USB, συμπεριλαμβανομένης της χρήσης του USB tethering. Αυτό μπορεί να εμποδίσει τη σωστή λειτουργία των εφαρμογών που χρησιμοποιούν συνδέσεις USB."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Η εφαρμογή μπορεί να περιορίσει τη χρήση δικτύων Wi-Fi και mobile hotspot. Αν το τηλέφωνο δεν μπορεί να συνδεθεί σε ένα δίκτυο Wi-Fi, μπορεί να συνδεθεί σε δίκτυο κινητής τηλεφωνίας. Αυτό μπορεί να επιφέρει πρόσθετες χρεώσεις ανάλογα με το πρόγραμμα πληρωμής σας."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Αυτή η εφαρμογή μπορεί να διαγράψει όλα τα δεδομένα από τη συσκευή σας και να την επαναφέρει στις προεπιλεγμένες εργοστασιακές ρυθμίσεις."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Αυτή η εφαρμογή μπορεί να δημιουργήσει και να καταργήσει κοντέινερ. Τα κοντέινερ είναι ιδιωτικοί χώροι εργασίας που προσφέρουν ξεχωριστά περιβάλλοντα εκτέλεσης εφαρμογών καθώς και χώρο αποθήκευσης δεδομένων."
 

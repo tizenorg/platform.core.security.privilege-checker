@@ -184,6 +184,9 @@ msgstr "Bestelako abantailak"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Web aplikazio ezarpenak kudeatzea"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Mezularitza"
 
@@ -592,6 +595,12 @@ msgstr "Telefono deiak egitea"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Aplikazio hau txartel adimendunaren xehetasunetara sar daiteke, adibidez, kreditu txartelaren xehetasunetara, eta erabiltzaileei NFC bidez ordainketak egiteko baimena eman diezaieke."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Deia"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Mezua"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Aplikazio honek testu eta multimedia mezuak idatzi, bidali, ezabatu eta mugitu ditzake eta mezuen ezarpenak eta egoerak aldatu ditzake, adibidez, irakurrita edo irakurri gabe dauden."
 
@@ -739,6 +748,9 @@ msgstr "Widgetak erakustea"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Aplikazio honek widgetak erakuts ditzake pantaila nagusian, baita lotutako aplikazioetako informazioa ere."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Kontuak"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Mapa zerbitzuak erabiltzea"
 
@@ -805,6 +817,9 @@ msgstr "Tekla bereziei dagozkien ekintzak irakur ditzake aplikazio honek, hala n
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Gertaera berezi nagusien argazkiak"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Laster-marka"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infragorrien transmisorea erabiltzea"
 
@@ -851,5 +866,107 @@ msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
 msgstr "Web helbidearen ospea egiaztatzea"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
-msgstr "Aplikazio honek birusek aurkako programak gaitu edo desgaitu, eta detektatutako malwarea kudea dezake."
+msgstr "Aplikazio honek birusen aurkako programak gaitu edo desgaitu, eta detektatutako malwarea kudea dezake."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth konexioak mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Web nabigatzailearen erabilera saihestea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kameraren erabilera mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Arbelerako sarbidea mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Arazketa mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP eta IMAP posta sarbidea mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Kokapen funtzioak mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Gailua blokeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS, MMS eta txat mezularitza mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofonoaren erabilera mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Pasahitzen politikak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Segurtasun politikak kudeatzea"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Kanpoko biltegirako sarbidea galaraztea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB konexioak mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi sarbidea mugatzea"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Datuak ezabatzea eta gailua berrezartzea"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Edukitzaileak kudeatzea"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Bluetooth konexioak muga ditzake aplikazio honek. Horrela, baliteke Bluetooth konexioa darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Nabigatzaile aplikazioen erabilera eragotz dezake aplikazio honek. Horrela, baliteke nabigatzaile aplikazioak darabiltzaten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Kameraren erabilera muga dezake aplikazio honek. Horrela, baliteke kamera darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Arbelaren erabilera muga dezake aplikazio honek. Horrela, baliteke arbela darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Arazketaren erabilera muga dezake aplikazio honek. Horrela, baliteke arazketa darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "POP eta IMAP postarako sarbidea muga dezake aplikazio honek. Horrela, baliteke posta zerbitzuak darabiltzaten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Kokapen funtzioen erabilera muga dezake aplikazio honek. Horrela, baliteke kokapen funtzioak darabiltzaten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Gailua blokea dezake aplikazio honek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Testu, multimedia eta txat mezularitza zerbitzuen erabilera muga dezake aplikazio honek. Horrela, baliteke mezularitza zerbitzuak darabiltzaten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Mikrofonoaren erabilera muga dezake aplikazio honek. Horrela, baliteke mikrofonoa darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Pasahitzen politikak kudeatu, eta telefonoa desblokeatzeko eta datuak berrezartzeko erabiltzen diren pasahitzak berrezar ditzake aplikazio honek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Segurtasun ezarpenak alda ditzake aplikazio honek, adibidez, ziurtagiriak instalatzeari, datuak enkriptatzeari eta fabrikako datuak berrezartzeari dagozkienak."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Kanpoko memoriak erabiltzea galaraz dezake aplikazio honek, hala nola SD txartelak eta USB biltegiratze gailuak. Horrela, baliteke kanpoko memoria darabilten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "USB konexioak eragotz dezake aplikazio honek, USB bidezko konexio partekatzea barne. Horrela, baliteke USB konexioak darabiltzaten aplikazioek behar bezala ez funtzionatzea."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Wi-Fi sareen eta konexio partekatuen erabilera muga dezake aplikazio honek. Telefonoa ezin bada konektatu Wi-Fi sare batera, sare mugikor batekin saiatu beharko duzu. Baliteke kostu osagarriak eragitea zure tarifaren arabera."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Gailuko datu guztiak ezabatu eta gailuaren fabrikako ezarpenak berrezar ditzake aplikazio honek."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Edukitzaileak sortu eta ken ditzake aplikazio honek. Lantoki pribatuak dira edukitzaileak, eta aplikazioen exekuzio denboren ingurumen eta datu biltegiratze bereiziak eskaintzen dituzte."
 

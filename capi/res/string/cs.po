@@ -184,6 +184,9 @@ msgstr "Jiná oprávnění"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Správa nastavení webových aplikací"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Fotoaparát"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Zprávy"
 
@@ -592,6 +595,12 @@ msgstr "Volání"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Aplikace má přístup k detailům karet smart card, například k detailům kreditních karet, a umožňuje uživatelům platit prostřednictvím NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Volat"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Zpráva"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Aplikace může zapisovat, odesílat, odstraňovat a přesouvat textové a multimediální zprávy, a měnit nastavení a stavy zpráv, např. přečteno nebo nepřečteno."
 
@@ -739,6 +748,9 @@ msgstr "Zobrazení pomůcek"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Aplikace může na domovské obrazovce zobrazit pomůcky a informace z přidružených aplikací."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Účty"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Použití mapových služeb"
 
@@ -805,6 +817,9 @@ msgstr "Tato aplikace dokáže číst akce včetně speciálních tlačítek, na
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Zachycování akcí speciálních tlačítek"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Záložka"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Použití infračerveného vysílače"
 
@@ -852,4 +867,106 @@ msgstr "Kontrola reputace webové adresy"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Aplikace může zapínat nebo vypínat antivirové programy a spravovat detekovaný malware."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Omezování připojení Bluetooth"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Zabránění použití webového prohlížeče"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Omezování použití fotoaparátu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Omezování přístupu do schránky"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Omezování ladění"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Omezování přístupu k e-mailu POP a IMAP"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Omezování funkcí zjišťování polohy"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Zamykání zařízení"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Omezování přístupu k SMS, MMS a zprávám chatu"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Omezování použití mikrofonu"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Správa zásad hesel"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Správa zásad zabezpečení"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Zabránění v přístupu k externímu úložišti"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Omezování připojení USB"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Omezování přístupu k Wi-Fi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Mazání dat a obnovení nastavení zařízení"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Správa kontejnerů"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Aplikace může omezit připojení Bluetooth. Aplikace, které používají Bluetooth, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Aplikace může zabránit použití prohlížečů. Aplikace, které používají prohlížeče, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Aplikace může omezit použití fotoaparátu. Aplikace, které používají fotoaparát, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Aplikace může omezit použití schránky. Aplikace, které používají schránku, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Aplikace může omezit použití ladění. Aplikace, které používají ladění, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Aplikace může omezit přístup k e-mailu POP a IMAP. Aplikace, které používají e-mailové služby, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Aplikace může omezit použití funkcí zjišťování polohy. Aplikace, které používají funkce zjišťování polohy, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Aplikace může zamknout zařízení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Aplikace může omezit použití služeb textových a multimediálních zpráv a zpráv chatu. Aplikace, které používají služby zpráv, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Aplikace může omezit použití mikrofonu. Aplikace, které používají mikrofon, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Aplikace může spravovat zásady hesel, obnovit hesla použitá k odemknutí telefonu a obnovit data."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Aplikace může změnit nastavení zabezpečení, např. pro instalaci certifikátů, šifrování dat a obnovení výchozích nastavení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Aplikace může zabránit použití externího úložiště, například SD karet a paměťových zařízení USB. Aplikace, které používají externí úložiště, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Aplikace může zabránit připojení USB včetně sdílení internetového připojení přes USB. Aplikace, které používají připojení USB, nemusí fungovat správně."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Aplikace může omezit použití sítí Wi-Fi a mobilních hotspotů. Pokud se telefon nemůže připojit k síti Wi-Fi, může se připojit k mobilní síti. V závislosti na vašem tarifu mohou být účtovány další poplatky."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Aplikace může smazat všechna data ze zařízení a obnovit výchozí nastavení zařízení."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Aplikace může vytvářet a odebírat kontejnery. Kontejnery jsou soukromé pracovní prostory, které poskytují samostatná prostředí pro spouštění aplikací a úložiště dat."
 

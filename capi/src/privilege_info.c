@@ -582,6 +582,18 @@ int privilege_info_get_privacy_list(GList **privacy_list)
 	return ret;
 }
 
+int privilege_info_get_privacy_display(const char* privacy, char** privacy_display)
+{
+	TryReturn(privacy != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privacy is NULL");
+
+	int ret = privilege_db_manager_get_privacy_display(privacy, privacy_display);
+	if (ret == PRIVILEGE_DB_MANAGER_ERR_NONE)
+		ret = PRVMGR_ERR_NONE;
+	else
+		ret = PRVMGR_ERR_INTERNAL_ERROR;
+	return ret;
+}
+
 int privilege_info_get_privilege_list_by_privacy(const char* privacy, GList **privilege_list)
 {
 	TryReturn(privacy != NULL, , PRVMGR_ERR_INVALID_PARAMETER, "[PRVMGR_ERR_INVALID_PARAMETER] privacy is NULL");

@@ -184,6 +184,9 @@ msgstr "その他の権限"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Webアプリケーション設定の管理"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "カメラ"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "SMS"
 
@@ -592,6 +595,12 @@ msgstr "電話をかける"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "このアプリケーションは、クレジットカードなどのスマートカードの詳細情報にアクセスできます。また、ユーザーが決済方法としてNFCを使用することを許可します。"
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "通話"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "メッセージ"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "このアプリケーションは、テキストやマルチメディアメッセージの書き込み、送信、削除、および移動することができます。また、メッセージの既読/未読などの設定およびステータスを変更することができます。"
 
@@ -739,6 +748,9 @@ msgstr "ウィジェットを表示"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "このアプリケーションは、ホーム画面に、ウィジェットとそれに関連付けられたアプリケーションからの情報を表示することができます。"
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "アカウント"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "マップサービスを使用"
 
@@ -805,6 +817,9 @@ msgstr "このアプリケーションは、バックグラウンドで実行中
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "特別なキーイベントをキャプチャ"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "ブックマーク"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "赤外線送信機能の使用"
 
@@ -836,20 +851,122 @@ msgid "IDS_TPLATFORM_HEADER_MANAGING_VPN_HVIRTUAL_PRIVATE_NETWORK"
 msgstr "VPN(仮想プライベートネットワーク)の管理"
 
 msgid "IDS_ST_HEADER_SCANNING_FOR_VIRUSES"
-msgstr "ウィルスのスキャン"
+msgstr "ウイルスのスキャン"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLICATIONS_OR_ON_THE_DEVICE_TO_DETECT_HARMFUL_CONTENT"
 msgstr "このアプリケーションは、有害コンテンツを検出するために、他のアプリケーションのファイルまたは端末上のファイルのスキャンを要求することができます。"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
-msgstr "このアプリケーションは、Webアドレスの評判を確認して、そのWebアドレスにアクセスすると端末が危険にさらされる可能性があるかどうかを判断することができます。"
+msgstr "このアプリケーションは、Webアドレスの信頼性を確認して、そのWebアドレスにアクセスすると端末が危険にさらされる可能性があるかどうかを判断することができます。"
 
 msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
-msgstr "アンチウイルスプログラムと検出したマルウェアの管理"
+msgstr "アンチウイルスプログラムおよび検出したマルウェアを管理"
 
 msgid "IDS_ST_HEADER_CHECKING_FOR_WEB_ADDRESS_REPUTATION"
-msgstr "Webアドレスの評判を確認"
+msgstr "Webアドレスの信頼性を確認"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
-msgstr "このアプリケーションは、アンチウイルスプログラムを有効/無効にしたり、検出したマルウェアを管理することができます。"
+msgstr "このアプリケーションは、アンチウイルスプログラムを有効/無効にしたり、検出したマルウェアを管理したりすることができます。"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth接続の制限"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Webブラウザの使用の制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "カメラの使用の制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "クリップボードへのアクセスの制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "デバッグの制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POPおよびIMAP Eメールへのアクセスの制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "位置情報機能の制限"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "端末のロック"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "SMS、MMS、およびチャットメッセージの制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "マイクの使用の制限"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "パスワードポリシーの管理"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "セキュリティポリシーの管理"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "外部ストレージへのアクセスの制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB接続の制限"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fiへのアクセスの制限"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "データの消去と端末のリセット"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "コンテナの管理"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "このアプリケーションは、Bluetooth接続を制限することができます。これにより、Bluetoothを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "このアプリケーションは、ブラウザアプリケーションの使用を制限することができます。これにより、ブラウザアプリケーションを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "このアプリケーションは、カメラの使用を制限することができます。これにより、カメラを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "このアプリケーションは、クリップボードの使用を制限することができます。これにより、クリップボードを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "このアプリケーションは、デバッグの使用を制限することができます。これにより、デバッグを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "このアプリケーションは、POPおよびIMAP Eメールへのアクセスを制限することができます。これにより、Eメールサービスを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "このアプリケーションは、位置情報機能の使用を制限することができます。これにより、位置情報機能を使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "このアプリケーションは、端末をロックすることができます。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "このアプリケーションは、テキストメッセージ、マルチメディアメッセージ、およびチャットメッセージサービスの使用を制限することができます。これにより、メッセージサービスを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "このアプリケーションは、マイクの使用を制限することができます。これにより、マイクを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "このアプリケーションは、パスワードポリシーを管理し、端末のロック解除やデータの復元に使用されるパスワードをリセットすることができます。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "このアプリケーションは、証明書のインストール、データの暗号化、工場出荷状態への初期化などのセキュリティ設定を変更することができます。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "このアプリケーションは、外部SDカードやUSBストレージデバイスなどの外部ストレージの使用を制限することができます。これにより、外部ストレージを使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "このアプリケーションは、USBテザリングの使用を含むUSB接続を制限することができます。これにより、USB接続を使用するアプリケーションは正しく動作しない場合があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "このアプリケーションは、Wi-FiネットワークおよびWi-Fiテザリングの使用を制限することができます。端末がWi-Fiネットワークに接続できない場合、モバイルネットワークに接続される可能性があります。これにより、料金プランによっては、追加料金が発生する可能性があります。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "このアプリケーションは、端末から全てのデータを消去して、端末を工場出荷時の状態にリセットすることができます。"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "このアプリケーションは、コンテナを作成/削除することができます。コンテナとは、個々のアプリのランタイム環境およびデータストレージを提供するプライベートワークスペースです。"
 

@@ -184,6 +184,9 @@ msgstr "Muut käyttöoikeudet"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Verkkosovelluksen asetusten hallinta"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Viestit"
 
@@ -592,6 +595,12 @@ msgstr "Puheluiden soittaminen"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Tämä sovellus pystyy käyttämään älykortilla olevia tietoja, kuten luottokorttitietoja, ja antaa käyttäjien tehdä NFC-maksuja."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Puhelu"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Viesti"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Tämä sovellus pystyy kirjoittamaan, lähettämään, poistamaan ja siirtämään teksti- ja multimediaviestejä sekä muuttamaan viestien asetuksia ja tiloja, muun muassa luetuiksi tai lukemattomiksi."
 
@@ -739,6 +748,9 @@ msgstr "Pienoisohjelmien näyttäminen"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Tämä sovellus pystyy näyttämään pienoisohjelmat ja niihin liittyvien sovellusten tiedot alkunäytössä."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Tilit"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Karttapalveluiden käyttäminen"
 
@@ -805,6 +817,9 @@ msgstr "Tämä sovellus pystyy lukemaan erikoisnäppäimiin, kuten tämän laitt
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Erikoistapahtumien sieppaus"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Kirjanmerkki"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infrapunalähettimen käyttäminen"
 
@@ -852,4 +867,106 @@ msgstr "Verkko-osoitteen maineen tarkistaminen"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Tämä sovellus pystyy ottamaan virustorjuntaohjelmat käyttöön tai poistamaan ne käytöstä sekä hallitsemaan havaittuja haittaohjelmia."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Bluetooth-yhteyksien rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Verkkoselaimen käytön estäminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Kameran käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Leikepöydän käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Virheenkorjauksen rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "POP- ja IMAP-sähköpostin käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Sijaintitoimintojen rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Laitteen lukitseminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Teksti-, multimedia- ja keskusteluviestien käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Mikrofonin käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Salasanakäytäntöjen hallinta"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Suojauskäytäntöjen hallinta"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Ulkoisen tallennuslaitteen käytön estäminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "USB-yhteyksien rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Wi-Fi-verkkojen käytön rajoittaminen"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Tietojen poistaminen ja laitteen asetusten palauttaminen"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Säilöjen hallinta"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan Bluetooth-yhteyksiä. Tämä voi estää Bluetoothia käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Tämä sovellus pystyy estämään selainsovellusten käytön. Tämä voi estää selainsovelluksia käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan kameran käyttöä. Tämä voi estää kameraa käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan leikepöydän käyttöä. Tämä voi estää leikepöytää käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan virheenkorjauksen käyttöä. Tämä voi estää virheenkorjausta käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan POP- ja IMAP-sähköpostin käyttöä. Tämä voi estää sähköpostipalveluita käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan sijaintitoimintojen käyttöä. Tämä voi estää sijaintitoimintoja käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Tämä sovellus pystyy lukitsemaan laitteen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan teksti-, multimedia- ja keskusteluviestipalveluiden käyttöä. Tämä voi estää viestipalveluita käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan mikrofonin käyttöä. Tämä voi estää mikrofonia käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Tämä sovellus pystyy hallitsemaan salasanakäytäntöjä sekä vaihtamaan puhelimen lukituksen poistamiseen ja tietojen palauttamiseen käytettävät salasanat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Tämä sovellus pystyy muuttamaan suojausasetuksia, jotka liittyvät esimerkiksi varmenteiden asennukseen, tietojen salaukseen ja tehdasasetusten palautukseen."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Tämä sovellus pystyy estämään ulkoisten tallennuslaitteiden, kuten SD-korttien ja USB-tallennuslaitteiden, käytön. Tämä voi estää ulkoista tallennustilaa käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Tämä sovellus pystyy estämään USB-yhteydet, myös USB-yhteyden jaon käytön. Tämä voi estää USB-yhteyksiä käyttäviä sovelluksia toimimasta oikein."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Tämä sovellus pystyy rajoittamaan Wi-Fi-verkkojen ja mobiilitukiasemien käyttöä. Jos puhelin ei pysty muodostamaan yhteyttä Wi-Fi-verkkoon, se voi muodostaa yhteyden matkapuhelinverkkoon. Tästä voidaan periä lisämaksuja tilauksesi mukaan."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Tämä sovellus pystyy poistamaan kaikki laitteessa olevat tiedot ja palauttamaan laitteen oletusasetukset."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Tämä sovellus pystyy luomaan ja poistamaan säilöjä. Säilöt ovat yksityisiä työtiloja, joiden sovellusten suoritusympäristöt ja tietojen tallennussijainnit ovat erillisiä."
 

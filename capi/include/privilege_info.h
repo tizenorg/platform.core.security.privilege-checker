@@ -142,6 +142,17 @@ EXPORT_API int privilege_info_is_privacy(const char *privilege);
 EXPORT_API int privilege_info_get_privacy_list(GList **privacy_list);
 
 /**
+ * @brief Gets privacy display.
+ * @remarks @a privacy_display must be released with g_list_free() by you.
+ * @param [in] privacy The privacy
+ * @param [out] privacy_display The privacy display
+ * @return 0 on success, otherwise a nonzero error value.
+ * @retval #PRVMGR_ERR_NONE Successful
+ * @retval #PRVMGR_ERR_INTERNAL_ERROR Internal error
+ */
+EXPORT_API int privilege_info_get_privacy_display(const char* privacy, char** privacy_display);
+
+/**
  * @brief Gets privilege list with the given privacy.
  * @remarks @a privilege_list must be released with g_list_free() by you.
  * @param [in]  privacy The privacy

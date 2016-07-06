@@ -184,6 +184,9 @@ msgstr "Druge privilegije"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Upravljanje podešavanjima web aplikacija"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Kamera"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Poruke"
 
@@ -592,6 +595,12 @@ msgstr "Obavljanje telefonskih poziva"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Ova aplikacija može da pristupi detaljima o smart kartici kao što su detalji o kreditnoj kartici, kao i da dozvoli korisnicima da vrše plaćanja putem funkcije NFC."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Poziv"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Poruka"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Ova aplikacija može da piše, šalje, briše i premešta tekstualne i multimedijalne poruke, kao i da menja podešavanja i statuse poruka – da li su pročitane ili nepročitane."
 
@@ -739,6 +748,9 @@ msgstr "Prikazivanje widget-a"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Ova aplikacija može da na početnom ekranu prikaže widget-e i informacije aplikacija koje su u vezi sa njima."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Nalozi"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Korišćenje usluga mape"
 
@@ -805,6 +817,9 @@ msgstr "Ova aplikacija može da čita radnje koje uključuju specijalne tastere 
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Snimanje događaja specijalnim tasterom"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Obeleživač"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Korišćenje odašiljača infracrvenih zraka"
 
@@ -852,4 +867,106 @@ msgstr "Provera reputacije veb adrese"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Ova aplikacija može da omogući ili onemogući antivirusne programe i upravlja detektovanim malverom."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "Ograničavanje Bluetooth veza"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Sprečavanje upotrebe veb pretraživača"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "Ograničavanje upotrebe kamere"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "Ograničavanje pristupa privremenoj memoriji"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "Ograničavanje otkrivanja grešaka"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "Ograničavanje pristupa POP i IMAP e-pošti"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "Ograničavanje funkcija lokacije"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Zaključavanje uređaja"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Ograničavanje razmene SMS-a, MMS-a i poruka ćaskanja"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "Ograničavanje upotrebe mikrofona"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Upravljanje politikama o unosu lozinke"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Upravljanje politikom bezbednosti"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Sprečavanje pristupa eksternoj memoriji"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Ograničavanje USB veza"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "Ograničavanje pristupa Wi-Fi vezi"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Brisanje podataka i resetovanje uređaja"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Upravljanje kontejnerima"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Ova aplikacija može da ograniči Bluetooth veze. Ovo može da spreči pravilan rad aplikacija koje koriste Bluetooth."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Ova aplikacija može da spreči korišćenje aplikacija pretraživača. Ovo može da spreči pravilan rad aplikacija koje koriste aplikacije pretraživača."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje kamere. Ovo može da spreči pravilan rad aplikacija koje koriste kameru."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje privremene memorije. Ovo može da spreči pravilan rad aplikacija koje koriste privremenu memoriju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje otkrivanja grešaka. Ovo može da spreči pravilan rad aplikacija koje koriste otkrivanje grešaka."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Ova aplikacija može da ograniči pristup POP i IMAP e-pošti. Ovo može da spreči pravilan rad aplikacija koje koriste usluge e-pošte."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje funkcija lokacije. Ovo može da spreči pravilan rad aplikacija koje koriste funkcije lokacije."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Ova aplikacija može da zaključa uređaj."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje usluga razmene tekstualnih poruka, multimedijalnih poruka i poruka ćaskanja. Ovo može da spreči pravilan rad aplikacija koje koriste usluge razmene poruka."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje mikrofona. Ovo može da spreči pravilan rad aplikacija koje koriste mikrofon."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Ova aplikacija može da upravlja politikama o lozinkama i da resetuje lozinke koje se koriste za otključavanje telefona i vraćanje podataka."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Ova aplikacija može da menja bezbednosna podešavanja kao što su ona za instalaciju sertifikata, šifrovanje podataka i resetovanja fabričkih podešavanja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Ova aplikacija može da spreči upotrebu eksterne memorije kao što su SD kartice i USB uređaji za skladištenje. Ovo može da spreči pravilan rad aplikacija koje koriste eksternu memoriju."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Ova aplikacija može da spreči USB veze, kao i upotrebu funkcije USB vezivanje. Ovo može da spreči pravilan rad aplikacija koje koriste USB veze."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Ova aplikacija može da ograniči korišćenje Wi-Fi mreža i mobilnih pristupnih tačaka. Ukoliko telefon ne može da se poveže na Wi-Fi mrežu, on može da se poveže na mobilnu mrežu. Ovo može da dovede do dodatnih troškova u zavisnosti od tarifnog paketa."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ova aplikacija može da obriše sve podatke sa vašeg uređaja i resetuje vaš uređaj na njegova podrazumevana fabrička podešavanja."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ova aplikacija može da kreira i uklanja kontejnere. Kontejneri su privatni radni prostori koji obezbeđuju odvojena okruženja za pokretanje aplikacija i skladištenje podataka."
 

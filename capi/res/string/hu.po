@@ -184,6 +184,9 @@ msgstr "Egyéb jogok"
 msgid "IDS_TPLATFORM_BODY_MANAGING_WEB_APPLICATION_SETTINGS_M_NOUN"
 msgstr "Webalkalmazás-beállítások kezelése"
 
+msgid "IDS_TPLATFORM_BODY_CAMERA"
+msgstr "Fényképező"
+
 msgid "IDS_TPLATFORM_BODY_MESSAGING"
 msgstr "Üzenetek"
 
@@ -592,6 +595,12 @@ msgstr "Telefonhívás indítása"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_SMART_CARD_DETAILS_SUCH_AS_CREDIT_CARD_DETAILS_AND_ALLOW_USERS_TO_MAKE_PAYMENTS_VIA_NFC"
 msgstr "Az alkalmazás hozzáférhet az intelligens kártyák, mint például a hitelkártyák adataihoz, és lehetővé teheti a felhasználó számára az NFC-fizetést."
 
+msgid "IDS_ST_BODY_CALL"
+msgstr "Hívás"
+
+msgid "IDS_ST_BODY_MESSAGE"
+msgstr "Üzenet"
+
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_WRITE_SEND_DELETE_AND_MOVE_TEXT_AND_MULTIMEDIA_MESSAGES_AND_CHANGE_THE_SETTINGS_AND_STATUSES_OF_MESSAGES_MSG"
 msgstr "Az alkalmazás szöveges és multimédiás üzeneteket írhat, küldhet, törölhet és helyezhet át, továbbá módosíthatja az üzenetek beállításait és állapotát, például az olvasott vagy olvasatlan állapotot."
 
@@ -739,6 +748,9 @@ msgstr "Widgetek megjelenítése"
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SHOW_WIDGETS_AND_INFORMATION_FROM_THEIR_ASSOCIATED_APPLICATIONS_ON_THE_HOME_SCREEN"
 msgstr "Az alkalmazás megjelenítheti a kezdőképernyőn a widgeteket és azok társított alkalmazásainak adatait."
 
+msgid "IDS_ST_BODY_ACCOUNTS"
+msgstr "Fiókok"
+
 msgid "IDS_TPLATFORM_HEADER_USING_MAP_SERVICES"
 msgstr "Térképszolgáltatások használata"
 
@@ -805,6 +817,9 @@ msgstr "Az alkalmazás a háttérben futva is olvashatja a speciális – péld�
 msgid "IDS_TPLATFORM_HEADER_CAPTURING_SPECIAL_KEY_EVENTS"
 msgstr "Speciális gombok eseményeinek naplózása"
 
+msgid "IDS_BR_OPT_BOOKMARK"
+msgstr "Könyvjelző"
+
 msgid "IDS_ST_HEADER_USING_INFRARED_TRANSMITTER"
 msgstr "Infraadó használata"
 
@@ -852,4 +867,106 @@ msgstr "A webcím hírnevének ellenőrzése"
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_ENABLE_OR_DISABLE_ANTIVIRUS_PROGRAMS_AND_MANAGE_DETECTED_MALWARE"
 msgstr "Az alkalmazás be- és kikapcsolhatja a vírusirtó programokat, valamint kezelheti az észlelt kártevőket."
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_BLUETOOTH_CONNECTIONS"
+msgstr "A Bluetooth-kapcsolatok korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_WEB_BROWSER_USE"
+msgstr "Webböngésző használatának megakadályozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CAMERA_USAGE"
+msgstr "A kamera használatának korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_CLIPBOARD_ACCESS"
+msgstr "A vágólaphoz való hozzáférés korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_DEBUGGING"
+msgstr "A hibakeresés korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_POP_AND_IMAP_EMAIL_ACCESS"
+msgstr "A POP- és IMAP-protokollon keresztüli e-mail-hozzáférés korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_LOCATION_FUNCTIONS"
+msgstr "A helymeghatározási funkciók korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_LOCKING_DEVICE"
+msgstr "Az eszköz lezárása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_SMS_MMS_AND_CHAT_MESSAGING"
+msgstr "Az SMS-ek, MMS-ek és csevegőüzenetek küldésének korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_MICROPHONE_USAGE"
+msgstr "A mikrofon használatának korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_PASSWORD_POLICIES"
+msgstr "Jelszóházirendek kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_SECURITY_POLICIES"
+msgstr "Biztonsági házirendek kezelése"
+
+msgid "IDS_TPLATFORM_HEADER_PREVENTING_ACCESS_TO_EXTERNAL_STORAGE"
+msgstr "Külső tárolóhoz való hozzáférés megakadályozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_USB_CONNECTIONS"
+msgstr "Az USB-kapcsolatok korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_RESTRICTING_WI_FI_ACCESS"
+msgstr "A Wi-Fi-hez való hozzáférés korlátozása"
+
+msgid "IDS_TPLATFORM_HEADER_ERASING_DATA_AND_RESETTING_DEVICE"
+msgstr "Az adatok törlése és az eszköz visszaállítása"
+
+msgid "IDS_TPLATFORM_HEADER_MANAGING_CONTAINERS"
+msgstr "Tárolók kezelése"
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_BLUETOOTH_CONNECTIONS_MSG"
+msgstr "Az alkalmazás korlátozhatja a Bluetooth-kapcsolatokat. Emiatt előfordulhat, hogy a Bluetooth-kapcsolatot használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_BROWSER_APPLICATIONS_MSG"
+msgstr "Az alkalmazás megakadályozhatja a böngészőalkalmazások használatát. Emiatt előfordulhat, hogy a böngészőalkalmazásokat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CAMERA_MSG"
+msgstr "Az alkalmazás korlátozhatja a kamera használatát. Emiatt előfordulhat, hogy a kamerát használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_CLIPBOARD_MSG"
+msgstr "Az alkalmazás korlátozhatja a vágólap használatát. Emiatt előfordulhat, hogy a vágólapot használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG"
+msgstr "Az alkalmazás korlátozhatja a hibakeresés használatát. Emiatt előfordulhat, hogy a hibakeresést használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
+msgstr "Az alkalmazás korlátozhatja a POP- és IMAP-protokollon keresztüli hozzáférést az e-mailekhez. Emiatt előfordulhat, hogy az e-mail-szolgáltatásokat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
+msgstr "Az alkalmazás korlátozhatja a helymeghatározási funkciók használatát. Emiatt előfordulhat, hogy a helymeghatározási funkciókat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_THE_DEVICE"
+msgstr "Az alkalmazás lezárhatja az eszközt."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_TEXT_MULTIMEDIA_AND_CHAT_MESSAGING_SERVICES_MSG"
+msgstr "Az alkalmazás korlátozhatja a szöveges, multimédiás és csevegőüzeneteket küldő szolgáltatások használatát. Emiatt előfordulhat, hogy az üzenetküldő szolgáltatásokat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_THE_MICROPHONE_MSG"
+msgstr "Az alkalmazás korlátozhatja a mikrofon használatát. Emiatt előfordulhat, hogy a mikrofont használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_MANAGE_PASSWORD_POLICIES_AND_RESET_THE_PASSWORDS_USED_MSG"
+msgstr "Az alkalmazás kezelheti a jelszóházirendeket, valamint visszaállíthatja a telefon feloldására és az adatok helyreállítására használt jelszavakat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CHANGE_SECURITY_SETTINGS_SUCH_AS_THOSE_FOR_CERTIFICATE_INSTALLATION_MSG"
+msgstr "Az alkalmazás módosíthatja a biztonsági beállításokat, például a tanúsítványok telepítésére, az adatok titkosítására és a gyári adatok visszaállítására vonatkozókat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_THE_USE_OF_EXTERNAL_STORAGE_SUCH_AS_SD_CARDS_AND_USB_STORAGE_DEVICES_MSG"
+msgstr "Az alkalmazás megakadályozhatja a külső tárolók – például az SD-kártyák és az USB-tárolóeszközök – használatát. Emiatt előfordulhat, hogy a külső tárolókat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_PREVENT_USB_CONNECTIONS_INCLUDING_THE_USE_OF_USB_TETHERING_MSG"
+msgstr "Az alkalmazás megakadályozhatja az USB-kapcsolatok – többek között az USB-internetmegosztás – használatát. Emiatt előfordulhat, hogy az USB-kapcsolatokat használó alkalmazások nem fognak megfelelően működni."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_WI_FI_NETWORKS_AND_MOBILE_HOTSPOTS_MSG"
+msgstr "Az alkalmazás korlátozhatja a Wi-Fi-hálózatok és mobil hotspotok használatát. Ha a telefon nem tud Wi-Fi-hálózatra csatlakozni, lehet, hogy mobilhálózatra igen. Ez az előfizetési csomagtól függően további költséggel járhat."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_AND_RESET_YOUR_DEVICE_TO_ITS_FACTORY_DEFAULT_SETTINGS"
+msgstr "Ez az alkalmazás törölheti az összes adatot az eszközről, valamint visszaállíthatja az eszköz gyári alapértelmezéseit."
+
+msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
+msgstr "Ez az alkalmazás létrehozhatja és eltávolíthatja a tárolókat. A tárolók olyan privát munkaterületek, amelyek különálló alkalmazásfuttatási környezetet és adattárolót biztosítanak."
 
