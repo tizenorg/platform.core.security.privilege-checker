@@ -970,3 +970,12 @@ msgstr "Tämä sovellus pystyy poistamaan kaikki laitteessa olevat tiedot ja pal
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Tämä sovellus pystyy luomaan ja poistamaan säilöjä. Säilöt ovat yksityisiä työtiloja, joiden sovellusten suoritusympäristöt ja tietojen tallennussijainnit ovat erillisiä."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Käyttäjähistoria"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofoni"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Tunnistimet"
+

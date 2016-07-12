@@ -970,3 +970,12 @@ msgstr "Ez az alkalmazás törölheti az összes adatot az eszközről, valamint
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Ez az alkalmazás létrehozhatja és eltávolíthatja a tárolókat. A tárolók olyan privát munkaterületek, amelyek különálló alkalmazásfuttatási környezetet és adattárolót biztosítanak."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Felhasználó előzményei"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Érzékelők"
+

@@ -970,3 +970,12 @@ msgstr "ამ აპლიკაციას შეუძლია ყველ
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "ამ აპლიკაციას შეუძლია, შექმნას და წაშალოს კონტეინერები. კონტეინერები წარმოადგენს პირად სამუშაო სივრცეებს, რომლებიც უზრუნველყოფს ცალკეული აპლიკაციის სამუშაო გარემოსა და მონაცემთა საცავს."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "მომხმარებლის ისტორია"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "მიკროფონი"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "სენსორები"
+

@@ -935,7 +935,7 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_DEBUGGING_MSG
 msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar úsáid dífhabhtaithe. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann dífhabhtú dá bharr sin."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_POP_AND_IMAP_EMAIL_ACCESS_MSG"
-msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar rochtain r-phoist POP agus IMAP. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann seirbhísí r-phoist dá bharr sin."
+msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar rochtain ar r-phoist POP agus IMAP. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann seirbhísí r-phoist dá bharr sin."
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_RESTRICT_THE_USE_OF_LOCATION_FUNCTIONS_MSG"
 msgstr "Is féidir leis an bhfeidhmchlár seo srian a chur ar fheidhmeanna suímh. Is féidir nach n-oibreoidh i gceart feidhmchláir a úsáideann feidhmeanna suímh dá bharr sin."
@@ -969,4 +969,13 @@ msgstr "Is féidir leis an bhfeidhmchlár seo gach sonra a léirscriosadh ó do 
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Is féidir leis an bhfeidhmchlár seo coimeádáin a chruthú agus a bhaint. Is éard atá i gceist le coimeádáin ná spásanna oibre príobháideacha a thugann timpeallachtaí ama rite agus stóras sonraí ar leith d'fheidhmchláir."
+
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Stair úsáideora"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Micreafón"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Braiteoirí"
 

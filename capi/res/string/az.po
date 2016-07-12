@@ -970,3 +970,12 @@ msgstr "Bu proqram bütün məlumatı cihazınızdan silə və cihazınızı zav
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Bu proqram konteynerlər yarada və silə bilər. Konteynerlər ayrıca proqram işləmə mühiti və məlumat yaddaşı təmin edən fərdi iş yerləridir."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "İstifadəçi tarixçəsi"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensorlar"
+

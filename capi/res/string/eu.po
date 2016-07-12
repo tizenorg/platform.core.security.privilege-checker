@@ -970,3 +970,12 @@ msgstr "Gailuko datu guztiak ezabatu eta gailuaren fabrikako ezarpenak berrezar 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Edukitzaileak sortu eta ken ditzake aplikazio honek. Lantoki pribatuak dira edukitzaileak, eta aplikazioen exekuzio denboren ingurumen eta datu biltegiratze bereiziak eskaintzen dituzte."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Erabiltzaile historia"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofonoa"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sentsoreak"
+

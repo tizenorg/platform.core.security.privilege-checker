@@ -970,3 +970,12 @@ msgstr "Aplikacija može izbrisati sve podatke s vašeg uređaja i vratiti uređ
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Ova aplikacija može stvoriti i ukloniti spremnike. Spremnici su privatni radni prostori koji pružaju odvojeno okruženje za izvođenje aplikacije i prostor za pohranu podataka."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Povijest korisnika"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Senzori"
+

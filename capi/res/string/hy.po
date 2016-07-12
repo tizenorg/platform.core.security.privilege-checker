@@ -970,3 +970,12 @@ msgstr "Այս ծրագիրը կարող է Ձեր սարքից ջնջել տվ�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Այս ծրագիրը կարող է ստեղծել և հեռացնել կոնտեյներներ: Կոնտեյներներն անձնական աշխատանքային տարածքներ են, որոնք տրամադրում են ծրագրերի գործարկման առանձին միջավայրեր և տվյալների պահոց:"
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Օգտվողի պատմություն"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Միկրոֆոն"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Տվիչներ"
+

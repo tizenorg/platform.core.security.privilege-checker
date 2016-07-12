@@ -970,3 +970,12 @@ msgstr "Aquesta aplicació pot esborrar totes les dades del dispositiu i restabl
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Aquesta aplicació pot crear i eliminar contenidors. Els contenidors són espais de treball privats que proporcionen entorns d'execució d'apps i d'emmagatzematge de dades per separat."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Historial de l'usuari"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Micròfon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensors"
+
