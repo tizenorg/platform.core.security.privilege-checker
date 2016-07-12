@@ -970,3 +970,12 @@ msgstr "Ta aplikacija lahko iz naprave izbriše vse podatke in ponastavi napravo
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Ta aplikacija lahko ustvarja in odstranjuje vsebnike. Vsebniki so zasebna delovna okolja, ki zagotavljajo ločena okolja za delovanje aplikacij in shrambo za podatke."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Zgodovina uporabnika"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Senzorji"
+

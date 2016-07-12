@@ -970,3 +970,12 @@ msgstr "Această aplicație poate să șteargă toate datele de pe dispozitivul 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Această aplicație poate să creeze și să elimine containere. Acestea sunt spații de lucru private care furnizează medii separate pentru rularea aplicațiilor și stocarea datelor."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Istoric utilizator"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Microfon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Senzori"
+

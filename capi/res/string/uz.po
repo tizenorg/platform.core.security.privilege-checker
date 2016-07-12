@@ -970,3 +970,12 @@ msgstr "Bu ilova qurilmadagi barcha ma’lumotlarni o‘chirib yuborishi va quri
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Bu ilova konteynerlarni yaratishi va olib tashlashi mumkin. Konteynerlar - bu alohida ilova ishlash vaqti muhiti va ma’lumotlar xotirasini taqdim etuvchi shaxsiy ish sohalari."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Foydalanuvchi tarixi"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensorlar"
+

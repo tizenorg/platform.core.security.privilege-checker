@@ -970,3 +970,12 @@ msgstr "Оваа апликација може да ги избрише сите
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Оваа апликација може да создава и да отстранува контејнери. Контејнерите се приватни работни простори што обезбедуваат посебни средини за извршување на апликации и меморија за податоци."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Корисничка историја"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Микрофон"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Сензори"
+

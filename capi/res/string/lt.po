@@ -970,3 +970,12 @@ msgstr "Ši programa gali ištrinti visus duomenis iš jūsų įrenginio ir atku
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Ši programa gali kurti ir pašalinti talpyklas. Talpyklos yra privačios darbo erdvės, teikiančios atskiras programos paleidimo aplinkas ir duomenų saugyklas."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Naudotojo istorija"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofonas"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Jutikliai"
+

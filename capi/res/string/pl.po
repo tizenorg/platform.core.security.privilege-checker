@@ -970,3 +970,12 @@ msgstr "Ta aplikacja może skasować wszystkie dane z urządzenia i wyzerować j
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Ta aplikacja może tworzyć i usuwać kontenery. Kontenery to prywatne obszary robocze zapewniające oddzielne środowiska działania aplikacji i pamięci danych."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Historia użytkownika"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Czujniki"
+
