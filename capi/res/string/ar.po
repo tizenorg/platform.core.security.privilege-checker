@@ -970,3 +970,12 @@ msgstr "يمكن لهذا التطبيق محو كل البيانات من جه�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "يمكن لهذا التطبيق إنشاء حاويات وإزالتها. تعتبر الحاويات مساحات خاصة توفر بيئات منفصلة لأوقات تشغيل التطبيق ووحدات تخزين للبيانات."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "محفوظات المستخدم"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "الميكروفون"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "أجهزة الاستشعار"
+

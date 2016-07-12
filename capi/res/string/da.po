@@ -857,7 +857,7 @@ msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_REQUEST_TO_SCAN_FILES_IN_ANY_OTHER_APPLI
 msgstr "Denne applikation kan anmode om at scanne filer i andre applikationer eller på enheden for at finde skadeligt indhold."
 
 msgid "IDS_ST_BODY_THIS_APPLICATION_CAN_CHECK_THE_REPUTATION_OF_A_WEB_ADDRESS_AND_DETERMINE_WHETHER_MSG"
-msgstr "Denne applikation kan tjekke en webadresses omdømme og afgøre, om den kan udsætte din enhed for risiko, hvis du besøger webadressen."
+msgstr "Denne applikation kan kontrollere en webadresses omdømme og afgøre, om den udgør en risiko for din enhed, hvis du besøger siden."
 
 msgid "IDS_ST_HEADER_MANAGING_ANTIVIRUS_PROGRAMS_AND_DETECTED_MALWARE"
 msgstr "Administration af antivirusprogrammer og registreret malware"
@@ -969,4 +969,13 @@ msgstr "Denne applikation kan slette alle data fra din enhed og nulstille din en
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Denne applikation kan oprette og fjerne beholdere. Beholdere er private arbejdsområder, der giver separate appruntimemiljøer og lagerplads til data."
+
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Brugeroversigt"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensorer"
 

@@ -970,3 +970,12 @@ msgstr "Diese Anwendung kann alle Daten auf Ihrem Gerät löschen und Ihr Gerät
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Diese Anwendung kann Container erstellen und entfernen. Container sind private Arbeitsbereiche, die separate App-Laufzeitumgebungen und -Datenspeicher bereitstellen."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Benutzerverlauf"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensoren"
+

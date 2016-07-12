@@ -970,3 +970,12 @@ msgstr "Deze applicatie kan alle gegevens van uw apparaat wissen en uw apparaat 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Deze applicatie kan containers maken en verwijderen. Containers zijn persoonlijke werkruimten die afzonderlijke app-runtimeomgevingen en gegevensopslag leveren."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Gebruikerhistorie"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Microfoon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensoren"
+

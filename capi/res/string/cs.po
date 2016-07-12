@@ -970,3 +970,12 @@ msgstr "Aplikace může smazat všechna data ze zařízení a obnovit výchozí 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Aplikace může vytvářet a odebírat kontejnery. Kontejnery jsou soukromé pracovní prostory, které poskytují samostatná prostředí pro spouštění aplikací a úložiště dat."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Historie uživatele"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Senzory"
+

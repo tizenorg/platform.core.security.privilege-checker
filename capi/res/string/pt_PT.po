@@ -970,3 +970,12 @@ msgstr "Esta aplicação pode apagar todos os dados do seu dispositivo e repô-l
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Esta aplicação pode criar e remover contentores. Os contentores são espaços de trabalho privados que fornecem armazenamento de dados e ambientes de tempo de execução de aplicações separados."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Histórico do utilizador"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Microfone"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensores"
+

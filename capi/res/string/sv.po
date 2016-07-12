@@ -970,3 +970,12 @@ msgstr "Det här programmet kan radera alla data från enheten och återställa 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Det här programmet kan skapa och ta bort behållare. Behållare är privata arbetsytor som erbjuder separata programkörningsmiljöer och datalagring."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Användarhistorik"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensorer"
+

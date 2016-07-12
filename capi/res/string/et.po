@@ -970,3 +970,12 @@ msgstr "See rakendus saab teie seadmest kõik andmed kustutada ja lähtestada te
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "See rakendus saab luua ja eemaldada mahuteid. Mahutid on privaatsed tööruumid, mis pakuvad eraldi keskkondi rakenduste käivitamiseks ja andmete salvestamiseks."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Kasutaja ajalugu"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Andurid"
+
