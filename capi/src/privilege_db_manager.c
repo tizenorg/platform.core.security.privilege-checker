@@ -305,18 +305,18 @@ int privilege_db_manager_get_privacy_display(const char *privacy, char **privacy
 	ret = sqlite3_prepare_v2(db, sql, strlen(sql), &stmt, NULL);
 	if (ret != SQLITE_OK) {
 		LOGE("[DB_FAIL] fail to prepare database : %s", sqlite3_errmsg(db));
-        __finalize_db(db, stmt, sql);
-        return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
-    }
+		__finalize_db(db, stmt, sql);
+		return PRIVILEGE_DB_MANAGER_ERR_INVALID_QUERY;
+	}
 
 	ret = sqlite3_step(stmt);
 	if (ret == SQLITE_ROW) {
 		LOGD("privacy display = %s", (char*) sqlite3_column_text(stmt, 0));
 		*privacy_display = strdup((char*)sqlite3_column_text(stmt, 0));
 		TryReturn(*privacy_display != NULL, __finalize_db(db, stmt, sql), PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY, "[PRIVILEGE_DB_MANAGER_ERR_OUT_OF_MEMORY] privilege_name's strdup is failed.");
-        __finalize_db(db, stmt, sql);
-        return PRIVILEGE_DB_MANAGER_ERR_NONE;
-    }
+		__finalize_db(db, stmt, sql);
+		return PRIVILEGE_DB_MANAGER_ERR_NONE;
+	}
 
 	__finalize_db(db, stmt, sql);
 

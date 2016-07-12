@@ -970,3 +970,12 @@ msgstr "Bu uygulama, cihazınızdan tüm verileri silebilir ve cihazınızı var
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Bu uygulama, kapsayıcıları oluşturup kaldırabilir. Kapsayıcılar, ayrı uygulama çalışma süresi ortamları ve veri hafızaları sunan, özel çalışma alanlarıdır."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Kullanıcı geçmişi"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensörler"
+

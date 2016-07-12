@@ -970,3 +970,12 @@ msgstr "Cette application peut effacer toutes les données de votre appareil et 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Cette application peut créer et supprimer des conteneurs. Il s'agit d'espaces de travail privés qui fournissent des environnements d'exécution d'applications et un stockage des données séparés."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Historique des utilisateurs"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Microphone"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Capteurs"
+

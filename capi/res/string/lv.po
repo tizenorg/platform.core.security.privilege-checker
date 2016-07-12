@@ -970,3 +970,12 @@ msgstr "Šī programma var izdzēst visus ierīces datus un atjaunot tās rūpn�
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Šī programma var izveidot un noņemt konteinerus. Konteineri ir privātas darbvietas, kas nodrošina atsevišķas programmu palaišanas vides un datu krātuves."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Lietotāja vēsture"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofons"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensori"
+

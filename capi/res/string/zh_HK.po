@@ -970,3 +970,12 @@ msgstr "此應用程式可以清除來自裝置的所有數據並將裝置重設
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "此應用程式可以建立與移除容器。容器是私人工作空間，可提供獨立的應用程式執行環境與數據儲存。"
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "用戶歷程記錄"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "話筒"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "感應器"
+

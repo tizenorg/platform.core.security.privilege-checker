@@ -970,3 +970,12 @@ msgstr "This application can erase all data from your device and reset your devi
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "This application can create and remove containers. Containers are private workspaces which provide separate app runtime environments and data storage."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "User history"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Microphone"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensors"
+

@@ -9,8 +9,11 @@ touch $DB_NAME
 echo "Creating PRIVILEGE_INFO table ..."
 sqlite3 $DB_NAME "CREATE TABLE PRIVILEGE_INFO (PROFILE_ID NUMERIC, PROFILE TEXT, PACKAGE_TYPE_ID NUMERIC, PACKAGE_TYPE TEXT, PRIVILEGE_LEVEL_ID NUMERIC, PRIVILEGE_LEVEL TEXT, API_VERSION_ISSUED TEXT, API_VERSION_EXPIRED TEXT, DOCUMENTED INTEGER, PRIVILEGE_NAME TEXT, IS_PRIVACY NUMERIC, PRIVACY_GROUP TEXT, PRIVILEGE_DISPLAY TEXT, PRIVILEGE_DESCRIPTION TEXT, PRIVILEGE_GROUP_ID NUMERIC, PRIVLEGE_GROUP TEXT, CHANGED_TO_2_4_0 TEXT);"
 
-echo "Create Valid Privilege Info Table..."
+echo "Create VALID_PRIVILEGE_INFO Table..."
 sqlite3 $DB_NAME "CREATE TABLE VALID_PRIVILEGE_INFO (PRIVILEGE_NAME TEXT UNIQUE, IS_PRIVACY NUMERIC, IS_INTERNAL NUMERIC);"
+
+echo "Create PRIVACY_INFO table..."
+sqlite3 $DB_NAME "CREATE TABLE PRIVACY_INFO (PRIVACY_GROUP TEXT UNIQUE, PRIVACY_DISPLAY TEXT);"
 
 echo "Inserting data ..."
 IFS=$'\n'
@@ -157,3 +160,27 @@ do
 	echo "Inserting $internal_privilege ..."
 	sqlite3 $DB_NAME "insert into valid_privilege_info (privilege_name, is_privacy, is_internal) values ('$internal_privilege', 0, 1)"
 done
+
+echo "Insert into PRIVACY_INFO"
+echo "ACCOUNT"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('ACCOUNT','IDS_ST_BODY_ACCOUNTS')"
+echo "BOOKMARK"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('BOOKMARK','IDS_BR_OPT_BOOKMARK')"
+echo "CALENDAR"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('CALENDAR','IDS_TPLATFORM_OPT_CALENDAR_ABB')"
+echo "CALL"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('CALL','IDS_ST_BODY_CALL')"
+echo "CAMERA"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('CAMERA','IDS_TPLATFORM_BODY_CAMERA')"
+echo "CONTACTS"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('CONTACTS','IDS_TPLATFORM_OPT_CONTACTS_ABB')"
+echo "LOCATION"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('LOCATION','IDS_TPLATFORM_OPT_LOCATION_T_LBS')"
+echo "MESSAGE"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('MESSAGE','IDS_ST_BODY_MESSAGE')"
+echo "MICROPHONE"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('MICROPHONE','IDS_TPLATFORM_MBODY_MICROPHONE')"
+echo "SENSOR"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('SENSOR','IDS_TPLATFORM_MBODY_SENSORS')"
+echo "USERHISTORY"
+sqlite3 $DB_NAME "insert into privacy_info (privacy_group, privacy_display) values ('USERHISTORY','IDS_TPLATFORM_MBODY_USER_HISTORY')"

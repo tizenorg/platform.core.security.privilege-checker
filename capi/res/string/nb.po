@@ -970,3 +970,12 @@ msgstr "Denne appen kan slette alle data fra enheten og tilbakestille enheten ti
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Denne appen kan opprette og fjerne beholdere. Beholdere er private arbeidsområder som gir separate kjøretidsmiljøer for apper og datalagring."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Brukerhistorikk"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofon"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Sensorer"
+
