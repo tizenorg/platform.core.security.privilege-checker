@@ -970,3 +970,12 @@ msgstr "Táto aplikácia môže vymazať všetky údaje zo zariadenia a resetova
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Táto aplikácia môže vytvárať a odstraňovať kontajnery. Kontajnery sú súkromné pracovné priestory, ktoré poskytujú oddelené prostredia na spúšťanie aplikácií a úložisko údajov."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "História používateľov"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Mikrofón"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Snímače"
+

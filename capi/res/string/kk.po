@@ -970,3 +970,12 @@ msgstr "Осы қолданба барлық деректерді құрылғы
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Осы қолданба контейнерлерді жасап, оларды қайта жоя алады. Контейнерлер бұл қолданбаның іске қосылу уақытының бөлек орталары мен деректерді сақтау орнын қамтамасыз ететін жеке жұмыс орындары болып табылады."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Пайдаланушының журналы"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Микрофон"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Сенсорлар"
+

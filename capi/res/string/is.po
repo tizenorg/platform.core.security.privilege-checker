@@ -970,3 +970,12 @@ msgstr "Þetta forrit getur eytt öllum gögnum af tækinu þínu og endurstillt
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "Þetta forrit getur búið til og fjarlægt svæði. Svæðin eru einkavinnusvæði sem bjóða upp á aðskilin keyrsluumhverfi fyrir forrit og gagnageymslu."
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "Notandaferill"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "Hljóðnemi"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "Skynjarar"
+

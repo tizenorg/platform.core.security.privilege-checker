@@ -245,7 +245,7 @@ msgid "IDS_TPLATFORM_BODY_ACCESSING_APPLICATION_DATA_IN_EXTERNAL_STORAGE_M_NOUN"
 msgstr "बाह्य स्टोरेज में एप्लीकेशन डाटा एक्सेस करना"
 
 msgid "IDS_TPLATFORM_BODY_MANAGING_VIBRATION_FEEDBACK_M_NOUN"
-msgstr "कंपन प्रतिपुष्टि प्रबंधित करना"
+msgstr "कंपन फीडबैक प्रबंधित करना"
 
 msgid "IDS_TPLATFORM_BODY_USING_SECURE_REPOSITORY_M_NOUN"
 msgstr "सुरक्षित संग्रह का उपयोग करना"
@@ -365,16 +365,16 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_READ_AND_WRITE_ITS_OWN_FILES_IN_E
 msgstr "यह एप्लीकेशन बाह्य स्टोरेज जैसे कि SD कार्ड्स में अपनी स्वयं की फाइलों को पढ़ और लिख सकता है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CONTROL_VIBRATION_FEEDBACK"
-msgstr "यह एप्लीकेशन कंपन प्रतिपुष्टि को नियंत्रित कर सकता है।"
+msgstr "यह एप्लीकेशन कंपन फीडबैक को नियंत्रित कर सकता है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ACCESS_THE_INTERNET_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
 msgstr "यह एप्लीकेशन इंटरनेट एक्सेस कर सकती है। इसके परिणाम स्वरूप आपके भुगतान योजना के आधार पर अतिरिक्त शुल्क लग सकते हैं।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_SAVE_KEYS_CERTIFICATES_AND_DATA_TO_AND_RETRIEVE_AND_DELETE_THEM_FROM_PASSWORD_PROTECTED_STORAGE"
-msgstr "यह एप्लीकेशन पासवर्ड-सुरक्षित संग्रहण में कुंजियों, प्रमाणपत्रों और डाटा को सुरक्षित कर सकता है और उन्हें वहाँ से पुनर्प्राप्त कर सकता है और हटा सकता है।"
+msgstr "यह एप्लीकेशन पासवर्ड-सुरक्षित स्टोरेज में कुंजियों, प्रमाणपत्रों और डाटा को सुरक्षित कर सकता है और उन्हें वहाँ से पुनर्प्राप्त कर सकता है और हटा सकता है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_LOCK_AND_UNLOCK_PASSWORD_PROTECTED_STORAGE_AND_MANAGE_PASSWORD_CHANGES_FOR_IT"
-msgstr "यह एप्लीकेशन पासवर्ड-सुरक्षित संग्रहण को लॉक और अनलॉक कर सकता है और इसके लिए पासवर्ड परिवर्तन प्रबंधित कर सकता है।"
+msgstr "यह एप्लीकेशन पासवर्ड-सुरक्षित स्टोरेज को लॉक और अनलॉक कर सकता है और इसके लिए पासवर्ड परिवर्तन प्रबंधित कर सकता है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_TURN_LEDS_ON_OR_OFF_SUCH_AS_THE_LED_ON_THE_FRONT_OF_THE_DEVICE_AND_THE_CAMERA_FLASH"
 msgstr "यह एप्लीकेशन LED चालू या बंद कर सकती है, जैसे कि डिवाइस के सामने की LED और कैमरा फ्लैश।"
@@ -968,5 +968,14 @@ msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_ERASE_ALL_DATA_FROM_YOUR_DEVICE_A
 msgstr "यह एप्लीकेशन आपके डिवाइस का पूरा डाटा मिटा सकती है और आपके डिवाइस को इसकी फैक्टरी डिफॉल्ट सेटिंग्स में रीसेट कर सकती है।"
 
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
-msgstr "यह एप्लीकेशन कंटेनर्स बना और निकाल सकती है। कंटेनर्स निजी कार्यस्थान होते हैं, जो अलग एप रनटाइम परिवेश और डाटा संग्रहण प्रदान करते हैं।"
+msgstr "यह एप्लीकेशन कंटेनर्स बना और निकाल सकती है। कंटेनर्स निजी कार्यस्थान होते हैं, जो अलग एप रनटाइम परिवेश और डाटा स्टोरेज प्रदान करते हैं।"
+
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "उपयोगकर्ता इतिहास"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "माइक्रोफोन"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "सेंसर्स"
 

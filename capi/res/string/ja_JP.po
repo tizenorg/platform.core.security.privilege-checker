@@ -970,3 +970,12 @@ msgstr "このアプリケーションは、端末から全てのデータを消
 msgid "IDS_TPLATFORM_BODY_THIS_APPLICATION_CAN_CREATE_AND_REMOVE_CONTAINERS_CONTAINERS_ARE_PRIVATE_WORKSPACES_WHICH_MSG"
 msgstr "このアプリケーションは、コンテナを作成/削除することができます。コンテナとは、個々のアプリのランタイム環境およびデータストレージを提供するプライベートワークスペースです。"
 
+msgid "IDS_TPLATFORM_MBODY_USER_HISTORY"
+msgstr "ユーザー履歴"
+
+msgid "IDS_TPLATFORM_MBODY_MICROPHONE"
+msgstr "マイク"
+
+msgid "IDS_TPLATFORM_MBODY_SENSORS"
+msgstr "センサー"
+
