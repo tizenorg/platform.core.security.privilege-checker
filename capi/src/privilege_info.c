@@ -19,6 +19,7 @@
 #include <locale.h>
 #include <dlog.h>
 #include <pkgmgr-info.h>
+#include <string.h>
 #include "privilege_db_manager.h"
 #include "privilege_info.h"
 #include "privilege_info_types.h"
