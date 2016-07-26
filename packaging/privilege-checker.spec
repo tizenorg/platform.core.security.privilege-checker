@@ -7,8 +7,6 @@ License: Apache-2.0
 Source0: %{name}-%{version}.tar.gz
 BuildRequires: cmake
 BuildRequires: pkgconfig(dlog)
-BuildRequires: pkgconfig(sqlite3)
-BuildRequires:  pkgconfig(glib-2.0)
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
@@ -30,6 +28,7 @@ BuildRequires:  pkgconfig(dlog)
 BuildRequires:  gettext-tools
 BuildRequires:  pkgconfig(pkgmgr-info)
 BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(sqlite3)
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
