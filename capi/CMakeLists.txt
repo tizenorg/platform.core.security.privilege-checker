@@ -15,12 +15,12 @@ INCLUDE_DIRECTORIES(
 SET(pc_requires "glib-2.0")
 
 INCLUDE(FindPkgConfig)
-pkg_check_modules(${fw_name} REQUIRED dlog pkgmgr-info glib-2.0)
+pkg_check_modules(${fw_name} REQUIRED dlog pkgmgr-info glib-2.0 sqlite3)
 FOREACH(flag ${${fw_name}_CFLAGS})
 	SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} ${flag}")
 ENDFOREACH(flag)
 
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -fPIC -D__TIZEN__")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -fPIC -D__TIZEN__ -Wl,--no-undefined")
 SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
 
 IF("${ARCH}" STREQUAL "arm")
