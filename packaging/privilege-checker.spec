@@ -48,6 +48,14 @@ Summary:  tc-privilege-checker
 %description -n tc-privilege-checker
 Testsuit for Privilege Manager APIs
 
+%package -n privilege-verifier
+Summary:    Privilege Verification Utility
+BuildRequires: pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(glib-2.0)
+
+%description -n privilege-verifier
+The Privilege Verifier Utility provides functions to verify privilege information of packages to be installed.
+
 %prep
 %setup -q
 
@@ -130,6 +138,9 @@ mkdir -p %{buildroot}%{_datadir}/privilege-manager
 %{_bindir}/tc-privilege-manager
 %{_bindir}/tc-privilege-info
 %{_bindir}/tc-privilege-black-list
+
+%files -n privilege-verifier
+%{_bindir}/privilege-verifier
 
 %clean
 rm -rf %{buildroot}

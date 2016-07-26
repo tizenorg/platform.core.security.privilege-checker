@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <errno.h>
 
 #ifdef __TIZEN__
 #include <dlog.h>
@@ -73,7 +75,12 @@ int __initialize_db(char type, sqlite3 ** db, privilege_db_manager_package_type_
 		_LOGE("Undefined db initialize mode!");
 		return PRIVILEGE_DB_MANAGER_ERR_INVALID_TYPE;
 	}
+
 	_LOGD("DB PATH = %s", db_path);
+
+	if (access(db_path, F_OK) == -1 && errno == ENOENT)
+		return PRIVILEGE_DB_MANAGER_ERR_DB_NOENTRY;
+
 	int ret = sqlite3_open_v2(db_path, db, db_mode, NULL);
 	if (ret != SQLITE_OK) {
 		_LOGE("[DB_FAIL] Can't open database %s : %s", db_path, sqlite3_errmsg(*db));

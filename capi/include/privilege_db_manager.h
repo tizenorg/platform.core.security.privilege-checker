@@ -45,6 +45,7 @@ typedef enum {
 	PRIVILEGE_DB_MANAGER_ERR_DB_CONSTRAINT_FAIL  = 7,
 	PRIVILEGE_DB_MANAGER_ERR_DB_FULL_FAIL        = 8,
 	PRIVILEGE_DB_MANAGER_ERR_DB_UPDATE_FAIL      = 9,
+	PRIVILEGE_DB_MANAGER_ERR_DB_NOENTRY          = 1001 /* define error code to avoid conflict error code of sqlite_open */
 } privilege_db_manager_error_e;
 
 typedef enum {

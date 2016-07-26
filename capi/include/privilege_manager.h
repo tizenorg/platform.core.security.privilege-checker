@@ -51,6 +51,7 @@ typedef enum {
 typedef enum {
 	PRVMGR_PACKAGE_TYPE_WRT     =  0,
 	PRVMGR_PACKAGE_TYPE_CORE	=  1,
+	PRVMGR_PACKAGE_TYPE_MAX
 } privilege_manager_package_type_e;
 
 

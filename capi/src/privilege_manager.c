@@ -312,8 +312,9 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	/* Check black list */
 	int uid = getuid();
 	ret = privilege_db_manager_check_black_list(uid, package_type, privilege_list);
-	if (ret > 0) {
-		_LOGE("[PRVMGR_ERR_USING_BANNED_PRIVILEGE] Application manifest contains banned privilege(s) declared by DPM");
+	if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_NOENTRY)
+		_LOGE("[FAIL TO CALL FUNCTION] black list policy db cannot be found");
+	else if (ret > 0) {
 		*error_message = strdup("[PRVMGR_ERR_USING_BANNED_PRIVILEGE] Application manifest contains banned privilege(s) declared by the DPM");
 		return PRVMGR_ERR_USING_BANNED_PRIVILEGE;
 	}
@@ -321,8 +322,14 @@ int privilege_manager_verify_privilege(const char *api_version, privilege_manage
 	/* Get valid privilege list */
 	ret = privilege_db_manager_get_privilege_list(api_version, package_type, &valid_privilege_list);
 	if (ret != PRIVILEGE_DB_MANAGER_ERR_NONE) {
-		_LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
-		*error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] failed to get privilege list from DB");
+		if (ret == PRIVILEGE_DB_MANAGER_ERR_DB_NOENTRY) {
+			_LOGE("[FAIL TO CALL FUNCTION] privilege db cannot be found");
+			*error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] privilege DB not found");
+		}
+		else {
+			_LOGE("[FAIL TO CALL FUNCTION] privilege_db_manager_get_privilege_list()");
+			*error_message = strdup("[PRVMGR_ERR_INTERNAL_ERROR] failed to get privilege list from DB");
+		}
 		free(pkg_type);
 		return PRVMGR_ERR_INTERNAL_ERROR;
 	}
